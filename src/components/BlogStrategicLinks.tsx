@@ -333,44 +333,44 @@ export default function BlogStrategicLinks({ currentSlug, relatedServiceSlug }: 
   return (
     <section className="py-16 bg-slate-950 text-white border-y border-slate-800">
       <div className="container mx-auto px-4 max-w-5xl">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          <div className="lg:col-span-4">
-            <p className="text-red-500 font-black text-[10px] uppercase tracking-[0.3em] mb-4">
-              Próximo passo técnico
-            </p>
-            <h2 className="text-3xl md:text-4xl font-black uppercase italic tracking-tighter leading-none">
-              Links internos que levam para orçamento
-            </h2>
-            <p className="mt-5 text-slate-400 text-sm font-medium leading-relaxed">
-              Cada artigo direciona autoridade para uma página de custo, uma dor de regularização e uma ocupação específica. É o caminho natural entre informação técnica e contratação.
-            </p>
-          </div>
+        <div className="mb-8">
+          <p className="text-red-500 font-black text-[10px] uppercase tracking-[0.3em] mb-3">
+            Próximo passo técnico
+          </p>
+          <h2 className="text-2xl md:text-3xl font-black uppercase italic tracking-tighter leading-none">
+            Links internos que levam para orçamento
+          </h2>
+          <p className="mt-3 text-slate-400 text-sm font-medium leading-relaxed max-w-2xl">
+            Cada artigo direciona autoridade para uma página de custo, uma dor de regularização e uma ocupação específica.
+          </p>
+        </div>
 
-          <div className="lg:col-span-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-            {links.map((link) => {
-              const Icon = iconByKind[link.kind];
-              return (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="group bg-white/5 border border-white/10 hover:bg-white/10 hover:border-red-500/60 rounded-2xl p-5 flex items-start gap-4 transition-all"
-                >
-                  <span className="w-11 h-11 rounded-xl bg-red-600/15 text-red-500 flex items-center justify-center shrink-0">
-                    <Icon className="w-5 h-5" />
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {links.map((link) => {
+            const Icon = iconByKind[link.kind];
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="group bg-white/5 border border-white/10 hover:bg-white/10 hover:border-red-500/60 rounded-2xl p-5 flex flex-col gap-3 transition-all"
+              >
+                <span className="w-10 h-10 rounded-xl bg-red-600/15 text-red-500 flex items-center justify-center shrink-0">
+                  <Icon className="w-5 h-5" />
+                </span>
+                <div className="flex-1">
+                  <span className="block text-white font-black uppercase italic tracking-tight leading-snug text-sm">
+                    {link.label}
                   </span>
-                  <div className="flex-1 min-w-0">
-                    <span className="block text-white font-black uppercase italic tracking-tight leading-tight">
-                      {link.label}
-                    </span>
-                    <span className="block mt-2 text-sm text-slate-400 font-medium leading-relaxed">
-                      {link.context}
-                    </span>
-                  </div>
-                  <ArrowRight className="w-4 h-4 mt-1 text-white/40 group-hover:text-white group-hover:translate-x-1 transition-all shrink-0" />
-                </Link>
-              );
-            })}
-          </div>
+                  <span className="block mt-2 text-xs text-slate-400 font-medium leading-relaxed">
+                    {link.context}
+                  </span>
+                </div>
+                <div className="flex items-center gap-1 text-red-500 text-xs font-bold uppercase tracking-wide group-hover:gap-2 transition-all">
+                  Ver mais <ArrowRight className="w-3 h-3" />
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </div>
     </section>
