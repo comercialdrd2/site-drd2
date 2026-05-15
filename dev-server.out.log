@@ -1,0 +1,592 @@
+
+> drd2-engenharia@1.0.0 dev
+> next dev -p 3000
+
+  ▲ Next.js 14.2.4
+  - Local:        http://localhost:3000
+  - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 2.3s
+ ○ Compiling /blog ...
+ ✓ Compiled /avcb-sao-paulo in 11s (665 modules)
+ GET /blog/quanto-custa-avcb-em-sao-paulo 200 in 9790ms
+ GET /avcb-sao-paulo 200 in 8443ms
+ GET /blog 200 in 11695ms
+ ✓ Compiled /sitemap.xml in 302ms (59 modules)
+ GET /sitemap.xml 200 in 690ms
+ ○ Compiling /alarme-de-incendio-escola-faculdade-sp ...
+ ✓ Compiled /alarme-de-incendio-escola-faculdade-sp in 900ms (709 modules)
+ GET /alarme-de-incendio-escola-faculdade-sp 200 in 1474ms
+ GET /alarme-de-incendio-galpao-industrial-sp 200 in 1483ms
+ GET / 200 in 1520ms
+ GET /alarme-de-incendio-comercial-escritorio-sp 200 in 1519ms
+ ○ Compiling /alarme-de-incendio-para-condominio-sao-paulo ...
+ ✓ Compiled /alarme-de-incendio-para-condominio-sao-paulo in 1052ms (733 modules)
+ GET /alarme-incendio-centro-distribuicao-sp 200 in 1440ms
+ GET /alarme-de-incendio-hospital-clinica-sp 200 in 1459ms
+ GET /alarme-incendio-obrigatorio-avcb-sp 200 in 1474ms
+ GET /alarme-de-incendio-para-condominio-sao-paulo 200 in 1494ms
+ ○ Compiling /alvara-bombeiro-bar-restaurante-sao-paulo ...
+ ✓ Compiled /alvara-bombeiro-bar-restaurante-sao-paulo in 1773ms (770 modules)
+ GET /alvara-bombeiro-academia-sao-paulo 200 in 2193ms
+ GET /alvara-bombeiro-bar-restaurante-sao-paulo 200 in 2203ms
+ GET /alarme-incendio-sao-paulo 200 in 2222ms
+ GET /alarme-incendio-supermercado-avcb-sp 200 in 2228ms
+ ○ Compiling /alvara-bombeiro-consultorio-medico-sao-paulo ...
+ ✓ Compiled /alvara-bombeiro-consultorio-medico-sao-paulo in 1300ms (768 modules)
+ GET /alvara-bombeiro-casa-de-repouso-sao-paulo 200 in 1694ms
+ GET /alvara-bombeiro-condominio-sao-paulo 200 in 1694ms
+ GET /alvara-bombeiro-casa-noturna-boate-sao-paulo 200 in 1706ms
+ GET /alvara-bombeiro-consultorio-medico-sao-paulo 200 in 1702ms
+ ○ Compiling /alvara-bombeiro-escola-faculdade-sao-paulo ...
+ ✓ Compiled /alvara-bombeiro-escola-faculdade-sao-paulo in 1222ms (780 modules)
+ GET /alvara-bombeiro-escritorio-sao-paulo 200 in 1682ms
+ GET /alvara-bombeiro-farmacia-drogaria-sao-paulo 200 in 1714ms
+ GET /alvara-bombeiro-escola-faculdade-sao-paulo 200 in 1731ms
+ GET /alvara-bombeiro-creche-sao-paulo 200 in 1746ms
+ ○ Compiling /alvara-bombeiro-hospital-clinica-sao-paulo ...
+ ✓ Compiled /alvara-bombeiro-hospital-clinica-sao-paulo in 1101ms (792 modules)
+ GET /alvara-bombeiro-hotel-pousada-sao-paulo 200 in 1480ms
+ GET /alvara-bombeiro-hostel-sao-paulo 200 in 1507ms
+ GET /alvara-bombeiro-galpao-industrial-sao-paulo 200 in 1521ms
+ GET /alvara-bombeiro-hospital-clinica-sao-paulo 200 in 1526ms
+ ○ Compiling /alvara-bombeiro-posto-combustivel-sao-paulo ...
+ ✓ Compiled /alvara-bombeiro-posto-combustivel-sao-paulo in 1213ms (804 modules)
+ GET /alvara-bombeiro-posto-combustivel-sao-paulo 200 in 1635ms
+ GET /alvara-bombeiro-motel-sao-paulo 200 in 1648ms
+ GET /alvara-bombeiro-igreja-sao-paulo 200 in 1656ms
+ GET /alvara-bombeiro-padaria-sao-paulo 200 in 1655ms
+ ○ Compiling /alvara-bombeiro-shopping-sao-paulo ...
+ ✓ Compiled /alvara-bombeiro-shopping-sao-paulo in 1272ms (816 modules)
+ GET /alvara-bombeiro-shopping-sao-paulo 200 in 1705ms
+ GET /alvara-bombeiro-supermercado-sao-paulo 200 in 1724ms
+ GET /alvara-bombeiro-salao-de-festas-sao-paulo 200 in 1741ms
+ GET /alvara-bombeiro-pousada-sao-paulo 200 in 1748ms
+ ○ Compiling /avcb-bares-restaurantes-sao-paulo ...
+ ✓ Compiled /avcb-bares-restaurantes-sao-paulo in 1520ms (842 modules)
+ GET /avcb-aricanduva 200 in 1939ms
+ GET /avcb-bares-restaurantes-sao-paulo 200 in 1946ms
+ GET /avcb-analia-franco 200 in 1960ms
+ GET /avcb-alphaville-barueri 200 in 1965ms
+ ○ Compiling /avcb-barueri-alphaville ...
+ ✓ Compiled /avcb-barueri-alphaville in 1728ms (858 modules)
+ GET /avcb-brooklin 200 in 2142ms
+ GET /avcb-bela-vista 200 in 2187ms
+ GET /avcb-barueri-alphaville 200 in 2194ms
+ GET /avcb-barra-funda 200 in 2203ms
+ ○ Compiling /avcb-campinas ...
+ ✓ Compiled /avcb-campinas in 1871ms (876 modules)
+ GET /avcb-campinas-cambui 200 in 2179ms
+ GET /avcb-campinas-barao-geraldo 200 in 2203ms
+ GET /avcb-butanta 200 in 2212ms
+ GET /avcb-campinas 200 in 2215ms
+ ○ Compiling /avcb-campinas-guanabara ...
+ ✓ Compiled /avcb-campinas-guanabara in 2.2s (884 modules)
+ GET /avcb-campinas-mansoes-santo-antonio 200 in 2627ms
+ GET /avcb-campinas-guanabara 200 in 2630ms
+ GET /avcb-campinas-centro 200 in 2646ms
+ GET /avcb-campinas-castelo 200 in 2656ms
+ ○ Compiling /avcb-casa-verde ...
+ ✓ Compiled /avcb-casa-verde in 2.3s (892 modules)
+ GET /avcb-campo-belo 200 in 2751ms
+ GET /avcb-carrao 200 in 2763ms
+ GET /avcb-campinas-taquaral 200 in 2784ms
+ GET /avcb-casa-verde 200 in 2793ms
+ ○ Compiling /avcb-comercial-escritorio-sao-paulo ...
+ ✓ Compiled /avcb-comercial-escritorio-sao-paulo in 2.2s (906 modules)
+ GET /avcb-centro-bela-vista 200 in 2723ms
+ GET /avcb-casas-noturnas-boates-sao-paulo 200 in 2731ms
+ GET /avcb-centro-sao-paulo 200 in 2728ms
+ GET /avcb-comercial-escritorio-sao-paulo 200 in 2731ms
+ ○ Compiling /avcb-consultorios-medicos-odontologicos-sao-paulo ...
+ ✓ Compiled /avcb-consultorios-medicos-odontologicos-sao-paulo in 2.1s (923 modules)
+ GET /avcb-diadema 200 in 2435ms
+ GET /avcb-consultorios-medicos-odontologicos-sao-paulo 200 in 2488ms
+ GET /avcb-condominio-sao-paulo 200 in 2511ms
+ GET /avcb-consolacao 200 in 2515ms
+ ○ Compiling /avcb-galpao-industrial-sao-paulo ...
+ ✓ Compiled /avcb-galpao-industrial-sao-paulo in 1737ms (936 modules)
+ GET /avcb-farmacia-drogaria-sao-paulo 200 in 2091ms
+ GET /avcb-escola-faculdade-sao-paulo 200 in 2129ms
+ GET /avcb-galpao-industrial-sao-paulo 200 in 2120ms
+ GET /avcb-freguesia-do-o 200 in 2125ms
+ ○ Compiling /avcb-guarulhos-bonsucesso ...
+ ✓ Compiled /avcb-guarulhos-bonsucesso in 1767ms (945 modules)
+ GET /avcb-guarulhos-aeroporto 200 in 2040ms
+ GET /avcb-guarulhos-centro 200 in 2037ms
+ GET /avcb-guarulhos 200 in 2050ms
+ GET /avcb-guarulhos-bonsucesso 200 in 2047ms
+ ○ Compiling /avcb-guarulhos-vila-augusta ...
+ ✓ Compiled /avcb-guarulhos-vila-augusta in 1910ms (953 modules)
+ GET /avcb-guarulhos-vila-augusta 200 in 2169ms
+ GET /avcb-guarulhos-maia 200 in 2198ms
+ GET /avcb-guarulhos-pimentas 200 in 2202ms
+ GET /avcb-guarulhos-macedo 200 in 2206ms
+ ○ Compiling /avcb-hospital-clinica-sao-paulo ...
+ ✓ Compiled /avcb-hospital-clinica-sao-paulo in 2s (968 modules)
+ GET /avcb-hostel-sao-paulo 200 in 2320ms
+ GET /avcb-hoteis-pousadas-sao-paulo 200 in 2341ms
+ GET /avcb-higienopolis 200 in 2353ms
+ GET /avcb-hospital-clinica-sao-paulo 200 in 2357ms
+ ○ Compiling /avcb-itaquera ...
+ ✓ Compiled /avcb-itaquera in 2.7s (977 modules)
+ GET /avcb-itaim-bibi 200 in 3281ms
+ GET /avcb-jabaquara 200 in 3282ms
+ GET /avcb-ipiranga 200 in 3297ms
+ GET /avcb-itaquera 200 in 3293ms
+ ○ Compiling /avcb-limao ...
+ ✓ Compiled /avcb-limao in 3.5s (987 modules)
+ GET /avcb-lapa 200 in 4111ms
+ GET /avcb-liberdade 200 in 4124ms
+ GET /avcb-limao 200 in 4135ms
+ GET /avcb-jacana 200 in 4148ms
+ ○ Compiling /avcb-morumbi ...
+ ✓ Compiled /avcb-morumbi in 3.1s (996 modules)
+ GET /avcb-mooca 200 in 3512ms
+ GET /avcb-morumbi 200 in 3510ms
+ GET /avcb-moema 200 in 3539ms
+ GET /avcb-maua 200 in 3547ms
+ ○ Compiling /avcb-para-casa-de-repouso-sao-paulo ...
+ ✓ Compiled /avcb-para-casa-de-repouso-sao-paulo in 3.8s (1012 modules)
+ GET /avcb-osasco 200 in 4454ms
+ GET /avcb-para-academia-sao-paulo 200 in 4462ms
+ GET /avcb-para-casa-de-repouso-sao-paulo 200 in 4467ms
+ GET /avcb-motel-sao-paulo 200 in 4487ms
+ ○ Compiling /avcb-para-creche-sao-paulo ...
+ ✓ Compiled /avcb-para-creche-sao-paulo in 3.6s (1028 modules)
+ GET /avcb-para-condominio-sao-paulo 200 in 4189ms
+ GET /avcb-para-escritorio-sao-paulo 200 in 4180ms
+ GET /avcb-para-creche-sao-paulo 200 in 4204ms
+ GET /avcb-para-escola-sao-paulo 200 in 4202ms
+ ○ Compiling /avcb-para-padaria-sao-paulo ...
+ ✓ Compiled /avcb-para-padaria-sao-paulo in 7.6s (1043 modules)
+ GET /avcb-para-igreja-sao-paulo 200 in 8017ms
+ GET /avcb-para-shopping-sao-paulo 200 in 8021ms
+ GET /avcb-para-padaria-sao-paulo 200 in 8026ms
+ GET /avcb-paraiso 200 in 8020ms
+ ○ Compiling /avcb-posto-combustivel-sao-paulo ...
+ ✓ Compiled /avcb-posto-combustivel-sao-paulo in 3.9s (1068 modules)
+ GET /avcb-perdizes 200 in 4490ms
+ GET /avcb-pinheiros 200 in 4538ms
+ GET /avcb-posto-combustivel-sao-paulo 200 in 4540ms
+ GET /avcb-penha 200 in 4554ms
+ ○ Compiling /avcb-restaurante-sao-paulo ...
+ ✓ Compiled /avcb-restaurante-sao-paulo in 3.5s (1085 modules)
+ GET /avcb-sacoma 200 in 4014ms
+ GET /avcb-republica 200 in 4033ms
+ GET /avcb-restaurante-sao-paulo 200 in 4028ms
+ GET /avcb-pousada-sao-paulo 200 in 4044ms
+ ○ Compiling /avcb-santo-andre ...
+ ✓ Compiled /avcb-santo-andre in 4.1s (1101 modules)
+ GET /avcb-santo-amaro 200 in 4599ms
+ GET /avcb-santana 200 in 4609ms
+ GET /avcb-santo-andre 200 in 4610ms
+ GET /avcb-salao-de-festas-sao-paulo 200 in 4626ms
+ ○ Compiling /avcb-santos-centro ...
+ ✓ Compiled /avcb-santos-centro in 5.5s (921 modules)
+ GET /avcb-santos-aparecida 200 in 6541ms
+ GET /avcb-santos-boqueirao 200 in 6548ms
+ GET /avcb-santos-centro 200 in 6541ms
+ GET /avcb-santos 200 in 6557ms
+ ○ Compiling /avcb-sao-bernardo ...
+ ✓ Compiled /avcb-sao-bernardo in 2.4s (932 modules)
+ GET /avcb-santos-gonzaga 200 in 2762ms
+ GET /avcb-santos-ponta-da-praia 200 in 2768ms
+ GET /avcb-sao-bernardo 200 in 2767ms
+ GET /avcb-santos-embare 200 in 2778ms
+ ○ Compiling /avcb-sao-jose-dos-campos ...
+ ✓ Compiled /avcb-sao-jose-dos-campos in 3.8s (947 modules)
+ GET /avcb-sao-paulo 200 in 4254ms
+ GET /avcb-sapopemba 200 in 4271ms
+ GET /avcb-sao-jose-dos-campos 200 in 4285ms
+ GET /avcb-sao-caetano 200 in 4294ms
+ ○ Compiling /avcb-supermercado-sao-paulo ...
+ ✓ Compiled /avcb-supermercado-sao-paulo in 2.9s (962 modules)
+ GET /avcb-sorocaba 200 in 3325ms
+ GET /avcb-saude 200 in 3366ms
+ GET /avcb-supermercado-sao-paulo 200 in 3364ms
+ GET /avcb-se 200 in 3388ms
+ ○ Compiling /avcb-tucuruvi ...
+ ✓ Compiled /avcb-tucuruvi in 2.8s (972 modules)
+ GET /avcb-vila-madalena 200 in 3235ms
+ GET /avcb-vila-leopoldina 200 in 3259ms
+ GET /avcb-tatuape 200 in 3284ms
+ GET /avcb-tucuruvi 200 in 3286ms
+ ○ Compiling /avcb-vila-olimpia ...
+ ✓ Compiled /avcb-vila-olimpia in 3.4s (980 modules)
+ GET /avcb-vila-re 200 in 3766ms
+ GET /avcb-vila-olimpia 200 in 3801ms
+ GET /avcb-vila-prudente 200 in 3801ms
+ GET /avcb-vila-mariana 200 in 3818ms
+ ○ Compiling /avcb-zona-sul ...
+ ✓ Compiled /avcb-zona-sul in 4s (988 modules)
+ GET /avcb-zona-oeste-sao-paulo 200 in 4519ms
+ GET /avcb-zona-norte-sao-paulo 200 in 4535ms
+ GET /avcb-zona-sul 200 in 4527ms
+ GET /avcb-zona-leste-sao-paulo 200 in 4550ms
+ ○ Compiling /blog/[slug] ...
+ ✓ Compiled /blog/[slug] in 758ms (686 modules)
+ ✓ Compiled in 1091ms (307 modules)
+ GET /blog 200 in 3069ms
+ GET /blog/alarme-incendio-comercial-escritorio-obrigatorio-sp 200 in 3493ms
+ GET /blog/alarme-incendio-escola-faculdade-obrigatorio-sp 200 in 3489ms
+ GET /blog/alarme-de-incendio-condominio-it-19-2025-responsabilidade-sindico 200 in 3505ms
+ GET /blog/alarme-incendio-galpao-industrial-obrigatorio-sp 200 in 454ms
+ GET /blog/alarme-incendio-hospital-clinica-obrigatorio-sp 200 in 233ms
+ GET /blog/avcb-para-casa-de-repouso-sao-paulo 200 in 236ms
+ GET /blog/avcb-para-creche-sao-paulo 200 in 233ms
+ GET /blog/avcb-para-restaurante-em-sp-como-regularizar-em-2026 200 in 234ms
+ ○ Compiling /blog/como-funciona-vistoria-do-corpo-de-bombeiros ...
+ ✓ Compiled /blog/como-funciona-vistoria-do-corpo-de-bombeiros in 8.2s (1015 modules)
+ GET /blog/avcb-vencido-o-que-fazer-evitar-interdicao 200 in 8429ms
+ GET /blog/avcb-restaurante-sao-paulo 200 in 8435ms
+ GET /blog/avcb-vencido-o-que-fazer 200 in 8592ms
+ GET /blog/como-funciona-vistoria-do-corpo-de-bombeiros 200 in 8594ms
+ ○ Compiling /blog/diferenca-entre-avcb-e-clcb ...
+ ✓ Compiled /blog/diferenca-entre-avcb-e-clcb in 2.8s (1028 modules)
+ GET /blog/como-regularizar-condominio-corpo-de-bombeiros 200 in 3062ms
+ GET /blog/como-tirar-avcb-em-sao-paulo 200 in 3253ms
+ GET /blog/como-tirar-avcb-galpao-industrial-sp 200 in 3106ms
+ GET /blog/diferenca-entre-avcb-e-clcb 200 in 3121ms
+ GET /blog/diferenca-entre-avcb-e-clcb-em-sao-paulo 200 in 158ms
+ GET /blog/erros-aprovacao-avcb-sao-paulo 200 in 249ms
+ GET /blog/o-que-e-avcb-e-quando-ele-e-obrigatorio 200 in 253ms
+ ○ Compiling /blog/quanto-custa-avcb-em-sao-paulo ...
+ ✓ Compiled /blog/quanto-custa-avcb-em-sao-paulo in 3.8s (1050 modules)
+ GET /blog/quanto-tempo-demora-para-emitir-o-avcb-sp 200 in 4075ms
+ GET /blog/quanto-custa-avcb-sp-precos-prazos 200 in 4080ms
+ GET /blog/prazo-para-emissao-de-avcb 200 in 4385ms
+ GET /blog/quanto-custa-avcb-em-sao-paulo 200 in 4276ms
+ ○ Compiling /blog/quem-precisa-de-avcb ...
+ ✓ Compiled /blog/quem-precisa-de-avcb in 3.1s (1043 modules)
+ GET /blog/requisitos-avcb-clinica-medica-sao-paulo 200 in 3399ms
+ GET /blog/sprinkler-obrigatorio-sp 200 in 3404ms
+ GET /blog/quem-paga-o-avcb-proprietario-ou-inquilino 200 in 3633ms
+ GET /blog/quem-precisa-de-avcb 200 in 3637ms
+ ○ Compiling /brigada-incendio-hotel-sp ...
+ ✓ Compiled /brigada-incendio-hotel-sp in 3.2s (1054 modules)
+ GET /brigada-incendio-hospital-sp 200 in 3494ms
+ GET /brigada-incendio-galpao-industrial-sp 200 in 3725ms
+ GET /brigada-incendio-centro-distribuicao-sp 200 in 3731ms
+ GET /brigada-incendio-hotel-sp 200 in 3453ms
+ ○ Compiling /brigada-incendio-supermercado-sp ...
+ ✓ Compiled /brigada-incendio-supermercado-sp in 3s (1062 modules)
+ GET /brigada-incendio-shopping-sp 200 in 3258ms
+ GET /brigada-incendio-obrigatoria-avcb-sp 200 in 3282ms
+ GET /brigada-incendio-supermercado-sp 200 in 3272ms
+ GET /brigada-incendio-predio-comercial-sp 200 in 3287ms
+ ○ Compiling /empresa-avcb-sao-paulo ...
+ ✓ Compiled /empresa-avcb-sao-paulo in 3.9s (1079 modules)
+ GET /clcb-sao-paulo 200 in 4173ms
+ GET /empresa-avcb-sao-paulo 200 in 4167ms
+ GET /contato 200 in 4201ms
+ GET /curso-brigada-incendio-avcb-sp 200 in 4206ms
+ ○ Compiling /hidrante-supermercado-avcb-sp ...
+ ✓ Compiled /hidrante-supermercado-avcb-sp in 3.8s (1092 modules)
+ GET /hidrante-obrigatorio-avcb-sp 200 in 4147ms
+ GET /hidrante-centro-distribuicao-sp 200 in 4153ms
+ GET /hidrante-supermercado-avcb-sp 200 in 4151ms
+ GET /engenheiro-avcb-sao-paulo 200 in 4164ms
+ ○ Compiling /laudo-bombeiro-academia-sao-paulo ...
+ ✓ Compiled /laudo-bombeiro-academia-sao-paulo in 2s (892 modules)
+ GET /inspecao-manutencao-spda-sao-paulo 200 in 2338ms
+ GET /instalacao-spda-para-raios-sao-paulo 200 in 2346ms
+ GET /laudo-bombeiro-academia-sao-paulo 200 in 2346ms
+ GET /hidrantes 200 in 2362ms
+ ○ Compiling /laudo-bombeiro-casa-de-repouso-sao-paulo ...
+ ✓ Compiled /laudo-bombeiro-casa-de-repouso-sao-paulo in 2s (904 modules)
+ GET /laudo-bombeiro-condominio-sao-paulo 200 in 2364ms
+ GET /laudo-bombeiro-casa-de-repouso-sao-paulo 200 in 2381ms
+ GET /laudo-bombeiro-casa-noturna-boate-sao-paulo 200 in 2381ms
+ GET /laudo-bombeiro-bar-restaurante-sao-paulo 200 in 2391ms
+ ○ Compiling /laudo-bombeiro-creche-sao-paulo ...
+ ✓ Compiled /laudo-bombeiro-creche-sao-paulo in 2.1s (916 modules)
+ GET /laudo-bombeiro-escola-sao-paulo 200 in 2375ms
+ GET /laudo-bombeiro-creche-sao-paulo 200 in 2394ms
+ GET /laudo-bombeiro-consultorio-medico-sao-paulo 200 in 2399ms
+ GET /laudo-bombeiro-escola-faculdade-sao-paulo 200 in 2404ms
+ ○ Compiling /laudo-bombeiro-hospital-clinica-sao-paulo ...
+ ✓ Compiled /laudo-bombeiro-hospital-clinica-sao-paulo in 2s (928 modules)
+ GET /laudo-bombeiro-farmacia-drogaria-sao-paulo 200 in 2311ms
+ GET /laudo-bombeiro-hospital-clinica-sao-paulo 200 in 2322ms
+ GET /laudo-bombeiro-galpao-industrial-sao-paulo 200 in 2327ms
+ GET /laudo-bombeiro-escritorio-sao-paulo 200 in 2368ms
+ ○ Compiling /laudo-bombeiro-hotel-pousada-sao-paulo ...
+ ✓ Compiled /laudo-bombeiro-hotel-pousada-sao-paulo in 1932ms (940 modules)
+ GET /laudo-bombeiro-motel-sao-paulo 200 in 2226ms
+ GET /laudo-bombeiro-hotel-pousada-sao-paulo 200 in 2249ms
+ GET /laudo-bombeiro-hostel-sao-paulo 200 in 2255ms
+ GET /laudo-bombeiro-igreja-sao-paulo 200 in 2252ms
+ ○ Compiling /laudo-bombeiro-posto-combustivel-sao-paulo ...
+ ✓ Compiled /laudo-bombeiro-posto-combustivel-sao-paulo in 1815ms (900 modules)
+ GET /laudo-bombeiro-pousada-sao-paulo 200 in 2265ms
+ GET /laudo-bombeiro-restaurante-sao-paulo 200 in 2269ms
+ GET /laudo-bombeiro-padaria-sao-paulo 200 in 2280ms
+ GET /laudo-bombeiro-posto-combustivel-sao-paulo 200 in 2284ms
+ ○ Compiling /laudo-bombeiro-supermercado-sao-paulo ...
+ ✓ Compiled /laudo-bombeiro-supermercado-sao-paulo in 2.7s (915 modules)
+ GET /laudo-bombeiro-salao-de-festas-sao-paulo 200 in 3185ms
+ GET /laudo-bombeiro-shopping-sao-paulo 200 in 3216ms
+ GET /laudo-estanqueidade-gas-sao-paulo 200 in 3216ms
+ GET /laudo-bombeiro-supermercado-sao-paulo 200 in 3225ms
+ ○ Compiling /mapa-paginas ...
+ ✓ Compiled /mapa-paginas in 2.7s (934 modules)
+ GET /manutencao 200 in 3204ms
+ GET /manutencao-alarme-de-incendio-sao-paulo 200 in 3232ms
+ GET /laudo-spda-para-raios-sao-paulo 200 in 3244ms
+ GET /mapa-paginas 200 in 3243ms
+ ○ Compiling /projeto-escada-pressurizada-avcb-sao-paulo ...
+ ✓ Compiled /projeto-escada-pressurizada-avcb-sao-paulo in 2.7s (955 modules)
+ GET /projeto-combate-incendio-corpo-bombeiros-sp 200 in 2972ms
+ GET /obrigado 200 in 2985ms
+ GET /projeto-escada-pressurizada-avcb-sao-paulo 200 in 2980ms
+ GET /politica-de-privacidade 200 in 2990ms
+ ○ Compiling /projeto-incendio-edificio-comercial-sp ...
+ ✓ Compiled /projeto-incendio-edificio-comercial-sp in 2.7s (963 modules)
+ GET /projeto-incendio-galpao-industrial-avcb-sp 200 in 2899ms
+ GET /projeto-incendio-edificio-comercial-sp 200 in 2912ms
+ GET /projeto-incendio-centro-distribuicao-sp 200 in 2937ms
+ GET /projeto-incendio-hospital-sp 200 in 2924ms
+ ○ Compiling /projeto-incendio-obrigatorio-sp ...
+ ✓ Compiled /projeto-incendio-obrigatorio-sp in 2.7s (971 modules)
+ GET /projeto-incendio-hotel-sp 200 in 2975ms
+ GET /projeto-incendio-industria-quimica-sp 200 in 2996ms
+ GET /projeto-incendio-obrigatorio-sp 200 in 2990ms
+ GET /projeto-incendio-para-avcb-sp 200 in 2994ms
+ ○ Compiling /projeto-pet ...
+ ✓ Compiled /projeto-pet in 2.7s (982 modules)
+ GET /projeto-spda-para-raios-sao-paulo 200 in 2976ms
+ GET /projeto-incendio-shopping-center-sp 200 in 2995ms
+ GET /projeto-incendio-supermercado-sp 200 in 2997ms
+ GET /projeto-pet 200 in 2993ms
+ ○ Compiling /quanto-custa-avcb-sao-paulo ...
+ ✓ Compiled /quanto-custa-avcb-sao-paulo in 2.3s (994 modules)
+ GET /quanto-custa-projeto-incendio-sp 200 in 2511ms
+ GET /quanto-custa-brigada-incendio-sp 200 in 2532ms
+ GET /projetos-incendio 200 in 2542ms
+ GET /quanto-custa-avcb-sao-paulo 200 in 2547ms
+ ○ Compiling /quanto-custa-spda-para-raios-sao-paulo ...
+ ✓ Compiled /quanto-custa-spda-para-raios-sao-paulo in 2.2s (1005 modules)
+ GET /quanto-custa-sistema-sprinkler-sp 200 in 2449ms
+ GET /quanto-custa-sistema-hidrante-sp 200 in 2468ms
+ GET /quanto-custa-spda-para-raios-sao-paulo 200 in 2466ms
+ GET /quanto-custa-sistema-alarme-incendio-sp 200 in 2476ms
+ ○ Compiling /renovacao-avcb ...
+ ✓ Compiled /renovacao-avcb in 2.5s (1018 modules)
+ GET /reciclagem-brigada-incendio-sp 200 in 2773ms
+ GET /renovacao-avcb-academia-sao-paulo 200 in 2775ms
+ GET /renovacao-avcb-analia-franco 200 in 2777ms
+ GET /renovacao-avcb 200 in 2795ms
+ ○ Compiling /renovacao-avcb-campinas ...
+ ✓ Compiled /renovacao-avcb-campinas in 2.5s (1030 modules)
+ GET /renovacao-avcb-barra-funda 200 in 2826ms
+ GET /renovacao-avcb-campinas 200 in 2841ms
+ GET /renovacao-avcb-bares-restaurantes-sao-paulo 200 in 2876ms
+ GET /renovacao-avcb-aricanduva 200 in 2879ms
+ ○ Compiling /renovacao-avcb-casa-noturna-boate-sao-paulo ...
+ ✓ Compiled /renovacao-avcb-casa-noturna-boate-sao-paulo in 3.2s (1044 modules)
+ GET /renovacao-avcb-casa-verde 200 in 3468ms
+ GET /renovacao-avcb-casa-de-repouso-sao-paulo 200 in 3482ms
+ GET /renovacao-avcb-carrao 200 in 3516ms
+ GET /renovacao-avcb-casa-noturna-boate-sao-paulo 200 in 3511ms
+ ○ Compiling /renovacao-avcb-condominio-bela-vista ...
+ ✓ Compiled /renovacao-avcb-condominio-bela-vista in 3.4s (1053 modules)
+ GET /renovacao-avcb-condominio-altos-de-santana 200 in 3677ms
+ GET /renovacao-avcb-condominio-analia-franco 200 in 3673ms
+ GET /renovacao-avcb-condominio-agua-branca 200 in 3689ms
+ GET /renovacao-avcb-condominio-bela-vista 200 in 3686ms
+ ○ Compiling /renovacao-avcb-condominio-chacara-santo-antonio ...
+ ✓ Compiled /renovacao-avcb-condominio-chacara-santo-antonio in 3.5s (1061 modules)
+ GET /renovacao-avcb-condominio-chacara-klabin 200 in 3816ms
+ GET /renovacao-avcb-condominio-brooklin 200 in 3851ms
+ GET /renovacao-avcb-condominio-chacara-santo-antonio 200 in 3848ms
+ GET /renovacao-avcb-condominio-campo-belo 200 in 3876ms
+ ○ Compiling /renovacao-avcb-condominio-ipiranga ...
+ ✓ Compiled /renovacao-avcb-condominio-ipiranga in 3.5s (966 modules)
+ GET /renovacao-avcb-condominio-cidade-moncoes 200 in 3918ms
+ GET /renovacao-avcb-condominio-consolacao 200 in 3970ms
+ GET /renovacao-avcb-condominio-higienopolis 200 in 3965ms
+ GET /renovacao-avcb-condominio-ipiranga 200 in 3972ms
+ ○ Compiling /renovacao-avcb-condominio-lapa ...
+ ✓ Compiled /renovacao-avcb-condominio-lapa in 2.9s (974 modules)
+ GET /renovacao-avcb-condominio-jabaquara 200 in 3265ms
+ GET /renovacao-avcb-condominio-itaim-bibi 200 in 3273ms
+ GET /renovacao-avcb-condominio-jardins 200 in 3285ms
+ GET /renovacao-avcb-condominio-lapa 200 in 3289ms
+ ○ Compiling /renovacao-avcb-condominio-mooca ...
+ ✓ Compiled /renovacao-avcb-condominio-mooca in 2.8s (982 modules)
+ GET /renovacao-avcb-condominio-moema-indios 200 in 3025ms
+ GET /renovacao-avcb-condominio-moema-passaros 200 in 3019ms
+ GET /renovacao-avcb-condominio-moema 200 in 3032ms
+ GET /renovacao-avcb-condominio-mooca 200 in 3025ms
+ ○ Compiling /renovacao-avcb-condominio-santana ...
+ ✓ Compiled /renovacao-avcb-condominio-santana in 2.9s (990 modules)
+ GET /renovacao-avcb-condominio-perdizes 200 in 3228ms
+ GET /renovacao-avcb-condominio-pinheiros 200 in 3250ms
+ GET /renovacao-avcb-condominio-santana 200 in 3250ms
+ GET /renovacao-avcb-condominio-morumbi 200 in 3277ms
+ ○ Compiling /renovacao-avcb-condominio-sao-paulo ...
+ ✓ Compiled /renovacao-avcb-condominio-sao-paulo in 2.7s (1001 modules)
+ GET /renovacao-avcb-condominio-tatuape 200 in 2965ms
+ GET /renovacao-avcb-condominio-sao-paulo 200 in 2982ms
+ GET /renovacao-avcb-condominio-saude 200 in 2997ms
+ GET /renovacao-avcb-condominio-santo-amaro 200 in 3007ms
+ ○ Compiling /renovacao-avcb-condominio-vila-clementino ...
+ ✓ Compiled /renovacao-avcb-condominio-vila-clementino in 2.8s (1009 modules)
+ GET /renovacao-avcb-condominio-vila-ipojuca 200 in 3097ms
+ GET /renovacao-avcb-condominio-tucuruvi 200 in 3111ms
+ GET /renovacao-avcb-condominio-vila-andrade 200 in 3139ms
+ GET /renovacao-avcb-condominio-vila-clementino 200 in 3140ms
+ ○ Compiling /renovacao-avcb-condominio-vila-olimpia ...
+ ✓ Compiled /renovacao-avcb-condominio-vila-olimpia in 3.5s (1017 modules)
+ GET /renovacao-avcb-condominio-vila-nova-conceicao 200 in 3860ms
+ GET /renovacao-avcb-condominio-vila-mariana 200 in 3875ms
+ GET /renovacao-avcb-condominio-vila-olimpia 200 in 3869ms
+ GET /renovacao-avcb-condominio-vila-leopoldina 200 in 3888ms
+ ○ Compiling /renovacao-avcb-creche-sao-paulo ...
+ ✓ Compiled /renovacao-avcb-creche-sao-paulo in 3.7s (1027 modules)
+ GET /renovacao-avcb-creche-sao-paulo 200 in 4097ms
+ GET /renovacao-avcb-condominio-vila-prudente 200 in 4138ms
+ GET /renovacao-avcb-consolacao 200 in 4144ms
+ GET /renovacao-avcb-consultorio-medico-sao-paulo 200 in 4149ms
+ ○ Compiling /renovacao-avcb-farmacia-drogaria-sao-paulo ...
+ ✓ Compiled /renovacao-avcb-farmacia-drogaria-sao-paulo in 4.1s (1040 modules)
+ GET /renovacao-avcb-escritorio-sao-paulo 200 in 4490ms
+ GET /renovacao-avcb-farmacia-drogaria-sao-paulo 200 in 4497ms
+ GET /renovacao-avcb-escola-sao-paulo 200 in 4515ms
+ GET /renovacao-avcb-diadema 200 in 4522ms
+ ○ Compiling /renovacao-avcb-hospital-clinica-sao-paulo ...
+ ✓ Compiled /renovacao-avcb-hospital-clinica-sao-paulo in 4s (1053 modules)
+ GET /renovacao-avcb-galpao-industrial-sao-paulo 200 in 4330ms
+ GET /renovacao-avcb-hospital-clinica-sao-paulo 200 in 4338ms
+ GET /renovacao-avcb-freguesia-do-o 200 in 4353ms
+ GET /renovacao-avcb-higienopolis 200 in 4357ms
+ ○ Compiling /renovacao-avcb-hotel-sao-paulo ...
+ ✓ Compiled /renovacao-avcb-hotel-sao-paulo in 3.9s (1069 modules)
+ GET /renovacao-avcb-hostel-sao-paulo 200 in 4305ms
+ GET /renovacao-avcb-hotel-sao-paulo 200 in 4327ms
+ GET /renovacao-avcb-igreja-sao-paulo 200 in 4327ms
+ GET /renovacao-avcb-ipiranga 200 in 4328ms
+ ○ Compiling /renovacao-avcb-liberdade ...
+ ✓ Compiled /renovacao-avcb-liberdade in 3.5s (1077 modules)
+ GET /renovacao-avcb-jabaquara 200 in 3840ms
+ GET /renovacao-avcb-jacana 200 in 3837ms
+ GET /renovacao-avcb-itaquera 200 in 3870ms
+ GET /renovacao-avcb-liberdade 200 in 3865ms
+ ○ Compiling /renovacao-avcb-motel-sao-paulo ...
+ ✓ Compiled /renovacao-avcb-motel-sao-paulo in 3.8s (1088 modules)
+ GET /renovacao-avcb-morumbi 200 in 4160ms
+ GET /renovacao-avcb-motel-sao-paulo 200 in 4158ms
+ GET /renovacao-avcb-padaria-sao-paulo 200 in 4163ms
+ GET /renovacao-avcb-limao 200 in 4180ms
+ ○ Compiling /renovacao-avcb-pousada-sao-paulo ...
+ ✓ Compiled /renovacao-avcb-pousada-sao-paulo in 15.5s (1098 modules)
+ GET /renovacao-avcb-pousada-sao-paulo 200 in 15939ms
+ GET /renovacao-avcb-posto-combustivel-sao-paulo 200 in 15954ms
+ GET /renovacao-avcb-paraiso 200 in 15999ms
+ GET /renovacao-avcb-penha 200 in 16005ms
+ ○ Compiling /renovacao-avcb-restaurante-sao-paulo ...
+ ✓ Compiled /renovacao-avcb-restaurante-sao-paulo in 5.3s (1113 modules)
+ GET /renovacao-avcb-salao-de-festas-sao-paulo 200 in 5710ms
+ GET /renovacao-avcb-restaurante-vila-madalena 200 in 5730ms
+ GET /renovacao-avcb-restaurante-sao-paulo 200 in 5744ms
+ GET /renovacao-avcb-restaurante-pinheiros 200 in 5749ms
+ ○ Compiling /renovacao-avcb-sao-jose-dos-campos ...
+ ✓ Compiled /renovacao-avcb-sao-jose-dos-campos in 3.9s (1121 modules)
+ GET /renovacao-avcb-santos 200 in 4288ms
+ GET /renovacao-avcb-sapopemba 200 in 4287ms
+ GET /renovacao-avcb-sao-jose-dos-campos 200 in 4293ms
+ GET /renovacao-avcb-santana 200 in 4306ms
+ ○ Compiling /renovacao-avcb-shopping-sao-paulo ...
+ ✓ Compiled /renovacao-avcb-shopping-sao-paulo in 4.3s (1130 modules)
+ GET /renovacao-avcb-shopping-sao-paulo 200 in 4689ms
+ GET /renovacao-avcb-se 200 in 4718ms
+ GET /renovacao-avcb-saude 200 in 4723ms
+ GET /renovacao-avcb-sorocaba 200 in 4719ms
+ ○ Compiling /renovacao-avcb-vila-leopoldina ...
+ ✓ Compiled /renovacao-avcb-vila-leopoldina in 6.9s (1140 modules)
+ GET /renovacao-avcb-tucuruvi 200 in 7327ms
+ GET /renovacao-avcb-vila-madalena 200 in 7325ms
+ GET /renovacao-avcb-vila-leopoldina 200 in 7361ms
+ GET /renovacao-avcb-supermercado-sao-paulo 200 in 7374ms
+ ○ Compiling /servicos ...
+ ✓ Compiled /servicos in 6.7s (1162 modules)
+ GET /renovacao-avcb-vila-re 200 in 7116ms
+ GET /sistema-alarme-incendio-edificio-comercial-sp 200 in 7130ms
+ GET /servicos 200 in 7138ms
+ GET /renovacao-avcb-vila-prudente 200 in 7151ms
+ ○ Compiling /sistema-alarme-incendio-industria-quimica-sp ...
+ ✓ Compiled /sistema-alarme-incendio-industria-quimica-sp in 4.8s (1170 modules)
+ GET /sistema-alarme-incendio-hotel-avcb-sp 200 in 5085ms
+ GET /sistema-alarme-incendio-hospital-avcb-sp 200 in 5118ms
+ GET /sistema-alarme-incendio-industria-quimica-sp 200 in 5114ms
+ GET /sistema-alarme-incendio-galpao-industrial-avcb-sp 200 in 5149ms
+ ○ Compiling /sistema-de-hidrantes-para-industria-sao-paulo ...
+ ✓ Compiled /sistema-de-hidrantes-para-industria-sao-paulo in 5.5s (1181 modules)
+ GET /sistema-de-hidrantes-para-galpao-sao-paulo 200 in 5754ms
+ GET /sistema-de-hidrantes-para-industria-sao-paulo 200 in 5791ms
+ GET /sistema-alarme-incendio-shopping-center-sp 200 in 5824ms
+ GET /sistema-de-hidrantes-para-condominio-sao-paulo 200 in 5822ms
+ ○ Compiling /sistema-hidrante-edificio-comercial-sp ...
+ ✓ Compiled /sistema-hidrante-edificio-comercial-sp in 4.5s (1192 modules)
+ GET /sistema-hidrante-edificio-residencial-avcb-sp 200 in 4869ms
+ GET /sistema-de-sprinkler-para-industria-sao-paulo 200 in 4886ms
+ GET /sistema-hidrante-edificio-comercial-sp 200 in 4880ms
+ GET /sistema-de-sprinkler-para-condominio-sao-paulo 200 in 4900ms
+ ○ Compiling /sistema-hidrante-industria-quimica-sp ...
+ ✓ Compiled /sistema-hidrante-industria-quimica-sp in 5.6s (1200 modules)
+ GET /sistema-hidrante-hospital-avcb-sp 200 in 5951ms
+ GET /sistema-hidrante-galpao-industrial-avcb-sp 200 in 5978ms
+ GET /sistema-hidrante-hotel-avcb-sp 200 in 5981ms
+ GET /sistema-hidrante-industria-quimica-sp 200 in 5981ms
+ ○ Compiling /sistema-sprinkler-galpao-industrial-avcb-sp ...
+ ✓ Compiled /sistema-sprinkler-galpao-industrial-avcb-sp in 6.3s (1208 modules)
+ GET /sistema-hidrante-shopping-center-sp 200 in 6638ms
+ GET /sistema-sprinkler-galpao-industrial-avcb-sp 200 in 6666ms
+ GET /sistema-sprinkler-edificio-comercial-sp 200 in 6671ms
+ GET /sistema-sprinkler-hospital-avcb-sp 200 in 6665ms
+ ○ Compiling /sobre ...
+ ✓ Compiled /sobre in 6.4s (1218 modules)
+ GET /sistema-sprinkler-industria-quimica-sp 200 in 7249ms
+ GET /sistema-sprinkler-shopping-center-sp 200 in 7847ms
+ GET /sobre 200 in 7854ms
+ GET /sistema-sprinkler-hotel-avcb-sp 200 in 7879ms
+ ○ Compiling /sprinkler-obrigatorio-avcb-sp ...
+ ✓ Compiled /sprinkler-obrigatorio-avcb-sp in 8.5s (1227 modules)
+ GET /sprinkler-centro-distribuicao-sp 200 in 8988ms
+ GET /sprinkler-obrigatorio-avcb-sp 200 in 8981ms
+ GET /spda 200 in 9032ms
+ GET /spda-para-raios-sao-paulo 200 in 9034ms
+ ○ Compiling /sprinklers ...
+ ✓ Compiled /sprinklers in 3s (812 modules)
+ GET /treinamento-brigada-incendio-sp 200 in 3466ms
+ GET /treinamento-brigada 200 in 3483ms
+ GET /sprinkler-supermercado-avcb-sp 200 in 3511ms
+ GET /sprinklers 200 in 3515ms
+ ○ Compiling /avcb-sao-paulo ...
+ ✓ Compiled /avcb-sao-paulo in 565ms (377 modules)
+ GET /avcb-sao-paulo 200 in 962ms
+ ○ Compiling /robots.txt ...
+ ✓ Compiled /robots.txt in 1197ms (384 modules)
+ GET /robots.txt 200 in 1262ms
+ GET /avcb-sao-paulo 200 in 250ms
+ GET /avcb-sao-paulo 200 in 118ms
+ GET /robots.txt 200 in 14ms
+ GET /avcb-sao-paulo 200 in 82ms
+ GET /avcb-sao-paulo 200 in 122ms
+ GET /robots.txt 200 in 20ms
+ GET /avcb-sao-paulo 200 in 96ms
+ GET /avcb-sao-paulo 200 in 101ms
+ GET /robots.txt 200 in 15ms
+ GET /avcb-sao-paulo 200 in 96ms
+ ○ Compiling /blog/quanto-custa-avcb-em-sao-paulo ...
+ ✓ Compiled /blog/quanto-custa-avcb-em-sao-paulo in 612ms (396 modules)
+ GET /blog/quanto-custa-avcb-em-sao-paulo 200 in 849ms
+ ○ Compiling /avcb-condominio-sao-paulo ...
+ ✓ Compiled /avcb-condominio-sao-paulo in 1362ms (414 modules)
+ GET /avcb-condominio-sao-paulo 200 in 1670ms
+ GET /robots.txt 200 in 51ms
+ GET /robots.txt 200 in 17ms
+ GET /blog/quanto-custa-avcb-em-sao-paulo 200 in 92ms
+ GET /avcb-condominio-sao-paulo 200 in 242ms

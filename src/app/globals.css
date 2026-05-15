@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: 192 57 43; /* #C0392B */
+    --secondary: 44 62 80; /* #2C3E50 */
+    --background: 255 255 255; /* #FFFFFF */
+    --foreground: 17 24 39;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgb(var(--foreground));
+  background: rgb(var(--background));
+}
+
+/* Custom styles for utility if needed */
+
+@keyframes alert-pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 10px rgba(220, 38, 38, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0);
+  }
+}
+
+.animate-alert-pulse {
+  animation: alert-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.02);
+    opacity: 0.95;
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 3s ease-in-out infinite;
+}
+
+@keyframes pulse-whatsapp {
+  0%   { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+  70%  { box-shadow: 0 0 0 14px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+
+.cta-whatsapp {
+  background-color: #25D366;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius: 6px;
+  animation: pulse-whatsapp 2s infinite;
+  cursor: pointer;
+  border: none;
+}
+
+.cta-whatsapp:hover {
+  opacity: 0.9;
+}
+
+/* Global style for H2 sections content marker */
+@layer components {
+  section h2 {
+    border-left: 4px solid #DC2626; /* Red 600 */
+    padding-left: 1rem;
+  }
+  
+  /* Remove border for specific non-content headers if needed */
+  section .no-border h2,
+  section h2.no-border,
+  .hero-section h2 {
+    border-left: none;
+    padding-left: 0;
+  }
+}

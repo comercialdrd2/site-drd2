@@ -1,0 +1,22 @@
+<USER_REQUEST>
+ocê vai implementar uma página no Next.js 14 com App Router. Antes de começar leia com atenção todas as regras abaixo:
+
+REGRA ABSOLUTA — NÃO NEGOCIÁVEL
+Todo o texto que está no documento abaixo deve ser implementado 100% na íntegra no código.
+Isso significa:
+
+❌ Não resumir nenhum parágrafo
+❌ Não juntar dois parágrafos em um
+❌ Não cortar frases para "simplificar"
+❌ Não remover nenhum item de lista
+❌ Não remover nenhuma pergunta do FAQ
+❌ Não reescrever nenhuma frase com palavras diferentes
+❌ Não remover nenhum CTA intermediário do texto
+❌ Não remover nenhum H2 ou H3
+❌ Não omitir nenhuma seção por achar que é repetitiva
+❌ Não cortar conteúdo por achar que a página ficou longa demais
+
+O conteúdo foi elaborado por especialista em SEO. Cada palavra, cada parágrafo e cada seção existe por um motivo técnico de ranqueamento. Qualquer corte compromete diretamente a posição no Google e a captação de leads.
+
+O QUE VOCÊ DEVE FAZER:
+<truncated 11266 bytes>

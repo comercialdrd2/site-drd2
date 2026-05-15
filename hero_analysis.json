@@ -1,0 +1,1064 @@
+[
+  {
+    "file": "src\\app\\page.tsx",
+    "h1": "AVCB, CLCB e Projetos de Segurança Contra Incêndio em SP",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Renovação e Obtenção do AVCB - DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\treinamento-brigada\\page.tsx",
+    "h1": "Treinamento de Brigada de Incêndio em São Paulo",
+    "img_src": "/images/page-treinamento-brigada-v3.png",
+    "img_alt": "Treinamento de Brigada de Incêndio em São Paulo - DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\sprinklers\\page.tsx",
+    "h1": "SISTEMA DE SPRINKLERS (CHUVEIRO AUTOMÁTICO) EM SÃO PAULO — PROJETO E INSTALAÇÃO",
+    "img_src": "/images/page-sprinklers.jpg",
+    "img_alt": "Sistema de Sprinklers em São Paulo — DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\spda\\page.tsx",
+    "h1": "SPDA — PROTEÇÃO CONTRA DESCARGAS ATMOSFÉRICAS EM SÃO PAULO — PROJETO, INSTALAÇÃO E LAUDO",
+    "img_src": "/images/page-spda.jpg",
+    "img_alt": "SPDA Para-raios em São Paulo — DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\sobre\\page.tsx",
+    "h1": "Sobre a DRD2 Engenharia: Autoridade em AVCB em SP",
+    "img_src": "/images/page-sobre-hero.png",
+    "img_alt": "Operação Híbrida DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\sistema-de-sprinkler-para-industria-sao-paulo\\page.tsx",
+    "h1": "SISTEMA DE SPRINKLER PARA INDÚSTRIA EM SÃO PAULO — PROJETO E INSTALAÇÃO",
+    "img_src": "/images/page-sprinklers.jpg",
+    "img_alt": "Sistema de Sprinkler para Indústria em São Paulo — DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\sistema-de-sprinkler-para-condominio-sao-paulo\\page.tsx",
+    "h1": "SISTEMA DE SPRINKLER PARA CONDOMÍNIO EM SÃO PAULO — PROJETO, INSTALAÇÃO E MANUTENÇÃO",
+    "img_src": "/images/page-sprinklers.jpg",
+    "img_alt": "Sistema de Sprinkler para Condomínio em São Paulo — DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\sistema-de-hidrantes-para-industria-sao-paulo\\page.tsx",
+    "h1": "SISTEMA DE HIDRANTES PARA INDÚSTRIA EM SÃO PAULO — PROJETO E INSTALAÇÃO",
+    "img_src": "/images/page-hidrantes.jpg",
+    "img_alt": "Sistema de Hidrantes para Indústria em São Paulo — DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\sistema-de-hidrantes-para-galpao-sao-paulo\\page.tsx",
+    "h1": "SISTEMA DE HIDRANTES PARA GALPÃO EM SÃO PAULO — PROJETO E INSTALAÇÃO",
+    "img_src": "/images/page-hidrantes.jpg",
+    "img_alt": "Sistema de Hidrantes para Galpão em São Paulo — DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\sistema-de-hidrantes-para-condominio-sao-paulo\\page.tsx",
+    "h1": "SISTEMA DE HIDRANTES PARA CONDOMÍNIO EM SÃO PAULO — PROJETO, INSTALAÇÃO E MANUTENÇÃO",
+    "img_src": "/images/page-hidrantes.jpg",
+    "img_alt": "Sistema de Hidrantes para Condomínio em São Paulo — DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\servicos\\page.tsx",
+    "h1": "Soluções em Engenharia de Incêndio",
+    "img_src": "/images/page-servicos.png",
+    "img_alt": "Serviços de Engenharia de Incêndio - DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-supermercado-sao-paulo\\page.tsx",
+    "h1": "RENOVAÇÃO DE AVCB PARA SUPERMERCADO EM SP — NÃO DEIXE SEU MERCADO PARAR",
+    "img_src": "/images/bg-supermercado.jpg",
+    "img_alt": "Renovação de AVCB para Supermercado em São Paulo"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-shopping-sao-paulo\\page.tsx",
+    "h1": "Renovação de AVCB para Shoppings em SP",
+    "img_src": "/images/hero-shopping-sao-paulo.png",
+    "img_alt": "Alvará do Bombeiro para Shopping"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-salao-de-festas-sao-paulo\\page.tsx",
+    "h1": "Renovação de AVCB para Salão de Festas em SP",
+    "img_src": "/images/hero-salao-festas-oficial.jpg",
+    "img_alt": "Alvará do Bombeiro para Salão de Festas"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-restaurante-sao-paulo\\page.tsx",
+    "h1": "RENOVAÇÃO DE AVCB PARA RESTAURANTE EM SP",
+    "img_src": "/images/bg-restaurante.jpg",
+    "img_alt": "Renovação de AVCB"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-pousada-sao-paulo\\page.tsx",
+    "h1": "Renovação de AVCB para Pousadas em SP",
+    "img_src": "/images/hero-hotel.png",
+    "img_alt": "Alvará do Bombeiro para Hotel"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-posto-combustivel-sao-paulo\\page.tsx",
+    "h1": "Renovação de AVCB para Postos de Combustível em SP",
+    "img_src": "/images/hero-posto-combustivel.png",
+    "img_alt": "Alvará do Bombeiro para Posto de Combustível"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-padaria-sao-paulo\\page.tsx",
+    "h1": "Renovação de AVCB para Padarias em SP",
+    "img_src": "/images/hero-padaria.png",
+    "img_alt": "Alvará do Bombeiro para Padaria"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-motel-sao-paulo\\page.tsx",
+    "h1": "RENOVAÇÃO DE AVCB PARA MOTEL EM SP",
+    "img_src": "/images/bg-hotel.jpg",
+    "img_alt": "Renovação de AVCB para Motel"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-igreja-sao-paulo\\page.tsx",
+    "h1": "RENOVAÇÃO DE AVCB PARA IGREJA EM SP — PROTEJA SEUS FIÉIS E SUA CONGREGAÇÃO",
+    "img_src": "/images/hero-igreja.png",
+    "img_alt": "Renovação de AVCB para Igreja em São Paulo"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-hotel-sao-paulo\\page.tsx",
+    "h1": "RENOVAÇÃO DE AVCB PARA HOTEL EM SP",
+    "img_src": "/images/hero-hotel.png",
+    "img_alt": "Renovação de AVCB"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-hostel-sao-paulo\\page.tsx",
+    "h1": "RENOVAÇÃO DE AVCB PARA HOSTEL EM SP",
+    "img_src": "/images/bg-hotel.jpg",
+    "img_alt": "Renovação de AVCB para Hostel"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-hospital-clinica-sao-paulo\\page.tsx",
+    "h1": "RENOVAÇÃO DE AVCB PARA HOSPITAL E CLÍNICA EM SP — A SEGURANÇA DOS PACIENTES",
+    "img_src": "/images/bg-hospital.jpg",
+    "img_alt": "Renovação de AVCB para Hospital e Clínica em São Paulo"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-galpao-industrial-sao-paulo\\page.tsx",
+    "h1": "RENOVAÇÃO DE AVCB PARA GALPÃO INDUSTRIAL",
+    "img_src": "/images/bg-galpao.jpg",
+    "img_alt": "Renovação de AVCB para Galpão Industrial"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-farmacia-drogaria-sao-paulo\\page.tsx",
+    "h1": "RENOVAÇÃO DE AVCB PARA FARMÁCIAS E DROGARIAS EM SP",
+    "img_src": "/images/hero-farmacia.png",
+    "img_alt": "Renovação de AVCB para Farmácias e Drogarias em São Paulo"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-escritorio-sao-paulo\\page.tsx",
+    "h1": "Renovação de AVCB para Escritórios em SP",
+    "img_src": "/images/hero-escritorio-moderno.png",
+    "img_alt": "Alvará do Bombeiro para Escritório Comercial"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-escola-sao-paulo\\page.tsx",
+    "h1": "RENOVAÇÃO DE AVCB PARA ESCOLA EM SP — A SEGURANÇA DOS SEUS ALUNOS",
+    "img_src": "/images/hero-escola.png",
+    "img_alt": "Renovação de AVCB para Escola em São Paulo"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-creche-sao-paulo\\page.tsx",
+    "h1": "Renovação de AVCB para Creches em SP",
+    "img_src": "/images/hero-creche.png",
+    "img_alt": "Alvará do Bombeiro para Creche"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-consultorio-medico-sao-paulo\\page.tsx",
+    "h1": "Renovação de AVCB para Consultórios Médicos em SP",
+    "img_src": "/images/hero-clinica-odontologica.png",
+    "img_alt": "Alvará do Bombeiro para Clínica"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-condominio-sao-paulo\\page.tsx",
+    "h1": "RENOVAÇÃO DE AVCB PARA CONDOMÍNIO EM SP",
+    "img_src": "/images/bg-condominios.jpg",
+    "img_alt": "Renovação de AVCB"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-casa-noturna-boate-sao-paulo\\page.tsx",
+    "h1": "RENOVAÇÃO DE AVCB PARA CASAS NOTURNAS E BOATES EM SP",
+    "img_src": "/images/hero-casa-noturna.png",
+    "img_alt": "Renovação de AVCB para Casas Noturnas e Boates em São Paulo"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-casa-de-repouso-sao-paulo\\page.tsx",
+    "h1": "RENOVAÇÃO DE AVCB PARA CASA DE REPOUSO EM SP",
+    "img_src": "/images/hero-casa-repouso.png",
+    "img_alt": "Renovação de AVCB para Casa de Repouso"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-bares-restaurantes-sao-paulo\\page.tsx",
+    "h1": "Renovação de AVCB para Bares e Restaurantes em SP",
+    "img_src": "/images/hero-bar-com-show.jpg",
+    "img_alt": "Alvará do Bombeiro para Bar"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb-academia-sao-paulo\\page.tsx",
+    "h1": "RENOVAÇÃO DE AVCB PARA ACADEMIA EM SP",
+    "img_src": "/images/hero-academia-v2.jpg",
+    "img_alt": "Renovação de AVCB"
+  },
+  {
+    "file": "src\\app\\renovacao-avcb\\page.tsx",
+    "h1": "RENOVAÇÃO DE AVCB EM SÃO PAULO — AVCB VENCIDO? EVITE INTERDIÇÃO E MULTA",
+    "img_src": "/images/banner-hero.jpg",
+    "img_alt": "Renovação de AVCB em São Paulo"
+  },
+  {
+    "file": "src\\app\\quanto-custa-avcb-sao-paulo\\page.tsx",
+    "h1": "Quanto Custa o AVCB{\" \"} em São Paulo?",
+    "img_src": "/images/banner-hero.jpg",
+    "img_alt": "Alvará do Corpo de Bombeiros em São Paulo"
+  },
+  {
+    "file": "src\\app\\projetos-incendio\\page.tsx",
+    "h1": "PROJETO DE INCÊNDIO (PPCI) EM SÃO PAULO — APROVAÇÃO NO CBPMESP",
+    "img_src": "/images/page-projetos.png",
+    "img_alt": "Projeto de Incêndio PPCI em São Paulo — DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\projeto-pet\\page.tsx",
+    "h1": "{srv.h1}",
+    "img_src": "/images/page-pet.png",
+    "img_alt": "Projeto PET para Eventos Temporários em São Paulo - DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\projeto-escada-pressurizada-avcb-sao-paulo\\page.tsx",
+    "h1": "Projeto de Escada Pressurizada em São Paulo",
+    "img_src": "/images/page-escada-pressurizada.png",
+    "img_alt": "Projeto de Escada Pressurizada em São Paulo - DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\manutencao\\page.tsx",
+    "h1": "MANUTENÇÃO DE SISTEMAS DE INCÊNDIO EM SÃO PAULO — LAUDOS E ARTs PARA O AVCB",
+    "img_src": "/images/page-manutencao.jpg",
+    "img_alt": "Manutenção de Sistemas de Incêndio em São Paulo — DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\laudo-estanqueidade-gas-sao-paulo\\page.tsx",
+    "h1": "{service.h1}",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Teste de Estanqueidade de Gás em SP"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-supermercado-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Supermercados em SP",
+    "img_src": "/images/bg-supermercado.jpg",
+    "img_alt": "Laudo Bombeiro para Supermercado"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-shopping-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Shoppings em SP",
+    "img_src": "/images/hero-shopping-sao-paulo.png",
+    "img_alt": "Laudo Bombeiro para Shopping"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-salao-de-festas-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Salões de Festas em SP",
+    "img_src": "/images/hero-salao-festas-oficial.jpg",
+    "img_alt": "Laudo Bombeiro para Salão de Festas"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-restaurante-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Restaurantes em SP",
+    "img_src": "/images/bg-restaurante.jpg",
+    "img_alt": "Laudo Bombeiro para Restaurante"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-pousada-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Pousadas em SP",
+    "img_src": "/images/hero-hotel.png",
+    "img_alt": "Laudo Bombeiro para Pousada"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-posto-combustivel-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Postos de Combustível em SP",
+    "img_src": "/images/hero-posto-combustivel.png",
+    "img_alt": "Laudo Bombeiro para Posto de Combustível"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-padaria-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Padarias em SP",
+    "img_src": "/images/hero-padaria.png",
+    "img_alt": "Laudo Bombeiro para Padaria"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-motel-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Motéis em SP",
+    "img_src": "/images/hero_motel_avcb.png",
+    "img_alt": "Laudo Bombeiro para Motel"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-igreja-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Igrejas e Templos em SP",
+    "img_src": "/images/hero-igreja.png",
+    "img_alt": "Laudo Bombeiro para Igreja e Templo"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-hotel-pousada-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Hotéis e Pousadas em SP",
+    "img_src": "/images/hero-hotel.png",
+    "img_alt": "Laudo Bombeiro para Hotel e Pousada"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-hostel-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Hostels em SP",
+    "img_src": "/images/hero-hostel.png",
+    "img_alt": "Laudo Bombeiro para Hostel"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-hospital-clinica-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Hospitais e Clínicas em SP",
+    "img_src": "/images/bg-hospital.jpg",
+    "img_alt": "Laudo Bombeiro para Hospital e Clínica"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-galpao-industrial-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Galpões Industriais em SP",
+    "img_src": "/images/bg-galpao.jpg",
+    "img_alt": "Laudo Bombeiro para Galpão Industrial"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-farmacia-drogaria-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Farmácias e Drogarias em SP",
+    "img_src": "/images/hero-farmacia.jpg",
+    "img_alt": "Laudo Bombeiro para Farmácia e Drogaria"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-escritorio-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Escritórios em SP",
+    "img_src": "/images/hero-escritorio-moderno.png",
+    "img_alt": "Laudo Bombeiro para Escritório"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-escola-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Escolas em SP",
+    "img_src": "/images/hero-escola.png",
+    "img_alt": "Laudo Bombeiro para Escola"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-escola-faculdade-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Escolas e Faculdades em SP",
+    "img_src": "/images/hero-escola.png",
+    "img_alt": "Laudo Bombeiro para Escola e Faculdade"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-creche-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Creches em SP",
+    "img_src": "/images/hero-creche.png",
+    "img_alt": "Laudo Bombeiro para Creche"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-consultorio-medico-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Consultórios Médicos em SP",
+    "img_src": "/images/hero-clinica-odontologica.png",
+    "img_alt": "Laudo Bombeiro para Consultório Médico"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-condominio-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Condomínios em SP",
+    "img_src": "/images/bg-condominios.jpg",
+    "img_alt": "Laudo Bombeiro para Condomínio"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-casa-noturna-boate-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Casas Noturnas e Boates em SP",
+    "img_src": "/images/hero-boate-v2.jpg",
+    "img_alt": "Laudo Bombeiro para Casa Noturna e Boate"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-casa-de-repouso-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Casas de Repouso e ILPIs em SP",
+    "img_src": "/images/hero-casa-repouso.png",
+    "img_alt": "Laudo Bombeiro para Casa de Repouso"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-bar-restaurante-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Bares e Restaurantes em SP",
+    "img_src": "/images/bg-bar-adega.jpg",
+    "img_alt": "Laudo Bombeiro para Bar e Restaurante"
+  },
+  {
+    "file": "src\\app\\laudo-bombeiro-academia-sao-paulo\\page.tsx",
+    "h1": "Laudo do Bombeiro para Academias em SP",
+    "img_src": "/images/hero-academia-v2.jpg",
+    "img_alt": "Laudo Bombeiro para Academia"
+  },
+  {
+    "file": "src\\app\\hidrantes\\page.tsx",
+    "h1": "REDE DE HIDRANTES E MANGOTINHOS EM SÃO PAULO — PROJETO E INSTALAÇÃO",
+    "img_src": "/images/page-hidrantes.jpg",
+    "img_alt": "Rede de Hidrantes e Mangotinhos em São Paulo — DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\engenheiro-avcb-sao-paulo\\page.tsx",
+    "h1": "Engenheiro de AVCB em São Paulo",
+    "img_src": null,
+    "img_alt": null
+  },
+  {
+    "file": "src\\app\\empresa-avcb-sao-paulo\\page.tsx",
+    "h1": "Empresa Especializada em AVCB SP",
+    "img_src": null,
+    "img_alt": null
+  },
+  {
+    "file": "src\\app\\clcb-sao-paulo\\page.tsx",
+    "h1": "CLCB — CERTIFICADO DO CORPO DE BOMBEIROS EM SÃO PAULO 2026 — PROCESSO SIMPLIFICADO",
+    "img_src": "/images/page-clcb.png",
+    "img_alt": "CLCB em São Paulo — DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\avcb-zona-sul\\page.tsx",
+    "h1": "AVCB no(a) Zona Sul SP: Foco em Condomínios, Comércio e Serviços",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Zona Sul SP"
+  },
+  {
+    "file": "src\\app\\avcb-zona-oeste-sao-paulo\\page.tsx",
+    "h1": "AVCB NO(A) ZONA OESTE SP",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Bairro de Pinheiros e Rua dos Pinheiros - Regularização AVCB Master"
+  },
+  {
+    "file": "src\\app\\avcb-zona-norte-sao-paulo\\page.tsx",
+    "h1": "AVCB no(a) Zona Norte SP: Foco em Condomínios Verticais, Galpões e Comércio",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Zona Norte SP"
+  },
+  {
+    "file": "src\\app\\avcb-zona-leste-sao-paulo\\page.tsx",
+    "h1": "AVCB no(a) Zona Leste SP: Foco em Galpões, Indústrias e Condomínios Residenciais",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Zona Leste SP"
+  },
+  {
+    "file": "src\\app\\avcb-vila-prudente\\page.tsx",
+    "h1": "AVCB NO(A) VILA PRUDENTE",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Bairro de Pinheiros e Rua dos Pinheiros - Regularização AVCB Master"
+  },
+  {
+    "file": "src\\app\\avcb-vila-olimpia\\page.tsx",
+    "h1": "AVCB no(a) Vila Olímpia: Foco em Prédios Corporativos (Triple A) e Nightlife",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Vila Olímpia"
+  },
+  {
+    "file": "src\\app\\avcb-vila-mariana\\page.tsx",
+    "h1": "AVCB no(a) Vila Mariana: Foco em Escolas, Hospitais e Prédios Mistos",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Vila Mariana"
+  },
+  {
+    "file": "src\\app\\avcb-vila-madalena\\page.tsx",
+    "h1": "AVCB NO(A) VILA MADALENA",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Bairro de Pinheiros e Rua dos Pinheiros - Regularização AVCB Master"
+  },
+  {
+    "file": "src\\app\\avcb-vila-leopoldina\\page.tsx",
+    "h1": "AVCB NO(A) VILA LEOPOLDINA",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Bairro de Pinheiros e Rua dos Pinheiros - Regularização AVCB Master"
+  },
+  {
+    "file": "src\\app\\avcb-tucuruvi\\page.tsx",
+    "h1": "AVCB NO(A) TUCURUVI",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Bairro de Pinheiros e Rua dos Pinheiros - Regularização AVCB Master"
+  },
+  {
+    "file": "src\\app\\avcb-tatuape\\page.tsx",
+    "h1": "AVCB no(a) Tatuapé: Foco em Prédios Comerciais Corporativos e Alto Padrão",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Tatuapé"
+  },
+  {
+    "file": "src\\app\\avcb-supermercado-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA SUPERMERCADO EM SÃO PAULO",
+    "img_src": "/images/bg-supermercado.jpg",
+    "img_alt": "Interior de um supermercado moderno com sistemas de segurança contra incêndio em São Paulo"
+  },
+  {
+    "file": "src\\app\\avcb-se\\page.tsx",
+    "h1": "AVCB na Sé: Legalização de Edifícios Históricos, Uso Misto e Comércio",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB para Edifícios Históricos e Patrimônio Tombado na Sé"
+  },
+  {
+    "file": "src\\app\\avcb-saude\\page.tsx",
+    "h1": "AVCB no(a) Saúde: Foco em Condomínios Verticais, Comércio e Saúde",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Saúde"
+  },
+  {
+    "file": "src\\app\\avcb-sao-paulo\\page.tsx",
+    "h1": "AVCB EM SÃO PAULO 2026",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "AVCB em São Paulo — DRD2 Engenharia especialista em regularização"
+  },
+  {
+    "file": "src\\app\\avcb-sao-caetano\\page.tsx",
+    "h1": "AVCB em São Caetano: Regularização para Condomínios, Clínicas, Galpões e Comércio",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB em São Caetano do Sul - ABC"
+  },
+  {
+    "file": "src\\app\\avcb-sao-bernardo\\page.tsx",
+    "h1": "AVCB em São Bernardo: Regularização para Indústrias Automotivas, Galpões e Condomínios no ABC",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB em São Bernardo do Campo - ABC"
+  },
+  {
+    "file": "src\\app\\avcb-santo-andre\\page.tsx",
+    "h1": "AVCB em Santo André: Regularização para Indústrias, Galpões e Condomínios no ABC Paulista",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB em Santo André - ABC"
+  },
+  {
+    "file": "src\\app\\avcb-santo-amaro\\page.tsx",
+    "h1": "AVCB no(a) Santo Amaro: Foco em Shoppings, Indústrias e Centros de Ensino",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Santo Amaro"
+  },
+  {
+    "file": "src\\app\\avcb-santana\\page.tsx",
+    "h1": "AVCB EM SANTANA SP",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Eixo Comercial de Santana SP - Regularização AVCB"
+  },
+  {
+    "file": "src\\app\\avcb-salao-de-festas-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA SALÃO DE FESTAS EM SP",
+    "img_src": "/images/hero-salao-festas-oficial.jpg",
+    "img_alt": "Salão de festas luxuoso em São Paulo com sistemas de segurança contra incêndio"
+  },
+  {
+    "file": "src\\app\\avcb-sacoma\\page.tsx",
+    "h1": "AVCB no(a) Sacomã: Foco em Depósitos, Galerias Comerciais e Galpões",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Sacomã"
+  },
+  {
+    "file": "src\\app\\avcb-restaurante-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA RESTAURANTE EM SP",
+    "img_src": "/images/bg-restaurante.jpg",
+    "img_alt": "Interior de restaurante com sistemas de segurança contra incêndio"
+  },
+  {
+    "file": "src\\app\\avcb-republica\\page.tsx",
+    "h1": "AVCB na República: Hotéis, Hostels, Pensões e Centros Comerciais Centenários",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB de Hotéis e Edifícios Antigos na República Centro"
+  },
+  {
+    "file": "src\\app\\avcb-preco\\page.tsx",
+    "h1": "Quanto Custa o AVCB em SP?",
+    "img_src": null,
+    "img_alt": null
+  },
+  {
+    "file": "src\\app\\avcb-pousada-sao-paulo\\page.tsx",
+    "h1": "Cuidando da sua Pousada, Protegendo seu Sonho.",
+    "img_src": "/images/page-avcb.png",
+    "img_alt": "AVCB para Pousadas em São Paulo - DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\avcb-posto-combustivel-sao-paulo\\page.tsx",
+    "h1": "AVCB para Posto de Combustível em São Paulo",
+    "img_src": "/images/hero-posto-combustivel.png",
+    "img_alt": "AVCB para Posto de Combustível em São Paulo — Regularização Completa com a DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\avcb-pinheiros\\page.tsx",
+    "h1": "AVCB EM PINHEIROS",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Bairro de Pinheiros e Rua dos Pinheiros - Regularização AVCB Master"
+  },
+  {
+    "file": "src\\app\\avcb-perdizes\\page.tsx",
+    "h1": "AVCB NO(A) PERDIZES",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Bairro de Pinheiros e Rua dos Pinheiros - Regularização AVCB Master"
+  },
+  {
+    "file": "src\\app\\avcb-penha\\page.tsx",
+    "h1": "AVCB NO(A) PENHA",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Bairro de Pinheiros e Rua dos Pinheiros - Regularização AVCB Master"
+  },
+  {
+    "file": "src\\app\\avcb-para-shopping-sao-paulo\\page.tsx",
+    "h1": "AVCB para Shopping em São Paulo — Regularização Completa",
+    "img_src": "/images/hero-shopping-sao-paulo.png",
+    "img_alt": "AVCB para Shopping em São Paulo — Regularização Completa com a DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\avcb-para-salao-de-festas-sao-paulo\\page.tsx",
+    "h1": null,
+    "img_src": null,
+    "img_alt": null
+  },
+  {
+    "file": "src\\app\\avcb-para-padaria-sao-paulo\\page.tsx",
+    "h1": "AVCB para Padaria em São Paulo",
+    "img_src": "/images/hero-padaria.png",
+    "img_alt": "Interior de padaria com forno industrial e sistemas de segurança contra incêndio em São Paulo"
+  },
+  {
+    "file": "src\\app\\avcb-para-igreja-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA IGREJA EM SP 2026",
+    "img_src": "/images/hero-igreja.png",
+    "img_alt": "Segurança contra incêndio em igreja moderna com grande público em São Paulo"
+  },
+  {
+    "file": "src\\app\\avcb-para-escritorio-sao-paulo\\page.tsx",
+    "h1": "AVCB para Escritório em São Paulo",
+    "img_src": "/images/avcb-para-escritorio-sao-paulo.webp",
+    "img_alt": "Laje corporativa e escritório com sistemas de prevenção de incêndio"
+  },
+  {
+    "file": "src\\app\\avcb-para-escola-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA ESCOLA EM SP",
+    "img_src": "/images/hero-escola.png",
+    "img_alt": "Segurança contra incêndio em escola moderna com alunos e professora em São Paulo"
+  },
+  {
+    "file": "src\\app\\avcb-para-creche-sao-paulo\\page.tsx",
+    "h1": "AVCB para Creche em São Paulo: Regularize com Engenheiro e Evite Interdição",
+    "img_src": "/images/hero-creche.png",
+    "img_alt": "Crianças brincando em creche segura com hidrante"
+  },
+  {
+    "file": "src\\app\\avcb-para-condominio-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA CONDOMÍNIO EM SP",
+    "img_src": "/images/bg-condominios.jpg",
+    "img_alt": "Alvará do Bombeiro para Condomínio"
+  },
+  {
+    "file": "src\\app\\avcb-para-casa-de-repouso-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA CASA DE REPOUSO EM SP",
+    "img_src": "/images/banner-hero.jpg",
+    "img_alt": "Alvará do Corpo de Bombeiros em São Paulo"
+  },
+  {
+    "file": "src\\app\\avcb-para-academia-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA ACADEMIA EM SÃO PAULO",
+    "img_src": "/images/hero-academia-v2.jpg",
+    "img_alt": "Alvará do Bombeiro para Academia"
+  },
+  {
+    "file": "src\\app\\avcb-osasco\\page.tsx",
+    "h1": "AVCB em Osasco: Regularização para Galpões, Condomínios, Corporativos e Comércio",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB em Osasco"
+  },
+  {
+    "file": "src\\app\\avcb-motel-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA MOTEL EM SÃO PAULO",
+    "img_src": "/images/hero_motel_avcb.png",
+    "img_alt": "Alvará do Bombeiro para Motel"
+  },
+  {
+    "file": "src\\app\\avcb-morumbi\\page.tsx",
+    "h1": "AVCB no(a) Morumbi: Foco em Condomínios Clube, Colégios e Hospitais",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Morumbi"
+  },
+  {
+    "file": "src\\app\\avcb-mooca\\page.tsx",
+    "h1": "AVCB no(a) Mooca: Foco em Galpões Logísticos, Gastronomia e Condomínios",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Mooca"
+  },
+  {
+    "file": "src\\app\\avcb-moema\\page.tsx",
+    "h1": "AVCB no(a) Moema: Foco em Condomínios Verticais, Bares e Clínicas",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Moema"
+  },
+  {
+    "file": "src\\app\\avcb-limao\\page.tsx",
+    "h1": "AVCB NO(A) LIMÃO",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Bairro de Pinheiros e Rua dos Pinheiros - Regularização AVCB Master"
+  },
+  {
+    "file": "src\\app\\avcb-liberdade\\page.tsx",
+    "h1": "AVCB na Liberdade: Restaurantes de Alto Calor, Uso Misto e Comércio Étnico",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB Comercial e de Restaurantes na Liberdade"
+  },
+  {
+    "file": "src\\app\\avcb-lapa\\page.tsx",
+    "h1": "AVCB NO(A) LAPA",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Bairro de Pinheiros e Rua dos Pinheiros - Regularização AVCB Master"
+  },
+  {
+    "file": "src\\app\\avcb-jacana\\page.tsx",
+    "h1": "AVCB NO(A) JAÇANÃ",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Bairro de Pinheiros e Rua dos Pinheiros - Regularização AVCB Master"
+  },
+  {
+    "file": "src\\app\\avcb-jabaquara\\page.tsx",
+    "h1": "AVCB no(a) Jabaquara: Foco em Hospitais, Logística e Prédios Comerciais",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Jabaquara"
+  },
+  {
+    "file": "src\\app\\avcb-itaquera\\page.tsx",
+    "h1": "AVCB no(a) Itaquera: Foco em Centros Comerciais, Conjuntos Habitacionais",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Itaquera"
+  },
+  {
+    "file": "src\\app\\avcb-itaim-bibi\\page.tsx",
+    "h1": "AVCB NO ITAIM BIBI",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Torres Comerciais Triple A - Itaim Bibi e Faria Lima"
+  },
+  {
+    "file": "src\\app\\avcb-ipiranga\\page.tsx",
+    "h1": "AVCB NO(A) IPIRANGA",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Bairro de Pinheiros e Rua dos Pinheiros - Regularização AVCB Master"
+  },
+  {
+    "file": "src\\app\\avcb-hoteis-pousadas-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA HOTÉIS E POUSADAS",
+    "img_src": "/images/hero-hotel.png",
+    "img_alt": "Hotel em São Paulo — AVCB para estabelecimentos de hospedagem"
+  },
+  {
+    "file": "src\\app\\avcb-hostel-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA HOSTEL EM SÃO PAULO",
+    "img_src": "/images/hero-hostel.png",
+    "img_alt": "Alvará do Bombeiro para Hostel"
+  },
+  {
+    "file": "src\\app\\avcb-hospital-clinica-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA HOSPITAL E CLÍNICA EM SP",
+    "img_src": "/images/bg-hospital.jpg",
+    "img_alt": "Segurança contra incêndio em ambiente hospitalar de alta tecnologia"
+  },
+  {
+    "file": "src\\app\\avcb-guarulhos\\page.tsx",
+    "h1": "AVCB em Guarulhos: Regularização para Galpões, Indústrias e Condomínios",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB em Guarulhos"
+  },
+  {
+    "file": "src\\app\\avcb-galpao-industrial-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA GALPÃO INDUSTRIAL EM SP",
+    "img_src": "/images/bg-galpao.jpg",
+    "img_alt": "Alvará do Bombeiro para Galpão Industrial"
+  },
+  {
+    "file": "src\\app\\avcb-farmacia-drogaria-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA FARMÁCIA E DROGARIA EM SP",
+    "img_src": "/images/hero-farmacia.jpg",
+    "img_alt": "Interior de farmácia com sistemas de segurança contra incêndio"
+  },
+  {
+    "file": "src\\app\\avcb-escola-faculdade-sao-paulo\\page.tsx",
+    "h1": "AVCB para Escolas: Regularização Sem Travar Suas Aulas.",
+    "img_src": "/images/page-avcb.png",
+    "img_alt": "AVCB para Escolas e Faculdades em São Paulo - DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\avcb-consultorios-medicos-odontologicos-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA CLÍNICA ODONTOLÓGICA EM SP",
+    "img_src": "/images/hero-clinica-odontologica.png",
+    "img_alt": "AVCB para Clínica Odontológica em São Paulo — DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\avcb-consolacao\\page.tsx",
+    "h1": "AVCB na Consolação: Hospitais, Clínicas Médicas, Escritórios e Condomínios",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB na Consolação e Paulista"
+  },
+  {
+    "file": "src\\app\\avcb-condominio-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA CONDOMÍNIO EM SÃO PAULO",
+    "img_src": "/images/bg-condominios.jpg",
+    "img_alt": "Segurança contra incêndio em condomínio de alto padrão em São Paulo"
+  },
+  {
+    "file": "src\\app\\avcb-comercial-escritorio-sao-paulo\\page.tsx",
+    "h1": "{service.h1}",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "AVCB para Comércio e Escritórios corporativos em São Paulo"
+  },
+  {
+    "file": "src\\app\\avcb-centro-sao-paulo\\page.tsx",
+    "h1": "AVCB NO(A) CENTRO DE SÃO PAULO",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Bairro de Pinheiros e Rua dos Pinheiros - Regularização AVCB Master"
+  },
+  {
+    "file": "src\\app\\avcb-centro-bela-vista\\page.tsx",
+    "h1": "AVCB NO(A) BELA VISTA",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Bairro de Pinheiros e Rua dos Pinheiros - Regularização AVCB Master"
+  },
+  {
+    "file": "src\\app\\avcb-casas-noturnas-boates-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA BOATES E CASAS NOTURNAS EM SP",
+    "img_src": "/images/hero-boate-v2.jpg",
+    "img_alt": "Boate em São Paulo com público e iluminação — regularização AVCB pelo Corpo de Bombeiros"
+  },
+  {
+    "file": "src\\app\\avcb-casa-verde\\page.tsx",
+    "h1": "AVCB NO(A) CASA VERDE",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Bairro de Pinheiros e Rua dos Pinheiros - Regularização AVCB Master"
+  },
+  {
+    "file": "src\\app\\avcb-campo-belo\\page.tsx",
+    "h1": "AVCB no(a) Campo Belo: Foco em Condomínios Residenciais e Clínicas",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Campo Belo"
+  },
+  {
+    "file": "src\\app\\avcb-butanta\\page.tsx",
+    "h1": "AVCB NO(A) BUTANTÃ",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Bairro de Pinheiros e Rua dos Pinheiros - Regularização AVCB Master"
+  },
+  {
+    "file": "src\\app\\avcb-brooklin\\page.tsx",
+    "h1": "AVCB no(a) Brooklin: Foco em Prédios Comerciais, Bares e Condomínios",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Brooklin"
+  },
+  {
+    "file": "src\\app\\avcb-bela-vista\\page.tsx",
+    "h1": "AVCB na Bela Vista: Regularização para Restaurantes, Teatros e Tombados",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB na Bela Vista e Bixiga"
+  },
+  {
+    "file": "src\\app\\avcb-barueri-alphaville\\page.tsx",
+    "h1": "AVCB em Barueri / Alphaville: Torres Corporativas, Condomínios de Alto Padrão e Shoppings",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB em Barueri e Alphaville"
+  },
+  {
+    "file": "src\\app\\avcb-bares-restaurantes-sao-paulo\\page.tsx",
+    "h1": "AVCB PARA BARES E RESTAURANTES",
+    "img_src": "/images/bg-bar-adega.jpg",
+    "img_alt": "Interior de um bar moderno com iluminação baixa e sistemas de segurança contra incêndio"
+  },
+  {
+    "file": "src\\app\\avcb-aricanduva\\page.tsx",
+    "h1": "AVCB no(a) Aricanduva: Foco em Comércio, Shoppings e Galpões Logísticos",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Aricanduva"
+  },
+  {
+    "file": "src\\app\\avcb-analia-franco\\page.tsx",
+    "h1": "AVCB no(a) Anália Franco: Foco em Condomínios Residenciais de Luxo e Gastronomia",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Regularização de AVCB no(a) Anália Franco"
+  },
+  {
+    "file": "src\\app\\avcb-alphaville-barueri\\page.tsx",
+    "h1": "AVCB EM ALPHAVILLE & BARUERI",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Parque Logístico na Rodovia Castello Branco - Barueri e Alphaville"
+  },
+  {
+    "file": "src\\app\\avcb\\page.tsx",
+    "h1": "AVCB em São Paulo: Regularização Sem Travar Seu Negócio.",
+    "img_src": "/images/page-avcb.png",
+    "img_alt": "Renovação e Obtenção de AVCB em São Paulo - DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-supermercado-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Supermercados em SP",
+    "img_src": "/images/bg-supermercado.jpg",
+    "img_alt": "Alvará do Bombeiro para Supermercado"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-shopping-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Shoppings e Galerias em SP",
+    "img_src": "/images/hero-shopping-sao-paulo.png",
+    "img_alt": "Alvará do Bombeiro para Shopping"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-salao-de-festas-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Salões de Festas em SP",
+    "img_src": "/images/hero-salao-festas-oficial.jpg",
+    "img_alt": "Alvará do Bombeiro para Salão de Festas"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-restaurante-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Restaurantes em SP",
+    "img_src": "/images/bg-restaurante.jpg",
+    "img_alt": "Alvará do Bombeiro para Restaurante"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-pousada-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Pousadas em SP",
+    "img_src": "/images/hero-hotel.png",
+    "img_alt": "Alvará do Bombeiro para Hotel"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-posto-combustivel-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Postos de Combustível em SP",
+    "img_src": "/images/hero-posto-combustivel.png",
+    "img_alt": "Alvará do Bombeiro para Posto de Combustível"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-padaria-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Padarias em SP",
+    "img_src": "/images/hero-padaria.png",
+    "img_alt": "Alvará do Bombeiro para Padaria"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-motel-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Motéis em SP",
+    "img_src": "/images/hero_motel_avcb.png",
+    "img_alt": "Alvará do Bombeiro para Motel"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-igreja-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Igrejas e Templos em SP",
+    "img_src": "/images/hero-igreja.png",
+    "img_alt": "Alvará do Bombeiro para Igreja"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-hotel-pousada-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Hotéis e Pousadas em SP",
+    "img_src": "/images/hero-hotel.png",
+    "img_alt": "Alvará do Bombeiro para Hotel"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-hostel-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Hostels em SP",
+    "img_src": "/images/hero-hostel.png",
+    "img_alt": "Alvará do Bombeiro para Hostel"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-hospital-clinica-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Hospitais e Clínicas em SP",
+    "img_src": "/images/hero-clinica-odontologica.png",
+    "img_alt": "Alvará do Bombeiro para Clínica"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-galpao-industrial-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Galpões Industriais em SP",
+    "img_src": "/images/bg-galpao.jpg",
+    "img_alt": "Alvará do Bombeiro para Galpão Industrial"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-farmacia-drogaria-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Farmácias e Drogarias em SP",
+    "img_src": "/images/hero-farmacia.jpg",
+    "img_alt": "Alvará do Bombeiro para Farmácia"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-escritorio-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Escritórios em SP",
+    "img_src": "/images/hero-escritorio-moderno.png",
+    "img_alt": "Alvará do Bombeiro para Escritório Comercial"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-escola-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Escolas em SP",
+    "img_src": "/images/hero-escola.png",
+    "img_alt": "Alvará do Bombeiro para Escola e Faculdade"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-escola-faculdade-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Escolas e Faculdades em SP",
+    "img_src": "/images/hero-escola.png",
+    "img_alt": "Alvará do Bombeiro para Escola e Faculdade"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-creche-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Creches em SP",
+    "img_src": "/images/hero-creche.png",
+    "img_alt": "Alvará do Bombeiro para Creche"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-consultorio-medico-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Consultórios Médicos em SP",
+    "img_src": "/images/hero-clinica-odontologica.png",
+    "img_alt": "Alvará do Bombeiro para Clínica"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-condominio-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Condomínios em SP",
+    "img_src": "/images/bg-condominios.jpg",
+    "img_alt": "Alvará do Bombeiro para Condomínio"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-casa-noturna-boate-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Casas Noturnas e Boates em SP",
+    "img_src": "/images/hero-boate-v2.jpg",
+    "img_alt": "Alvará do Bombeiro para Casa Noturna"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-casa-de-repouso-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Casas de Repouso em SP",
+    "img_src": "/images/banner-hero.jpg",
+    "img_alt": "Alvará do Corpo de Bombeiros em São Paulo"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-bar-restaurante-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Bares e Restaurantes em SP",
+    "img_src": "/images/hero-bar-com-show.jpg",
+    "img_alt": "Alvará do Bombeiro para Bar"
+  },
+  {
+    "file": "src\\app\\alvara-bombeiro-academia-sao-paulo\\page.tsx",
+    "h1": "Alvará do Bombeiro para Academias em SP",
+    "img_src": "/images/hero-academia-v2.jpg",
+    "img_alt": "Alvará do Bombeiro para Academia"
+  },
+  {
+    "file": "src\\app\\alarme-incendio-sao-paulo\\page.tsx",
+    "h1": "ALARME DE INCÊNDIO EM SÃO PAULO — PROJETO E INSTALAÇÃO",
+    "img_src": "/images/page-alarme.png",
+    "img_alt": "Sistema de Alarme de Incêndio em São Paulo — DRD2 Engenharia"
+  },
+  {
+    "file": "src\\app\\alarme-de-incendio-para-condominio-sao-paulo\\page.tsx",
+    "h1": "{service.h1}: Regularize Antes que o CBPMESP Chegue Primeiro",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Alarme de IncÃªndio para CondomÃ­nio em SÃ£o Paulo"
+  },
+  {
+    "file": "src\\app\\alarme-de-incendio-hospital-clinica-sp\\page.tsx",
+    "h1": "{service.h1}",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Alarme de IncÃªndio para Hospital e ClÃ­nica em SÃ£o Paulo"
+  },
+  {
+    "file": "src\\app\\alarme-de-incendio-galpao-industrial-sp\\page.tsx",
+    "h1": "{service.h1}: Projeto Aprovado no CBPMESP, do InÃ­cio ao AVCB",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Alarme de IncÃªndio para GalpÃ£o e IndÃºstria em SÃ£o Paulo"
+  },
+  {
+    "file": "src\\app\\alarme-de-incendio-escola-faculdade-sp\\page.tsx",
+    "h1": "{service.h1}",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Alarme de IncÃªndio para Escolas e Faculdades em SÃ£o Paulo"
+  },
+  {
+    "file": "src\\app\\alarme-de-incendio-comercial-escritorio-sp\\page.tsx",
+    "h1": "{service.h1}",
+    "img_src": "/images/banner-avcb.png",
+    "img_alt": "Alarme de IncÃªndio para EscritÃ³rios e ComÃ©rcio em SÃ£o Paulo"
+  }
+]

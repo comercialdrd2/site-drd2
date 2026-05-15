@@ -1,0 +1,760 @@
+export type PtotepPageKind = "principal" | "evento" | "cidade" | "duvida";
+
+export type PtotepFaq = {
+  question: string;
+  answer: string;
+};
+
+export type PtotepRelatedLink = {
+  label: string;
+  href: string;
+};
+
+export type PtotepPage = {
+  slug: string;
+  kind: PtotepPageKind;
+  label: string;
+  eyebrow: string;
+  title: string;
+  description: string;
+  h1: string;
+  lead: string;
+  heroImage: string;
+  imageAlt: string;
+  focus: string;
+  contextTitle: string;
+  context: string[];
+  riskTitle: string;
+  risks: string[];
+  process: string[];
+  documents: string[];
+  faqs: PtotepFaq[];
+  related: PtotepRelatedLink[];
+  ctaOccupation: string;
+};
+
+const baseDocuments = [
+  "licenca vigente da edificacao permanente, quando aplicavel ao caso",
+  "layout do evento com fluxo de publico, acessos, saidas e areas bloqueadas",
+  "ART ou RRT do responsavel tecnico pelas instalacoes temporarias",
+  "memorial de seguranca com lotacao, horarios, montagem e desmontagem",
+  "documentos de estruturas, eletrica, geradores, GLP, stands, palco ou sonorizacao quando houver",
+  "plano de atendimento, brigada, controle de acesso e sinalizacao temporaria",
+];
+
+const baseProcess = [
+  "analise tecnica da edificacao permanente, da licenca existente e da ocupacao temporaria pretendida",
+  "levantamento de lotacao, rotas de fuga, interferencias no AVCB existente e pontos criticos do evento",
+  "desenvolvimento do projeto, memoriais, ARTs/RRTs e documentos obrigatorios para protocolo",
+  "protocolo e acompanhamento no sistema do Corpo de Bombeiros, com resposta tecnica a exigencias",
+  "vistoria orientada, checklist de montagem e suporte ate a liberacao do evento",
+];
+
+const baseRelated: PtotepRelatedLink[] = [
+  { label: "Projeto de incendio", href: "/projetos-incendio" },
+  { label: "AVCB em Sao Paulo", href: "/avcb-sao-paulo" },
+  { label: "Treinamento de brigada", href: "/treinamento-brigada" },
+  { label: "Laudo de estanqueidade de gas", href: "/laudo-estanqueidade-gas-sao-paulo" },
+];
+
+const baseFaqs: PtotepFaq[] = [
+  {
+    question: "PTOTEP substitui o AVCB da edificacao?",
+    answer:
+      "Nao. O AVCB ou a licenca da edificacao permanente trata o uso normal do imovel. O PTOTEP trata a ocupacao temporaria criada pelo evento, feira, show, exposicao ou montagem especial.",
+  },
+  {
+    question: "Evento pequeno tambem pode precisar de regularizacao?",
+    answer:
+      "Pode. A necessidade depende da lotacao, controle de acesso, tipo de montagem, uso de estruturas temporarias, interferencia nas rotas de fuga e exigencias do local. A analise tecnica evita enquadramento errado.",
+  },
+  {
+    question: "Quanto tempo antes do evento devo iniciar o processo?",
+    answer:
+      "O ideal e iniciar antes da montagem e com folga para protocolo, eventuais ajustes e vistoria. Eventos com palco, stands, GLP, shopping ou grande publico precisam de planejamento antecipado.",
+  },
+];
+
+function page(input: PtotepPage): PtotepPage {
+  return {
+    ...input,
+    process: input.process.length ? input.process : baseProcess,
+    documents: input.documents.length ? input.documents : baseDocuments,
+    faqs: [...input.faqs, ...baseFaqs],
+    related: input.related.length ? input.related : baseRelated,
+  };
+}
+
+const eventHero = "/images/page-projetos.webp";
+const shoppingHero = "/images/hero-shopping-sao-paulo.webp";
+const showHero = "/images/hero-bar-com-show.jpg";
+const churchHero = "/images/hero-igreja.webp";
+const sportsHero = "/images/page-treinamento-brigada.webp";
+
+export const ptotepPages: PtotepPage[] = [
+  page({
+    slug: "/ptotep",
+    kind: "principal",
+    label: "PTOTEP",
+    eyebrow: "Evento temporario em edificacao permanente",
+    title: "PTOTEP | Projeto Tecnico de Ocupacao Temporaria em Edificacao Permanente",
+    description:
+      "PTOTEP para eventos temporarios em edificacao permanente. Projeto, documentos, ART, protocolo no Corpo de Bombeiros e suporte tecnico para liberar eventos com seguranca.",
+    h1: "Projeto Tecnico de Ocupacao Temporaria em Edificacao Permanente",
+    lead:
+      "Regularize eventos temporarios dentro de shopping, igreja, escola, centro de convencoes, hotel, galpao, teatro ou edificio ja existente sem colocar o AVCB do local em risco.",
+    heroImage: eventHero,
+    imageAlt: "Projeto tecnico de evento temporario em edificacao permanente",
+    focus:
+      "PTOTEP e o caminho tecnico para demonstrar que o evento temporario nao prejudica as medidas de seguranca ja previstas para a edificacao permanente e que as instalacoes adicionais foram tratadas corretamente.",
+    contextTitle: "Quando o PTOTEP entra no jogo",
+    context: [
+      "A ocupacao temporaria muda a logica de uso do imovel: aumenta publico, cria stands, fecha corredores, instala palco, usa gerador, muda rota de fuga ou concentra pessoas em areas que nao foram pensadas para aquele evento.",
+      "O ponto critico e cruzar a licenca existente da edificacao com a atividade temporaria. Um evento dentro de local regularizado ainda pode exigir projeto proprio se alterar lotacao, layout ou medidas de seguranca.",
+      "A DRD2 conduz a leitura tecnica, organiza documentos, emite ART quando aplicavel e acompanha o protocolo para reduzir risco de exigencia na vespera do evento.",
+    ],
+    riskTitle: "Riscos de deixar para a semana do evento",
+    risks: [
+      "montagem aprovada pelo shopping ou contratante, mas recusada na leitura tecnica de seguranca",
+      "bloqueio de rota de fuga por stand, palco, fila, gradil ou area VIP",
+      "lotacao sem controle de acesso proprio",
+      "uso de eletrica, GLP ou gerador sem documentos tecnicos",
+      "interdicao, atraso de abertura ou cancelamento por falta de regularizacao",
+    ],
+    process: [],
+    documents: [],
+    faqs: [
+      {
+        question: "O que significa PTOTEP?",
+        answer:
+          "PTOTEP significa Projeto Tecnico de Ocupacao Temporaria em Edificacao Permanente. E usado para eventos temporarios realizados dentro ou vinculados a uma edificacao existente.",
+      },
+    ],
+    related: [
+      { label: "AVCB para feira", href: "/avcb-para-feira" },
+      { label: "AVCB para show", href: "/avcb-para-show" },
+      { label: "Quanto custa PTOTEP", href: "/quanto-custa-ptotep" },
+      { label: "Documentos necessarios PTOTEP", href: "/documentos-necessarios-ptotep" },
+    ],
+    ctaOccupation: "PTOTEP para evento temporario",
+  }),
+  page({
+    slug: "/avcb-para-feira",
+    kind: "evento",
+    label: "AVCB para feira",
+    eyebrow: "Feiras, stands e exposicoes comerciais",
+    title: "AVCB para Feira | PTOTEP para Stands e Eventos Temporarios",
+    description:
+      "AVCB para feira: entenda quando o correto e PTOTEP. Projeto para stands, rotas de fuga, eletrica, lotacao e protocolo junto ao Corpo de Bombeiros.",
+    h1: "AVCB para Feira: quando o correto e PTOTEP",
+    lead:
+      "Feiras criam corredores temporarios, stands, deposito, carga eletrica, publico flutuante e pontos de atendimento. O projeto precisa provar que essa montagem nao compromete a seguranca do local.",
+    heroImage: eventHero,
+    imageAlt: "Feira com stands temporarios para regularizacao PTOTEP",
+    focus:
+      "A busca por AVCB para feira normalmente esconde a necessidade de um projeto temporario. O foco e layout, acesso de publico, materiais, eletrica dos stands e compatibilidade com a licenca do pavilhao ou shopping.",
+    contextTitle: "O que costuma travar feira",
+    context: [
+      "Stands que invadem rota de fuga ou reduzem largura de corredores criam risco direto de exigencia.",
+      "Pontos de energia, decoracao, tecidos, paineis, cozinha demonstrativa e material promocional precisam ser avaliados antes da montagem.",
+      "A organizadora precisa alinhar o projeto com regras do local, bombeiros, seguradora e contrato com expositores.",
+    ],
+    riskTitle: "Pontos de atencao em feiras",
+    risks: [
+      "corredor de circulacao menor que o necessario para a lotacao",
+      "stands com carga eletrica sem ART ou documento tecnico",
+      "deposito improvisado em area de escape",
+      "controle de acesso incompatavel com a capacidade do local",
+      "montagem diferente do layout protocolado",
+    ],
+    process: [],
+    documents: [],
+    faqs: [],
+    related: baseRelated,
+    ctaOccupation: "feira temporaria",
+  }),
+  page({
+    slug: "/avcb-para-show",
+    kind: "evento",
+    label: "AVCB para show",
+    eyebrow: "Shows, palcos e publico em pe",
+    title: "AVCB para Show | PTOTEP para Evento Musical",
+    description:
+      "AVCB para show e evento musical: projeto PTOTEP para palco, publico, saídas, brigada, eletrica, gerador e aprovacao junto aos Bombeiros.",
+    h1: "AVCB para Show: regularizacao tecnica do evento",
+    lead:
+      "Show temporario muda lotacao, fluxo de entrada, rotas de fuga, potencia eletrica, som, palco e isolamento de publico. A regularizacao precisa nascer junto com o mapa do evento.",
+    heroImage: showHero,
+    imageAlt: "Ambiente de show com publico e estrutura temporaria",
+    focus:
+      "Para show em edificacao permanente, o PTOTEP organiza palco, house mix, bares, camarins, filas, saidas, brigada e equipamentos temporarios sem comprometer a licenca original do local.",
+    contextTitle: "Por que show e sensivel",
+    context: [
+      "A maior parte dos problemas aparece na relacao entre publico em pe, pouca iluminacao, sinalizacao temporaria e rotas obstruidas.",
+      "Geradores, cabos, grids, cenografia, efeitos especiais e areas VIP precisam conversar com o projeto de seguranca.",
+      "Quando a casa ja tem AVCB, o evento nao pode reduzir as condicoes de abandono previstas para o uso aprovado.",
+    ],
+    riskTitle: "Falhas comuns em shows",
+    risks: [
+      "lotacao superior ao dimensionamento das saidas",
+      "palco ou house mix bloqueando rota de fuga",
+      "cabos e equipamentos atravessando areas de circulacao",
+      "sinalizacao de emergencia escondida por cenografia",
+      "brigada insuficiente para horario e perfil do publico",
+    ],
+    process: [],
+    documents: [],
+    faqs: [],
+    related: baseRelated,
+    ctaOccupation: "show ou evento musical",
+  }),
+  page({
+    slug: "/avcb-para-exposicao",
+    kind: "evento",
+    label: "AVCB para exposicao",
+    eyebrow: "Exposicoes, galerias e mostras",
+    title: "AVCB para Exposicao | PTOTEP para Mostras e Galerias",
+    description:
+      "Regularizacao de exposicao temporaria com PTOTEP. Analise de fluxo, stands, cenografia, iluminacao, rotas de fuga e documentos para Bombeiros.",
+    h1: "AVCB para Exposicao Temporaria",
+    lead:
+      "Exposicoes parecem simples, mas paineis, divisorias, fluxo em salas, obras, iluminacao cenografica e filas podem alterar a seguranca prevista para o local.",
+    heroImage: eventHero,
+    imageAlt: "Exposicao temporaria com paineis e circulacao de publico",
+    focus:
+      "O projeto de exposicao precisa proteger circulacao, saidas, materiais de acabamento, iluminacao, instalacoes temporarias e compatibilidade com a ocupacao permanente.",
+    contextTitle: "O que avaliar em exposicoes",
+    context: [
+      "Paineis e divisorias podem criar labirintos ou esconder placas e luminarias de emergencia.",
+      "Eventos de abertura concentram publico acima da rotina normal do local.",
+      "Instalacoes eletricas temporarias para luz e audiovisual precisam de documentacao e execucao segura.",
+    ],
+    riskTitle: "Riscos frequentes",
+    risks: [
+      "rota de fuga transformada em area expositiva",
+      "controle de acesso inexistente em vernissage ou abertura",
+      "carga eletrica temporaria sem responsabilidade tecnica",
+      "material cenografico sem avaliacao de reacao ao fogo",
+      "sinalizacao do local encoberta pela comunicacao visual",
+    ],
+    process: [],
+    documents: [],
+    faqs: [],
+    related: baseRelated,
+    ctaOccupation: "exposicao temporaria",
+  }),
+  page({
+    slug: "/avcb-para-evento-corporativo",
+    kind: "evento",
+    label: "AVCB para evento corporativo",
+    eyebrow: "Congressos, convencoes e treinamentos",
+    title: "AVCB para Evento Corporativo | PTOTEP para Convencoes",
+    description:
+      "PTOTEP para evento corporativo em hotel, centro de convencoes, auditório ou empresa. Regularizacao de publico, palco, stands, eletrica e rotas.",
+    h1: "AVCB para Evento Corporativo e Convencao",
+    lead:
+      "Evento corporativo em hotel, predio comercial ou centro de convencoes costuma juntar palco, credenciamento, coffee break, stands, audiovisual e grande fluxo em horarios concentrados.",
+    heroImage: "/images/page-servicos.webp",
+    imageAlt: "Evento corporativo com montagem temporaria",
+    focus:
+      "A regularizacao deve proteger entrada, credenciamento, auditorios, salas paralelas, areas de coffee, expositores e uso temporario de equipamentos.",
+    contextTitle: "Onde o corporativo reprova",
+    context: [
+      "O contratante costuma assumir que o AVCB do hotel ou centro de eventos cobre tudo, mas a montagem pode alterar a condicao aprovada.",
+      "Credenciamento, filas e buffet podem bloquear portas e corredores se nao forem posicionados com criterio tecnico.",
+      "Audiovisual, paineis de LED e cenografia elevam a demanda eletrica e exigem responsabilidade tecnica.",
+    ],
+    riskTitle: "Itens criticos",
+    risks: [
+      "fila de credenciamento em frente a saida",
+      "sala com lotacao acima do permitido",
+      "palco temporario sem ART ou memorial",
+      "coffee break em corredor de abandono",
+      "layout final diferente do enviado ao local",
+    ],
+    process: [],
+    documents: [],
+    faqs: [],
+    related: baseRelated,
+    ctaOccupation: "evento corporativo",
+  }),
+  page({
+    slug: "/avcb-para-evento-em-shopping",
+    kind: "evento",
+    label: "AVCB para evento em shopping",
+    eyebrow: "Atrios, malls e ativacoes de marca",
+    title: "AVCB para Evento em Shopping | PTOTEP para Ativacao e Feira",
+    description:
+      "Regularizacao de evento em shopping com PTOTEP. Analise de mall, atrio, stands, filas, eletrica, rotas de fuga e compatibilidade com AVCB do shopping.",
+    h1: "AVCB para Evento em Shopping",
+    lead:
+      "Ativacao em shopping parece simples, mas qualquer stand, fila, palco, exposicao de produto ou area promocional interfere no mall, nas rotas e na operacao do empreendimento.",
+    heroImage: shoppingHero,
+    imageAlt: "Shopping com evento temporario em area comum",
+    focus:
+      "O PTOTEP em shopping precisa preservar o AVCB do empreendimento, as rotas principais, as lojas vizinhas, o controle de publico e a seguranca da montagem.",
+    contextTitle: "O que o shopping costuma exigir",
+    context: [
+      "Layout aprovado pela administracao, ARTs, memorial de montagem, documentos de eletrica e indicacao clara de area ocupada.",
+      "Nao basta caber no mall: a montagem precisa preservar fluxo, hidrantes, extintores, botoeiras, placas e acesso da brigada.",
+      "Eventos em atrio ou praca central podem exigir controle de acesso proprio quando atraem publico acima da rotina do shopping.",
+    ],
+    riskTitle: "Riscos em shopping",
+    risks: [
+      "stand bloqueando hidrante, extintor ou rota de fuga",
+      "fila ocupando circulacao do mall",
+      "carga eletrica temporaria sem compatibilizacao",
+      "cenografia escondendo sinalizacao de emergencia",
+      "evento com publico maior que a area comporta",
+    ],
+    process: [],
+    documents: [],
+    faqs: [],
+    related: baseRelated,
+    ctaOccupation: "evento em shopping",
+  }),
+  page({
+    slug: "/ptotep-para-evento-em-igreja",
+    kind: "evento",
+    label: "PTOTEP para igreja",
+    eyebrow: "Congressos, shows gospel e encontros religiosos",
+    title: "PTOTEP para Evento em Igreja | Regularizacao de Evento Religioso",
+    description:
+      "PTOTEP para evento temporario em igreja, templo ou auditorio religioso. Analise de lotacao, palco, fluxo, brigada, eletrica e saídas de emergencia.",
+    h1: "PTOTEP para Evento em Igreja",
+    lead:
+      "Conferencias, shows, encontros e congressos religiosos podem aumentar lotacao e transformar o uso normal do templo. A seguranca precisa acompanhar essa mudanca.",
+    heroImage: churchHero,
+    imageAlt: "Igreja preparada para evento religioso temporario",
+    focus:
+      "O projeto avalia se o evento mantem as condicoes de abandono, controle de publico, palco, equipamentos de som e areas de apoio sem reduzir a seguranca do templo.",
+    contextTitle: "Cuidados em eventos religiosos",
+    context: [
+      "Eventos especiais recebem publico visitante que nao conhece as saidas e circulacoes da igreja.",
+      "Palco, som, iluminacao, transmissao e cenografia podem ocupar areas criticas.",
+      "Quando ha alimentacao, barracas, cozinha ou GLP, o risco muda e precisa ser tratado no projeto.",
+    ],
+    riskTitle: "Pontos sensiveis",
+    risks: [
+      "lotacao sem controle em culto especial ou congresso",
+      "palco temporario reduzindo corredor ou saida",
+      "cabos, som e iluminacao sem documento tecnico",
+      "criancas, idosos e publico vulneravel sem planejamento de abandono",
+      "cozinha temporaria sem laudo ou responsabilidade tecnica",
+    ],
+    process: [],
+    documents: [],
+    faqs: [],
+    related: baseRelated,
+    ctaOccupation: "evento em igreja",
+  }),
+  page({
+    slug: "/ptotep-para-festival",
+    kind: "evento",
+    label: "PTOTEP para festival",
+    eyebrow: "Festival indoor, gastronomico ou cultural",
+    title: "PTOTEP para Festival | Regularizacao junto aos Bombeiros",
+    description:
+      "PTOTEP para festival em edificacao permanente. Projeto para publico, palco, food trucks, stands, eletrica, GLP, saídas e brigada.",
+    h1: "PTOTEP para Festival Temporario",
+    lead:
+      "Festival concentra publico, alimentacao, musica, marcas, filas e estruturas temporarias. O projeto precisa amarrar todas essas camadas antes da montagem.",
+    heroImage: showHero,
+    imageAlt: "Festival com estrutura temporaria e publico",
+    focus:
+      "A regularizacao de festival cruza lotacao, controle de acesso, areas de alimentacao, estruturas, palcos, eletrica, atendimento de emergencia e rotas.",
+    contextTitle: "Por que festival exige projeto robusto",
+    context: [
+      "Festivais costumam mudar durante a producao: novos patrocinadores, stands e areas VIP surgem perto da data.",
+      "Cada mudanca de layout pode afetar rotas de fuga, largura de circulacao e acesso da brigada.",
+      "O controle de acesso e essencial quando a ocupacao temporaria fica delimitada por grades, bilheteria ou barreiras.",
+    ],
+    riskTitle: "Riscos que precisam ser resolvidos",
+    risks: [
+      "food area com GLP sem setorizacao e laudos",
+      "palco e estruturas sem ART/RRT",
+      "publico sem rota clara para saida",
+      "barreiras de patrocinador bloqueando fluxo",
+      "gerador e cabos em area de circulacao",
+    ],
+    process: [],
+    documents: [],
+    faqs: [],
+    related: baseRelated,
+    ctaOccupation: "festival temporario",
+  }),
+  page({
+    slug: "/ptotep-para-food-park",
+    kind: "evento",
+    label: "PTOTEP para food park",
+    eyebrow: "Food park, gastronomia e operacao temporaria",
+    title: "PTOTEP para Food Park | AVCB para Evento Gastronomico",
+    description:
+      "PTOTEP para food park e evento gastronomico. Analise de GLP, eletrica, barracas, food trucks, fluxo, extintores, rotas e documentacao.",
+    h1: "PTOTEP para Food Park e Evento Gastronomico",
+    lead:
+      "Food park temporario combina publico, cocção, GLP, energia, tendas, mesas, filas e food trucks. A regularizacao precisa tratar risco de incendio e fluxo ao mesmo tempo.",
+    heroImage: "/images/bg-restaurante.jpg",
+    imageAlt: "Evento gastronomico temporario com publico e operacao de alimentos",
+    focus:
+      "A pagina atende quem procura AVCB para food park, feira gastronomica ou evento de alimentacao, explicando quando o processo correto e PTOTEP.",
+    contextTitle: "O que mais pesa em food park",
+    context: [
+      "Cilindros de GLP, fritadeiras, chapas, geradores e tendas alteram o risco da ocupacao temporaria.",
+      "Mesas, filas e ilhas de atendimento podem ocupar area de escape se o layout nascer sem criterio.",
+      "Food trucks e barracas precisam entrar no projeto com afastamentos, extintores e documentacao tecnica.",
+    ],
+    riskTitle: "Falhas comuns",
+    risks: [
+      "GLP sem laudo, afastamento ou setorizacao",
+      "fritadeira sem extintor adequado",
+      "tendas e lonas sem avaliacao de material",
+      "filas cruzando rota de fuga",
+      "gerador sem isolamento e ART",
+    ],
+    process: [],
+    documents: [],
+    faqs: [],
+    related: [
+      { label: "Laudo de estanqueidade de gas", href: "/laudo-estanqueidade-gas-sao-paulo" },
+      { label: "AVCB para restaurante", href: "/avcb-restaurante-sao-paulo" },
+      { label: "PTOTEP", href: "/ptotep" },
+      { label: "Projeto de incendio", href: "/projetos-incendio" },
+    ],
+    ctaOccupation: "food park temporario",
+  }),
+  page({
+    slug: "/ptotep-para-evento-esportivo",
+    kind: "evento",
+    label: "PTOTEP para evento esportivo",
+    eyebrow: "Torneios, arenas e estruturas temporarias",
+    title: "PTOTEP para Evento Esportivo | Regularizacao Bombeiros",
+    description:
+      "PTOTEP para evento esportivo em ginasio, clube, arena ou escola. Projeto para publico, arquibancada, rotas, estruturas e atendimento de emergencia.",
+    h1: "PTOTEP para Evento Esportivo",
+    lead:
+      "Eventos esportivos mudam fluxo, criam arquibancadas temporarias, areas de atleta, bilheteria, patrocinadores e concentracao de publico em horarios de pico.",
+    heroImage: sportsHero,
+    imageAlt: "Evento esportivo com publico e estrutura temporaria",
+    focus:
+      "O projeto precisa dimensionar rotas, controlar publico, proteger areas de competicao e garantir que estruturas temporarias tenham responsabilidade tecnica.",
+    contextTitle: "Onde o evento esportivo aperta",
+    context: [
+      "Arquibancadas, grades, tendas, pórticos e ativações de patrocinador mudam a circulacao.",
+      "Entrada e saida em massa exigem controle de acesso, orientacao de publico e rotas claras.",
+      "A area de ambulancia, equipe medica e brigada precisa permanecer acessivel durante todo o evento.",
+    ],
+    riskTitle: "Riscos recorrentes",
+    risks: [
+      "arquibancada temporaria sem ART/RRT",
+      "gradeamento bloqueando saida",
+      "publico em area nao prevista",
+      "ponto medico sem acesso livre",
+      "instalacoes eletricas de placar, som ou transmissao sem documentacao",
+    ],
+    process: [],
+    documents: [],
+    faqs: [],
+    related: baseRelated,
+    ctaOccupation: "evento esportivo",
+  }),
+  page({
+    slug: "/ptotep-para-evento-universitario",
+    kind: "evento",
+    label: "PTOTEP para evento universitario",
+    eyebrow: "Semanas academicas, shows e feiras em campus",
+    title: "PTOTEP para Evento Universitario | Bombeiros e Seguranca",
+    description:
+      "PTOTEP para evento universitario em campus, escola ou faculdade. Projeto para publico, stands, palco, alimentacao, rotas, brigada e documentacao.",
+    h1: "PTOTEP para Evento Universitario",
+    lead:
+      "Evento universitario mistura auditório, feira, show, praça de alimentacao e publico jovem em campus que normalmente tem uso educacional. Essa mudanca precisa ser formalizada.",
+    heroImage: "/images/hero-escola.webp",
+    imageAlt: "Campus educacional preparado para evento temporario",
+    focus:
+      "O PTOTEP para universidade protege o uso temporario sem travar aulas, laboratorios e rotas de fuga do campus.",
+    contextTitle: "Cuidados em campus e faculdades",
+    context: [
+      "O evento pode ocupar patio, quadra, auditorio, biblioteca, laboratorios ou estacionamento.",
+      "A rotina academica continua, entao o projeto precisa separar fluxo de alunos, visitantes, fornecedores e equipes.",
+      "Quando ha barracas, palco, som ou food trucks, documentos tecnicos entram no processo.",
+    ],
+    riskTitle: "Pontos de risco",
+    risks: [
+      "mistura de publico do evento com alunos em horario letivo",
+      "uso de quadra ou patio sem dimensionar saidas",
+      "food trucks e barracas sem documentos de GLP",
+      "palco e som temporarios sem responsabilidade tecnica",
+      "rotas do campus bloqueadas por fila ou patrocinador",
+    ],
+    process: [],
+    documents: [],
+    faqs: [],
+    related: baseRelated,
+    ctaOccupation: "evento universitario",
+  }),
+  ...[
+    ["Sao Paulo", "ptotep-sao-paulo", "Capital com maior volume de eventos corporativos, feiras, shopping centers, igrejas, universidades e centros de convencoes."],
+    ["Barueri", "ptotep-barueri", "Alphaville e Barueri concentram eventos corporativos, feiras empresariais, shopping centers, hoteis e condominios comerciais."],
+    ["Guarulhos", "ptotep-guarulhos", "Guarulhos combina eventos logisticos, hoteis de aeroporto, galpoes, igrejas, clubes e centros comerciais com grande fluxo regional."],
+    ["Osasco", "ptotep-osasco", "Osasco tem demanda forte em shoppings, universidades, empresas, centros de treinamento, varejo e eventos corporativos."],
+    ["Santo Andre", "ptotep-santo-andre", "Santo Andre e estrategico para eventos no ABC, com clubes, universidades, centros comerciais, igrejas e operacoes industriais."],
+    ["Sao Bernardo do Campo", "ptotep-sao-bernardo-do-campo", "Sao Bernardo do Campo reune eventos empresariais, industriais, universidades, igrejas e centros esportivos com publico intenso."],
+    ["Sao Caetano do Sul", "ptotep-sao-caetano-do-sul", "Sao Caetano do Sul tem eventos em clubes, escolas, auditorios, shoppings, igrejas e predios corporativos com espacos compactos."],
+    ["Campinas", "ptotep-campinas", "Campinas concentra universidades, tecnologia, saude, hoteis, shopping centers e eventos corporativos de grande porte."],
+    ["Sorocaba", "ptotep-sorocaba", "Sorocaba atende eventos industriais, feiras regionais, universidades, shopping centers, igrejas e centros empresariais."],
+    ["Ribeirao Preto", "ptotep-ribeirao-preto", "Ribeirao Preto tem forte agenda de feiras, agronegocio, eventos medicos, universidades, shopping centers e shows indoor."],
+  ].map(([city, slug, cityContext]) =>
+    page({
+      slug: `/${slug}`,
+      kind: "cidade",
+      label: `PTOTEP ${city}`,
+      eyebrow: `Regularizacao de eventos em ${city}`,
+      title: `PTOTEP em ${city} | Projeto para Evento Temporario`,
+      description: `PTOTEP em ${city}: projeto tecnico para ocupacao temporaria em edificacao permanente, documentos, ART, protocolo e suporte para eventos.`,
+      h1: `PTOTEP em ${city}`,
+      lead: `Regularizacao tecnica para eventos temporarios em edificacoes permanentes em ${city}, com analise de lotacao, rotas, montagem, documentos e protocolo no Corpo de Bombeiros.`,
+      heroImage: eventHero,
+      imageAlt: `Evento temporario em edificacao permanente em ${city}`,
+      focus: `Em ${city}, o PTOTEP e indicado quando o evento altera o uso normal de shopping, hotel, igreja, universidade, centro empresarial, clube ou galpao regularizado.`,
+      contextTitle: `Demanda de eventos em ${city}`,
+      context: [
+        cityContext,
+        "A DRD2 avalia a licenca existente do imovel, o layout temporario e os documentos de montagem antes de orientar o protocolo.",
+        "Essa etapa evita que o organizador descubra tarde que palco, stand, food area, fila ou credenciamento comprometeram a seguranca do local.",
+      ],
+      riskTitle: `Riscos comuns em ${city}`,
+      risks: [
+        "evento aprovado comercialmente pelo local, mas sem leitura tecnica da ocupacao temporaria",
+        "alteracao de rota de fuga por palco, stand, grade ou fila",
+        "documentos de eletrica, GLP, palco ou estruturas entregues fora do prazo",
+        "controle de acesso insuficiente para publico estimado",
+        "montagem final diferente do projeto enviado",
+      ],
+      process: [],
+      documents: [],
+      faqs: [
+        {
+          question: `A DRD2 atende PTOTEP em ${city}?`,
+          answer: `Sim. A DRD2 atende eventos temporarios em ${city} com diagnostico tecnico, orientacao documental, projeto e acompanhamento do processo.`,
+        },
+      ],
+      related: baseRelated,
+      ctaOccupation: `PTOTEP em ${city}`,
+    })
+  ),
+  page({
+    slug: "/quanto-custa-ptotep",
+    kind: "duvida",
+    label: "Quanto custa PTOTEP",
+    eyebrow: "Preco, escopo e variaveis",
+    title: "Quanto Custa PTOTEP | Preco para Regularizar Evento",
+    description:
+      "Quanto custa PTOTEP? Entenda os fatores que alteram o preco: tipo de evento, cidade, publico, montagem, ART, documentos e prazo.",
+    h1: "Quanto custa PTOTEP?",
+    lead:
+      "O custo do PTOTEP depende menos do nome do evento e mais do risco criado pela ocupacao temporaria: publico, layout, estruturas, eletrica, GLP, prazos e exigencias do local.",
+    heroImage: eventHero,
+    imageAlt: "Orcamento tecnico para PTOTEP de evento temporario",
+    focus:
+      "Uma feira simples em shopping tem custo diferente de festival com palco, food area, gerador e grande publico. O diagnostico tecnico separa o que e projeto, laudo, ART, adequacao e protocolo.",
+    contextTitle: "Variaveis que mudam o valor",
+    context: [
+      "Quanto maior a interferencia no uso normal do imovel, maior tende a ser o trabalho tecnico.",
+      "Eventos com GLP, geradores, palco, estruturas, arquibancadas, stands ou alta lotacao exigem mais documentos.",
+      "Prazos curtos aumentam risco de retrabalho e exigem decisao rapida sobre layout, fornecedores e responsabilidade tecnica.",
+    ],
+    riskTitle: "O barato que costuma sair caro",
+    risks: [
+      "orcar sem ver o layout final do evento",
+      "ignorar documentos de fornecedores",
+      "protocolo incompleto perto da data",
+      "ausencia de ART para estrutura ou eletrica",
+      "mudar a montagem depois da analise tecnica",
+    ],
+    process: [],
+    documents: [],
+    faqs: [
+      {
+        question: "Existe preco fixo para PTOTEP?",
+        answer:
+          "Nao e recomendavel trabalhar com preco fixo sem diagnostico. O escopo muda conforme risco, tamanho, publico, documentos, cidade e tipo de montagem.",
+      },
+    ],
+    related: baseRelated,
+    ctaOccupation: "orcamento de PTOTEP",
+  }),
+  page({
+    slug: "/prazo-aprovacao-bombeiros-evento",
+    kind: "duvida",
+    label: "Prazo aprovacao bombeiros evento",
+    eyebrow: "Cronograma e protocolo",
+    title: "Prazo de Aprovacao dos Bombeiros para Evento | PTOTEP",
+    description:
+      "Prazo de aprovacao dos Bombeiros para evento temporario: entenda planejamento, documentos, protocolo PTOTEP, montagem e vistoria.",
+    h1: "Prazo de aprovacao dos Bombeiros para evento",
+    lead:
+      "O prazo depende da qualidade do projeto, antecedencia, documentos de fornecedores, tipo de evento e disponibilidade para corrigir exigencias antes da montagem.",
+    heroImage: eventHero,
+    imageAlt: "Cronograma de aprovacao dos Bombeiros para evento",
+    focus:
+      "Evento com documentacao organizada anda melhor. Evento que muda layout, fornecedor ou lotacao perto da data cria risco de exigencia e atraso.",
+    contextTitle: "Como pensar o cronograma",
+    context: [
+      "A primeira etapa e travar o layout: entradas, saidas, palco, stands, area de alimentacao, filas, banheiros e apoio.",
+      "Depois entram documentos de cada fornecedor, como eletrica, estruturas, gerador, GLP e montagem.",
+      "Com isso, o projeto pode ser protocolado com muito menos risco de volta por informacao incompleta.",
+    ],
+    riskTitle: "O que atrasa a aprovacao",
+    risks: [
+      "layout mudando a cada revisao comercial",
+      "fornecedor sem ART/RRT ou memorial",
+      "licenca do imovel permanente irregular ou desatualizada",
+      "informacao de lotacao sem criterio tecnico",
+      "protocolo feito perto demais da data do evento",
+    ],
+    process: [],
+    documents: [],
+    faqs: [
+      {
+        question: "Da para aprovar PTOTEP de ultima hora?",
+        answer:
+          "Depende do risco e da documentacao disponivel, mas ultima hora aumenta muito a chance de exigencia, retrabalho e atraso de montagem.",
+      },
+    ],
+    related: baseRelated,
+    ctaOccupation: "prazo de aprovacao para evento",
+  }),
+  page({
+    slug: "/documentos-necessarios-ptotep",
+    kind: "duvida",
+    label: "Documentos necessarios PTOTEP",
+    eyebrow: "Checklist documental",
+    title: "Documentos Necessarios para PTOTEP | Checklist do Evento",
+    description:
+      "Documentos necessarios para PTOTEP: licenca da edificacao, layout, ART/RRT, memorial, documentos de palco, eletrica, GLP, gerador e brigada.",
+    h1: "Documentos necessarios para PTOTEP",
+    lead:
+      "Documento faltando costuma ser a maior causa de atraso em evento temporario. O checklist precisa nascer do layout e dos fornecedores reais da montagem.",
+    heroImage: eventHero,
+    imageAlt: "Checklist de documentos para PTOTEP",
+    focus:
+      "A lista muda conforme evento, mas sempre precisa conectar ocupacao permanente, montagem temporaria, responsabilidade tecnica e controle de publico.",
+    contextTitle: "Como organizar os documentos",
+    context: [
+      "Primeiro vem o imovel: licenca existente, area, uso aprovado e condicoes de seguranca.",
+      "Depois vem o evento: layout, lotacao, periodo, horarios, montagem, desmontagem e controle de acesso.",
+      "Por fim entram fornecedores: palco, som, luz, eletrica, gerador, tendas, stands, GLP, food trucks e estruturas.",
+    ],
+    riskTitle: "Documentos que mais geram pendencia",
+    risks: [
+      "ART generica sem escopo claro",
+      "layout sem cotas ou sem saidas de emergencia",
+      "memorial sem lotacao e controle de acesso",
+      "fornecedor de estrutura sem documento tecnico",
+      "GLP ou gerador sem laudo aplicavel",
+    ],
+    process: [],
+    documents: baseDocuments,
+    faqs: [
+      {
+        question: "Preciso de ART para todo evento?",
+        answer:
+          "A necessidade depende das instalacoes e responsabilidades tecnicas envolvidas. Palco, estrutura, eletrica, gerador, GLP e montagens temporarias normalmente exigem documentos tecnicos especificos.",
+      },
+    ],
+    related: baseRelated,
+    ctaOccupation: "documentacao de PTOTEP",
+  }),
+  page({
+    slug: "/diferenca-avcb-ptotep",
+    kind: "duvida",
+    label: "Diferenca AVCB e PTOTEP",
+    eyebrow: "AVCB, CLCB e evento temporario",
+    title: "Diferenca entre AVCB e PTOTEP | Evento Temporario",
+    description:
+      "Entenda a diferenca entre AVCB e PTOTEP. O AVCB licencia a edificacao permanente; o PTOTEP trata a ocupacao temporaria do evento.",
+    h1: "Diferenca entre AVCB e PTOTEP",
+    lead:
+      "AVCB e PTOTEP nao sao a mesma coisa. O AVCB comprova a seguranca da edificacao no uso aprovado. O PTOTEP avalia o evento temporario que altera esse uso.",
+    heroImage: "/images/page-avcb.webp",
+    imageAlt: "Comparativo entre AVCB e PTOTEP para evento",
+    focus:
+      "Essa diferenca e essencial para shopping, hotel, igreja, universidade, centro de convencoes e qualquer local que ja tenha AVCB, mas receba montagem temporaria.",
+    contextTitle: "Como explicar para o organizador",
+    context: [
+      "O AVCB da edificacao e a base. Sem ele, o evento ja comeca com risco documental.",
+      "O PTOTEP olha o que o evento muda: publico, layout, estrutura, rota, energia, GLP, palco, stands e acesso.",
+      "Um evento pode acontecer em local regularizado e ainda assim precisar de regularizacao propria.",
+    ],
+    riskTitle: "Erros de entendimento",
+    risks: [
+      "achar que o AVCB do local cobre qualquer evento",
+      "montar palco ou stand sem avaliar rota de fuga",
+      "usar uma declaracao generica no lugar de projeto",
+      "nao separar responsabilidade do local e do organizador",
+      "ignorar aumento de lotacao temporaria",
+    ],
+    process: [],
+    documents: [],
+    faqs: [
+      {
+        question: "Se o local tem AVCB vigente, preciso de PTOTEP?",
+        answer:
+          "Pode precisar. Se o evento altera lotacao, layout, uso, rotas, estruturas ou medidas de seguranca, a ocupacao temporaria deve ser avaliada separadamente.",
+      },
+    ],
+    related: baseRelated,
+    ctaOccupation: "diferenca entre AVCB e PTOTEP",
+  }),
+  page({
+    slug: "/quando-precisa-ocupacao-temporaria",
+    kind: "duvida",
+    label: "Quando precisa ocupacao temporaria",
+    eyebrow: "Enquadramento do evento",
+    title: "Quando Precisa de Ocupacao Temporaria | PTOTEP",
+    description:
+      "Quando precisa de ocupacao temporaria no Corpo de Bombeiros? Veja sinais de que feira, show, evento corporativo ou ativacao precisa de PTOTEP.",
+    h1: "Quando precisa de ocupacao temporaria?",
+    lead:
+      "A ocupacao temporaria precisa ser analisada quando o evento muda a forma de uso do local, cria publico adicional, monta estruturas ou interfere nas medidas de seguranca existentes.",
+    heroImage: eventHero,
+    imageAlt: "Analise de quando evento precisa de ocupacao temporaria",
+    focus:
+      "O enquadramento correto evita dois extremos: protocolar algo desnecessario ou abrir evento sem a regularizacao exigida.",
+    contextTitle: "Sinais de que o evento precisa de analise",
+    context: [
+      "Existe controle de acesso, ingresso, lista, credenciamento ou barreira fisica para publico.",
+      "Ha stand, palco, tenda, arquibancada, food area, gerador, GLP, cenografia ou alteracao de layout.",
+      "O evento usa areas que normalmente nao recebem publico ou muda a ocupacao original do imovel.",
+    ],
+    riskTitle: "Quando acender o alerta",
+    risks: [
+      "evento maior que a rotina normal da edificacao",
+      "fechamento de corredor, porta ou rota de fuga",
+      "publico em area externa conectada ao imovel permanente",
+      "uso de equipamentos temporarios de energia, cozinha ou palco",
+      "exigencia de shopping, seguradora, prefeitura, contratante ou Bombeiros",
+    ],
+    process: [],
+    documents: [],
+    faqs: [
+      {
+        question: "Evento em area aberta tambem entra nessa logica?",
+        answer:
+          "Pode entrar, mas o enquadramento muda conforme isolamento, acesso a edificacao permanente, estruturas e controle de publico. A analise tecnica define se e PTOTEP, outro procedimento temporario ou orientacao documental.",
+      },
+    ],
+    related: baseRelated,
+    ctaOccupation: "ocupacao temporaria para evento",
+  }),
+];
+
+export const ptotepPagesBySlug: Record<string, PtotepPage> = Object.fromEntries(
+  ptotepPages.map((item) => [item.slug, item])
+);
+
+export const ptotepMapLinks = ptotepPages.map((item) => ({
+  label: item.label,
+  href: item.slug,
+}));

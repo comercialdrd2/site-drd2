@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview de Ícones DRD2</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: sans-serif; background: #f8fafc; padding: 40px; display: flex; justify-content: center; }
+        .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; max-width: 800px; }
+        .card { background: white; padding: 20px; border-radius: 16px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); border: 1px solid #e2e8f0; display: flex; flex-direction: column; items-center; text-align: center; }
+        .icon-box { w-12 h-12 bg-red-50 rounded-xl p-4 mb-4 flex items-center justify-center text-red-600; }
+        .label { font-weight: bold; font-size: 14px; color: #0f172a; }
+        svg { width: 32px; height: 32px; color: #dc2626; }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="card">
+            <div class="icon-box"><i data-lucide="shield-check"></i></div>
+            <div class="label">AVCB</div>
+        </div>
+        <div class="card">
+            <div class="icon-box"><i data-lucide="file-check-2"></i></div>
+            <div class="label">CLCB</div>
+        </div>
+        <div class="card">
+            <div class="icon-box"><i data-lucide="pencil-ruler"></i></div>
+            <div class="label">Projetos</div>
+        </div>
+        <div class="card">
+            <div class="icon-box"><i data-lucide="siren"></i></div>
+            <div class="label">Alarme</div>
+        </div>
+        <div class="card">
+            <div class="icon-box"><i data-lucide="droplets"></i></div>
+            <div class="label">Sprinklers</div>
+        </div>
+        <div class="card">
+            <div class="icon-box"><i data-lucide="waves"></i></div>
+            <div class="label">Hidrantes</div>
+        </div>
+        <div class="card">
+            <div class="icon-box"><i data-lucide="zap"></i></div>
+            <div class="label">SPDA</div>
+        </div>
+        <div class="card">
+            <div class="icon-box"><i data-lucide="wrench"></i></div>
+            <div class="label">Manutenção</div>
+        </div>
+        <div class="card">
+            <div class="icon-box"><i data-lucide="users"></i></div>
+            <div class="label">Brigada</div>
+        </div>
+        <div class="card">
+            <div class="icon-box"><i data-lucide="wind"></i></div>
+            <div class="label">Escada Pressurizada</div>
+        </div>
+        <div class="card">
+            <div class="icon-box"><i data-lucide="tent"></i></div>
+            <div class="label">PET (Eventos)</div>
+        </div>
+    </div>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+import UniversalSeoPage, { UniversalPageData } from "@/components/UniversalSeoPage";
+
+const pageData: UniversalPageData = {
+  slug: "/avcb-poa",
+  meta: {
+    title: "Regularização de AVCB em Poá SP | DRD2 Engenharia",
+    description: "Regularização e projeto de AVCB e CLCB em Poá. Adequação para indústrias, galpões, condomínios e comércio no Alto Tietê. Sem burocracia e com aprovação garantida.",
+  },
+  eyebrow: "Regularização AVCB - Poá",
+  h1Line1: "Regularização de AVCB",
+  h1Line2: "em Poá",
+  heroBg: "/images/blog/blog_hero_avcb_galpao.webp",
+  introP1: "A DRD2 Engenharia oferece serviços especializados de regularização de AVCB (Auto de Vistoria do Corpo de Bombeiros) para indústrias, condomínios, centros logísticos e comércio em Poá e região do Alto Tietê.",
+  introP2: "Garantimos um processo ágil, sem retrabalho, alinhado às exigências do CBPMESP. Nossa engenharia foca na viabilidade técnica para evitar multas, embargos e problemas com seguradoras.",
+  breadcrumbs: [
+    { label: "Home", href: "/" },
+    { label: "Serviços", href: "/servicos" },
+    { label: "AVCB Poá" },
+  ],
+  h2_principal: {
+    heading: "Sua Edificação em Poá Está Regularizada?",
+    body: "Muitos galpões industriais e condomínios na região de Poá operam com AVCB vencido ou sequer possuem o documento, expondo-se a riscos graves. O Corpo de Bombeiros fiscaliza intensamente o Alto Tietê devido à alta concentração industrial e logística.",
+    body2: "Nós diagnosticamos e resolvemos pendências do seu imóvel, desde o pré-projeto até a obtenção ou renovação do seu certificado de segurança.",
+  },
+  h2_riscos: {
+    heading: "Riscos da Falta do AVCB em Poá",
+    intro: "Empresas sem AVCB sofrem penalidades severas que travam os negócios na região do Alto Tietê.",
+    itens: [
+      {
+        titulo: "Interdição",
+        desc: "O Corpo de Bombeiros e a Prefeitura de Poá podem interditar totalmente a operação do estabelecimento.",
+      },
+      {
+        titulo: "Negativa de Seguros",
+        desc: "Em caso de sinistro, a seguradora negará a indenização caso o AVCB não esteja em vigor e validado.",
+      },
+      {
+        titulo: "Perda de Contratos",
+        desc: "Grandes fornecedores e locatários não fecham negócios com galpões irregulares.",
+      },
+    ],
+  },
+  h2_processo: {
+    heading: "Processo de Regularização em Poá",
+    etapas: [
+      { numero: "01", titulo: "Vistoria Técnica", desc: "Analisamos sua planta em Poá e os sistemas de incêndio." },
+      { numero: "02", titulo: "Engenharia", desc: "Elaboramos ou atualizamos o PPCI (Projeto de Prevenção)." },
+      { numero: "03", titulo: "Aprovação", desc: "Acompanhamos a vistoria do CBPMESP até a emissão do documento." },
+    ],
+  },
+  h2_detalhes: {
+    heading: "Por que a Especialização Importa?",
+    body1: "Regularizar imóveis de alta carga de incêndio ou prédios antigos exige conhecimento prático das Instruções Técnicas do estado de SP.",
+    alerta: "Evite curiosos e aventureiros.",
+    itens: [
+      { titulo: "Cálculo Hidráulico", desc: "Dimensionamos hidrantes e sprinklers para o risco exato do seu negócio em Poá." },
+      { titulo: "Desembaraço Rápido", desc: "Eliminamos pendências técnicas que geram 'Comunique-se'." },
+    ],
+    closing: "Temos vasta experiência no Alto Tietê. A DRD2 é sua parceira de segurança contra incêndio.",
+  },
+  h2_quando: {
+    heading: "Qual o Prazo para o AVCB em Poá?",
+    body1: "O prazo varia conforme a área e o risco do imóvel. O CLCB (baixo risco) costuma ser mais rápido, emitido em até 30 dias. Para edificações maiores ou de risco elevado (AVCB), o processo exige análise de projeto e adequações físicas, podendo levar de 60 a 120 dias no total.",
+    body2: "Recomendamos que síndicos e gestores de manutenção iniciem o processo de renovação pelo menos 90 dias antes do vencimento do AVCB atual.",
+  },
+  h2_escolher: {
+    heading: "Por que escolher a DRD2 em Poá?",
+    body1: "Nosso foco é resolver o problema sem criar novas complicações. Entregamos a aprovação de AVCB com engenharia inteligente e foco no cliente.",
+    body2: "Se o seu imóvel precisa de adequação de alarmes, brigada, extintores ou rotas de fuga, nós garantimos a correta execução.",
+  },
+  h2_cobertura: {
+    heading: "Atendimento no Alto Tietê e Grande SP",
+    body1: "Atendemos Poá, Itaquaquecetuba, Arujá, Ferraz de Vasconcelos, Biritiba Mirim, Guararema e região.",
+    body2: "Nossa equipe realiza visitas técnicas para mapeamento de riscos e orçamentação precisa de sistemas de combate a incêndio.",
+  },
+  faqs: [
+    {
+      question: "O Corpo de Bombeiros de Poá tem regras diferentes da capital?",
+      answer: "Não. A legislação é estadual (Decreto 63.911/18 e Instruções Técnicas), portanto o Corpo de Bombeiros de Poá cobra os mesmos padrões da capital.",
+    },
+    {
+      question: "Qual a diferença entre AVCB e CLCB em Poá?",
+      answer: "O CLCB (Certificado de Licença) é emitido para edificações de menor risco, geralmente até 750m² sem necessidades especiais (como subsolo com grande ocupação). O AVCB (Auto de Vistoria) aplica-se a imóveis maiores ou com maior carga de incêndio (galpões, indústrias, prédios residenciais).",
+    },
+    {
+      question: "Meu galpão em Poá já está pronto, mas o bombeiro pediu adequações. Vocês fazem?",
+      answer: "Sim. A DRD2 avalia as solicitações (Comunique-se), elabora a resposta técnica e executa as adequações físicas necessárias (instalação de alarme, rotas de fuga, hidrantes, etc.).",
+    },
+  ],
+  linksInternos: [
+    { href: "/avcb-sao-paulo", label: "AVCB em São Paulo" },
+    { href: "/alarme-incendio-sao-paulo", label: "Sistema de Alarme" },
+    { href: "/projetos-incendio", label: "Projetos de Incêndio (PPCI)" },
+  ],
+  ctaFinal: {
+    heading: "Resolvemos seu AVCB em Poá",
+    body: "Tire sua empresa ou condomínio da irregularidade. Fale agora com a DRD2 e evite multas.",
+    cta: "SOLICITAR ORÇAMENTO",
+  },
+  occupationType: "imóvel em Poá",
+};
+
+export const metadata = {
+  title: pageData.meta.title,
+  description: pageData.meta.description,
+  alternates: { canonical: pageData.slug },
+};
+
+export default function Page() {
+  return <UniversalSeoPage data={pageData} />;
+}
