@@ -39,7 +39,7 @@ const navLinkClass =
 export default function Header() {
   return (
     <header className="sticky top-0 z-[100] w-full border-b border-white/5 bg-[#0D121F] shadow-xl">
-      <div className="container mx-auto px-4 h-20 flex items-center justify-between">
+      <div className="container mx-auto px-4 h-20 grid grid-cols-[auto_1fr_auto] items-center gap-4">
         <Link href="/" className="flex items-center shrink-0">
           <Image
             src="/images/logo-white.png"
@@ -52,7 +52,7 @@ export default function Header() {
           />
         </Link>
 
-        <nav className="hidden lg:flex items-center gap-8" aria-label="Menu principal">
+        <nav className="hidden lg:flex items-center justify-center gap-8" aria-label="Menu principal">
           <Link href="/" className={navLinkClass}>
             Home
           </Link>
