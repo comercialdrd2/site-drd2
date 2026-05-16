@@ -9,7 +9,6 @@ import {
   FileCheck,
   Flame,
   PartyPopper,
-  Phone,
   Users,
   Wind,
   Wrench,
@@ -106,15 +105,6 @@ export default function Header() {
           <Link href="/sobre" className={navLinkClass}>Sobre</Link>
           <Link href="/contato" className={navLinkClass}>Contato</Link>
         </nav>
-
-        <a
-          href={`tel:+${process.env.NEXT_PUBLIC_WHATSAPP || "5511915131652"}`}
-          className="hidden lg:flex items-center gap-2 text-[11px] font-black text-primary uppercase tracking-widest hover:text-white transition-colors border border-primary/30 px-3 py-2 rounded-xl hover:border-primary"
-          title="Ligar agora"
-        >
-          <Phone className="w-4 h-4" />
-          <span className="hidden xl:inline">(11) 91513-1652</span>
-        </a>
 
         <HeaderMobileMenu />
       </div>
