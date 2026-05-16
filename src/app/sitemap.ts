@@ -188,31 +188,17 @@ function getAllRoutesWithMtime(): Map<string, string> {
   return map;
 }
 
-// Define os 3 segmentos do sitemap
-export async function generateSitemaps() {
-  return [{ id: "pages" }, { id: "neighborhoods" }, { id: "blog" }];
-}
-
-export default async function sitemap({ id }: { id: string }): Promise<MetadataRoute.Sitemap> {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = getBaseUrl();
   const allRoutes = getAllRoutesWithMtime();
 
-  const filtered: Array<[string, string]> = [];
-  Array.from(allRoutes.entries()).forEach(([route, mtime]) => {
-    const isBlog = route.startsWith("/blog/");
-    const isNeigh = isNeighborhood(route) && !isBlog;
-    const isPage = !isBlog && !isNeigh;
+  const all = Array.from(allRoutes.entries());
 
-    if (id === "blog" && isBlog) filtered.push([route, mtime]);
-    else if (id === "neighborhoods" && isNeigh) filtered.push([route, mtime]);
-    else if (id === "pages" && isPage) filtered.push([route, mtime]);
-  });
-
-  filtered.sort(([a], [b]) => {
+  all.sort(([a], [b]) => {
     if (a === "/") return -1;
     if (b === "/") return 1;
     return a.localeCompare(b);
   });
 
-  return filtered.map(([route, mtime]) => toEntry(baseUrl, route, mtime || MAIN_LAST_MOD));
+  return all.map(([route, mtime]) => toEntry(baseUrl, route, mtime || MAIN_LAST_MOD));
 }
