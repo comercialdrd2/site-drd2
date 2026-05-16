@@ -161,7 +161,7 @@ export default function HomePage() {
             <h2 className="text-3xl md:text-4xl font-black text-slate-900 uppercase italic tracking-tight mb-3">
               Soluções Completas em Engenharia de Incêndio
             </h2>
-            <p className="text-slate-500 font-medium">Regularização e engenharia de segurança contra incêndio em São Paulo</p>
+            <p className="text-slate-700 font-medium">Regularização e engenharia de segurança contra incêndio em São Paulo</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
@@ -185,7 +185,7 @@ export default function HomePage() {
                 </div>
                 <div className="flex-1 min-w-0">
                   <h3 className="font-black text-slate-900 text-sm uppercase tracking-tight">{item.name}</h3>
-                  <p className="text-slate-500 text-xs font-medium mt-0.5 truncate">{item.desc}</p>
+                  <p className="text-slate-600 text-xs font-medium mt-0.5 truncate">{item.desc}</p>
                 </div>
                 <ArrowRight className="w-4 h-4 text-slate-300 group-hover:text-primary shrink-0 group-hover:translate-x-1 transition-all" />
               </Link>
@@ -377,13 +377,13 @@ export default function HomePage() {
                   </div>
                 </div>
                 <div className="p-8 flex flex-col flex-grow">
-                  <div className="text-slate-400 text-xs font-bold mb-4 uppercase tracking-tighter flex items-center gap-2">
+                  <div className="text-slate-600 text-xs font-bold mb-4 uppercase tracking-tighter flex items-center gap-2">
                     <BookOpen className="w-3 h-3 text-primary" /> {new Date(post.date).toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' })}
                   </div>
                   <h3 className="text-xl font-bold text-secondary mb-4 group-hover:text-primary transition-all leading-snug">
                     {post.title}
                   </h3>
-                  <p className="text-slate-500 text-sm leading-relaxed line-clamp-3 mb-6 flex-grow">
+                  <p className="text-slate-700 text-sm leading-relaxed line-clamp-3 mb-6 flex-grow">
                     {post.excerpt}
                   </p>
                   <div className="flex items-center gap-2 text-primary font-black text-xs uppercase tracking-widest group-hover:gap-4 transition-all">

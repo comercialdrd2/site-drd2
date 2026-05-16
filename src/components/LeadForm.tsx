@@ -231,7 +231,7 @@ export default function LeadForm({
                 <div>
                   <label className="text-[#1a1a1a] font-bold text-[13px] tracking-[0.5px] flex items-center gap-2 mb-2">
                     <MessageSquare className="w-4 h-4 text-[#CC0000]" /> Como podemos ajudar?
-                    <span className="text-[11px] text-slate-400 font-medium normal-case tracking-normal ml-1">(opcional)</span>
+                    <span className="text-[11px] text-slate-600 font-medium normal-case tracking-normal ml-1">(opcional)</span>
                   </label>
                   <textarea
                     name="message"
@@ -256,11 +256,11 @@ export default function LeadForm({
                       {submitError}
                     </p>
                   )}
-                  <div className="text-center mt-3 text-xs font-bold text-slate-500 flex justify-center items-center gap-4">
+                  <div className="text-center mt-3 text-xs font-bold text-slate-700 flex justify-center items-center gap-4">
                     <span className="flex items-center gap-1 text-green-700"><span className="w-2 h-2 rounded-full bg-green-700 animate-pulse"></span> Resposta rápida</span>
-                    <span className="flex items-center gap-1"><CheckCircle className="w-3 h-3 text-slate-400" /> Sem compromisso</span>
+                    <span className="flex items-center gap-1"><CheckCircle className="w-3 h-3 text-slate-600" /> Sem compromisso</span>
                   </div>
-                  <p className="text-center mt-4 text-[11px] leading-relaxed text-slate-500 font-medium">
+                  <p className="text-center mt-4 text-[11px] leading-relaxed text-slate-700 font-medium">
                     Ao enviar, você concorda com o tratamento dos seus dados pela DRD2 Engenharia para retorno do contato técnico, conforme nossa{" "}
                     <Link href="/politica-de-privacidade" className="text-red-600 font-bold underline hover:text-red-700">
                       Política de Privacidade
