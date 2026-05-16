@@ -211,23 +211,5 @@ export function getIntentCtaLabel(pathname?: string) {
 }
 
 export function buildWhatsAppMessage(intent: string) {
-  const tracking = getLeadTrackingContext();
-
-  return [
-    intent,
-    "",
-    `[Rastreamento do lead]`,
-    `Pagina atual: ${tracking.caminho}`,
-    `Titulo: ${tracking.tituloPagina}`,
-    `URL atual: ${tracking.urlAtual}`,
-    `Pagina de entrada: ${tracking.páginaEntrada}`,
-    `Origem: ${tracking.origem}`,
-    tracking.midia ? `Midia: ${tracking.midia}` : "",
-    tracking.campanha ? `Campanha: ${tracking.campanha}` : "",
-    tracking.termo ? `Palavra-chave/termo: ${tracking.termo}` : "",
-    tracking.conteudo ? `Conteudo: ${tracking.conteudo}` : "",
-    `Referrer: ${tracking.referrer}`,
-    `Tipo de página: ${tracking.tipoPagina}`,
-    `Segmento provavel: ${tracking.segmentoProvavel}`,
-  ].filter(Boolean).join("\n");
+  return intent;
 }
