@@ -118,8 +118,8 @@ export default function Footer() {
                  </a>
               </li>
               <li>
-                 <a href={`mailto:${process.env.NEXT_PUBLIC_EMAIL || "comercial.drd2@gmail.com"}`} className="hover:text-white transition-colors block py-1 border-b border-slate-800">
-                    {process.env.NEXT_PUBLIC_EMAIL || "comercial.drd2@gmail.com"}
+                 <a href={`mailto:${process.env.NEXT_PUBLIC_EMAIL || "comercial@drd2.com.br"}`} className="hover:text-white transition-colors block py-1 border-b border-slate-800">
+                    {process.env.NEXT_PUBLIC_EMAIL || "comercial@drd2.com.br"}
                  </a>
               </li>
               <li>
