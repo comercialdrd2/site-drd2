@@ -24,6 +24,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://drd2engenharia.com.br"),
+  verification: {
+    google: "hYaQLsIyW6x65LZONbO9Xi-PffEJp-4-d_AfxvyNVmM",
+  },
   title: {
     default: "DRD2 Engenharia | Segurança Contra Incêndio em SP",
     template: "%s | DRD2 Engenharia"
