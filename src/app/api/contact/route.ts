@@ -23,16 +23,21 @@ export async function POST(req: NextRequest) {
     </table>
   `;
 
-  const { error } = await resend.emails.send({
-    from: "Site DRD2 <onboarding@resend.dev>",
-    to: ["comercial.drd2@gmail.com"],
-    subject: `Novo lead: ${service} — ${name} (${city})`,
-    html: emailHtml,
-  });
+  try {
+    const { error } = await resend.emails.send({
+      from: "Site DRD2 <onboarding@resend.dev>",
+      to: ["comercial.drd2@gmail.com"],
+      subject: `Novo lead: ${service} — ${name} (${city})`,
+      html: emailHtml,
+    });
 
-  if (error) {
-    console.error("Resend error:", error);
-    return NextResponse.json({ error: "Falha ao enviar e-mail" }, { status: 500 });
+    if (error) {
+      console.error("Resend error:", error);
+      return NextResponse.json({ error: "Falha ao enviar e-mail", detail: error }, { status: 500 });
+    }
+  } catch (err) {
+    console.error("Resend exception:", err);
+    return NextResponse.json({ error: "Exceção ao enviar e-mail", detail: String(err) }, { status: 500 });
   }
 
   return NextResponse.json({ ok: true });
