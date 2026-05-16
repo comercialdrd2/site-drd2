@@ -175,7 +175,7 @@ export const avcbNichePages: AvcbNichePage[] = [
     focusTitle: "Estacionamento e outro nicho, nao so area comum",
     focus:
       "A pagina atende quem procura AVCB para estacionamento rotativo, garagem comercial, garagem coletiva, subsolo, edificio-garagem ou patio coberto. A analise muda quando existe abastecimento, oficina, lava rapido, carregador de veiculo eletrico, uso como deposito ou integracao com shopping, condominio e predio comercial.",
-    heroImage: "/images/bg-condominios.jpg",
+    heroImage: "/images/hero-estacionamento.jpg",
     imageAlt: "Garagem e estacionamento com rotas de fuga e sinalizacao de emergencia",
     ctaOccupation: "estacionamento ou garagem",
     groupLabel: "G-1 / G-2",
