@@ -9,7 +9,7 @@ export const metadata = {
 };
 
 export default function ObrigadoPage() {
-  const waNumber = process.env.NEXT_PUBLIC_WHATSAPP || "5511915131652";
+  const waNumber = process.env.NEXT_PUBLIC_WHATSAPP || "5511942232969";
   const waText = encodeURIComponent(
     "Olá! Acabei de enviar uma solicitação pelo site e quero confirmar o recebimento."
   );

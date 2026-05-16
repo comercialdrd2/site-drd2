@@ -5,7 +5,7 @@ import { buildStrategicWhatsAppIntent, buildWhatsAppMessage, getIntentCtaLabel }
 import { trackWhatsAppClick } from "@/lib/analytics";
 
 export default function WhatsAppFloatingButton() {
-  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP || "5511915131652";
+  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP || "5511942232969";
   const [href, setHref] = useState(() => {
     const message = encodeURIComponent("Olá, vim pelo site da DRD2 Engenharia e preciso verificar custo, renovação ou regularização do AVCB.");
     return `https://wa.me/${whatsappNumber}?text=${message}`;

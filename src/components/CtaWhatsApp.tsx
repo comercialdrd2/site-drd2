@@ -33,7 +33,7 @@ export default function CtaWhatsApp({
   className = "",
   centered = false,
 }: CtaWhatsAppProps) {
-  const waNumber = process.env.NEXT_PUBLIC_WHATSAPP || "5511915131652";
+  const waNumber = process.env.NEXT_PUBLIC_WHATSAPP || "5511942232969";
   const [href, setHref] = useState(() => {
     const message = encodeURIComponent(`Olá, vim pelo site da DRD2 Engenharia e preciso verificar custo, renovação ou regularização do AVCB para ${occupationType}.`);
     return `https://wa.me/${waNumber}?text=${message}`;

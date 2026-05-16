@@ -113,8 +113,8 @@ export default function Footer() {
             <ul className="space-y-3 text-[12px] font-bold text-slate-400 uppercase tracking-widest break-all">
               <li className="text-white bg-white/5 p-2 rounded-lg border border-white/10 inline-block mb-2">Base: São Paulo Capital</li>
               <li>
-                 <a href={`tel:+${process.env.NEXT_PUBLIC_WHATSAPP || "5511915131652"}`} className="hover:text-white transition-colors block py-1 border-b border-slate-800 text-primary">
-                    (11) 91513-1652
+                 <a href={`tel:+${process.env.NEXT_PUBLIC_WHATSAPP || "5511942232969"}`} className="hover:text-white transition-colors block py-1 border-b border-slate-800 text-primary">
+                    (11) 94223-2969
                  </a>
               </li>
               <li>

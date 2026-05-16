@@ -21,7 +21,7 @@ export default function ContactForm() {
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
   const [waCopySent, setWaCopySent] = useState(false);
 
-  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP || "5511915131652";
+  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP || "5511942232969";
 
   const set = (field: keyof FormState) => (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) =>
     setForm((prev) => ({ ...prev, [field]: e.target.value }));
@@ -98,7 +98,7 @@ export default function ContactForm() {
               <div className="mb-6">
                 <p className="text-sm font-bold text-gray-500 uppercase">WhatsApp / Telefone</p>
                 <a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noopener noreferrer" className="text-lg font-bold text-primary hover:underline">
-                  +55 11 9999-9999
+                  (11) 94223-2969
                 </a>
               </div>
               <div className="mb-6">

@@ -8,7 +8,7 @@ export function JsonLD({ schema }: { schema: Record<string, any> }) {
 }
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://drd2engenharia.com.br";
-const PHONE = process.env.NEXT_PUBLIC_WHATSAPP ? `+${process.env.NEXT_PUBLIC_WHATSAPP}` : "+5511915131652";
+const PHONE = process.env.NEXT_PUBLIC_WHATSAPP ? `+${process.env.NEXT_PUBLIC_WHATSAPP}` : "+5511942232969";
 const EMAIL = process.env.NEXT_PUBLIC_EMAIL || "comercial.drd2@gmail.com";
 const SAME_AS_URLS = (process.env.NEXT_PUBLIC_SAME_AS_URLS || "")
   .split(",")
