@@ -64,17 +64,17 @@ export default function QuemPagaAVCBPage() {
         "@graph": [
           {
             "@type": "Article",
-            "@id": "https://drd2engenharia.com.br/blog/quem-paga-o-avcb-proprietario-ou-inquilino/#article",
+            "@id": "https://drd2.com.br/blog/quem-paga-o-avcb-proprietario-ou-inquilino/#article",
             "headline": "Quem Paga o AVCB: Proprietário ou Inquilino? Guia Definitivo",
             "description": _pageDesc,
-            "image": "https://drd2engenharia.com.br/images/blog/fire_safety_equipment_premium.webp",
-            "author": { "@type": "Person", "@id": "https://drd2engenharia.com.br/#samuel-costa" },
-            "publisher": { "@id": "https://drd2engenharia.com.br/#organization" },
+            "image": "https://drd2.com.br/images/blog/fire_safety_equipment_premium.webp",
+            "author": { "@type": "Person", "@id": "https://drd2.com.br/#samuel-costa" },
+            "publisher": { "@id": "https://drd2.com.br/#organization" },
             "datePublished": "2026-04-15",
             "dateModified": "2026-05-04",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://drd2engenharia.com.br/blog/quem-paga-o-avcb-proprietario-ou-inquilino"
+              "@id": "https://drd2.com.br/blog/quem-paga-o-avcb-proprietario-ou-inquilino"
             }
           }
         ]

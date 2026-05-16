@@ -10,7 +10,7 @@ import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import InternalLinksBlock from "@/components/InternalLinksBlock";
 
-const BASE_URL = "https://www.drd2engenharia.com.br";
+const BASE_URL = "https://www.drd2.com.br";
 const slug = "renovacao-clcb-sao-mateus-sao-paulo";
 
 export const metadata: Metadata = {

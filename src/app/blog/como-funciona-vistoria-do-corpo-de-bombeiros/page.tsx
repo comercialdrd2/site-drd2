@@ -29,16 +29,16 @@ export default function VistoriaBombeirosPost() {
     "@graph": [
       {
         "@type": "Article",
-        "@id": "https://drd2engenharia.com.br/blog/como-funciona-vistoria-do-corpo-de-bombeiros/#article",
+        "@id": "https://drd2.com.br/blog/como-funciona-vistoria-do-corpo-de-bombeiros/#article",
         "headline": "Como Funciona a Vistoria do Corpo de Bombeiros para o AVCB em São Paulo?",
         "description": "Guia técnico sobre as inspeções presenciais do Corpo de Bombeiros, detalhando os itens verificados e as melhores práticas para aprovação.",
-        "author": { "@type": "Person", "@id": "https://drd2engenharia.com.br/#samuel-costa" },
-        "publisher": { "@id": "https://drd2engenharia.com.br/#organization" },
+        "author": { "@type": "Person", "@id": "https://drd2.com.br/#samuel-costa" },
+        "publisher": { "@id": "https://drd2.com.br/#organization" },
         "datePublished": "2026-04-18",
         "dateModified": "2026-05-04",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://drd2engenharia.com.br/blog/como-funciona-vistoria-do-corpo-de-bombeiros"
+          "@id": "https://drd2.com.br/blog/como-funciona-vistoria-do-corpo-de-bombeiros"
         }
       }
     ]

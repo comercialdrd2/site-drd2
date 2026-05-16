@@ -34,7 +34,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   const post = blogPosts.find(p => p.slug === params.slug);
   if (!post) return { title: "Post não encontrado | DRD2 Engenharia" };
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://drd2engenharia.com.br";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://drd2.com.br";
   const canonical = `/blog/${post.slug}`;
   const image = post.image || "/images/blog/fire_safety_equipment_premium.webp";
   const isThin = NOINDEX_BLOG_SLUGS.has(post.slug);
@@ -104,7 +104,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const blogSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "@id": `${process.env.NEXT_PUBLIC_SITE_URL || 'https://drd2engenharia.com.br'}/blog/${post.slug}/#article`,
+    "@id": `${process.env.NEXT_PUBLIC_SITE_URL || 'https://drd2.com.br'}/blog/${post.slug}/#article`,
     "headline": post.title,
     "description": post.excerpt,
     "datePublished": post.date,
@@ -114,13 +114,13 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     "wordCount": wordCount,
     "timeRequired": `PT${readingTime}M`,
     "keywords": ["AVCB", "CLCB", "renovação de AVCB", "Corpo de Bombeiros", "regularização em São Paulo", post.category].join(", "),
-    "url": `${process.env.NEXT_PUBLIC_SITE_URL || 'https://drd2engenharia.com.br'}/blog/${post.slug}`,
+    "url": `${process.env.NEXT_PUBLIC_SITE_URL || 'https://drd2.com.br'}/blog/${post.slug}`,
     "image": post.image
-      ? `${process.env.NEXT_PUBLIC_SITE_URL || 'https://drd2engenharia.com.br'}${post.image}`
-      : `${process.env.NEXT_PUBLIC_SITE_URL || 'https://drd2engenharia.com.br'}/images/blog/fire_safety_equipment_premium.webp`,
+      ? `${process.env.NEXT_PUBLIC_SITE_URL || 'https://drd2.com.br'}${post.image}`
+      : `${process.env.NEXT_PUBLIC_SITE_URL || 'https://drd2.com.br'}/images/blog/fire_safety_equipment_premium.webp`,
     "author": {
       "@type": "Person",
-      "@id": `${process.env.NEXT_PUBLIC_SITE_URL || 'https://drd2engenharia.com.br'}/#samuel-costa`,
+      "@id": `${process.env.NEXT_PUBLIC_SITE_URL || 'https://drd2.com.br'}/#samuel-costa`,
       "name": "Samuel Costa",
       "jobTitle": "Engenheiro Civil e Segurança do Trabalho",
       "description": "CREA-SP 5070163570 — Responsável Técnico da DRD2 Engenharia"
@@ -128,10 +128,10 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     "publisher": {
       "@type": "Organization",
       "name": "DRD2 Engenharia",
-      "url": process.env.NEXT_PUBLIC_SITE_URL || "https://drd2engenharia.com.br",
+      "url": process.env.NEXT_PUBLIC_SITE_URL || "https://drd2.com.br",
       "logo": {
         "@type": "ImageObject",
-        "url": `${process.env.NEXT_PUBLIC_SITE_URL || 'https://drd2engenharia.com.br'}/logo.png`,
+        "url": `${process.env.NEXT_PUBLIC_SITE_URL || 'https://drd2.com.br'}/logo.png`,
         "width": 600,
         "height": 60
       }
@@ -144,7 +144,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     ],
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `${process.env.NEXT_PUBLIC_SITE_URL || 'https://drd2engenharia.com.br'}/blog/${post.slug}`
+      "@id": `${process.env.NEXT_PUBLIC_SITE_URL || 'https://drd2.com.br'}/blog/${post.slug}`
     }
   };
 

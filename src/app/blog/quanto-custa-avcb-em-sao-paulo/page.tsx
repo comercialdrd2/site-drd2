@@ -28,16 +28,16 @@ export default function QuantocustaAVCBPost() {
     "@graph": [
       {
         "@type": "Article",
-        "@id": "https://drd2engenharia.com.br/blog/quanto-custa-avcb-em-sao-paulo/#article",
+        "@id": "https://drd2.com.br/blog/quanto-custa-avcb-em-sao-paulo/#article",
         "headline": "Quanto Custa o AVCB em São Paulo? Guia Completo de Preços, Fatores e Como Economizar",
         "description": "Guia completo sobre os custos de emissão e renovação de AVCB em São Paulo, incluindo taxas do Bombeiro, honorários de engenharia e adequações de sistemas.",
-        "author": { "@type": "Person", "@id": "https://drd2engenharia.com.br/#samuel-costa" },
-        "publisher": { "@id": "https://drd2engenharia.com.br/#organization" },
+        "author": { "@type": "Person", "@id": "https://drd2.com.br/#samuel-costa" },
+        "publisher": { "@id": "https://drd2.com.br/#organization" },
         "datePublished": "2026-04-12",
         "dateModified": "2026-05-04",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://drd2engenharia.com.br/blog/quanto-custa-avcb-em-sao-paulo"
+          "@id": "https://drd2.com.br/blog/quanto-custa-avcb-em-sao-paulo"
         }
       }
     ]

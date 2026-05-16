@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Alvará do Bombeiro para Condomínio em SP | Renovação AVCB | DRD2",
     description: "Regularização e Renovação de AVCB para Condomínios Residenciais e Comerciais em São Paulo.",
-    url: "https://drd2engenharia.com.br/alvara-bombeiro-condominio-sao-paulo",
+    url: "https://drd2.com.br/alvara-bombeiro-condominio-sao-paulo",
     type: "website",
     locale: "pt_BR",
   },
