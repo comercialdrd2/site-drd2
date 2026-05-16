@@ -75,7 +75,7 @@ export default function LeadForm({
     };
 
     try {
-      const response = await fetch("https://formsubmit.co/ajax/comercial@drd2.com.br", {
+      const response = await fetch("/api/lead", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
