@@ -18,11 +18,11 @@ const occupationMap: Record<string, { image: string; alt: string }> = {
     alt: "Galpão industrial com sistema de combate a incêndio e sprinklers",
   },
   comércio: {
-    image: "/images/bg-escritorio.jpg",
+    image: "/images/hero-escritorio-moderno.webp",
     alt: "Ambiente comercial e escritórios com regularização do Corpo de Bombeiros",
   },
   default: {
-    image: "/images/hero-drd2-engenharia.jpg",
+    image: "/images/banner-hero.webp",
     alt: "Engenharia especializada em regularização de AVCB e projetos de incêndio",
   },
 };
