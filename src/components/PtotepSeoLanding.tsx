@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import BreadcrumbNav from "@/components/BreadcrumbNav";
 import CtaWhatsApp from "@/components/CtaWhatsApp";
+import LeadForm from "@/components/LeadForm";
 import { JsonLD, generateMasterSchema } from "@/components/JsonLD";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import ServiceClusterLinks from "@/components/ServiceClusterLinks";
@@ -204,16 +205,10 @@ export default function PtotepSeoLanding({ page }: Props) {
                 <h3 className="text-2xl font-black uppercase italic tracking-tight mb-4">
                   Diagnostico antes da montagem
                 </h3>
-                <p className="text-slate-300 font-medium leading-relaxed">
+                <p className="text-slate-300 font-medium leading-relaxed mb-6">
                   Envie layout, local, data, publico estimado e tipo de montagem. A DRD2 identifica o caminho tecnico e os documentos que faltam antes do evento ficar caro de corrigir.
                 </p>
-                <div className="mt-6">
-                  <CtaWhatsApp
-                    label="Enviar dados do evento"
-                    occupationType={page.ctaOccupation}
-                    size="sm"
-                  />
-                </div>
+                <LeadForm predefinedPropertyType={page.ctaOccupation} />
               </div>
             </div>
           </div>
