@@ -174,34 +174,30 @@ export default function PtotepSeoLanding({ page }: Props) {
 
       <section className="bg-white py-20">
         <div className="container mx-auto px-4 max-w-6xl">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-            <div className="lg:col-span-7">
-              <p className="text-xs font-black uppercase tracking-[0.2em] text-red-600 mb-4">
-                Leitura tecnica do evento
-              </p>
-              <h2 className="text-3xl md:text-5xl font-black text-slate-950 uppercase italic tracking-tight leading-none mb-7">
-                O PTOTEP protege o evento e a licenca do local
-              </h2>
-              <p className="text-lg text-slate-700 font-medium leading-relaxed">
-                {page.focus}
-              </p>
-              <div className="mt-9 grid grid-cols-1 sm:grid-cols-3 gap-4">
-                {[
-                  { icon: Building2, title: "Edificacao", text: "licenca vigente, uso aprovado e sistemas existentes" },
-                  { icon: Users, title: "Publico", text: "lotacao, acesso, filas, rotas e areas de concentracao" },
-                  { icon: CalendarCheck, title: "Evento", text: "montagem temporaria, fornecedores, prazo e vistoria" },
-                ].map((item) => (
-                  <div key={item.title} className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                    <item.icon className="h-7 w-7 text-red-600 mb-4" />
-                    <h3 className="text-sm font-black uppercase text-slate-950 tracking-tight">{item.title}</h3>
-                    <p className="mt-2 text-sm font-medium leading-relaxed text-slate-600">{item.text}</p>
-                  </div>
-                ))}
+          <p className="text-xs font-black uppercase tracking-[0.2em] text-red-600 mb-4">
+            Leitura tecnica do evento
+          </p>
+          <h2 className="text-3xl md:text-5xl font-black text-slate-950 uppercase italic tracking-tight leading-none mb-7 max-w-4xl">
+            O PTOTEP protege o evento e a licenca do local
+          </h2>
+          <p className="text-lg text-slate-700 font-medium leading-relaxed max-w-4xl">
+            {page.focus}
+          </p>
+          <div className="mt-9 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {[
+              { icon: Building2, title: "Edificacao", text: "licenca vigente, uso aprovado e sistemas existentes" },
+              { icon: Users, title: "Publico", text: "lotacao, acesso, filas, rotas e areas de concentracao" },
+              { icon: CalendarCheck, title: "Evento", text: "montagem temporaria, fornecedores, prazo e vistoria" },
+            ].map((item) => (
+              <div key={item.title} className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                <item.icon className="h-7 w-7 text-red-600 mb-4" />
+                <h3 className="text-sm font-black uppercase text-slate-950 tracking-tight">{item.title}</h3>
+                <p className="mt-2 text-sm font-medium leading-relaxed text-slate-600">{item.text}</p>
               </div>
-            </div>
-            <div className="lg:col-span-5">
-              <LeadForm predefinedPropertyType={page.ctaOccupation} />
-            </div>
+            ))}
+          </div>
+          <div className="mt-12">
+            <LeadForm predefinedPropertyType={page.ctaOccupation} />
           </div>
         </div>
       </section>
