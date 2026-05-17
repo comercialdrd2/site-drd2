@@ -200,16 +200,7 @@ export default function PtotepSeoLanding({ page }: Props) {
               </div>
             </div>
             <div className="lg:col-span-5">
-              <div className="rounded-3xl bg-slate-950 p-8 text-white shadow-2xl">
-                <ShieldAlert className="h-10 w-10 text-red-500 mb-5" />
-                <h3 className="text-2xl font-black uppercase italic tracking-tight mb-4">
-                  Diagnostico antes da montagem
-                </h3>
-                <p className="text-slate-300 font-medium leading-relaxed mb-6">
-                  Envie layout, local, data, publico estimado e tipo de montagem. A DRD2 identifica o caminho tecnico e os documentos que faltam antes do evento ficar caro de corrigir.
-                </p>
-                <LeadForm predefinedPropertyType={page.ctaOccupation} />
-              </div>
+              <LeadForm predefinedPropertyType={page.ctaOccupation} />
             </div>
           </div>
         </div>
