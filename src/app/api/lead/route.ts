@@ -34,7 +34,7 @@ export async function POST(req: NextRequest) {
   try {
     const { error } = await resend.emails.send({
       from: "Site DRD2 <onboarding@resend.dev>",
-      to: ["comercial.drd2@gmail.com", "comercial@drd2.com.br"],
+      to: ["comercial.drd2@gmail.com"],
       subject: `Novo lead: ${type || service || "Site"} — ${name}`,
       html: emailHtml,
     });
