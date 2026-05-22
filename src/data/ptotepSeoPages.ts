@@ -95,18 +95,18 @@ export const ptotepPages: PtotepPage[] = [
   page({
     slug: "/ptotep",
     kind: "principal",
-    label: "PTOTEP",
-    eyebrow: "Evento temporario em edificacao permanente",
-    title: "PTOTEP | Projeto Tecnico de Ocupacao Temporaria em Edificacao Permanente",
+    label: "Projeto Técnico de Ocupação Temporária",
+    eyebrow: "Evento Temporário em Edificação Permanente",
+    title: "PTOTEP | Projeto Técnico de Ocupação Temporária em Edificação Permanente",
     description:
-      "PTOTEP para eventos temporarios em edificacao permanente. Projeto, documentos, ART, protocolo no Corpo de Bombeiros e suporte tecnico para liberar eventos com seguranca.",
-    h1: "Projeto Tecnico de Ocupacao Temporaria em Edificacao Permanente",
+      "PTOTEP para eventos temporários em edificação permanente. Projeto, documentos, ART, protocolo no Corpo de Bombeiros e suporte técnico para liberar eventos com segurança.",
+    h1: "Projeto Técnico de Ocupação Temporária em Edificação Permanente",
     lead:
-      "Regularize eventos temporarios dentro de shopping, igreja, escola, centro de convencoes, hotel, galpao, teatro ou edificio ja existente sem colocar o AVCB do local em risco.",
-    heroImage: eventHero,
-    imageAlt: "Projeto tecnico de evento temporario em edificacao permanente",
+      "Regularize eventos temporários dentro de shopping, igreja, escola, centro de convenções, hotel, galpão, teatro ou edifício já existente sem colocar o AVCB do local em risco.",
+    heroImage: "/images/projeto-bombeiros.webp",
+    imageAlt: "Engenheiro avaliando planta de PTOTEP para evento temporário",
     focus:
-      "PTOTEP e o caminho tecnico para demonstrar que o evento temporario nao prejudica as medidas de seguranca ja previstas para a edificacao permanente e que as instalacoes adicionais foram tratadas corretamente.",
+      "O PTOTEP (Projeto Técnico de Ocupação Temporária em Edificação Permanente) é a aprovação exigida pelo Corpo de Bombeiros quando você realiza um evento dentro de um imóvel que já possui uso e AVCB aprovados para outra finalidade.",
     contextTitle: "Quando o PTOTEP entra no jogo",
     context: [
       "A ocupacao temporaria muda a logica de uso do imovel: aumenta publico, cria stands, fecha corredores, instala palco, usa gerador, muda rota de fuga ou concentra pessoas em areas que nao foram pensadas para aquele evento.",
