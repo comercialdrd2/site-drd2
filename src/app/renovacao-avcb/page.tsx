@@ -116,6 +116,7 @@ export default function RenovacaoAVCBPage() {
               </h2>
               <div className="space-y-5 text-lg text-slate-700 leading-relaxed font-medium">
                 <p>{c.h2_prazo.body}</p>
+                <p className="text-base text-slate-500 font-medium">Nossos engenheiros atendem condomínios e empresas de ponta a ponta na capital paulista. Realizamos renovações frequentes na Zona Sul (<Link href="/renovacao-avcb-moema" className="text-red-600 font-bold hover:underline">Moema</Link>, <Link href="/renovacao-avcb-vila-olimpia" className="text-red-600 font-bold hover:underline">Vila Olímpia</Link>, <Link href="/renovacao-avcb-saude" className="text-red-600 font-bold hover:underline">Saúde</Link>), Zona Oeste (<Link href="/renovacao-avcb-pinheiros" className="text-red-600 font-bold hover:underline">Pinheiros</Link>, <Link href="/renovacao-avcb-perdizes" className="text-red-600 font-bold hover:underline">Perdizes</Link>), e Centro Expandido (<Link href="/renovacao-avcb-bela-vista" className="text-red-600 font-bold hover:underline">Bela Vista</Link>, <Link href="/renovacao-avcb-paraiso" className="text-red-600 font-bold hover:underline">Paraíso</Link>, Paulista). Também atendemos com agilidade Guarulhos, Osasco e região do ABC.</p>
               </div>
             </div>
 

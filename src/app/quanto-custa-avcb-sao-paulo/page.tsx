@@ -277,7 +277,7 @@ export default function QuantoCustaAvcbPage() {
               </h2>
               <div className="space-y-6 text-lg text-slate-700 leading-relaxed font-medium">
                 {c.h2_cobertura.body.map((p, i) => (
-                  <p key={i}>{p}</p>
+                  <p key={i} dangerouslySetInnerHTML={{ __html: p }} />
                 ))}
               </div>
             </div>

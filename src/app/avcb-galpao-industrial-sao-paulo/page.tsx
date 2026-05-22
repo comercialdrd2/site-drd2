@@ -125,6 +125,9 @@ export default function AVCBGalpaoPage() {
               <div className="space-y-5 text-lg text-slate-700 leading-relaxed font-medium">
                 <p>O Auto de Vistoria do Corpo de Bombeiros (AVCB) é o documento emitido pelo CBPMESP atestando que a edificação cumpre as condições de segurança contra incêndio exigidas pela legislação estadual.</p>
                 <p>Para galpões, armazéns e depósitos, a obrigatoriedade está estabelecida no <strong>Decreto Estadual nº 69.118/2024</strong> e nas ITs do CBPMESP. O que determina a exigência é a área construída, a classe de ocupação e a carga de incêndio, não o porte do CNPJ que ocupa o local.</p>
+                <p>
+                  A DRD2 Engenharia atende todo o estado de São Paulo, incluindo pólos industriais da Grande SP como Barueri, Guarulhos, São Bernardo do Campo, além da própria capital, com forte presença na Zona Leste (<a href="/renovacao-avcb-condominio-mooca" className="text-red-700 font-bold hover:underline">Mooca</a>), Zona Oeste (<a href="/renovacao-avcb-condominio-lapa" className="text-red-700 font-bold hover:underline">Lapa</a>) e Zona Norte (<a href="/renovacao-avcb-condominio-santana" className="text-red-700 font-bold hover:underline">Santana</a>).
+                </p>
                 <p>Galpões <strong>Grupo I (Depósitos)</strong> e <strong>Grupo J (Industrial)</strong> estão sob fiscalização ativa do Estado de São Paulo. Operar sem AVCB não é apenas irregularidade administrativa, é um passivo que gera:</p>
 
                 <ul className="space-y-3 mt-6">

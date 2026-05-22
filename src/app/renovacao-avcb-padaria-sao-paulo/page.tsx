@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import {
   Phone, CheckCircle2, ShieldAlert, ArrowRight, ShieldCheck,
-  ShieldX, AlertTriangle, MapPin, Building2, Stethoscope, Pills, ShoppingBag,
+  ShieldX, AlertTriangle, MapPin, Building2, Stethoscope, Pill, ShoppingBag,
   ClipboardList, Hammer, LayoutGrid, Clock, Users, Zap
 } from "lucide-react";
 import { JsonLD, generateMasterSchema } from "@/components/JsonLD";

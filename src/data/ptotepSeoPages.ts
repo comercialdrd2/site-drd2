@@ -494,7 +494,7 @@ export const ptotepPages: PtotepPage[] = [
     ctaOccupation: "evento universitario",
   }),
   ...[
-    ["Sao Paulo", "ptotep-sao-paulo", "Capital com maior volume de eventos corporativos, feiras, shopping centers, igrejas, universidades e centros de convencoes."],
+    ["Sao Paulo", "ptotep-sao-paulo", "A capital paulista exige rigor absoluto em projetos temporários devido à alta concentração de público. Nossos engenheiros atendem grandes eventos na Zona Oeste (<a href='/renovacao-clcb-pinheiros-sao-paulo' class='text-red-600 font-bold hover:underline'>Pinheiros</a>, <a href='/renovacao-clcb-vila-madalena-sao-paulo' class='text-red-600 font-bold hover:underline'>Vila Madalena</a>), na Zona Sul (<a href='/renovacao-clcb-moema-sao-paulo' class='text-red-600 font-bold hover:underline'>Moema</a>, <a href='/renovacao-clcb-vila-olimpia-sao-paulo' class='text-red-600 font-bold hover:underline'>Vila Olímpia</a>) e em pólos de feiras na Zona Norte (<a href='/renovacao-clcb-santana-sao-paulo' class='text-red-600 font-bold hover:underline'>Santana</a>) e Zona Leste (<a href='/renovacao-clcb-tatuape-sao-paulo' class='text-red-600 font-bold hover:underline'>Tatuapé</a>)."],
     ["Barueri", "ptotep-barueri", "Alphaville e Barueri concentram eventos corporativos, feiras empresariais, shopping centers, hoteis e condominios comerciais."],
     ["Guarulhos", "ptotep-guarulhos", "Guarulhos combina eventos logisticos, hoteis de aeroporto, galpoes, igrejas, clubes e centros comerciais com grande fluxo regional."],
     ["Osasco", "ptotep-osasco", "Osasco tem demanda forte em shoppings, universidades, empresas, centros de treinamento, varejo e eventos corporativos."],

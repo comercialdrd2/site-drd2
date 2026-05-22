@@ -155,7 +155,7 @@ export const quantoCustaAvcbContent = {
   h2_cobertura: {
     heading: "Atendemos Atendimento em São Paulo e Grande SP",
     body: [
-      "A DRD2 Engenharia realiza visitas técnicas e elabora projetos de AVCB em toda a cidade de São Paulo e Grande SP, incluindo Guarulhos, Osasco, Santo André, São Bernardo do Campo, São Caetano do Sul, Barueri e Alphaville.",
+      "A DRD2 Engenharia realiza visitas técnicas e elabora projetos de AVCB em toda a cidade de São Paulo e Grande SP, incluindo Guarulhos, Osasco, Santo André, São Bernardo do Campo, São Caetano do Sul, Barueri e Alphaville. Atendemos amplamente a Zona Sul (<a href='/renovacao-avcb-condominio-moema' class='text-red-700 font-bold hover:underline'>Moema</a>, <a href='/renovacao-avcb-condominio-vila-mariana' class='text-red-700 font-bold hover:underline'>Vila Mariana</a>), Zona Leste (<a href='/renovacao-avcb-condominio-tatuape' class='text-red-700 font-bold hover:underline'>Tatuapé</a>, <a href='/renovacao-avcb-condominio-mooca' class='text-red-700 font-bold hover:underline'>Mooca</a>) e Zona Oeste (<a href='/renovacao-avcb-condominio-pinheiros' class='text-red-700 font-bold hover:underline'>Pinheiros</a>, <a href='/renovacao-avcb-condominio-perdizes' class='text-red-700 font-bold hover:underline'>Perdizes</a>).",
       "Para qualquer tipo de ocupação — condomínio, restaurante, escola, hotel, clínica, galpão, posto de combustível ou qualquer outro estabelecimento — a DRD2 tem o processo completo para regularizar junto ao Corpo de Bombeiros.",
     ],
   },

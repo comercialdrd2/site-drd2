@@ -71,7 +71,7 @@ const data: UniversalPageData = {
   },
   h2_cobertura: {
     heading: "Manutenção de porta corta-fogo em toda a Grande São Paulo",
-    body1: "A DRD2 atende edificações em toda a Grande SP: Zona Sul (Santo Amaro, Moema, Brooklin), Zona Norte, Zona Leste, ABC (Santo André, São Bernardo, São Caetano), Guarulhos, Osasco e Barueri.",
+    body1: "A DRD2 atende edificações em toda a Grande SP. Realizamos manutenção de portas corta-fogo na Zona Sul (<a href='/manutencao-porta-corta-fogo-zona-sul-sp' class='text-red-400 font-bold hover:underline'>Zona Sul SP</a>, <a href='/manutencao-porta-corta-fogo-santo-amaro-sp' class='text-red-400 font-bold hover:underline'>Santo Amaro</a>, Moema), Zona Leste (<a href='/renovacao-avcb-condominio-tatuape' class='text-red-400 font-bold hover:underline'>Tatuapé</a>), Zona Oeste (<a href='/renovacao-avcb-condominio-pinheiros' class='text-red-400 font-bold hover:underline'>Pinheiros</a>), ABC Paulista (<a href='/manutencao-porta-corta-fogo-abc-paulista' class='text-red-400 font-bold hover:underline'>ABC Paulista</a>, Santo André, São Bernardo) e toda a região de <a href='/manutencao-porta-corta-fogo-guarulhos' class='text-red-400 font-bold hover:underline'>Guarulhos</a> e <a href='/manutencao-porta-corta-fogo-campinas' class='text-red-400 font-bold hover:underline'>Campinas</a>.",
     body2: "Para edificações fora da Grande SP, realizamos visita técnica com agenda específica. O diagnóstico inicial pode ser feito com fotos e plantas enviadas por WhatsApp.",
   },
   faqs: [

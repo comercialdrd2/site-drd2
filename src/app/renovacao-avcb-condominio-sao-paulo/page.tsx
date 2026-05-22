@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import Image from "next/image";
 import {
   Phone, CheckCircle2, ShieldAlert, ArrowRight, ShieldCheck,
@@ -352,7 +352,7 @@ export default function RenovacaoAVCBCondominioPage() {
               </h2>
               <div className="space-y-5 text-lg text-slate-700 leading-relaxed font-medium">
                 {c.h2_cobertura.body.map((p, i) => (
-                  <p key={i}>{p}</p>
+                  <p key={i} dangerouslySetInnerHTML={{ __html: p }} />
                 ))}
               </div>
             </div>

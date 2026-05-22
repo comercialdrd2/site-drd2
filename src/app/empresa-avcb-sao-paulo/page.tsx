@@ -132,7 +132,7 @@ export default function EmpresaAVCBPage() {
               { 
                 icon: Globe, 
                 title: "Cobertura Completa", 
-                desc: "Atendimento em toda a Grande São Paulo, Litoral e Interior com agilidade logística." 
+                desc: <>Atendimento em toda a Grande São Paulo (incluindo <a href='/renovacao-avcb-condominio-moema' className='text-secondary hover:text-primary underline font-bold'>Moema</a>, <a href='/renovacao-avcb-condominio-tatuape' className='text-secondary hover:text-primary underline font-bold'>Tatuapé</a>, <a href='/renovacao-avcb-condominio-pinheiros' className='text-secondary hover:text-primary underline font-bold'>Pinheiros</a> e <a href='/renovacao-avcb-condominio-santana' className='text-secondary hover:text-primary underline font-bold'>Santana</a>), Litoral e Interior com agilidade logística.</> 
               },
               { 
                 icon: Users, 

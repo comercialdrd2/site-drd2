@@ -129,7 +129,7 @@ const data: UniversalPageData = {
   },
   "h2_cobertura": {
     "heading": "Laudo de alarme em toda a Grande São Paulo",
-    "body1": "A DRD2 emite laudos de alarme de incêndio em toda a capital e Grande SP com engenheiro in loco. Guarulhos, ABC, Osasco, Campinas, Santos e toda a região metropolitana.",
+    "body1": "A DRD2 emite laudos de alarme de incêndio em toda a capital paulista. Atendemos condomínios e edifícios comerciais da Zona Sul (<a href='/laudo-alarme-incendio-condominio-sao-paulo' class='text-red-400 font-bold hover:underline'>Condomínios</a>, Moema), escritórios do Centro Expandido e Zona Oeste (Pinheiros), hotéis (<a href='/laudo-alarme-incendio-hotel-sao-paulo' class='text-red-400 font-bold hover:underline'>Hotéis</a>), escolas (<a href='/laudo-alarme-incendio-escola-sao-paulo' class='text-red-400 font-bold hover:underline'>Escolas</a>) e restaurantes (<a href='/laudo-alarme-incendio-restaurante-sao-paulo' class='text-red-400 font-bold hover:underline'>Restaurantes</a>) por toda a região metropolitana e ABC.",
     "body2": "Para imóveis fora da Grande SP, avaliamos viabilidade de deslocamento conforme a urgência do prazo. Contato pelo WhatsApp para triagem em até 2h."
   },
   "faqs": [

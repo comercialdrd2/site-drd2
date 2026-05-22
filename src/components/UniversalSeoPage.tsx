@@ -354,11 +354,11 @@ export default function UniversalSeoPage({ data: d, beforeCta }: Props) {
               <div className="space-y-6">
                 <div className="flex items-start gap-4 bg-white/5 p-6 rounded-2xl border border-white/10">
                   <MapPin className="text-red-600 w-8 h-8 flex-shrink-0" />
-                  <p className="text-gray-300 font-medium leading-relaxed">{d.h2_cobertura.body1}</p>
+                  <p className="text-gray-300 font-medium leading-relaxed" dangerouslySetInnerHTML={{ __html: d.h2_cobertura.body1 }} />
                 </div>
                 <div className="flex items-start gap-4 bg-white/5 p-6 rounded-2xl border border-white/10">
                   <MapPin className="text-red-600 w-8 h-8 flex-shrink-0" />
-                  <p className="text-gray-300 font-medium leading-relaxed">{d.h2_cobertura.body2}</p>
+                  <p className="text-gray-300 font-medium leading-relaxed" dangerouslySetInnerHTML={{ __html: d.h2_cobertura.body2 }} />
                 </div>
               </div>
             </div>

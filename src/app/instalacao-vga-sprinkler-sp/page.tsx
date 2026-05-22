@@ -137,7 +137,7 @@ const data: UniversalPageData = {
   h2_cobertura: {
     heading: "Instalação de Válvula de Governo e Alarme (VGA) para sprinkler em toda a Grande SP",
     body1:
-      "A DRD2 atende edificações de todos os portes em toda a Grande São Paulo: capital, ABC, Guarulhos, Campinas, Osasco, São José dos Campos e municípios da região metropolitana.",
+      "A DRD2 atende edificações de todos os portes em toda a Grande São Paulo: capital, ABC, Guarulhos, Campinas, Osasco, São José dos Campos e municípios da região metropolitana. Realizamos a instalação de VGAs para indústrias e galpões da Zona Leste (<a href='/renovacao-avcb-galpao-industrial-tatuape' class='text-red-400 font-bold hover:underline'>Tatuapé</a>, Mooca), Zona Oeste (<a href='/renovacao-avcb-condominio-pinheiros' class='text-red-400 font-bold hover:underline'>Pinheiros</a>), Zona Sul (<a href='/renovacao-avcb-condominio-moema' class='text-red-400 font-bold hover:underline'>Moema</a>) e todo entorno logístico metropolitano.",
     body2:
       "Para edificações fora da Grande SP, realizamos visita técnica com agenda específica. O diagnóstico da VGA existente pode ser iniciado por videochamada com análise das fotos do conjunto.",
   },

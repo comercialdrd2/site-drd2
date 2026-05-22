@@ -132,9 +132,9 @@ export default function SpdaSeoLanding({ page }: SpdaSeoLandingProps) {
                 Por que SPDA para {page.segment} exige análise técnica?
               </h2>
               <div className="space-y-6 text-lg text-slate-700 leading-relaxed font-medium">
-                <p>{page.cityContext}</p>
-                <p>{page.riskProfile}</p>
-                <p>{page.localDemand}</p>
+                <p dangerouslySetInnerHTML={{ __html: page.cityContext }} />
+                <p dangerouslySetInnerHTML={{ __html: page.riskProfile }} />
+                <p dangerouslySetInnerHTML={{ __html: page.localDemand }} />
                 <p>
                   SPDA não e somente para-raios no topo do prédio. Ele precisa conversar com aterramento, DPS, quadros elétricos, estrutura metalica, <Link href="/projetos-incendio" className="text-red-700 font-black underline">projeto de incêndio</Link>, <Link href="/avcb-sao-paulo" className="text-red-700 font-black underline">AVCB</Link> e manutenção. Quando a proteção externa e interna ficam separadas, o risco de dano e exigencia documental aumenta.
                 </p>

@@ -46,6 +46,20 @@ export const alvaraBombeiroContent = {
         "Para restaurantes com espaço para eventos e capacidade acima de determinado número de pessoas, o enquadramento pode mudar para Grupo F (reunião de público), com exigências específicas de saídas de emergência e controle de lotação.",
       ],
     },
+    {
+      title: "O que a DRD2 Engenharia entrega para Restaurantes",
+      content: [
+        "<strong>Diagnóstico Exato:</strong> Não propomos obras ou compras desnecessárias. Focamos no que o CBPMESP realmente exige.",
+        "<strong>Responsabilidade Técnica (ART):</strong> Emitimos todas as ARTs necessárias (Gás, Exaustão, Projeto).",
+        "<strong>Agilidade no Protocolo:</strong> Seu processo dá entrada rápido para você ter o número do protocolo em mãos."
+      ],
+    },
+    {
+      title: "Validade e Renovação do AVCB de Restaurante",
+      content: [
+        "Em São Paulo, o AVCB ou CLCB para restaurantes costuma ter validade de 1 a 3 anos, dependendo da área e risco. A renovação deve ser iniciada 60 dias antes do vencimento para evitar que o restaurante fique descoberto em caso de fiscalização da Prefeitura."
+      ],
+    },
   ],
   faq: [
     {

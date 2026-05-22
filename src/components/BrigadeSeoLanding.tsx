@@ -132,9 +132,9 @@ export default function BrigadeSeoLanding({ page }: BrigadeSeoLandingProps) {
                 Por que brigada de incêndio para {page.segment} precisa ser dimensionada?
               </h2>
               <div className="space-y-6 text-lg text-slate-700 leading-relaxed font-medium">
-                <p>{page.cityContext}</p>
-                <p>{page.riskProfile}</p>
-                <p>{page.localDemand}</p>
+                <p dangerouslySetInnerHTML={{ __html: page.cityContext }} />
+                <p dangerouslySetInnerHTML={{ __html: page.riskProfile }} />
+                <p dangerouslySetInnerHTML={{ __html: page.localDemand }} />
                 <p>
                   Brigada não e so certificado. A equipe precisa entender o plano de emergência, rotas, ponto de encontro, acionamento de <Link href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme de incêndio</Link>, uso de extintores e apoio aos sistemas do imóvel, como <Link href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link> e <Link href="/sprinklers" className="text-red-700 font-black underline">sprinklers</Link>. Isso melhora a segurança real e reduz risco de exigencia no AVCB.
                 </p>

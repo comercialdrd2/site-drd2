@@ -110,6 +110,9 @@ export default function AVCBComercialPage() {
                 <p>
                   O Auto de Vistoria do Corpo de Bombeiros (AVCB) é o documento que comprova que seu estabelecimento comercial atende aos requisitos mínimos de segurança contra incêndio e pânico exigidos pela legislação estadual (Decreto nº 69.118/2024). Para um comércio em São Paulo, o AVCB é o alicerce de toda a regularização municipal. Sem ele, é impossível obter ou renovar o Alvará de Funcionamento.
                 </p>
+                <p>
+                  A DRD2 atende escritórios, lojas e edifícios comerciais em toda a Grande São Paulo, com forte atuação no Centro Expandido (<a href="/alvara-bombeiro-escritorio-sao-paulo" className="text-red-700 font-bold hover:underline">Escritórios em SP</a>), pólos empresariais da Zona Sul (<a href="/renovacao-avcb-condominio-moema" className="text-red-700 font-bold hover:underline">Moema</a>, <a href="/renovacao-avcb-condominio-vila-olimpia" className="text-red-700 font-bold hover:underline">Vila Olímpia</a>, <a href="/renovacao-avcb-condominio-brooklin" className="text-red-700 font-bold hover:underline">Brooklin</a>) e Zona Oeste (<a href="/renovacao-avcb-condominio-pinheiros" className="text-red-700 font-bold hover:underline">Pinheiros</a>), garantindo agilidade na emissão do laudo técnico e aprovação.
+                </p>
                 
                 <h3 className="text-2xl font-black text-secondary mt-12 mb-4 uppercase italic tracking-tighter">Enquadramento: PTS vs Projeto Técnico</h3>
                 <p>

@@ -149,7 +149,7 @@ export const renovacaoAvcbCondominioContent = {
     heading: "Atendemos Renovações de AVCB em Condomínios em São Paulo e Grande SP",
     body: [
       "A <strong>DRD2 Engenharia</strong> atende condomínios residenciais e comerciais em São Paulo capital e toda a Grande SP.",
-      "Por zona em São Paulo: Zona Sul (Moema, Saúde, Campo Belo, Vila Mariana, Jabaquara), Zona Norte (Santana, Tucuruvi, Tremembé, Casa Verde), Zona Leste (Tatuapé, Penha, Mooca, Vila Prudente), Zona Oeste (Pinheiros, Perdizes, Pompeia, Lapa) e Centro Expandido (Jardins, Itaim Bibi, Vila Olímpia, Higienópolis, Consolação).",
+      "Por zona em São Paulo: Zona Sul (<a href='/renovacao-avcb-condominio-moema' class='text-red-700 font-bold hover:underline'>Moema</a>, <a href='/renovacao-avcb-condominio-saude' class='text-red-700 font-bold hover:underline'>Saúde</a>, Campo Belo, <a href='/renovacao-avcb-condominio-vila-mariana' class='text-red-700 font-bold hover:underline'>Vila Mariana</a>, Jabaquara), Zona Norte (<a href='/renovacao-avcb-condominio-santana' class='text-red-700 font-bold hover:underline'>Santana</a>, Tucuruvi, Tremembé, Casa Verde), Zona Leste (<a href='/renovacao-avcb-condominio-tatuape' class='text-red-700 font-bold hover:underline'>Tatuapé</a>, Penha, Mooca, Vila Prudente), Zona Oeste (<a href='/renovacao-avcb-condominio-pinheiros' class='text-red-700 font-bold hover:underline'>Pinheiros</a>, <a href='/renovacao-avcb-condominio-perdizes' class='text-red-700 font-bold hover:underline'>Perdizes</a>, Pompeia, Lapa) e Centro Expandido (Jardins, Itaim Bibi, Vila Olímpia, Higienópolis, Consolação).",
       "Grande SP: Guarulhos, Osasco, Santo André, São Bernardo do Campo, São Caetano do Sul, Barueri, Mauá e Diadema.",
     ],
   },

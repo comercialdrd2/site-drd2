@@ -355,7 +355,7 @@ export default function RenovacaoCLCBPage() {
             <div className="bg-red-600 p-10 rounded-[3rem] shadow-2xl">
               <h3 className="font-black text-2xl uppercase italic mb-6">Unidade São Paulo</h3>
               <p className="text-red-100 font-bold mb-8 leading-relaxed italic">
-                Atendimento especializado para renovação de CLCB em todas as regiões metropolitanas.
+                Atendimento especializado para renovação de CLCB em todas as regiões metropolitanas, abrangendo bairros como <a href="/renovacao-avcb-condominio-moema" className="text-white hover:underline">Moema</a>, <a href="/renovacao-avcb-condominio-tatuape" className="text-white hover:underline">Tatuapé</a>, <a href="/renovacao-avcb-condominio-pinheiros" className="text-white hover:underline">Pinheiros</a> e <a href="/renovacao-avcb-condominio-santana" className="text-white hover:underline">Santana</a>.
               </p>
               <CtaWhatsApp
                 label="Falar com Unidade SP"

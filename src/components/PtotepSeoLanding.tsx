@@ -218,7 +218,7 @@ export default function PtotepSeoLanding({ page }: Props) {
                 <span className="text-5xl font-black text-red-600/10 leading-none">
                   {String(index + 1).padStart(2, "0")}
                 </span>
-                <p className="mt-5 text-slate-700 font-medium leading-relaxed">{item}</p>
+                <p className="mt-5 text-slate-700 font-medium leading-relaxed" dangerouslySetInnerHTML={{ __html: item }} />
               </div>
             ))}
           </div>

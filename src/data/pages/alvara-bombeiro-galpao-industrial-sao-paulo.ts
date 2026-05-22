@@ -7,7 +7,7 @@ export const alvaraBombeiroContent = {
   badge: "GALPÕES INDUSTRIAIS — AVCB/CLCB 2026",
   intro: [
     "<strong>Alvará do Corpo de Bombeiros para Galpões Industriais</strong> em São Paulo é obrigatório — sua ausência expõe o estabelecimento a interdição e bloqueio do alvará municipal. O <strong>Grupo I-1</strong> pelo CBPMESP define as medidas de segurança exigíveis conforme área, uso e risco específico da ocupação.",
-    "A <strong>DRD2 Engenharia</strong> é especializada na regularização de Galpões Industriais junto ao CBPMESP — do diagnóstico técnico gratuito até a retirada do AVCB ou CLCB, com 98% de aprovação na 1ª análise e resposta a Comunique-se sem custo adicional.",
+    "A <strong>DRD2 Engenharia</strong> é especializada na regularização de Galpões Industriais junto ao CBPMESP — do diagnóstico técnico gratuito até a retirada do AVCB ou CLCB, com 98% de aprovação na 1ª análise e resposta a Comunique-se sem custo adicional.<br/><br/>Atendemos toda a região de São Paulo, desde o centro até pólos logísticos na Zona Leste (<a href='/renovacao-avcb-condominio-mooca' class='text-red-700 font-bold hover:underline'>Mooca</a>, <a href='/renovacao-avcb-condominio-tatuape' class='text-red-700 font-bold hover:underline'>Tatuapé</a>), Zona Norte (<a href='/renovacao-avcb-condominio-santana' class='text-red-700 font-bold hover:underline'>Santana</a>) e Zona Sul (<a href='/renovacao-avcb-condominio-moema' class='text-red-700 font-bold hover:underline'>Moema</a>, <a href='/renovacao-avcb-condominio-vila-mariana' class='text-red-700 font-bold hover:underline'>Vila Mariana</a>).",
   ],
   sections: [
     {

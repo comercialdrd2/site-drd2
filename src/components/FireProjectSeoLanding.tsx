@@ -131,9 +131,9 @@ export default function FireProjectSeoLanding({ page }: FireProjectSeoLandingPro
                 Por que projeto de incêndio para {page.segment} não pode ser generico?
               </h2>
               <div className="space-y-6 text-lg text-slate-700 leading-relaxed font-medium">
-                <p>{page.cityContext}</p>
-                <p>{page.riskProfile}</p>
-                <p>{page.localDemand}</p>
+                <p dangerouslySetInnerHTML={{ __html: page.cityContext }} />
+                <p dangerouslySetInnerHTML={{ __html: page.riskProfile }} />
+                <p dangerouslySetInnerHTML={{ __html: page.localDemand }} />
                 <p>
                   O projeto e o documento que amarra todas as medidas de segurança. Ele precisa conversar com <Link href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link href="/sprinklers" className="text-red-700 font-black underline">sprinklers</Link>, <Link href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme de incêndio</Link>, SPDA, GLP, brigada, rotas de fuga e manutenção. Quando cada sistema fica isolado, o processo fica vulneravel a exigencia.
                 </p>
