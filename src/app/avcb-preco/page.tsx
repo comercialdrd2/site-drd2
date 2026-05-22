@@ -88,6 +88,7 @@ export default function AVCBPrecoPage() {
                  <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-full blur-3xl -mr-16 -mt-16" />
                  <h3 className="text-2xl font-black mb-6 uppercase italic text-primary">Simular Investimento</h3>
            
+      <div className="container mx-auto px-4 max-w-4xl text-center py-4 opacity-50"><p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Conteúdo Técnico Atualizado em: Maio de 2026</p></div>
       <ServiceClusterLinks currentSlug="/avcb-preco" />
       <ServiceBlogLinks currentSlug="/avcb-preco" />
 

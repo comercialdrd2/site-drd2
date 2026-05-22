@@ -290,6 +290,7 @@ export default function RenovacaoAvcbSaoJoseDosCamposPage() {
       <ServiceClusterLinks currentSlug="/renovacao-avcb-sao-jose-dos-campos" />
       <ServiceBlogLinks currentSlug="/renovacao-avcb-sao-jose-dos-campos" />
 
+      <div className="container mx-auto px-4 max-w-4xl text-center py-4 opacity-50"><p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Conteúdo Técnico Atualizado em: Maio de 2026</p></div>
       <NeighborhoodSilo currentSlug={_slug} />
     </>
   );
