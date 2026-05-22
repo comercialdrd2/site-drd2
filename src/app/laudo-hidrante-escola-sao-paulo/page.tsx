@@ -21,7 +21,7 @@ const data: UniversalPageData = {
   occupationType: "escola",
   h2_principal: {
     heading: "Como o sistema de hidrantes é dimensionado em escolas",
-    body: "Escolas são classificadas no Grupo E pelo Decreto 69.118/2024. O sistema de hidrantes precisa cobrir todos os blocos com cobertura permanente — não apenas o prédio principal. Para campuses com múltiplos blocos, a rede hidráulica precisa alcançar cada bloco com pressão mínima de 10 mca no hidrante mais distante da bomba.",
+    body: "Escolas são classificadas no Grupo E pelo Decreto 56.819/2011. O sistema de hidrantes precisa cobrir todos os blocos com cobertura permanente — não apenas o prédio principal. Para campuses com múltiplos blocos, a rede hidráulica precisa alcançar cada bloco com pressão mínima de 10 mca no hidrante mais distante da bomba.",
     body2: "Ginásios cobertos com estrutura metálica têm carga de incêndio diferente das salas de aula de alvenaria — o dimensionamento leva isso em conta. Escolas com cantina industrial têm exigência adicional de cobertura da área de cocção. A DRD2 calcula o sistema para o campus como um todo, não edificação por edificação.",
   },
   h2_riscos: {

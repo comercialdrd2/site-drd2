@@ -112,7 +112,7 @@ export const avcbGalpaoContent = {
       },
       {
         nome: "Para-raios",
-        desc: "proteção contra descargas atmosféricas conforme a ABNT NBR 5419, especialmente relevante em galpões metálicos isolados em áreas industriais.",
+        desc: "proteção contra descargas atmosféricas conforme IT-29, especialmente relevante em galpões metálicos isolados em áreas industriais.",
       },
       {
         nome: "Proteção da estrutura metálica",

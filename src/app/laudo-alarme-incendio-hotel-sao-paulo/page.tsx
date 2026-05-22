@@ -21,7 +21,7 @@ const data: UniversalPageData = {
   occupationType: "hotel",
   h2_principal: {
     heading: "Exigências do alarme de incêndio em hotéis pelo CBPMESP",
-    body: "Hotéis são classificados no Grupo H pelo Decreto 69.118/2024. A IT 18/2019 exige para esse grupo: detector em cada UH (quarto), nos corredores de acesso às UHs, no lobby, no restaurante interno, nas áreas de serviço e na lavanderia. A central de alarme deve ficar em local de monitoramento permanente — a recepção do hotel é o ponto aceito, desde que haja operador treinado 24h.",
+    body: "Hotéis são classificados no Grupo H pelo Decreto 56.819/2011. A IT 18/2019 exige para esse grupo: detector em cada UH (quarto), nos corredores de acesso às UHs, no lobby, no restaurante interno, nas áreas de serviço e na lavanderia. A central de alarme deve ficar em local de monitoramento permanente — a recepção do hotel é o ponto aceito, desde que haja operador treinado 24h.",
     body2: "Hotéis com mais de 4 andares precisam de sistema com enunciadores de voz (mensagem gravada de evacuação) além da sirene — para que hóspedes estrangeiros ou com deficiência auditiva parcial possam entender a instrução de abandono. Esse requisito é frequentemente ignorado em hotéis mais antigos e gera Comunique-se na renovação.",
   },
   h2_riscos: {

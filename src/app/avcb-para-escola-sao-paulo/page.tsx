@@ -190,7 +190,7 @@ export default function AVCBEscolaMasterPage() {
               { t: "Hidrantes (IT-22)", i: <MapPin className="w-8 h-8"/>, d: "Projeto hidráulico completo exigido em edificações de maior porte." },
               { t: "Alarme e Detecção", i: <AlertCircle className="w-8 h-8"/>, d: "Obrigatório acima de determinada área para garantir evacuação segura." },
               { t: "Brigada (IT-16/17)", i: <Users className="w-8 h-8"/>, d: "Treinamento de funcionários e elaboração do Plano de Emergência." },
-              { t: "SPDA (Para-raios)", i: <Zap className="w-8 h-8"/>, d: "Proteção obrigatória conforme altura ou características do risco (ABNT NBR 5419)." }
+              { t: "SPDA (Para-raios)", i: <Zap className="w-8 h-8"/>, d: "Proteção obrigatória conforme altura ou características do risco (IT-29)." }
             ].map((sys, i) => (
               <div key={i} className="bg-slate-50 p-10 rounded-[3rem] border border-slate-200 shadow-lg group hover:bg-slate-950 transition-all">
                 <div className="text-red-600 mb-6 group-hover:scale-110 transition-transform">{sys.i}</div>

@@ -102,7 +102,7 @@ export default function AvcbVsClcbTable() {
             AVCB vs CLCB lado a lado
           </h2>
           <p className="text-slate-600 font-medium leading-relaxed max-w-3xl">
-            12 dimensões em que os dois certificados se diferenciam, com base no Decreto 69.118/2024
+            12 dimensões em que os dois certificados se diferenciam, com base no Decreto 56.819/2011
             e nas Instruções Técnicas do CBPMESP atualizadas em 2025/2026.
           </p>
         </div>

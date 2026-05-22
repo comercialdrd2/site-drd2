@@ -684,7 +684,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>A resposta curta é: <strong>depende da área, da altura e do número de ocupantes</strong>. Mas na prática, a maioria dos estabelecimentos se enquadra nas faixas de obrigatoriedade — e operar sem o AVCB em dia é uma infração que impacta desde seguros empresariais até o alvará de funcionamento.</p>
 
       <h2>Quando o alarme de incêndio é obrigatório para comércio em SP?</h2>
-      <p>A obrigatoriedade é definida pelo cruzamento entre o Decreto Estadual nº 69.118/2024 (atualizado pelo Decreto nº 69.118/2024) e a Lei Federal nº 13.425/2017 da Boate Kiss.</p>
+      <p>A obrigatoriedade é definida pelo cruzamento entre o Decreto Estadual nº 63.911/2018 (atualizado pelo Decreto nº 69.118/2024) e a Lei Federal nº 13.425/2017 da Boate Kiss.</p>
       <ul>
         <li><strong>Pelo número de ocupantes:</strong> estabelecimentos com 100 ou mais pessoas em ocupação simultânea são obrigados a manter sistemas de segurança contra incêndio massivos. Isso inclui lojas de médio porte, concessionárias e academias.</li>
         <li><strong>Pela área ou altura:</strong> edificações comerciais (Grupo C) e de serviços profissionais corporativos (Grupo D) atingem o gatilho pela escala vertical dos pavimentos.</li>
@@ -768,7 +768,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>Hospitais demoram entre 60 a 150 dias pelos pormenores do volume físico da obra. Evite trancar a validação do seu Alvará de Saúde junto à Prefeitura local se antecipando aos pormenores documentais. Conte com os analistas da Engenharia DRD2.</p>
     `,
     faqs: [
-      { question: "O alarme de incêndio é obrigatório para hospitais e clínicas em São Paulo?", answer: "Sim. Estabelecimentos de saúde são classificados no Grupo H pelo Decreto Estadual nº 69.118/2024 e estão entre as ocupações com maior rigor normativo do CBPMESP. O sistema de detecção e alarme de incêndio (SDAI) é condição obrigatória para a emissão e renovação do AVCB." },
+      { question: "O alarme de incêndio é obrigatório para hospitais e clínicas em São Paulo?", answer: "Sim. Estabelecimentos de saúde são classificados no Grupo H pelo Decreto Estadual nº 63.911/2018 e estão entre as ocupações com maior rigor normativo do CBPMESP. O sistema de detecção e alarme de incêndio (SDAI) é condição obrigatória para a emissão e renovação do AVCB." },
       { question: "O que é o painel repetidor e por que é exigido em hospitais?", answer: "O painel repetidor é um dispositivo que exibe, em tempo real, qual setor do estabelecimento ativou o alarme. A IT-19/2025 exige que a sinalização seja simultânea na central de alarme e no setor atingido, permitindo resposta direcionada das enfermeiras/bombeiros sem evacuação desnecessária." },
       { question: "Qual é o tempo máximo de resposta da central no hospital?", answer: "O reconhecimento do evento na central ou no painel repetidor pelo operador deve ocorrer em até no máximo 30 segundos absolutos. Se ninguém agir, o sistema dispara sozinho alarme massivo." },
       { question: "Hospital ou clínica sem AVCB pode ser interditado?", answer: "Completamente sim. Operar sem validação de prevenção a Incêndio em prédio de saúde atrai a interdição da Vigilância Sanitária em conjunto aos equipes fiscalizadoras do Corpo de Bombeiros e cancelamentos judiciais." }
@@ -788,7 +788,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>Com a publicação da IT-19/2025 em março de 2025, os critérios ficaram mais rigorosos. Neste artigo, explicamos o que mudou, o que é exigido para galpões e como regularizar sua operação sem retrabalho.</p>
 
       <h2>O alarme de incêndio é obrigatório para galpões em São Paulo?</h2>
-      <p>Sim. A obrigatoriedade é definida pelo Decreto Estadual nº 69.118/2024 (atualizado pelo Decreto nº 69.118/2024), cruzando o grupo de ocupação, a área construída e a carga de incêndio da edificação.</p>
+      <p>Sim. A obrigatoriedade é definida pelo Decreto Estadual nº 63.911/2018 (atualizado pelo Decreto nº 69.118/2024), cruzando o grupo de ocupação, a área construída e a carga de incêndio da edificação.</p>
       <p>Galpões classificados como Grupo I com área e risco que atingem os gatilhos normativos são obrigados a instalar o SDAI como condição inexorável para obtenção do AVCB.</p>
       
       <div class="bg-red-50 border-l-4 border-red-500 p-6 my-8 text-red-900 font-bold rounded-r-lg text-xl uppercase tracking-tight">
@@ -831,7 +831,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <h2>Dúvidas mais Comuns de Síndicos e Administradores de Facilities:</h2>
     `,
     faqs: [
-      { question: "O alarme de incêndio é obrigatório para galpões industriais em São Paulo?", answer: "Sim. Para galpões classificados como Grupo I pelo Decreto Estadual nº 69.118/2024, o SDAI é exigido conforme a área e a carga de incêndio da edificação. Sua aprovação é condição obrigatória para a emissão do AVCB pelo CBPMESP." },
+      { question: "O alarme de incêndio é obrigatório para galpões industriais em São Paulo?", answer: "Sim. Para galpões classificados como Grupo I pelo Decreto Estadual nº 63.911/2018, o SDAI é exigido conforme a área e a carga de incêndio da edificação. Sua aprovação é condição obrigatória para a emissão do AVCB pelo CBPMESP." },
       { question: "O que é a IT-19/2025 e como ela afeta galpões?", answer: "É a Instrução Técnica nº 19 do CBPMESP, atualizada em março de 2025. Para galpões, reforça a exigência de certificação INMETRO da central de alarme, obrigatoriedade de strobes em áreas ruidosas (>105 dBA) e laudo de comissionamento como documento obrigatório na vistoria." },
       { question: "Galpão com operação barulhenta precisa de dispositivo especial?", answer: "Sim. A IT-19/2025 exige que em locais com ruído acima de 105 dBA sejam instalados obrigatoriamente avisadores visuais (strobes) em complemento às sirenes, garantindo que o alarme seja percebido mesmo em ambientes com alto ruído operacional e uso de EPIs." },
       { question: "Qual a diferença do alarme para galpão I-1, I-2 e I-3?", answer: "A classificação define o risco: I-1 (até 300 MJ/m²) é risco baixo, I-2 (300 a 1.200 MJ/m²) é risco médio e I-3 (acima de 1.200 MJ/m²) é risco alto. Quanto maior o risco, mais rigoroso é o dimensionamento térmico e quantitativo do SDAI exigido pelo CBPMESP." },
@@ -851,7 +851,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
 
       <h2>O sistema de alarme de incêndio é obrigatório para condomínios em SP?</h2>
       <p>Sim, e sem exceções relevantes para edificações residenciais de médio e grande porte em São Paulo.</p>
-      <p>A obrigatoriedade decorre do cruzamento entre o Decreto Estadual nº 69.118/2024 (com atualizações do Decreto nº 69.118/2024) e as Instruções Técnicas do CBPMESP, que estabelecem quais medidas de segurança contra incêndio são exigidas conforme o grupo de ocupação, a área construída e a altura da edificação.</p>
+      <p>A obrigatoriedade decorre do cruzamento entre o Decreto Estadual nº 63.911/2018 (com atualizações do Decreto nº 69.118/2024) e as Instruções Técnicas do CBPMESP, que estabelecem quais medidas de segurança contra incêndio são exigidas conforme o grupo de ocupação, a área construída e a altura da edificação.</p>
       <p>Para condomínios residenciais, o sistema de detecção e alarme de incêndio (SDAI) geralmente é exigido a partir de determinadas faixas de área ou número de pavimentos — e sua regularidade é condição obrigatória para a emissão e renovação do AVCB (Auto de Vistoria do Corpo de Bombeiros).</p>
 
       <div class="bg-red-50 border-l-4 border-red-500 p-6 my-8 text-red-900 font-bold rounded-r-lg text-xl">
@@ -902,7 +902,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <h2>Perguntas Frequentes (FAQ)</h2>
     `,
     faqs: [
-      { question: "O alarme de incêndio é obrigatório para condomínios residenciais em São Paulo?", answer: "Sim. Conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP, o sistema de detecção e alarme de incêndio é exigido para condomínios residenciais a partir de determinadas faixas de área e altura. Sua aprovação é condição obrigatória para emissão e renovação do AVCB." },
+      { question: "O alarme de incêndio é obrigatório para condomínios residenciais em São Paulo?", answer: "Sim. Conforme o Decreto Estadual nº 63.911/2018 e as Instruções Técnicas do CBPMESP, o sistema de detecção e alarme de incêndio é exigido para condomínios residenciais a partir de determinadas faixas de área e altura. Sua aprovação é condição obrigatória para emissão e renovação do AVCB." },
       { question: "O que é a IT-19/2025 do CBPMESP?", answer: "A IT-19/2025 é a Instrução Técnica nº 19 do Corpo de Bombeiros de São Paulo, atualizada em março de 2025 (Portaria CCB-003/800/25). Ela define os requisitos mínimos para o dimensionamento, instalação e aprovação de sistemas de detecção e alarme de incêndio no Estado de São Paulo." },
       { question: "O síndico pode ser multado por falta de alarme de incêndio no condomínio?", answer: "Sim. O síndico é o responsável legal pela regularidade do AVCB. Condomínios sem o documento em dia podem receber multas superiores a R$ 310 mil, além de o síndico responder civil e criminalmente por sinistros ocorridos em edificação irregular." },
       { question: "De quanto em quanto tempo o AVCB de condomínio residencial deve ser renovado em SP?", answer: "O AVCB de condomínio residencial em São Paulo deve ser renovado a cada 5 anos. Para condomínios comerciais, o prazo é de 3 anos." },
@@ -2214,7 +2214,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>Os sistemas exigidos variam conforme o tamanho e o número de pavimentos, mas geralmente incluem: sistema de alarme com detectores e sirenes em todos os quartos e áreas comuns, iluminação de emergência em corredores e escadas, sinalização fotoluminescente de rotas de fuga, extintores posicionados conforme IT-21, e para pousadas maiores, sistema de hidrantes e/ou sprinkler.</p>
 
       <h2>Pousada de praia precisa de AVCB?</h2>
-      <p>Sim. Pousadas na Baixada Santista, litoral norte e qualquer município do Estado de SP estão sujeitas ao mesmo Decreto Estadual 69.118/2024. O Corpo de Bombeiros fiscaliza todos os municípios paulistas — e pousadas de temporada, que ficam meses sem uso regular, tendem a ter sistemas deteriorados justamente quando estão mais cheias.</p>
+      <p>Sim. Pousadas na Baixada Santista, litoral norte e qualquer município do Estado de SP estão sujeitas ao mesmo Decreto Estadual 56.819/2011. O Corpo de Bombeiros fiscaliza todos os municípios paulistas — e pousadas de temporada, que ficam meses sem uso regular, tendem a ter sistemas deteriorados justamente quando estão mais cheias.</p>
 
       <h2>Como regularizar o AVCB da pousada</h2>
       <p>O processo começa com diagnóstico técnico gratuito: identificação dos sistemas existentes, estado de conservação, documentação atual e enquadramento correto na IT aplicável. A DRD2 atende pousadas em toda a Grande SP, Baixada Santista e interior, com processo completo do diagnóstico ao certificado.</p>
@@ -2624,7 +2624,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     content: `
       <p>A diferença entre <strong>CLCB</strong> e <strong>AVCB</strong> não é só de nome — são processos completamente distintos com regras, prazos e custos diferentes. Errar o enquadramento custa caro: protocolo recusado, retrabalho técnico e atraso de meses na regularização.</p>
 
-      <p>Este guia técnico apresenta as 5 perguntas oficiais do CBPMESP que definem qual certificado se aplica à sua edificação, baseadas na Instrução Técnica IT-01 e no Decreto 69.118/2024 atualizado em 2025/2026.</p>
+      <p>Este guia técnico apresenta as 5 perguntas oficiais do CBPMESP que definem qual certificado se aplica à sua edificação, baseadas na Instrução Técnica IT-01 e no Decreto 56.819/2011 atualizado em 2025/2026.</p>
 
       <h2>1. Qual a área construída total da edificação?</h2>
       <p>Essa é a primeira e mais decisiva pergunta. O <strong>CLCB</strong> (Certificado de Licença do Corpo de Bombeiros) é exclusivo para edificações com até <strong>750 m² de área construída total</strong>. Acima disso, automaticamente migra para AVCB.</p>
@@ -2684,7 +2684,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     content: `
       <p>O <strong>CLCB</strong> (Certificado de Licença do Corpo de Bombeiros) é a versão simplificada da regularização junto ao CBPMESP para edificações de baixo risco até 750 m². O processo é mais rápido, mais barato e exige menos documentação que o AVCB — mas tem regras específicas que, se ignoradas, fazem o protocolo ser recusado.</p>
 
-      <p>Este guia detalha o passo a passo oficial do CLCB em 2026 conforme as Instruções Técnicas IT-01 e o Decreto 69.118/2024 atualizado.</p>
+      <p>Este guia detalha o passo a passo oficial do CLCB em 2026 conforme as Instruções Técnicas IT-01 e o Decreto 56.819/2011 atualizado.</p>
 
       <h2>Etapa 1: Confirmar enquadramento</h2>
       <p>Antes de qualquer documento, confirme que sua edificação realmente se enquadra no CLCB. Os critérios são cumulativos:</p>

@@ -25,7 +25,7 @@ const data: UniversalPageData = {
   "occupationType": "estabelecimento autuado",
   "h2_principal": {
     "heading": "Como funciona a multa do Corpo de Bombeiros em São Paulo?",
-    "body": "O Auto de Infração do CBPMESP é lavrado quando o vistoriador identifica irregularidades durante fiscalização programada, vistoria por denúncia ou ocorrência de incêndio. O documento descreve cada infração encontrada, o artigo do Decreto 69.118/2024 infringido e o valor da multa por item. Múltiplas infrações geram múltiplas multas — é comum ver Autos com 3 a 8 itens separados, cada um com valor individual.",
+    "body": "O Auto de Infração do CBPMESP é lavrado quando o vistoriador identifica irregularidades durante fiscalização programada, vistoria por denúncia ou ocorrência de incêndio. O documento descreve cada infração encontrada, o artigo do Decreto 56.819/2011 infringido e o valor da multa por item. Múltiplas infrações geram múltiplas multas — é comum ver Autos com 3 a 8 itens separados, cada um com valor individual.",
     "body2": "O valor das multas vai de R$ 500 a R$ 50.000 por infração conforme a Tabela do CBPMESP, majorado por fatores como tipo de ocupação, histórico de reincidência, risco efetivo e número de pessoas expostas. Multas não pagas e não recorridas no prazo são inscritas em dívida ativa estadual com acréscimo de juros SELIC e correção monetária, além de negativar o CNPJ na Sefaz-SP."
   },
   "h2_riscos": {
@@ -46,7 +46,7 @@ const data: UniversalPageData = {
       },
       {
         "titulo": "Novo embargo por reincidência",
-        "desc": "Reincidência detectada em nova fiscalização gera multa dobrada conforme o Decreto 69.118/2024, além de risco elevado de embargo imediato sem possibilidade de recurso preliminar."
+        "desc": "Reincidência detectada em nova fiscalização gera multa dobrada conforme o Decreto 56.819/2011, além de risco elevado de embargo imediato sem possibilidade de recurso preliminar."
       },
       {
         "titulo": "Bloqueio de renovação de alvará",

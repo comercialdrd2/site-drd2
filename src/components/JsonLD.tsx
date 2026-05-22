@@ -233,7 +233,6 @@ export const generateMasterSchema = ({
       "isPartOf": { "@id": `${BASE_URL}/#website` },
       "about": serviceName ? { "@id": serviceId } : { "@id": `${BASE_URL}/#organization` },
       "publisher": { "@id": `${BASE_URL}/#organization` },
-      "author": { "@id": `${BASE_URL}/#samuel-costa` },
       "inLanguage": "pt-BR",
     },
     {

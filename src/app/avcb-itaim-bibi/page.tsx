@@ -339,7 +339,7 @@ export default function ItaimBibiMasterPage() {
         <div className="container mx-auto px-4 max-w-4xl text-slate-700 leading-relaxed text-left text-base">
           <h2 className="text-3xl md:text-4xl font-black text-secondary uppercase tracking-tighter mb-8 border-l-8 border-primary pl-6 text-left">AVCB no Itaim Bibi: Conformidade para o Centro Financeiro de São Paulo</h2>
           <p className="text-left mb-6 font-medium">O Itaim Bibi concentra o metro quadrado mais valorizado de São Paulo, reunindo lajes corporativas Triple A, alta gastronomia premiada e academias boutique de luxo. A regularização do AVCB (Auto de Vistoria do Corpo de Bombeiros) nesse contexto exige precisão técnica máxima, pois as gerenciadoras prediais (JLL, CBRE, Cushman) e as seguradoras corporativas não admitem documentação incompleta.</p>
-          <p className="text-left font-medium">A DRD2 Engenharia fornece consultoria técnica especializada no Itaim Bibi, assegurando que gestores de facilities, empresários do setor gastronômico e síndicos de edifícios comerciais tenham acesso à melhor documentação técnica do mercado, com processos ágeis junto ao CBPMESP e suporte total em todas as etapas de conformidade com o Decreto Estadual nº 69.118/2024.</p>
+          <p className="text-left font-medium">A DRD2 Engenharia fornece consultoria técnica especializada no Itaim Bibi, assegurando que gestores de facilities, empresários do setor gastronômico e síndicos de edifícios comerciais tenham acesso à melhor documentação técnica do mercado, com processos ágeis junto ao CBPMESP e suporte total em todas as etapas de conformidade com o Decreto Estadual nº 63.911/18.</p>
         </div>
       </section>
 

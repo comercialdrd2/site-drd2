@@ -440,7 +440,7 @@ export default function RenovacaoAVCBPage() {
             <Phone className="w-8 h-8 inline" /> {c.ctaFinal.cta.replace("📲 ", "")}
           </a>
           <p className="mt-8 text-xs font-black uppercase tracking-[0.3em] text-red-100 opacity-50">
-            DRD2 Engenharia — Especialista em Renovação de AVCB — Decreto 69.118/2024
+            DRD2 Engenharia — Especialista em Renovação de AVCB — Decreto 63.911/2018
           </p>
         </div>
       </section>

@@ -29,7 +29,7 @@ const data: UniversalPageData = {
   "occupationType": "hotel e pousada",
   "h2_principal": {
     "heading": "Exigências de sprinkler para hotéis e pousadas em SP",
-    "body": "Hotéis classificados como Grupo H pelo Decreto Estadual 69.118/2024 precisam de sistema de sprinkler automático quando superam determinadas áreas e alturas em São Paulo. O dimensionamento para hospedagem exige bicos de resposta rápida nos quartos — fundamentais para acionamento antes que o incêndio se propague enquanto os hóspedes estão dormindo —, pressão e densidade de descarga adequadas para o tipo de ocupação e integração com o sistema de alarme para evacuação ordenada dos hóspedes.",
+    "body": "Hotéis classificados como Grupo H pelo Decreto Estadual 56.819/2011 precisam de sistema de sprinkler automático quando superam determinadas áreas e alturas em São Paulo. O dimensionamento para hospedagem exige bicos de resposta rápida nos quartos — fundamentais para acionamento antes que o incêndio se propague enquanto os hóspedes estão dormindo —, pressão e densidade de descarga adequadas para o tipo de ocupação e integração com o sistema de alarme para evacuação ordenada dos hóspedes.",
     "body2": "Hotéis que nunca tiveram sprinkler e precisam instalar para regularizar o AVCB enfrentam o desafio de instalar o sistema sem paralisar completamente a operação. A DRD2 planeja a instalação por pavimento e turno, minimizando o número de quartos fora de operação em cada etapa da obra."
   },
   "h2_riscos": {
