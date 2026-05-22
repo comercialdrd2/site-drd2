@@ -56,7 +56,7 @@ export default function EmpresaAVCBPage() {
 
       {/* Hero Corporate - High Magnitude */}
       <section className="relative bg-slate-900 text-white pt-32 pb-24 overflow-hidden border-b-8 border-primary">
-        <Image src="/images/eng-samuel-oficial.webp" alt="Equipe de engenharia especializada em regularização do Corpo de Bombeiros" fill className="object-cover object-center opacity-30 grayscale-[30%]" priority sizes="100vw" quality={65} />
+        <Image src="/images/eng-samuel-oficial.webp" alt="Equipe de engenharia especializada em regularização do Corpo de Bombeiros" fill className="object-cover object-top opacity-30 grayscale-[30%]" priority sizes="100vw" quality={65} />
 
         <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] bg-cover bg-center opacity-10" />
         <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950/50" />
@@ -65,10 +65,10 @@ export default function EmpresaAVCBPage() {
           <div className="flex flex-col lg:flex-row gap-16 items-center">
             <div className="lg:w-3/5">
               <span className="inline-block bg-primary text-white text-[10px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest mb-6">Consultoria B2B Triple-A</span>
-              <h1 className="text-5xl md:text-7xl font-black mb-8 leading-[0.9] tracking-tighter text-white">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-8 leading-[1.0] tracking-tighter text-white">
                 Empresa Especializada em <span className="text-primary italic">AVCB SP</span>
               </h1>
-              <p className="text-xl md:text-2xl text-gray-300 mb-10 leading-relaxed font-medium">
+              <p className="text-lg md:text-xl text-gray-300 mb-10 leading-relaxed font-medium">
                 Sua parceira estratégica em Segurança Contra Incêndio. Se você precisa de uma <span className="text-white font-bold underline decoration-primary">Empresa AVCB SP</span>, oferecemos gestão integral de projetos e aprovações com **zero burocracia**.
               </p>
               
