@@ -103,7 +103,7 @@ export const ptotepPages: PtotepPage[] = [
     h1: "Projeto Técnico de Ocupação Temporária em Edificação Permanente",
     lead:
       "Regularize eventos temporários dentro de shopping, igreja, escola, centro de convenções, hotel, galpão, teatro ou edifício já existente sem colocar o AVCB do local em risco.",
-    heroImage: "/images/projeto-bombeiros.webp",
+    heroImage: eventHero,
     imageAlt: "Engenheiro avaliando planta de PTOTEP para evento temporário",
     focus:
       "O PTOTEP (Projeto Técnico de Ocupação Temporária em Edificação Permanente) é a aprovação exigida pelo Corpo de Bombeiros quando você realiza um evento dentro de um imóvel que já possui uso e AVCB aprovados para outra finalidade.",
