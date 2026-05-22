@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import { JsonLD, generateMasterSchema } from "@/components/JsonLD";
 import { CheckCircle, ShieldCheck, Phone, ArrowRight } from "lucide-react";
@@ -116,7 +117,7 @@ export default function CLCBSaoPaulo() {
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="space-y-6 text-lg text-slate-700 leading-relaxed font-medium">
             <p>
-              Se você precisa de <strong>CLCB em São Paulo</strong>, a DRD2 Engenharia conduz todo o processo de obtenção do Certificado de Licença do Corpo de Bombeiros junto ao CBPMESP com agilidade, segurança técnica e conformidade total com as Instruções Técnicas vigentes e o <strong>Decreto Estadual nº 69.118/2024</strong>. Atendemos comércios, escritórios, clínicas, salões de beleza, microempresas e demais estabelecimentos em toda a Grande São Paulo.
+              Se você precisa de <strong>CLCB em São Paulo</strong>, a DRD2 Engenharia conduz todo o processo de obtenção do Certificado de Licença do Corpo de Bombeiros junto ao CBPMESP com agilidade, segurança técnica e conformidade total com as Instruções Técnicas vigentes e o <strong>Decreto Estadual nº 69.118/2024</strong>. Atendemos comércios, escritórios, clínicas, salões de beleza, microempresas e demais estabelecimentos em toda a Grande São Paulo, incluindo a Zona Sul (<Link href="/renovacao-clcb-moema-sao-paulo" className="text-primary hover:underline">Moema</Link>, <Link href="/renovacao-clcb-santo-amaro-sao-paulo" className="text-primary hover:underline">Santo Amaro</Link>), Zona Norte (<Link href="/renovacao-clcb-santana-sao-paulo" className="text-primary hover:underline">Santana</Link>), Centro Expandido e cidades estratégicas como <Link href="/renovacao-clcb-guarulhos" className="text-primary hover:underline">Guarulhos</Link> e <Link href="/renovacao-clcb-osasco" className="text-primary hover:underline">Osasco</Link>.
             </p>
 
             <h2 className="text-3xl font-black text-slate-900 border-l-4 border-primary pl-6 leading-tight uppercase italic tracking-tight">
