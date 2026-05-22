@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "IT-23/CBPMESP + NBR 10897 — Hospitais e Clínicas SP (Grupo I)",
   "h1Line1": "Sistema de Sprinkler para Hospital",
   "h1Line2": "em São Paulo — Projeto, Instalação e Laudo com ART",
-  "heroBg": "/images/blog/blog_hero_avcb_hospital.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Hospitais, clínicas com internação e unidades de saúde de grande porte em São Paulo exigem sistema de sprinkler automático dimensionado para Grupo I conforme a IT-23/CBPMESP e NBR 10897. O ambiente hospitalar impõe requisitos específicos de supressão automática que diferem significativamente de imóveis comerciais convencionais.",
   "introP2": "A DRD2 projeta, instala e emite laudo técnico com ART CREA-SP de sistemas de sprinkler para hospitais em SP — com experiência em todos os tipos de ocupação hospitalar e nos requisitos do CBPMESP para Grupo I.",
   "breadcrumbs": [

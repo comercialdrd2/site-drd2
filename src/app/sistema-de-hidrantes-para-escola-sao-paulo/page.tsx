@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "IT-22/CBPMESP e NBR 13714 — Escolas em São Paulo",
   "h1Line1": "Sistema de Hidrantes para Escola",
   "h1Line2": "em São Paulo — Projeto, Instalação e Laudo",
-  "heroBg": "/images/blog/blog_hero_avcb_creche.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Escolas exigem sistema de hidrantes pelo risco de alta densidade de ocupantes em áreas fechadas e público vulnerável. A DRD2 projeta, instala e certifica sistemas de hidrantes para escola em São Paulo conforme IT-22/CBPMESP e NBR 13714, com ART CREA-SP e laudo completo para AVCB.",
   "introP2": "Processo completo: levantamento técnico, projeto hidráulico com cálculo de densidade por setor de risco, instalação por equipe própria, teste de pressão e emissão de laudo com ART. Diagnóstico técnico gratuito.",
   "breadcrumbs": [

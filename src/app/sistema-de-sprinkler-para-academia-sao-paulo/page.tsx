@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "IT-23/CBPMESP e NBR 10897 — Academias em São Paulo",
   "h1Line1": "Sistema de Sprinkler para Academia",
   "h1Line2": "em São Paulo — Projeto, Instalação e Laudo",
-  "heroBg": "/images/page-sprinklers.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Academias exigem sistema de sprinkler pelo risco de alta densidade de público simultâneo e equipamentos elétricos de alto consumo. A DRD2 projeta, instala e certifica sistemas de sprinkler para academia em São Paulo conforme IT-23/CBPMESP e NBR 10897, com ART CREA-SP e laudo completo para AVCB.",
   "introP2": "Processo completo: levantamento técnico, projeto hidráulico com cálculo de densidade por setor de risco, instalação por equipe própria, teste de pressão e emissão de laudo com ART. Diagnóstico técnico gratuito.",
   "breadcrumbs": [

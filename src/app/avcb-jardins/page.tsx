@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "Zona Centro-Sul SP — Especialistas em AVCB em Jardins",
   "h1Line1": "AVCB em Jardins",
   "h1Line2": "Regularização Completa — São Paulo",
-  "heroBg": "/images/blog/fire_safety_equipment_premium.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Especialistas em AVCB e CLCB em Jardins: bairro nobre com alta concentração de clínicas, escritórios e estabelecimentos premium. A DRD2 Engenharia atua na região com equipe técnica própria, diagnóstico gratuito e processo completo do levantamento ao certificado.",
   "introP2": "Diagnóstico técnico em até 24h, protocolo no CBPMESP sem pendências e acompanhamento da vistoria. Mais de 2.500 regularizações realizadas em toda a Grande São Paulo.",
   "breadcrumbs": [

@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "Guia Técnico 2026 — Vistoria CBPMESP São Paulo",
   "h1Line1": "Vistoria do Corpo de Bombeiros",
   "h1Line2": "O Que Esperar? Checklist Completo",
-  "heroBg": "/images/blog/fire_safety_equipment_premium.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "A vistoria do Corpo de Bombeiros é o momento decisivo do processo de AVCB. Um imóvel que chegou ao dia da vistoria com documentação completa mas sistemas em não-conformidade pode ser reprovado e receber Comunique-se — atrasando todo o processo em 30 a 60 dias.",
   "introP2": "Este guia explica o que o vistoriador avalia em cada tipo de sistema, o checklist de conformidade pré-vistoria, o que fazer no dia da visita e como responder a Comunique-ses emitidos após a vistoria.",
   "breadcrumbs": [

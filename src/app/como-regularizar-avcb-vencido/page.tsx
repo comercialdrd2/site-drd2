@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "Guia Completo — Regularização de AVCB em São Paulo 2026",
   "h1Line1": "Como Regularizar AVCB Vencido",
   "h1Line2": "Guia Passo a Passo para São Paulo",
-  "heroBg": "/images/blog/blog_hero_avcb_vencido.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Regularizar o AVCB vencido exige sequência correta de ações: diagnóstico técnico, auditoria documental, adequação dos sistemas, projeto com ART e protocolo no CBPMESP sem pendências. Cada etapa na ordem errada pode atrasar o processo em 30 a 60 dias.",
   "introP2": "Este guia detalha cada etapa do processo de regularização, os documentos exigidos por tipo de imóvel, o prazo realista por categoria e as armadilhas que mais atrasam a emissão do AVCB em São Paulo.",
   "breadcrumbs": [

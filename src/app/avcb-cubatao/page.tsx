@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "Baixada Santista — Polo Industrial — Especialistas em AVCB em Cubatão",
   "h1Line1": "AVCB em Cubatão",
   "h1Line2": "Regularização Completa — Baixada Santista SP",
-  "heroBg": "/images/blog/blog_hero_avcb_galpao.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Especialistas em AVCB e CLCB em Cubatão: polo industrial com alta concentração de galpões, indústrias e depósitos logísticos. A DRD2 Engenharia atua na Baixada Santista com equipe técnica própria, diagnóstico gratuito e processo completo do levantamento ao certificado do Corpo de Bombeiros.",
   "introP2": "Diagnóstico técnico em até 24h, protocolo no CBPMESP sem pendências e acompanhamento da vistoria. Mais de 2.500 regularizações realizadas em São Paulo e Baixada Santista.",
   "breadcrumbs": [

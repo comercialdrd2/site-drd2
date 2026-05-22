@@ -1,94 +1,74 @@
 export const renovacaoAvcbContent = {
   meta: {
-    title: "Renovação de AVCB para Escritórios em São Paulo | DRD2 Engenharia",
-    description: "Escritório com AVCB vencido em SP cancela apólices e perde laudos prediais. Layout e sala de servidores são pontos críticos. DRD2 renova com 98% de aprovação na 1ª análise.",
+    title: "Renovação de AVCB para Escritórios Corporativos em São Paulo | DRD2 Engenharia",
+    description: "Escritórios com AVCB vencido enfrentam problemas com seguradoras e laudos prediais. Muitas vezes as adequações internas não refletem o projeto do cond... DRD2 Engenharia renova com agilidade.",
     canonical: "/renovacao-avcb-escritorio-sao-paulo",
   },
-  badge: "GRUPO D-1 — PRESTAÇÃO DE SERVIÇOS — RENOVAÇÃO 2026",
+  badge: "GRUPO D-1 — LOCAIS PARA PRESTAÇÃO DE SERVIÇOS — RENOVAÇÃO 2026",
   h1: "Renovação de AVCB para Escritórios Corporativos em São Paulo",
   intro: [
-    "<strong>Escritório ou sala comercial com AVCB vencido em São Paulo</strong> enfrenta consequências que vão muito além da multa: seguradoras empresariais cancelam apólices de responsabilidade civil, laudos prediais (LIP — Laudo de Inspeção Predial) ficam comprometidos, e contratos com grandes clientes que exigem compliance de segurança são ameaçados. Em São Paulo, escritórios corporativos de médio e grande porte são cada vez mais auditados por parceiros, clientes e investidores quanto à regularidade de segurança contra incêndio.<br/><br/>📲 <strong>Regularize o AVCB do seu escritório sem interromper as operações.</strong> Fale com a DRD2 Engenharia: <a href='https://wa.me/5511993206900' class='text-green-600 font-bold underline'>Chamar no WhatsApp</a>",
-    "A <strong>DRD2 Engenharia</strong> é especializada na renovação do AVCB para escritórios e espaços corporativos em São Paulo — desde salas comerciais de pequeno porte em edifícios de escritórios até andares corporativos completos em torres de alto padrão. Dominamos a complexidade técnica da relação entre o AVCB da unidade e o AVCB do edifício, e realizamos o processo de renovação com interferência mínima na rotina da empresa."
+    "<strong>Escritórios Corporativos com AVCB vencido em São Paulo</strong> correm sérios riscos. Escritórios com AVCB vencido enfrentam problemas com seguradoras e laudos prediais. Muitas vezes as adequações internas não refletem o projeto do condomínio, gerando conflitos no CBPMESP.<br/><br/>📲 <strong>Evite multas e interdições.</strong> Fale agora com um engenheiro: <a href='https://wa.me/5511993206900' class='text-green-600 font-bold underline'>Chamar no WhatsApp</a>",
+    "A <strong>DRD2 Engenharia</strong> executa a renovação completa do projeto à instalação — levantamento técnico, atualização da documentação, adequação dos sistemas e aprovação junto ao Corpo de Bombeiros, com resposta incluída a qualquer Comunique-se, sem custo adicional."
   ],
   sections: [
     {
-      title: "Por que a renovação do AVCB de escritórios tem prazo crítico",
+      title: "Por que a renovação do AVCB para escritórios corporativos tem prazo crítico",
       content: [
-        "Escritórios e espaços corporativos são classificados pelo CBPMESP no <strong>Grupo D-1 (Locais para Prestação de Serviços e para Uso Público)</strong>. Apesar de serem considerados ocupações de menor risco que restaurantes ou indústrias, escritórios de médio e grande porte precisam manter sistemas de proteção em conformidade permanente — especialmente em edifícios corporativos de alto padrão, onde a densidade de ocupantes por pavimento é alta.",
-        "O vencimento do AVCB de um escritório impacta diretamente a capacidade de renovar o laudo de vistoria do Corpo de Bombeiros exigido em muitos contratos imobiliários comerciais e em auditorias de compliance. Multinacionais, bancos e empresas de tecnologia frequentemente exigem comprovação de AVCB válido como condição para assinatura de contratos de prestação de serviços.",
-        "Para escritórios em edifícios corporativos, o processo de renovação tem uma particularidade importante: o AVCB da unidade locatária está relacionado ao AVCB do edifício como um todo. O prazo para iniciar o processo é de <strong>60 a 90 dias antes do vencimento</strong>."
+        "Estabelecimentos do tipo escritórios corporativos operam sob fiscalização permanente. O AVCB válido é condição obrigatória para a renovação de alvarás de funcionamento.",
+        "Na prática, isso significa que operar com AVCB vencido bloqueia a renovação de outros documentos e expõe a empresa. O prazo crítico para iniciar o processo de renovação é de <strong>60 a 90 dias antes do vencimento</strong>."
       ]
     },
     {
-      title: "Principais causas de Comunique-se na renovação de AVCB de escritórios",
+      title: "Principais motivos de Comunique-se na renovação de AVCB",
       content: [
-        "<strong>Layout interno divergente do projeto aprovado</strong>: A principal causa de Comunique-se em escritórios é a realização de reformas internas — divisórias, salas de reunião, recepção, sala de servidores — sem atualização do projeto de incêndio. O CBPMESP compara o projeto aprovado com o estado atual da unidade em vistoria, e qualquer divergência resulta em exigência de projeto revisado.",
-        "<strong>Sala de servidores e datacenter sem proteção específica</strong>: Escritórios com sala de TI, datacenter ou racks de servidores precisam de sistema de supressão de incêndio específico para equipamentos eletrônicos (geralmente CO₂ ou gás inerte) e detectores de fumaça com alta sensibilidade. A ausência de proteção adequada para esses ambientes é causa frequente de Comunique-se.",
-        "<strong>Carga de incêndio aumentada por arquivos e documentação</strong>: Escritórios de advocacia, contabilidade e consultoria com grande volume de arquivos físicos (papel) têm carga de incêndio significativamente maior que escritórios convencionais. A carga de incêndio calculada no projeto aprovado pode não refletir o volume atual de documentação — o que exige revisão do projeto.",
-        "<strong>Extintores com prazo de recarga vencido</strong>: Os extintores de incêndio têm prazo de recarga anual e prazo de teste hidrostático quinquenal. Extintores com recarga vencida ou com a etiqueta de manutenção ausente são causa imediata de exigência no processo de renovação.",
-        "<strong>Plano de abandono desatualizado</strong>: Escritórios com mais de determinado número de ocupantes precisam de plano de abandono afixado na unidade. Quando o layout mudou (nova recepção, novo percurso de saída, novas salas), o plano de abandono precisa ser atualizado."
+        "<strong>Layout desatualizado</strong>: Reformas internas sem atualização da planta geram inconsistência entre o projeto aprovado e o estado atual do estabelecimento.",
+        "<strong>Laudos de manutenção vencidos</strong>: Os laudos de manutenção de extintores, hidrantes e sistemas de detecção têm validade definida. Documentação vencida paralisa o processo.",
+        "<strong>Brigada sem treinamento atualizado</strong>: Certificado de treinamento vencido é causa frequente de Comunique-se em renovações de estabelecimentos de médio porte."
       ]
     },
     {
-      title: "Instruções Técnicas do CBPMESP aplicáveis a escritórios corporativos",
+      title: "Instruções Técnicas aplicáveis à renovação",
       content: [
-        "<strong>IT-02/2019 — Enquadramento</strong>: Define o enquadramento como Grupo D-1 e os parâmetros que determinam quais sistemas de proteção são obrigatórios para o porte e a localização do escritório.",
-        "<strong>IT-14/2019 — Carga de Incêndio</strong>: O cálculo da carga de incêndio é fundamental para escritórios com grande volume de arquivos. Determina o tipo e a quantidade de extintores obrigatórios e pode exigir sistemas adicionais de proteção.",
-        "<strong>IT-17/2019 — Brigada de Incêndio</strong>: Brigada obrigatória para escritórios com mais de 100 ocupantes. Em edifícios corporativos, a brigada geralmente é responsabilidade do condomínio — mas escritórios que ocupam andares completos podem ter obrigação própria.",
-        "<strong>IT-19/2019 — Sistema de Detecção e Alarme</strong>: Aplicável a escritórios de maior porte ou com salas de servidores. Detectores de fumaça com laudo de manutenção anual são obrigatórios.",
-        "<strong>IT-40/2019 — Sala de Geradores e Sistemas de Energia</strong>: Aplicável a escritórios com gerador próprio, no-break de grande capacidade ou UPS de alta potência. Proteção específica contra incêndio em salas de energia é obrigatória."
+        "<strong>IT-02/2019</strong>: Enquadramento e carga de incêndio aplicáveis.",
+        "<strong>IT-17 — Brigada de Incêndio</strong>: documentação de treinamento atualizada obrigatória.",
+        "<strong>IT-20 e IT-21</strong>: Detecção, alarme e hidrantes (se aplicável ao porte)."
       ]
     },
     {
-      title: "Escritórios em edifícios corporativos: AVCB da unidade x AVCB do edifício",
+      title: "Unidades em Galerias e Edifícios Comerciais",
       content: [
-        "A principal complexidade técnica na renovação do AVCB de escritórios em edifícios corporativos é a relação entre o AVCB da unidade locatária e o AVCB do edifício como um todo. Os sistemas de proteção do edifício (sprinklers, hidrantes, alarme central, extração de fumaça) são responsabilidade do condomínio — mas a unidade precisa estar em conformidade com esses sistemas.",
-        "Quando o condomínio está com o AVCB do edifício em atraso ou em processo de renovação, isso pode impactar o processo de renovação da unidade. A DRD2 Engenharia conhece os procedimentos do CBPMESP para processos vinculados entre unidade e edifício e orienta o cliente sobre o caminho mais eficiente para a aprovação da unidade sem depender da regularização do condomínio.",
-        "Para escritórios que alugam espaços em co-working ou que compartilham andares com outras empresas, a DRD2 avalia a situação específica da unidade e determina a estratégia correta de renovação — que pode ser vinculada ao processo do condomínio ou independente, dependendo da configuração do espaço."
+        "Locais em galerias comerciais ou prédios têm uma camada adicional de complexidade: além das obrigações da unidade, é necessário verificar a situação do AVCB da edificação matriz.",
+        "A <strong>DRD2 Engenharia</strong> conhece os procedimentos do CBPMESP para edificações mistas e orienta sobre o caminho mais eficiente para a aprovação."
       ]
     },
     {
-      title: "O que a DRD2 Engenharia entrega na renovação do AVCB do escritório",
+      title: "O que a DRD2 Engenharia entrega na renovação",
       content: [
-        "<strong>Vistoria técnica com interferência mínima na operação</strong>: Agendamos a vistoria em horários que não interrompam a operação do escritório — antes do expediente, após o fechamento ou em fins de semana, conforme a necessidade do cliente.",
-        "<strong>Projeto técnico atualizado conforme layout atual</strong>: Revisão completa das plantas e projeto de incêndio conforme o estado atual do escritório — incluindo todas as reformas realizadas desde a última aprovação.",
-        "<strong>Memorial de carga de incêndio</strong>: Para escritórios com grande volume de arquivos, elaboramos o memorial de carga de incêndio atualizado que justifica tecnicamente o dimensionamento dos extintores e demais sistemas.",
-        "<strong>Coordenação de laudos</strong>: Identificação e gestão de laudos vencidos — extintores, hidrantes, detectores, iluminação de emergência — com coordenação entre as empresas prestadoras.",
-        "<strong>Protocolo e aprovação no CBPMESP</strong>: Entrada completa do processo e acompanhamento até a emissão do novo AVCB, com resposta incluída a qualquer Comunique-se — sem custo adicional."
+        "<strong>Vistoria técnica presencial</strong>: Levantamento in loco do estado atual.",
+        "<strong>Atualização técnica</strong>: Revisão completa da documentação técnica e memoriais.",
+        "<strong>Verificação e coordenação dos laudos</strong>: Identificação e gestão dos laudos vencidos.",
+        "<strong>Protocolo e aprovação no CBPMESP</strong>: Acompanhamento até a emissão do AVCB."
       ]
     },
     {
-      title: "Prazo de validade do AVCB para escritórios em São Paulo",
+      title: "Prazo de validade do AVCB",
       content: [
-        "O AVCB para escritórios e espaços corporativos em São Paulo tem <strong>validade de 3 anos</strong>, conforme o Decreto Estadual nº 69.118/2024.",
-        "Para escritórios em edifícios corporativos de alto padrão, a validade do AVCB está frequentemente atrelada ao ciclo de renovação do AVCB do edifício. A DRD2 Engenharia verifica essa relação na vistoria diagnóstica e orienta sobre o cronograma mais adequado para a renovação da unidade."
+        "O AVCB em São Paulo tem validade definida pelo Decreto Estadual nº 69.118/2024. Após o vencimento o estabelecimento entra em situação irregular."
       ]
     }
   ],
   faq: [
     {
-      question: "O AVCB vencido afeta o compliance de segurança para contratos corporativos?",
-      answer: "Sim. Grandes empresas, bancos e multinacionais frequentemente exigem comprovação de AVCB válido como parte das auditorias de compliance de fornecedores e parceiros. Um escritório com AVCB vencido pode ser desqualificado de processos seletivos e licitações que exigem certificações de segurança operacional."
+      question: "O AVCB vencido impede a renovação do alvará?",
+      answer: "Sim. A prefeitura e outros órgãos exigem AVCB válido como condição para renovação."
     },
     {
-      question: "Preciso de AVCB para meu escritório se o edifício já tem AVCB?",
-      answer: "Depende da configuração do espaço. Em muitos edifícios corporativos, o AVCB do edifício cobre as unidades locatárias que utilizam os sistemas do condomínio (sprinklers, alarme, hidrantes). No entanto, unidades que realizaram reformas internas, instalaram sistemas próprios ou têm sala de servidores geralmente precisam de AVCB específico da unidade. A DRD2 Engenharia avalia a situação específica do seu escritório."
-    },
-    {
-      question: "A sala de servidores precisa de proteção especial de incêndio?",
-      answer: "Sim. Salas de servidores, datacenters e CPDs precisam de sistema de supressão de incêndio específico para equipamentos eletrônicos — geralmente gás inerte (FM-200, CO₂ ou Novec 1230) — e detectores de fumaça com alta sensibilidade. A ausência de proteção adequada em salas de TI é causa frequente de Comunique-se na renovação de AVCB de escritórios."
-    },
-    {
-      question: "Qual o prazo para renovar o AVCB de um escritório em SP?",
-      answer: "O prazo médio para renovação do AVCB de escritórios em São Paulo é de 30 a 60 dias, dependendo da necessidade de atualização do projeto e do tempo de análise pelo CBPMESP. Escritórios com sala de servidores ou com configuração complexa podem demandar prazo maior."
-    },
-    {
-      question: "A DRD2 faz a vistoria fora do horário comercial para não impactar o trabalho?",
-      answer: "Sim. A DRD2 Engenharia agenda vistorias técnicas em horários que não interrompam a operação do escritório — antes do expediente, após o fechamento ou em fins de semana, conforme a necessidade do cliente. A renovação do AVCB pode ser conduzida com interferência mínima na rotina da empresa."
+      question: "Qual o prazo para renovar o AVCB em São Paulo?",
+      answer: "O prazo médio é de 30 a 90 dias. O processo deve ser iniciado com 60 a 90 dias de antecedência."
     },
     {
       question: "A DRD2 responde Comunique-se sem custo adicional?",
-      answer: "Sim. Qualquer exigência técnica emitida pelo Corpo de Bombeiros durante o processo de renovação é respondida pela DRD2 Engenharia sem custo adicional para o cliente."
+      answer: "Sim. Qualquer exigência técnica emitida pelo Corpo de Bombeiros durante o processo é respondida pela DRD2 sem custo adicional para o cliente."
     }
   ]
 };

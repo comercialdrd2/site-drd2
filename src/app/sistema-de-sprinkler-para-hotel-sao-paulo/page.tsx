@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "IT-23/CBPMESP + NBR 10897 — Hotéis e Pousadas SP (Grupo H)",
   "h1Line1": "Sistema de Sprinkler para Hotel",
   "h1Line2": "em São Paulo — Projeto, Instalação e Laudo",
-  "heroBg": "/images/blog/blog_hero_casa_repouso_avcb.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Hotéis, apart-hotéis e pousadas de médio e grande porte em São Paulo são classificados como Grupo H (hospedagem) e exigem sistema de sprinkler automático conforme a IT-23/CBPMESP, com atenção especial à proteção de hóspedes durante o período noturno — quando a detecção precoce e a supressão automática são críticas para a sobrevivência.",
   "introP2": "A DRD2 projeta, instala e emite laudo técnico com ART CREA-SP de sistemas de sprinkler para hotéis em SP — com experiência em todas as categorias de hospedagem e nos requisitos específicos do CBPMESP para Grupo H.",
   "breadcrumbs": [

@@ -11,7 +11,7 @@ const data: UniversalPageData = {
   "eyebrow": "Situação de Risco — Ação Imediata Necessária",
   "h1Line1": "AVCB Vencido",
   "h1Line2": "O Que Fazer Agora? Guia Urgente",
-  "heroBg": "/images/blog/blog_hero_avcb_vencido.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "AVCB vencido coloca seu estabelecimento em risco real e imediato: interdição pelo Corpo de Bombeiros, multa de até R$ 50.000 e invalidação automática do seguro patrimonial em caso de sinistro. Quanto mais tempo passa, maior o risco.",
   "introP2": "Este guia explica exatamente o que fazer nas próximas horas, os prazos reais de regularização por tipo de imóvel e como a DRD2 Engenharia protocola o processo em até 10 dias úteis após o levantamento técnico.",
   "breadcrumbs": [

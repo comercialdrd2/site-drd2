@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "AVCB Express — Protocolo em até 10 Dias Úteis",
   "h1Line1": "AVCB Urgente",
   "h1Line2": "em São Paulo — Prazo Apertado? Resolvemos",
-  "heroBg": "/images/blog/blog_hero_avcb_vencido.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Venda do imóvel travada, processo de credenciamento exigindo AVCB, alvará bloqueado ou prazo de 30 dias para regularizar. A DRD2 Engenharia tem protocolo de atendimento urgente para AVCB em São Paulo — diagnóstico técnico em 24h e protocolo no Corpo de Bombeiros em até 10 dias úteis.",
   "introP2": "Não existe \"AVCB em 24h\" — o processo exige análise técnica, documentação e vistoria pelo CBPMESP. Mas existe um caminho mais rápido quando a documentação está correta e os sistemas estão conformes. A DRD2 domina esse caminho.",
   "breadcrumbs": [

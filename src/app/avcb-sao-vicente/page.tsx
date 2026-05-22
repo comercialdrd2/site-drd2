@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "Baixada Santista — Especialistas em AVCB em São Vicente",
   "h1Line1": "AVCB em São Vicente",
   "h1Line2": "Regularização Completa — Baixada Santista SP",
-  "heroBg": "/images/blog/blog_hero_avcb_condominio.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Especialistas em AVCB e CLCB em São Vicente: cidade costeira com alto volume de condomínios de praia e comércio local. A DRD2 Engenharia atua na Baixada Santista com equipe técnica própria, diagnóstico gratuito e processo completo do levantamento ao certificado do Corpo de Bombeiros.",
   "introP2": "Diagnóstico técnico em até 24h, protocolo no CBPMESP sem pendências e acompanhamento da vistoria. Mais de 2.500 regularizações realizadas em São Paulo e Baixada Santista.",
   "breadcrumbs": [

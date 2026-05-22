@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "Baixada Santista — Especialistas em AVCB em Itanhaém",
   "h1Line1": "AVCB em Itanhaém",
   "h1Line2": "Regularização Completa — Baixada Santista SP",
-  "heroBg": "/images/blog/blog_hero_casa_repouso_avcb.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Especialistas em AVCB e CLCB em Itanhaém: cidade litorânea com perfil residencial e crescimento de condomínios na orla. A DRD2 Engenharia atua na Baixada Santista com equipe técnica própria, diagnóstico gratuito e processo completo do levantamento ao certificado do Corpo de Bombeiros.",
   "introP2": "Diagnóstico técnico em até 24h, protocolo no CBPMESP sem pendências e acompanhamento da vistoria. Mais de 2.500 regularizações realizadas em São Paulo e Baixada Santista.",
   "breadcrumbs": [

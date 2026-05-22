@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "IT-22/CBPMESP e NBR 13714 — Laudo Técnico com ART CREA-SP",
   "h1Line1": "Laudo de Sistema de Hidrantes",
   "h1Line2": "com ART em São Paulo — AVCB e Seguro",
-  "heroBg": "/images/blog/fire_safety_equipment_premium.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Possui sistema de hidrantes instalado e precisa do laudo técnico para renovar o AVCB, responder Comunique-se do Corpo de Bombeiros ou atender auditoria de seguradora? A DRD2 realiza teste hidráulico completo e emite laudo técnico com ART CREA-SP em até 48h após a vistoria.",
   "introP2": "O laudo técnico do sistema de hidrantes certifica pressão estática e dinâmica, vazão nos hidrantes mais desfavoráveis, funcionamento da bomba principal e reserva, e conformidade com a IT-22/CBPMESP e NBR 13714. Documento diferente e complementar ao relatório de manutenção.",
   "breadcrumbs": [

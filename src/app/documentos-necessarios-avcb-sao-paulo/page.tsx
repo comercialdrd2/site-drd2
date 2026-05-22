@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "Lista Técnica 2026 — Documentação para AVCB no CBPMESP",
   "h1Line1": "Documentos Necessários para AVCB",
   "h1Line2": "em São Paulo — Lista Completa 2026",
-  "heroBg": "/images/blog/fire_safety_equipment_premium.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "A documentação incompleta é a causa número 1 de Comunique-se — a pendência que suspende o processo de AVCB por 30 a 60 dias por ocorrência. Saber exatamente quais documentos o Corpo de Bombeiros exige para o seu tipo de imóvel é o primeiro passo para um processo sem atrasos.",
   "introP2": "Este guia lista todos os documentos exigidos pelo CBPMESP em São Paulo em 2026, organizados por categoria, com observações técnicas sobre o que cada um precisa conter para ser aceito sem questionamentos.",
   "breadcrumbs": [

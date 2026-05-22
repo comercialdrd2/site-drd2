@@ -1,19 +1,13 @@
-import Image from "next/image";
 import {
   Phone, CheckCircle2, ShieldAlert, Clock, FileText
 } from "lucide-react";
 import { JsonLD, generateMasterSchema } from "@/components/JsonLD";
 import LeadForm from "@/components/LeadForm";
 import NeighborhoodSilo from "@/components/NeighborhoodSilo";
-import ServiceClusterLinks from "@/components/ServiceClusterLinks";
-import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import TrustBar from "@/components/TrustBar";
 import CtaWhatsApp from "@/components/CtaWhatsApp";
 import BreadcrumbNav from "@/components/BreadcrumbNav";
 import { alvaraBombeiroContent as c } from "@/data/pages/alvara-bombeiro-galpao-industrial-sao-paulo";
-import InternalLinksBlock from "@/components/InternalLinksBlock";
-import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
-import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
 export const metadata = {
   title: c.meta.title,
@@ -24,7 +18,9 @@ export const metadata = {
 export default function AlvaraBombeiroGalpaoIndustrialPage() {
   const whatsappLink = "https://wa.me/" + process.env.NEXT_PUBLIC_WHATSAPP;
 
-  const _schema = generateMasterSchema({
+  return (
+    <>
+      <JsonLD schema={generateMasterSchema({
         slug: c.meta.canonical,
         title: c.meta.title,
         description: c.meta.description,
@@ -35,22 +31,10 @@ export default function AlvaraBombeiroGalpaoIndustrialPage() {
           { name: "Serviços", item: "/servicos" },
           { name: "Alvará Bombeiro Galpões Industriais SP", item: c.meta.canonical },
         ],
-      });
-
-  return (
-    <>
-            <JsonLD schema={_schema} />
+      })} />
 
       {/* ── HERO ── */}
       <section className="relative text-white overflow-hidden min-h-[auto] pt-[85px] pb-[20px] lg:pt-[95px] lg:pb-[40px] flex items-center bg-slate-950 border-b-8 border-red-600">
-        <Image
-          src="/images/bg-galpao.jpg"
-          alt="Alvará do Bombeiro para Galpão Industrial"
-          fill
-          className="object-cover object-center opacity-40 grayscale-[20%]"
-          priority
-          sizes="100vw"
-        />
         <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-900 to-red-950/30" />
         <div className="relative z-10 container mx-auto px-4 max-w-6xl w-full">
           <div className="lg:w-3/5">
@@ -65,7 +49,7 @@ export default function AlvaraBombeiroGalpaoIndustrialPage() {
               dangerouslySetInnerHTML={{ __html: c.intro[0] }} />
             <a href={whatsappLink} className="cta-whatsapp inline-flex items-center gap-3 transition-opacity">
               <Phone className="w-5 h-5 flex-shrink-0" />
-              <span className="font-black uppercase tracking-tight">Diagnóstico técnico gratuito Agora</span>
+              <span className="font-black uppercase tracking-tight">Diagnóstico Gratuito Agora</span>
             </a>
           </div>
         </div>
@@ -105,7 +89,7 @@ export default function AlvaraBombeiroGalpaoIndustrialPage() {
             </div>
             <div className="lg:col-span-5">
               <div className="bg-slate-50 p-8 rounded-3xl border border-slate-200 shadow-xl sticky top-32">
-                <h3 className="text-xl font-black text-slate-900 mb-2 italic uppercase">Diagnóstico técnico gratuito — Resposta em 2h</h3>
+                <h3 className="text-xl font-black text-slate-900 mb-2 italic uppercase">Diagnóstico Gratuito — Resposta em 2h</h3>
                 <p className="text-slate-500 text-sm mb-3 font-medium">Engenheiro especialista em AVCB responde em até 2h.</p>
                 <div className="flex flex-wrap gap-2 mb-5">
                   <span className="text-xs font-black text-green-700 bg-green-50 border border-green-200 px-2 py-1 rounded-full">✓ 98% aprovação na 1ª análise</span>
@@ -253,22 +237,6 @@ export default function AlvaraBombeiroGalpaoIndustrialPage() {
         </div>
       </section>
 
-      {/* ── SEÇÃO 7: TABELA DE INSTRUÇÕES TÉCNICAS ── */}
-      {c.sections[6] && (
-        <section className="py-24 bg-slate-50 border-y border-slate-200">
-          <div className="container mx-auto px-4 max-w-5xl">
-            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-10 uppercase tracking-tighter italic"
-              dangerouslySetInnerHTML={{ __html: c.sections[6].title }} />
-            <div className="space-y-6">
-              {c.sections[6].content.map((p, i) => (
-                <div key={i} className="text-lg text-slate-700 leading-relaxed font-medium"
-                  dangerouslySetInnerHTML={{ __html: p }} />
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
       {/* ── FAQ ── */}
       <section className="py-24 bg-white border-t border-slate-100">
         <div className="container mx-auto px-4 max-w-4xl">
@@ -300,40 +268,17 @@ export default function AlvaraBombeiroGalpaoIndustrialPage() {
             <span className="text-red-500 not-italic">do Bombeiro Agora</span>
           </h2>
           <p className="text-slate-300 text-xl font-medium mb-10 leading-relaxed">
-            Diagnóstico técnico gratuito presencial. Resposta a Comunique-se sem custo adicional. 98% de aprovação na 1ª análise.
+            Diagnóstico gratuito presencial. Resposta a Comunique-se sem custo adicional. 98% de aprovação na 1ª análise.
           </p>
           <a href={whatsappLink} target="_blank" rel="noopener noreferrer"
             className="animate-alert-pulse bg-[#25D366] text-white font-black px-10 py-5 rounded-2xl text-xl shadow-2xl hover:bg-[#1EBE5A] transition-all border-2 border-[#25D366] inline-flex items-center gap-3">
-            <Phone className="w-7 h-7" /> Falar com engenheiro especialista Agora
+            <Phone className="w-7 h-7" /> Falar com Engenheiro Agora
           </a>
           <p className="mt-8 text-xs font-black uppercase tracking-[0.3em] text-red-500 opacity-60">
             DRD2 Engenharia — Alvará do Bombeiro para Galpões Industriais em São Paulo
           </p>
         </div>
       </section>
-
-      
-      <OccupationAuthorityBlock
-        occupation="Galpao Industrial"
-        currentSlug="/alvara-bombeiro-galpao-industrial-sao-paulo"
-      />
-
-
-
-      <OccupationDepthBlock
-        occupation="Galpao Industrial"
-        currentSlug="/alvara-bombeiro-galpao-industrial-sao-paulo"
-      />
-
-      <InternalLinksBlock
-        currentSlug="/alvara-bombeiro-galpao-industrial-sao-paulo"
-        mode="ocupação"
-        maxLinks={8}
-        titulo="Regularizamos Galpões Industriais em Atendimento em São Paulo"
-      />
-
-      <ServiceClusterLinks currentSlug="/alvara-bombeiro-galpao-industrial-sao-paulo" />
-      <ServiceBlogLinks currentSlug="/alvara-bombeiro-galpao-industrial-sao-paulo" />
 
       <NeighborhoodSilo currentSlug={c.meta.canonical} />
     </>

@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "Seguradora Exigindo AVCB — Regularize Agora em SP",
   "h1Line1": "AVCB para Renovação de Seguro",
   "h1Line2": "Seguradora Exigindo Certificação? Resolva em SP",
-  "heroBg": "/images/blog/blog_hero_avcb_vencido.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Sua seguradora exigiu o AVCB válido para renovar o seguro patrimonial ou incêndio? Essa situação é mais comum do que parece — e tem prazo. A DRD2 regulariza seu imóvel com urgência para garantir a continuidade da apólice sem interrupção de cobertura.",
   "introP2": "Seguradoras exigem AVCB válido porque imóvel sem certificação de incêndio representa risco técnico real para o pagamento de sinistros. Sem regularização no prazo exigido pela seguradora, a apólice pode ser cancelada — deixando o patrimônio sem cobertura.",
   "breadcrumbs": [

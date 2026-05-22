@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "Zona Sul SP — Especialistas em AVCB em Vila Clementino",
   "h1Line1": "AVCB em Vila Clementino",
   "h1Line2": "Regularização Completa — São Paulo",
-  "heroBg": "/images/blog/fire_safety_equipment_premium.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Especialistas em AVCB e CLCB em Vila Clementino: bairro com alta concentração de hospitais, clínicas e imóveis residenciais. A DRD2 Engenharia atua na região com equipe técnica própria, diagnóstico gratuito e processo completo do levantamento ao certificado.",
   "introP2": "Diagnóstico técnico em até 24h, protocolo no CBPMESP sem pendências e acompanhamento da vistoria. Mais de 2.500 regularizações realizadas em toda a Grande São Paulo.",
   "breadcrumbs": [

@@ -9,7 +9,7 @@ const pageData: UniversalPageData = {
   eyebrow: "Renovação AVCB - Poá",
   h1Line1: "Renovação de AVCB",
   h1Line2: "em Poá",
-  heroBg: "/images/blog/blog_hero_avcb_galpao.webp",
+  heroBg: "/images/blog/blog_hero_mooca_industrial_avcb.png",
   introP1: "A DRD2 Engenharia oferece serviços especializados de renovação de AVCB (Auto de Vistoria do Corpo de Bombeiros) para indústrias, condomínios, centros logísticos e comércio em Poá e região do Alto Tietê.",
   introP2: "Garantimos um processo ágil, sem retrabalho, alinhado às exigências do CBPMESP. Nossa engenharia foca na viabilidade técnica para evitar multas, embargos e problemas com seguradoras.",
   breadcrumbs: [

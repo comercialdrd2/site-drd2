@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "IT-23/CBPMESP e NBR 10897 — Laudo Técnico com ART CREA-SP",
   "h1Line1": "Laudo de Sprinkler com ART",
   "h1Line2": "em São Paulo — AVCB, Seguro e Comunique-se",
-  "heroBg": "/images/page-sprinklers.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Possui sistema de sprinkler instalado e precisa do laudo técnico para renovar o AVCB, responder Comunique-se do Corpo de Bombeiros ou atender auditoria de seguradora? A DRD2 realiza teste hidráulico completo conforme NBR 10897 e emite laudo técnico com ART CREA-SP em até 48h.",
   "introP2": "O laudo técnico de sprinkler certifica pressão e vazão nos bicos mais desfavoráveis, funcionamento da bomba principal e reserva, integridade das válvulas de alarme e conformidade com a IT-23/CBPMESP — documento diferente e superior ao relatório de manutenção.",
   "breadcrumbs": [

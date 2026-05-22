@@ -11,7 +11,7 @@ const data: UniversalPageData = {
   "eyebrow": "Guia Técnico 2026 — CBPMESP São Paulo",
   "h1Line1": "AVCB ou CLCB",
   "h1Line2": "Qual Preciso para Meu Imóvel?",
-  "heroBg": "/images/blog/fire_safety_equipment_premium.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Empresários e síndicos frequentemente confundem AVCB e CLCB — dois documentos distintos com processos, prazos e custos muito diferentes. Escolher o documento errado pode invalidar todo o processo e gerar Comunique-se logo no início.",
   "introP2": "Este guia técnico explica a diferença entre AVCB e CLCB, qual se aplica a cada tipo de imóvel conforme o Decreto 56.819/2011, os critérios exatos de enquadramento e como a DRD2 faz o diagnóstico correto gratuitamente.",
   "breadcrumbs": [
@@ -190,19 +190,6 @@ export const metadata = {
   alternates: { canonical: data.slug },
 };
 
-import AvcbOuClcbCalculator from "@/components/AvcbOuClcbCalculator";
-import AvcbVsClcbTable from "@/components/AvcbVsClcbTable";
-
 export default function Page() {
-  return (
-    <UniversalSeoPage
-      data={data}
-      beforeCta={
-        <>
-          <AvcbVsClcbTable />
-          <AvcbOuClcbCalculator />
-        </>
-      }
-    />
-  );
+  return <UniversalSeoPage data={data} />;
 }

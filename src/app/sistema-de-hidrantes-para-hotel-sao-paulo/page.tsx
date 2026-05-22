@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "IT-22/CBPMESP — Hotéis e Pousadas SP (Grupo H)",
   "h1Line1": "Sistema de Hidrantes para Hotel",
   "h1Line2": "em São Paulo — Projeto, Instalação e Laudo",
-  "heroBg": "/images/blog/blog_hero_casa_repouso_avcb.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Hotéis, apart-hotéis e pousadas em São Paulo são classificados como Grupo H (hospedagem) e exigem sistema de hidrantes dimensionado conforme a IT-22/CBPMESP, com atenção especial à proteção de hóspedes durante o período noturno quando a evacuação é mais crítica.",
   "introP2": "A DRD2 projeta, instala e emite laudo técnico com ART CREA-SP do sistema de hidrantes para hotéis em SP, com experiência em todas as categorias — de pousadas boutique a hotéis de múltiplos pavimentos.",
   "breadcrumbs": [

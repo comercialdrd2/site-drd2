@@ -11,7 +11,7 @@ const data: UniversalPageData = {
   "eyebrow": "Situação Crítica — Orientação Técnica Urgente",
   "h1Line1": "Embargo do Corpo de Bombeiros",
   "h1Line2": "Como Resolver em São Paulo",
-  "heroBg": "/images/blog/blog_hero_avcb_vencido.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Estabelecimento interditado pelo CBPMESP? O embargo impede o funcionamento imediato e cada hora conta. A DRD2 analisa o Auto de Infração, identifica as não-conformidades e apresenta laudo técnico de contestação ou adequação em até 48h.",
   "introP2": "Entenda os seus direitos, o prazo para recurso administrativo, o que o laudo técnico precisa conter e o caminho mais rápido para reabrir com segurança jurídica e sem risco de novo embargo.",
   "breadcrumbs": [

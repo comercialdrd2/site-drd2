@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "Laudo Técnico com ART CREA-SP — Alarme de Incêndio SP",
   "h1Line1": "Laudo de Alarme de Incêndio",
   "h1Line2": "com ART em São Paulo — Para AVCB e Seguro",
-  "heroBg": "/images/blog/fire_safety_equipment_premium.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Possui sistema de alarme de incêndio instalado e precisa do laudo técnico para renovar o AVCB, responder Comunique-se do Corpo de Bombeiros ou atender auditoria de seguradora? A DRD2 emite laudo técnico com ART CREA-SP em até 48h após a vistoria.",
   "introP2": "O laudo de alarme não é manutenção — é a certificação técnica que comprova que o sistema está funcionando conforme a IT-17/CBPMESP e a NBR 17240. Documento exigido na renovação do AVCB e em auditorias de seguro patrimonial.",
   "breadcrumbs": [

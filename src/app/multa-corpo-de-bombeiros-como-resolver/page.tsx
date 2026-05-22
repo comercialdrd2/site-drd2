@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "Auto de Infração CBPMESP — Orientação Técnica Urgente",
   "h1Line1": "Multa do Corpo de Bombeiros",
   "h1Line2": "Como Resolver e Recorrer em São Paulo",
-  "heroBg": "/images/blog/blog_hero_avcb_vencido.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Recebeu Auto de Infração do Corpo de Bombeiros? O prazo para recurso com possibilidade de redução ou anulação da multa é de apenas 10 dias úteis após a ciência. Agir rápido é fundamental para não perder o desconto recursal e evitar a inscrição em dívida ativa.",
   "introP2": "A DRD2 analisa o Auto de Infração, identifica a estratégia de defesa técnica mais eficaz e emite laudo com ART CREA-SP para protocolo na fase recursal. Diagnóstico do caso gratuito.",
   "breadcrumbs": [

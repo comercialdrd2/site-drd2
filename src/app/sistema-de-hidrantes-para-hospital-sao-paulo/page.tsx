@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "IT-22/CBPMESP + NBR 13714 — Hospitais e Clínicas SP",
   "h1Line1": "Sistema de Hidrantes para Hospital",
   "h1Line2": "em São Paulo — Projeto, Instalação e Laudo com ART",
-  "heroBg": "/images/blog/blog_hero_avcb_hospital.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Hospitais, clínicas, prontos-socorros e unidades de saúde em São Paulo precisam de sistema de hidrantes dimensionado para Grupo I (saúde) conforme a IT-22/CBPMESP e NBR 13714. O sistema de combate a incêndio em ambientes hospitalares tem exigências específicas que diferem de imóveis comerciais convencionais.",
   "introP2": "A DRD2 projeta, instala e emite laudo técnico com ART CREA-SP do sistema de hidrantes para hospitais em SP. Diagnóstico gratuito, projeto aprovado no CBPMESP e equipe técnica própria para execução.",
   "breadcrumbs": [

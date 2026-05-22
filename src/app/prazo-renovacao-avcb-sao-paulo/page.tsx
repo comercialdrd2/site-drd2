@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "Guia de Prazos 2026 — AVCB CBPMESP São Paulo",
   "h1Line1": "Prazo de Renovação do AVCB",
   "h1Line2": "em São Paulo — Tabela Completa 2026",
-  "heroBg": "/images/blog/fire_safety_equipment_premium.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Quanto tempo leva para renovar o AVCB em São Paulo? A resposta varia de 30 a 150 dias dependendo do tipo de imóvel, dos sistemas exigidos e da qualidade da documentação. Iniciar com antecedência é a única forma de evitar o período de risco com AVCB vencido.",
   "introP2": "Este guia apresenta os prazos reais por tipo de ocupação, as etapas que mais consomem tempo e como a DRD2 reduz o prazo total com auditoria prévia e protocolo sem pendências.",
   "breadcrumbs": [

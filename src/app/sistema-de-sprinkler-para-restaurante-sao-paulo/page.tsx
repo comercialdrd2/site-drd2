@@ -10,7 +10,7 @@ const data: UniversalPageData = {
   "eyebrow": "IT-23/CBPMESP e NBR 10897 — Restaurantes em São Paulo",
   "h1Line1": "Sistema de Sprinkler para Restaurante",
   "h1Line2": "em São Paulo — Projeto, Instalação e Laudo",
-  "heroBg": "/images/blog/blog_hero_avcb_restaurante.webp",
+  "heroBg": "/images/banner-hero.webp",
   "introP1": "Restaurantes exigem sistema de sprinkler pelo risco de alta carga de incêndio em cozinha industrial e grande público simultâneo. A DRD2 projeta, instala e certifica sistemas de sprinkler para restaurante em São Paulo conforme IT-23/CBPMESP e NBR 10897, com ART CREA-SP e laudo completo para AVCB.",
   "introP2": "Processo completo: levantamento técnico, projeto hidráulico com cálculo de densidade por setor de risco, instalação por equipe própria, teste de pressão e emissão de laudo com ART. Diagnóstico técnico gratuito.",
   "breadcrumbs": [
