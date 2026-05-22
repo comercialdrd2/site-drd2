@@ -138,6 +138,7 @@ export default function Footer() {
             <Link href="/clcb-sao-paulo" className="hover:text-white transition-colors">CLCB Rápido</Link>
             <Link href="/renovacao-avcb-condominio-sao-paulo" className="hover:text-white transition-colors">Renovação</Link>
             <Link href="/blog" className="hover:text-white transition-colors">Dossiês DRD2</Link>
+            <Link href="/mapa-paginas" className="hover:text-white transition-colors">Mapa do Site</Link>
             <Link href="/politica-de-privacidade" className="hover:text-white transition-colors">Privacidade</Link>
           </div>
         </div>
