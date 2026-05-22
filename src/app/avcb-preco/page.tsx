@@ -148,7 +148,7 @@ export default function AVCBPrecoPage() {
                   <div className="bg-white/5 p-8 rounded-3xl border border-white/10 hover:border-primary/50 transition-colors">
                      <h4 className="text-primary font-black uppercase mb-4 tracking-widest text-sm italic">Engenharia de Valor</h4>
                      <p className="text-slate-300 text-sm leading-relaxed">
-                       Nosso diagnóstico mapeia o que é estritamente necessário segundo o Decreto 63.911/18, protegendo seu patrimônio sem investimentos desnecessários.
+                       Nosso diagnóstico mapeia o que é estritamente necessário segundo o Decreto 69.118/2024, protegendo seu patrimônio sem investimentos desnecessários.
                      </p>
                   </div>
                </div>

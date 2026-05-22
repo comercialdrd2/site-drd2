@@ -21,7 +21,7 @@ const data: UniversalPageData = {
   occupationType: "restaurante",
   h2_principal: {
     heading: "Exigências do sistema de hidrantes em restaurantes pelo CBPMESP",
-    body: "Restaurantes são classificados no Grupo B pelo Decreto 56.819/2011. A necessidade de sistema de hidrantes depende da área e da carga de incêndio. Restaurantes acima de 750m² ou com cozinha industrial acima de certa potência calorífica precisam de sistema de hidrante interno. Restaurantes menores podem se enquadrar apenas com extintor e mangotinho — a DRD2 faz esse enquadramento na vistoria gratuita.",
+    body: "Restaurantes são classificados no Grupo B pelo Decreto 69.118/2024. A necessidade de sistema de hidrantes depende da área e da carga de incêndio. Restaurantes acima de 750m² ou com cozinha industrial acima de certa potência calorífica precisam de sistema de hidrante interno. Restaurantes menores podem se enquadrar apenas com extintor e mangotinho — a DRD2 faz esse enquadramento na vistoria gratuita.",
     body2: "Para restaurantes com sistema de hidrante obrigatório, a IT 22 exige cobertura de todo o salão e da cozinha, com pressão mínima de 10 mca no ponto mais desfavorável. A cozinha industrial tem carga de incêndio mais alta que o salão — o dimensionamento precisa considerar esse diferencial.",
   },
   h2_riscos: {

@@ -25,7 +25,7 @@ const data: UniversalPageData = {
   "occupationType": "imóvel em Vila Clementino",
   "h2_principal": {
     "heading": "Quem precisa de AVCB em Vila Clementino?",
-    "body": "Em Vila Clementino, a obrigatoriedade de AVCB ou CLCB segue o Decreto Estadual 56.819/2011 do Estado de São Paulo, que se aplica a todos os municípios e bairros do Estado. Precisam de documentação do Corpo de Bombeiros: condomínios residenciais acima de 3 pavimentos ou 750m², estabelecimentos comerciais e de serviços acima de 750m², hospitais, clínicas, hotéis, restaurantes com grande capacidade, galpões industriais, escolas e qualquer ocupação classificada como médio ou alto risco conforme a Tabela A do Decreto.",
+    "body": "Em Vila Clementino, a obrigatoriedade de AVCB ou CLCB segue o Decreto Estadual 69.118/2024 do Estado de São Paulo, que se aplica a todos os municípios e bairros do Estado. Precisam de documentação do Corpo de Bombeiros: condomínios residenciais acima de 3 pavimentos ou 750m², estabelecimentos comerciais e de serviços acima de 750m², hospitais, clínicas, hotéis, restaurantes com grande capacidade, galpões industriais, escolas e qualquer ocupação classificada como médio ou alto risco conforme a Tabela A do Decreto.",
     "body2": "Imóveis até 750m² e baixo risco em Vila Clementino geralmente se enquadram no CLCB — Certificado de Licença do Corpo de Bombeiros, processo mais ágil e com custo menor. A DRD2 faz o enquadramento correto gratuitamente: definimos qual documento é necessário para o seu imóvel específico antes de qualquer protocolo, evitando o erro de enquadramento que rejeita o processo no início."
   },
   "h2_riscos": {
@@ -135,7 +135,7 @@ const data: UniversalPageData = {
   "faqs": [
     {
       "question": "Quais estabelecimentos em Vila Clementino precisam de AVCB?",
-      "answer": "Em Vila Clementino, precisam de AVCB: condomínios residenciais acima de 3 pavimentos, estabelecimentos comerciais acima de 750m², hospitais, hotéis, restaurantes com capacidade acima do limiar da IT, galpões industriais, escolas e qualquer ocupação de médio ou alto risco conforme Decreto 56.819/2011."
+      "answer": "Em Vila Clementino, precisam de AVCB: condomínios residenciais acima de 3 pavimentos, estabelecimentos comerciais acima de 750m², hospitais, hotéis, restaurantes com capacidade acima do limiar da IT, galpões industriais, escolas e qualquer ocupação de médio ou alto risco conforme Decreto 69.118/2024."
     },
     {
       "question": "Quanto tempo leva para obter o AVCB em Vila Clementino?",

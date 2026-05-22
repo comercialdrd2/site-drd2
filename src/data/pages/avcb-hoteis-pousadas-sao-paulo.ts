@@ -99,7 +99,7 @@ export const avcbHotelContent = {
       },
       {
         nome: "SPDA (Para-raios)",
-        desc: "obrigatório conforme altura da edificação, nos termos da IT-29.",
+        desc: "obrigatório conforme altura da edificação, nos termos da ABNT NBR 5419.",
       },
     ],
   },

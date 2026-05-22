@@ -163,7 +163,7 @@ export default function AVCBShoppingPage() {
               { it: "IT-09", title: "Compartimentação", desc: "Separação corta-fogo entre lojas, praça de alimentação e estacionamento." },
               { it: "IT-10", title: "Acabamento de Lojas", desc: "Controle de materiais inflamáveis em vitrines e decorações comuns." },
               { it: "IT-16/17", title: "Brigada de Incêndio", desc: "Equipe treinada com simulados periódicos obrigatórios." },
-              { it: "IT-29", title: "SPDA (Para-raios)", desc: "Proteção contra descargas atmosféricas dimensionada por altura e área." }
+              { it: "NBR 5419", title: "SPDA (Para-raios)", desc: "Proteção contra descargas atmosféricas dimensionada por altura e área." }
             ].map((item, i) => (
               <div key={i} className="bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-3xl hover:bg-white/10 transition-all group">
                 <div className="text-primary text-xs font-black mb-2 tracking-widest">{item.it}</div>

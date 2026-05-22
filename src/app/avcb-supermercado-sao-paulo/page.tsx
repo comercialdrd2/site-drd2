@@ -209,7 +209,7 @@ export default function AVCBSupermercadoMasterPage() {
               { t: "Detecção e Alarme", d: "Monitoramento automático de fumaça e calor.", i: <ShieldAlert className="w-6 h-6"/> },
               { t: "Sprinklers (Chuveiros)", d: "Exigidos em grandes áreas ou depósitos verticais.", i: <ZapOff className="w-6 h-6"/> },
               { t: "Brigada de Incêndio", d: "Treinamento de funcionários para evacuação rápida.", i: <Users className="w-6 h-6"/> },
-              { t: "Sistema de SPDA", d: "Para-raios obrigatório conforme a IT-29.", i: <Zap className="w-6 h-6"/> }
+              { t: "Sistema de SPDA", d: "Para-raios obrigatório conforme a ABNT NBR 5419.", i: <Zap className="w-6 h-6"/> }
             ].map((sys, i) => (
               <div key={i} className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:border-blue-200 transition-all">
                 <div className="text-red-600 mb-4">{sys.i}</div>

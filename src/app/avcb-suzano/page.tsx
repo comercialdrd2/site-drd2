@@ -76,7 +76,7 @@ const pageData: UniversalPageData = {
   faqs: [
     {
       question: "O Corpo de Bombeiros de Suzano tem regras diferentes da capital?",
-      answer: "Não. A legislação é estadual (Decreto 63.911/18 e Instruções Técnicas), portanto o Corpo de Bombeiros de Suzano cobra os mesmos padrões da capital.",
+      answer: "Não. A legislação é estadual (Decreto 69.118/2024 e Instruções Técnicas), portanto o Corpo de Bombeiros de Suzano cobra os mesmos padrões da capital.",
     },
     {
       question: "Qual a diferença entre AVCB e CLCB em Suzano?",

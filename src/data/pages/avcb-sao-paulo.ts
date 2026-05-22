@@ -142,7 +142,7 @@ export const avcbSaoPauloContent = {
       },
       {
         nome: "SPDA (Para-raios)",
-        desc: "Conforme altura e características da edificação, IT-29.",
+        desc: "Conforme altura e características da edificação, em atendimento à ABNT NBR 5419.",
       },
     ],
     closing:

@@ -1,4 +1,4 @@
-const fs = require('fs'), path = require('path');
+Uconst fs = require('fs'), path = require('path');
 
 function makePage(d) {
   return `import UniversalSeoPage from "@/components/UniversalSeoPage";

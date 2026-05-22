@@ -19,7 +19,7 @@ export const avcbRestauranteContent = {
   h2_precisaDeAvcb: {
     heading: "Restaurante ou Bar Precisa de AVCB em São Paulo?",
     body: [
-      "Sim. Restaurantes são enquadrados como Grupo F — Locais de Reunião de Público, subdivisão F-3 (Refeições), pela IT-02 do CBPMESP, abrangendo restaurantes, lanchonetes, bares, cafeterias, rotisserias, padarias com mesas e similares.",
+      "Sim. Restaurantes são enquadrados como Grupo F — Locais de Reunião de Público, divisão F-8 (Local para refeição), pela IT-02 do CBPMESP, abrangendo restaurantes, lanchonetes, bares, cafeterias, rotisserias, padarias com mesas e similares.",
       "O Decreto Estadual nº 69.118/2024 reforça a obrigatoriedade para todos os estabelecimentos de alimentação que recebem público. Operar sem AVCB vigente expõe o proprietário a:",
     ],
     riscos_lista: [

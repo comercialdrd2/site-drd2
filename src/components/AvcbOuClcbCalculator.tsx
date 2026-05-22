@@ -14,7 +14,7 @@ import { trackEvent } from "@/lib/analytics";
  * - Altura (n° de andares)
  * - Lotação aproximada
  *
- * Fonte: IT-01 e IT-02 do CBPMESP — Decreto 56.819/2011 + atualizacoes 2025/2026.
+ * Fonte: IT-01 e IT-02 do CBPMESP — Decreto 69.118/2024 + atualizacoes 2025/2026.
  *
  * Disclaimer: heuristica para orientação inicial — diagnostico definitivo
  * exige engenheiro avaliando o projeto especifico.
@@ -162,7 +162,7 @@ export default function AvcbOuClcbCalculator() {
 
         <p className="text-slate-600 mb-8 font-medium leading-relaxed">
           Responda 4 perguntas e veja qual certificado do Corpo de Bombeiros sua edificação precisa.
-          Baseado nas IT-01 e IT-02 do CBPMESP (Decreto 56.819).
+          Baseado nas IT-01 e IT-02 do CBPMESP (Decreto 69.118/2024).
         </p>
 
         <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-5 bg-slate-50 p-6 md:p-8 rounded-3xl border border-slate-200">

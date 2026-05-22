@@ -25,7 +25,7 @@ const data: UniversalPageData = {
   "occupationType": "imóvel em Cubatão",
   "h2_principal": {
     "heading": "Quem precisa de AVCB em Cubatão?",
-    "body": "Em Cubatão, a obrigatoriedade de AVCB ou CLCB segue o Decreto Estadual 56.819/2011 do Estado de São Paulo, aplicável a todos os municípios paulistas. Precisam de documentação do Corpo de Bombeiros: condomínios residenciais acima de 3 pavimentos ou 750m², estabelecimentos comerciais e de serviços acima de 750m², pousadas, hotéis, restaurantes com grande capacidade, galpões e depósitos, clínicas, escolas e qualquer ocupação classificada como médio ou alto risco conforme a Tabela A do Decreto. A Baixada Santista tem perfil específico de imóveis: grande volume de condomínios de praia, pousadas e hotéis próximos ao litoral que frequentemente operam com AVCB vencido ou sem certficação.",
+    "body": "Em Cubatão, a obrigatoriedade de AVCB ou CLCB segue o Decreto Estadual 69.118/2024 do Estado de São Paulo, aplicável a todos os municípios paulistas. Precisam de documentação do Corpo de Bombeiros: condomínios residenciais acima de 3 pavimentos ou 750m², estabelecimentos comerciais e de serviços acima de 750m², pousadas, hotéis, restaurantes com grande capacidade, galpões e depósitos, clínicas, escolas e qualquer ocupação classificada como médio ou alto risco conforme a Tabela A do Decreto. A Baixada Santista tem perfil específico de imóveis: grande volume de condomínios de praia, pousadas e hotéis próximos ao litoral que frequentemente operam com AVCB vencido ou sem certficação.",
     "body2": "Imóveis até 750m² e baixo risco em Cubatão geralmente se enquadram no CLCB — processo mais ágil e com custo menor. A DRD2 faz o enquadramento correto gratuitamente: definimos qual documento é necessário para o seu imóvel específico antes de qualquer protocolo, evitando o erro de enquadramento que rejeita o processo logo no início."
   },
   "h2_riscos": {
@@ -135,7 +135,7 @@ const data: UniversalPageData = {
   "faqs": [
     {
       "question": "Quais estabelecimentos em Cubatão precisam de AVCB?",
-      "answer": "Em Cubatão, precisam de AVCB: condomínios residenciais acima de 3 pavimentos, pousadas e hotéis independente da área, estabelecimentos comerciais acima de 750m², restaurantes com grande capacidade, galpões industriais e qualquer ocupação de médio ou alto risco conforme Decreto Estadual 56.819/2011."
+      "answer": "Em Cubatão, precisam de AVCB: condomínios residenciais acima de 3 pavimentos, pousadas e hotéis independente da área, estabelecimentos comerciais acima de 750m², restaurantes com grande capacidade, galpões industriais e qualquer ocupação de médio ou alto risco conforme Decreto Estadual 69.118/2024."
     },
     {
       "question": "Quanto tempo leva para obter o AVCB em Cubatão?",

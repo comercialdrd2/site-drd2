@@ -321,7 +321,7 @@ export const servicesData: Record<string, ServiceData> = {
       "Evitamos o erro comum de centrais velhas ou detectores mal posicionados que reprovam a vistoria. Exigimos Central com dupla alimentação, Strobes (Alertas visuais) para ambientes acima de 105 dBA e emissão completa do Laudo de Comissionamento antes da chegada do Bombeiro."
     ],
     faqs: [
-      { question: "O alarme de incêndio é obrigatório para galpões industriais em São Paulo?", answer: "Sim. Para galpões classificados como Grupo I pelo Decreto Estadual nº 63.911/2018, o SDAI é exigido conforme a área e a carga de incêndio da edificação. Sua aprovação é condição obrigatória para a emissão do AVCB." },
+      { question: "O alarme de incêndio é obrigatório para galpões industriais em São Paulo?", answer: "Sim. Para galpões classificados como Grupo I pelo Decreto Estadual nº 69.118/2024, o SDAI é exigido conforme a área e a carga de incêndio da edificação. Sua aprovação é condição obrigatória para a emissão do AVCB." },
       { question: "O que é a IT-19/2025 e como ela afeta galpões logísticos?", answer: "Atualizada em março de 2025, ela reforça a exigência legal de certificação INMETRO da central de alarme, e obrigatoriedade vital do laudo de comissionamento emitido por ART técnica antes da vistoria final." },
       { question: "Galpão com operação barulhenta precisa de dispositivo especial?", answer: "Obrigatóriamente sim. A nova diretriz estabelece que ruidos acima de 105 dBA requeiram sinalização visual intermitente (Strobes vermelhos ou brancos) associada aos alertas sonoros comuns para não mascarar o aviso operário." }
     ],
@@ -341,7 +341,7 @@ export const servicesData: Record<string, ServiceData> = {
       solution: "A DRD2 é especialista em regularização e aprovação de SDAI (Sistemas de Detecção e Alarme de Incêndio) para condomínios em São Paulo. Entregamos desde o comissionamento técnico à aprovação do AVCB."
     },
     content: [
-      "Não é alarmismo. É o que estabelece a legislação com base no Decreto Estadual nº 63.911/2018. Condomínios que renovarão o AVCB precisam estar rigorosamente enquadrados na IT-19/2025 (não basta ter o sistema antigo 'funcionando').",
+      "Não é alarmismo. É o que estabelece a legislação com base no Decreto Estadual nº 69.118/2024. Condomínios que renovarão o AVCB precisam estar rigorosamente enquadrados na IT-19/2025 (não basta ter o sistema antigo 'funcionando').",
       "Executamos a instalação da Central de alarme (CAI) certificada pelo INMETRO, detectores fotoelétricos, botoeiras e sirenes em todas as áreas comuns, entregando o Relatório de comissionamento obrigatório."
     ],
     faqs: [

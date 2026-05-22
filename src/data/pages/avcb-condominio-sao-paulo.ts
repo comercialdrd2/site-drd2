@@ -93,7 +93,7 @@ export const avcbCondominioContent = {
       },
       {
         nome: "Para-raios",
-        desc: "sistema de proteção contra descargas atmosféricas conforme IT-29, obrigatório em edificações acima de determinada altura.",
+        desc: "sistema de proteção contra descargas atmosféricas conforme a ABNT NBR 5419, obrigatório em edificações acima de determinada altura.",
       },
       {
         nome: "Plano de emergência",

@@ -342,7 +342,7 @@ export default function VilaMadalenaLandingPage() {
         <div className="container mx-auto px-4 max-w-4xl text-slate-700 leading-relaxed text-left text-base">
           <h2 className="text-3xl md:text-4xl font-black text-secondary uppercase tracking-tighter mb-8 border-l-8 border-primary pl-6 text-left">Aprovação de AVCB Master na região de Vila Madalena</h2>
           <p className="text-left mb-6 font-medium">Vila Madalena consolidou-se como o coração pulsante da gastronomia e do entretenimento noturno em São Paulo, exercendo um papel de vanguarda cultural e econômica. Com a maior densidade de novos estabelecimentos comerciais da Zona Oeste, a regularização do AVCB (Auto de Vistoria do Corpo de Bombeiros) é uma demanda fundamental para garantir a segurança física dos frequentadores e a validade jurídica das licenças de funcionamento.</p>
-          <p className="text-left font-medium">A DRD2 Engenharia fornece consultoria técnica master em Vila Madalena, assegurando que proprietários de bares, restaurantes premiados e síndicos de condomínios de alto padrão tenham acesso à melhor documentação técnica do mercado, com processos ágeis junto ao CBPMESP e suporte total em todas as etapas de conformidade com o Decreto Estadual nº 63.911/18.</p>
+          <p className="text-left font-medium">A DRD2 Engenharia fornece consultoria técnica master em Vila Madalena, assegurando que proprietários de bares, restaurantes premiados e síndicos de condomínios de alto padrão tenham acesso à melhor documentação técnica do mercado, com processos ágeis junto ao CBPMESP e suporte total em todas as etapas de conformidade com o Decreto Estadual nº 69.118/2024.</p>
         </div>
       </section>
 

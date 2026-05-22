@@ -24,7 +24,7 @@ const occupationProfiles: Record<string, {
   condomínio: {
     group: "A-2 / A-3, com areas comuns e possivel uso misto",
     risk: "escadas, garagens, casas de bombas, saloes de festas e medidores de gas",
-    systems: ["IT-11: saidas de emergência", "IT-17: hidrantes e mangotinhos", "IT-18: iluminação de emergência", "IT-20: sinalização", "IT-41: inspeccao elétrica"],
+    systems: ["IT-11: saidas de emergência", "IT-22: hidrantes e mangotinhos", "IT-18: iluminação de emergência", "IT-20: sinalização", "IT-41: inspeccao elétrica"],
     prazo: "30 a 60 dias quando os sistemas estao mantidos; 60 a 120 dias com retrofit de bombas, portas corta-fogo ou SPDA",
     links: [
       { label: "sistema de hidrantes", href: "/sistema-de-hidrantes-para-condominio-sao-paulo" },
@@ -35,7 +35,7 @@ const occupationProfiles: Record<string, {
   galpao: {
     group: "I-1, I-2 ou I-3, conforme carga de incêndio e armazenamento",
     risk: "altura de estocagem, porta-paletes, docas, empilhadeiras, área técnica e carga combustivel",
-    systems: ["IT-14: carga de incêndio", "IT-17: hidrantes", "IT-22: alarme e detecção", "IT-23: chuveiros automáticos", "IT-25: liquidos combustiveis quando aplicavel"],
+    systems: ["IT-14: carga de incêndio", "IT-22: hidrantes", "IT-19: alarme e detecção", "IT-23: chuveiros automáticos", "IT-25: liquidos combustiveis quando aplicavel"],
     prazo: "60 a 120 dias em galpões com projeto existente; 90 a 180 dias quando ha cálculo hidráulico, sprinkler ou ampliacao de área",
     links: [
       { label: "hidrantes para galpao", href: "/sistema-de-hidrantes-para-galpao-sao-paulo" },
@@ -46,7 +46,7 @@ const occupationProfiles: Record<string, {
   restaurante: {
     group: "F-8 / F-2, com cozinha, publico sentado e uso de GLP",
     risk: "coifa, fritadeiras, central de GLP, lotação, materiais de acabamento e rotas de fuga",
-    systems: ["IT-10: controle de materiais", "IT-11: saidas de emergência", "IT-16: extintores classe K", "IT-20: sinalização", "IT-28: GLP"],
+    systems: ["IT-10: controle de materiais", "IT-11: saidas de emergência", "IT-21: extintores classe K", "IT-20: sinalização", "IT-28: GLP"],
     prazo: "20 a 45 dias para CLCB simples; 45 a 90 dias quando ha cozinha industrial, exaustao, GLP ou alta lotação",
     links: [
       { label: "laudo de estanqueidade de gas", href: "/laudo-estanqueidade-gas-sao-paulo" },
@@ -58,7 +58,7 @@ const occupationProfiles: Record<string, {
   clcbDefault: {
     group: "edificação até 750 m² com baixo risco de incêndio (carga até 300 MJ/m²) enquadrada na IT-01 e IT-02 do CBPMESP",
     risk: "extintores no prazo, sinalização visível, iluminação de emergência e rotas de fuga desobstruídas — itens auto-declarados na vertente CLCB",
-    systems: ["IT-01: procedimentos para CLCB", "IT-02: classificação da ocupação", "IT-11: saídas de emergência", "IT-16: extintores", "IT-18: iluminação de emergência", "IT-20: sinalização"],
+    systems: ["IT-01: procedimentos para CLCB", "IT-02: classificação da ocupação", "IT-11: saídas de emergência", "IT-21: extintores", "IT-18: iluminação de emergência", "IT-20: sinalização"],
     prazo: "15 a 45 dias para CLCB sem pendências; 45 a 90 dias quando ha adequação física antes do protocolo (extintores vencidos, sinalização, iluminação)",
     links: [
       { label: "renovação de CLCB", href: "/renovacao-clcb-sao-paulo" },
@@ -70,7 +70,7 @@ const occupationProfiles: Record<string, {
   clcbAlimentacao: {
     group: "F-8/F-2 (alimentação) com até 750 m² e capacidade média — atende CLCB se a carga de incêndio for compatível",
     risk: "central de GLP, coifa de cozinha, extintor classe K, rota de fuga até a calçada e lotação real verificada",
-    systems: ["IT-11: saídas e lotação", "IT-16: extintor classe K para cozinha", "IT-20: sinalização", "IT-28: GLP com ART", "IT-21: combustíveis líquidos quando houver"],
+    systems: ["IT-11: saídas e lotação", "IT-21: extintor classe K para cozinha", "IT-20: sinalização", "IT-28: GLP com ART", "IT-25: combustíveis líquidos quando houver"],
     prazo: "20 a 45 dias para CLCB sem pendências; 45 a 90 dias com adequação de gás, coifa ou extintor",
     links: [
       { label: "renovação CLCB para restaurante", href: "/renovacao-clcb-restaurante-sao-paulo" },
@@ -82,7 +82,7 @@ const occupationProfiles: Record<string, {
   clcbSaude: {
     group: "H-2 (atendimento à saúde) até 750 m² — clínica, consultório, fisioterapia, odontologia",
     risk: "acessibilidade nas rotas (cadeirantes, macas), oxigênio medicinal, equipamentos elétricos sensíveis e exigências de planos de saúde",
-    systems: ["IT-11: rotas com largura para macas/cadeira de rodas", "IT-16: extintor CO₂ para sala de raio-X/equipamentos", "IT-20: sinalização visível", "IT-18: iluminação de emergência em áreas críticas"],
+    systems: ["IT-11: rotas com largura para macas/cadeira de rodas", "IT-21: extintor CO₂ para sala de raio-X/equipamentos", "IT-20: sinalização visível", "IT-18: iluminação de emergência em áreas críticas"],
     prazo: "15 a 45 dias para CLCB sem pendências; 30 a 60 dias com adequação de extintor por tipo de sala ou sinalização",
     links: [
       { label: "renovação CLCB para clínica médica", href: "/renovacao-clcb-clinica-sao-paulo" },
@@ -94,7 +94,7 @@ const occupationProfiles: Record<string, {
   hotel: {
     group: "B-1 (hotel), B-2 (pousada, motel, hostel) — hospedagem com publico dormindo",
     risk: "evacuação noturna de hospedes desconhecidos do prédio, alarme audível em apartamentos, brigada em todos os turnos, cozinha industrial com GLP, lavanderia e geração de energia",
-    systems: ["IT-11: saidas e escadas dimensionadas para evacuação noturna", "IT-17: hidrantes em todos os andares", "IT-19: alarme com central + detectores em apartamentos", "IT-23: sprinkler acima de determinada altura", "IT-13: brigada 24h"],
+    systems: ["IT-11: saidas e escadas dimensionadas para evacuação noturna", "IT-22: hidrantes em todos os andares", "IT-19: alarme com central + detectores em apartamentos", "IT-23: sprinkler acima de determinada altura", "IT-17: brigada 24h"],
     prazo: "60 a 120 dias em hotéis com projeto existente; 120 a 240 dias quando ha retrofit de alarme, sprinkler ou brigada",
     links: [
       { label: "renovação AVCB para hotel", href: "/renovacao-avcb-hotel-sao-paulo" },
@@ -106,7 +106,7 @@ const occupationProfiles: Record<string, {
   hospital: {
     group: "H-3 (hospital, casa de repouso, pronto-socorro) — pacientes acamados ou com mobilidade reduzida",
     risk: "evacuação assistida (paciente em maca, idoso, cadeirante), gases medicinais com risco de explosão, equipamentos elétricos em CTI/UTI, brigada com treinamento hospitalar especifico, compartimentação entre alas",
-    systems: ["IT-11: rotas com largura compatível com macas", "IT-17: hidrantes em todos os andares", "IT-19: alarme com detecção precoce em quartos", "IT-23: sprinkler obrigatório", "IT-13: brigada 24h treinada", "IT-29: gases medicinais com ART"],
+    systems: ["IT-11: rotas com largura compatível com macas", "IT-22: hidrantes em todos os andares", "IT-19: alarme com detecção precoce em quartos", "IT-23: sprinkler obrigatório", "IT-17: brigada 24h treinada", "gases medicinais com projeto e ART específicos"],
     prazo: "90 a 180 dias para hospitais com projeto atualizado; 180 a 365 dias quando há ampliação ou compartimentação nova",
     links: [
       { label: "renovação AVCB para hospital", href: "/renovacao-avcb-hospital-clinica-sao-paulo" },
@@ -118,7 +118,7 @@ const occupationProfiles: Record<string, {
   escola: {
     group: "E-1 (escola), E-2 (creche), E-4 (faculdade) — concentração de crianças ou jovens com necessidade de evacuação rápida",
     risk: "alta concentração em horário de aula, rotas de fuga sinalizadas para crianças, simulados periódicos, brigada de incêndio com professores treinados, laboratorios e cozinhas em escolas com refeitório",
-    systems: ["IT-11: saidas dimensionadas para evacuação rápida", "IT-17: hidrantes em escolas acima de determinada area", "IT-19: alarme com sirene em todos os ambientes", "IT-20: sinalização visivel para crianças", "IT-13: brigada com treinamento de evacuação"],
+    systems: ["IT-11: saidas dimensionadas para evacuação rápida", "IT-22: hidrantes em escolas acima de determinada area", "IT-19: alarme com sirene em todos os ambientes", "IT-20: sinalização visivel para crianças", "IT-17: brigada com treinamento de evacuação"],
     prazo: "60 a 120 dias em escolas com projeto existente; 90 a 180 dias com instalação de alarme novo ou adequação de laboratório",
     links: [
       { label: "renovação AVCB para escola", href: "/renovacao-avcb-escola-sao-paulo" },
@@ -130,7 +130,7 @@ const occupationProfiles: Record<string, {
   posto: {
     group: "M-2 (posto de combustivel) — atmosfera potencialmente inflamável e armazenagem de combustivel",
     risk: "tanques subterrâneos de combustivel, bombas, central de GLP para conveniência, vapores inflamáveis, descarga de caminhão-tanque, aterramento e SPDA obrigatorio, brigada com treinamento especifico",
-    systems: ["IT-25: armazenagem de combustivel", "IT-22: SPDA reforçado", "IT-17: hidrantes com vazão majorada", "IT-16: extintores em todas as bombas + conveniência", "IT-13: brigada treinada para combustivel"],
+    systems: ["IT-25: armazenagem de combustivel", "SPDA reforçado conforme NBR 5419", "IT-22: hidrantes com vazão majorada", "IT-21: extintores em todas as bombas + conveniência", "IT-17: brigada treinada para combustivel"],
     prazo: "90 a 180 dias para postos com projeto recente; 180 a 365 dias quando há substituição de tanque ou ampliação",
     links: [
       { label: "renovação AVCB para posto", href: "/renovacao-avcb-posto-combustivel-sao-paulo" },
@@ -142,7 +142,7 @@ const occupationProfiles: Record<string, {
   supermercado: {
     group: "C-1 (supermercado), C-3 (shopping center) — varejo com alta circulação e produtos inflamáveis em prateleira",
     risk: "câmaras frigorificas com gas refrigerante, área de açougue com chama, produtos inflamáveis (álcool, aerossol, gás de cozinha em prateleira), corredores estreitos, padaria interna com forno",
-    systems: ["IT-11: saidas com largura para evacuação rápida", "IT-17: hidrantes na area de vendas e estoque", "IT-19: alarme com cobertura total", "IT-23: sprinkler em estoques verticais", "IT-16: extintores classe K na padaria/açougue"],
+    systems: ["IT-11: saidas com largura para evacuação rápida", "IT-22: hidrantes na area de vendas e estoque", "IT-19: alarme com cobertura total", "IT-23: sprinkler em estoques verticais", "IT-21: extintores classe K na padaria/açougue"],
     prazo: "60 a 120 dias em supermercados com projeto existente; 120 a 240 dias quando ha sprinkler novo ou compartimentação",
     links: [
       { label: "renovação AVCB para supermercado", href: "/renovacao-avcb-supermercado-sao-paulo" },
@@ -154,7 +154,7 @@ const occupationProfiles: Record<string, {
   escritorio: {
     group: "D-1 (locais de prestação de serviços), D-2 (agência bancária, escritório alto padrão) — uso comercial sem dormida",
     risk: "alta densidade de equipamentos elétricos, cabeamento estruturado, data centers internos, copa com forno e microondas, rotas de fuga em prédios verticais, evacuação coordenada de múltiplas empresas",
-    systems: ["IT-11: saidas dimensionadas para lotação", "IT-17: hidrantes em prédios acima de determinada altura", "IT-19: alarme com cobertura por andar", "IT-16: extintores distribuidos por sala", "IT-18: iluminação de emergência em corredores"],
+    systems: ["IT-11: saidas dimensionadas para lotação", "IT-22: hidrantes em prédios acima de determinada altura", "IT-19: alarme com cobertura por andar", "IT-21: extintores distribuidos por sala", "IT-18: iluminação de emergência em corredores"],
     prazo: "45 a 90 dias para escritórios com projeto existente; 90 a 180 dias com reforma interna ou troca de cabeamento",
     links: [
       { label: "renovação AVCB para escritório", href: "/renovacao-avcb-escritorio-sao-paulo" },
@@ -165,7 +165,7 @@ const occupationProfiles: Record<string, {
   default: {
     group: "classificacao definida pela IT-02 conforme uso, área e altura da edificação",
     risk: "lotação, carga de incêndio, rotas de fuga, sistemas existentes e documentação técnica",
-    systems: ["IT-01: procedimentos administrativos", "IT-02: classificacao da ocupação", "IT-11: saidas de emergência", "IT-16: extintores", "IT-20: sinalização"],
+    systems: ["IT-01: procedimentos administrativos", "IT-02: classificacao da ocupação", "IT-11: saidas de emergência", "IT-21: extintores", "IT-20: sinalização"],
     prazo: "30 a 60 dias para processos simples; 60 a 120 dias quando ha projeto técnico, vistoria fisica ou Comunique-se",
     links: [
       { label: "projeto de incêndio", href: "/projetos-incendio" },

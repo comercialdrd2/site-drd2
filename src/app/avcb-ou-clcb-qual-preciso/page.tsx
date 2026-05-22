@@ -13,7 +13,7 @@ const data: UniversalPageData = {
   "h1Line2": "Qual Preciso para Meu Imóvel?",
   "heroBg": "/images/blog/fire_safety_equipment_premium.webp",
   "introP1": "Empresários e síndicos frequentemente confundem AVCB e CLCB — dois documentos distintos com processos, prazos e custos muito diferentes. Escolher o documento errado pode invalidar todo o processo e gerar Comunique-se logo no início.",
-  "introP2": "Este guia técnico explica a diferença entre AVCB e CLCB, qual se aplica a cada tipo de imóvel conforme o Decreto 56.819/2011, os critérios exatos de enquadramento e como a DRD2 faz o diagnóstico correto gratuitamente.",
+  "introP2": "Este guia técnico explica a diferença entre AVCB e CLCB, qual se aplica a cada tipo de imóvel conforme o Decreto 69.118/2024, os critérios exatos de enquadramento e como a DRD2 faz o diagnóstico correto gratuitamente.",
   "breadcrumbs": [
     {
       "label": "Home",
@@ -27,7 +27,7 @@ const data: UniversalPageData = {
   "h2_principal": {
     "heading": "AVCB e CLCB: o que são e quando cada um se aplica?",
     "body": "O AVCB — Auto de Vistoria do Corpo de Bombeiros — é o certificado completo, emitido após vistoria presencial do CBPMESP com análise de todos os sistemas de prevenção e combate a incêndio instalados. É exigido para edificações acima de 750m², ocupações de alto risco e qualquer imóvel com sistema de sprinkler, hidrante pressurizado ou alarme de detecção instalado, independente da área.",
-    "body2": "O CLCB — Certificado de Licença do Corpo de Bombeiros — é a versão simplificada para imóveis de até 750m² e baixo risco de incêndio conforme o Decreto 56.819/2011. O processo é mais ágil, pode ser concedido com análise documental sem vistoria presencial em muitos casos, e tem custo significativamente menor. Escolher CLCB quando o imóvel exige AVCB gera rejeição imediata do processo no protocolo."
+    "body2": "O CLCB — Certificado de Licença do Corpo de Bombeiros — é a versão simplificada para imóveis de até 750m² e baixo risco de incêndio conforme o Decreto 69.118/2024. O processo é mais ágil, pode ser concedido com análise documental sem vistoria presencial em muitos casos, e tem custo significativamente menor. Escolher CLCB quando o imóvel exige AVCB gera rejeição imediata do processo no protocolo."
   },
   "h2_riscos": {
     "heading": "Por que o enquadramento incorreto é um problema grave",
@@ -60,8 +60,8 @@ const data: UniversalPageData = {
     ]
   },
   "h2_detalhes": {
-    "heading": "Critérios exatos de enquadramento conforme Decreto 56.819/2011",
-    "body1": "O enquadramento entre AVCB e CLCB depende de três variáveis principais: área construída total, grupo e divisão de ocupação conforme a Tabela A do Decreto 56.819/2011, e características específicas que podem elevar o risco independente da área (sistemas instalados, capacidade de público, altura da edificação).",
+    "heading": "Critérios exatos de enquadramento conforme Decreto 69.118/2024",
+    "body1": "O enquadramento entre AVCB e CLCB depende de três variáveis principais: área construída total, grupo e divisão de ocupação conforme a Tabela A do Decreto 69.118/2024, e características específicas que podem elevar o risco independente da área (sistemas instalados, capacidade de público, altura da edificação).",
     "alerta": "Área isolada não define o enquadramento. O uso e o risco também contam.",
     "itens": [
       {
@@ -81,7 +81,7 @@ const data: UniversalPageData = {
         "desc": "Imóvel com sistema de sprinkler, hidrante pressurizado ou alarme de detecção instalado exige AVCB mesmo que a área seja inferior a 750m². O sistema define o enquadramento."
       }
     ],
-    "closing": "A DRD2 realiza o enquadramento correto gratuitamente: análise da área, uso, sistemas e ocupação conforme a Tabela A do Decreto 56.819/2011. Erro de enquadramento não acontece."
+    "closing": "A DRD2 realiza o enquadramento correto gratuitamente: análise da área, uso, sistemas e ocupação conforme a Tabela A do Decreto 69.118/2024. Erro de enquadramento não acontece."
   },
   "h2_processo": {
     "heading": "Como funciona o processo completo de Definição de AVCB ou CLCB",
@@ -99,12 +99,12 @@ const data: UniversalPageData = {
       {
         "numero": "ETAPA 03",
         "titulo": "Adequação dos sistemas",
-        "desc": "Execução das obras necessárias: extintores, hidrante, alarme, sprinkler, SPDA e sinalização conforme Decreto 56.819/2011 e ITs do CBPMESP. Equipe própria, sem terceiros."
+        "desc": "Execução das obras necessárias: extintores, hidrante, alarme, sprinkler, SPDA e sinalização conforme Decreto 69.118/2024 e ITs do CBPMESP. Equipe própria, sem terceiros."
       },
       {
         "numero": "ETAPA 04",
         "titulo": "Projeto técnico com ART",
-        "desc": "Elaboração do PPCI conforme Decreto 56.819/2011 e ITs do CBPMESP, com memorial descritivo, cálculo específico e ART CREA-SP recolhida. Documentação aceita sem questionamentos pelo CBPMESP."
+        "desc": "Elaboração do PPCI conforme Decreto 69.118/2024 e ITs do CBPMESP, com memorial descritivo, cálculo específico e ART CREA-SP recolhida. Documentação aceita sem questionamentos pelo CBPMESP."
       },
       {
         "numero": "ETAPA 05",
