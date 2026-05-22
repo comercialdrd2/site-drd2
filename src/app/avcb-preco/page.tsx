@@ -54,14 +54,14 @@ export default function AVCBPrecoPage() {
             <JsonLD schema={_schema} />
 
       {/* Hero Pricing - Transparency focused */}
-      <section className="relative bg-white pt-32 pb-24 overflow-hidden border-b border-gray-100">
+      <section className="relative bg-white pt-20 pb-16 overflow-hidden border-b border-gray-100">
         <div className="absolute top-0 right-0 w-2/5 h-full bg-slate-50 -skew-x-12 transform translate-x-1/2 opacity-50" />
         
         <div className="relative z-10 container mx-auto px-4 max-w-6xl">
           <div className="flex flex-col lg:flex-row gap-20 items-center">
             <div className="lg:w-1/2">
               <span className="inline-block bg-primary text-white text-[10px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest mb-6">Transparência em 2025</span>
-              <h1 className="text-3xl md:text-7xl font-black mb-8 leading-[0.9] tracking-tighter text-secondary uppercase">
+              <h1 className="text-3xl md:text-5xl lg:text-6xl font-black mb-6 leading-[1.0] tracking-tighter text-secondary uppercase">
                 Quanto Custa o <span className="text-primary italic">AVCB em SP?</span>
               </h1>
               <p className="text-xl text-gray-600 mb-10 leading-relaxed font-medium">
@@ -217,7 +217,7 @@ export default function AVCBPrecoPage() {
       {/* CTA Final */}
       <section className="py-24 bg-primary text-white text-center">
          <div className="container mx-auto px-4 max-w-4xl">
-            <h2 className="text-4xl md:text-7xl font-black mb-10 tracking-tighter uppercase leading-none italic">Precisa de um <span className="text-slate-900 not-italic">Valor Exato?</span></h2>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black mb-10 tracking-tighter uppercase leading-none italic">Precisa de um <span className="text-slate-900 not-italic">Valor Exato?</span></h2>
             <p className="text-xl font-medium mb-12">Analiso seu caso em 2 horas e envio a proposta técnica em PDF via WhatsApp.</p>
             <a href={whatsappLink} className="bg-slate-900 border-4 border-slate-900 hover:bg-[#1EBE5A] hover:text-white hover:text-primary hover:border-white transition-all text-white font-black px-12 py-6 rounded-2xl text-xl inline-flex items-center gap-3 shadow-3xl">
                <Banknote className="w-6 h-6" /> Solicitar Orçamento Gratuito

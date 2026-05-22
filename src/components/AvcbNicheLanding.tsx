@@ -62,7 +62,7 @@ export default function AvcbNicheLanding({ page }: Props) {
     <>
       <JsonLD schema={schema} />
 
-      <section className="relative overflow-hidden bg-slate-950 text-white border-b-8 border-red-600 pt-[88px] pb-12 lg:pt-[104px] lg:pb-16">
+      <section className="relative overflow-hidden bg-slate-950 text-white border-b-8 border-red-600 pt-[64px] pb-10 lg:pt-[80px] lg:pb-12">
         <Image
           src={page.heroImage}
           alt={page.imageAlt}
@@ -75,19 +75,19 @@ export default function AvcbNicheLanding({ page }: Props) {
         <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-slate-950/88 to-slate-950/42" />
         <div className="relative z-10 container mx-auto px-4 max-w-6xl">
           <div className="max-w-3xl">
-            <div className="mb-5 flex flex-wrap gap-3 text-[10px] font-black uppercase tracking-widest">
-              <span className="inline-flex items-center gap-2 rounded-full bg-red-600 px-4 py-2 text-white shadow-lg shadow-red-950/20">
+            <div className="mb-4 flex flex-wrap gap-2 text-[10px] font-black uppercase tracking-widest">
+              <span className="inline-flex items-center gap-2 rounded-full bg-red-600 px-4 py-1.5 text-white shadow-lg shadow-red-950/20">
                 <PageIcon slug={page.slug} />
                 {page.eyebrow}
               </span>
-              <span className="rounded-full border border-white/15 bg-white/10 px-4 py-2 text-slate-100">
+              <span className="rounded-full border border-white/15 bg-white/10 px-4 py-1.5 text-slate-100">
                 pagina por nicho
               </span>
             </div>
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-black uppercase italic tracking-tight leading-[0.94]">
+            <h1 className="text-2xl md:text-4xl lg:text-5xl font-black uppercase italic tracking-tight leading-[1.0] mb-4">
               {page.h1}
             </h1>
-            <p className="mt-6 max-w-2xl text-lg md:text-xl font-medium leading-relaxed text-slate-200">
+            <p className="mt-4 max-w-2xl text-base md:text-lg font-medium leading-relaxed text-slate-200">
               {page.lead}
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">

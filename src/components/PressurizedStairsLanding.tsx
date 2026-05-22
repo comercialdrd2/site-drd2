@@ -134,12 +134,12 @@ export default function PressurizedStairsLanding({
           quality={65}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/85 to-slate-950/25" />
-        <div className="relative z-10 container mx-auto px-4 max-w-6xl py-20">
+        <div className="relative z-10 container mx-auto px-4 max-w-6xl py-16">
           <div className="max-w-3xl">
             <span className="inline-flex items-center gap-2 bg-red-600/20 text-red-100 border border-red-500/50 px-4 py-2 rounded-full text-xs uppercase tracking-[0.25em] font-black mb-6">
               <Wind className="w-4 h-4" /> {eyebrow}
             </span>
-            <h1 className="text-4xl md:text-6xl font-black tracking-tight leading-none mb-6">
+            <h1 className="text-3xl md:text-5xl font-black tracking-tight leading-none mb-6">
               {h1}
             </h1>
             <p className="text-xl md:text-2xl text-slate-200 leading-relaxed font-medium mb-8">
