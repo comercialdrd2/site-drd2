@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   Phone, CheckCircle2, ShieldAlert, Clock, FileText
 } from "lucide-react";
@@ -68,8 +69,11 @@ export default function AlvaraBombeiroBarRestaurantePage() {
       {/* ── INTRO ── */}
       <section className="py-16 bg-white border-b border-slate-100">
         <div className="container mx-auto px-4 max-w-4xl text-center">
-          <p className="text-lg md:text-xl text-slate-700 font-medium leading-relaxed"
+          <p className="text-lg md:text-xl text-slate-700 font-medium leading-relaxed mb-6"
             dangerouslySetInnerHTML={{ __html: c.intro[1] }} />
+          <p className="text-base text-slate-500 font-medium leading-relaxed">
+            Especialistas na vida noturna e cena gastronômica de São Paulo. Atuamos fortemente na Zona Oeste (<Link href="/renovacao-clcb-pinheiros-sao-paulo" className="text-red-600 hover:underline font-bold">Pinheiros</Link>, <Link href="/renovacao-clcb-vila-madalena-sao-paulo" className="text-red-600 hover:underline font-bold">Vila Madalena</Link>, <Link href="/renovacao-clcb-perdizes-sao-paulo" className="text-red-600 hover:underline font-bold">Perdizes</Link>) e no efervescente Centro Expandido (<Link href="/renovacao-clcb-paraiso-sao-paulo" className="text-red-600 hover:underline font-bold">Paraíso</Link>, Paulista). Na Zona Sul, nossa engenharia garante a segurança de estabelecimentos em <Link href="/renovacao-clcb-moema-sao-paulo" className="text-red-600 hover:underline font-bold">Moema</Link> e <Link href="/renovacao-clcb-vila-olimpia-sao-paulo" className="text-red-600 hover:underline font-bold">Vila Olímpia</Link>. Atendemos também o ABC Paulista (<Link href="/renovacao-clcb-santo-andre" className="text-red-600 hover:underline font-bold">Santo André</Link>, <Link href="/renovacao-clcb-sao-bernardo" className="text-red-600 hover:underline font-bold">São Bernardo</Link>) garantindo a aprovação ágil do seu AVCB para bares e restaurantes.
+          </p>
         </div>
       </section>
 

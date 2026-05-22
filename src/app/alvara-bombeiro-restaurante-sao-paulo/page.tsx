@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   Phone, CheckCircle2, ShieldAlert, Clock, FileText
 } from "lucide-react";
@@ -68,8 +69,11 @@ export default function AlvaraBombeiroRestaurantePage() {
       {/* ── INTRO ── */}
       <section className="py-16 bg-white border-b border-slate-100">
         <div className="container mx-auto px-4 max-w-4xl text-center">
-          <p className="text-lg md:text-xl text-slate-700 font-medium leading-relaxed"
+          <p className="text-lg md:text-xl text-slate-700 font-medium leading-relaxed mb-6"
             dangerouslySetInnerHTML={{ __html: c.intro[1] }} />
+          <p className="text-base text-slate-500 font-medium leading-relaxed">
+            Nossos engenheiros atendem restaurantes e praças de alimentação em toda a capital paulista. Atuamos com força total na Zona Sul, atendendo bairros nobres como <Link href="/renovacao-clcb-moema-sao-paulo" className="text-red-600 hover:underline font-bold">Moema</Link>, <Link href="/renovacao-clcb-santo-amaro-sao-paulo" className="text-red-600 hover:underline font-bold">Santo Amaro</Link> e <Link href="/renovacao-clcb-vila-mariana-sao-paulo" className="text-red-600 hover:underline font-bold">Vila Mariana</Link>, além dos grandes polos gastronômicos da Zona Leste como <Link href="/renovacao-clcb-tatuape-sao-paulo" className="text-red-600 hover:underline font-bold">Tatuapé</Link> e <Link href="/renovacao-clcb-mooca-sao-paulo" className="text-red-600 hover:underline font-bold">Mooca</Link>. Nossa cobertura também se estende para toda a Grande São Paulo, incluindo vistorias rigorosas em <Link href="/renovacao-clcb-guarulhos" className="text-red-600 hover:underline font-bold">Guarulhos</Link>, <Link href="/renovacao-clcb-santo-andre" className="text-red-600 hover:underline font-bold">Santo André</Link> e <Link href="/renovacao-clcb-osasco" className="text-red-600 hover:underline font-bold">Osasco</Link>.
+          </p>
         </div>
       </section>
 
