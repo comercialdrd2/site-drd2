@@ -19,6 +19,7 @@ import CtaWhatsApp from "@/components/CtaWhatsApp";
 import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import NeighborhoodSilo from "@/components/NeighborhoodSilo";
+import { bairrosCondominio } from "@/data/bairros-renovacao";
 
 type Mode = "avcb" | "renovacao";
 
@@ -80,6 +81,8 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode }: Loca
   const whatsappLink = `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`;
   const copy = pageCopy(neighborhood, mode);
   const faqs = faqsFor(neighborhood, mode);
+  const richData = bairrosCondominio.find((b) => b.slug === neighborhood.slug);
+  
   const schema = generateMasterSchema({
     slug: copy.slug,
     title: copy.title,
@@ -161,13 +164,30 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode }: Loca
                 Diagnóstico local para {neighborhood.name}
               </h2>
               <div className="space-y-6 text-lg text-slate-700 leading-relaxed font-medium">
-                <p>
-                  {neighborhood.name} e um bairro da {neighborhood.zone} com perfil de {neighborhood.profile}. Esse contexto muda o caminho do AVCB porque o Corpo de Bombeiros avalia uso real, lotação, sistemas instalados, rotas de fuga e documentos técnicos, não apenas o nome do bairro no endereco.
-                </p>
-                <p>
-                  As referencias locais mais importantes para o diagnóstico sao {neighborhood.localRefs.join(", ")}. Em imóveis perto desses eixos, e comum encontrar reformas, ampliacoes, mudancas de uso, aumento de público e sistemas de segurança que não acompanharam a operacao atual.
-                </p>
-                <p>{neighborhood.urgency}</p>
+                {richData ? (
+                  <>
+                    <p className="text-xl leading-relaxed font-bold text-slate-800">{richData.intro}</p>
+                    <div className="bg-red-50 p-6 md:p-8 rounded-2xl border-2 border-red-100 my-8 shadow-sm">
+                      <div className="flex items-start gap-4">
+                        <AlertTriangle className="w-8 h-8 text-red-600 flex-shrink-0 mt-1" />
+                        <div>
+                          <h4 className="text-xl font-black text-red-900 uppercase italic mb-3">Ponto de Atenção em {neighborhood.name}</h4>
+                          <p className="text-red-800 leading-relaxed">{richData.box}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <p>
+                      {neighborhood.name} e um bairro da {neighborhood.zone} com perfil de {neighborhood.profile}. Esse contexto muda o caminho do AVCB porque o Corpo de Bombeiros avalia uso real, lotação, sistemas instalados, rotas de fuga e documentos técnicos, não apenas o nome do bairro no endereco.
+                    </p>
+                    <p>
+                      As referencias locais mais importantes para o diagnóstico sao {neighborhood.localRefs.join(", ")}. Em imóveis perto desses eixos, e comum encontrar reformas, ampliacoes, mudancas de uso, aumento de público e sistemas de segurança que não acompanharam a operacao atual.
+                    </p>
+                    <p>{neighborhood.urgency}</p>
+                  </>
+                )}
                 <p>
                   A DRD2 conecta a página local ao silo técnico do site: <Link href="/projetos-incendio" className="text-red-700 font-black underline">projeto de incêndio</Link>, <Link href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme</Link>, <Link href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link href="/spda" className="text-red-700 font-black underline">SPDA</Link> e <Link href="/treinamento-brigada" className="text-red-700 font-black underline">brigada</Link>. Isso ajuda o cliente a entender o problema e ajuda o Google a reconhecer autoridade tematica.
                 </p>
@@ -231,17 +251,31 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode }: Loca
             <div className="bg-slate-950 text-white p-8 rounded-2xl">
               <h3 className="text-2xl font-black mb-6 uppercase italic">Riscos locais frequentes</h3>
               <div className="space-y-4">
-                {neighborhood.risks.map((risk) => (
-                  <div key={risk} className="flex gap-4 border-b border-white/10 pb-4">
-                    <AlertTriangle className="w-5 h-5 text-red-500 shrink-0 mt-1" />
-                    <div>
-                      <h4 className="font-black uppercase">{risk}</h4>
-                      <p className="text-slate-300 text-sm mt-1">
-                        Esse item deve ser verificado antes do protocolo ou da vistoria para reduzir retrabalho, comunique-se e atraso na liberacao.
-                      </p>
+                {richData ? (
+                  richData.problemas.map((risk, index) => (
+                    <div key={risk} className="flex gap-4 border-b border-white/10 pb-4">
+                      <AlertTriangle className="w-5 h-5 text-red-500 shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-black uppercase">{risk}</h4>
+                        <p className="text-slate-300 text-sm mt-1">
+                          {richData.problemasDesc[index]}
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))
+                ) : (
+                  neighborhood.risks.map((risk) => (
+                    <div key={risk} className="flex gap-4 border-b border-white/10 pb-4">
+                      <AlertTriangle className="w-5 h-5 text-red-500 shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-black uppercase">{risk}</h4>
+                        <p className="text-slate-300 text-sm mt-1">
+                          Esse item deve ser verificado antes do protocolo ou da vistoria para reduzir retrabalho, comunique-se e atraso na liberacao.
+                        </p>
+                      </div>
+                    </div>
+                  ))
+                )}
               </div>
             </div>
           </div>

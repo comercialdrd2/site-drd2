@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import Image from "next/image";
 import {
   Phone, CheckCircle2, AlertTriangle, ShieldAlert, BadgeInfo,
@@ -31,7 +31,7 @@ export default function ExpansionLandingPage() {
   const whatsappLink = `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`;
 
   const faqItems = [
-    { question: "Prédio muito antigo no Centro tem anistia?", answer: "Não. Existe o 'Regulamento de Segurança contra Incêndio das Edificações Existentes' (Decreto 63.911), que permite adaptações proporcionais, mas nunca isenção." },
+    { question: "Prédio muito antigo no Centro tem anistia?", answer: "Não. Existe o 'Regulamento de Segurança contra Incêndio das Edificações Existentes' (Decreto Estadual 69.118/2024), que permite adaptações proporcionais, mas nunca isenção." },
     { question: "Quanto custa o AVCB para prédio antigo?", answer: "O custo foca em medidas compensatórias, como instalar alarmes e extintores modernos, em vez de reformas estruturais." },
     { question: "O que fazer com fiação antiga?", answer: "É obrigatório um laudo de engenheiro eletricista garantindo que a fiação não tem risco de incêndio iminente." },
     { question: "Como desobstruir rotas de fuga no Centro?", answer: "Fazemos uma auditoria de descartes e instalamos a sinalização correta para educar os condôminos." },

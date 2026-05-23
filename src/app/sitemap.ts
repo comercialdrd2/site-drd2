@@ -17,7 +17,7 @@ import type { MetadataRoute } from "next";
 // ============================================================================
 
 export function getBaseUrl() {
-  return process.env.NEXT_PUBLIC_SITE_URL || "https://www.drd2.com.br";
+  return process.env.NEXT_PUBLIC_SITE_URL || "https://drd2engenharia.com.br";
 }
 
 const APP_DIR = path.join(process.cwd(), "src", "app");

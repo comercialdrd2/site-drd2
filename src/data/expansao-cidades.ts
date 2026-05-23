@@ -272,7 +272,7 @@ export const cidadesExpansao: BairroData[] = [
       "role": "Síndico Predial — Centro Campinas"
     },
     "faq1q": "Prédio muito antigo no Centro tem anistia?",
-    "faq1a": "Não. Existe o 'Regulamento de Segurança contra Incêndio das Edificações Existentes' (Decreto 63.911), que permite adaptações proporcionais, mas nunca isenção.",
+    "faq1a": "Não. Existe o 'Regulamento de Segurança contra Incêndio das Edificações Existentes' (Decreto Estadual 69.118/2024), que permite adaptações proporcionais, mas nunca isenção.",
     "faq2q": "Quanto custa o AVCB para prédio antigo?",
     "faq2a": "O custo foca em medidas compensatórias, como instalar alarmes e extintores modernos, em vez de reformas estruturais.",
     "faq3q": "O que fazer com fiação antiga?",
