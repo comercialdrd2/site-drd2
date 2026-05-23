@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { blogPosts } from "@/data/blog";
+import { servicesData } from "@/data/services";
 import type { MetadataRoute } from "next";
 
 // ============================================================================
@@ -185,6 +186,16 @@ function getAllRoutesWithMtime(): Map<string, string> {
       map.set(route, new Date(post.date).toISOString());
     }
   }
+
+  // Adiciona páginas de serviços dinâmicas (que estavam ocultadas pelo filtro de DYNAMIC_SEGMENTS)
+  for (const slug of Object.keys(servicesData)) {
+    const route = `/servicos/${slug}`;
+    if (REDIRECT_SOURCES.has(route)) continue;
+    if (!map.has(route)) {
+      map.set(route, MAIN_LAST_MOD);
+    }
+  }
+
   return map;
 }
 
