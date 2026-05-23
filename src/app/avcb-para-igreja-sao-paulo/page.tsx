@@ -21,11 +21,11 @@ import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/componen
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
 const _pageTitle = "AVCB para Igreja em SP: Aprovação Rápida em 2026 | DRD2 Engenharia";
-const _pageDesc = "Obtenha o AVCB para sua Igreja em SP com 100% de segurança jurídica. Especialistas no Grupo F-6, IT-11 e IT-17. Evite interdições e multas. Diagnóstico técnico gratuito em 24h.";
+const _pageDesc = "Obtenha o AVCB para sua Igreja em SP com 100% de segurança jurídica. Especialistas no Grupo F-6, IT-08 e IT-17. Evite interdições e multas. Diagnóstico técnico gratuito em 24h.";
 
 export const metadata = {
   title: "AVCB para Igreja em SP: Aprovação Rápida em 2026 | DRD2 Engenharia",
-  description: "Obtenha o AVCB para sua Igreja em SP com 100% de segurança jurídica. Especialistas no Grupo F-6, IT-11 e IT-17. Evite interdições e multas. Diagnóstico técnico gratuito em 24h.",
+  description: "Obtenha o AVCB para sua Igreja em SP com 100% de segurança jurídica. Especialistas no Grupo F-6, IT-08 e IT-17. Evite interdições e multas. Diagnóstico técnico gratuito em 24h.",
   alternates: {
     canonical: "/avcb-para-igreja-sao-paulo",
   },
@@ -168,11 +168,11 @@ export default function AVCBIgrejaMasterPage() {
            {/* Profundidade Técnica Adicionada */}
            <div className="mt-16 p-12 bg-white/5 border-2 border-red-600/30 rounded-[3rem] text-left">
               <h3 className="text-2xl font-black mb-8 text-white uppercase italic tracking-tighter flex items-center gap-4">
-                <Scale className="w-8 h-8 text-red-500" /> Profundidade Técnica: IT-11, IT-17 e IT-10
+                <Scale className="w-8 h-8 text-red-500" /> Profundidade Técnica: IT-08, IT-17 e IT-10
               </h3>
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
                 <div className="space-y-4">
-                  <h4 className="text-red-500 font-black uppercase text-sm tracking-widest">IT-11: Saídas de Emergência</h4>
+                  <h4 className="text-red-500 font-black uppercase text-sm tracking-widest">IT-08: Saídas de Emergência</h4>
                   <p className="text-slate-400 text-sm leading-relaxed">O dimensionamento de portas, rampas e escadas em igrejas não é opcional. Calculamos a Unidade de Passagem (UP) considerando o tempo de escoamento seguro de fiéis, garantindo que o palco e a nave central possuam rotas desobstruídas.</p>
                 </div>
                 <div className="space-y-4">
@@ -248,7 +248,7 @@ export default function AVCBIgrejaMasterPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-left">
             {[
-              { t: "Saídas de Emergência", d: "Dimensionamento rigoroso (IT-11) para evacuação rápida em horários de pico.", i: <Accessibility className="w-8 h-8"/> },
+              { t: "Saídas de Emergência", d: "Dimensionamento rigoroso (IT-08) para evacuação rápida em horários de pico.", i: <Accessibility className="w-8 h-8"/> },
               { t: "Iluminação Auxiliar", d: "Blocos autônomos (IT-18) em todas as áreas de circulação e palco.", i: <Zap className="w-8 h-8"/> },
               { t: "Controle de Materiais", d: "CMAR (IT-10) para cortinas, carpetes e revestimentos de palco.", i: <ShieldAlert className="w-8 h-8"/> },
               { t: "Brigada de Incêndio", d: "Treinamento (IT-17) de voluntários e líderes para gestão de pânico.", i: <Users className="w-8 h-8"/> }

@@ -240,7 +240,7 @@ export default function AVCBSalaoFestasPage() {
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {[
-                  "Saídas de Emergência (IT-11)",
+                  "Saídas de Emergência (IT-08)",
                   "Iluminação de Emergência",
                   "Sinalização Fotoluminescente",
                   "Extintores (Inclusive Classe K)",
@@ -371,7 +371,7 @@ export default function AVCBSalaoFestasPage() {
               <MapPin className="w-12 h-12 text-red-600 mb-6" />
               <h3 className="text-2xl font-black mb-4 italic uppercase tracking-tighter">Eng. Lucas Rodrigues</h3>
               <p className="text-slate-400 font-medium text-sm leading-relaxed mb-6">
-                Engenheiro responsável pela equipe de eventos e reunião de público. Especialista em IT-11, IT-17 e supressão em coifas para buffets e casas de casamento em SP.
+                Engenheiro responsável pela equipe de eventos e reunião de público. Especialista em IT-08, IT-17 e supressão em coifas para buffets e casas de casamento em SP.
               </p>
               <div className="border-t border-white/10 pt-6 mb-8">
                 <span className="text-red-500 font-black text-xs uppercase tracking-widest">CREA-SP 5070163570</span>

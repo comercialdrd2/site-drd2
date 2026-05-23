@@ -202,14 +202,14 @@ export default function AVCBSupermercadoMasterPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
             {[
-              { t: "Saídas de Emergência", d: "Dimensionadas pela lotação máxima conforme IT-11.", i: <MapPin className="w-6 h-6"/> },
+              { t: "Saídas de Emergência", d: "Dimensionadas pela lotação máxima conforme IT-08.", i: <MapPin className="w-6 h-6"/> },
               { t: "Iluminação de Emergência", d: "Autonomia de 1h em todas as áreas de circulação.", i: <Lightbulb className="w-6 h-6"/> },
               { t: "Sinalização Fotoluminescente", d: "Indicação visível de rotas e equipamentos.", i: <BadgeInfo className="w-6 h-6"/> },
               { t: "Sistema de Hidrantes", d: "Obrigatório acima de determinada área construída.", i: <Building className="w-6 h-6"/> },
               { t: "Detecção e Alarme", d: "Monitoramento automático de fumaça e calor.", i: <ShieldAlert className="w-6 h-6"/> },
               { t: "Sprinklers (Chuveiros)", d: "Exigidos em grandes áreas ou depósitos verticais.", i: <ZapOff className="w-6 h-6"/> },
               { t: "Brigada de Incêndio", d: "Treinamento de funcionários para evacuação rápida.", i: <Users className="w-6 h-6"/> },
-              { t: "Sistema de SPDA", d: "Para-raios obrigatório conforme a IT-29.", i: <Zap className="w-6 h-6"/> }
+              { t: "Sistema de SPDA", d: "Para-raios obrigatório conforme a IT-19.", i: <Zap className="w-6 h-6"/> }
             ].map((sys, i) => (
               <div key={i} className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:border-blue-200 transition-all">
                 <div className="text-red-600 mb-4">{sys.i}</div>

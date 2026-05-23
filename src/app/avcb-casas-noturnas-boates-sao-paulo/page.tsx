@@ -130,7 +130,7 @@ export default function AVCBBoateMasterPage() {
               <ul className="space-y-6">
                 {[
                   { t: "Acústica", d: "Revestimentos com certificação IT-10 obrigatória." },
-                  { t: "Evacuação", d: "Saídas IT-11 dimensionadas para lotação máxima." },
+                  { t: "Evacuação", d: "Saídas IT-08 dimensionadas para lotação máxima." },
                   { t: "Alarme Visual", d: "Strobes obrigatórios em ambientes com som alto." },
                 ].map((item, i) => (
                   <li key={i} className="text-center">

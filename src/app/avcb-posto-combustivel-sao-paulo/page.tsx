@@ -191,7 +191,7 @@ export default function AVCBPostoPage() {
               { title: "Extintores CO2/BC", desc: "Proteção específica para líquidos inflamáveis.", icon: Flame },
               { title: "Detecção de Gás", desc: "Alarme específico para vapores na pista e loja.", icon: AlertTriangle },
               { title: "Sistema de Hidrantes", desc: "Rede hidráulica com bomba e reservatório.", icon: LayoutPanelTop },
-              { title: "SPDA (Para-raios)", desc: "Dimensionado conforme IT-29 e NBR 5419.", icon: ZapIcon },
+              { title: "SPDA (Para-raios)", desc: "Dimensionado conforme IT-19 e NBR 5419.", icon: ZapIcon },
               { title: "Brigada Técnica", desc: "Treinamento especializado para frentistas.", icon: HardHat }
             ].map((sys, idx) => (
               <div key={idx} className="bg-white/5 border border-white/10 p-8 rounded-3xl hover:bg-primary/20 transition-all flex flex-col justify-between">
@@ -255,7 +255,7 @@ export default function AVCBPostoPage() {
                   { norm: "ABNT NBR 17505", desc: "Regula armazenamento de líquidos inflamáveis e instalações elétricas ATEX na pista." },
                   { norm: "ABNT NBR 13786", desc: "Define o laudo de estanqueidade obrigatório para tanques subterrâneos." },
                   { norm: "IT-21 / NBR 12693", desc: "Determina os tipos corretos de extintores — CO2 e PQS BC — para a área de bombas." },
-                  { norm: "IT-29 / NBR 5419", desc: "Regula o SPDA (para-raios) obrigatório em postos pela presença de vapores inflamáveis." },
+                  { norm: "IT-19 / NBR 5419", desc: "Regula o SPDA (para-raios) obrigatório em postos pela presença de vapores inflamáveis." },
                   { norm: "Resolução ANP nº 41/2013", desc: "Licenciamento da ANP, que passou a cruzar dados com o CBPMESP em 2026." },
                 ].map((item, i) => (
                   <li key={i} className="flex gap-3">

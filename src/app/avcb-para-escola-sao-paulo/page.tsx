@@ -183,14 +183,14 @@ export default function AVCBEscolaMasterPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { t: "Rotas de Fuga (IT-11)", d: "Dimensionamento correto de corredores, escadas e portas conforme lotação.", i: <ArrowRight className="w-8 h-8"/> },
+              { t: "Rotas de Fuga (IT-08)", d: "Dimensionamento correto de corredores, escadas e portas conforme lotação.", i: <ArrowRight className="w-8 h-8"/> },
               { t: "Iluminação (IT-18)", i: <Zap className="w-8 h-8"/>, d: "Blocos autônomos com 1h de duração em todas as rotas de saída." },
               { t: "Sinalização (IT-20)", i: <Bell className="w-8 h-8"/>, d: "Placas fotoluminescentes indicando saídas, extintores e hidrantes." },
               { t: "Extintores (IT-21)", i: <ShieldAlert className="w-8 h-8"/>, d: "Distribuição estratégica por classe de fogo com manutenção em dia." },
               { t: "Hidrantes (IT-22)", i: <MapPin className="w-8 h-8"/>, d: "Projeto hidráulico completo exigido em edificações de maior porte." },
               { t: "Alarme e Detecção", i: <AlertCircle className="w-8 h-8"/>, d: "Obrigatório acima de determinada área para garantir evacuação segura." },
               { t: "Brigada (IT-16/17)", i: <Users className="w-8 h-8"/>, d: "Treinamento de funcionários e elaboração do Plano de Emergência." },
-              { t: "SPDA (Para-raios)", i: <Zap className="w-8 h-8"/>, d: "Proteção obrigatória conforme altura ou características do risco (IT-29)." }
+              { t: "SPDA (Para-raios)", i: <Zap className="w-8 h-8"/>, d: "Proteção obrigatória conforme altura ou características do risco (IT-19)." }
             ].map((sys, i) => (
               <div key={i} className="bg-slate-50 p-10 rounded-[3rem] border border-slate-200 shadow-lg group hover:bg-slate-950 transition-all">
                 <div className="text-red-600 mb-6 group-hover:scale-110 transition-transform">{sys.i}</div>
@@ -212,7 +212,7 @@ export default function AVCBEscolaMasterPage() {
             {[
               {
                 t: "1. Corredores e saídas subdimensionados para a lotação real",
-                d: "Escolas que cresceram — novas turmas, salas adaptadas — sem adequar as rotas de fuga são reprovadas na vistoria. A lotação real costuma ser maior do que a dimensionada no projeto original, tornando as saídas insuficientes pela IT-11.",
+                d: "Escolas que cresceram — novas turmas, salas adaptadas — sem adequar as rotas de fuga são reprovadas na vistoria. A lotação real costuma ser maior do que a dimensionada no projeto original, tornando as saídas insuficientes pela IT-08.",
               },
               {
                 t: "2. Brigada de incêndio escolar sem treinamento atualizado",

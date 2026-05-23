@@ -199,7 +199,7 @@ export default function AVCBFarmaciaMasterPage() {
                 d: "Define o enquadramento C-2 e a carga de incêndio. Para farmácias de manipulação, a carga de produtos inflamáveis pode alterar o risco.",
               },
               {
-                t: "IT-11 — Saídas de Emergência",
+                t: "IT-08 — Saídas de Emergência",
                 d: "corredores entre prateleiras e gôndolas não podem obstruir a rota de fuga. A largura mínima precisa ser respeitada.",
               },
               {

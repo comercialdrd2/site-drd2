@@ -62,7 +62,7 @@ export default function AlarmeIndustrialPage() {
             <div className="mb-10">
               <ul className="space-y-4 inline-flex flex-col text-left">
                 {[
-                  "Conformidade técnica integral (IT-19/2025)",
+                  "Conformidade técnica integral (IT-17/2025)",
                   "Projetos focados em Indústrias Carga Alta",
                   "Documentação acompanhada até Vistoria Final CBPMESP"
                 ].map((item, id) => (
@@ -135,7 +135,7 @@ export default function AlarmeIndustrialPage() {
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center max-w-3xl mx-auto mb-16">
              <h2 className="text-3xl md:text-4xl font-black text-secondary leading-tight mb-6">
-                O que a IT-19/2025 exige para a aprovação do seu Galpão?
+                O que a IT-17/2025 exige para a aprovação do seu Galpão?
              </h2>
              <p className="text-xl text-gray-600">
                Galpões logísticos, armazéns de produtos inflamáveis ou fábricas têm critérios técnicos específicos pesados. Entregamos além da simples instalação: entregamos a sua Liberação.
@@ -240,7 +240,7 @@ export default function AlarmeIndustrialPage() {
               A Operação do Seu Galpão Não Pode Parar.
             </h2>
             <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-              Solicite nosso Engenheiro e impeça interdições da fiscalização com adequações assertivas na IT-19/2025 de SP. Resolva rapidamente a proteção.
+              Solicite nosso Engenheiro e impeça interdições da fiscalização com adequações assertivas na IT-17/2025 de SP. Resolva rapidamente a proteção.
             </p>
             <a 
               href={whatsappLink}

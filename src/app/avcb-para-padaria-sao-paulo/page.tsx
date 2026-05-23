@@ -19,11 +19,11 @@ import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/componen
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
 const _pageTitle = "AVCB para Padaria em São Paulo | DRD2 Engenharia";
-const _pageDesc = "AVCB para padaria em São Paulo: Grupo F-3, IT-11, supressão em coifa, central de GLP e Extintor Classe K. Resposta a Comunique-se incluída. DRD2 — do projeto à instalação.";
+const _pageDesc = "AVCB para padaria em São Paulo: Grupo F-3, IT-08, supressão em coifa, central de GLP e Extintor Classe K. Resposta a Comunique-se incluída. DRD2 — do projeto à instalação.";
 
 export const metadata = {
   title: "AVCB para Padaria em São Paulo | DRD2 Engenharia",
-  description: "AVCB para padaria em São Paulo: Grupo F-3, IT-11, supressão em coifa, central de GLP e Extintor Classe K. Resposta a Comunique-se incluída. DRD2 — do projeto à instalação.",
+  description: "AVCB para padaria em São Paulo: Grupo F-3, IT-08, supressão em coifa, central de GLP e Extintor Classe K. Resposta a Comunique-se incluída. DRD2 — do projeto à instalação.",
   alternates: {
     canonical: "/avcb-para-padaria-sao-paulo",
   },
@@ -39,7 +39,7 @@ export default function AVCBPadariaMasterPage() {
     },
     {
       question: "Por que padaria é enquadrada como F-3 e não como comércio?",
-      answer: "Padarias com área de consumo — mesas, balcão de café ou lanchonete integrada — são classificadas como F-3 (Local de Reunião de Público com Refeição) pela IT-02/2019 do CBPMESP. Esse enquadramento aplica a IT-11 e exige rotas de fuga e saídas de emergência dimensionadas para a capacidade de público — mais rígido do que o comércio varejista comum."
+      answer: "Padarias com área de consumo — mesas, balcão de café ou lanchonete integrada — são classificadas como F-3 (Local de Reunião de Público com Refeição) pela IT-02/2019 do CBPMESP. Esse enquadramento aplica a IT-08 e exige rotas de fuga e saídas de emergência dimensionadas para a capacidade de público — mais rígido do que o comércio varejista comum."
     },
     {
       question: "A supressão na coifa é obrigatória em todas as padarias?",
@@ -68,7 +68,7 @@ export default function AVCBPadariaMasterPage() {
         "name": "Por que padaria é enquadrada como F-3 e não como comércio?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Padarias com área de consumo são classificadas como F-3 (Local de Reunião de Público com Refeição) pela IT-02/2019 do CBPMESP. Esse enquadramento aplica a IT-11 com exigências mais rígidas de saídas de emergência e rotas de fuga do que o comércio varejista comum."
+          "text": "Padarias com área de consumo são classificadas como F-3 (Local de Reunião de Público com Refeição) pela IT-02/2019 do CBPMESP. Esse enquadramento aplica a IT-08 com exigências mais rígidas de saídas de emergência e rotas de fuga do que o comércio varejista comum."
         }
       },
       {
@@ -169,7 +169,7 @@ export default function AVCBPadariaMasterPage() {
               Padarias com área de consumo — mesas, balcão de café, lanchonete integrada ou espaço de refeição — são classificadas sob o Grupo F-3 — Locais de Reunião de Público com Refeição, conforme a IT-02/2019 do CBPMESP.
             </p>
             <p>
-              Esse enquadramento é mais exigente do que o Grupo C (Comércio Varejista) e determina um conjunto maior de medidas de proteção obrigatórias. A IT-11 passa a ser aplicável integralmente, com exigências específicas de largura mínima de rotas de fuga, número de saídas de emergência calculado pela densidade de ocupação e descarga direta no logradouro público.
+              Esse enquadramento é mais exigente do que o Grupo C (Comércio Varejista) e determina um conjunto maior de medidas de proteção obrigatórias. A IT-08 passa a ser aplicável integralmente, com exigências específicas de largura mínima de rotas de fuga, número de saídas de emergência calculado pela densidade de ocupação e descarga direta no logradouro público.
             </p>
             <p>
               Padarias exclusivamente de venda no balcão, sem nenhuma área de consumo, podem ser enquadradas como C-2. Porém, a esmagadora maioria das padarias em São Paulo possui mesas, banquetas ou balcão de café — o que determina o F-3 como classificação correta e obrigatória.
@@ -225,7 +225,7 @@ export default function AVCBPadariaMasterPage() {
                 d: "Classifica a ocupação como Grupo F-3, define a carga de incêndio, a densidade de ocupação e a altura da edificação — parâmetros que determinam todo o conjunto de medidas exigíveis.",
               },
               {
-                t: "IT-11 — Saídas de Emergência",
+                t: "IT-08 — Saídas de Emergência",
                 d: "obrigatória para Grupo F. Define a largura mínima das rotas de fuga conforme a capacidade de pessoas, o número mínimo de saídas, as distâncias máximas percorridas e as condições de descarga no logradouro. É a IT mais frequentemente descumprida em padarias que cresceram e nunca adequaram o layout.",
               },
               {
@@ -285,7 +285,7 @@ export default function AVCBPadariaMasterPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
-                t: "1. Rota de fuga fora da norma IT-11",
+                t: "1. Rota de fuga fora da norma IT-08",
                 d: "Com o enquadramento F-3, as saídas de emergência da padaria precisam atender a parâmetros mais rígidos do que o comércio comum. Largura insuficiente, porta abrindo para dentro, corredor bloqueado ou ausência de descarga direta no logradouro são não-conformidades que geram embargo imediato em vistoria do CBPMESP.",
               },
               {
@@ -336,7 +336,7 @@ export default function AVCBPadariaMasterPage() {
               },
               {
                 t: "Projeto completo de segurança contra incêndio",
-                d: "Elaboração das plantas baixas com indicação de todos os sistemas exigíveis conforme IT-02, IT-11, IT-17, IT-20 e IT-21 — saídas de emergência dimensionadas para F-3, extintores por classe de incêndio, hidrantes, detectores e sinalização.",
+                d: "Elaboração das plantas baixas com indicação de todos os sistemas exigíveis conforme IT-02, IT-08, IT-17, IT-20 e IT-21 — saídas de emergência dimensionadas para F-3, extintores por classe de incêndio, hidrantes, detectores e sinalização.",
               },
               {
                 t: "Memorial descritivo técnico",

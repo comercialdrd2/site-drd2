@@ -176,7 +176,7 @@ export default function ProjetosPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { icon: Layout, title: "Saídas e Escadas", desc: "Dimensionamento de rotas de fuga conforme IT-11 e IT-08." },
+              { icon: Layout, title: "Saídas e Escadas", desc: "Dimensionamento de rotas de fuga conforme IT-08." },
               { icon: Zap, title: "Iluminação de Emergência", desc: "Projetos em conformidade com IT-18 e NBR 10898." },
               { icon: Factory, title: "Sistema Hidráulico", desc: "Hidrantes, mangotinhos e sprinklers (IT-22 e IT-23)." },
               { icon: Zap, title: "SDAI — Detecção e Alarme", desc: "Sistemas inteligentes conforme IT-17 e NBR 17240." },

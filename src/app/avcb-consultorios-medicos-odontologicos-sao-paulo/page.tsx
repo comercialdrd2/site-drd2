@@ -169,7 +169,7 @@ export default function AVCBClinicaOdontologicaPage() {
               </ul>
               <div className="mt-8 p-5 bg-white/5 rounded-2xl border border-white/10 text-xs italic text-gray-400">
                 <span className="text-red-500 font-black uppercase block mb-2 tracking-widest not-italic">Enquadramento normativo:</span>
-                Grupo I — Serviços de Saúde (IT-02). Atenção especial à IT-21 (armazenamento de gases medicinais) e IT-11 (rotas de fuga para pacientes em atendimento).
+                Grupo I — Serviços de Saúde (IT-02). Atenção especial à IT-21 (armazenamento de gases medicinais) e IT-08 (rotas de fuga para pacientes em atendimento).
               </div>
             </div>
           </div>
@@ -205,8 +205,8 @@ export default function AVCBClinicaOdontologicaPage() {
               {
                 num: "03",
                 titulo: "Saídas de Emergência Subdimensionadas",
-                desc: "Portas e corredores que não permitem a saída rápida de pacientes reclinados na cadeira ou com mobilidade reduzida. As rotas de fuga para Grupo I têm dimensionamento específico na IT-11.",
-                tag: "Erro frequente na IT-11",
+                desc: "Portas e corredores que não permitem a saída rápida de pacientes reclinados na cadeira ou com mobilidade reduzida. As rotas de fuga para Grupo I têm dimensionamento específico na IT-08.",
+                tag: "Erro frequente na IT-08",
               },
             ].map((item, i) => (
               <div key={i} className="bg-white p-10 rounded-[2.5rem] border border-slate-200 hover:shadow-xl hover:border-red-600/20 transition-all">
@@ -241,8 +241,8 @@ export default function AVCBClinicaOdontologicaPage() {
               { nome: "Sinalização de emergência", desc: "Placas fotoluminescentes indicando rotas de fuga, saídas e extintores. Posicionamento conforme IT-20.", icon: FileCheck },
               { nome: "Autoclaves — laudo de pressão", desc: "Vasos de pressão exigem laudo de inspeção periódica e ART de responsabilidade técnica conforme NR-13.", icon: Thermometer },
               { nome: "ART de instalações elétricas", desc: "Laudo técnico com ART do engenheiro elétrico comprovando que a instalação suporta a carga dos equipamentos da clínica.", icon: ZapIcon },
-              { nome: "Saídas de emergência", desc: "Dimensionamento conforme IT-11 para evacuação de pacientes em atendimento, incluindo largura adequada de portas e corredores.", icon: ArrowRight },
-              { nome: "Alarme de incêndio", desc: "Acionadores manuais e detectores automáticos com central monitorada conforme IT-19.", icon: AlertCircle },
+              { nome: "Saídas de emergência", desc: "Dimensionamento conforme IT-08 para evacuação de pacientes em atendimento, incluindo largura adequada de portas e corredores.", icon: ArrowRight },
+              { nome: "Alarme de incêndio", desc: "Acionadores manuais e detectores automáticos com central monitorada conforme IT-17.", icon: AlertCircle },
               { nome: "Brigada de incêndio", desc: "Equipe treinada conforme IT-17, com protocolo específico para evacuação de pacientes sedados ou com mobilidade reduzida.", icon: ShieldAlert },
             ].map((s, i) => (
               <div key={i} className="bg-white/5 p-8 rounded-[2.5rem] border border-white/10 hover:bg-white/10 hover:border-red-600/30 transition-all group">

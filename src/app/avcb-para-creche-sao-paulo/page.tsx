@@ -304,7 +304,7 @@ export default function AVCBCrechePage() {
               { 
                 step: "02", 
                 title: "PROJETO SPCI", 
-                desc: "Elaboração do projeto de segurança com ART, focado na IT-11 (Saídas) e IT-19 (Alarme).", 
+                desc: "Elaboração do projeto de segurança com ART, focado na IT-08 (Saídas) e IT-17 (Alarme).", 
                 icon: <FileCheck className="w-8 h-8" />
               },
               { 

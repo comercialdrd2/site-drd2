@@ -152,18 +152,18 @@ export default function AVCBShoppingPage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { it: "IT-11/20", title: "Saídas de Emergência", desc: "Dimensionamento rigoroso de corredores, escadas de emergência e portas corta-fogo." },
+              { it: "IT-08", title: "Saídas de Emergência", desc: "Dimensionamento rigoroso de corredores, escadas de emergência e portas corta-fogo." },
               { it: "IT-18", title: "Iluminação de Emergência", desc: "Sistema de alta capacidade cobrindo todas as áreas com autonomia mínima de 1 hora." },
               { it: "IT-20", title: "Sinalização de Emergência", desc: "Placas fotoluminescentes em toda a extensão do shopping." },
               { it: "IT-21", title: "Extintores de Incêndio", desc: "Distribuição por classe de fogo em todas as áreas do complexo." },
               { it: "IT-22", title: "Sistema de Hidrantes", desc: "Projeto hidráulico complexo com múltiplos reservatórios e bombas." },
               { it: "IT-23", title: "Chuveiros Automáticos", desc: "Sprinklers obrigatórios em shoppings conforme área e carga de incêndio." },
-              { it: "IT-19", title: "Alarme e Detecção", desc: "Sistema centralizado com detectores automáticos em todas as áreas." },
+              { it: "IT-17", title: "Alarme e Detecção", desc: "Sistema centralizado com detectores automáticos em todas as áreas." },
               { it: "IT-15", title: "Controle de Fumaça", desc: "Sistemas de exaustão e pressurização para garantir rotas de fuga livres." },
               { it: "IT-09", title: "Compartimentação", desc: "Separação corta-fogo entre lojas, praça de alimentação e estacionamento." },
               { it: "IT-10", title: "Acabamento de Lojas", desc: "Controle de materiais inflamáveis em vitrines e decorações comuns." },
               { it: "IT-16/17", title: "Brigada de Incêndio", desc: "Equipe treinada com simulados periódicos obrigatórios." },
-              { it: "IT-29", title: "SPDA (Para-raios)", desc: "Proteção contra descargas atmosféricas dimensionada por altura e área." }
+              { it: "IT-19", title: "SPDA (Para-raios)", desc: "Proteção contra descargas atmosféricas dimensionada por altura e área." }
             ].map((item, i) => (
               <div key={i} className="bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-3xl hover:bg-white/10 transition-all group">
                 <div className="text-primary text-xs font-black mb-2 tracking-widest">{item.it}</div>

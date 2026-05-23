@@ -230,7 +230,7 @@ export default function RenovacaoAVCBCasaNoturnaPage() {
                 <div className="space-y-4">
                     <div className="flex items-center gap-3">
                         <CheckCircle2 className="w-5 h-5 text-red-600" />
-                        <span className="text-sm font-bold text-white uppercase italic">Cálculo pela IT-11</span>
+                        <span className="text-sm font-bold text-white uppercase italic">Cálculo pela IT-08</span>
                     </div>
                     <div className="flex items-center gap-3">
                         <CheckCircle2 className="w-5 h-5 text-red-600" />
