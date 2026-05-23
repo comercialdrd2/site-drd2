@@ -23,7 +23,7 @@ const data: UniversalPageData = {
   occupationType: "comercial",
   h2_principal: {
     heading: "Quais edificações são obrigadas a ter sistema de sprinkler em SP?",
-    body: "A IT 23/25 estabelece obrigatoriedade de sprinkler para edificações que atendam a critérios de área, altura ou risco específico. Os grupos mais frequentemente obrigados incluem: edificações residenciais de grande altura (acima de 23 m em SP pelo Decreto 63.911/18); hospitais, clínicas e casas de repouso (Grupo H) acima do limite mínimo; shoppings e centros comerciais de grande porte (Grupo C-2); galpões industriais e centros de distribuição (Grupo G) com área acima do limite; e hotéis e flats (Grupo B) de determinado porte e altura.",
+    body: "A IT 23/25 estabelece obrigatoriedade de sprinkler para edificações que atendam a critérios de área, altura ou risco específico. Os grupos mais frequentemente obrigados incluem: edificações residenciais de grande altura (acima de 23 m em SP pelo Decreto 69.118/2024); hospitais, clínicas e casas de repouso (Grupo H) acima do limite mínimo; shoppings e centros comerciais de grande porte (Grupo C-2); galpões industriais e centros de distribuição (Grupo G) com área acima do limite; e hotéis e flats (Grupo B) de determinado porte e altura.",
     body2:
       "Dois critérios tornam o sprinkler obrigatório independentemente da área total: (1) edificações com risco extra de incêndio — como centros de distribuição com produto em rack acima de 3,6 m, indústrias com produtos inflamáveis em quantidade acima do limite e edificações com grande concentração de carga combustível; (2) edificações de uso hospitalar com internação — onde a capacidade de evacuação dos pacientes é limitada e o sistema de supressão automática é condição indispensável para segurança.",
   },
@@ -110,7 +110,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Grupos A e B — Residencial alto e hotéis",
-        desc: "Edifícios residenciais de grande altura e hotéis de determinado porte são obrigados a ter sprinkler. O decreto estadual de SP (63.911/18) define os limites específicos para edificações residenciais — incluindo critérios de altura e área que são mais restritivos do que os federais.",
+        desc: "Edifícios residenciais de grande altura e hotéis de determinado porte são obrigados a ter sprinkler. O decreto estadual de SP (69.118/2024) define os limites específicos para edificações residenciais — incluindo critérios de altura e área que são mais restritivos do que os federais.",
       },
       {
         titulo: "Grupos C e D — Shoppings e serviços de grande porte",
@@ -150,7 +150,7 @@ const data: UniversalPageData = {
     {
       question: "Edifício residencial precisa de sprinkler em SP?",
       answer:
-        "Sim, acima de determinada altura. O decreto estadual de SP 63.911/18 define os limites para edificações residenciais multifamiliares. Edificações acima de 23 m em SP têm obrigatoriedade avaliada conforme IT 23/25. A DRD2 faz o enquadramento correto gratuitamente.",
+        "Sim, acima de determinada altura. O decreto estadual de SP 69.118/2024 define os limites para edificações residenciais multifamiliares. Edificações acima de 23 m em SP têm obrigatoriedade avaliada conforme IT 23/25. A DRD2 faz o enquadramento correto gratuitamente.",
     },
     {
       question: "Hospital é obrigado a ter sprinkler mesmo sendo pequeno?",

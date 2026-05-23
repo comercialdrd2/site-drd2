@@ -93,7 +93,7 @@ export const avcbRestauranteContent = {
       },
       {
         nome: "Saídas de emergência",
-        desc: "dimensionamento correto do número e largura das saídas conforme IT-11, calculado sobre a lotação máxima do restaurante. Portas com abertura no sentido do fluxo de saída e, acima de determinada lotação, barras antipânico.",
+        desc: "dimensionamento correto do número e largura das saídas conforme IT-08, calculado sobre a lotação máxima do restaurante. Portas com abertura no sentido do fluxo de saída e, acima de determinada lotação, barras antipânico.",
       },
       {
         nome: "Compartimentação",
@@ -101,7 +101,7 @@ export const avcbRestauranteContent = {
       },
       {
         nome: "Alarme de incêndio",
-        desc: "exigido em restaurantes acima de determinada área, com acionadores manuais e detectores de fumaça conforme IT-19. Detectores específicos para cozinha (resistentes à fumaça de gordura) são exigidos para evitar falsos alarmes.",
+        desc: "exigido em restaurantes acima de determinada área, com acionadores manuais e detectores de fumaça conforme IT-17. Detectores específicos para cozinha (resistentes à fumaça de gordura) são exigidos para evitar falsos alarmes.",
       },
       {
         nome: "Sistema de hidrantes ou mangotinhos",

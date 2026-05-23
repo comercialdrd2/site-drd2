@@ -36,10 +36,10 @@ export const cidadesExpansao: BairroData[] = [
     "tag": "Líder em Regularização em Guarulhos",
     "avenidas": "Av. Paulo Faccini, Av. Tiradentes e Rua Felício Marcondes",
     "perfil": "alta densidade comercial, prédios de escritórios e condomínios residenciais tradicionais",
-    "intro": "O Centro de Guarulhos é o coração financeiro da cidade, onde edifícios comerciais de grande porte dividem espaço com prédios residenciais de décadas passadas. A renovação do AVCB aqui exige atenção dobrada à IT-11 (Saídas de Emergência), já que muitos prédios antigos possuem escadas que não atendem mais aos requisitos modernos de largura e sinalização.",
+    "intro": "O Centro de Guarulhos é o coração financeiro da cidade, onde edifícios comerciais de grande porte dividem espaço com prédios residenciais de décadas passadas. A renovação do AVCB aqui exige atenção dobrada à IT-08 (Saídas de Emergência), já que muitos prédios antigos possuem escadas que não atendem mais aos requisitos modernos de largura e sinalização.",
     "box": "Em Guarulhos, a prefeitura e o Corpo de Bombeiros integram a fiscalização de forma rígida. Um edifício comercial no Centro sem AVCB válido é impedido de renovar o Alvará de Funcionamento anual, o que pode levar ao lacre de dezenas de escritórios e lojas simultaneamente.",
     "problemas": ["Escadas fora de norma", "Centrais de alarme obsoletas", "Falta de iluminação de emergência"],
-    "problemasDesc": ["Degraus e corrimãos que não seguem a IT-11, exigindo projetos de medidas compensatórias.", "Sistemas de alarme que não possuem autonomia de bateria ou cujas botoeiras estão inacessíveis.", "Lâmpadas queimadas ou sem autonomia mínima de 90 minutos exigida pelo Bombeiro."],
+    "problemasDesc": ["Degraus e corrimãos que não seguem a IT-08, exigindo projetos de medidas compensatórias.", "Sistemas de alarme que não possuem autonomia de bateria ou cujas botoeiras estão inacessíveis.", "Lâmpadas queimadas ou sem autonomia mínima de 90 minutos exigida pelo Bombeiro."],
     "testimonial": {
       "text": "Nosso prédio comercial na Paulo Faccini estava com o AVCB vencido há 3 anos. A DRD2 regularizou tudo sem precisar de obras estruturais complexas.",
       "author": "Ricardo Mendes",
@@ -109,7 +109,7 @@ export const cidadesExpansao: BairroData[] = [
     "faq3a": "A análise foca na área total da torre, mas o duplex deve manter suas rotas internas desobstruídas.",
     "faq4q": "Onde fica o corpo de bombeiros que atende o Maia?",
     "faq4a": "A região é atendida pelo 5º Grupamento de Bombeiros, com vistorias coordenadas via sistema Via Fácil.",
-    "guiaLegislacaoLocal": "Foco total na IT-10 (CMAR) e IT-11 para garantir que o luxo não comprometa a evacuação segura.",
+    "guiaLegislacaoLocal": "Foco total na IT-10 (CMAR) e IT-08 para garantir que o luxo não comprometa a evacuação segura.",
     "custoDetalhe": "Investimento em certificações de materiais e laudos elétricos para automação residencial.",
     "ctaFinal": "Engenharia de elite para seu endereço no Maia"
   },
@@ -221,7 +221,7 @@ export const cidadesExpansao: BairroData[] = [
     "faq3a": "Além de multas, você pode ter o seguro negado e o estabelecimento interditado pela prefeitura regional.",
     "faq4q": "Onde recarrego os extintores em Guarulhos?",
     "faq4a": "Deve ser em empresas certificadas pelo INMETRO. Nós gerenciamos toda a manutenção para sua empresa.",
-    "guiaLegislacaoLocal": "Ênfase na IT-11 para locais de reunião de público no Pimentas.",
+    "guiaLegislacaoLocal": "Ênfase na IT-08 para locais de reunião de público no Pimentas.",
     "custoDetalhe": "Focado em sinalização, extintores e manutenção de saídas de emergência.",
     "ctaFinal": "Comércio seguro e regularizado no Pimentas"
   },
@@ -363,7 +363,7 @@ export const cidadesExpansao: BairroData[] = [
     "faq3a": "Sim, o síndico responde civil e criminalmente se não houver prova de que ele contratou a manutenção obrigatória.",
     "faq4q": "Qual o custo da renovação nas Mansões?",
     "faq4a": "O custo é otimizado pois os sistemas são novos, focando mais em laudos e taxas do que em obras de adequação.",
-    "guiaLegislacaoLocal": "Foco na IT-01 e IT-11 para garantir a evacuação em torres de alta densidade.",
+    "guiaLegislacaoLocal": "Foco na IT-01 e IT-08 para garantir a evacuação em torres de alta densidade.",
     "custoDetalhe": "Custos voltados para engenharia documental e testes de automação predial.",
     "ctaFinal": "Segurança moderna para seu prédio nas Mansões"
   },
@@ -384,7 +384,7 @@ export const cidadesExpansao: BairroData[] = [
       "role": "Síndico — Castelo"
     },
     "faq1q": "Corrimão de madeira reprova o AVCB no Castelo?",
-    "faq1a": "Sim, o corrimão deve ser de material incombustível (aço/ferro) e ter as terminações curvadas para a parede, conforme a IT-11.",
+    "faq1a": "Sim, o corrimão deve ser de material incombustível (aço/ferro) e ter as terminações curvadas para a parede, conforme a IT-08.",
     "faq2q": "O laudo de para-raios vale por quanto tempo?",
     "faq2a": "Para renovação de AVCB, o bombeiro exige que o laudo tenha sido emitido no máximo há 12 meses.",
     "faq3q": "Qual a validade dos extintores?",
@@ -589,7 +589,7 @@ export const cidadesExpansao: BairroData[] = [
     "faq3a": "Se os extintores estão com o ponteiro no verde (pressão) e se as luzes de emergência ligam no teste rápido.",
     "faq4q": "O DARE de Santos é caro?",
     "faq4a": "É uma taxa estadual fixa por m². Nós geramos a guia para o condomínio após a auditoria.",
-    "guiaLegislacaoLocal": "Foco na IT-17 para sistemas de hidrantes em torres residenciais do Embaré.",
+    "guiaLegislacaoLocal": "Foco na IT-22 para sistemas de hidrantes em torres residenciais do Embaré.",
     "custoDetalhe": "Investimento em manutenção de mangueiras e substituição de registros oxidados.",
     "ctaFinal": "Mantenha seu prédio no Embaré seguro e regularizado"
   }

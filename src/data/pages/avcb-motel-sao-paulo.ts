@@ -77,11 +77,11 @@ export const avcbMotelContent = {
       },
       {
         nome: "Alarme e detecção automática de incêndio",
-        desc: "detector de fumaça em cada suíte e nos espaços comuns conforme IT-19. O alarme precisa ser audível dentro da suíte com a porta fechada — exigência crítica para hóspedes em situação de isolamento.",
+        desc: "detector de fumaça em cada suíte e nos espaços comuns conforme IT-17. O alarme precisa ser audível dentro da suíte com a porta fechada — exigência crítica para hóspedes em situação de isolamento.",
       },
       {
         nome: "Saídas de emergência",
-        desc: "dimensionamento das rotas de fuga em cada bloco conforme IT-11, com portas de saída desobstruídas e abertura no sentido correto do fluxo.",
+        desc: "dimensionamento das rotas de fuga em cada bloco conforme IT-08, com portas de saída desobstruídas e abertura no sentido correto do fluxo.",
       },
       {
         nome: "Compartimentação corta-fogo",

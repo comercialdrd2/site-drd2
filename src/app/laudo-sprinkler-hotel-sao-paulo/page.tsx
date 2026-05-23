@@ -21,7 +21,7 @@ const data: UniversalPageData = {
   occupationType: "hotel",
   h2_principal: {
     heading: "Por que o sprinkler de hotel tem exigências específicas",
-    body: "Hotéis são classificados no Grupo H pelo Decreto 56.819/2011 — uma das classificações de maior exigência do CBPMESP. O sistema de sprinkler precisa cobrir cada UH individualmente, os corredores de acesso, a recepção, o restaurante interno e as áreas de serviço. Não há unidade habitacional sem cobertura — cada quarto, suíte e apartamento precisa de ao menos uma cabeça de sprinkler.",
+    body: "Hotéis são classificados no Grupo H pelo Decreto 69.118/2024 — uma das classificações de maior exigência do CBPMESP. O sistema de sprinkler precisa cobrir cada UH individualmente, os corredores de acesso, a recepção, o restaurante interno e as áreas de serviço. Não há unidade habitacional sem cobertura — cada quarto, suíte e apartamento precisa de ao menos uma cabeça de sprinkler.",
     body2: "A temperatura de ativação das cabeças precisa ser compatível com o uso de cada ambiente. Banheiros com banheira de hidromassagem, sauna ou espaços de spa têm temperatura ambiente mais alta — cabeças com temperatura de ativação padrão (57°C ou 68°C) podem ativar sem incêndio nesses ambientes. A solução é cabeça com temperatura de ativação mais alta ou afastamento adequado da fonte de calor.",
   },
   h2_riscos: {

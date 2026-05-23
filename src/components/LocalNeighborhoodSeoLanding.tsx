@@ -31,11 +31,13 @@ function pageCopy(neighborhood: LocalNeighborhoodSeoPage, mode: Mode) {
   const isRenewal = mode === "renovacao";
   const slug = isRenewal ? `/renovacao-avcb-${neighborhood.slug}` : `/avcb-${neighborhood.slug}`;
   const title = isRenewal
-    ? `Renovação AVCB ${neighborhood.name} SP | DRD2 Engenharia`
-    : `AVCB ${neighborhood.name} SP | Regularizacao Bombeiros`;
+    ? `Renovação AVCB ${neighborhood.name} SP`
+    : `AVCB ${neighborhood.name} SP | Regularização Bombeiros`;
+  
   const description = isRenewal
-    ? `Renovação AVCB no bairro ${neighborhood.name} em Sao Paulo. Laudos, vistoria, ART, projeto, sistemas de incendio e atendimento tecnico local.`
-    : `AVCB no bairro ${neighborhood.name} em Sao Paulo. Regularizacao, projeto, CLCB, laudos, ART, vistoria e sistemas de incendio com engenheiro.`;
+    ? `Renovação de AVCB no ${neighborhood.name} para imóveis do tipo ${neighborhood.profile}. Atendemos a ${neighborhood.zone} com projetos, laudos, ARTs e vistoria técnica.`
+    : `Regularização e emissão de AVCB no bairro ${neighborhood.name} (${neighborhood.zone}). Especialistas em adequação de ${neighborhood.profile} com engenharia completa.`;
+  
   const h1 = isRenewal
     ? `Renovação AVCB ${neighborhood.name}: laudos, vistoria e regularizacao`
     : `AVCB ${neighborhood.name}: regularizacao com engenheiro em Sao Paulo`;

@@ -158,7 +158,7 @@ export default function AVCBHospitalMasterPage() {
                   Obter o Auto de Vistoria do Corpo de Bombeiros (AVCB) para clínicas médicas em São Paulo é um requisito indispensável para garantir a segurança dos pacientes, funcionários e do patrimônio. Além de ser uma exigência legal, o AVCB é fundamental para a obtenção de licenças de funcionamento junto à Vigilância Sanitária e para a conformidade com as normas de seguros.
                 </p>
                 <p>
-                  No estado de São Paulo, a regularização é regida pelo <strong>Decreto Estadual nº 63.911/2018</strong> (atualizado pelo <strong>Decreto nº 69.118/2024</strong>) e pelas Instruções Técnicas (ITs) do Corpo de Bombeiros. Para a área da saúde, o rigor é redobrado devido à vulnerabilidade dos ocupantes e à presença de equipamentos de alto custo e gases medicinais.
+                  No estado de São Paulo, a regularização é regida pelo <strong>Decreto Estadual nº 69.118/2024</strong> (atualizado pelo <strong>Decreto nº 69.118/2024</strong>) e pelas Instruções Técnicas (ITs) do Corpo de Bombeiros. Para a área da saúde, o rigor é redobrado devido à vulnerabilidade dos ocupantes e à presença de equipamentos de alto custo e gases medicinais.
                 </p>
 
                 <h3 className="text-2xl font-black text-slate-900 mt-12 mb-4 uppercase italic tracking-tighter text-sm">Ocupação da Área da Saúde (Grupo H)</h3>

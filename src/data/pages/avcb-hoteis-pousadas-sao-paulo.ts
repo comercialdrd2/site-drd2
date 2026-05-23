@@ -83,7 +83,7 @@ export const avcbHotelContent = {
       },
       {
         nome: "Saídas de emergência",
-        desc: "dimensionamento correto de corredores, escadas de emergência e portas corta-fogo com abertura no sentido do fluxo de saída conforme IT-11.",
+        desc: "dimensionamento correto de corredores, escadas de emergência e portas corta-fogo com abertura no sentido do fluxo de saída conforme IT-08.",
       },
       {
         nome: "Controle de fumaça e pressurização",
@@ -99,7 +99,7 @@ export const avcbHotelContent = {
       },
       {
         nome: "SPDA (Para-raios)",
-        desc: "obrigatório conforme altura da edificação, nos termos da IT-29.",
+        desc: "obrigatório conforme altura da edificação, nos termos da IT-19.",
       },
     ],
   },

@@ -321,7 +321,7 @@ export const servicesData: Record<string, ServiceData> = {
       "Evitamos o erro comum de centrais velhas ou detectores mal posicionados que reprovam a vistoria. Exigimos Central com dupla alimentação, Strobes (Alertas visuais) para ambientes acima de 105 dBA e emissão completa do Laudo de Comissionamento antes da chegada do Bombeiro."
     ],
     faqs: [
-      { question: "O alarme de incêndio é obrigatório para galpões industriais em São Paulo?", answer: "Sim. Para galpões classificados como Grupo I pelo Decreto Estadual nº 63.911/2018, o SDAI é exigido conforme a área e a carga de incêndio da edificação. Sua aprovação é condição obrigatória para a emissão do AVCB." },
+      { question: "O alarme de incêndio é obrigatório para galpões industriais em São Paulo?", answer: "Sim. Para galpões classificados como Grupo I pelo Decreto Estadual nº 69.118/2024, o SDAI é exigido conforme a área e a carga de incêndio da edificação. Sua aprovação é condição obrigatória para a emissão do AVCB." },
       { question: "O que é a IT-19/2025 e como ela afeta galpões logísticos?", answer: "Atualizada em março de 2025, ela reforça a exigência legal de certificação INMETRO da central de alarme, e obrigatoriedade vital do laudo de comissionamento emitido por ART técnica antes da vistoria final." },
       { question: "Galpão com operação barulhenta precisa de dispositivo especial?", answer: "Obrigatóriamente sim. A nova diretriz estabelece que ruidos acima de 105 dBA requeiram sinalização visual intermitente (Strobes vermelhos ou brancos) associada aos alertas sonoros comuns para não mascarar o aviso operário." }
     ],
@@ -341,7 +341,7 @@ export const servicesData: Record<string, ServiceData> = {
       solution: "A DRD2 é especialista em regularização e aprovação de SDAI (Sistemas de Detecção e Alarme de Incêndio) para condomínios em São Paulo. Entregamos desde o comissionamento técnico à aprovação do AVCB."
     },
     content: [
-      "Não é alarmismo. É o que estabelece a legislação com base no Decreto Estadual nº 63.911/2018. Condomínios que renovarão o AVCB precisam estar rigorosamente enquadrados na IT-19/2025 (não basta ter o sistema antigo 'funcionando').",
+      "Não é alarmismo. É o que estabelece a legislação com base no Decreto Estadual nº 69.118/2024. Condomínios que renovarão o AVCB precisam estar rigorosamente enquadrados na IT-19/2025 (não basta ter o sistema antigo 'funcionando').",
       "Executamos a instalação da Central de alarme (CAI) certificada pelo INMETRO, detectores fotoelétricos, botoeiras e sirenes em todas as áreas comuns, entregando o Relatório de comissionamento obrigatório."
     ],
     faqs: [
@@ -1039,7 +1039,7 @@ export const servicesData: Record<string, ServiceData> = {
       { question: "Toda casa noturna precisa de AVCB em São Paulo?", answer: "Sim. Toda casa noturna no Estado de São Paulo está obrigada a obter AVCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP. O nível de risco dessas ocupações impede o enquadramento no CLCB — o AVCB com Projeto Técnico Completo é obrigatório." },
       { question: "O Corpo de Bombeiros pode interditar casa noturna durante o funcionamento?", answer: "Sim. O CBPMESP realiza operações surpresa em casas noturnas durante o funcionamento — inclusive na madrugada. Uma interdição com público presente gera prejuízo imediato, dano à reputação e responsabilidade civil do proprietário." },
       { question: "Casa noturna com múltiplos ambientes precisa de projeto específico para cada área?", answer: "Sim. O projeto técnico precisa contemplar todos os ambientes do complexo — pista, VIP, camarotes, bar, banheiros e depósitos. Cada ambiente tem exigências específicas de saídas, sinalização e compartimentação." },
-      { question: "Qual a lotação máxima permitida para uma casa noturna?", answer: "A lotação máxima é definida pelo dimensionamento das saídas de emergência conforme IT-11 e consta expressamente no AVCB emitido pelo CBPMESP. Operar acima dessa lotação é infração grave sujeita a interdição imediata." },
+      { question: "Qual a lotação máxima permitida para uma casa noturna?", answer: "A lotação máxima é definida pelo dimensionamento das saídas de emergência conforme IT-08 e consta expressamente no AVCB emitido pelo CBPMESP. Operar acima dessa lotação é infração grave sujeita a interdição imediata." },
       { question: "Quanto tempo leva para regularizar o AVCB de uma casa noturna?", answer: "Em média de 90 a 180 dias a partir do protocolo, dependendo do estágio de adequação e das obras necessárias. O diagnóstico técnico gratuito da DRD2 estima o prazo real." }
     ],
     icon: "/images/services/avcb.svg"

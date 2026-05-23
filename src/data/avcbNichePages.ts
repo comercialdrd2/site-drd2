@@ -85,7 +85,7 @@ export const avcbNichePages: AvcbNichePage[] = [
         desc: "Define se o caso entra como H-1, comercio simples, uso misto ou precisa de avaliacao complementar pelo uso real do imovel.",
       },
       {
-        it: "IT-11",
+        it: "IT-08",
         title: "Saidas de emergencia",
         desc: "Rotas precisam considerar recepcao, consultorios, banho e tosa, internacao, estoque e areas tecnicas sem bloqueio por gaiolas ou mobiliario.",
       },
@@ -204,7 +204,7 @@ export const avcbNichePages: AvcbNichePage[] = [
         desc: "Classifica garagem sem acesso de publico, garagem com acesso de publico e casos que deixam de ser estacionamento simples.",
       },
       {
-        it: "IT-11",
+        it: "IT-08",
         title: "Rotas de fuga",
         desc: "Pedestres precisam ter caminho claro, sinalizado e livre, sem depender da faixa de veiculos em pontos criticos.",
       },

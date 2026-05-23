@@ -85,7 +85,7 @@ export const avcbAcademiaContent = {
       },
       {
         nome: "Saídas de emergência",
-        desc: "dimensionamento correto do número, largura e posicionamento das saídas conforme IT-11, calculado sobre a lotação máxima da academia. Saídas com barras antipânico em ambientes acima de determinada lotação.",
+        desc: "dimensionamento correto do número, largura e posicionamento das saídas conforme IT-08, calculado sobre a lotação máxima da academia. Saídas com barras antipânico em ambientes acima de determinada lotação.",
       },
       {
         nome: "Controle de materiais de revestimento",

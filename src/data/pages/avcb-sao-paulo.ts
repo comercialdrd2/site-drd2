@@ -118,11 +118,11 @@ export const avcbSaoPauloContent = {
       },
       {
         nome: "Saídas de emergência",
-        desc: "Dimensionamento correto de corredores, escadas e portas conforme IT-11.",
+        desc: "Dimensionamento correto de corredores, escadas e portas conforme IT-08.",
       },
       {
         nome: "Alarme e detecção automática",
-        desc: "Obrigatório em ocupações de maior risco e lotação conforme IT-19.",
+        desc: "Obrigatório em ocupações de maior risco e lotação conforme IT-17.",
       },
       {
         nome: "Chuveiros automáticos (Sprinklers)",
@@ -142,7 +142,7 @@ export const avcbSaoPauloContent = {
       },
       {
         nome: "SPDA (Para-raios)",
-        desc: "Conforme altura e características da edificação, IT-29.",
+        desc: "Conforme altura e características da edificação, IT-19.",
       },
     ],
     closing:

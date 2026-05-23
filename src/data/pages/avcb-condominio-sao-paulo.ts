@@ -73,7 +73,7 @@ export const avcbCondominioContent = {
       },
       {
         nome: "Saídas de emergência e escadas pressurizadas",
-        desc: "em edifícios com mais de quatro pavimentos, as escadas de emergência precisam atender às exigências de compartimentação e, em muitos casos, pressurização conforme IT-11 e IT-15. Esse é um dos pontos mais complexos e custosos na regularização de edifícios antigos.",
+        desc: "em edifícios com mais de quatro pavimentos, as escadas de emergência precisam atender às exigências de compartimentação e, em muitos casos, pressurização conforme IT-08 e IT-15. Esse é um dos pontos mais complexos e custosos na regularização de edifícios antigos.",
       },
       {
         nome: "Sistema de hidrantes e mangotinhos",
@@ -93,7 +93,7 @@ export const avcbCondominioContent = {
       },
       {
         nome: "Para-raios",
-        desc: "sistema de proteção contra descargas atmosféricas conforme IT-29, obrigatório em edificações acima de determinada altura.",
+        desc: "sistema de proteção contra descargas atmosféricas conforme IT-19, obrigatório em edificações acima de determinada altura.",
       },
       {
         nome: "Plano de emergência",
@@ -111,7 +111,7 @@ export const avcbCondominioContent = {
     itens: [
       {
         titulo: "Escadas sem pressurização:",
-        desc: "em alguns casos, é possível adotar soluções alternativas como escadas com ventilação natural conforme IT-11, evitando a instalação de sistemas de pressurização que exigem obras significativas.",
+        desc: "em alguns casos, é possível adotar soluções alternativas como escadas com ventilação natural conforme IT-08, evitando a instalação de sistemas de pressurização que exigem obras significativas.",
       },
       {
         titulo: "Detalhes construtivos existentes:",

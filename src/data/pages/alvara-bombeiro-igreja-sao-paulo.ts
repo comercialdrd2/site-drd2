@@ -24,7 +24,7 @@ export const alvaraBombeiroContent = {
         "<strong>Extintores adequados ao risco</strong>: Tipo, quantidade e posicionamento conforme a carga de incêndio e a classificação de risco de cada ambiente do estabelecimento.",
         "<strong>Iluminação de emergência</strong>: Cobertura total com autonomia mínima de 1 hora conforme IT-18. Obrigatória em todas as rotas de fuga, saídas e escadas.",
         "<strong>Sinalização fotoluminescente</strong>: Placas de saída e rota de fuga conforme IT-20, visíveis mesmo em ambiente com fumaça.",
-        "<strong>Saídas de emergência dimensionadas</strong>: Largura e número calculados sobre a lotação máxima real conforme IT-11 — não apenas pela área do estabelecimento.",
+        "<strong>Saídas de emergência dimensionadas</strong>: Largura e número calculados sobre a lotação máxima real conforme IT-08 — não apenas pela área do estabelecimento.",
         "<strong>Brigada de incêndio documentada</strong>: Equipe treinada e certificada anualmente conforme IT-17, quando exigível pelo porte e uso do estabelecimento.",
         "<strong>Laudos de manutenção vigentes</strong>: Extintores, hidrantes e demais sistemas com laudos dentro do prazo — laudos vencidos paralisam o processo de aprovação.",
       ],
@@ -33,7 +33,7 @@ export const alvaraBombeiroContent = {
       title: "Instruções Técnicas do CBPMESP aplicáveis a Igrejas e Templos",
       content: [
         "<strong>IT-02/2019 — Classificação e Enquadramento</strong>: Define o grupo de ocupação e as medidas exigíveis conforme uso, área e nível de risco.",
-        "<strong>IT-11/2019 — Saídas de Emergência</strong>: Dimensionamento de escadas, corredores e portas de saída conforme a lotação máxima aprovada.",
+        "<strong>IT-08/2019 — Saídas de Emergência</strong>: Dimensionamento de escadas, corredores e portas de saída conforme a lotação máxima aprovada.",
         "<strong>IT-14/2019 — Carga de Incêndio</strong>: Cálculo da carga específica — determina tipo e quantidade de extintores necessários.",
         "<strong>IT-17/2019 — Brigada de Incêndio</strong>: Equipe de emergência treinada anualmente, quando exigível pelo porte.",
         "<strong>IT-18/2019 — Iluminação de Emergência</strong>: Autonomia mínima de 1 hora em todas as rotas de saída e acessos.",

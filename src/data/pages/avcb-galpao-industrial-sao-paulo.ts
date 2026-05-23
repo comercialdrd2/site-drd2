@@ -96,7 +96,7 @@ export const avcbGalpaoContent = {
       },
       {
         nome: "Saídas de emergência",
-        desc: "dimensionamento correto do número e largura das saídas conforme IT-11, considerando o número de trabalhadores no turno de maior ocupação e os corredores de circulação entre as prateleiras.",
+        desc: "dimensionamento correto do número e largura das saídas conforme IT-08, considerando o número de trabalhadores no turno de maior ocupação e os corredores de circulação entre as prateleiras.",
       },
       {
         nome: "Compartimentação",
@@ -112,7 +112,7 @@ export const avcbGalpaoContent = {
       },
       {
         nome: "Para-raios",
-        desc: "proteção contra descargas atmosféricas conforme IT-29, especialmente relevante em galpões metálicos isolados em áreas industriais.",
+        desc: "proteção contra descargas atmosféricas conforme IT-19, especialmente relevante em galpões metálicos isolados em áreas industriais.",
       },
       {
         nome: "Proteção da estrutura metálica",

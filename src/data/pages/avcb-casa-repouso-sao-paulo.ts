@@ -84,7 +84,7 @@ export const avcbCasaRepousoContent = {
       },
       {
         nome: "Saídas de emergência e rotas de fuga",
-        desc: "dimensionamento conforme IT-11, considerando a evacuação assistida de todos os residentes simultaneamente. Largura mínima aumentada para permitir passagem de macas e cadeiras de rodas. Rampas substituindo degraus em todos os pontos da rota de fuga.",
+        desc: "dimensionamento conforme IT-08, considerando a evacuação assistida de todos os residentes simultaneamente. Largura mínima aumentada para permitir passagem de macas e cadeiras de rodas. Rampas substituindo degraus em todos os pontos da rota de fuga.",
       },
       {
         nome: "Compartimentação corta-fogo",
@@ -92,7 +92,7 @@ export const avcbCasaRepousoContent = {
       },
       {
         nome: "Alarme de incêndio",
-        desc: "sistema com acionadores manuais e automáticos, sirenes audíveis em todos os ambientes e central de monitoramento conforme IT-19. Em casas de repouso, o alarme precisa acionar imediatamente a equipe de plantão para início da evacuação assistida.",
+        desc: "sistema com acionadores manuais e automáticos, sirenes audíveis em todos os ambientes e central de monitoramento conforme IT-17. Em casas de repouso, o alarme precisa acionar imediatamente a equipe de plantão para início da evacuação assistida.",
       },
       {
         nome: "Brigada de incêndio",

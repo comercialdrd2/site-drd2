@@ -1,7 +1,7 @@
 export const renovacaoAvcbCasaNoturnaContent = {
   meta: {
     title: "Renovação de AVCB para Casas Noturnas e Boates em São Paulo | DRD2 Engenharia",
-    description: "Casa noturna ou boate com AVCB vencido em São Paulo opera sob risco de interdição imediata. Grupo F-3, IT-11, IT-15. DRD2 Engenharia renova com agilidade.",
+    description: "Casa noturna ou boate com AVCB vencido em São Paulo opera sob risco de interdição imediata. Grupo F-3, IT-08, IT-15. DRD2 Engenharia renova com agilidade.",
     canonical: "/renovacao-avcb-casa-noturna-boate-sao-paulo",
   },
   badge: "GRUPO F-3 — LOCAIS DE REUNIÃO DE PÚBLICO — RENOVAÇÃO 2026",
@@ -24,7 +24,7 @@ export const renovacaoAvcbCasaNoturnaContent = {
       title: "Principais motivos de Comunique-se na renovação",
       content: [
         "<strong>Capacidade de público sem laudo atualizado</strong>: O laudo de lotação máxima precisa refletir o layout atual do estabelecimento. Alterações na disposição de mesas, criação de áreas VIP, instalação de palco ou mudanças no espaço de pista sem atualização do laudo geram inconsistência que resulta em <strong>Comunique-se</strong> e paralisação do processo.",
-        "<strong>Saídas de emergência fora da norma IT-11</strong>: Casas noturnas com alta densidade de público precisam de saídas de emergência dimensionadas pela IT-11 conforme a capacidade máxima aprovada. Portas que abrem para dentro, corredores com largura insuficiente, saída única ou descarga que não chega ao logradouro são não-conformidades que geram <strong>interdição imediata</strong> em vistoria.",
+        "<strong>Saídas de emergência fora da norma IT-08</strong>: Casas noturnas com alta densidade de público precisam de saídas de emergência dimensionadas pela IT-08 conforme a capacidade máxima aprovada. Portas que abrem para dentro, corredores com largura insuficiente, saída única ou descarga que não chega ao logradouro são não-conformidades que geram <strong>interdição imediata</strong> em vistoria.",
         "<strong>Sistema de controle de fumaça ausente ou sem manutenção</strong>: A IT-15 exige sistema de controle de fumaça em locais de reunião de público acima de determinados parâmetros de área. Sistema sem laudo de manutenção dentro do prazo ou com componentes com defeito gera exigência técnica que paralisa o processo de renovação.",
         "<strong>Brigada sem treinamento para alta densidade de público</strong>: A IT-17 exige brigada de incêndio dimensionada conforme a capacidade máxima do estabelecimento. Casas noturnas com capacidade elevada precisam de número maior de brigadistas treinados — e o certificado de formação precisa estar dentro do prazo de validade no momento do protocolo."
       ]
@@ -33,7 +33,7 @@ export const renovacaoAvcbCasaNoturnaContent = {
       title: "Instruções Técnicas aplicáveis à renovação",
       content: [
         "<strong>IT-02/2019</strong>: Enquadramento Grupo F-3, densidade de ocupação, carga de incêndio e parâmetros que determinam o conjunto completo de medidas exigíveis para a renovação.",
-        "<strong>IT-11 — Saídas de Emergência</strong>: Dimensionamento das rotas de fuga pela capacidade máxima de público, número mínimo de saídas, largura de corredores e condições de descarga. É a IT mais frequentemente descumprida em casas noturnas que cresceram sem adequação técnica.",
+        "<strong>IT-08 — Saídas de Emergência</strong>: Dimensionamento das rotas de fuga pela capacidade máxima de público, número mínimo de saídas, largura de corredores e condições de descarga. É a IT mais frequentemente descumprida em casas noturnas que cresceram sem adequação técnica.",
         "<strong>IT-15 — Controle de Fumaça</strong>: Obrigatório em estabelecimentos F-3 que atendem aos parâmetros de área definidos pela norma. Laudo de manutenção periódica obrigatório para o processo de renovação.",
         "<strong>IT-17 — Brigada de Incêndio</strong>: Dimensionamento pela capacidade máxima do estabelecimento, com treinamento documentado e certificado válido para todos os brigadistas.",
         "<strong>IT-20 — Detecção e Alarme de Incendio</strong>: Sistema integrado obrigatório, com laudo de manutenção dentro do prazo.",
@@ -45,7 +45,7 @@ export const renovacaoAvcbCasaNoturnaContent = {
       content: [
         "O <strong>laudo de capacidade máxima de público</strong> é o documento mais crítico do AVCB de uma casa noturna ou boate. Ele define legalmente quantas pessoas podem estar no estabelecimento ao mesmo tempo — e operar acima desse limite, mesmo com AVCB válido, é infração grave sujeita a <strong>interdição imediata</strong>.",
         "Na renovação do AVCB, o laudo de capacidade precisa refletir o layout atual do estabelecimento. Qualquer alteração realizada desde a última aprovação — palco novo, mezanino, área VIP, remoção de pista — precisa estar contemplada no projeto atualizado.",
-        "A <strong>DRD2 Engenharia</strong> calcula a capacidade correta conforme os parâmetros da IT-11 e do CBPMESP, garantindo que o documento aprovado reflita a operação real do estabelecimento — sem subestimar a capacidade a ponto de prejudicar o negócio e sem superestimar a ponto de gerar risco técnico e legal."
+        "A <strong>DRD2 Engenharia</strong> calcula a capacidade correta conforme os parâmetros da IT-08 e do CBPMESP, garantindo que o documento aprovado reflita a operação real do estabelecimento — sem subestimar a capacidade a ponto de prejudicar o negócio e sem superestimar a ponto de gerar risco técnico e legal."
       ]
     },
     {
