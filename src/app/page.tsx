@@ -88,11 +88,11 @@ export default function HomePage() {
                 <span className="text-red-400 text-xs font-black uppercase tracking-widest">Engenheiros Especialistas de Prontidão</span>
               </div>
 
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6 leading-[1.1] tracking-tighter drop-shadow-2xl">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6 leading-[1.1] tracking-tighter drop-shadow-2xl">
                 Segurança Contra Incêndio de <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-orange-500 to-red-600 animate-gradient-x">Alto Padrão.</span>
               </h1>
               
-              <p className="text-xl md:text-2xl text-slate-300 mb-10 font-medium leading-relaxed max-w-2xl border-l-4 border-red-600 pl-6 bg-gradient-to-r from-slate-900/50 to-transparent py-4 rounded-r-2xl backdrop-blur-sm">
+              <p className="text-lg md:text-xl text-slate-300 mb-10 font-medium leading-relaxed max-w-2xl border-l-4 border-red-600 pl-6 bg-gradient-to-r from-slate-900/50 to-transparent py-4 rounded-r-2xl backdrop-blur-sm">
                 Aprovação ágil do <strong className="text-white">AVCB e CLCB</strong> para condomínios verticais e complexos corporativos em São Paulo. Sem terceirizações, sem surpresas na vistoria.
               </p>
               
@@ -292,7 +292,7 @@ export default function HomePage() {
 
         <div className="container mx-auto px-4 max-w-7xl relative z-10">
           <div className="text-center mb-20">
-            <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-6">
+            <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter leading-none mb-6">
               A Diferença da <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-400">Excelência</span>
             </h2>
             <p className="text-slate-400 font-medium text-xl max-w-3xl mx-auto leading-relaxed">
