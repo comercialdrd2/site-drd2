@@ -112,7 +112,7 @@ export default function HomePage() {
             </div>
 
             {/* Imagem Direita (Glassmorphism Card) */}
-            <div className="w-full lg:w-[45%] flex justify-center lg:justify-end perspective-1000">
+            <div className="w-full lg:w-[45%] flex justify-center lg:justify-end perspective-1000 -mt-10 lg:-mt-24">
               <div className="relative w-full max-w-md group transform-gpu transition-all duration-700 hover:rotate-y-[-5deg] hover:rotate-x-[5deg]">
                 {/* Glow de Fundo */}
                 <div className="absolute -inset-1 bg-gradient-to-tr from-red-600 via-orange-500 to-transparent rounded-[2.5rem] blur-[40px] opacity-30 group-hover:opacity-60 transition-opacity duration-700"></div>
