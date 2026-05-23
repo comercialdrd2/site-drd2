@@ -4,15 +4,15 @@ const data: UniversalPageData = {
   "dir": "avcb-jardins",
   "slug": "/avcb-jardins",
   "meta": {
-    "title": "AVCB em Jardins, São Paulo — Regularização Completa | DRD2 Engenharia",
-    "description": "AVCB e CLCB em Jardins: bairro nobre com alta concentração de clínicas, escritórios e estabelecimentos premium. Engenheiros credenciados CREA-SP, diagnóstico gratuito e processo completo até o certificado."
+    "title": "AVCB nos Jardins (SP) | Adequação de Prédios Antigos e Alto Padrão",
+    "description": "Engenharia de AVCB para a região dos Jardins. Especialistas em retrofitting de segurança para condomínios antigos de alto padrão, clínicas e restaurantes premium."
   },
-  "eyebrow": "Zona Centro-Sul SP — Especialistas em AVCB em Jardins",
-  "h1Line1": "AVCB em Jardins",
-  "h1Line2": "Regularização Completa — São Paulo",
-  "heroBg": "/images/banner-hero.webp",
-  "introP1": "Especialistas em AVCB e CLCB em Jardins: bairro nobre com alta concentração de clínicas, escritórios e estabelecimentos premium. A DRD2 Engenharia atua na região com equipe técnica própria, diagnóstico gratuito e processo completo do levantamento ao certificado.",
-  "introP2": "Diagnóstico técnico em até 24h, protocolo no CBPMESP sem pendências e acompanhamento da vistoria. Mais de 2.500 regularizações realizadas em toda a Grande São Paulo.",
+  "eyebrow": "Jardim Paulista, Europa e América",
+  "h1Line1": "AVCB nos Jardins",
+  "h1Line2": "Adequação de Condomínios e Alta Gastronomia",
+  "heroBg": "/images/blog/blog_hero_sindico_condominio_antigo.webp",
+  "introP1": "A região dos Jardins (Jardim Paulista, Jardim Europa, Jardim América e Jardim Paulistano) concentra a arquitetura residencial mais nobre e tradicional de São Paulo, além do polo de alta gastronomia.",
+  "introP2": "O grande desafio do Corpo de Bombeiros aqui é adequar prédios construídos nas décadas de 70 e 80 às normas atuais de segurança (ITs), sem descaracterizar a estética luxuosa dos condomínios ou inviabilizar os negócios.",
   "breadcrumbs": [
     {
       "label": "Home",
@@ -22,164 +22,110 @@ const data: UniversalPageData = {
       "label": "AVCB Jardins"
     }
   ],
-  "occupationType": "imóvel em Jardins",
+  "occupationType": "imóvel nos Jardins",
   "h2_principal": {
-    "heading": "Quem precisa de AVCB em Jardins?",
-    "body": "Em Jardins, a obrigatoriedade de AVCB ou CLCB segue o Decreto Estadual 56.819/2011 do Estado de São Paulo, que se aplica a todos os municípios e bairros do Estado. Precisam de documentação do Corpo de Bombeiros: condomínios residenciais acima de 3 pavimentos ou 750m², estabelecimentos comerciais e de serviços acima de 750m², hospitais, clínicas, hotéis, restaurantes com grande capacidade, galpões industriais, escolas e qualquer ocupação classificada como médio ou alto risco conforme a Tabela A do Decreto.",
-    "body2": "Imóveis até 750m² e baixo risco em Jardins geralmente se enquadram no CLCB — Certificado de Licença do Corpo de Bombeiros, processo mais ágil e com custo menor. A DRD2 faz o enquadramento correto gratuitamente: definimos qual documento é necessário para o seu imóvel específico antes de qualquer protocolo, evitando o erro de enquadramento que rejeita o processo no início."
+    "heading": "Desafios do AVCB em Bairros Nobres e Antigos",
+    "body": "Condomínios verticais antigos nos Jardins frequentemente sofrem com escadas que não possuem a largura exigida hoje, ausência de portas corta-fogo padrão e garagens subterrâneas sem ventilação mecânica. O Corpo de Bombeiros exige a adequação dessas estruturas para renovar o AVCB.",
+    "body2": "A DRD2 Engenharia atua no retrofitting de segurança contra incêndio. Nossa equipe desenvolve Projetos Técnicos de Proteção (PT) que encontram soluções de engenharia viáveis (isenções técnicas ou medidas compensatórias) para aprovar o prédio no Comando, poupando o síndico de obras estruturais impossíveis."
   },
   "h2_riscos": {
-    "heading": "Riscos de operar sem AVCB em Jardins",
-    "intro": "Estabelecimentos em Jardins sem AVCB ou CLCB válido estão expostos aos mesmos riscos de qualquer imóvel irregular em São Paulo — sem exceção por bairro ou cidade.",
+    "heading": "O Risco para Restaurantes e Clínicas de Luxo",
+    "intro": "Na região da Rua Oscar Freire e Alameda Lorena, os comércios de rua e casarões adaptados enfrentam fiscalizações rigorosas.",
     "itens": [
       {
-        "titulo": "Interdição pelo CBPMESP",
-        "desc": "O Corpo de Bombeiros pode realizar vistoria em Jardins a qualquer momento por fiscalização rotineira ou denúncia anônima, interditando o imóvel irregular imediatamente."
+        "titulo": "Cozinhas Industriais",
+        "desc": "Restaurantes de alta gastronomia sem sistemas adequados de supressão de gordura (CO2/Saponificante) nas coifas são interditados imediatamente na vistoria."
       },
       {
-        "titulo": "Multa de até R$ 50.000",
-        "desc": "Cada infração identificada gera multa individual. Estabelecimentos com múltiplas irregularidades podem acumular valores muito acima do teto por item."
+        "titulo": "Adaptação de Casarões",
+        "desc": "Imóveis tombados ou casarões antigos adaptados para clínicas e lojas de grife sofrem com escadas de madeira e rotas de fuga estreitas."
       },
       {
-        "titulo": "Alvará de funcionamento bloqueado",
-        "desc": "A Prefeitura nega renovação do alvará para estabelecimentos em Jardins sem AVCB/CLCB válido — tornando a operação totalmente irregular perante dois órgãos simultaneamente."
-      },
-      {
-        "titulo": "Seguro patrimonial inválido",
-        "desc": "Em sinistro com documentação irregular, a seguradora nega o pagamento integralmente, independente do valor do bem e da causa do incêndio."
-      },
-      {
-        "titulo": "Responsabilidade penal",
-        "desc": "O proprietário ou responsável legal responde civil e criminalmente por omissão em caso de incêndio com vítimas em imóvel sem certificação."
-      },
-      {
-        "titulo": "Bloqueio de negócios imobiliários",
-        "desc": "Venda, locação e financiamento do imóvel em Jardins ficam bloqueados com AVCB ausente ou vencido. Due diligence de compradores sempre verifica a regularidade."
+        "titulo": "Seguro de Obras de Arte",
+        "desc": "Em prédios de altíssimo padrão, a seguradora exige AVCB impecável para validar as apólices de prêmios milionários (obras de arte, mobiliário)."
       }
     ]
   },
   "h2_detalhes": {
-    "heading": "Tipos de imóvel que a DRD2 regulariza em Jardins",
-    "body1": "A DRD2 tem experiência em todos os tipos de ocupação em Jardins e região. Cada tipo tem especificidades nas Instruções Técnicas do CBPMESP que precisam ser atendidas com precisão para aprovação na vistoria.",
-    "alerta": "Diagnóstico gratuito — definimos o documento correto antes do protocolo.",
+    "heading": "Focos de Atuação da DRD2 nos Jardins",
+    "body1": "Compreendemos que a execução de obras de segurança contra incêndio nos Jardins exige excelência, limpeza e respeito à rotina dos moradores e clientes VIPs.",
+    "alerta": "Diagnóstico de retrofitting estrutural: avaliamos a viabilidade de atualização do AVCB sem quebrar mármores ou descaracterizar lobbies.",
     "itens": [
       {
-        "titulo": "Escritório corporativo premium",
-        "desc": "Os Jardins concentram escritórios de alto padrão que precisam de AVCB ou CLCB dependendo da área, com processos conduzidos com discrição e agilidade."
+        "titulo": "Condomínios de Alto Padrão (Anos 70/80)",
+        "desc": "Atualização do Projeto Técnico para aprovação de medidas compensatórias em escadas não enclausuradas."
       },
       {
-        "titulo": "Clínica médica e estética",
-        "desc": "Clínicas nos Jardins precisam de documentação do Corpo de Bombeiros adequada ao tipo de procedimento realizado — algumas atividades elevam o risco e exigem AVCB."
+        "titulo": "Alta Gastronomia",
+        "desc": "Projetos técnicos específicos para restaurantes, validando central de GLP e exaustão mecânica."
       },
       {
-        "titulo": "Restaurante e gastronomia",
-        "desc": "Restaurantes premium nos Jardins precisam de AVCB com sistema de exaustão e supressão de gordura em conformidade com as exigências do CBPMESP."
-      },
-      {
-        "titulo": "Hotel boutique",
-        "desc": "Hotéis e pousadas nos Jardins exigem AVCB com múltiplos sistemas: alarme, sprinkler, iluminação de emergência e rotas de fuga dimensionadas por capacidade."
+        "titulo": "Boutiques e Lojas de Grife",
+        "desc": "Regularização via CLCB ou AVCB dependendo do tamanho da loja de rua, com foco em aprovação rápida para inaugurações."
       }
     ],
-    "closing": "A DRD2 atua em Jardins com equipe própria para levantamento técnico in loco, elaboração de projeto, execução de sistemas e acompanhamento junto ao CBPMESP. Diagnóstico gratuito e orçamento fechado antes do início."
+    "closing": "Emissão de relatórios técnicos robustos para assembleias de condomínio, permitindo que os conselhos aprovem orçamentos com total transparência e embasamento na lei."
   },
   "h2_processo": {
-    "heading": "Como funciona o processo de AVCB em Jardins",
+    "heading": "Processo de Retrofitting e Aprovação",
     "etapas": [
       {
         "numero": "ETAPA 01",
-        "titulo": "Diagnóstico técnico gratuito",
-        "desc": "Levantamento in loco em Jardins: estado dos sistemas de combate a incêndio, documentação existente e situação no sistema do CBPMESP."
+        "titulo": "Auditoria do Projeto Antigo",
+        "desc": "Resgate do primeiro AVCB do prédio (frequentemente em papel) e comparação com as normas do Decreto 66.315/2022."
       },
       {
         "numero": "ETAPA 02",
-        "titulo": "Enquadramento correto",
-        "desc": "Definição precisa entre AVCB e CLCB com base na área, uso, risco e sistemas do imóvel. Erro de enquadramento rejeita o processo no protocolo."
+        "titulo": "Cálculo de Medidas Compensatórias",
+        "desc": "Uso de engenharia de segurança para substituir a necessidade de alargar escadas pela instalação de detectores de fumaça avançados, por exemplo."
       },
       {
         "numero": "ETAPA 03",
-        "titulo": "Adequação dos sistemas",
-        "desc": "Execução das obras necessárias em Jardins: extintores, hidrante, alarme, sprinkler, SPDA e sinalização conforme a IT aplicável ao tipo de ocupação."
+        "titulo": "Aprovação em Assembleia",
+        "desc": "Apresentação técnica para moradores, explicando por que a obra é legalmente obrigatória e não uma escolha do síndico."
       },
       {
         "numero": "ETAPA 04",
-        "titulo": "Projeto técnico com ART",
-        "desc": "Elaboração do PPCI com plantas, memorial descritivo, cálculos específicos e ART CREA-SP recolhida — documentação aceita pelo CBPMESP sem questionamentos."
-      },
-      {
-        "numero": "ETAPA 05",
-        "titulo": "Protocolo no CBPMESP",
-        "desc": "Protocolo completo na Unidade dos Bombeiros responsável por Jardins. Com documentação correta, o processo entra direto na fila de análise."
-      },
-      {
-        "numero": "ETAPA 06",
-        "titulo": "Vistoria e certificado",
-        "desc": "Acompanhamento presencial da vistoria com engenheiro. Resposta a qualquer Comunique-se em 24h. Taxa de aprovação na primeira vistoria superior a 95%."
+        "titulo": "Execução Discreta",
+        "desc": "Instalação de portas corta-fogo, iluminação embutida e sistemas sem poluição visual no hall social."
       }
     ]
   },
   "h2_quando": {
-    "heading": "Quando iniciar o processo de AVCB em Jardins?",
-    "body1": "Para imóveis com AVCB próximo do vencimento: inicie 90 dias antes. Para imóveis sem AVCB ou com certificado já vencido em Jardins: inicie hoje. Cada dia sem regularização é um dia de risco de autuação e interdição.",
-    "body2": "Situações que exigem ação imediata em Jardins: venda ou locação do imóvel pendente de AVCB, credenciamento em plano de saúde ou órgão público exigindo certificação, renovação de alvará negada, Comunique-se com prazo vencendo ou embargo do Corpo de Bombeiros já emitido."
+    "heading": "A urgência em Condomínios Tradicionais",
+    "body1": "Muitos prédios nos Jardins perderam seu AVCB há mais de uma década por medo de encarar as obras de adequação. Cada dia sem AVCB coloca o síndico na linha de frente de processos civis e criminais.",
+    "body2": "O Ministério Público tem notificado condomínios antigos da Zona Sul e Centro para a adequação forçada. Antecipar-se à denúncia evita multas milionárias."
   },
   "h2_escolher": {
-    "heading": "Por que a DRD2 para AVCB em Jardins?",
-    "body1": "A DRD2 tem equipe técnica própria que atende Jardins com vistoria in loco em até 48h. Conhecemos as especificidades da Unidade do CBPMESP responsável pela região e calibramos a documentação para evitar exigências adicionais pós-protocolo.",
-    "body2": "Mais de 2.500 regularizações realizadas em São Paulo com taxa de aprovação na primeira vistoria superior a 95%. Diagnóstico gratuito, orçamento fechado antes do início e processo sem terceiros — cada etapa conduzida por engenheiro credenciado CREA-SP."
+    "heading": "Por que a DRD2 Engenharia?",
+    "body1": "Entendemos a estética e a discrição exigidas pela região. Não fazemos instalações grosseiras com conduletes aparentes cruzando boiseries clássicas.",
+    "body2": "Temos arquitetos parceiros e engenheiros que desenham soluções de proteção contra incêndio que se camuflam na arquitetura de alto padrão do seu imóvel."
   },
   "h2_cobertura": {
-    "heading": "Atendimento em Jardins e região",
-    "body1": "A DRD2 atende Jardins e toda a Zona Centro-Sul SP com equipe própria para diagnóstico, projetos, execução de sistemas e acompanhamento de vistoria. Prazo de resposta de até 2h e vistoria in loco em até 48h.",
-    "body2": "Também atendemos toda a Grande São Paulo: capital, Guarulhos, ABC, Osasco, Campinas, Santos e municípios da região metropolitana com a mesma qualidade técnica e equipe própria."
+    "heading": "Atendimento VIP na Zona Sul",
+    "body1": "Atendemos Jardim Paulista, Jardim Europa, Itaim Bibi e Pinheiros com visitas técnicas programadas.",
+    "body2": "Reuniões exclusivas com conselhos administrativos e administradoras de condomínio premium."
   },
   "faqs": [
     {
-      "question": "Quais estabelecimentos em Jardins precisam de AVCB?",
-      "answer": "Em Jardins, precisam de AVCB: condomínios residenciais acima de 3 pavimentos, estabelecimentos comerciais acima de 750m², hospitais, hotéis, restaurantes com capacidade acima do limiar da IT, galpões industriais, escolas e qualquer ocupação de médio ou alto risco conforme Decreto 56.819/2011."
+      "question": "O Bombeiro vai mandar quebrar as escadas do meu prédio nos Jardins?",
+      "answer": "Não necessariamente. A IT-43 aborda a Adequação de Edificações Existentes. Conseguimos aprovar medidas compensatórias (como detecção de fumaça e sprinklers em áreas críticas) para evitar intervenções estruturais massivas."
     },
     {
-      "question": "Quanto tempo leva para obter o AVCB em Jardins?",
-      "answer": "O prazo médio varia de 60 a 120 dias após o protocolo no Corpo de Bombeiros, dependendo do tipo de imóvel e sistemas exigidos. Com documentação pré-auditada pela DRD2, o processo entra sem pendências e avança sem Comunique-se — o principal fator de atraso."
-    },
-    {
-      "question": "A DRD2 atende em Jardins?",
-      "answer": "Sim. A DRD2 Engenharia atende Jardins com equipe técnica própria para levantamento técnico in loco, elaboração do projeto PPCI, execução de sistemas e acompanhamento junto ao CBPMESP até a emissão do certificado."
-    },
-    {
-      "question": "AVCB vencido em Jardins pode causar interdição?",
-      "answer": "Sim. O Corpo de Bombeiros pode realizar vistoria em qualquer imóvel em Jardins a qualquer momento. Com AVCB vencido ou ausente, o estabelecimento pode ser interditado imediatamente. Além disso, o proprietário pode ser autuado com multa de R$ 500 a R$ 50.000."
-    },
-    {
-      "question": "Qual a documentação básica para AVCB em Jardins?",
-      "answer": "Planta baixa aprovada ou levantamento com ART, IPTU com área e uso declarados, matrícula do imóvel, laudo elétrico com ART CREA-SP e CNPJ do responsável. A DRD2 faz auditoria documental gratuita antes do protocolo em Jardins."
+      "question": "Um casarão antigo pode ser transformado em clínica?",
+      "answer": "Sim, desde que a mudança de uso (de Residencial para Comercial - Clínica) venha acompanhada de um Novo Projeto Técnico de Bombeiros (PT), redimensionando extintores e saídas."
     }
   ],
   "linksInternos": [
     {
       "href": "/avcb-vencido-o-que-fazer",
-      "label": "AVCB Vencido — O Que Fazer?"
-    },
-    {
-      "href": "/documentos-necessarios-avcb-sao-paulo",
-      "label": "Documentos para AVCB em SP"
-    },
-    {
-      "href": "/prazo-renovacao-avcb-sao-paulo",
-      "label": "Prazo de Renovação do AVCB"
-    },
-    {
-      "href": "/avcb-ou-clcb-qual-preciso",
-      "label": "AVCB ou CLCB — Qual Preciso?"
-    },
-    {
-      "href": "/vistoria-corpo-de-bombeiros-o-que-esperar",
-      "label": "Vistoria dos Bombeiros"
+      "label": "O que acontece se o síndico ignorar o AVCB?"
     }
   ],
   "ctaFinal": {
-    "heading": "AVCB EM JARDINS — PROCESSO COMPLETO COM A DRD2",
-    "body": "Diagnóstico gratuito, protocolo sem pendências e acompanhamento até o certificado em Jardins.",
-    "cta": "Falar com Engenheiro Agora"
+    "heading": "AVCB DE ALTO PADRÃO NOS JARDINS",
+    "body": "Engenharia focada na preservação arquitetônica e segurança jurídica do síndico.",
+    "cta": "Agendar Visita com Engenheiro"
   }
 };
 export const metadata = { title: data.meta.title, description: data.meta.description, alternates: { canonical: data.slug } };
