@@ -58,7 +58,7 @@ export default function HomePage() {
       <JsonLD schema={generateBreadcrumbSchema([{ name: "Home", item: "/" }])} />
 
       {/* Hero com Banner Real - ESTÉTICA PREMIUM NEON/GLASSMORPHISM */}
-      <section className="relative text-white overflow-hidden min-h-[75vh] flex items-center bg-[#0a0a0e] pt-[90px] pb-[40px] lg:pt-[100px]">
+      <section className="relative text-white overflow-hidden min-h-[60vh] flex items-center bg-[#0a0a0e] pt-[40px] pb-[40px] lg:pt-[60px]">
         {/* Background Video/Image Substituto */}
         <div className="absolute inset-0">
           <Image
