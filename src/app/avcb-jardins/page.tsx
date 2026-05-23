@@ -3,6 +3,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   "dir": "avcb-jardins",
   "slug": "/avcb-jardins",
+  "bannerImage": "/images/banners/comercio.png",
   "meta": {
     "title": "AVCB nos Jardins (SP) | Adequação de Prédios Antigos e Alto Padrão",
     "description": "Engenharia de AVCB para a região dos Jardins. Especialistas em retrofitting de segurança para condomínios antigos de alto padrão, clínicas e restaurantes premium."

@@ -65,6 +65,7 @@ export interface UniversalPageData {
   linksInternos: { href: string; label: string }[];
   ctaFinal: { heading: string; body: string; cta: string };
   occupationType?: string;
+  bannerImage?: string;
 }
 
 interface Props {
@@ -256,6 +257,16 @@ export default function UniversalSeoPage({ data: d, beforeCta }: Props) {
           </div>
         </div>
       </section>
+
+      {d.bannerImage && (
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4 max-w-6xl">
+            <div className="relative w-full aspect-[16/9] md:aspect-[21/9] rounded-[2rem] overflow-hidden shadow-2xl border border-slate-200/50">
+              <Image src={d.bannerImage} alt="Sistemas de Engenharia contra Incêndio" fill className="object-cover hover:scale-105 transition-transform duration-1000" />
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ── H2 #4: PROCESSO ── */}
       <section className="py-24 bg-slate-900 text-white">

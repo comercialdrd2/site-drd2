@@ -3,6 +3,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   "dir": "avcb-higienopolis",
   "slug": "/avcb-higienopolis",
+  "bannerImage": "/images/banners/condominio.png",
   "meta": {
     "title": "AVCB em Higienópolis | Regularização de Condomínios e Prédios Tombados",
     "description": "Engenheiros especialistas em aprovação de AVCB em Higienópolis. Soluções técnicas para condomínios residenciais clássicos e instituições de ensino sem descaracterizar fachadas."

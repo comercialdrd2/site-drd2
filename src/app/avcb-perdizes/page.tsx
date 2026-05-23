@@ -3,6 +3,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   "dir": "avcb-perdizes",
   "slug": "/avcb-perdizes",
+  "bannerImage": "/images/banners/sprinkler.png",
   "meta": {
     "title": "AVCB em Perdizes | Engenharia de Incêndio para Condomínios e Escolas",
     "description": "Aprovação de AVCB em Perdizes. Solucionamos exigências de bombeiros para condomínios verticais, escolas, universidades (PUC) e comércios da Zona Oeste."
