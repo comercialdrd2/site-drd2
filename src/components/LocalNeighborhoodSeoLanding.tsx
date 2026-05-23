@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -51,6 +52,17 @@ function pageCopy(neighborhood: LocalNeighborhoodSeoPage, mode: Mode) {
 
 function faqsFor(neighborhood: LocalNeighborhoodSeoPage, mode: Mode) {
   const { isRenewal } = pageCopy(neighborhood, mode);
+  const richData = bairrosCondominio.find((b) => b.slug === neighborhood.slug);
+
+  if (richData && richData.faq1q) {
+    return [
+      { question: richData.faq1q, answer: richData.faq1a },
+      { question: richData.faq2q, answer: richData.faq2a },
+      { question: richData.faq3q, answer: richData.faq3a },
+      { question: richData.faq4q, answer: richData.faq4a },
+    ];
+  }
+
   return [
     {
       question: isRenewal
@@ -98,7 +110,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode }: Loca
   });
 
   return (
-    <>
+    <React.Fragment>
       <JsonLD schema={schema} />
 
       <section className="relative text-white overflow-hidden pt-[92px] pb-[34px] lg:pt-[112px] lg:pb-[48px] flex items-center bg-slate-950 border-b-8 border-red-600">
@@ -176,6 +188,16 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode }: Loca
                         </div>
                       </div>
                     </div>
+                    {richData.testimonial && richData.testimonial.author && !richData.testimonial.author.startsWith("[") && (
+                      <div className="bg-slate-50 p-6 md:p-8 rounded-2xl border border-slate-200 mt-6 italic text-slate-700 relative">
+                        <span className="text-4xl text-red-200 absolute top-4 left-4 font-serif">"</span>
+                        <p className="relative z-10 text-lg leading-relaxed mb-4">"{richData.testimonial.text}"</p>
+                        <div className="flex flex-col">
+                          <span className="font-bold text-slate-900 not-italic">{richData.testimonial.author}</span>
+                          <span className="text-sm text-slate-500 not-italic uppercase tracking-tight">{richData.testimonial.role}</span>
+                        </div>
+                      </div>
+                    )}
                   </>
                 ) : (
                   <>
@@ -281,6 +303,28 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode }: Loca
           </div>
         </div>
       </section>
+
+      {richData && richData.guiaLegislacaoLocal && (
+        <section className="py-20 bg-slate-100 border-y border-slate-200">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-8 border-l-4 border-red-600 pl-6 uppercase italic tracking-tight">
+              Guia Técnico: Legislação do CBPMESP para {neighborhood.name}
+            </h2>
+            <div className="prose prose-lg prose-slate max-w-none text-slate-700 font-medium">
+              {richData.guiaLegislacaoLocal.split('\n\n').map((paragraph, idx) => (
+                <p key={idx} className="mb-4 leading-relaxed">{paragraph}</p>
+              ))}
+            </div>
+            
+            {richData.custoDetalhe && (
+              <div className="mt-10 bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
+                <h3 className="text-2xl font-black text-slate-900 mb-4 uppercase italic">Custo da Regularização</h3>
+                <p className="text-slate-700 leading-relaxed">{richData.custoDetalhe}</p>
+              </div>
+            )}
+          </div>
+        </section>
+      )}
 
       <section className="py-20 bg-slate-50 border-y border-slate-200">
         <div className="container mx-auto px-4 max-w-6xl">
@@ -456,7 +500,9 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode }: Loca
             Não espere o AVCB travar em {neighborhood.name}
           </h2>
           <p className="text-xl md:text-2xl mb-10 font-bold opacity-95 max-w-3xl mx-auto">
-            Documento vencido, projeto antigo ou laudo pendente pode virar multa, seguro negado e atraso na operacao.
+            {richData && richData.ctaFinal 
+              ? richData.ctaFinal 
+              : "Documento vencido, projeto antigo ou laudo pendente pode virar multa, seguro negado e atraso na operacao."}
           </p>
           <a
             href={whatsappLink}
@@ -468,7 +514,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode }: Loca
           </a>
         </div>
       </section>
-    </>
+    </React.Fragment>
   );
 }
 
