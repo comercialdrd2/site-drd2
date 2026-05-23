@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import Image from "next/image";
 import {
   Phone, CheckCircle2, Building2, FileCheck, ShieldAlert, BadgeInfo,
@@ -121,6 +121,21 @@ export default function AVCBSaoPauloPage() {
               <div className="space-y-6 text-lg text-slate-700 leading-relaxed font-medium">
                 <p dangerouslySetInnerHTML={{ __html: c.h2_oQueEAvcb.body[0] }} />
 
+                <div className="my-10 relative h-[350px] w-full rounded-[2rem] overflow-hidden shadow-2xl border border-slate-200 group">
+                  <Image 
+                    src="/images/page-projetos.webp" 
+                    alt="Planta de aprovação e vistoria AVCB" 
+                    fill 
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent flex items-end p-8">
+                    <div className="border-l-4 border-red-600 pl-4">
+                      <p className="text-white font-black italic text-2xl mb-1">Engenharia Especializada</p>
+                      <p className="text-slate-300 text-sm font-medium">Projetos em total conformidade com as normas do CBPMESP.</p>
+                    </div>
+                  </div>
+                </div>
+
                 <p className="font-bold text-slate-900 mt-8">Na prática, o AVCB é exigido para:</p>
                 <ul className="space-y-3 mt-4">
                   {c.h2_oQueEAvcb.usos.map((uso, i) => (
@@ -188,16 +203,25 @@ export default function AVCBSaoPauloPage() {
       {/* ── H2 #3: AVCB OU CLCB ── */}
       <section className="py-24 bg-white border-b border-slate-100">
         <div className="container mx-auto px-4 max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-black text-white mb-6 tracking-tighter uppercase italic">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-5xl font-black text-slate-900 mb-6 tracking-tighter uppercase italic">
               AVCB ou CLCB —{" "}
               <span className="text-red-600 not-italic">Qual o Seu Estabelecimento Precisa?</span>
             </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto font-medium" dangerouslySetInnerHTML={{ __html: c.h2_avcbOuClcb.intro }} />
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto font-medium mb-12" dangerouslySetInnerHTML={{ __html: c.h2_avcbOuClcb.intro }} />
+            
+            <div className="relative h-[400px] w-full rounded-[3rem] overflow-hidden shadow-2xl border border-slate-200 group">
+              <Image 
+                src="/images/page-manutencao.jpg" 
+                alt="Equipamentos de segurança contra incêndio AVCB" 
+                fill 
+                className="object-cover group-hover:scale-105 transition-transform duration-700"
+              />
+            </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-slate-50 border-2 border-slate-200 p-10 rounded-3xl hover:shadow-xl transition-all">
-              <h3 className="text-2xl font-black text-white mb-4 uppercase italic tracking-tight" dangerouslySetInnerHTML={{ __html: c.h2_avcbOuClcb.clcb.titulo }} />
+              <h3 className="text-2xl font-black text-slate-900 mb-4 uppercase italic tracking-tight" dangerouslySetInnerHTML={{ __html: c.h2_avcbOuClcb.clcb.titulo }} />
               <p className="text-slate-600 font-medium leading-relaxed" dangerouslySetInnerHTML={{ __html: c.h2_avcbOuClcb.clcb.desc }} />
             </div>
             <div className="bg-slate-950 border-2 border-red-600/30 p-10 rounded-3xl hover:shadow-xl transition-all">
