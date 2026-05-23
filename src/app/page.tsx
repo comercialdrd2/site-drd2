@@ -58,7 +58,7 @@ export default function HomePage() {
       <JsonLD schema={generateBreadcrumbSchema([{ name: "Home", item: "/" }])} />
 
       {/* Hero com Banner Real - ESTÉTICA PREMIUM NEON/GLASSMORPHISM */}
-      <section className="relative text-white overflow-hidden min-h-[90vh] flex items-center bg-[#0a0a0e] pt-[120px] pb-[60px]">
+      <section className="relative text-white overflow-hidden min-h-[75vh] flex items-center bg-[#0a0a0e] pt-[90px] pb-[40px] lg:pt-[100px]">
         {/* Background Video/Image Substituto */}
         <div className="absolute inset-0">
           <Image
@@ -76,7 +76,7 @@ export default function HomePage() {
         </div>
 
         <div className="relative z-10 container mx-auto px-4 max-w-7xl">
-          <div className="flex flex-col lg:flex-row items-center gap-16">
+          <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
             
             {/* Texto Esquerda */}
             <div className="lg:w-[55%] text-left">
