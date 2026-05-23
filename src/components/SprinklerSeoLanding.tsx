@@ -139,6 +139,15 @@ export default function SprinklerSeoLanding({ page }: SprinklerSeoLandingProps) 
                 <p>
                   Um sistema de sprinkler não e apenas uma rede de bicos no teto. Ele precisa descarregar agua na densidade correta, no tempo correto e na área correta, sem obstrucoes e com reserva suficiente. Por isso, o chuveiro automático deve ser tratado junto com <Link href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme de incêndio</Link>, brigada, compartimentacao e manutenção preventiva.
                 </p>
+
+                <div className="my-10 relative h-[350px] w-full rounded-[2rem] overflow-hidden shadow-2xl border border-slate-200 group">
+                  <Image 
+                    src="/images/premium-sprinkler.png" 
+                    alt="Sistema de Sprinklers" 
+                    fill 
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
               </div>
             </div>
             <div className="lg:col-span-5 w-full">

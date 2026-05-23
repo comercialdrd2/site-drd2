@@ -137,6 +137,15 @@ export default function FireProjectSeoLanding({ page }: FireProjectSeoLandingPro
                 <p>
                   O projeto e o documento que amarra todas as medidas de segurança. Ele precisa conversar com <Link href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link href="/sprinklers" className="text-red-700 font-black underline">sprinklers</Link>, <Link href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme de incêndio</Link>, SPDA, GLP, brigada, rotas de fuga e manutenção. Quando cada sistema fica isolado, o processo fica vulneravel a exigencia.
                 </p>
+
+                <div className="my-10 relative h-[350px] w-full rounded-[2rem] overflow-hidden shadow-2xl border border-slate-200 group">
+                  <Image 
+                    src="/images/premium-projeto.png" 
+                    alt="Projeto de Incêndio" 
+                    fill 
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
               </div>
             </div>
             <div className="lg:col-span-5 w-full">

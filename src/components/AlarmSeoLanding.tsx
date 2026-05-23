@@ -140,6 +140,15 @@ export default function AlarmSeoLanding({ page }: AlarmSeoLandingProps) {
                 <p>
                   O objetivo e criar uma página comercial e técnica ao mesmo tempo: ela atende quem esta pesquisando sistema de alarme de incêndio, mas tambem ajuda o gestor que precisa resolver AVCB, laudo, projeto, manutenção ou exigencia recebida em vistoria. O conteudo foi estruturado para não depender apenas da repeticao de palavra-chave; ele cobre decisao de compra, risco real, processo técnico e links para sistemas complementares.
                 </p>
+
+                <div className="my-10 relative h-[350px] w-full rounded-[2rem] overflow-hidden shadow-2xl border border-slate-200 group">
+                  <Image 
+                    src="/images/premium-alarme.png" 
+                    alt="Sistema de Alarme" 
+                    fill 
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
               </div>
             </div>
             <div className="lg:col-span-5 w-full">

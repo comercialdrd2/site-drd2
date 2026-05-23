@@ -138,6 +138,15 @@ export default function BrigadeSeoLanding({ page }: BrigadeSeoLandingProps) {
                 <p>
                   Brigada não e so certificado. A equipe precisa entender o plano de emergência, rotas, ponto de encontro, acionamento de <Link href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme de incêndio</Link>, uso de extintores e apoio aos sistemas do imóvel, como <Link href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link> e <Link href="/sprinklers" className="text-red-700 font-black underline">sprinklers</Link>. Isso melhora a segurança real e reduz risco de exigencia no AVCB.
                 </p>
+
+                <div className="my-10 relative h-[350px] w-full rounded-[2rem] overflow-hidden shadow-2xl border border-slate-200 group">
+                  <Image 
+                    src="/images/premium-brigada.png" 
+                    alt="Treinamento de Brigada" 
+                    fill 
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
               </div>
             </div>
             <div className="lg:col-span-5 w-full">

@@ -159,6 +159,17 @@ export default function UniversalSeoPage({ data: d, beforeCta }: Props) {
               <div className="space-y-5 text-lg text-slate-700 leading-relaxed font-medium">
                 <p>{d.h2_principal.body}</p>
                 {d.h2_principal.body2 && <p>{d.h2_principal.body2}</p>}
+
+                {d.slug.includes("porta") && (
+                  <div className="my-10 relative h-[350px] w-full rounded-[2rem] overflow-hidden shadow-2xl border border-slate-200 group">
+                    <Image 
+                      src="/images/premium-porta.png" 
+                      alt="Porta Corta Fogo e Rota de Fuga" 
+                      fill 
+                      className="object-cover group-hover:scale-105 transition-transform duration-700"
+                    />
+                  </div>
+                )}
               </div>
             </div>
             <div className="lg:col-span-5 w-full">

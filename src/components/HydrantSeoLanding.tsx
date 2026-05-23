@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import {
   AlertTriangle,
@@ -140,6 +140,15 @@ export default function HydrantSeoLanding({ page }: HydrantSeoLandingProps) {
                 <p>
                   Uma rede de hidrantes não e apenas tubulação com registro. Ela precisa entregar vazão, pressão e alcance em situacao de emergência, inclusive no ponto mais desfavoravel. Por isso, o sistema deve ser tratado como parte do processo de AVCB, junto com <Link href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme de incêndio</Link>, <Link href="/sprinklers" className="text-red-700 font-black underline">sprinklers</Link>, brigada e manutenção preventiva.
                 </p>
+
+                <div className="my-10 relative h-[350px] w-full rounded-[2rem] overflow-hidden shadow-2xl border border-slate-200 group">
+                  <Image 
+                    src="/images/premium-hidrante.png" 
+                    alt="Sistema de Hidrantes" 
+                    fill 
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
               </div>
             </div>
             <div className="lg:col-span-5 w-full">
