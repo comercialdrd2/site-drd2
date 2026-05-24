@@ -188,16 +188,6 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode }: Loca
                         </div>
                       </div>
                     </div>
-                    {richData.testimonial && richData.testimonial.author && !richData.testimonial.author.startsWith("[") && (
-                      <div className="bg-slate-50 p-6 md:p-8 rounded-2xl border border-slate-200 mt-6 italic text-slate-700 relative">
-                        <span className="text-4xl text-red-200 absolute top-4 left-4 font-serif">"</span>
-                        <p className="relative z-10 text-lg leading-relaxed mb-4">"{richData.testimonial.text}"</p>
-                        <div className="flex flex-col">
-                          <span className="font-bold text-slate-900 not-italic">{richData.testimonial.author}</span>
-                          <span className="text-sm text-slate-500 not-italic uppercase tracking-tight">{richData.testimonial.role}</span>
-                        </div>
-                      </div>
-                    )}
                   </>
                 ) : (
                   <>
