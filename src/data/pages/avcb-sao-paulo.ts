@@ -268,6 +268,7 @@ export const avcbSaoPauloContent = {
     { label: "AVCB ou CLCB: Qual Certificado Seu Estabelecimento Precisa?", href: "/blog/diferenca-entre-avcb-e-clcb" },
     { label: "Renovação de AVCB para Condomínio em São Paulo", href: "/renovacao-avcb-condominio-sao-paulo" },
     { label: "3 Erros que Reprovam Condomínio na Vistoria do Corpo de Bombeiros", href: "/blog/como-funciona-vistoria-do-corpo-de-bombeiros" },
+    { label: "AVCB em 30 Dias em São Paulo — Quando é Possível?", href: "/avcb-30-dias-sao-paulo" },
   ],
 
   ctaFinal: {

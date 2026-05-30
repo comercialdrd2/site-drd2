@@ -88,6 +88,8 @@ const data: UniversalPageData = {
     { href: "/instalacao-barra-antipanico-sp", label: "Instalação de Barra Antipânico" },
     { href: "/manutencao", label: "Manutenção de Sistemas de Incêndio" },
     { href: "/hidrantes", label: "Sistema de Hidrantes" },
+    { href: "/blog/o-que-reprova-porta-corta-fogo-no-avcb", label: "O que reprova a porta corta-fogo no AVCB" },
+    { href: "/blog/quando-trocar-porta-corta-fogo", label: "Quando trocar a porta corta-fogo" },
   ],
   ctaFinal: {
     heading: "MANUTENÇÃO DE PORTA CORTA-FOGO — LAUDO + ART + AVCB",

@@ -69,6 +69,26 @@ const REDIRECT_SOURCES = new Set([
   "/blog/sprinkler-obrigatorio-sp",
   "/blog/o-que-e-avcb-e-quando-ele-e-obrigatorio",
   "/blog/avcb-restaurante-sao-paulo",
+  // Serviços legados com redirect 301 (sincronizar com next.config.mjs)
+  "/servicos/chuveiro-automatico-sprinkler-sao-paulo",
+  "/servicos/instalacao-hidrante-sao-paulo",
+  "/servicos/spda-para-raios-sao-paulo",
+  "/servicos/manutencao-sistemas-incendio",
+  "/servicos/projetos-seguranca-incendio",
+  "/servicos/clcb-sao-paulo",
+  "/servicos/avcb-sao-paulo",
+  "/servicos/avcb-bares-restaurantes-sao-paulo",
+  "/servicos/avcb-pousada-sao-paulo",
+  "/servicos/avcb-escola-faculdade-sao-paulo",
+  "/servicos/avcb-para-drogaria-sao-paulo",
+  "/servicos/avcb-para-casa-noturna-sao-paulo",
+  "/servicos/avcb-para-bar-com-show-sao-paulo",
+  "/servicos/avcb-hoteis-pousadas-sao-paulo",
+  // Blog noindex (posts thin <300 palavras — sincronizar com NOINDEX_BLOG_SLUGS no [slug]/page.tsx)
+  // Blog posts canibalizando páginas de serviço
+  "/blog/como-regularizar-condominio-corpo-de-bombeiros",
+  "/blog/diferenca-entre-avcb-e-ptotep-eventos",
+  "/blog/alarme-incendio-galpao-industrial-obrigatorio-sp",
   // Blog noindex (posts thin <300 palavras — sincronizar com NOINDEX_BLOG_SLUGS no [slug]/page.tsx)
   "/blog/avcb-para-casa-de-repouso-sao-paulo",
   "/blog/vistoria-bombeiros-porta-corta-fogo",

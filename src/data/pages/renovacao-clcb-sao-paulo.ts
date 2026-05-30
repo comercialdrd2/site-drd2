@@ -154,6 +154,7 @@ export const renovacaoClcbContent = {
     { label: "AVCB ou CLCB: qual preciso?", href: "/avcb-ou-clcb-qual-preciso" },
     { label: "Renovação de AVCB em São Paulo", href: "/renovacao-avcb" },
     { label: "Quanto Custa o AVCB em São Paulo?", href: "/quanto-custa-avcb-sao-paulo" },
+    { label: "Quanto custa o CLCB em São Paulo em 2026?", href: "/blog/quanto-custa-clcb-em-sao-paulo-2026" },
   ],
   ctaFinal: {
     heading: "Seu CLCB está vencido ou próximo do vencimento?",

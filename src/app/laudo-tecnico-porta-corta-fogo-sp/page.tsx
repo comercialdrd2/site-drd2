@@ -86,6 +86,8 @@ const data: UniversalPageData = {
     { href: "/adequacao-porta-corta-fogo-avcb-sp", label: "Adequação para AVCB" },
     { href: "/avcb-sao-paulo", label: "AVCB em São Paulo" },
     { href: "/manutencao", label: "Manutenção de Sistemas de Incêndio" },
+    { href: "/blog/o-que-reprova-porta-corta-fogo-no-avcb", label: "O que reprova a porta corta-fogo no AVCB" },
+    { href: "/blog/quando-trocar-porta-corta-fogo", label: "Quando trocar a porta corta-fogo" },
   ],
   ctaFinal: {
     heading: "LAUDO TÉCNICO DE PORTA CORTA-FOGO — ART CREA-SP + ENTREGA EM 48H",

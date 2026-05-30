@@ -164,6 +164,14 @@ const data: UniversalPageData = {
       "label": "Laudo de Sprinkler com ART"
     },
     {
+      "href": "/laudo-sprinkler-hotel-sao-paulo",
+      "label": "Laudo de Sprinkler para Hotel SP"
+    },
+    {
+      "href": "/vga-hotel-sp",
+      "label": "VGA para Hotel SP"
+    },
+    {
       "href": "/avcb-hoteis-pousadas-sao-paulo",
       "label": "AVCB para Hotel SP"
     },

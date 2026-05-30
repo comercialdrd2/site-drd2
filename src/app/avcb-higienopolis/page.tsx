@@ -121,6 +121,10 @@ const data: UniversalPageData = {
     {
       "href": "/prazo-renovacao-avcb-sao-paulo",
       "label": "De quanto em quanto tempo renovar o AVCB Residencial?"
+    },
+    {
+      "href": "/renovacao-avcb-higienopolis",
+      "label": "Renovação de AVCB em Higienópolis"
     }
   ],
   "ctaFinal": {

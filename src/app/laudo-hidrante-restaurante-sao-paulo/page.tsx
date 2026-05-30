@@ -137,6 +137,7 @@ const data: UniversalPageData = {
     { href: "/avcb-para-restaurante-sao-paulo", label: "AVCB para Restaurante em SP" },
     { href: "/alvara-bombeiro-restaurante-sao-paulo", label: "Alvará Bombeiro — Restaurante" },
     { href: "/laudo-alarme-incendio-restaurante-sao-paulo", label: "Laudo de Alarme — Restaurante" },
+    { href: "/sistema-de-hidrantes-para-restaurante-sao-paulo", label: "Sistema de Hidrantes para Restaurante" },
     { href: "/hidrantes", label: "Sistema de Hidrantes SP" },
     { href: "/renovacao-avcb-restaurante-sao-paulo", label: "Renovação AVCB Restaurante" },
     { href: "/empresa-avcb-sao-paulo", label: "Empresa de AVCB em SP" },

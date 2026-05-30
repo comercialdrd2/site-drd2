@@ -236,6 +236,7 @@ const nextConfig = {
       { source: '/servicos/avcb-sao-paulo', destination: '/avcb-sao-paulo', permanent: true },
       { source: '/servicos/avcb-bares-restaurantes-sao-paulo', destination: '/avcb-restaurante-sao-paulo', permanent: true },
       { source: '/servicos/avcb-pousada-sao-paulo', destination: '/avcb-hoteis-pousadas-sao-paulo', permanent: true },
+      { source: '/servicos/avcb-hoteis-pousadas-sao-paulo', destination: '/avcb-hoteis-pousadas-sao-paulo', permanent: true },
       { source: '/servicos/avcb-escola-faculdade-sao-paulo', destination: '/avcb-para-escola-sao-paulo', permanent: true },
       { source: '/servicos/avcb-para-drogaria-sao-paulo', destination: '/avcb-farmacia-drogaria-sao-paulo', permanent: true },
       { source: '/servicos/avcb-para-casa-noturna-sao-paulo', destination: '/avcb-casas-noturnas-boates-sao-paulo', permanent: true },
@@ -270,6 +271,10 @@ const nextConfig = {
       { source: '/blog/sprinkler-obrigatorio-sp', destination: '/blog/sprinkler-obrigatorio-para-quem-e-quando', permanent: true },
       { source: '/blog/o-que-e-avcb-e-quando-ele-e-obrigatorio', destination: '/blog/quem-precisa-de-avcb', permanent: true },
       { source: '/blog/avcb-restaurante-sao-paulo', destination: '/blog/avcb-para-restaurante-em-sp-como-regularizar-em-2026', permanent: true },
+      // Posts canibalizando páginas de serviço — consolidação de autoridade
+      { source: '/blog/como-regularizar-condominio-corpo-de-bombeiros', destination: '/avcb-para-condominio-sao-paulo', permanent: true },
+      { source: '/blog/diferenca-entre-avcb-e-ptotep-eventos', destination: '/diferenca-avcb-ptotep', permanent: true },
+      { source: '/blog/alarme-incendio-galpao-industrial-obrigatorio-sp', destination: '/alarme-de-incendio-galpao-industrial-sp', permanent: true },
     ];
   },
 };

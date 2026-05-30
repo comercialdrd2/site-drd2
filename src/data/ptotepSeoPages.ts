@@ -55,6 +55,8 @@ const baseRelated: PtotepRelatedLink[] = [
   { label: "AVCB em Sao Paulo", href: "/avcb-sao-paulo" },
   { label: "Treinamento de brigada", href: "/treinamento-brigada" },
   { label: "Laudo de estanqueidade de gas", href: "/laudo-estanqueidade-gas-sao-paulo" },
+  { label: "PTOTEP para evento universitario", href: "/ptotep-para-evento-universitario" },
+  { label: "PTOTEP em Sorocaba", href: "/ptotep-sorocaba" },
 ];
 
 const baseFaqs: PtotepFaq[] = [
@@ -342,9 +344,52 @@ export const ptotepPages: PtotepPage[] = [
       "criancas, idosos e publico vulneravel sem planejamento de abandono",
       "cozinha temporaria sem laudo ou responsabilidade tecnica",
     ],
-    process: [],
-    documents: [],
-    faqs: [],
+    process: [
+      "Leitura tecnica do local: verificamos o AVCB ou CLCB da igreja, a lotacao aprovada, as saidas existentes e o uso atual do templo.",
+      "Analise do evento: avaliamos publico estimado, layout do palco, montagem de cadeiras, areas de apoio, uso de alimentacao, GLP, gerador e equipamentos de som e luz.",
+      "Identificacao de interferencias: cruzamos a montagem temporaria com as rotas de fuga, sinalizacao, extintores e hidrantes existentes para identificar ajustes necessarios.",
+      "Elaboracao do projeto tecnico: desenhamos planta com layout do evento, indicacao de saidas, rotas de abandono, areas de concentracao de publico e posicionamento de estruturas temporarias.",
+      "Organizacao da documentacao: reunimos ART do engenheiro responsavel, memorial descritivo, plantas do evento, laudos de fornecedores e documentos da edificacao permanente.",
+      "Protocolo e acompanhamento: entregamos o processo ao orgao competente e acompanhamos eventuais exigencias ate a liberacao final do evento.",
+    ],
+    documents: [
+      "AVCB ou CLCB vigente da igreja ou templo",
+      "Planta baixa do local com indicacao de saidas e circulacoes",
+      "Layout do evento com posicionamento de palco, cadeiras, areas de apoio e acessos",
+      "ART ou RRT do engenheiro ou arquiteto responsavel pelo projeto",
+      "Memorial descritivo da ocupacao temporaria",
+      "Laudo tecnico de estruturas temporarias (palco, tendas, arquibancadas) com ART",
+      "Documentacao de instalacao eletrica temporaria com ART do eletricista",
+      "Laudo de GLP ou gerador, quando aplicavel",
+      "Plano de brigada e controle de acesso para o evento",
+    ],
+    faqs: [
+      {
+        question: "Igreja com AVCB vigente precisa de PTOTEP para eventos especiais?",
+        answer:
+          "Depende do que o evento altera na condicao aprovada. Se o congresso, show ou encontro aumenta significativamente a lotacao habitual, instala palco temporario, usa gerador ou GLP, ou modifica as rotas de fuga com novos elementos, o PTOTEP pode ser exigido. A melhor forma de saber e solicitar uma analise tecnica antes de definir layout e fornecedores.",
+      },
+      {
+        question: "Qual o prazo para regularizar um evento em igreja?",
+        answer:
+          "O prazo varia conforme a complexidade do evento e a documentacao disponivel. Eventos simples com documentacao completa podem ser encaminhados em poucos dias. Congressos com palco, gerador, GLP e grande publico exigem mais tempo para organizar ARTs, plantas e memoriais. O ideal e iniciar a analise tecnica com pelo menos 30 dias de antecedencia em relacao a data do evento.",
+      },
+      {
+        question: "Quem e responsavel pela seguranca do evento na igreja?",
+        answer:
+          "A responsabilidade e compartilhada entre a organizacao do evento, a diretoria ou lideranca da igreja e o engenheiro que assina o projeto tecnico. O PTOTEP formaliza essa responsabilidade e documenta as medidas de seguranca adotadas para a ocupacao temporaria.",
+      },
+      {
+        question: "Show gospel ou congresso de multiplos dias exige PTOTEP diferente?",
+        answer:
+          "Cada data ou configuracao diferente do evento deve ser avaliada. Se o congresso ocorre em varios dias com montagens distintas, o projeto tecnico precisa cobrir todas as variacoes de layout, lotacao e uso. Eventos recorrentes com a mesma configuracao podem ser tratados com um projeto unico, desde que nada mude entre as datas.",
+      },
+      {
+        question: "O que acontece se realizar um evento em igreja sem PTOTEP?",
+        answer:
+          "Evento sem regularizacao adequada pode ser interditado pelo Corpo de Bombeiros ou orgao municipal competente. Alem do risco de cancelamento, a lideranca da igreja pode responder civilmente em caso de acidente envolvendo o publico. O PTOTEP protege o evento, o local e os responsaveis tecnicos e administrativos.",
+      },
+    ],
     related: baseRelated,
     ctaOccupation: "evento em igreja",
   }),

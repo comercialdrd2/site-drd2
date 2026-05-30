@@ -53,7 +53,7 @@ const ptotepBlogPosts: BlogPost[] = [
       <h2>Como a DRD2 conduz esse processo</h2>
       <p>A DRD2 Engenharia avalia o local, revisa o escopo do evento, orienta os documentos de fornecedores, organiza plantas e memoriais, emite responsabilidade tecnica quando aplicavel e acompanha a estrategia de protocolo. O objetivo e evitar improviso, reduzir exigencias e proteger a data do evento.</p>
 
-      <p>Para aprofundar, veja tambem a pagina principal de <a href="/ptotep" class="text-primary font-bold underline">PTOTEP para eventos temporarios</a> e o guia sobre <a href="/diferenca-avcb-ptotep" class="text-primary font-bold underline">diferenca entre AVCB e PTOTEP</a>.</p>
+      <p>Para aprofundar, veja tambem a pagina principal de <a href="/ptotep" class="text-primary font-bold underline">PTOTEP para eventos temporarios</a> e o guia sobre <a href="/diferenca-avcb-ptotep" class="text-primary font-bold underline">diferenca entre AVCB e PTOTEP</a>. Para custo e documentacao do processo, veja <a href="/blog/quanto-custa-ptotep-para-evento" class="text-primary font-bold underline">quanto custa PTOTEP para evento</a> e <a href="/blog/documentos-necessarios-para-ptotep-evento" class="text-primary font-bold underline">documentos necessarios para PTOTEP</a>.</p>
     `,
     faqs: [
       { question: "PTOTEP substitui o AVCB do local?", answer: "Nao. O AVCB trata a edificacao permanente. O PTOTEP avalia a ocupacao temporaria criada pelo evento, quando ela altera publico, layout, rotas ou riscos." },
@@ -105,7 +105,7 @@ const ptotepBlogPosts: BlogPost[] = [
         <li>Mudar layout depois do protocolo sem revisar o projeto.</li>
       </ul>
 
-      <p>A DRD2 Engenharia organiza o checklist por tipo de evento e orienta quais documentos devem ser solicitados de cada fornecedor. Veja tambem a pagina de <a href="/documentos-necessarios-ptotep" class="text-primary font-bold underline">documentos necessarios para PTOTEP</a> e a pagina principal de <a href="/ptotep" class="text-primary font-bold underline">Projeto Tecnico de Ocupacao Temporaria</a>.</p>
+      <p>A DRD2 Engenharia organiza o checklist por tipo de evento e orienta quais documentos devem ser solicitados de cada fornecedor. Veja tambem a pagina de <a href="/documentos-necessarios-ptotep" class="text-primary font-bold underline">documentos necessarios para PTOTEP</a> e a pagina principal de <a href="/ptotep" class="text-primary font-bold underline">Projeto Tecnico de Ocupacao Temporaria</a>. Veja tambem <a href="/blog/o-que-e-ptotep-quando-evento-precisa" class="text-primary font-bold underline">o que e PTOTEP e quando o evento precisa</a> e <a href="/blog/quanto-custa-ptotep-para-evento" class="text-primary font-bold underline">quanto custa PTOTEP para evento</a>.</p>
     `,
     faqs: [
       { question: "Preciso do AVCB do local para fazer PTOTEP?", answer: "Normalmente a licenca da edificacao permanente e parte importante da analise, porque o PTOTEP precisa entender a base de seguranca do imovel." },
@@ -146,7 +146,7 @@ const ptotepBlogPosts: BlogPost[] = [
       <h2>Economizar no projeto pode custar a data do evento</h2>
       <p>O maior prejuizo nao costuma ser o valor do PTOTEP, mas o atraso por documento incompleto, layout mal desenhado, falta de ART ou exigencia recebida perto da montagem. Quando a data e fixa, retrabalho tecnico vira risco comercial.</p>
 
-      <p>A DRD2 avalia o evento antes de fechar o escopo, para indicar o caminho mais seguro. Veja tambem a pagina de <a href="/quanto-custa-ptotep" class="text-primary font-bold underline">quanto custa PTOTEP</a> e a pagina de <a href="/ptotep" class="text-primary font-bold underline">PTOTEP para eventos</a>.</p>
+      <p>A DRD2 avalia o evento antes de fechar o escopo, para indicar o caminho mais seguro. Veja tambem a pagina de <a href="/quanto-custa-ptotep" class="text-primary font-bold underline">quanto custa PTOTEP</a> e a pagina de <a href="/ptotep" class="text-primary font-bold underline">PTOTEP para eventos</a>. Veja tambem <a href="/blog/o-que-e-ptotep-quando-evento-precisa" class="text-primary font-bold underline">o que e PTOTEP e quando o evento precisa</a> e <a href="/blog/documentos-necessarios-para-ptotep-evento" class="text-primary font-bold underline">documentos necessarios para PTOTEP</a>.</p>
     `,
     faqs: [
       { question: "PTOTEP tem valor fixo?", answer: "Nao. O valor depende do tipo de evento, local, publico, montagem, documentos, ARTs e prazo." },
@@ -211,29 +211,37 @@ const ptotepBlogPosts: BlogPost[] = [
     content: `
       <p>AVCB e PTOTEP nao sao o mesmo documento. O <strong>AVCB</strong> comprova que a edificacao permanente atende as medidas de seguranca contra incendio para determinado uso. O <strong>PTOTEP</strong> avalia a ocupacao temporaria criada por um evento dentro dessa edificacao.</p>
 
-      <p>Essa diferenca e decisiva para shopping, hotel, igreja, escola, clube, centro de convencoes e galpao que recebem eventos temporarios. O local pode estar regular, mas a montagem do evento pode criar risco novo.</p>
+      <p>Essa diferenca e decisiva para shopping, hotel, igreja, escola, clube, centro de convencoes e galpao que recebem eventos temporarios. O local pode estar regular, mas a montagem do evento pode criar risco novo — e esse risco nao esta coberto pelo AVCB do imovel.</p>
 
       <h2>O que o AVCB olha</h2>
-      <p>O AVCB considera a edificacao no uso aprovado: rotas de fuga, extintores, hidrantes, alarme, iluminacao, sinalizacao, escadas, lotacao e demais sistemas previstos para aquele imovel. Ele nao necessariamente cobre um palco temporario, uma feira de stands ou uma area gastronomica instalada depois.</p>
+      <p>O AVCB considera a edificacao no uso aprovado: rotas de fuga, extintores, hidrantes, alarme, iluminacao, sinalizacao, escadas, lotacao e demais sistemas previstos para aquele imovel. Ele nao necessariamente cobre um palco temporario, uma feira de stands ou uma area gastronomica instalada depois. O AVCB e a fotografia da edificacao em operacao normal — nao do evento que acontece dentro dela.</p>
 
       <h2>O que o PTOTEP olha</h2>
-      <p>O PTOTEP olha a interferencia do evento: onde o publico fica, como circula, onde sai em emergencia, quais estruturas foram montadas, se existe GLP, gerador, eletrica temporaria, cenografia, tendas, filas ou bloqueios de rota.</p>
+      <p>O PTOTEP olha a interferencia do evento: onde o publico fica, como circula, onde sai em emergencia, quais estruturas foram montadas, se existe GLP, gerador, eletrica temporaria, cenografia, tendas, filas ou bloqueios de rota. O projeto conecta o que o evento monta com o que o local ja tem aprovado, e aponta o que precisa ser ajustado para que a montagem seja segura.</p>
 
-      <h2>Exemplo simples</h2>
-      <p>Um shopping pode ter AVCB vigente. Mesmo assim, uma feira com stands no mall pode reduzir circulacao, bloquear visibilidade de sinalizacao, criar pontos eletricos temporarios e concentrar publico. Nesse caso, o risco nao e do shopping em operacao normal, e da ocupacao temporaria.</p>
+      <h2>Exemplo pratico: shopping com feira</h2>
+      <p>Um shopping pode ter AVCB vigente com lotacao e sistemas aprovados para o uso de varejo. Mesmo assim, uma feira com stands no mall pode reduzir a largura de circulacao, bloquear visibilidade de sinalizacao, criar pontos eletricos temporarios e concentrar publico acima da rotina do local. Nesse caso, o risco nao e do shopping em operacao normal — e da ocupacao temporaria criada pela feira. O PTOTEP documenta e regulariza exatamente esse risco.</p>
+
+      <h2>Exemplo pratico: igreja com congresso</h2>
+      <p>Uma igreja com CLCB vigente pode receber o culto habitual sem problemas. Mas quando um congresso com palco, sistema de som profissional, transmissao ao vivo, catering e publico visitante de outras cidades transforma o templo em local de evento, a condicao de uso muda. Visitantes nao conhecem as saidas. O palco pode ocupar area critica. A carga eletrica temporaria exige responsabilidade tecnica. O PTOTEP trata esses pontos especificamente.</p>
 
       <h2>Quando o AVCB do local ajuda</h2>
-      <p>O AVCB do local e importante porque mostra a base de seguranca existente. Ele ajuda a entender quais rotas, sistemas e limites ja existem. Mas ele nao substitui a avaliacao do evento quando a montagem altera o uso normal da edificacao.</p>
+      <p>O AVCB do local e importante porque mostra a base de seguranca existente — quais rotas, sistemas, hidrantes e extintores ja estao aprovados. Ele ajuda a entender o ponto de partida. Mas ele nao substitui a avaliacao do evento quando a montagem altera o uso normal da edificacao. Os dois documentos se complementam: o AVCB cobre o permanente, o PTOTEP cobre o temporario.</p>
+
+      <h2>Quais eventos geralmente precisam de PTOTEP</h2>
+      <p>Eventos que instalam estruturas temporarias (palco, tendas, stands, arquibancada), utilizam GLP ou gerador, aumentam significativamente a lotacao do local, ou alteram rotas de fuga e areas de circulacao tendem a precisar de PTOTEP. Isso inclui feiras, shows, congressos, festivais, exposicoes, food parks, eventos corporativos e eventos religiosos de grande porte.</p>
 
       <h2>Como decidir qual caminho seguir</h2>
-      <p>A decisao deve considerar local, publico, montagem, estruturas, duracao, risco especifico e documentos disponiveis. Em alguns casos, o evento pode ser simples e nao exigir um processo complexo. Em outros, tentar usar apenas o AVCB do local gera exigencia, atraso e inseguranca juridica.</p>
+      <p>A decisao deve considerar local, publico, montagem, estruturas, duracao, risco especifico e documentos disponiveis. Em alguns casos, o evento pode ser simples e nao exigir processo complexo. Em outros, tentar usar apenas o AVCB do local gera exigencia, atraso e inseguranca juridica — especialmente se o orgao fiscalizador constatar que a montagem nao estava coberta pelo documento existente.</p>
 
-      <p>A DRD2 faz essa leitura de enquadramento e orienta o caminho correto. Para continuar, acesse a pagina de <a href="/diferenca-avcb-ptotep" class="text-primary font-bold underline">diferenca entre AVCB e PTOTEP</a> ou fale sobre o seu evento pela pagina de <a href="/ptotep" class="text-primary font-bold underline">PTOTEP</a>.</p>
+      <p>A DRD2 faz essa leitura de enquadramento antes de qualquer protocolo e orienta o caminho correto para cada tipo de evento. Para continuar, acesse a pagina de <a href="/diferenca-avcb-ptotep" class="text-primary font-bold underline">diferenca entre AVCB e PTOTEP</a> ou fale sobre o seu evento pela pagina de <a href="/ptotep" class="text-primary font-bold underline">PTOTEP</a>.</p>
     `,
     faqs: [
-      { question: "Se o local tem AVCB, preciso de PTOTEP?", answer: "Pode precisar, se o evento alterar publico, layout, rotas, estruturas, sistemas temporarios ou risco de uso." },
-      { question: "PTOTEP e AVCB temporario?", answer: "Nao exatamente. O PTOTEP e um projeto para ocupacao temporaria em edificacao permanente, nao uma simples troca de nome do AVCB." },
-      { question: "Quem deve pedir a analise?", answer: "Organizador, produtor, administradora do local ou responsavel pela montagem devem alinhar a analise tecnica antes do evento." }
+      { question: "Se o local tem AVCB, preciso de PTOTEP?", answer: "Pode precisar, se o evento alterar publico, layout, rotas, estruturas, sistemas temporarios ou risco de uso em relacao ao uso permanente aprovado pelo AVCB." },
+      { question: "PTOTEP e AVCB temporario?", answer: "Nao exatamente. O PTOTEP e um projeto para ocupacao temporaria em edificacao permanente, nao uma simples emissao de AVCB com prazo reduzido. Ele avalia o risco especifico do evento e documenta as medidas de seguranca adotadas." },
+      { question: "Quem deve pedir a analise tecnica?", answer: "Organizador, produtor, administradora do local ou responsavel pela montagem devem alinhar a analise tecnica antes do evento. Quanto antes a analise comecar, mais tempo existe para ajustar layout, coletar ARTs e regularizar a situacao sem urgencia." },
+      { question: "O PTOTEP substitui o AVCB do local?", answer: "Nao. O PTOTEP complementa o AVCB existente. O local precisa ter seu proprio AVCB ou CLCB vigente, e o PTOTEP trata apenas o que o evento temporario altera ou acrescenta naquele imovel." },
+      { question: "Quanto tempo antes do evento devo iniciar o PTOTEP?", answer: "O ideal e iniciar pelo menos 30 a 60 dias antes da data do evento, dependendo da complexidade. Congressos, feiras e shows com estruturas, GLP e grande publico exigem mais tempo para reunir ARTs de fornecedores, plantas e memoriais. Deixar para a ultima semana aumenta o risco de exigencia e cancelamento." }
     ]
   }
 ];
@@ -2346,6 +2354,8 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
 
       <h2>Como evitar reprovação</h2>
       <p>A solução é realizar a inspeção técnica com checklist conforme IT 11/25 e NBR 11742 antes da vistoria do CBPMESP — corrigindo todos os defeitos e emitindo laudo técnico com ART. A <a href="/manutencao-porta-corta-fogo-sp" class="text-primary font-bold underline">DRD2 realiza esse diagnóstico gratuitamente</a>.</p>
+
+      <p>Veja também: <a href="/blog/quando-trocar-porta-corta-fogo" class="text-primary font-bold underline">quando trocar a porta corta-fogo</a> e o que o <a href="/laudo-tecnico-porta-corta-fogo-sp" class="text-primary font-bold underline">laudo técnico de porta corta-fogo</a> exige para o AVCB.</p>
     `,
     faqs: [
       { question: "O vistoriador do CBPMESP testa todas as portas corta-fogo?", answer: "Sim. O vistoriador testa o fechamento automático, verifica a barra antipânico e inspeciona a sinalização de cada porta corta-fogo da edificação durante a vistoria do AVCB." },
@@ -2378,6 +2388,8 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
 
       <h2>Como saber sem uma visita técnica?</h2>
       <p>Na prática, é difícil determinar sem inspeção técnica se a porta precisa de manutenção ou substituição. A <a href="/manutencao-porta-corta-fogo-sp" class="text-primary font-bold underline">DRD2 realiza o diagnóstico gratuito</a>, classifica cada porta e apresenta a solução técnica mais adequada — sem indicar substituição quando a manutenção resolve.</p>
+
+      <p>Veja também: <a href="/blog/o-que-reprova-porta-corta-fogo-no-avcb" class="text-primary font-bold underline">o que reprova a porta corta-fogo no AVCB</a> e como agir antes da vistoria do CBPMESP.</p>
     `,
     faqs: [
       { question: "Porta corta-fogo antiga ainda serve se estiver em bom estado?", answer: "Depende. Se for anterior a 2018 e não tiver certificação INMETRO, o CBPMESP pode exigir substituição por modelo certificado, independente do estado aparente." },
