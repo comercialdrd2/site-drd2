@@ -99,6 +99,7 @@ export default function Footer() {
               <li><Link href="/renovacao-avcb-higienopolis" className="hover:text-primary transition-colors flex items-center gap-2">▶ Renovação AVCB Higienópolis</Link></li>
               <li><Link href="/ptotep-sorocaba" className="hover:text-primary transition-colors flex items-center gap-2">▶ PTOTEP Sorocaba</Link></li>
               <li><Link href="/ptotep-para-evento-universitario" className="hover:text-primary transition-colors flex items-center gap-2">▶ PTOTEP Evento Universitário</Link></li>
+              <li><Link href="/ptotep-para-evento-em-igreja" className="hover:text-primary transition-colors flex items-center gap-2">▶ PTOTEP Evento em Igreja</Link></li>
               <li><Link href="/vga-galpao-industrial-sp" className="hover:text-primary transition-colors flex items-center gap-2">▶ VGA Galpão Industrial</Link></li>
               <li><Link href="/vga-hotel-sp" className="hover:text-primary transition-colors flex items-center gap-2">▶ VGA Hotel SP</Link></li>
             </ul>

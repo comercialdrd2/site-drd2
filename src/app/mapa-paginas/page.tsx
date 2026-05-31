@@ -298,7 +298,7 @@ const ocupacoes = [
   { label: "Supermercado", href: "/avcb-supermercado-sao-paulo" },
   { label: "Salão de Festas", href: "/avcb-salao-de-festas-sao-paulo" },
   { label: "Hotéis e Pousadas", href: "/avcb-hoteis-pousadas-sao-paulo" },
-  { label: "Hostel", href: "/avcb-hostel-sao-paulo" },
+  { label: "Hostel", href: "/avcb-hoteis-pousadas-sao-paulo" },
   { label: "Motel", href: "/avcb-motel-sao-paulo" },
   { label: "Posto de Combustível", href: "/avcb-posto-combustivel-sao-paulo" },
   { label: "Galpão Industrial", href: "/avcb-galpao-industrial-sao-paulo" },
