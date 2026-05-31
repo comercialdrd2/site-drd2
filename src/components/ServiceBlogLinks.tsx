@@ -231,6 +231,15 @@ const occupationLinks: Array<{ match: RegExp; link: BlogLink }> = [
     },
   },
   {
+    match: /clcb/,
+    link: {
+      href: "/blog/quanto-custa-clcb-em-sao-paulo-2026",
+      label: "Quanto custa o CLCB em 2026?",
+      desc: "Veja preço, prazo, diferença para AVCB e quando seu imóvel pode optar pelo certificado simplificado.",
+      kind: "custo",
+    },
+  },
+  {
     match: /escritorio|escritório|comercial|sala-comercial|loja/,
     link: {
       href: "/blog/avcb-para-escritorio-sala-comercial-sao-paulo",

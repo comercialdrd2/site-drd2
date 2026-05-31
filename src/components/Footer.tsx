@@ -74,6 +74,13 @@ export default function Footer() {
               <li><Link href="/avcb-para-shopping-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Shoppings & Centros Comerciais</Link></li>
               <li><Link href="/avcb-posto-combustivel-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Postos de Combustível</Link></li>
               <li><Link href="/avcb-estacionamento-garagem-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Estacionamentos</Link></li>
+              <li><Link href="/renovacao-avcb-restaurante-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Renovação AVCB Restaurante</Link></li>
+              <li><Link href="/renovacao-avcb-pousada-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Renovação AVCB Pousada</Link></li>
+              <li><Link href="/renovacao-avcb-shopping-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Renovação AVCB Shopping</Link></li>
+              <li><Link href="/renovacao-avcb-casa-noturna-boate-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Renovação AVCB Casa Noturna</Link></li>
+              <li><Link href="/laudo-sprinkler-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Laudo de Sprinkler SP</Link></li>
+              <li><Link href="/porta-corta-fogo-condominio-sp" className="hover:text-primary transition-colors flex items-center gap-2">▶ Porta Corta-Fogo Condomínio</Link></li>
+              <li><Link href="/sistema-de-hidrantes-para-restaurante-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Hidrante para Restaurante</Link></li>
             </ul>
           </div>
 
@@ -88,6 +95,12 @@ export default function Footer() {
               <li><Link href="/avcb-pinheiros" className="hover:text-primary transition-colors flex items-center gap-2">▶ Polo Pinheiros</Link></li>
               <li><Link href="/avcb-vila-olimpia" className="hover:text-primary transition-colors flex items-center gap-2">▶ Vila Olímpia</Link></li>
               <li><Link href="/avcb-zona-sul" className="hover:text-primary transition-colors flex items-center gap-2">▶ Zona Sul Startups</Link></li>
+              <li><Link href="/avcb-perdizes" className="hover:text-primary transition-colors flex items-center gap-2">▶ Perdizes</Link></li>
+              <li><Link href="/renovacao-avcb-higienopolis" className="hover:text-primary transition-colors flex items-center gap-2">▶ Renovação AVCB Higienópolis</Link></li>
+              <li><Link href="/ptotep-sorocaba" className="hover:text-primary transition-colors flex items-center gap-2">▶ PTOTEP Sorocaba</Link></li>
+              <li><Link href="/ptotep-para-evento-universitario" className="hover:text-primary transition-colors flex items-center gap-2">▶ PTOTEP Evento Universitário</Link></li>
+              <li><Link href="/vga-galpao-industrial-sp" className="hover:text-primary transition-colors flex items-center gap-2">▶ VGA Galpão Industrial</Link></li>
+              <li><Link href="/vga-hotel-sp" className="hover:text-primary transition-colors flex items-center gap-2">▶ VGA Hotel SP</Link></li>
             </ul>
           </div>
 
