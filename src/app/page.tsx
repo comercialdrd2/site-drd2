@@ -202,7 +202,7 @@ export default function HomePage() {
               { icon: Bell,        name: "Alarme e Detecção",       desc: "Centrais endereçáveis e painéis repetidores",      href: "/alarme-incendio-sao-paulo" },
               { icon: Zap,         name: "Para-raios (SPDA)",       desc: "Adequação à NBR 5419 e laudos ôhmicos",            href: "/spda" },
               { icon: Activity,    name: "Laudos e ARTs",           desc: "Estanqueidade de Gás, CMAR e Elétrica",            href: "/manutencao" },
-              { icon: Users,       name: "Treinamento de Brigada",  desc: "Formação em pista com atestado válido",            href: "/brigada" },
+              { icon: Users,       name: "Treinamento de Brigada",  desc: "Formação em pista com atestado válido",            href: "/treinamento-brigada" },
             ].map((item, i) => (
               <Link
                 key={i}

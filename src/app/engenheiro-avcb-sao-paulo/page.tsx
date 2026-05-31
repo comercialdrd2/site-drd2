@@ -157,7 +157,7 @@ export default function EngenheiroAVCBPage() {
                     </li>
                   ))}
                 </ul>
-                <Link href="/avcb-preco" className="mt-12 inline-flex items-center gap-3 text-primary font-black uppercase tracking-widest text-sm hover:text-white transition-colors">
+                <Link href="/quanto-custa-avcb-sao-paulo" className="mt-12 inline-flex items-center gap-3 text-primary font-black uppercase tracking-widest text-sm hover:text-white transition-colors">
                   Consultar Tabela de Preços <ArrowRight className="w-5 h-5" />
                 </Link>
               </div>

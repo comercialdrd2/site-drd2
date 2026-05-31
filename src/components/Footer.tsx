@@ -62,7 +62,7 @@ export default function Footer() {
               <li><Link href="/avcb-galpao-industrial-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Galpões Industriais</Link></li>
               <li><Link href="/avcb-restaurante-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Alta Gastronomia</Link></li>
               <li><Link href="/avcb-hospital-clinica-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Hospitais & Clínicas</Link></li>
-              <li><Link href="/avcb-condominio-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Condomínios Residenciais</Link></li>
+              <li><Link href="/avcb-para-condominio-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Condomínios Residenciais</Link></li>
               <li><Link href="/avcb-para-escola-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Escolas Infantis</Link></li>
               <li><Link href="/avcb-para-academia-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Academias & Fitness</Link></li>
               <li><Link href="/avcb-para-igreja-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Igrejas & Templos</Link></li>

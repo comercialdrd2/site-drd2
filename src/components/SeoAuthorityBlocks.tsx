@@ -110,7 +110,7 @@ const occupationProfiles: Record<string, {
     prazo: "90 a 180 dias para hospitais com projeto atualizado; 180 a 365 dias quando há ampliação ou compartimentação nova",
     links: [
       { label: "renovação AVCB para hospital", href: "/renovacao-avcb-hospital-clinica-sao-paulo" },
-      { label: "sistema de alarme para hospital", href: "/sistema-alarme-incendio-hospital-avcb-sp" },
+      { label: "sistema de alarme para hospital", href: "/alarme-de-incendio-hospital-clinica-sp" },
       { label: "sprinkler para hospital", href: "/sistema-de-sprinkler-para-hospital-sao-paulo" },
     ],
   },
@@ -122,7 +122,7 @@ const occupationProfiles: Record<string, {
     prazo: "60 a 120 dias em escolas com projeto existente; 90 a 180 dias com instalação de alarme novo ou adequação de laboratório",
     links: [
       { label: "renovação AVCB para escola", href: "/renovacao-avcb-escola-sao-paulo" },
-      { label: "alarme para escola", href: "/sistema-alarme-incendio-edificio-comercial-sp" },
+      { label: "alarme para escola", href: "/alarme-de-incendio-escola-faculdade-sp" },
       { label: "AVCB para creche", href: "/avcb-para-creche-sao-paulo" },
     ],
   },

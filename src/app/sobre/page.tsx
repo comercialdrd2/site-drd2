@@ -317,7 +317,7 @@ export default function AboutPage() {
           
           <div className="mt-20 pt-10 border-t border-slate-800 flex flex-wrap justify-center gap-8 text-[11px] font-black text-slate-500 uppercase tracking-widest">
              <Link href="/" className="hover:text-primary transition-colors">→ Início</Link>
-             <Link href="/avcb-condominio-sao-paulo" className="hover:text-primary transition-colors">→ AVCB Condomínios</Link>
+             <Link href="/avcb-para-condominio-sao-paulo" className="hover:text-primary transition-colors">→ AVCB Condomínios</Link>
              <Link href="/avcb-galpao-industrial-sao-paulo" className="hover:text-primary transition-colors">→ AVCB Indústrias</Link>
              <Link href="/quanto-custa-avcb-em-sao-paulo" className="hover:text-primary transition-colors">→ Tabela de Preços</Link>
           </div>

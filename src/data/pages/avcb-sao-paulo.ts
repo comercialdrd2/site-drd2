@@ -216,7 +216,7 @@ export const avcbSaoPauloContent = {
     intro:
       "A DRD2 tem páginas específicas com todas as exigências técnicas e o processo completo para cada tipo de ocupação:",
     links: [
-      { label: "AVCB para Condomínio em São Paulo", href: "/avcb-condominio-sao-paulo" },
+      { label: "AVCB para Condomínio em São Paulo", href: "/avcb-para-condominio-sao-paulo" },
       { label: "AVCB para Restaurante em São Paulo", href: "/avcb-restaurante-sao-paulo" },
       { label: "AVCB para Escola em São Paulo", href: "/avcb-para-escola-sao-paulo" },
       { label: "AVCB para Hotel em São Paulo", href: "/avcb-hoteis-pousadas-sao-paulo" },

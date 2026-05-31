@@ -166,7 +166,7 @@ const occupationLinks: Record<string, StrategicLink> = {
     kind: "ocupacao",
   },
   "avcb-condominio-sao-paulo": {
-    href: "/avcb-condominio-sao-paulo",
+    href: "/avcb-para-condominio-sao-paulo",
     label: "AVCB para condomínio",
     context: "ocupação específica: síndico, assembleia, áreas comuns e responsabilidade civil",
     kind: "ocupacao",
@@ -202,7 +202,7 @@ const occupationLinks: Record<string, StrategicLink> = {
     kind: "ocupacao",
   },
   "avcb-sao-paulo": {
-    href: "/avcb-condominio-sao-paulo",
+    href: "/avcb-para-condominio-sao-paulo",
     label: "AVCB para condomínio",
     context: "ocupação específica: edifícios com cobrança recorrente de fiscalização e seguro",
     kind: "ocupacao",

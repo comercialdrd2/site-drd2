@@ -135,7 +135,7 @@ const data: UniversalPageData = {
   ],
   linksInternos: [
     { href: "/avcb-para-escola-sao-paulo", label: "AVCB para Escola em SP" },
-    { href: "/alvara-bombeiro-escola-sao-paulo", label: "Alvará Bombeiro — Escola" },
+    { href: "/alvara-bombeiro-escola-faculdade-sao-paulo", label: "Alvará Bombeiro — Escola" },
     { href: "/laudo-alarme-incendio-escola-sao-paulo", label: "Laudo de Alarme — Escola" },
     { href: "/hidrantes", label: "Sistema de Hidrantes SP" },
     { href: "/treinamento-brigada", label: "Treinamento de Brigada" },

@@ -136,7 +136,7 @@ const data: UniversalPageData = {
   ],
   linksInternos: [
     { href: "/avcb-hoteis-pousadas-sao-paulo", label: "AVCB para Hotel e Pousada SP" },
-    { href: "/alvara-bombeiro-pousada-sao-paulo", label: "Alvará Bombeiro — Pousada" },
+    { href: "/alvara-bombeiro-hotel-pousada-sao-paulo", label: "Alvará Bombeiro — Pousada" },
     { href: "/laudo-alarme-incendio-sao-paulo", label: "Laudo de Alarme de Incêndio SP" },
     { href: "/laudo-sprinkler-hotel-sao-paulo", label: "Laudo de Sprinkler — Hotel" },
     { href: "/empresa-avcb-sao-paulo", label: "Empresa de AVCB em SP" },

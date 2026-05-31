@@ -194,7 +194,7 @@ export const quantoCustaAvcbContent = {
   linksInternos: [
     { label: "AVCB em São Paulo — Regularização Completa", href: "/avcb-sao-paulo" },
     { label: "AVCB ou CLCB: Qual Certificado Seu Estabelecimento Precisa?", href: "/clcb-sao-paulo" },
-    { label: "AVCB para Condomínio em São Paulo", href: "/avcb-condominio-sao-paulo" },
+    { label: "AVCB para Condomínio em São Paulo", href: "/avcb-para-condominio-sao-paulo" },
   ],
 
   ctaFinal: {

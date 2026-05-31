@@ -251,7 +251,7 @@ const profiles: Record<string, DepthProfile> = {
     urgency: "AVCB vencido em hospital é interdição com pacientes internados — situação que precisa de plano de transferência emergencial. Risco civil e criminal direto da direção técnica em caso de sinistro.",
     links: [
       { label: "renovação AVCB para hospital", href: "/renovacao-avcb-hospital-clinica-sao-paulo" },
-      { label: "alarme para hospital", href: "/sistema-alarme-incendio-hospital-avcb-sp" },
+      { label: "alarme para hospital", href: "/alarme-de-incendio-hospital-clinica-sp" },
       { label: "sprinkler para hospital", href: "/sistema-de-sprinkler-para-hospital-sao-paulo" },
     ],
   },

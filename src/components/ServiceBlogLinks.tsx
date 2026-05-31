@@ -324,7 +324,7 @@ function getLinks(currentSlug: string) {
       costLink,
       renewalLink,
       {
-        href: "/avcb-condominio-sao-paulo",
+        href: "/avcb-para-condominio-sao-paulo",
         label: "AVCB para garagem de condominio",
         desc: "Entenda quando a garagem entra no AVCB do condominio e quando precisa de analise propria.",
         kind: "ocupacao" as const,

@@ -22,7 +22,7 @@ const categories: Category[] = [
     icon: Building2,
     items: [
       { code: "Renovação", name: "Renovação de AVCB para Condomínios", href: "/renovacao-avcb-condominio-sao-paulo" },
-      { code: "A-2 / A-3", name: "Condomínios Verticais e Horizontais", href: "/avcb-condominio-sao-paulo" },
+      { code: "A-2 / A-3", name: "Condomínios Verticais e Horizontais", href: "/avcb-para-condominio-sao-paulo" },
       { code: "A-1 / A-2", name: "Habitações Unifamiliares e Estúdios" },
       { code: "A-2 / A-3", name: "Prédios Antigos e Retrofits (Décadas 70/80)" },
       { code: "G-1 / G-2", name: "Garagens Coletivas e Estacionamentos", href: "/avcb-estacionamento-garagem-sao-paulo" }

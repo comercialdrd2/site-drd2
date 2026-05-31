@@ -928,7 +928,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     content: `
       <p>Administrar um condomínio em São Paulo exige atenção constante a uma série de normas técnicas e jurídicas, mas nenhuma é tão crítica quanto o <strong>AVCB — Auto de Vistoria do Corpo de Bombeiros</strong>.</p>
       
-      <p>Neste guia completo, a DRD2 Engenharia detalha o que mudou com o <strong>Decreto Estadual nº 69.118/2024</strong> e como os síndicos devem se portar para evitar a temida multa de mais de R$ 300 mil e, pior, a responsabilidade civil e criminal pessoal em caso de sinistro. Antes de começar, <a href="/avcb-preco" class="text-primary font-bold underline">veja aqui quanto custa a renovação do AVCB em 2026</a>.</p>
+      <p>Neste guia completo, a DRD2 Engenharia detalha o que mudou com o <strong>Decreto Estadual nº 69.118/2024</strong> e como os síndicos devem se portar para evitar a temida multa de mais de R$ 300 mil e, pior, a responsabilidade civil e criminal pessoal em caso de sinistro. Antes de começar, <a href="/quanto-custa-avcb-sao-paulo" class="text-primary font-bold underline">veja aqui quanto custa a renovação do AVCB em 2026</a>.</p>
 
       <h2>A Responsabilidade Civil e Criminal do Síndico</h2>
       <p>Após a Lei Federal nº 13.425/2017 (conhecida como Lei Kiss), a negligência com os sistemas de segurança contra incêndio deixou de ser "apenas uma multa". Hoje, o síndico responde com seu <strong>patrimônio pessoal</strong> e pode ser processado criminalmente se o condomínio estiver com o AVCB vencido ou com sistemas (como hidrantes ou alarmes) inoperantes.</p>
@@ -983,7 +983,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
         <li>❌ <strong>Risco real de multas pesadas</strong> e até interdição do condomínio.</li>
       </ul>
 
-      <p>A boa notícia é que 90% desses erros são previsíveis e podem ser evitados com uma análise técnica correta antes da vistoria. Se você quer saber o valor do investimento para não errar, <a href="/avcb-preco" class="text-primary font-bold underline">consulte nossa tabela de preços AVCB 2026</a>.</p>
+      <p>A boa notícia é que 90% desses erros são previsíveis e podem ser evitados com uma análise técnica correta antes da vistoria. Se você quer saber o valor do investimento para não errar, <a href="/quanto-custa-avcb-sao-paulo" class="text-primary font-bold underline">consulte nossa tabela de preços AVCB 2026</a>.</p>
 
       <h2>1. Divergência entre Projeto e Execução (IT-01)</h2>
       <p>Esse é o erro "campeão" de reprovações. O projeto aprovado no Via Fácil precisa refletir exatamente o que existe na edificação. Mudanças como divisórias novas de drywall, fechamento de sacadas, mudança de layout de salas ou alteração de uso (ex: transformar depósito em escritório) impactam diretamente no fluxo de fumaça e na eficácia dos bicos de sprinkler e detectores.</p>

@@ -203,7 +203,7 @@ export const renovacaoAvcbRestauranteContent = {
   linksInternos: [
     { label: "AVCB para Restaurante em São Paulo", href: "/avcb-restaurante-sao-paulo" },
     { label: "Renovação de AVCB em São Paulo", href: "/renovacao-avcb" },
-    { label: "Quanto Custa o AVCB em São Paulo?", href: "/avcb-preco" }
+    { label: "Quanto Custa o AVCB em São Paulo?", href: "/quanto-custa-avcb-sao-paulo" }
   ],
 
   ctaFinal: {

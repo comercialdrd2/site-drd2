@@ -189,7 +189,7 @@ export const renovacaoAvcbCondominioContent = {
   linksInternos: [
     { label: "AVCB para Condomínio em São Paulo", href: "/avcb-para-condominio-sao-paulo" },
     { label: "Renovação de AVCB em São Paulo", href: "/renovacao-avcb" },
-    { label: "Quanto Custa o AVCB em São Paulo?", href: "/avcb-preco" },
+    { label: "Quanto Custa o AVCB em São Paulo?", href: "/quanto-custa-avcb-sao-paulo" },
   ],
 
   ctaFinal: {

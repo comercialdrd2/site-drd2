@@ -83,7 +83,7 @@ export const sprinklerSeoPages: Record<string, SprinklerSeoPage> = {
     failures: ["Bico inadequado ao risco", "Produto incompatível com agua", "Cálculo desatualizado", "Reserva insuficiente"],
     requirements: ["Análise de risco", "Cálculo hidráulico", "Setorizacao", "ART e memorial técnico"],
     related: [
-      { label: "Hidrante indústria química", href: "/sistema-hidrante-industria-quimica-sp" },
+      { label: "Hidrante indústria química", href: "/sistema-de-hidrantes-para-industria-sao-paulo" },
       { label: "Alarme indústria química", href: "/sistema-alarme-incendio-industria-quimica-sp" },
       { label: "Brigada", href: "/treinamento-brigada" },
     ],

@@ -557,7 +557,7 @@ export default function AVCBCrechePage() {
           <div className="mt-12 text-center">
             <p className="text-slate-500 italic">
                Assim como nos projetos para condomínios e galpões, cada ocupação tem suas próprias exigências — e para creches, a precisão no enquadramento é ainda mais crítica.{' '}
-               <Link href="/avcb-condominio-sao-paulo" className="text-red-600 font-bold hover:underline">Veja sobre condomínios</Link> ou{' '}
+               <Link href="/avcb-para-condominio-sao-paulo" className="text-red-600 font-bold hover:underline">Veja sobre condomínios</Link> ou{' '}
                <Link href="/avcb-galpao-industrial-sao-paulo" className="text-red-600 font-bold hover:underline">indústrias</Link>.
             </p>
           </div>

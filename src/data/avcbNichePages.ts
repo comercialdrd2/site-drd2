@@ -274,7 +274,7 @@ export const avcbNichePages: AvcbNichePage[] = [
       },
     ],
     related: [
-      { label: "AVCB para condominio", href: "/avcb-condominio-sao-paulo" },
+      { label: "AVCB para condominio", href: "/avcb-para-condominio-sao-paulo" },
       { label: "AVCB para shopping", href: "/avcb-para-shopping-sao-paulo" },
       { label: "AVCB posto de combustivel", href: "/avcb-posto-combustivel-sao-paulo" },
       { label: "Hidrantes", href: "/hidrantes" },

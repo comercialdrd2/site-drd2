@@ -295,7 +295,7 @@ export default function QuemPagaAVCBPage() {
             </div>
             <div className="mt-24 pt-24 border-t border-slate-200 flex flex-wrap justify-center gap-12 text-[10px] font-black text-gray-400 uppercase tracking-[0.4em] italic leading-none">
                <Link href="/avcb-sao-paulo" className="hover:text-primary transition-colors underline decoration-primary/10 tracking-[0.5em]">→ AVCB SÃO PAULO</Link>
-               <Link href="/avcb-preco" className="hover:text-primary transition-colors underline decoration-primary/10 tracking-[0.5em]">→ QUANTO CUSTA</Link>
+               <Link href="/quanto-custa-avcb-sao-paulo" className="hover:text-primary transition-colors underline decoration-primary/10 tracking-[0.5em]">→ QUANTO CUSTA</Link>
                <Link href="/blog/avcb-vencido-o-que-fazer" className="hover:text-primary transition-colors underline decoration-primary/10 tracking-[0.5em]">→ AVCB VENCIDO</Link>
                <Link href="/renovacao-avcb" className="hover:text-primary transition-colors underline decoration-primary/10 tracking-[0.5em]">→ RENOVAÇÃO</Link>
             </div>

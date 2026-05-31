@@ -198,7 +198,7 @@ export const hydrantSeoPages: Record<string, HydrantSeoPage> = {
     failures: ["Pressão baixa nos ultimos andares", "Mangueiras vencidas", "Abrigos incompletos", "Registro de recalque sem acesso"],
     requirements: ["Teste de pressão por pavimento", "Casa de bombas operacional", "Reserva técnica preservada", "Laudo e ART para AVCB"],
     related: [
-      { label: "AVCB condomínio", href: "/avcb-condominio-sao-paulo" },
+      { label: "AVCB condomínio", href: "/avcb-para-condominio-sao-paulo" },
       { label: "Renovação AVCB condomínio", href: "/renovacao-avcb-condominio-sao-paulo" },
       { label: "Hidrantes para condomínio", href: "/sistema-de-hidrantes-para-condominio-sao-paulo" },
       { label: "Manutenção predial", href: "/manutencao" },

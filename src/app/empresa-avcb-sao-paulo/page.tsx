@@ -244,7 +244,7 @@ export default function EmpresaAVCBPage() {
                 Solicitar Visita Técnica
               </a>
               <Link 
-                href="/avcb-preco"
+                href="/quanto-custa-avcb-sao-paulo"
                 className="border-2 border-secondary text-secondary font-black px-12 py-5 rounded-2xl text-xl hover:bg-secondary hover:text-white transition-all"
               >
                 Tabela de Investimento

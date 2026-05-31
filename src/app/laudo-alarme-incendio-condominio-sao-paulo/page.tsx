@@ -136,7 +136,7 @@ const data: UniversalPageData = {
   ],
   linksInternos: [
     { href: "/renovacao-avcb-condominio-sao-paulo", label: "Renovação AVCB Condomínio SP" },
-    { href: "/avcb-condominio-sao-paulo", label: "AVCB para Condomínio em SP" },
+    { href: "/avcb-para-condominio-sao-paulo", label: "AVCB para Condomínio em SP" },
     { href: "/laudo-alarme-incendio-sao-paulo", label: "Laudo de Alarme de Incêndio SP" },
     { href: "/laudo-hidrante-condominio-sao-paulo", label: "Laudo de Hidrante — Condomínio" },
     { href: "/laudo-sprinkler-condominio-sao-paulo", label: "Laudo de Sprinkler — Condomínio" },

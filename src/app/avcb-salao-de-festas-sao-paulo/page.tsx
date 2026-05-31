@@ -434,7 +434,7 @@ export default function AVCBSalaoFestasPage() {
               { label: "AVCB para Padaria", href: "/avcb-para-padaria-sao-paulo" },
               { label: "AVCB para Farmácia", href: "/avcb-farmacia-drogaria-sao-paulo" },
               { label: "AVCB para Academia", href: "/avcb-para-academia-sao-paulo" },
-              { label: "AVCB para Condomínio", href: "/avcb-condominio-sao-paulo" },
+              { label: "AVCB para Condomínio", href: "/avcb-para-condominio-sao-paulo" },
               { label: "AVCB para Escola", href: "/avcb-para-escola-sao-paulo" },
             ].map((link, idx) => (
               <Link

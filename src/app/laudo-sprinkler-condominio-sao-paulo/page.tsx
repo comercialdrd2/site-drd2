@@ -138,7 +138,7 @@ const data: UniversalPageData = {
     { href: "/sprinklers", label: "Sistema de Sprinklers SP" },
     { href: "/laudo-hidrante-condominio-sao-paulo", label: "Laudo de Hidrante — Condomínio" },
     { href: "/laudo-alarme-incendio-condominio-sao-paulo", label: "Laudo de Alarme — Condomínio" },
-    { href: "/avcb-condominio-sao-paulo", label: "AVCB para Condomínio em SP" },
+    { href: "/avcb-para-condominio-sao-paulo", label: "AVCB para Condomínio em SP" },
     { href: "/empresa-avcb-sao-paulo", label: "Empresa de AVCB em SP" },
   ],
   ctaFinal: {

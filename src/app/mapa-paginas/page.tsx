@@ -291,7 +291,7 @@ const renovacaoClcbBairros = [
 ];
 
 const ocupacoes = [
-  { label: "Condomínio", href: "/avcb-condominio-sao-paulo" },
+  { label: "Condomínio", href: "/avcb-para-condominio-sao-paulo" },
   { label: "Hospital / Clínica", href: "/avcb-hospital-clinica-sao-paulo" },
   { label: "Escola / Faculdade", href: "/avcb-para-escola-sao-paulo" },
   { label: "Restaurantes e Bares", href: "/avcb-restaurante-sao-paulo" },
@@ -337,9 +337,9 @@ const alvaraBombeiro = [
   { label: "Salão de Festas", href: "/alvara-bombeiro-salao-de-festas-sao-paulo" },
   { label: "Casa Noturna / Boate", href: "/alvara-bombeiro-casa-noturna-boate-sao-paulo" },
   { label: "Consultório Médico", href: "/alvara-bombeiro-consultorio-medico-sao-paulo" },
-  { label: "Restaurante (específico)", href: "/alvara-bombeiro-restaurante-sao-paulo" },
-  { label: "Pousada (específico)", href: "/alvara-bombeiro-pousada-sao-paulo" },
-  { label: "Escola (específico)", href: "/alvara-bombeiro-escola-sao-paulo" },
+  { label: "Restaurante (específico)", href: "/alvara-bombeiro-bar-restaurante-sao-paulo" },
+  { label: "Pousada (específico)", href: "/alvara-bombeiro-hotel-pousada-sao-paulo" },
+  { label: "Escola (específico)", href: "/alvara-bombeiro-escola-faculdade-sao-paulo" },
 ];
 
 const laudosBombeiro = [
