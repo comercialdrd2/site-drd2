@@ -22,6 +22,20 @@ export default function Footer() {
             <p className="text-sm text-slate-400 font-medium leading-relaxed italic">
               Excelência técnica em projetos de combate a incêndio, proteção à vida e consultoria patrimonial de alto rigor.
             </p>
+
+            {/* Mesma empresa, outra frente de atuação — sinaliza ao Google que os dois domínios são a mesma DRD2 Engenharia */}
+            <div className="bg-slate-900 border border-slate-800 p-4 rounded-xl">
+              <p className="text-slate-400 text-xs leading-relaxed">
+                A DRD2 Engenharia também cuida de <strong className="text-white">Alvará de Funcionamento, laudos técnicos e regularização de imóveis</strong>.
+              </p>
+              <a
+                href="https://site-alvaras-v2.vercel.app"
+                className="inline-flex items-center gap-1.5 mt-2 text-sm font-black uppercase tracking-tight text-primary hover:text-white transition-colors"
+              >
+                Ver alvarás e regularização →
+              </a>
+            </div>
+
             <div className="bg-slate-900 border border-slate-800 p-4 rounded-xl shadow-inner flex items-center gap-4">
               <div className="relative w-12 h-12 shrink-0 rounded-full overflow-hidden border-2 border-slate-700 shadow-md">
                 <Image 
