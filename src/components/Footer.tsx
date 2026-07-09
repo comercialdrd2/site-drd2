@@ -29,7 +29,7 @@ export default function Footer() {
                 A DRD2 Engenharia também cuida de <strong className="text-white">Alvará de Funcionamento, laudos técnicos e regularização de imóveis</strong>.
               </p>
               <a
-                href="https://site-alvaras-v2.vercel.app"
+                href="https://drd1.com.br"
                 className="inline-flex items-center gap-1.5 mt-2 text-sm font-black uppercase tracking-tight text-primary hover:text-white transition-colors"
               >
                 Ver alvarás e regularização →
