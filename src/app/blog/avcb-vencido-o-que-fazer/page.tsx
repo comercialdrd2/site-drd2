@@ -28,16 +28,16 @@ export default function AVCBVencidoPost() {
     "@graph": [
       {
         "@type": "Article",
-        "@id": "https://drd2.com.br/blog/avcb-vencido-o-que-fazer/#article",
+        "@id": "https://www.drd2.com.br/blog/avcb-vencido-o-que-fazer/#article",
         "headline": "AVCB Vencido: O Que Fazer Agora, Quais os Riscos e Como Se Regularizar",
         "description": "Guia técnico sobre as consequências de operar com AVCB vencido e o passo a passo para a regularização imediata em São Paulo.",
-        "author": { "@type": "Person", "@id": "https://drd2.com.br/#samuel-costa" },
-        "publisher": { "@id": "https://drd2.com.br/#organization" },
+        "author": { "@type": "Person", "@id": "https://www.drd2.com.br/#samuel-costa" },
+        "publisher": { "@id": "https://www.drd2.com.br/#organization" },
         "datePublished": "2026-04-14",
         "dateModified": "2026-05-04",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://drd2.com.br/blog/avcb-vencido-o-que-fazer"
+          "@id": "https://www.drd2.com.br/blog/avcb-vencido-o-que-fazer"
         }
       }
     ]

@@ -29,16 +29,16 @@ export default function ComoTirarAVCBPost() {
     "@graph": [
       {
         "@type": "Article",
-        "@id": "https://drd2.com.br/blog/como-tirar-avcb-em-sao-paulo/#article",
+        "@id": "https://www.drd2.com.br/blog/como-tirar-avcb-em-sao-paulo/#article",
         "headline": "Como Tirar o AVCB em São Paulo: Passo a Passo Completo e Atualizado",
         "description": "Guia técnico sobre o processo de obtenção do AVCB em São Paulo, cobrindo desde a contratação do engenheiro até a vistoria final.",
-        "author": { "@type": "Person", "@id": "https://drd2.com.br/#samuel-costa" },
-        "publisher": { "@id": "https://drd2.com.br/#organization" },
+        "author": { "@type": "Person", "@id": "https://www.drd2.com.br/#samuel-costa" },
+        "publisher": { "@id": "https://www.drd2.com.br/#organization" },
         "datePublished": "2026-04-13",
         "dateModified": "2026-05-04",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://drd2.com.br/blog/como-tirar-avcb-em-sao-paulo"
+          "@id": "https://www.drd2.com.br/blog/como-tirar-avcb-em-sao-paulo"
         }
       }
     ]

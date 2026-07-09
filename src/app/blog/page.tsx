@@ -4,7 +4,7 @@ import Image from "next/image";
 import { JsonLD } from "@/components/JsonLD";
 import { BookOpen, ArrowRight } from "lucide-react";
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://drd2.com.br";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.drd2.com.br";
 
 export const metadata = {
   title: "Blog DRD2 Engenharia | Segurança Contra Incêndio em SP",

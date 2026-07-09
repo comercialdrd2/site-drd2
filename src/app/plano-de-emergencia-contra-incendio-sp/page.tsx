@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Plano de Emergência contra Incêndio em São Paulo | DRD2 Engenharia",
   description: "Elaboração de Plano de Emergência contra Incêndio conforme IT-16 do CBPMESP. Regularização para indústrias, condomínios e galpões. Diagnóstico gratuito.",
   alternates: {
-    canonical: "https://drd2.com.br/plano-de-emergencia-contra-incendio-sp",
+    canonical: "https://www.drd2.com.br/plano-de-emergencia-contra-incendio-sp",
   },
 };
 

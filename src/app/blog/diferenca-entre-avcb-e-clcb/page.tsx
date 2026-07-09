@@ -28,16 +28,16 @@ export default function DiferencaAVCBCLCBPost() {
     "@graph": [
       {
         "@type": "Article",
-        "@id": "https://drd2.com.br/blog/diferenca-entre-avcb-e-clcb/#article",
+        "@id": "https://www.drd2.com.br/blog/diferenca-entre-avcb-e-clcb/#article",
         "headline": "Diferença Entre AVCB e CLCB: Qual Certificado Sua Edificação Realmente Precisa?",
         "description": "Comparativo técnico entre AVCB e CLCB, explicando critérios de enquadramento, custos e prazos para regularização de incêndio em São Paulo.",
-        "author": { "@type": "Person", "@id": "https://drd2.com.br/#samuel-costa" },
-        "publisher": { "@id": "https://drd2.com.br/#organization" },
+        "author": { "@type": "Person", "@id": "https://www.drd2.com.br/#samuel-costa" },
+        "publisher": { "@id": "https://www.drd2.com.br/#organization" },
         "datePublished": "2026-04-16",
         "dateModified": "2026-05-04",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://drd2.com.br/blog/diferenca-entre-avcb-e-clcb"
+          "@id": "https://www.drd2.com.br/blog/diferenca-entre-avcb-e-clcb"
         }
       }
     ]

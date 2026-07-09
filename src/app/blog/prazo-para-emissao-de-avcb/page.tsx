@@ -24,16 +24,16 @@ export default function PrazoAVCBPost() {
     "@graph": [
       {
         "@type": "Article",
-        "@id": "https://drd2.com.br/blog/prazo-para-emissao-de-avcb/#article",
+        "@id": "https://www.drd2.com.br/blog/prazo-para-emissao-de-avcb/#article",
         "headline": "Prazo para Emissão do AVCB em São Paulo: Quanto Tempo Realmente Leva?",
         "description": "Guia completo sobre os prazos de emissão de AVCB em São Paulo, detalhando cada etapa desde o diagnóstico até o certificado final.",
-        "author": { "@type": "Person", "@id": "https://drd2.com.br/#samuel-costa" },
-        "publisher": { "@id": "https://drd2.com.br/#organization" },
+        "author": { "@type": "Person", "@id": "https://www.drd2.com.br/#samuel-costa" },
+        "publisher": { "@id": "https://www.drd2.com.br/#organization" },
         "datePublished": "2026-04-15",
         "dateModified": "2026-05-04",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://drd2.com.br/blog/prazo-para-emissao-de-avcb"
+          "@id": "https://www.drd2.com.br/blog/prazo-para-emissao-de-avcb"
         }
       }
     ]

@@ -23,7 +23,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://drd2engenharia.com.br"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://www.drd2.com.br"),
   verification: {
     google: "hYaQLsIyW6x65LZONbO9Xi-PffEJp-4-d_AfxvyNVmM",
   },

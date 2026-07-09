@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AVCB para Galpão Industrial em SP: Processo e Prazos | DRD2",
     description: "Regularização completa para galpões, armazéns e centros de distribuição. Especialistas em Grupos I e J.",
-    url: "https://drd2.com.br/avcb-galpao-industrial-sao-paulo",
+    url: "https://www.drd2.com.br/avcb-galpao-industrial-sao-paulo",
     type: "website",
     locale: "pt_BR",
   },

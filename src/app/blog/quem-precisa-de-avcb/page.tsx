@@ -29,16 +29,16 @@ export default function QuemPrecisaAVCBPost() {
     "@graph": [
       {
         "@type": "Article",
-        "@id": "https://drd2.com.br/blog/quem-precisa-de-avcb/#article",
+        "@id": "https://www.drd2.com.br/blog/quem-precisa-de-avcb/#article",
         "headline": "Quem Precisa de AVCB em São Paulo? Guia Completo por Tipo de Edificação",
         "description": "Guia detalhado sobre a obrigatoriedade do AVCB em São Paulo, cobrindo condomínios, comércios, indústrias e outros setores.",
-        "author": { "@type": "Person", "@id": "https://drd2.com.br/#samuel-costa" },
-        "publisher": { "@id": "https://drd2.com.br/#organization" },
+        "author": { "@type": "Person", "@id": "https://www.drd2.com.br/#samuel-costa" },
+        "publisher": { "@id": "https://www.drd2.com.br/#organization" },
         "datePublished": "2026-04-17",
         "dateModified": "2026-05-04",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://drd2.com.br/blog/quem-precisa-de-avcb"
+          "@id": "https://www.drd2.com.br/blog/quem-precisa-de-avcb"
         }
       }
     ]
