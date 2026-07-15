@@ -21,38 +21,88 @@ import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import NeighborhoodSilo from "@/components/NeighborhoodSilo";
 import { bairrosCondominio } from "@/data/bairros-renovacao";
+import { cidadesExpansao } from "@/data/expansao-cidades";
 
-type Mode = "avcb" | "renovacao";
+type Mode = "avcb" | "renovacao" | "clcb" | "clcb-cidade" | "condominio";
 
 type LocalNeighborhoodSeoLandingProps = {
   neighborhood: LocalNeighborhoodSeoPage;
   mode: Mode;
+  /** Desativar quando existir página irmã do mesmo bairro usando o mesmo conteúdo rico (evita duplicação). */
+  useRichData?: boolean;
 };
 
 function pageCopy(neighborhood: LocalNeighborhoodSeoPage, mode: Mode) {
-  const isRenewal = mode === "renovacao";
-  const slug = isRenewal ? `/renovacao-avcb-${neighborhood.slug}` : `/avcb-${neighborhood.slug}`;
-  const title = isRenewal
-    ? `Renovação AVCB ${neighborhood.name} SP`
-    : `AVCB ${neighborhood.name} SP | Regularização Bombeiros`;
-  
-  const description = isRenewal
-    ? `Renovação de AVCB no ${neighborhood.name} para imóveis do tipo ${neighborhood.profile}. Atendemos a ${neighborhood.zone} com projetos, laudos, ARTs e vistoria técnica.`
-    : `Regularização e emissão de AVCB no bairro ${neighborhood.name} (${neighborhood.zone}). Especialistas em adequação de ${neighborhood.profile} com engenharia completa.`;
-  
-  const h1 = isRenewal
-    ? `Renovação AVCB ${neighborhood.name}: laudos, vistoria e regularizacao`
-    : `AVCB ${neighborhood.name}: regularizacao com engenheiro em Sao Paulo`;
-  const serviceName = isRenewal
-    ? `Renovacao de AVCB em ${neighborhood.name}`
-    : `AVCB em ${neighborhood.name}`;
-
-  return { isRenewal, slug, title, description, h1, serviceName };
+  const n = neighborhood;
+  switch (mode) {
+    case "renovacao":
+      return {
+        isRenewal: true,
+        docName: "AVCB",
+        slug: `/renovacao-avcb-${n.slug}`,
+        title: `Renovação AVCB ${n.name} SP`,
+        description: `Renovação de AVCB no ${n.name} para imóveis do tipo ${n.profile}. Atendemos a ${n.zone} com projetos, laudos, ARTs e vistoria técnica.`,
+        h1: `Renovação AVCB ${n.name}: laudos, vistoria e regularizacao`,
+        serviceName: `Renovacao de AVCB em ${n.name}`,
+        hero: `Renovacao de AVCB em ${n.name} com revisao de laudos, sistemas de incendio, ARTs, projeto aprovado e preparação para vistoria.`,
+        pillarHref: "/renovacao-avcb",
+        pillarLabel: "Renovação AVCB",
+      };
+    case "clcb":
+    case "clcb-cidade":
+      return {
+        isRenewal: true,
+        docName: "CLCB",
+        slug: mode === "clcb" ? `/renovacao-clcb-${n.slug}-sao-paulo` : `/renovacao-clcb-${n.slug}`,
+        title: `Renovação CLCB ${n.name} SP | Licença Corpo de Bombeiros`,
+        description: `Renovação de CLCB no ${n.name} (${n.zone}) para comércios e imóveis de menor risco: ${n.buildings.slice(0, 3).join(", ")}. Processo com engenheiro, ART e emissão pelo Via Fácil Bombeiros.`,
+        h1: `Renovação CLCB ${n.name}: licenca do Corpo de Bombeiros para seu comercio`,
+        serviceName: `Renovacao de CLCB em ${n.name}`,
+        hero: `Renovacao de CLCB em ${n.name} para imóveis de menor risco: conferencia de enquadramento, medidas de seguranca, ART e emissao pelo Via Facil Bombeiros, sem travar a operacao do seu negocio.`,
+        pillarHref: "/renovacao-clcb-sao-paulo",
+        pillarLabel: "Renovação CLCB",
+      };
+    case "condominio":
+      return {
+        isRenewal: true,
+        docName: "AVCB",
+        slug: `/renovacao-avcb-condominio-${n.slug}`,
+        title: `Renovação AVCB Condomínio ${n.name} SP`,
+        description: `Renovação de AVCB para condomínios no ${n.name} (${n.zone}). Atendimento a síndicos e administradoras: laudos, ARTs, adequações e acompanhamento da vistoria do Corpo de Bombeiros.`,
+        h1: `Renovação AVCB de condominio em ${n.name}`,
+        serviceName: `Renovacao de AVCB de condominio em ${n.name}`,
+        hero: `Renovacao de AVCB de condominios em ${n.name}: revisao de hidrantes, alarme, iluminacao de emergencia e portas corta-fogo, com laudos, ARTs e acompanhamento da vistoria — tudo reportado ao sindico.`,
+        pillarHref: "/avcb-para-condominio-sao-paulo",
+        pillarLabel: "AVCB para Condomínio",
+      };
+    default:
+      return {
+        isRenewal: false,
+        docName: "AVCB",
+        slug: `/avcb-${n.slug}`,
+        title: `AVCB ${n.name} SP | Regularização Bombeiros`,
+        description: `Regularização e emissão de AVCB no bairro ${n.name} (${n.zone}). Especialistas em adequação de ${n.profile} com engenharia completa.`,
+        h1: `AVCB ${n.name}: regularizacao com engenheiro em Sao Paulo`,
+        serviceName: `AVCB em ${n.name}`,
+        hero: `Regularizacao de AVCB e CLCB em ${n.name} com diagnostico tecnico, projeto, laudos, ARTs e acompanhamento junto ao Corpo de Bombeiros.`,
+        pillarHref: "/avcb-sao-paulo",
+        pillarLabel: "AVCB São Paulo",
+      };
+  }
 }
 
-function faqsFor(neighborhood: LocalNeighborhoodSeoPage, mode: Mode) {
-  const { isRenewal } = pageCopy(neighborhood, mode);
-  const richData = bairrosCondominio.find((b) => b.slug === neighborhood.slug);
+function richDataFor(neighborhood: LocalNeighborhoodSeoPage, mode: Mode) {
+  // Conteúdo rico dos data files é focado em AVCB/condomínio — não usar em páginas CLCB
+  if (mode === "clcb" || mode === "clcb-cidade") return undefined;
+  return (
+    bairrosCondominio.find((b) => b.slug === neighborhood.slug) ??
+    cidadesExpansao.find((b) => b.slug === neighborhood.slug)
+  );
+}
+
+function faqsFor(neighborhood: LocalNeighborhoodSeoPage, mode: Mode, useRichData = true) {
+  const { isRenewal, docName } = pageCopy(neighborhood, mode);
+  const richData = useRichData ? richDataFor(neighborhood, mode) : undefined;
 
   if (richData && richData.faq1q) {
     return [
@@ -66,8 +116,8 @@ function faqsFor(neighborhood: LocalNeighborhoodSeoPage, mode: Mode) {
   return [
     {
       question: isRenewal
-        ? `Quanto tempo leva para renovar AVCB em ${neighborhood.name}?`
-        : `Quanto tempo leva para tirar AVCB em ${neighborhood.name}?`,
+        ? `Quanto tempo leva para renovar ${docName} em ${neighborhood.name}?`
+        : `Quanto tempo leva para tirar ${docName} em ${neighborhood.name}?`,
       answer: `O prazo depende de area, ocupacao, sistemas existentes, pendencias de laudo e necessidade de projeto. Em ${neighborhood.name}, o ideal e iniciar com diagnostico documental e vistoria tecnica para evitar exigencias previsiveis no CBPMESP.`,
     },
     {
@@ -79,8 +129,8 @@ function faqsFor(neighborhood: LocalNeighborhoodSeoPage, mode: Mode) {
       answer: `Sim. A DRD2 atende o bairro ${neighborhood.name} e regioes proximas como ${neighborhood.nearby.join(", ")}, com diagnostico tecnico, orientacao documental, adequacoes e acompanhamento do processo.`,
     },
     {
-      question: "AVCB vencido pode gerar multa ou interdição?",
-      answer: "Sim. AVCB vencido aumenta risco de autuacao, interdição, recusa de seguro, problema com alvará e responsabilidade civil em caso de sinistro. A renovacao deve ser iniciada antes do vencimento.",
+      question: `${docName} vencido pode gerar multa ou interdição?`,
+      answer: `Sim. ${docName} vencido aumenta risco de autuacao, interdição, recusa de seguro, problema com alvará e responsabilidade civil em caso de sinistro. A renovacao deve ser iniciada antes do vencimento.`,
     },
     {
       question: "Como saber se o imóvel precisa de AVCB ou CLCB?",
@@ -89,11 +139,11 @@ function faqsFor(neighborhood: LocalNeighborhoodSeoPage, mode: Mode) {
   ];
 }
 
-export default function LocalNeighborhoodSeoLanding({ neighborhood, mode }: LocalNeighborhoodSeoLandingProps) {
+export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRichData = true }: LocalNeighborhoodSeoLandingProps) {
   const whatsappLink = `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`;
   const copy = pageCopy(neighborhood, mode);
-  const faqs = faqsFor(neighborhood, mode);
-  const richData = bairrosCondominio.find((b) => b.slug === neighborhood.slug);
+  const faqs = faqsFor(neighborhood, mode, useRichData);
+  const richData = useRichData ? richDataFor(neighborhood, mode) : undefined;
   
   const schema = generateMasterSchema({
     slug: copy.slug,
@@ -104,7 +154,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode }: Loca
     faqs,
     breadcrumbs: [
       { name: "Home", item: "/" },
-      { name: copy.isRenewal ? "Renovação AVCB" : "AVCB São Paulo", item: copy.isRenewal ? "/renovacao-avcb" : "/avcb-sao-paulo" },
+      { name: copy.pillarLabel, item: copy.pillarHref },
       { name: neighborhood.name, item: copy.slug },
     ],
   });
@@ -133,9 +183,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode }: Loca
               {copy.h1}
             </h1>
             <p className="text-base md:text-lg text-gray-200 mb-7 leading-relaxed font-medium max-w-2xl border-l-4 border-red-600 pl-6 py-1">
-              {copy.isRenewal
-                ? `Renovacao de AVCB em ${neighborhood.name} com revisao de laudos, sistemas de incendio, ARTs, projeto aprovado e preparação para vistoria.`
-                : `Regularizacao de AVCB e CLCB em ${neighborhood.name} com diagnostico tecnico, projeto, laudos, ARTs e acompanhamento junto ao Corpo de Bombeiros.`}
+              {copy.hero}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -148,7 +196,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode }: Loca
                 Falar com engenheiro
               </a>
               <Link
-                href={copy.isRenewal ? "/renovacao-avcb" : "/avcb-sao-paulo"}
+                href={copy.pillarHref}
                 className="bg-white/10 hover:bg-white/20 text-white font-black px-8 py-4 rounded-2xl transition-all flex sm:inline-flex items-center justify-center gap-3 uppercase tracking-tighter text-base w-full sm:w-auto border border-white/20"
               >
                 Ver página pilar
@@ -161,7 +209,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode }: Loca
       <BreadcrumbNav
         items={[
           { label: "Home", href: "/" },
-          { label: copy.isRenewal ? "Renovação AVCB" : "AVCB São Paulo", href: copy.isRenewal ? "/renovacao-avcb" : "/avcb-sao-paulo" },
+          { label: copy.pillarLabel, href: copy.pillarHref },
           { label: neighborhood.name },
         ]}
         dark
@@ -246,7 +294,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode }: Loca
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             <div>
               <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-7 uppercase italic tracking-tight">
-                O que pode travar {copy.isRenewal ? "a renovacao" : "a emissão"} do AVCB
+                O que pode travar {copy.isRenewal ? "a renovacao" : "a emissão"} do {copy.docName}
               </h2>
               <div className="space-y-5 text-slate-700 text-lg leading-relaxed font-medium">
                 <p>
@@ -487,7 +535,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode }: Loca
         <div className="container mx-auto px-4 max-w-5xl relative z-10 text-center">
           <ShieldCheck className="w-16 h-16 mx-auto mb-6 text-red-200" />
           <h2 className="text-4xl md:text-6xl font-black mb-8 uppercase tracking-tighter leading-tight italic">
-            Não espere o AVCB travar em {neighborhood.name}
+            Não espere o {copy.docName} travar em {neighborhood.name}
           </h2>
           <p className="text-xl md:text-2xl mb-10 font-bold opacity-95 max-w-3xl mx-auto">
             {richData && richData.ctaFinal 

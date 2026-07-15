@@ -33,3 +33,5 @@ yarn-error.log*
 .windsurf/
 audit_raw.json
 auto_fix_report.txt
+
+.vercel

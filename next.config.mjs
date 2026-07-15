@@ -212,18 +212,8 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/avcb-pousada-sao-paulo',
-        destination: '/avcb-hoteis-pousadas-sao-paulo',
-        permanent: true,
-      },
-      {
         source: '/avcb-para-pousada-sao-paulo',
         destination: '/avcb-hoteis-pousadas-sao-paulo',
-        permanent: true,
-      },
-      {
-        source: '/avcb-escola-faculdade-sao-paulo',
-        destination: '/avcb-para-escola-sao-paulo',
         permanent: true,
       },
       // Serviços legados → páginas dedicadas
@@ -245,7 +235,6 @@ const nextConfig = {
       { source: '/brigada', destination: '/treinamento-brigada', permanent: true },
       { source: '/avcb-preco', destination: '/quanto-custa-avcb-sao-paulo', permanent: true },
       // Edifício residencial → condomínio (mesma intenção, página customizada mais rica existe)
-      { source: '/sistema-hidrante-edificio-residencial-avcb-sp', destination: '/sistema-de-hidrantes-para-condominio-sao-paulo', permanent: true },
       // Doorway pairs — consolidação de intenção duplicada
       { source: '/sistema-hidrante-galpao-industrial-avcb-sp', destination: '/sistema-de-hidrantes-para-galpao-sao-paulo', permanent: true },
       { source: '/sistema-alarme-incendio-galpao-industrial-avcb-sp', destination: '/alarme-de-incendio-galpao-industrial-sp', permanent: true },
@@ -255,12 +244,6 @@ const nextConfig = {
       { source: '/sistema-hidrante-industria-quimica-sp', destination: '/sistema-de-hidrantes-para-industria-sao-paulo', permanent: true },
       { source: '/sistema-sprinkler-industria-quimica-sp', destination: '/sistema-de-sprinkler-para-industria-sao-paulo', permanent: true },
       // Páginas canibalizantes — consolidação de autoridade
-      { source: '/alvara-bombeiro-escola-sao-paulo', destination: '/alvara-bombeiro-escola-faculdade-sao-paulo', permanent: true },
-      { source: '/alvara-bombeiro-restaurante-sao-paulo', destination: '/alvara-bombeiro-bar-restaurante-sao-paulo', permanent: true },
-      { source: '/alvara-bombeiro-pousada-sao-paulo', destination: '/alvara-bombeiro-hotel-pousada-sao-paulo', permanent: true },
-      { source: '/laudo-bombeiro-escola-sao-paulo', destination: '/laudo-bombeiro-escola-faculdade-sao-paulo', permanent: true },
-      { source: '/laudo-bombeiro-restaurante-sao-paulo', destination: '/laudo-bombeiro-bar-restaurante-sao-paulo', permanent: true },
-      { source: '/laudo-bombeiro-pousada-sao-paulo', destination: '/laudo-bombeiro-hotel-pousada-sao-paulo', permanent: true },
       { source: '/avcb-condominio-sao-paulo', destination: '/avcb-para-condominio-sao-paulo', permanent: true },
       // Blog — consolidação de posts canibalizando (mesma intenção de busca)
       { source: '/blog/quanto-tempo-demora-para-emitir-o-avcb-sp', destination: '/blog/prazo-para-emissao-de-avcb', permanent: true },
@@ -275,6 +258,8 @@ const nextConfig = {
       { source: '/blog/como-regularizar-condominio-corpo-de-bombeiros', destination: '/avcb-para-condominio-sao-paulo', permanent: true },
       { source: '/blog/diferenca-entre-avcb-e-ptotep-eventos', destination: '/diferenca-avcb-ptotep', permanent: true },
       { source: '/blog/alarme-incendio-galpao-industrial-obrigatorio-sp', destination: '/alarme-de-incendio-galpao-industrial-sp', permanent: true },
+      // URLs antigas renomeadas — redirect para a página do MESMO bairro (restauração jul/2026)
+      { source: '/avcb-barueri-alphaville', destination: '/avcb-alphaville-barueri', permanent: true },
     ];
   },
 };

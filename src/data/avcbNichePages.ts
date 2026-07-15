@@ -282,6 +282,277 @@ export const avcbNichePages: AvcbNichePage[] = [
       { label: "AVCB em Sao Paulo", href: "/avcb-sao-paulo" },
     ],
   },
+  {
+    slug: "/avcb-pousada-sao-paulo",
+    label: "AVCB para pousada",
+    title: "AVCB para Pousada em SP | Regularizacao no Corpo de Bombeiros | DRD2",
+    description:
+      "AVCB e CLCB para pousada em Sao Paulo. Casas adaptadas para hospedagem, deteccao, rotas de fuga, GLP de cozinha e regularizacao completa no Corpo de Bombeiros.",
+    eyebrow: "Grupo B - hospedagem - regularizacao em SP",
+    h1: "AVCB para Pousada em Sao Paulo",
+    lead:
+      "Pousada nao e hotel pequeno: quase sempre e uma casa ou sobrado adaptado para hospedagem, com quartos criados em reforma, cozinha com GLP e hospedes dormindo no imovel. Esse conjunto muda o risco e o Corpo de Bombeiros trata o caso com leitura propria.",
+    focusTitle: "Casa adaptada e o ponto critico",
+    focus:
+      "A maioria das pousadas nasce de imovel residencial reformado. Corredores estreitos, escadas unicas, quartos em mezanino e cozinha com botijao exigem avaliacao de rota de fuga, deteccao e enquadramento antes do protocolo. A DRD2 define se o caso fecha em CLCB, Projeto Tecnico Simplificado ou AVCB com vistoria.",
+    heroImage: "/images/banner-hero.jpg",
+    imageAlt: "Fachada de pousada urbana regularizada no Corpo de Bombeiros",
+    ctaOccupation: "pousada",
+    groupLabel: "B-1",
+    groupDesc:
+      "Hotel e assemelhado — inclui pousadas, hospedarias e pensoes. Com hospedes pernoitando, as exigencias de deteccao, alarme, iluminacao e saidas sobem em relacao a uma residencia comum, mesmo em imovel pequeno.",
+    contextTitle: "Por que pousada tem leitura propria",
+    context: [
+      "Hospede dormindo e o cenario de maior risco em incendio: a deteccao precoce e as rotas iluminadas pesam mais que em comercio diurno.",
+      "Reformas para criar quartos costumam alterar rotas, ventilacao e carga eletrica sem atualizacao de projeto.",
+      "Plataformas de reserva e a fiscalizacao municipal cobram a regularidade — pousada sem licenca perde anuncio e pode ser interditada.",
+    ],
+    risksTitle: "O que mais trava pousadas",
+    risks: [
+      "imovel residencial operando hospedagem sem novo enquadramento",
+      "escada unica e corredores estreitos sem compensacao tecnica",
+      "cozinha com GLP sem central ou sem ventilacao adequada",
+      "quartos em mezanino ou edicula fora da planta",
+      "deteccao de fumaca e iluminacao de emergencia ausentes nos quartos e rotas",
+      "documentacao de manutencao inexistente",
+    ],
+    requirementsTitle: "Exigencias comuns no AVCB de pousada",
+    requirements: [
+      { it: "IT-02", title: "Enquadramento B-1", desc: "Confirma se o caso e CLCB, Projeto Simplificado ou AVCB com vistoria conforme area, altura e numero de quartos." },
+      { it: "IT-08", title: "Saidas de emergencia", desc: "Rotas dos quartos ate a rua, largura de corredores e escadas, e abertura das portas no sentido de fuga." },
+      { it: "IT-16 / IT-20", title: "Extintores e sinalizacao", desc: "Distribuicao por pavimento, classes corretas e placas fotoluminescentes nas rotas." },
+      { it: "IT-18", title: "Iluminacao de emergencia", desc: "Autonomia minima nas rotas, escadas e areas comuns — critica para fuga noturna." },
+      { it: "IT-28", title: "GLP", desc: "Central de gas, abrigo ventilado e teste de estanqueidade da linha da cozinha." },
+      { it: "IT-19", title: "Deteccao e alarme", desc: "Conforme porte, deteccao de fumaca nos quartos e acionadores nas rotas." },
+    ],
+    documents: [
+      "CNPJ ou dados do responsavel e do imovel",
+      "IPTU, area construida, pavimentos e numero de quartos",
+      "planta ou croqui atualizado com a configuracao real",
+      "comprovantes de extintores, iluminacao e manutencoes",
+      "teste de estanqueidade e documentos do GLP quando houver",
+      "ARTs de sistemas e reformas quando aplicavel",
+    ],
+    process: [
+      "diagnostico do imovel e do uso real (quartos, lotacao, cozinha, areas comuns)",
+      "definicao do enquadramento correto no Corpo de Bombeiros",
+      "adequacao de deteccao, iluminacao, extintores, sinalizacao e GLP",
+      "emissao de laudos e ARTs necessarios",
+      "protocolo no Via Facil Bombeiros e acompanhamento ate a emissao",
+    ],
+    failures: [
+      "operar como residencia no papel e pousada na pratica",
+      "criar quartos em reforma sem revisar rota de fuga",
+      "manter botijoes dentro da cozinha sem central",
+      "esquecer deteccao nos quartos — item que reprova direto",
+      "deixar a regularizacao para depois da alta temporada",
+    ],
+    faqs: [
+      { question: "Pousada pequena precisa de AVCB?", answer: "Precisa de licenca do Corpo de Bombeiros — CLCB ou AVCB conforme area, altura e risco. O fato de ser pequena nao dispensa; hospedagem tem exigencias proprias por ter pessoas dormindo." },
+      { question: "Casa adaptada consegue AVCB?", answer: "Consegue, desde que rotas, deteccao, iluminacao, extintores e GLP sejam adequados. O diagnostico tecnico define as menores intervencoes possiveis para aprovar." },
+      { question: "Booking e Airbnb pedem AVCB?", answer: "As plataformas e a prefeitura cobram regularidade do estabelecimento. Alem da exigencia legal, a licenca protege o negocio em caso de sinistro e fiscalizacao." },
+      { question: "Quanto tempo leva?", answer: "Casos simples de CLCB saem em semanas; AVCB com vistoria e adequacoes pede mais prazo. Comecar antes da temporada evita operar irregular no pico." },
+    ],
+    related: [
+      { label: "AVCB para hoteis e pousadas", href: "/avcb-hoteis-pousadas-sao-paulo" },
+      { label: "Alvara bombeiro hotel e pousada", href: "/alvara-bombeiro-hotel-pousada-sao-paulo" },
+      { label: "AVCB em Sao Paulo", href: "/avcb-sao-paulo" },
+    ],
+  },
+  {
+    slug: "/avcb-escola-faculdade-sao-paulo",
+    label: "AVCB para escola e faculdade",
+    title: "AVCB para Escola e Faculdade em SP | Corpo de Bombeiros | DRD2",
+    description:
+      "AVCB e CLCB para escolas, faculdades e cursos em Sao Paulo. Grupo E, evacuacao de alunos, laboratorios, auditorios e regularizacao completa no Corpo de Bombeiros.",
+    eyebrow: "Grupo E - educacional - regularizacao em SP",
+    h1: "AVCB para Escola e Faculdade em Sao Paulo",
+    lead:
+      "Escola e faculdade concentram muita gente jovem em salas, corredores e auditorios — e parte do publico precisa de ajuda para evacuar. Por isso o grupo educacional tem exigencias proprias de saidas, sinalizacao, brigada e plano de emergencia.",
+    focusTitle: "Evacuacao e o coracao do processo",
+    focus:
+      "O Corpo de Bombeiros olha a lotacao real por sala, a largura de corredores e escadas, o sentido das portas e o tempo de evacuacao. Laboratorios, cozinhas, quadras cobertas e auditorios entram com leituras adicionais. A DRD2 organiza o enquadramento e prepara a escola para aprovar sem refacao.",
+    heroImage: "/images/banner-hero.jpg",
+    imageAlt: "Corredor de escola com sinalizacao de emergencia regularizada",
+    ctaOccupation: "escola ou faculdade",
+    groupLabel: "E-1 a E-6",
+    groupDesc:
+      "Ocupacoes educacionais: escolas em geral, creches, pre-escolas, ensino fundamental e medio, faculdades, universidades, cursos livres, tecnicos e preparatorios.",
+    contextTitle: "Quando a escola precisa regularizar",
+    context: [
+      "Alvara de funcionamento, autorizacoes da rede de ensino e ate convenios exigem a licenca do Corpo de Bombeiros vigente.",
+      "Ampliacoes tipicas — salas novas, quadra coberta, laboratorio, cantina — alteram lotacao e rotas e pedem atualizacao do projeto.",
+      "Pais e mantenedoras cobram seguranca documentada; sinistro em escola tem repercussao e responsabilizacao imediatas.",
+    ],
+    risksTitle: "O que mais trava escolas e faculdades",
+    risks: [
+      "lotacao real das salas acima da prevista no projeto",
+      "portas abrindo contra o fluxo de fuga ou corredores estreitados por armarios",
+      "laboratorios com produtos quimicos sem leitura especifica",
+      "cantina com GLP sem central regularizada",
+      "brigada e plano de emergencia sem treinamento documentado",
+      "predios ampliados sem atualizacao da planta aprovada",
+    ],
+    requirementsTitle: "Exigencias comuns no AVCB educacional",
+    requirements: [
+      { it: "IT-02", title: "Enquadramento Grupo E", desc: "Define o processo pela area, altura, lotacao e riscos especificos (labs, cozinha, auditorio)." },
+      { it: "IT-08", title: "Saidas de emergencia", desc: "Largura de corredores e escadas pela lotacao, portas no sentido de fuga e rotas ate area segura." },
+      { it: "IT-16 / IT-20", title: "Extintores e sinalizacao", desc: "Cobertura por pavimento e sinalizacao fotoluminescente completa das rotas." },
+      { it: "IT-18", title: "Iluminacao de emergencia", desc: "Corredores, escadas, salas de grande lotacao e auditorios com autonomia garantida." },
+      { it: "IT-19", title: "Alarme de incendio", desc: "Acionadores e avisadores audiveis em todo o predio conforme o porte." },
+      { it: "IT-17", title: "Brigada e plano", desc: "Brigada dimensionada, treinada e com exercicios de abandono documentados." },
+    ],
+    documents: [
+      "CNPJ da mantenedora e dados do imovel",
+      "IPTU, area construida, pavimentos e lotacao por ambiente",
+      "planta ou croqui atualizado com todas as ampliacoes",
+      "comprovantes de extintores, alarme, iluminacao e manutencoes",
+      "atestado de brigada e plano de emergencia quando exigidos",
+      "ARTs de sistemas e do laudo eletrico",
+    ],
+    process: [
+      "diagnostico com levantamento de lotacao real e rotas",
+      "definicao do enquadramento e do caminho de menor intervencao",
+      "adequacoes de saidas, sinalizacao, alarme e iluminacao",
+      "treinamento e documentacao de brigada quando exigido",
+      "protocolo no Via Facil Bombeiros e acompanhamento da vistoria",
+    ],
+    failures: [
+      "matricular alem da lotacao aprovada no projeto",
+      "ampliar salas e quadras sem atualizar a planta",
+      "tratar laboratorio como sala comum",
+      "deixar o abandono de predio sem treino documentado",
+      "renovar em cima do prazo do ano letivo",
+    ],
+    faqs: [
+      { question: "Escola precisa de AVCB ou CLCB?", answer: "Depende de area, altura e lotacao. Escolas menores podem fechar em CLCB; predios maiores, com auditorios e laboratorios, normalmente exigem AVCB com projeto e vistoria." },
+      { question: "A vistoria olha a lotacao das salas?", answer: "Sim. A lotacao real por ambiente define largura de saidas e rotas. Divergencia entre matricula e projeto e causa classica de exigencia." },
+      { question: "Faculdade com varios predios regulariza junto?", answer: "Cada edificacao e avaliada, mas o processo pode ser organizado em conjunto. O diagnostico define a estrategia com menos vistorias e custo." },
+      { question: "Qual o melhor momento para renovar?", answer: "Nas ferias ou no inicio do semestre, com folga antes de fiscalizacoes e do vencimento — adequacoes fisicas em escola cheia sao mais caras e lentas." },
+    ],
+    related: [
+      { label: "AVCB para escola", href: "/avcb-para-escola-sao-paulo" },
+      { label: "Alvara bombeiro escola e faculdade", href: "/alvara-bombeiro-escola-faculdade-sao-paulo" },
+      { label: "AVCB em Sao Paulo", href: "/avcb-sao-paulo" },
+    ],
+  },
+  {
+    slug: "/avcb-para-renovacao-de-seguro",
+    label: "AVCB para renovacao de seguro",
+    title: "AVCB para Renovacao de Seguro Empresarial em SP | DRD2 Engenharia",
+    description:
+      "Seguradora pediu AVCB valido para renovar a apolice? Regularizamos AVCB e CLCB de empresas e condominios em Sao Paulo com projeto, laudos, ARTs e prazo compativel com a renovacao do seguro.",
+    eyebrow: "Exigencia da seguradora - regularizacao em SP",
+    h1: "AVCB para Renovacao de Seguro Empresarial e Condominial",
+    lead:
+      "Na renovacao da apolice, a seguradora ou a corretora pede o AVCB valido. Sem o documento, o premio sobe, a cobertura encolhe ou a proposta e recusada — e, em caso de sinistro com AVCB vencido, a indenizacao pode ser questionada por agravamento de risco.",
+    focusTitle: "Seguro e AVCB andam juntos",
+    focus:
+      "A analise de risco da seguradora usa o AVCB como prova de que os sistemas de seguranca existem e funcionam. A DRD2 organiza o processo de tras pra frente: prazo da renovacao da apolice, diagnostico do imovel, adequacoes minimas necessarias e protocolo no Corpo de Bombeiros com acompanhamento ate a emissao.",
+    heroImage: "/images/banner-hero.jpg",
+    imageAlt: "Engenheiro conferindo documentacao de seguranca contra incendio para seguro empresarial",
+    ctaOccupation: "empresa ou condominio com seguro a renovar",
+    groupLabel: "Todos",
+    groupDesc:
+      "Qualquer ocupacao pode ter o AVCB exigido pela seguradora: industria, galpao logistico, comercio, escritorio, condominio residencial ou corporativo. O enquadramento (CLCB, AVCB com vistoria ou Projeto Tecnico) depende de area, altura, uso e risco do imovel.",
+    contextTitle: "Quando a seguradora cobra o AVCB",
+    context: [
+      "Na contratacao ou renovacao de seguro empresarial, patrimonial ou condominial, a analise de risco pede o AVCB ou CLCB vigente do imovel.",
+      "Apos sinistros na regiao ou mudanca de perfil de risco, a seguradora pode exigir o documento mesmo no meio da vigencia.",
+      "Em caso de incendio com AVCB vencido, a seguradora pode alegar agravamento de risco e reduzir ou negar a indenizacao — o documento em dia protege o patrimonio duas vezes.",
+    ],
+    risksTitle: "O que mais trava a renovacao quando o seguro cobra prazo",
+    risks: [
+      "AVCB vencido ha anos, exigindo novo processo completo em vez de renovacao simples",
+      "planta aprovada divergente do layout atual apos reformas e ampliacoes",
+      "hidrantes sem teste, alarme desativado ou iluminacao de emergencia queimada",
+      "laudos e ARTs de sistemas vencidos ou inexistentes",
+      "prazo da apolice incompativel com o tempo de adequacao — comecar tarde e o erro mais caro",
+      "condominio com areas comuns regulares, mas unidades alteradas sem comunicacao",
+    ],
+    requirementsTitle: "O que o processo exige",
+    requirements: [
+      {
+        it: "IT-02",
+        title: "Enquadramento correto",
+        desc: "Define se o imovel renova por CLCB, AVCB com vistoria ou precisa de novo Projeto Tecnico — errar aqui consome o prazo da apolice.",
+      },
+      {
+        it: "IT-08",
+        title: "Saidas de emergencia",
+        desc: "Rotas, portas corta-fogo e escadas precisam corresponder a lotacao e ao layout real do imovel.",
+      },
+      {
+        it: "IT-16 / IT-20",
+        title: "Extintores e sinalizacao",
+        desc: "Cargas, validades, alturas e placas conferidas antes da vistoria — item classico de reprovacao.",
+      },
+      {
+        it: "IT-18",
+        title: "Iluminacao de emergencia",
+        desc: "Autonomia e cobertura das luminarias testadas e documentadas.",
+      },
+      {
+        it: "IT-41",
+        title: "Instalacoes eletricas",
+        desc: "Laudo eletrico com ART — tambem pedido por muitas seguradoras junto com o AVCB.",
+      },
+      {
+        it: "Laudos",
+        title: "ARTs e manutencoes",
+        desc: "Hidrantes, alarme, SPDA e gas com laudos validos e registro de manutencao — a seguradora confere datas.",
+      },
+    ],
+    documents: [
+      "apolice atual ou proposta de renovacao com a exigencia da seguradora",
+      "AVCB ou CLCB anterior, mesmo vencido",
+      "IPTU, area construida, pavimentos e uso real do imovel",
+      "planta ou croqui atualizado do layout",
+      "comprovantes de manutencao de extintores, alarme, hidrantes e iluminacao",
+      "ARTs e laudos existentes dos sistemas de seguranca",
+    ],
+    process: [
+      "levantamento do prazo da apolice e do que a seguradora exige exatamente",
+      "diagnostico do imovel e do historico no Corpo de Bombeiros",
+      "definicao do caminho mais rapido: renovacao simples, adequacao pontual ou novo projeto",
+      "execucao das adequacoes e emissao de laudos e ARTs",
+      "protocolo no Via Facil Bombeiros com acompanhamento ate a emissao e envio do documento a corretora",
+    ],
+    failures: [
+      "deixar para regularizar na semana da renovacao da apolice",
+      "enviar a seguradora um AVCB vencido achando que basta o protocolo",
+      "renovar o seguro sem AVCB e descobrir a exclusao de cobertura so no sinistro",
+      "tratar exigencia da seguradora e exigencia do Corpo de Bombeiros como processos separados",
+      "esquecer laudos eletricos e de sistemas que a analise de risco tambem pede",
+    ],
+    faqs: [
+      {
+        question: "A seguradora pode negar a renovacao sem AVCB?",
+        answer:
+          "Pode. O AVCB valido e um dos documentos da analise de risco. Sem ele, a seguradora pode recusar a proposta, aumentar o premio ou incluir exclusoes de cobertura para incendio.",
+      },
+      {
+        question: "Seguro paga se o AVCB estiver vencido no sinistro?",
+        answer:
+          "Ha risco real de reducao ou negativa por agravamento de risco, dependendo da apolice e do nexo do sinistro. Manter o AVCB em dia e protecao juridica alem da obrigacao legal.",
+      },
+      {
+        question: "Quanto tempo antes da renovacao devo comecar?",
+        answer:
+          "O ideal e 60 a 120 dias antes, dependendo do porte do imovel e das adequacoes necessarias. Processos simples de CLCB saem mais rapido; AVCB com vistoria e adequacoes pede folga.",
+      },
+      {
+        question: "A DRD2 fala direto com a corretora?",
+        answer:
+          "Sim. Alinhamos com a corretora o que a seguradora exige, emitimos os documentos tecnicos e enviamos o AVCB assim que publicado, com laudos e ARTs de apoio.",
+      },
+    ],
+    related: [
+      { label: "Renovacao de AVCB", href: "/renovacao-avcb" },
+      { label: "AVCB para condominio", href: "/avcb-para-condominio-sao-paulo" },
+      { label: "AVCB em Sao Paulo", href: "/avcb-sao-paulo" },
+    ],
+  },
 ];
 
 export const avcbNichePagesBySlug = Object.fromEntries(
