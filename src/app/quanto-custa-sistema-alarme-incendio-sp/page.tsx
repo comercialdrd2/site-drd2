@@ -17,7 +17,7 @@ const data: UniversalPageData = {
     "Esta página apresenta faixas de referência por porte e tipo de sistema, os principais fatores que encarecem o projeto e o que deve constar em qualquer orçamento completo para aprovação do AVCB. A DRD2 realiza diagnóstico técnico gratuito com escopo detalhado antes de qualquer proposta.",
   breadcrumbs: [
     { label: "Home", href: "/" },
-    { label: "Alarme de Incêndio", href: "/alarmes" },
+    { label: "Alarme de Incêndio", href: "/alarme-incendio-sao-paulo" },
     { label: "Quanto Custa Alarme SP" },
   ],
   occupationType: "comercial",
@@ -169,7 +169,7 @@ const data: UniversalPageData = {
     },
   ],
   linksInternos: [
-    { href: "/alarmes", label: "Alarme de Incêndio em SP" },
+    { href: "/alarme-incendio-sao-paulo", label: "Alarme de Incêndio em SP" },
     { href: "/quanto-custa-sistema-hidrante-sp", label: "Quanto Custa Hidrante" },
     { href: "/quanto-custa-sistema-sprinkler-sp", label: "Quanto Custa Sprinkler" },
     { href: "/avcb-sao-paulo", label: "AVCB em São Paulo" },

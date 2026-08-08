@@ -562,5 +562,6 @@ export function localNeighborhoodMetadata(neighborhood: LocalNeighborhoodSeoPage
     title: copy.title,
     description: copy.description,
     alternates: { canonical: copy.slug },
+    openGraph: { url: copy.slug },
   };
 }

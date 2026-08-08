@@ -20,6 +20,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
     alternates: {
       canonical: `/servicos/${service.slug}`,
     },
+    openGraph: { url: `/servicos/${service.slug}` },
   };
 }
 

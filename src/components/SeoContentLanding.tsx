@@ -43,6 +43,7 @@ export function generateSeoMetadata(content: SeoContent) {
     title: content.meta.title,
     description: content.meta.description,
     alternates: { canonical: content.meta.canonical },
+    openGraph: { url: content.meta.canonical },
   };
 }
 

@@ -34,6 +34,7 @@ export function generateAvcbNicheMetadata(page: AvcbNichePage) {
     alternates: {
       canonical: page.slug,
     },
+    openGraph: { url: page.slug },
   };
 }
 

@@ -38,6 +38,7 @@ export function generatePtotepMetadata(page: PtotepPage) {
     alternates: {
       canonical: page.slug,
     },
+    openGraph: { url: page.slug },
   };
 }
 

@@ -174,7 +174,7 @@ const data: UniversalPageData = {
     { href: "/como-funciona-vga-sprinkler", label: "Como Funciona a VGA" },
     { href: "/manutencao-vga-sprinkler-sp", label: "Manutenção de VGA" },
     { href: "/teste-comissionamento-vga-sp", label: "Trip Test de VGA" },
-    { href: "/alarmes", label: "Sistema de Alarme de Incêndio" },
+    { href: "/alarme-incendio-sao-paulo", label: "Sistema de Alarme de Incêndio" },
   ],
   ctaFinal: {
     heading: "CAMPAINHA E PRESSOSTATO DE VÁLVULA DE GOVERNO E ALARME (VGA) EM SP — VERIFICAÇÃO + SUBSTITUIÇÃO + LAUDO AVCB",

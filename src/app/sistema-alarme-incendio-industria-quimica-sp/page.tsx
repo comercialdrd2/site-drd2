@@ -17,7 +17,7 @@ const data: UniversalPageData = {
     "Processo completo: classificação de áreas conforme NR-20 e ABNT NBR IEC 60079 (ATEX), seleção de detector por tipo de produto e área, projeto com equipamentos certificados para área classificada, integração com sistema de shutdown de emergência e laudo com ART para AVCB. Diagnóstico técnico gratuito.",
   breadcrumbs: [
     { label: "Home", href: "/" },
-    { label: "Alarme de Incêndio", href: "/alarmes" },
+    { label: "Alarme de Incêndio", href: "/alarme-incendio-sao-paulo" },
     { label: "Alarme para Indústria Química" },
   ],
   occupationType: "industrial",
@@ -169,7 +169,7 @@ const data: UniversalPageData = {
     },
   ],
   linksInternos: [
-    { href: "/alarmes", label: "Alarme de Incêndio em SP" },
+    { href: "/alarme-incendio-sao-paulo", label: "Alarme de Incêndio em SP" },
     { href: "/alarme-incendio-centro-distribuicao-sp", label: "Alarme para Centro de Distribuição" },
     { href: "/sprinkler-centro-distribuicao-sp", label: "Sprinkler para Centro de Distribuição" },
     { href: "/avcb-sao-paulo", label: "AVCB em São Paulo" },

@@ -14,6 +14,9 @@ export const metadata = {
   alternates: {
     canonical: "/",
   },
+  openGraph: {
+    url: "/",
+  },
 };
 
 export default function HomePage() {

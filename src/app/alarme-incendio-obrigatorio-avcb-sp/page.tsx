@@ -17,7 +17,7 @@ const data: UniversalPageData = {
     "A DRD2 realiza diagnóstico técnico gratuito que inclui o enquadramento correto da edificação na IT 18/19, a verificação de obrigatoriedade — incluindo o tipo de central exigido — e a apresentação de escopo e prazo para regularização com AVCB.",
   breadcrumbs: [
     { label: "Home", href: "/" },
-    { label: "Alarme de Incêndio", href: "/alarmes" },
+    { label: "Alarme de Incêndio", href: "/alarme-incendio-sao-paulo" },
     { label: "Alarme Obrigatório SP" },
   ],
   occupationType: "comercial",
@@ -169,7 +169,7 @@ const data: UniversalPageData = {
     },
   ],
   linksInternos: [
-    { href: "/alarmes", label: "Alarme de Incêndio em SP" },
+    { href: "/alarme-incendio-sao-paulo", label: "Alarme de Incêndio em SP" },
     { href: "/avcb-sao-paulo", label: "AVCB em São Paulo" },
     { href: "/quanto-custa-sistema-alarme-incendio-sp", label: "Quanto Custa Alarme de Incêndio" },
     { href: "/hidrante-obrigatorio-avcb-sp", label: "Hidrante Obrigatório SP" },

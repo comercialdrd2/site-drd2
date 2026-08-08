@@ -17,7 +17,7 @@ const data: UniversalPageData = {
     "Processo completo: seleção de detector correto por setor, central endereçável com identificação por ponto, integração com sistema de sprinkler e hidrante, anunciador de voz para evacuação escalonada e laudo com ART para AVCB. Diagnóstico técnico gratuito.",
   breadcrumbs: [
     { label: "Home", href: "/" },
-    { label: "Alarme de Incêndio", href: "/alarmes" },
+    { label: "Alarme de Incêndio", href: "/alarme-incendio-sao-paulo" },
     { label: "Alarme para Supermercado" },
   ],
   occupationType: "comercial",
@@ -169,7 +169,7 @@ const data: UniversalPageData = {
     },
   ],
   linksInternos: [
-    { href: "/alarmes", label: "Alarme de Incêndio em SP" },
+    { href: "/alarme-incendio-sao-paulo", label: "Alarme de Incêndio em SP" },
     { href: "/hidrante-supermercado-avcb-sp", label: "Hidrante para Supermercado" },
     { href: "/sprinkler-supermercado-avcb-sp", label: "Sprinkler para Supermercado" },
     { href: "/avcb-sao-paulo", label: "AVCB em São Paulo" },

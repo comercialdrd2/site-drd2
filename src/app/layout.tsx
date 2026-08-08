@@ -35,7 +35,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "/",
+    // Sem `url` aqui de proposito: no layout, TODAS as paginas herdavam og:url
+    // da home e o preview de link (WhatsApp/redes) apontava pro lugar errado.
+    // A home define o seu em app/page.tsx.
     siteName: "DRD2 Engenharia",
     images: [
       {
