@@ -161,9 +161,64 @@ export default function AlarmeIndustrialPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Industrial" }]} dark />
+      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviços", href: "/servicos" }, { label: "Alarme Industrial" }]} dark />
       <TrustBar dark />
 
+      {/* Bloco técnico exclusivo desta página: separa galpão de PRODUÇÃO (risco do processo)
+          do centro de distribuição (risco da armazenagem), que tem página própria. */}
+      <section className="py-24 bg-slate-100 border-y border-slate-200">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <h2 className="text-3xl md:text-4xl font-black text-gray-900 mb-8 border-l-4 border-yellow-500 pl-6 tracking-tight">
+            Por que detectar fumaça em galpão industrial é diferente
+          </h2>
+
+          <div className="space-y-5 text-lg text-gray-700 leading-relaxed">
+            <p>
+              Esta página trata do <strong>galpão de produção e da indústria</strong>, onde a fonte de risco é o
+              processo produtivo. Para centro de distribuição e operação logística, cujo problema é a armazenagem
+              em altura e a reorganização constante do piso, o tratamento é outro — veja a página de{" "}
+              <a href="/alarme-incendio-centro-distribuicao-sp" className="text-red-600 font-bold underline">
+                alarme de incêndio para centro de distribuição
+              </a>
+              .
+            </p>
+            <p>
+              O que torna a detecção difícil aqui é a geometria. Sob telha metálica com pé-direito alto, a fumaça
+              estratifica antes de alcançar o teto: ela encontra uma camada de ar quente sob a cobertura, perde
+              empuxo e se espalha lateralmente sem subir. O detector pontual instalado na cobertura pode
+              simplesmente não ser atingido a tempo. Em vãos amplos, isso empurra o projeto para detecção linear
+              por feixe óptico ou para detector de chama, em vez do detector de fumaça convencional que
+              resolveria um escritório.
+            </p>
+            <p>
+              A segunda particularidade é o ruído. Área de produção com maquinário operando ultrapassa com
+              facilidade o nível em que o sinal sonoro deixa de ser percebido: acima de 105 dBA, o alerta precisa
+              ser também visual, com strobes distribuídos de forma a cobrir todas as posições de trabalho —
+              inclusive dentro de cabines acústicas e mezaninos, de onde o operador não enxerga o corpo do galpão.
+            </p>
+            <p>
+              Por fim, a carga de incêndio de uma indústria vem do processo, não do prédio. Solvente, resina,
+              verniz, pó combustível e óleo de corte mudam o enquadramento da edificação sem que a construção
+              mude nada. Por isso o SDAI precisa acompanhar alteração de linha de produção, e não apenas obra
+              civil — troca de insumo é evento que merece revisão de projeto.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-12">
+            {[
+              ["Estratificação sob telha metálica", "Pé-direito alto faz a fumaça se espalhar lateralmente antes de atingir o teto. Detector pontual na cobertura pode não acusar a tempo."],
+              ["Alerta visual acima de 105 dBA", "Com maquinário em operação, o sinal sonoro não é percebido. Strobes precisam cobrir cabines e mezaninos, não só o corpo do galpão."],
+              ["Carga de incêndio do processo", "Solvente, resina e pó combustível mudam o enquadramento sem obra civil. Troca de insumo pede revisão do projeto de detecção."],
+              ["Comissionamento com registro", "Central de dupla alimentação e laudo com os pontos efetivamente testados. Sistema instalado sem aceite documentada não sustenta a vistoria."],
+            ].map(([titulo, desc]) => (
+              <div key={titulo} className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
+                <h3 className="text-lg font-black text-gray-900 mb-2">{titulo}</h3>
+                <p className="text-gray-600 leading-relaxed">{desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       <div className="container mx-auto px-4 max-w-4xl text-center py-4 opacity-50"><p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Conteúdo Técnico Atualizado em: Maio de 2026</p></div>
       <ServiceClusterLinks currentSlug="/alarme-incendio-sao-paulo" />
