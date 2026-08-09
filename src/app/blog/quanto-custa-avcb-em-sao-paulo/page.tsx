@@ -13,8 +13,8 @@ import BlogStrategicLinks from "@/components/BlogStrategicLinks";
 import BlogAuthorEvidence from "@/components/BlogAuthorEvidence";
 
 export const metadata = {
-  title: "Quanto Custa o AVCB em São Paulo? Guia Completo de Preços e Fatores",
-  description: "Saiba quanto custa o AVCB em São Paulo em 2026. Valores por tipo de edificação, fatores que influenciam o preço e como evitar gastos desnecessários. Guia técnico completo. DRD2 Engenharia.",
+  title: "Como Ler um Orçamento de AVCB: O Que Faz o Preço Variar Tanto",
+  description: "Por que duas propostas para o mesmo imóvel chegam com valores muito diferentes: o que está e o que não está incluso, taxas repassadas, ART, resposta a Comunique-se e adequação física. Guia para comparar orçamentos.",
   alternates: {
     canonical: "/blog/quanto-custa-avcb-em-sao-paulo",
   },
@@ -113,11 +113,19 @@ export default function QuantocustaAVCBPost() {
             </nav>
 
             <h1 className="text-5xl md:text-8xl font-black mb-8 leading-[0.85] tracking-tighter uppercase italic text-white">
-              QUANTO CUSTA O <span className="text-primary not-italic">AVCB EM SP?</span>
+              COMO LER UM <span className="text-primary not-italic">ORÇAMENTO</span>
             </h1>
 
-            <p className="text-xl md:text-2xl text-gray-300 mb-10 leading-relaxed font-medium max-w-3xl">
-              Entenda os fatores que compõem o investimento na regularização do seu imóvel e como economizar sem comprometer a aprovação junto ao Corpo de Bombeiros.
+            <p className="text-xl md:text-2xl text-gray-300 mb-6 leading-relaxed font-medium max-w-3xl">
+              Duas propostas para o mesmo imóvel chegam com valores muito diferentes — e quase sempre a diferença não está no preço da engenharia, e sim no que cada uma deixou de fora. Este guia mostra o que comparar antes de decidir pelo menor número.
+            </p>
+
+            <p className="text-base md:text-lg text-gray-400 mb-10 leading-relaxed max-w-3xl">
+              Procurando a faixa de valores por tipo de imóvel? Está na página de{" "}
+              <a href="/quanto-custa-avcb-sao-paulo" className="text-primary font-bold underline">
+                quanto custa o AVCB em São Paulo
+              </a>
+              .
             </p>
 
             <div className="flex flex-wrap gap-6 text-sm font-bold text-gray-300">

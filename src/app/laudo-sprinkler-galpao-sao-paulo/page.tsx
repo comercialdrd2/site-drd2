@@ -4,15 +4,15 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/laudo-sprinkler-galpao-sao-paulo",
   meta: {
-    title: "Laudo de Sprinkler para Galpão Industrial em SP | DRD2 Engenharia",
-    description: "Laudo técnico do sistema de sprinklers para galpões industriais em São Paulo. IT 23/2025, tipo de cabeça por densidade de estoque, cálculo hidráulico real. ART CREA-SP inclusa.",
+    title: "Laudo de Sprinkler de Galpão SP | Verificação de Sistema Existente",
+    description: "Laudo do sistema de sprinklers já instalado em galpão industrial: teste de fluxo, conferência de cobertura contra a altura de estoque atual e ART CREA-SP. Para projeto e instalação, veja a página de sistema de sprinkler.",
   },
-  eyebrow: "IT 23 — Sistema de Sprinklers para Galpão Industrial",
+  eyebrow: "IT 23 — Verificação de Sistema Instalado",
   h1Line1: "Laudo de Sprinkler",
-  h1Line2: "para Galpão Industrial em São Paulo",
+  h1Line2: "de Galpão Industrial em São Paulo",
   heroBg: "/images/blog/blog_hero_avcb_galpao.webp",
-  introP1: "Em galpão industrial, o tipo de cabeça de sprinkler depende diretamente da altura do estoque. Prateleiras que chegam a 6 ou 8 metros de altura criam bolsões de calor que as cabeças do teto não conseguem alcançar a tempo — nesses casos, a IT 23/2025 exige cabeças intermediárias instaladas dentro das prateleiras (in-rack sprinklers). Galpão que trocou o layout de estoque sem atualizar o sistema está em não-conformidade.",
-  introP2: "A DRD2 emite laudo técnico do sistema de sprinklers para galpões conforme a IT 23/2025, com cálculo de densidade de descarga compatível com o material e a altura do estoque atual, teste de fluxo e ART CREA-SP inclusa. Para galpões com mudança de ocupação ou aumento de altura de prateleiras, o laudo precisa ser refeito.",
+  introP1: "Esta página trata da verificação de um sistema que já existe: medir, conferir contra a operação atual e atestar. É o serviço de quem tem galpão com sprinkler instalado e precisa comprovar conformidade para o AVCB, para o seguro ou para a entrada de um novo locatário. Quem ainda vai projetar ou instalar o sistema deve seguir para a página de sistema de sprinkler para galpão industrial, que trata do dimensionamento.",
+  introP2: "O ponto que o laudo mais reprova em galpão é a defasagem entre o sistema instalado e o estoque atual. O sistema foi calculado para um material e uma altura de armazenagem; a operação mudou de produto, subiu prateleira ou trocou de locatário, e ninguém refez a conta. A DRD2 mede a pressão de fluxo no ponto mais desfavorável, confere a cobertura contra a altura real de estoque e emite o laudo com ART CREA-SP — apontando, quando for o caso, que o sistema precisa ser redimensionado e não apenas atestado.",
   breadcrumbs: [
     { label: "Home", href: "/" },
     { label: "Serviços", href: "/servicos" },
@@ -135,6 +135,7 @@ const data: UniversalPageData = {
     },
   ],
   linksInternos: [
+    { href: "/sistema-sprinkler-galpao-industrial-avcb-sp", label: "Projeto de Sprinkler para Galpão" },
     { href: "/avcb-galpao-industrial-sao-paulo", label: "AVCB para Galpão Industrial SP" },
     { href: "/sprinklers", label: "Sistema de Sprinklers SP" },
     { href: "/laudo-hidrante-galpao-sao-paulo", label: "Laudo de Hidrante — Galpão" },

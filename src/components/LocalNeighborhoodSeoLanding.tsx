@@ -22,6 +22,7 @@ import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import NeighborhoodSilo from "@/components/NeighborhoodSilo";
 import { bairrosCondominio } from "@/data/bairros-renovacao";
 import { cidadesExpansao } from "@/data/expansao-cidades";
+import { getLocalNeighborhoodDeepDive } from "@/data/localNeighborhoodDeepDive";
 
 type Mode = "avcb" | "renovacao" | "clcb" | "clcb-cidade" | "condominio";
 
@@ -142,7 +143,9 @@ function faqsFor(neighborhood: LocalNeighborhoodSeoPage, mode: Mode, useRichData
 export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRichData = true }: LocalNeighborhoodSeoLandingProps) {
   const whatsappLink = `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`;
   const copy = pageCopy(neighborhood, mode);
-  const faqs = faqsFor(neighborhood, mode, useRichData);
+  // Indexado pela rota final: a mesma entrada de bairro alimenta páginas de modes diferentes.
+  const deepDive = getLocalNeighborhoodDeepDive(copy.slug);
+  const faqs = deepDive?.faqs ?? faqsFor(neighborhood, mode, useRichData);
   const richData = useRichData ? richDataFor(neighborhood, mode) : undefined;
   
   const schema = generateMasterSchema({
@@ -341,6 +344,36 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
           </div>
         </div>
       </section>
+
+      {deepDive && (
+        <section className="py-20 bg-slate-100 border-y border-slate-200">
+          <div className="container mx-auto px-4 max-w-5xl">
+            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-8 border-l-4 border-red-600 pl-6 uppercase italic tracking-tight">
+              {deepDive.heading}
+            </h2>
+            <div className="space-y-5 text-lg text-slate-700 leading-relaxed font-medium">
+              {deepDive.paragraphs.map((paragraph) => (
+                <p key={paragraph.slice(0, 60)}>{paragraph}</p>
+              ))}
+            </div>
+
+            <h3 className="text-2xl font-black text-slate-900 mt-14 mb-6 uppercase italic">
+              {deepDive.itemsHeading}
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              {deepDive.items.map((item) => (
+                <div
+                  key={item.title}
+                  className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm"
+                >
+                  <h4 className="text-lg font-black text-slate-900 mb-2">{item.title}</h4>
+                  <p className="text-slate-600 leading-relaxed">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {richData && richData.guiaLegislacaoLocal && (
         <section className="py-20 bg-slate-100 border-y border-slate-200">

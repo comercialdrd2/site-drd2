@@ -16,6 +16,7 @@ import LeadForm from "@/components/LeadForm";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import EscadaPressurizadaLinks from "@/components/EscadaPressurizadaLinks";
+import { getEscadaDeepDive } from "@/data/escadaPressurizadaDeepDive";
 
 type PressurizedStairsLandingProps = {
   slug: string;
@@ -63,6 +64,7 @@ const intentContent = {
   },
 };
 
+/** Fallback usado apenas por páginas do cluster que ainda não têm bloco técnico próprio. */
 const faqs = [
   {
     question: "Escada pressurizada é obrigatória quando?",
@@ -105,13 +107,15 @@ export default function PressurizedStairsLanding({
   intent,
 }: PressurizedStairsLandingProps) {
   const content = intentContent[intent];
+  const deepDive = getEscadaDeepDive(slug);
+  const pageFaqs = deepDive?.faqs ?? faqs;
   const whatsappLink = `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`;
   const schema = generateMasterSchema({
     slug,
     title,
     description,
     serviceName: content.serviceName,
-    faqs,
+    faqs: pageFaqs,
     breadcrumbs: [
       { name: "Home", item: "/" },
       { name: "Serviços", item: "/servicos" },
@@ -206,32 +210,65 @@ export default function PressurizedStairsLanding({
         </div>
       </section>
 
-      <section className="py-20 bg-slate-50 border-y border-slate-200">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <p className="text-red-600 font-black text-[10px] uppercase tracking-[0.3em] mb-4">
-              Ocupações com alta intenção
-            </p>
-            <h2 className="text-3xl md:text-4xl font-black text-slate-950">
-              Escada pressurizada por tipo de edificação
+      {deepDive && (
+        <section className="py-20 bg-slate-100 border-y border-slate-200">
+          <div className="container mx-auto px-4 max-w-5xl">
+            <h2 className="text-3xl md:text-4xl font-black text-slate-950 mb-8 border-l-4 border-red-600 pl-6 tracking-tight">
+              {deepDive.heading}
             </h2>
-            <p className="mt-5 text-lg text-slate-600 leading-relaxed">
-              Essas ocupações costumam gerar leads qualificados porque a exigência aparece em projeto, renovação de AVCB, Comunique-se ou vistoria presencial.
-            </p>
+            <div className="space-y-5 text-lg text-slate-700 leading-relaxed">
+              {deepDive.paragraphs.map((paragraph) => (
+                <p key={paragraph.slice(0, 60)}>{paragraph}</p>
+              ))}
+            </div>
+
+            <h3 className="text-2xl font-black text-slate-950 mt-14 mb-6 tracking-tight">
+              {deepDive.itemsHeading}
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              {deepDive.items.map((item) => (
+                <div
+                  key={item.title}
+                  className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm"
+                >
+                  <h4 className="text-lg font-black text-slate-950 mb-2">{item.title}</h4>
+                  <p className="text-slate-600 leading-relaxed">{item.desc}</p>
+                </div>
+              ))}
+            </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            {occupationCards.map((item) => (
-              <div key={item} className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
-                <Building2 className="w-8 h-8 text-red-600 mb-4" />
-                <h3 className="text-lg font-black text-slate-950 mb-2">{item}</h3>
-                <p className="text-sm text-slate-500 leading-relaxed">
-                  Avaliação de escada enclausurada pressurizada, rotas de fuga, portas corta-fogo, ventilador, dutos, laudo e aprovação no Corpo de Bombeiros.
-                </p>
-              </div>
-            ))}
+        </section>
+      )}
+
+      {/* Grade genérica de ocupações: só nas páginas sem bloco técnico próprio, para não repetir o mesmo conteúdo em todo o cluster. */}
+      {!deepDive && (
+        <section className="py-20 bg-slate-50 border-y border-slate-200">
+          <div className="container mx-auto px-4 max-w-6xl">
+            <div className="text-center max-w-3xl mx-auto mb-12">
+              <p className="text-red-600 font-black text-[10px] uppercase tracking-[0.3em] mb-4">
+                Tipos de edificação atendidos
+              </p>
+              <h2 className="text-3xl md:text-4xl font-black text-slate-950">
+                Escada pressurizada por tipo de edificação
+              </h2>
+              <p className="mt-5 text-lg text-slate-600 leading-relaxed">
+                Nessas ocupações a exigência costuma aparecer em projeto, renovação de AVCB, Comunique-se ou vistoria presencial.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+              {occupationCards.map((item) => (
+                <div key={item} className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+                  <Building2 className="w-8 h-8 text-red-600 mb-4" />
+                  <h3 className="text-lg font-black text-slate-950 mb-2">{item}</h3>
+                  <p className="text-sm text-slate-500 leading-relaxed">
+                    Avaliação de escada enclausurada pressurizada, rotas de fuga, portas corta-fogo, ventilador, dutos, laudo e aprovação no Corpo de Bombeiros.
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-6xl">
@@ -307,7 +344,7 @@ export default function PressurizedStairsLanding({
             </h2>
           </div>
           <div className="space-y-4">
-            {faqs.map((faq) => (
+            {pageFaqs.map((faq) => (
               <details key={faq.question} className="group bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
                 <summary className="flex items-center justify-between p-6 font-black text-slate-950 cursor-pointer">
                   {faq.question}

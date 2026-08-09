@@ -4,21 +4,21 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/laudo-sprinkler-clinica-sao-paulo",
   meta: {
-    title: "Laudo de Sprinkler para Clínica e Hospital em SP | DRD2 Engenharia",
-    description: "Laudo técnico de sprinklers para clínicas, consultórios e hospitais em São Paulo. IT 23/2025, ABNT NBR 12693, proximidade de gases medicinais, salas cirúrgicas. ART CREA-SP inclusa.",
+    title: "Laudo de Sprinkler para Clínica e Centro de Diagnóstico SP | DRD2",
+    description: "Laudo técnico de sprinklers para clínicas, consultórios, centros de diagnóstico por imagem e day clinics em São Paulo. IT 23/2025, NBR 12693, gases medicinais. ART CREA-SP inclusa.",
   },
-  eyebrow: "IT 23 — Sistema de Sprinklers para Clínica e Hospital",
+  eyebrow: "IT 23 — Sprinklers em Clínicas e Centros de Diagnóstico",
   h1Line1: "Laudo de Sprinkler",
-  h1Line2: "para Clínica e Hospital em São Paulo",
+  h1Line2: "para Clínica e Centro de Diagnóstico em São Paulo",
   heroBg: "/images/blog/blog_hero_avcb_hospital.webp",
-  introP1: "O sprinkler em clínicas e hospitais tem a particularidade mais delicada de todas as ocupações: a água que extingue o incêndio pode danificar equipamentos médicos de valor elevado e, em salas cirúrgicas, contaminar campo estéril. A IT 23/2025 reconhece essa particularidade e permite sistemas alternativos (como sprinkler de pré-ação) para salas de cirurgia e UTI — mas exige que a escolha seja documentada e justificada no projeto com ART.",
-  introP2: "A DRD2 emite laudo técnico do sistema de sprinklers para clínicas e hospitais conforme a IT 23/2025 e a ABNT NBR 12693, com verificação da compatibilidade entre o sistema instalado e a classificação de risco de cada área — sala de espera, consultório, CME, sala cirúrgica e depósito de gases medicinais têm exigências distintas.",
+  introP1: "Clínica não é hospital em escala menor — é outro problema técnico. O que caracteriza a clínica, o centro de diagnóstico por imagem e o day clinic é a concentração de equipamento de altíssimo valor em área reduzida, sem a compartimentação por setor nem a estrutura de brigada permanente de um hospital de grande porte. A água que controla o incêndio pode inutilizar um tomógrafo ou uma ressonância, e é por isso que a escolha entre sprinkler convencional e sistema de pré-ação precisa ser justificada e documentada com ART.",
+  introP2: "A DRD2 emite laudo técnico do sistema de sprinklers para clínicas conforme a IT 23/2025 e a ABNT NBR 12693, verificando a compatibilidade entre o sistema instalado e a classificação de risco de cada ambiente — recepção, consultório, sala de exame, CME e armazenamento de gases medicinais têm exigências distintas. Para hospital com internação, centro cirúrgico e UTI, o escopo é outro e está tratado na página de sistema de sprinkler para hospital.",
   breadcrumbs: [
     { label: "Home", href: "/" },
     { label: "Serviços", href: "/servicos" },
     { label: "Laudo de Sprinkler — Clínica SP" },
   ],
-  occupationType: "clínica e hospital",
+  occupationType: "clínica e centro de diagnóstico",
   h2_principal: {
     heading: "Por que o sprinkler de clínica exige projeto específico",
     body: "Estabelecimentos de saúde são classificados no Grupo I pelo Decreto 69.118/2024 — a classificação de maior exigência do CBPMESP. Além da IT 23, clínicas com mais de certo porte precisam seguir a ABNT NBR 12693 (Sistemas de proteção por extinção de incêndio em estabelecimentos assistenciais de saúde). As duas normas se complementam e às vezes divergem — o engenheiro precisa aplicar a mais restritiva em cada caso.",
@@ -135,6 +135,7 @@ const data: UniversalPageData = {
     },
   ],
   linksInternos: [
+    { href: "/sistema-sprinkler-hospital-avcb-sp", label: "Sprinkler para Hospital com Internação" },
     { href: "/avcb-hospital-clinica-sao-paulo", label: "AVCB para Clínica e Hospital SP" },
     { href: "/sprinklers", label: "Sistema de Sprinklers SP" },
     { href: "/laudo-alarme-incendio-sao-paulo", label: "Laudo de Alarme de Incêndio SP" },

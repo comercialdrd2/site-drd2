@@ -308,17 +308,20 @@ export const servicesData: Record<string, ServiceData> = {
     title: "Alarme de Incêndio (Indústria)",
     category: "Instalação",
     shortDescription: "SDAI obrigatório para Galpões e Indústrias conforme IT-19/2025 CBPMESP.",
-    h1: "Alarme de Incêndio para Galpão e Indústria em São Paulo",
-    metaTitle: "Alarme de Incêndio para Galpão Industrial em SP | DRD2 Engenharia",
-    metaDescription: "Galpão sem alarme de incêndio aprovado? Instalamos SDAI conforme IT-19/2025 e NBR 17240. Projeto, execução e AVCB garantido em SP. Solicite análise gratuita.",
+    h1: "Alarme de incêndio para galpão de produção e indústria em São Paulo",
+    metaTitle: "Alarme de Incêndio de Galpão Industrial SP | SDAI para Área de Produção",
+    metaDescription: "SDAI para galpão de produção: detecção sob telha metálica com pé-direito alto, strobe em ambiente ruidoso acima de 105 dBA e carga de incêndio do processo. IT-19/2025 e NBR 17240, com ART.",
     pas: {
       problem: "Galpão sem SDAI aprovado no Bombeiro?",
       agitation: "Galpão sem sistema de alarme de incêndio aprovado é infração direta ao Decreto Estadual nº 69.118/2024. Seu AVCB pode ser indeferido — e a operação do seu negócio, interditada imediatamente por órgãos fiscais.",
       solution: "A DRD2 Engenharia entrega conformidade técnica integral (IT-19/2025) e a documentação completa. Projeto com ART, instalação INMETRO e acompanhamento até a emissão limpa do seu AVCB."
     },
     content: [
-      "Edificações do Grupo I (indústrias e depósitos) são classificadas pelo CBPMESP conforme sua carga de incêndio. Quanto maior a carga, maiores e mais rígidas são as especificações do Sistema de Detecção e Alarme de Incêndio (SDAI).",
-      "Evitamos o erro comum de centrais velhas ou detectores mal posicionados que reprovam a vistoria. Exigimos Central com dupla alimentação, Strobes (Alertas visuais) para ambientes acima de 105 dBA e emissão completa do Laudo de Comissionamento antes da chegada do Bombeiro."
+      "Esta página trata do galpão de produção e da indústria, onde o processo produtivo é a fonte de risco. Para centro de distribuição e operação logística, cujo problema é a armazenagem em altura e a reorganização constante do piso, o tratamento é outro — veja a página de alarme de incêndio para centro de distribuição.",
+      "O que torna a detecção difícil em galpão industrial é a geometria. Sob telha metálica com pé-direito alto, a fumaça estratifica antes de alcançar o teto, e o detector pontual posicionado na cobertura pode simplesmente não ser atingido a tempo. Em vãos amplos, isso empurra o projeto para detecção linear por feixe óptico ou para detector de chama, em vez do detector de fumaça convencional que resolveria um escritório.",
+      "A segunda particularidade é o ruído. Área de produção com maquinário operando ultrapassa com facilidade o nível em que o sinal sonoro deixa de ser percebido: acima de 105 dBA, o alerta precisa ser também visual, com strobes distribuídos de forma a cobrir todas as posições de trabalho — inclusive dentro de cabines e mezaninos, onde o operador não enxerga o corpo do galpão.",
+      "Edificações do Grupo I são classificadas pelo CBPMESP conforme a carga de incêndio, e em indústria essa carga vem do processo, não do prédio: solvente, resina, verniz, pó combustível e óleo de corte mudam o enquadramento sem que a construção mude. Por isso o SDAI precisa acompanhar alteração de linha de produção, e não apenas obra civil.",
+      "Fechamos com central de dupla alimentação, laudo de comissionamento com os pontos efetivamente testados e ART — o conjunto que sustenta a vistoria, em vez de um sistema instalado sem registro de aceitação."
     ],
     faqs: [
       { question: "O alarme de incêndio é obrigatório para galpões industriais em São Paulo?", answer: "Sim. Para galpões classificados como Grupo I pelo Decreto Estadual nº 69.118/2024, o SDAI é exigido conforme a área e a carga de incêndio da edificação. Sua aprovação é condição obrigatória para a emissão do AVCB." },

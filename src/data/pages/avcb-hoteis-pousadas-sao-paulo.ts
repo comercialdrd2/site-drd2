@@ -1,16 +1,16 @@
 export const avcbHotelContent = {
   meta: {
-    title: "AVCB para Hotéis e Pousadas em São Paulo 2026 | DRD2 Engenharia",
+    title: "AVCB de Hotel e Pousada SP | Projeto Técnico do Meio de Hospedagem",
     description:
-      "A DRD2 Engenharia é especialista em AVCB para hotéis e pousadas em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com agilidade e sem Comunique-se. Diagnóstico técnico gratuito.",
+      "A engenharia do AVCB de meio de hospedagem: classificação B-1/B-2, cálculo populacional por unidade habitacional, corredor como reservatório de fumaça e brigada no turno noturno. Projeto e ART CREA-SP.",
     canonical: "/avcb-hoteis-pousadas-sao-paulo",
   },
 
-  h1: "AVCB para Hotéis e Pousadas em São Paulo — Regularização Completa com a DRD2",
+  h1: "AVCB de hotel e pousada: o projeto técnico do meio de hospedagem",
 
   intro: [
-    "<strong>AVCB para hotéis e pousadas</strong> com tramitação prioritária e gestão de eventuais Comunique-ses sem custo adicional.<br/><br/>Mantenha seu alvará municipal em dia e evite a evacuação forçada e o <strong>cancelamento</strong> de reservas.",
-    "A DRD2 Engenharia é especializada em AVCB para hotéis e pousadas em São Paulo, com aprovação completa junto ao CBPMESP, sem Comunique-se e sem retrabalho — para meios de hospedagem de qualquer porte, categoria e localização na capital e Grande SP.",
+    "Esta é a página técnica do assunto — o que a engenharia precisa resolver para o AVCB de um meio de hospedagem sair aprovado. Se você ainda está entendendo o documento, quem precisa e como funciona o processo, comece pela página de <a href='/alvara-bombeiro-hotel-pousada-sao-paulo' class='text-red-600 font-bold underline'>alvará do bombeiro para hotéis e pousadas</a>, que trata do mesmo certificado em linguagem introdutória.",
+    "O que separa a hospedagem de um prédio residencial da mesma altura é o usuário. O hóspede dorme num lugar que não conhece, não sabe onde fica a escada e às vezes não fala português. Isso empurra o projeto para três frentes que não existem em residencial: o corredor de unidades habitacionais funcionando como reservatório de fumaça, o cálculo populacional feito por leito e não por área, e a operação 24 horas com brigada reduzida no turno da noite. A <strong>DRD2 Engenharia</strong> conduz projeto, adequação e aprovação junto ao CBPMESP, com resposta a Comunique-se sem custo adicional.",
   ],
 
   cta_intro: "📲 Fale agora com um engenheiro pelo WhatsApp e receba o diagnóstico gratuito do seu hotel ou pousada.",

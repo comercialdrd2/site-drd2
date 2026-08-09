@@ -13,8 +13,8 @@ import BlogStrategicLinks from "@/components/BlogStrategicLinks";
 import BlogAuthorEvidence from "@/components/BlogAuthorEvidence";
 
 export const metadata = {
-  title: "Diferença Entre AVCB e CLCB: Qual Certificado Sua Edificação Precisa?",
-  description: "Entenda a diferença entre AVCB e CLCB, quando cada um é exigido, como funcionam os processos e como saber qual certificado sua edificação precisa em São Paulo.",
+  title: "AVCB e CLCB: Dois Regimes Diferentes, Não Dois Tamanhos do Mesmo Documento",
+  description: "Por que o CLCB é declaratório e o AVCB depende de vistoria, o que isso muda na responsabilidade do proprietário e por que um certificado emitido no enquadramento errado não protege em fiscalização.",
   alternates: {
     canonical: "/blog/diferenca-entre-avcb-e-clcb",
   },
@@ -99,11 +99,19 @@ export default function DiferencaAVCBCLCBPost() {
             </nav>
             
             <h1 className="text-5xl md:text-8xl font-black mb-8 leading-[0.85] tracking-tighter uppercase italic text-white flex flex-col">
-              AVCB OU <span className="text-primary not-italic">CLCB?</span>
+              DOIS <span className="text-primary not-italic">REGIMES</span>
             </h1>
-            
-            <p className="text-xl md:text-2xl text-gray-300 mb-10 leading-relaxed font-medium max-w-3xl">
-              Qual certificado sua edificação realmente precisa? Entenda as diferenças técnicas, de custo e de prazo entre os dois documentos do Corpo de Bombeiros.
+
+            <p className="text-xl md:text-2xl text-gray-300 mb-6 leading-relaxed font-medium max-w-3xl">
+              CLCB e AVCB não são dois tamanhos do mesmo documento. Um é declaratório e sai sem que ninguém vá ao imóvel; o outro depende de análise de projeto e vistoria presencial. Essa diferença de regime é o que define quem responde quando a fiscalização chega.
+            </p>
+
+            <p className="text-base md:text-lg text-gray-400 mb-10 leading-relaxed max-w-3xl">
+              Já sabe que precisa de um dos dois e quer descobrir qual se aplica ao seu caso? Use a página de decisão:{" "}
+              <a href="/avcb-ou-clcb-qual-preciso" className="text-primary font-bold underline">
+                AVCB ou CLCB — qual preciso
+              </a>
+              .
             </p>
 
             <div className="flex flex-wrap gap-6 text-sm font-bold text-gray-300">

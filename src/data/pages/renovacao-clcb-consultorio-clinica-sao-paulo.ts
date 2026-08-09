@@ -1,72 +1,88 @@
+/**
+ * Recorte desta página: CONSULTÓRIO EM SALA DE EDIFÍCIO COMERCIAL — profissional
+ * autônomo ou pequena sociedade que ocupa uma sala dentro de um prédio de terceiros.
+ *
+ * Não repetir aqui o conteúdo de /renovacao-clcb-clinica-sao-paulo, que trata do
+ * estabelecimento autônomo, com imóvel e processo próprios. As duas páginas foram
+ * consolidadas pelo Google como duplicadas justamente por disputarem a mesma busca.
+ */
 export const renovacaoClcbConsultorioContent = {
   meta: {
-    title: "Renovação de CLCB para Consultório e Clínica em São Paulo 2026 | DRD2 Engenharia",
-    description: "Consultório ou clínica com CLCB vencido em SP arrisca suspensão da licença sanitária e interdição. DRD2 renova o CLCB para serviços de saúde com diagnóstico gratuito.",
+    title: "CLCB de Consultório em Sala Comercial SP | De Quem é a Responsabilidade",
+    description: "Consultório em sala de edifício comercial: o certificado do prédio cobre a sua sala? Entenda quando o consultório precisa de processo próprio e o que a Vigilância Sanitária exige.",
     canonical: "/renovacao-clcb-consultorio-clinica-sao-paulo",
   },
-  badge: "CLCB — SERVIÇOS DE SAÚDE — RENOVAÇÃO 2026",
-  h1: "Renovação de CLCB para Consultório e Clínica em São Paulo",
+  badge: "CLCB — CONSULTÓRIO EM SALA COMERCIAL",
+  h1: "CLCB de consultório em sala de edifício comercial",
   intro: [
-    "Consultório médico, clínica odontológica, clínica de estética ou de fisioterapia com CLCB vencido em São Paulo arrisca a suspensão da Licença de Funcionamento emitida pela Vigilância Sanitária Municipal — que exige CLCB ou AVCB válido como condição para manutenção do cadastro do estabelecimento de saúde.",
-    "A DRD2 Engenharia renova o CLCB para consultórios e clínicas de pequeno porte em São Paulo com processo simplificado, diagnóstico técnico gratuito e acompanhamento completo. Atendemos consultórios médicos, odontológicos, de psicologia, clínicas de fisioterapia, estética, nutrição e demais estabelecimentos de saúde enquadrados no processo CLCB.",
+    "Quem atende em uma sala dentro de um edifício comercial ou de um centro médico vive uma dúvida específica: o certificado do Corpo de Bombeiros é do prédio, do condomínio ou do consultório? A resposta define quem paga, quem responde e o que apresentar quando a Vigilância Sanitária pede o documento.",
+    "Esta página trata desse recorte — profissional autônomo ou pequena sociedade ocupando sala de terceiros. Se o seu estabelecimento tem imóvel próprio, com entrada independente e processo autônomo no Corpo de Bombeiros, o caminho é outro: veja a página de renovação de CLCB para clínica médica.",
   ],
   sections: [
     {
-      title: "Por que o CLCB de consultórios e clínicas tem prazo crítico",
+      title: "De quem é o certificado: do prédio ou da sua sala",
       content: [
-        "Consultórios e clínicas de saúde de menor porte são enquadrados no processo simplificado de CLCB quando atendem os critérios de área e risco do CBPMESP. Quando o CLCB vence, o estabelecimento perde a regularidade perante o Corpo de Bombeiros — e a Vigilância Sanitária Municipal pode suspender a licença de funcionamento durante qualquer vistoria de rotina.",
-        "Para clínicas credenciadas a planos de saúde, o CLCB vencido pode resultar no descredenciamento pelo operador do plano — que exige comprovação de regularidade nos documentos de segurança como condição de contrato.",
-        "Consultórios que utilizam oxigênio medicinal ou gases especiais, mesmo em pequenas quantidades, têm atenção redobrada do CBPMESP. O memorial descritivo desses gases precisa estar atualizado no processo de renovação.",
-        "O prazo ideal para iniciar a renovação é de 45 a 60 dias antes do vencimento — tempo suficiente para diagnóstico, adequações e protocolo sem pressão de prazo.",
+        "Em edifício comercial, o AVCB é da edificação. Ele é emitido para o prédio inteiro, cobre a estrutura, as rotas de fuga, as escadas, os hidrantes e as áreas comuns, e é responsabilidade do condomínio mantê-lo vigente. O profissional que aluga uma sala não emite AVCB próprio para aqueles metros quadrados — a sala é parte da edificação já certificada.",
+        "O que o ocupante da sala responde é pela conformidade interna: extintor adequado ao risco da atividade dentro da sala, sinalização e iluminação de emergência no trecho sob sua posse, e a compatibilidade entre a atividade exercida e a ocupação aprovada da edificação. Se o prédio foi aprovado como escritório e a sala virou consultório com procedimento, essa divergência é do ocupante, não do condomínio.",
+        "A situação muda quando o imóvel tem entrada independente pela via pública — sala térrea com porta para a rua, sobrado, casa adaptada. Aí a unidade é uma edificação autônoma para efeito de licenciamento, e o processo próprio, CLCB ou AVCB conforme o enquadramento, passa a ser do estabelecimento.",
+        "Antes de contratar qualquer serviço, portanto, o primeiro passo não é orçar: é definir em qual dessas três situações o consultório está. Contratar processo próprio para uma sala que já está coberta pelo AVCB do edifício é gastar com um documento que não vai existir; e confiar no AVCB do prédio quando a unidade é autônoma deixa o consultório descoberto.",
       ],
     },
     {
-      title: "Principais pendências na renovação de CLCB de consultórios",
+      title: "O que a Vigilância Sanitária aceita quando a sala é alugada",
       content: [
-        "Extintores com carga vencida ou inadequados para o risco: consultórios com equipamentos elétricos de alta potência (autoclave, aparelhos de fisioterapia, equipamento de raio-X) precisam de extintores adequados para risco elétrico. Extintor errado para o tipo de risco é apontado em vistoria.",
-        "Sinalização ausente ou desgastada: placas de saída de emergência, rota de fuga e localização dos extintores precisam estar em bom estado e visíveis. Desgaste natural ao longo da validade do CLCB anterior é causa frequente de exigência na renovação.",
-        "Iluminação de emergência com defeito: blocos autônomos precisam estar funcionando e fixados nos pontos corretos. Defeito em qualquer ponto é identificado em vistoria.",
-        "Reforma de layout sem atualização: consultórios que criaram novas salas, mudaram a recepção ou instalaram equipamentos novos sem comunicar ao CBPMESP podem ter inconsistência entre o processo anterior e o estado atual.",
-        "Uso de gases medicinais sem memorial: qualquer uso de oxigênio medicinal, N₂O ou gás especial exige memorial descritivo específico. A ausência gera exigência e atrasa a renovação.",
+        "Na abertura ou renovação do cadastro do estabelecimento de saúde, a SUVIS pede a comprovação de regularidade perante o Corpo de Bombeiros. Para consultório em sala de edifício comercial, o documento apresentado é normalmente o AVCB da edificação, obtido com o síndico ou a administradora.",
+        "É aqui que aparece o problema mais comum desse perfil: o AVCB do prédio está vencido e o profissional só descobre no dia em que precisa dele. Como o documento é do condomínio, o consultório não tem governança sobre o prazo — depende de assembleia, de rateio e do ritmo da administradora, e nesse intervalo o cadastro sanitário fica pendente.",
+        "Por isso a recomendação prática é solicitar cópia do AVCB vigente do edifício antes de assinar o contrato de locação, verificar a data de validade e incluir no contrato a obrigação do locador de mantê-lo regular. Trocar de sala depois de montado o consultório custa muito mais do que conferir um documento antes.",
+        "Um segundo ponto que a SUVIS observa é a coerência entre a atividade cadastrada e o que a edificação comporta. Consultório que passou a realizar procedimento com sedação, a instalar equipamento de imagem ou a manter paciente em recuperação muda o perfil de risco, e essa mudança pode não estar contemplada no que foi aprovado para o prédio.",
       ],
     },
     {
-      title: "Como a DRD2 realiza a renovação de CLCB para consultórios",
+      title: "Conformidade dentro da sala: o que é responsabilidade sua",
       content: [
-        "1. Diagnóstico técnico gratuito: engenheiro avalia todos os sistemas de segurança, verifica o enquadramento (CLCB ou AVCB), identifica o uso de gases medicinais e confirma se houve alterações na planta desde o processo anterior.",
-        "2. Relatório de pendências: documento com todas as adequações necessárias, custo e prazo realistas — sem surpresas no meio do processo.",
-        "3. Execução das adequações: a DRD2 executa ou coordena recarga de extintores, reposição de sinalização, reparo de iluminação e atualização documental de gases medicinais.",
-        "4. Protocolo e acompanhamento: processo protocolado no CBPMESP com acompanhamento completo e resposta a qualquer exigência sem custo adicional.",
-        "5. Entrega do novo CLCB: certificado entregue com orientação sobre validade e alerta para a próxima renovação.",
+        "Extintor compatível com o risco da atividade. Autoclave, equipamento de imagem, aparelho de fisioterapia e cadeira odontológica concentram carga elétrica na sala. O extintor precisa ser adequado a risco elétrico, estar no prazo de carga e ficar em posição sinalizada e desobstruída — não atrás da porta nem dentro de armário.",
+        "Sinalização e iluminação de emergência no trecho interno. A rota até a porta da sala e a indicação da saída são responsabilidade do ocupante. Bloco autônomo de iluminação com bateria viciada é achado corriqueiro, porque o equipamento parece funcionar na tomada e só falha quando falta energia.",
+        "Layout que preserva a rota. Recepção reorganizada, divisória nova para criar uma segunda sala de atendimento e mobiliário no corredor interno reduzem a largura de passagem e a distância livre até a porta. Em sala pequena isso acontece com facilidade e passa despercebido.",
+        "Gases medicinais, quando houver. Oxigênio, mesmo em cilindro pequeno, é comburente: acelera qualquer combustão. Cilindro precisa estar fixado, em posição ventilada, sinalizado e fora de rota de circulação — e o uso precisa constar na documentação do estabelecimento.",
+      ],
+    },
+    {
+      title: "Como a DRD2 conduz o caso de consultório em sala",
+      content: [
+        "1. Definição do enquadramento: verificamos se a unidade é parte da edificação certificada ou se constitui imóvel autônomo. É essa definição que determina se existe processo próprio a ser aberto ou se o caminho é regularizar a documentação do edifício junto ao condomínio.",
+        "2. Conferência do documento do prédio: análise do AVCB da edificação, validade, ocupação aprovada e compatibilidade com a atividade exercida na sala. Quando o documento do condomínio está vencido, orientamos o profissional sobre como cobrar formalmente a regularização.",
+        "3. Adequação interna da sala: extintor correto para o risco, sinalização, iluminação de emergência, ajuste de layout e organização dos itens que a Vigilância Sanitária verifica.",
+        "4. Quando há processo próprio: para unidade autônoma, conduzimos o processo no Corpo de Bombeiros do início ao fim, com ART e resposta a exigências.",
+        "5. Documentação para a SUVIS: organização do conjunto que instrui o cadastro do estabelecimento de saúde, para que o profissional não fique preso na etapa documental.",
       ],
     },
   ],
   faqs: [
     {
-      question: "Minha clínica tem menos de 200 m² — precisa de CLCB?",
-      answer: "Sim. Clínicas e consultórios de saúde precisam do certificado do Corpo de Bombeiros independentemente do tamanho, pois atendem público e possuem equipamentos elétricos de maior potência. O CLCB é a modalidade simplificada para os de menor porte e risco. A DRD2 confirma o enquadramento correto no diagnóstico gratuito.",
+      question: "Meu consultório fica numa sala alugada. Preciso de CLCB próprio?",
+      answer: "Na maioria dos casos, não. Sala dentro de edifício comercial é parte de uma edificação que já possui AVCB próprio, de responsabilidade do condomínio, e não emite certificado individual. A exceção é a unidade com entrada independente pela via pública — sala térrea com porta para a rua, sobrado ou casa adaptada —, que é tratada como edificação autônoma e aí sim precisa de processo próprio.",
     },
     {
-      question: "Posso renovar o CLCB sem interromper os atendimentos?",
-      answer: "Sim. As adequações mais comuns — recarga de extintores, reposição de sinalização, reparo de iluminação — são realizadas sem necessidade de fechar o consultório. Os atendimentos podem continuar normalmente durante todo o processo.",
+      question: "O AVCB do prédio está vencido. O que eu, como locatário, posso fazer?",
+      answer: "O documento é do condomínio, então a regularização depende dele. O que está ao seu alcance é cobrar formalmente: notificar o síndico ou a administradora por escrito, guardar o protocolo dessa cobrança e verificar o que o contrato de locação prevê sobre a obrigação do locador de manter o imóvel regular. Esse registro documental é o que demonstra que a pendência não é sua.",
     },
     {
-      question: "A Vigilância Sanitária pode fechar meu consultório por causa do CLCB vencido?",
-      answer: "Sim. A Vigilância Sanitária Municipal (SUVIS) exige regularidade perante o Corpo de Bombeiros para manutenção da licença de funcionamento de estabelecimentos de saúde. Em vistoria de rotina, CLCB vencido pode resultar em auto de infração e suspensão da licença.",
+      question: "A Vigilância Sanitária aceita o AVCB do edifício?",
+      answer: "Sim, quando o consultório é uma sala dentro da edificação. O que a SUVIS verifica é a regularidade perante o Corpo de Bombeiros do imóvel onde a atividade é exercida — e, para sala em prédio comercial, esse documento é o AVCB da edificação. O que ela também confere é se a atividade cadastrada é compatível com a ocupação aprovada do prédio.",
     },
     {
-      question: "Meu consultório usa oxigênio medicinal. Isso complica a renovação?",
-      answer: "Requer atenção adicional, mas não complica o processo quando conduzido corretamente. O uso de gases medicinais exige memorial descritivo específico no processo de renovação. A DRD2 prepara essa documentação como parte do serviço.",
+      question: "O prédio foi aprovado como escritório e eu atendo pacientes. Isso é problema?",
+      answer: "Pode ser. A ocupação aprovada da edificação define os parâmetros de segurança adotados no projeto. Atendimento de saúde com procedimento, sedação, equipamento de imagem ou permanência de paciente em recuperação tem perfil de risco diferente do de escritório. Quando a atividade real se distancia do uso aprovado, a divergência recai sobre o ocupante da sala.",
     },
     {
-      question: "Qual o custo da renovação de CLCB para consultório?",
-      answer: "Varia conforme a área, o tipo de atividade e as adequações necessárias. A DRD2 fornece orçamento completo após a visita técnica gratuita — sem taxa de diagnóstico e sem compromisso prévio.",
+      question: "Devo pedir o AVCB antes de alugar a sala?",
+      answer: "Sim, e é a recomendação mais útil desta página. Peça cópia do AVCB vigente do edifício antes de assinar, confira a data de validade e a ocupação aprovada, e inclua no contrato a obrigação do locador de mantê-lo regular. Descobrir a irregularidade depois de montar o consultório significa depender de assembleia e rateio de terceiros para poder abrir o cadastro sanitário.",
     },
   ],
   linksInternos: [
+    { label: "Renovação de CLCB para clínica médica", href: "/renovacao-clcb-clinica-sao-paulo" },
     { label: "Renovação de CLCB em São Paulo", href: "/renovacao-clcb-sao-paulo" },
-    { label: "CLCB em São Paulo", href: "/clcb-sao-paulo" },
-    { label: "Renovação CLCB para Comércio", href: "/renovacao-clcb-comercio-sao-paulo" },
     { label: "AVCB ou CLCB: qual preciso?", href: "/avcb-ou-clcb-qual-preciso" },
+    { label: "AVCB para escritório em São Paulo", href: "/alvara-bombeiro-escritorio-sao-paulo" },
   ],
 };

@@ -4,15 +4,15 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   "slug": "/porta-corta-fogo-hospital-sp",
   "meta": {
-    "title": "Porta Corta-Fogo para Hospital em SP | Laudo e Manutenção",
-    "description": "Manutenção especializada em portas corta-fogo de hospitais, clínicas e laboratórios em SP. Adequação de rotas de fuga com acessibilidade e laudo ART."
+    "title": "Porta Corta-Fogo de Hospital SP | Passagem de Maca e Força de Abertura",
+    "description": "Portas corta-fogo em hospital: compartimentação para abandono horizontal, largura para maca, força de abertura ajustada e eletroímã integrado ao alarme. Laudo com ART para AVCB, ONA e JCI."
   },
-  "eyebrow": "Rotas de Fuga Acessíveis — NBR 11742",
+  "eyebrow": "Compartimentação e abandono horizontal — NBR 11742",
   "h1Line1": "Porta Corta-Fogo",
-  "h1Line2": "para Hospitais e Clínicas em SP",
+  "h1Line2": "de Hospital em São Paulo",
   "heroBg": "/images/bg-hospital.jpg",
-  "introP1": "A evasão em hospitais é complexa e exige portas corta-fogo perfeitamente operacionais, leves para o tráfego de macas e pacientes, mas firmes para impedir fumaça.",
-  "introP2": "A DRD2 Engenharia faz o diagnóstico e manutenção das rotas de fuga hospitalares em São Paulo, ajustando força de abertura, barras antipânico e sistemas eletroímã, emitindo Laudo e ART essenciais para o AVCB e certificações de saúde (ONA, JCI).",
+  "introP1": "No hospital, a porta corta-fogo não separa o pavimento da escada: ela separa um setor do pavimento do setor vizinho. É essa compartimentação que sustenta o abandono horizontal — a transferência lateral de paciente acamado para a área protegida ao lado, antes de qualquer movimentação vertical. Uma porta que não fecha sozinha ou que perdeu a vedação não atrasa uma evacuação: ela invalida a estratégia inteira.",
+  "introP2": "Daí vêm as duas exigências que o hospital tem e nenhuma outra ocupação tem junto: a folha precisa ser larga o bastante para a passagem de maca com equipe dos dois lados, e a força de abertura precisa ser leve o suficiente para que um profissional empurrando leito consiga vencê-la sem largar o paciente. A DRD2 ajusta mola, ferragem e eletroímã integrado ao alarme, e emite laudo com ART CREA-SP para o AVCB e para as auditorias de acreditação (ONA, JCI).",
   "breadcrumbs": [
     {
       "label": "Home",

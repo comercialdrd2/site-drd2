@@ -1926,16 +1926,20 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
 },
 {
   slug: "central-de-gas-em-condominios-seguranca-manutencao",
-  title: "Central de gás em condomínios: como funciona e como garantir segurança",
+  title: "Rotina de manutenção da central de gás: o calendário do síndico",
   date: "2026-05-05",
   category: "Condomínios",
-  excerpt: "Entenda como funciona a central de gás em condomínios, quais cuidados reduzem vazamentos e por que manutenção preventiva e laudo técnico são essenciais para síndicos.",
+  excerpt: "O que inspecionar, com que periodicidade e o que registrar na central de gás do condomínio — a rotina preventiva que evita chegar no cheiro de gás como primeiro aviso.",
   relatedServiceSlug: "laudo-estanqueidade-gas-sao-paulo",
   image: "/images/blog/blog_hero_avcb_condominio.webp",
   content: `
-      <p>A <strong>central de gás em condomínios</strong> concentra o armazenamento, regulagem e distribuição do gás para as unidades ou áreas comuns do prédio. Ela pode operar com GLP ou estar integrada a sistema de gás natural, dependendo da configuração da edificação. Em qualquer caso, precisa de inspeção, manutenção preventiva e controle documental.</p>
+      <p>Este artigo é sobre <strong>rotina</strong>: o que inspecionar, com que frequência e o que precisa ficar registrado na central de gás de um condomínio. Se o que você procura é a contratação do serviço técnico — inspeção, teste de estanqueidade e laudo com ART —, vá direto para a página de <a href="/central-de-gas-condominio-sao-paulo">central de gás para condomínio em São Paulo</a>.</p>
 
-      <p>Quando a central de gás não é acompanhada por equipe técnica, pequenos problemas podem se transformar em risco coletivo: vazamentos, reguladores comprometidos, válvulas com desgaste, corrosão, ventilação inadequada, acesso obstruído e tubulações alteradas sem registro.</p>
+      <p>A razão de existir uma rotina é simples: a central de gás combina risco alto com invisibilidade total. Ninguém entra na casa de gás no dia a dia. O regulador degrada, a válvula agarra, a vedação ressecada racha e a ventilação vai sendo obstruída por material encostado na grade — e nada disso avisa. O primeiro sinal costuma ser o cheiro de gás, que já é o estágio em que a prevenção foi perdida.</p>
+
+      <p>A <strong>central de gás em condomínios</strong> concentra o armazenamento, a regulagem e a distribuição do gás para as unidades ou áreas comuns do prédio. Ela pode operar com GLP ou estar integrada a sistema de gás natural, dependendo da configuração da edificação. Em qualquer caso, precisa de inspeção, manutenção preventiva e controle documental.</p>
+
+      <p>Quando a central de gás não é acompanhada por equipe técnica, pequenos problemas se transformam em risco coletivo: vazamentos, reguladores comprometidos, válvulas com desgaste, corrosão, ventilação inadequada, acesso obstruído e tubulações alteradas sem registro.</p>
 
       <h2>Como funciona uma central de gás</h2>
       <p>De forma simplificada, a central recebe o gás, controla sua pressão e distribui para a rede predial. A instalação pode incluir cilindros, manifold, reguladores, válvulas de bloqueio, tubulações, dispositivos de segurança e pontos de medição. Cada parte precisa trabalhar dentro de condição segura para evitar sobrepressão, vazamento ou falha de fornecimento.</p>

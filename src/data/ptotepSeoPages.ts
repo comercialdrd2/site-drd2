@@ -10,6 +10,17 @@ export type PtotepRelatedLink = {
   href: string;
 };
 
+/**
+ * Bloco de profundidade técnica escrito à mão para uma página específica.
+ * Quando presente, substitui o texto gerado por `getTechnicalDepth`, que sai
+ * praticamente idêntico em todas as páginas do mesmo `kind`.
+ */
+export type PtotepDeepDive = {
+  title: string;
+  intro: string;
+  details: string[];
+};
+
 export type PtotepPage = {
   slug: string;
   kind: PtotepPageKind;
@@ -31,6 +42,7 @@ export type PtotepPage = {
   faqs: PtotepFaq[];
   related: PtotepRelatedLink[];
   ctaOccupation: string;
+  deepDive?: PtotepDeepDive;
 };
 
 const baseDocuments = [
@@ -82,7 +94,9 @@ function page(input: PtotepPage): PtotepPage {
     ...input,
     process: input.process.length ? input.process : baseProcess,
     documents: input.documents.length ? input.documents : baseDocuments,
-    faqs: [...input.faqs, ...baseFaqs],
+    // Página com conjunto próprio de FAQs não recebe as genéricas — senão todas
+    // as páginas do cluster publicam o mesmo FAQPage e o Google as consolida.
+    faqs: input.faqs.length >= 3 ? input.faqs : [...input.faqs, ...baseFaqs],
     related: input.related.length ? input.related : baseRelated,
   };
 }
@@ -309,9 +323,62 @@ export const ptotepPages: PtotepPage[] = [
       "cenografia escondendo sinalizacao de emergencia",
       "evento com publico maior que a area comporta",
     ],
-    process: [],
-    documents: [],
-    faqs: [],
+    deepDive: {
+      title: "O mall é rota de fuga, não área de evento",
+      intro:
+        "Essa é a diferença que define todo o processo. O AVCB do shopping foi emitido considerando o mall, os átrios e as praças como circulação — área livre que serve de rota de fuga para a população das lojas. Quando um stand, palco ou área promocional ocupa esse espaço, duas coisas acontecem ao mesmo tempo: a largura útil da rota diminui e a população a ser evacuada aumenta. O PTOTEP existe para demonstrar que, mesmo com essa ocupação temporária, o conjunto continua atendendo.",
+      details: [
+        "Largura remanescente da circulação. Não basta o stand caber no átrio: o que precisa ser verificado é quanto de faixa livre sobra para o fluxo de abandono depois da montagem, incluindo a projeção de toldos, banners, totens e a área que a fila do evento vai ocupar. Fila é ocupação de circulação como qualquer outra, e é o item que a administração do shopping mais subestima ao aprovar o layout comercial.",
+        "Obstrução de equipamentos de segurança. Hidrante, extintor, acionador manual de alarme, sinalização de saída e iluminação de emergência precisam permanecer visíveis e acessíveis. A cenografia de ativação de marca é montada para atrair o olhar, e é justamente por isso que encobre placa de rota e botoeira. Esse é o achado mais frequente em vistoria de evento em shopping, e é o mais fácil de resolver — desde que apareça no projeto e não na véspera.",
+        "Energia temporária e montagem em operação. A carga do evento entra nos quadros do empreendimento ou em gerador próprio, e em ambos os casos precisa de responsável técnico, proteção adequada e passagem de cabo que não crie obstáculo nem risco na circulação. Quando a montagem invade o horário de funcionamento do shopping, some a separação entre canteiro e público, e o plano de montagem passa a ser item de segurança, não de logística.",
+        "Manual da administração não substitui o processo. O shopping tem regras próprias de montagem e um layout aprovado internamente pelo departamento de operações. Isso organiza a relação comercial, mas não regulariza a ocupação temporária perante o Corpo de Bombeiros. São dois trâmites distintos, com prazos distintos, e o organizador que só cumpriu o primeiro chega na data do evento sem o segundo.",
+      ],
+    },
+    process: [
+      "leitura do AVCB vigente do shopping e da área comum onde o evento será montado, com identificação da rota de fuga afetada",
+      "análise do layout comercial do evento contra a largura útil de circulação, a projeção de estruturas e o espaço de fila",
+      "verificação de hidrantes, extintores, acionadores, sinalização e iluminação de emergência no perímetro da montagem",
+      "compatibilização da carga elétrica temporária, gerador e passagem de cabos com a instalação do empreendimento",
+      "elaboração de projeto, memoriais e ARTs, protocolo no Corpo de Bombeiros e resposta a exigências",
+      "checklist de montagem no local, conferência antes da abertura ao público e suporte durante o evento",
+    ],
+    documents: [
+      "AVCB vigente do shopping e planta da área comum onde o evento ocupará espaço",
+      "layout do evento cotado, com projeção de estruturas, posição de fila e faixa livre de circulação remanescente",
+      "carta de anuência ou aprovação da administração do shopping para a área e o período",
+      "ART do responsável técnico pelas estruturas temporárias, com memorial de montagem",
+      "ART da instalação elétrica temporária, com indicação de ponto de alimentação, carga e proteções",
+      "certificado de tratamento antichama dos materiais de cenografia, tecidos e revestimentos",
+      "memorial com público estimado, horários de montagem, operação e desmontagem, e plano de controle de acesso",
+      "relação da equipe de brigada dedicada ao evento, quando o público exceder a rotina do empreendimento",
+    ],
+    faqs: [
+      {
+        question: "Se o shopping já tem AVCB, por que o evento precisa de PTOTEP?",
+        answer:
+          "Porque o AVCB do shopping foi emitido considerando o mall como área de circulação livre. O evento converte parte dessa circulação em área ocupada e, ao mesmo tempo, atrai público adicional. O PTOTEP é o processo que demonstra que a rota de fuga remanescente e as saídas continuam atendendo a população presente durante o evento.",
+      },
+      {
+        question: "A aprovação do layout pela administração do shopping já resolve?",
+        answer:
+          "Não. A aprovação interna do shopping organiza a relação comercial: área contratada, período, regras de montagem e responsabilidades entre as partes. A regularização perante o Corpo de Bombeiros é um trâmite separado, com documentação e prazo próprios. Cumprir só o primeiro deixa o evento sem cobertura legal na data.",
+      },
+      {
+        question: "A fila do evento conta como obstrução da rota de fuga?",
+        answer:
+          "Conta, e costuma ser o ponto ignorado no layout. A fila ocupa faixa de circulação de forma contínua durante toda a operação do evento e, em ativação de sucesso, cresce além do previsto. O projeto precisa reservar e delimitar fisicamente o espaço da fila, para que ela não avance sobre a largura que serve ao abandono.",
+      },
+      {
+        question: "Ativação pequena, de poucos metros quadrados, também precisa?",
+        answer:
+          "Depende de onde ela é montada e do que ela atrai. Um quiosque de poucos metros no meio de um átrio largo pode ser irrelevante para o fluxo; o mesmo quiosque em uma circulação estreita, ou uma ativação pequena que gera fila de dezenas de pessoas, altera as condições de abandono. O que define é o efeito sobre a rota e sobre a população, não a área do stand.",
+      },
+      {
+        question: "Quanto tempo antes preciso iniciar o processo?",
+        answer:
+          "Com folga suficiente para protocolar, responder a eventual exigência e ainda ajustar layout antes de contratar a montagem. O erro caro é congelar cenografia e fechar contrato com o fornecedor de estrutura antes da análise técnica: se o projeto exigir recuo de stand ou realocação de fila, a alteração passa a ter custo de retrabalho.",
+      },
+    ],
     related: baseRelated,
     ctaOccupation: "evento em shopping",
   }),
@@ -1007,13 +1074,62 @@ export const ptotepPages: PtotepPage[] = [
       "fornecedor de estrutura sem documento tecnico",
       "GLP ou gerador sem laudo aplicavel",
     ],
-    process: [],
-    documents: baseDocuments,
+    deepDive: {
+      title: "A lista sai do layout, não de um modelo pronto",
+      intro:
+        "Não existe um checklist único de PTOTEP que sirva para qualquer evento, e é por isso que listas genéricas baixadas na internet costumam faltar exatamente o documento que trava o processo. A relação correta se monta em três camadas encaixadas: o que comprova a edificação permanente, o que descreve a ocupação temporária que o evento cria, e o que responsabiliza tecnicamente cada fornecedor que montar alguma coisa no local. Faltando qualquer uma das três, o protocolo entra incompleto.",
+      details: [
+        "Camada 1 — a edificação permanente. AVCB ou CLCB vigente do local, planta do imóvel com as saídas de emergência e a área efetivamente cedida ao evento. É a base de comparação: sem saber o que já foi aprovado, não há como demonstrar que a montagem temporária preserva as condições existentes. Evento em espaço sem licença própria vigente é um problema anterior ao PTOTEP e precisa ser resolvido primeiro.",
+        "Camada 2 — a ocupação temporária. Layout cotado com posição de cada estrutura, sentido de fluxo, acessos, saídas mantidas e áreas bloqueadas; memorial com público estimado, método de controle de acesso, horários de montagem, operação e desmontagem. O layout sem cotas é a pendência número um: sem dimensão, não se verifica largura de rota nem distância máxima a percorrer, e o processo volta antes mesmo da análise de mérito.",
+        "Camada 3 — os fornecedores. Cada empresa que monta estrutura, energiza um circuito ou instala gás precisa entregar sua própria responsabilidade técnica, com escopo delimitado. ART de palco, tenda ou arquibancada acompanhada de memorial de cálculo; ART da instalação elétrica temporária; laudo de aterramento do gerador; documentação de instalação de GLP e teste de estanqueidade quando houver cocção. ART genérica de 'montagem de evento', sem escopo, é recusada.",
+        "O que fecha o conjunto. Certificado de tratamento antichama de tecidos, carpetes e materiais de cenografia; relação nominal da equipe de brigada com os respectivos certificados de formação; e plano de emergência do evento com procedimento de abandono e ponto de encontro. São itens de baixo custo e prazo curto, mas que dependem de terceiros — e por isso são os que mais atrasam quem começa a reunir documentação em cima da data.",
+      ],
+    },
+    process: [
+      "levantar a licença vigente da edificação permanente e a planta com as saídas de emergência da área cedida",
+      "fechar o layout cotado do evento antes de contratar estrutura, para que a lista de documentos nasça do desenho real",
+      "identificar cada fornecedor que executará montagem, instalação elétrica, gás ou estrutura e solicitar a ART correspondente",
+      "reunir memorial de segurança com lotação, controle de acesso, horários e plano de abandono",
+      "conferir validade e escopo de cada documento antes do protocolo, em vez de descobrir a lacuna na análise",
+      "protocolar, acompanhar e responder a exigências com folga em relação à data da montagem",
+    ],
+    documents: [
+      "AVCB ou CLCB vigente da edificação permanente, com planta das saídas de emergência",
+      "layout do evento cotado, com estruturas, fluxo de público, acessos, saídas mantidas e áreas bloqueadas",
+      "memorial de segurança com lotação, controle de acesso e horários de montagem, operação e desmontagem",
+      "ART de estrutura temporária (palco, tenda, arquibancada, stand) com memorial de cálculo do responsável",
+      "ART da instalação elétrica temporária, com carga, ponto de alimentação e proteções",
+      "laudo de aterramento e documentação do gerador, quando houver",
+      "documentação da instalação de GLP e teste de estanqueidade, quando houver cocção ou aquecimento a gás",
+      "certificado de tratamento antichama de tecidos, carpetes e materiais de cenografia",
+      "relação nominal da brigada do evento, com certificados de formação",
+      "plano de emergência com procedimento de abandono, sinalização temporária e ponto de encontro",
+    ],
     faqs: [
       {
-        question: "Preciso de ART para todo evento?",
+        question: "Existe uma lista fixa de documentos para PTOTEP?",
         answer:
-          "A necessidade depende das instalacoes e responsabilidades tecnicas envolvidas. Palco, estrutura, eletrica, gerador, GLP e montagens temporarias normalmente exigem documentos tecnicos especificos.",
+          "Não. O núcleo é sempre o mesmo — licença da edificação, layout, memorial e responsabilidade técnica —, mas o restante depende do que será montado. Evento sem estrutura, sem gás e sem gerador tem lista curta; o mesmo evento com palco, cozinha e energia própria acrescenta uma ART e um laudo para cada frente. Por isso a lista se define depois do layout, não antes.",
+      },
+      {
+        question: "Por que uma ART pode ser recusada?",
+        answer:
+          "O motivo mais comum é escopo genérico. Uma ART de 'montagem de evento', sem discriminar o que o profissional está assumindo, não permite verificar se a estrutura, a instalação elétrica e o sistema de gás têm responsável definido. Cada frente precisa de ART com objeto delimitado, e a estrutura temporária precisa vir acompanhada do memorial de cálculo correspondente.",
+      },
+      {
+        question: "O que é o layout cotado e por que ele é tão cobrado?",
+        answer:
+          "É a planta do evento com as dimensões reais: posição e tamanho de cada estrutura, largura livre de circulação remanescente, posição das saídas mantidas e das áreas bloqueadas. Sem cotas não se verifica largura de rota de fuga nem distância máxima a percorrer até a saída, que são os dois parâmetros centrais da análise. Layout sem cota volta antes da análise técnica de mérito.",
+      },
+      {
+        question: "Preciso de documento de tratamento antichama da cenografia?",
+        answer:
+          "Quando houver tecido, carpete, forração ou material de acabamento na montagem, sim. Esses materiais adicionam carga de incêndio em área ocupada por público, e o certificado de tratamento do fornecedor é o que comprova o desempenho. É documento barato e rápido, mas depende de terceiro — motivo pelo qual costuma ser o último a chegar.",
+      },
+      {
+        question: "O que fazer se o espaço do evento não tem AVCB vigente?",
+        answer:
+          "Isso precisa ser tratado antes do PTOTEP. A ocupação temporária se apoia na regularidade da edificação permanente; se o imóvel está com licença vencida ou nunca teve, não há base sobre a qual demonstrar que o evento preserva as condições de segurança. Nesse cenário, a regularização do imóvel entra no cronograma antes da data do evento, e não em paralelo.",
       },
     ],
     related: baseRelated,

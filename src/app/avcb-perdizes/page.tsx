@@ -5,15 +5,15 @@ const data: UniversalPageData = {
   "slug": "/avcb-perdizes",
   "bannerImage": "/images/banners/sprinkler.png",
   "meta": {
-    "title": "AVCB em Perdizes | Engenharia de Incêndio para Condomínios e Escolas",
-    "description": "Aprovação de AVCB em Perdizes. Solucionamos exigências de bombeiros para condomínios verticais, escolas, universidades (PUC) e comércios da Zona Oeste."
+    "title": "AVCB em Perdizes | Primeira Emissão e Regularização de Imóvel",
+    "description": "Emissão de AVCB em Perdizes para imóvel sem certificado, mudança de uso ou obra concluída. Escolas, universidades, comércio e prédios da Zona Oeste. Para renovar AVCB de condomínio, veja a página específica."
   },
-  "eyebrow": "Especialistas na Zona Oeste SP",
+  "eyebrow": "Primeira emissão e regularização — Zona Oeste SP",
   "h1Line1": "AVCB em Perdizes",
-  "h1Line2": "Adequação de Condomínios Verticais e Instituições de Ensino",
+  "h1Line2": "Primeira Emissão e Regularização de Imóvel",
   "heroBg": "/images/banner-hero.webp",
-  "introP1": "Perdizes é caracterizado por sua topografia acidentada, que deu origem a condomínios verticais de altíssimo padrão com subsolos profundos, além de sediar grandes universidades, hospitais e escolas tradicionais.",
-  "introP2": "O desafio de engenharia contra incêndio na região envolve projetar rotas de fuga seguras em desníveis acentuados e garantir a exaustão correta de fumaça em garagens de condomínios luxuosos.",
+  "introP1": "Esta página trata de quem ainda não tem o certificado: imóvel que nunca passou pelo processo, edificação que mudou de uso, obra recém-concluída ou estabelecimento que descobriu a pendência ao pedir o alvará de funcionamento. Se o seu condomínio já tem AVCB e precisa renovar, o caminho é a página de renovação de AVCB de condomínio em Perdizes.",
+  "introP2": "Perdizes tem topografia acidentada, e isso define a engenharia local: os subsolos são profundos por imposição do terreno, o que torna a exaustão de fumaça em garagem e o dimensionamento das rotas de fuga em desnível os dois pontos mais críticos da primeira emissão. Some-se a isso o polo educacional da região — PUC, escolas tradicionais e cursos livres —, onde o cálculo populacional e a largura das saídas concentram as exigências do Corpo de Bombeiros.",
   "breadcrumbs": [
     {
       "label": "Home",
@@ -119,13 +119,21 @@ const data: UniversalPageData = {
   ],
   "linksInternos": [
     {
+      "href": "/renovacao-avcb-condominio-perdizes",
+      "label": "Renovação de AVCB de condomínio em Perdizes"
+    },
+    {
+      "href": "/renovacao-clcb-perdizes-sao-paulo",
+      "label": "Renovação de CLCB em Perdizes"
+    },
+    {
       "href": "/sistema-de-hidrantes-para-condominio-sao-paulo",
       "label": "Por que a bomba de hidrante é tão fiscalizada?"
     }
   ],
   "ctaFinal": {
-    "heading": "RENOVAÇÃO DE AVCB NA ZONA OESTE",
-    "body": "Adequação técnica rápida e sem dor de cabeça para seu condomínio em Perdizes.",
+    "heading": "PRIMEIRA EMISSÃO DE AVCB EM PERDIZES",
+    "body": "Imóvel sem certificado, mudança de uso ou obra concluída: diagnóstico técnico antes do protocolo, para o processo não voltar por exigência previsível.",
     "cta": "Falar com Engenheiro no WhatsApp"
   }
 };

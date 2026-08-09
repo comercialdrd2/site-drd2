@@ -1,14 +1,14 @@
 export const renovacaoAvcbContent = {
   meta: {
-    title: "Renovação de AVCB para Escritórios Corporativos em São Paulo | DRD2 Engenharia",
-    description: "Escritórios com AVCB vencido enfrentam problemas com seguradoras e laudos prediais. Muitas vezes as adequações internas não refletem o projeto do cond... DRD2 Engenharia renova com agilidade.",
+    title: "Renovação de AVCB de Escritório SP | Laje Corporativa e Reforma de Layout",
+    description: "Renovação de AVCB de escritório em torre corporativa: divergência entre o layout reformado e o projeto aprovado do condomínio, responsabilidade entre locatário e prédio, e adequação sem parar a operação.",
     canonical: "/renovacao-avcb-escritorio-sao-paulo",
   },
-  badge: "GRUPO D-1 — LOCAIS PARA PRESTAÇÃO DE SERVIÇOS — RENOVAÇÃO 2026",
-  h1: "Renovação de AVCB para Escritórios Corporativos em São Paulo",
+  badge: "GRUPO D-1 — LOCAIS PARA PRESTAÇÃO DE SERVIÇOS — RENOVAÇÃO",
+  h1: "Renovação de AVCB de escritório em torre corporativa",
   intro: [
-    "<strong>Escritórios Corporativos com AVCB vencido em São Paulo</strong> correm sérios riscos. Escritórios com AVCB vencido enfrentam problemas com seguradoras e laudos prediais. Muitas vezes as adequações internas não refletem o projeto do condomínio, gerando conflitos no CBPMESP.<br/><br/>📲 <strong>Evite multas e interdições.</strong> Fale agora com um engenheiro: <a href='https://wa.me/5511993206900' class='text-green-600 font-bold underline'>Chamar no WhatsApp</a>",
-    "A <strong>DRD2 Engenharia</strong> executa a renovação completa do projeto à instalação — levantamento técnico, atualização da documentação, adequação dos sistemas e aprovação junto ao Corpo de Bombeiros, com resposta incluída a qualquer Comunique-se, sem custo adicional."
+    "O que trava a renovação do AVCB de um escritório quase nunca é falta de extintor: é a distância acumulada entre o layout reformado e o projeto aprovado do condomínio. Cada troca de locatário traz obra — divisória nova estreitando o corredor, sala de reunião ocupando o caminho até a escada, sinalização removida na pintura e não recolocada. A edificação real e a edificação aprovada vão se separando andar a andar, e a conta chega na vistoria.<br/><br/>📲 <strong>Evite multas e interdições.</strong> Fale agora com um engenheiro: <a href='https://wa.me/5511993206900' class='text-green-600 font-bold underline'>Chamar no WhatsApp</a>",
+    "Esta página trata da <strong>renovação</strong> em escritório que ocupa laje ou conjunto em torre de terceiros. Para primeira emissão, veja <a href='/alvara-bombeiro-escritorio-sao-paulo' class='text-red-600 font-bold underline'>alvará do bombeiro para escritórios</a>; para escritório pequeno enquadrado no processo simplificado, veja <a href='/renovacao-clcb-escritorio-sao-paulo' class='text-red-600 font-bold underline'>renovação de CLCB para escritório</a>. A <strong>DRD2 Engenharia</strong> executa levantamento técnico, atualização documental, adequação dos sistemas e aprovação junto ao CBPMESP, com resposta a Comunique-se sem custo adicional."
   ],
   sections: [
     {

@@ -101,7 +101,7 @@ function getTechnicalDepth(page: PtotepPage) {
 }
 
 export default function PtotepSeoLanding({ page }: Props) {
-  const technicalDepth = getTechnicalDepth(page);
+  const technicalDepth = page.deepDive ?? getTechnicalDepth(page);
   const schema = generateMasterSchema({
     slug: page.slug,
     title: page.title,
