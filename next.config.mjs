@@ -61,6 +61,17 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      { source: '/renovacao-avcb-moema', destination: '/renovacao-avcb-condominio-moema', permanent: true },
+      { source: '/renovacao-avcb-vila-olimpia', destination: '/renovacao-avcb-condominio-vila-olimpia', permanent: true },
+      { source: '/renovacao-avcb-pinheiros', destination: '/renovacao-avcb-condominio-pinheiros', permanent: true },
+      { source: '/renovacao-avcb-perdizes', destination: '/renovacao-avcb-condominio-perdizes', permanent: true },
+      { source: '/renovacao-avcb-bela-vista', destination: '/renovacao-avcb-condominio-bela-vista', permanent: true },
+      { source: '/renovacao-avcb-galpao-industrial-tatuape', destination: '/avcb-tatuape', permanent: true },
+      { source: '/avcb-zona-leste', destination: '/avcb-zona-leste-sao-paulo', permanent: true },
+      { source: '/avcb-zona-oeste', destination: '/avcb-zona-oeste-sao-paulo', permanent: true },
+      { source: '/avcb-zona-norte', destination: '/avcb-zona-norte-sao-paulo', permanent: true },
+      { source: '/avcb-comercio', destination: '/avcb-comercial-escritorio-sao-paulo', permanent: true },
+      { source: '/quanto-custa-avcb-em-sao-paulo', destination: '/quanto-custa-avcb-sao-paulo', permanent: true },
       {
         source: '/avcb-restaurante',
         destination: '/avcb-restaurante-sao-paulo',
