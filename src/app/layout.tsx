@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   title: {
     default: "DRD2 Engenharia | Segurança Contra Incêndio em SP",
-    template: "%s | DRD2 Engenharia"
+    template: "%s"
   },
   description: "Especialistas em aprovação de AVCB, CLCB, projetos e manutenção de sistemas de segurança contra incêndio em São Paulo.",
   openGraph: {
