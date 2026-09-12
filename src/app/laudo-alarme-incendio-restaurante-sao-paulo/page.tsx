@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/laudo-alarme-incendio-restaurante-sao-paulo",
   meta: {
-    title: "Laudo de Alarme de Incêndio para Restaurante em SP | DRD2 Engenharia",
+    title: "Laudo de Alarme de Incêndio para Restaurante em SP",
     description: "Laudo técnico do sistema de alarme de incêndio para restaurantes em São Paulo. IT 18/2019, detectores compatíveis com cozinha industrial, ART CREA-SP inclusa. DRD2 Engenharia.",
   },
   eyebrow: "IT 18 — Alarme de Incêndio para Restaurante",
@@ -135,7 +135,7 @@ const data: UniversalPageData = {
     },
   ],
   linksInternos: [
-    { href: "/avcb-para-restaurante-sao-paulo", label: "AVCB para Restaurante em SP" },
+    { href: "/avcb-restaurante-sao-paulo", label: "AVCB para Restaurante em SP" },
     { href: "/alvara-bombeiro-bar-restaurante-sao-paulo", label: "Alvará Bombeiro — Restaurante" },
     { href: "/laudo-alarme-incendio-sao-paulo", label: "Laudo de Alarme de Incêndio SP" },
     { href: "/laudo-hidrante-restaurante-sao-paulo", label: "Laudo de Hidrante — Restaurante" },

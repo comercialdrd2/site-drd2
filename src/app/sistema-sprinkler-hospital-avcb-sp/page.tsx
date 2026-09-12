@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sistema-sprinkler-hospital-avcb-sp",
   meta: {
-    title: "Sistema de Sprinkler para Hospital em SP — IT 23/25 + ANVISA | DRD2 Engenharia",
+    title: "Sistema de Sprinkler para Hospital em SP — IT 23/25 + ANVISA",
     description: "A DRD2 projeta e instala sistemas de sprinkler para hospital e clínica em SP. Pré-ação em UTI e CC, IT 23/25, NBR 10897 e ANVISA RDC 50. ART e laudo para AVCB hospitalar. Diagnóstico gratuito.",
   },
   eyebrow: "IT 23/25 + ANVISA RDC 50 — Hospitais, Clínicas e UPAs",

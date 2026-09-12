@@ -1,6 +1,6 @@
 export const renovacaoClcbComercioContent = {
   meta: {
-    title: "Renovação de CLCB para Comércio em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de CLCB para Comércio em São Paulo 2026",
     description: "Loja ou comércio com CLCB vencido em SP arrisca interdição e cancelamento do alvará. DRD2 renova o CLCB para comércio com processo simplificado e diagnóstico gratuito.",
     canonical: "/renovacao-clcb-comercio-sao-paulo",
   },

@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/vga-hospital-sp",
   meta: {
-    title: "Válvula de Governo e Alarme (VGA) para Hospital em SP — Sprinkler Hospitalar e AVCB | DRD2 Engenharia",
+    title: "Válvula de Governo e Alarme (VGA) para Hospital em SP — Sprinkler Hospitalar e AVCB",
     description: "A DRD2 projeta e mantém Válvula de Governo e Alarme (VGA) para hospitais em SP. Integração com sistema de alarme hospitalar, trip test sem interrupção de UTI e laudo para AVCB. IT 23/25. Diagnóstico gratuito.",
   },
   eyebrow: "Válvula de Governo e Alarme (VGA) para Hospital — IT 23/25, NBR 10897 e AVCB em São Paulo",
@@ -174,7 +174,7 @@ const data: UniversalPageData = {
     { href: "/manutencao-vga-sprinkler-sp", label: "Manutenção de VGA" },
     { href: "/teste-comissionamento-vga-sp", label: "Trip Test de VGA" },
     { href: "/adequacao-vga-avcb-sp", label: "Adequação de VGA para AVCB" },
-    { href: "/sprinkler-hospital-avcb-sp", label: "Sprinkler para Hospital" },
+    { href: "/sistema-sprinkler-hospital-avcb-sp", label: "Sprinkler para Hospital" },
   ],
   ctaFinal: {
     heading: "VÁLVULA DE GOVERNO E ALARME (VGA) PARA HOSPITAL EM SP — TRIP TEST POR ZONA + LAUDO + INTEGRAÇÃO COM CENTRAL",

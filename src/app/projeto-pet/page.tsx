@@ -6,11 +6,11 @@ import { JsonLD, generateMasterSchema } from "@/components/JsonLD";
 import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 
-const _pageTitle = "Projeto PET (Evento Temporário) em São Paulo | DRD2 Engenharia";
+const _pageTitle = "Projeto PET (Evento Temporário) em São Paulo";
 const _pageDesc = "Obtenha seu Projeto PET (Eventos Temporários) em SP com agilidade. Licenciamento total para feiras, congressos e shows. ART inclusa. DRD2 Engenharia.";
 
 export const metadata = {
-  title: "Projeto PET (Evento Temporário) em São Paulo | DRD2 Engenharia",
+  title: "Projeto PET (Evento Temporário) em São Paulo",
   description: "Obtenha seu Projeto PET (Eventos Temporários) em SP com agilidade. Licenciamento total para feiras, congressos e shows. ART inclusa. DRD2 Engenharia.",
   alternates: {
     canonical: "/projeto-pet",

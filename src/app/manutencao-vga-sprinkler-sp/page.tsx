@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/manutencao-vga-sprinkler-sp",
   meta: {
-    title: "Manutenção de Válvula de Governo e Alarme (VGA) para Sprinkler em SP — Semestral e Trip Test Anual | DRD2 Engenharia",
+    title: "Manutenção de Válvula de Governo e Alarme (VGA) para Sprinkler em SP — Semestral e Trip Test Anual",
     description: "A DRD2 realiza manutenção de Válvula de Governo e Alarme (VGA) em SP. Inspeção semestral, trip test anual, verificação de campainha e pressostato e laudo para AVCB. IT 23/25. Diagnóstico gratuito.",
   },
   eyebrow: "Manutenção de Válvula de Governo e Alarme (VGA) — IT 23/25 e NBR 10897 em São Paulo",

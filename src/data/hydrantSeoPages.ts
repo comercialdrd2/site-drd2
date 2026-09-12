@@ -19,8 +19,8 @@ export type HydrantSeoPage = {
 };
 
 export const hydrantSeoPages: Record<string, HydrantSeoPage> = {
-  "/sistema-hidrante-galpao-industrial-avcb-sp": {
-    slug: "/sistema-hidrante-galpao-industrial-avcb-sp",
+  "/sistema-de-hidrantes-para-galpao-sao-paulo": {
+    slug: "/sistema-de-hidrantes-para-galpao-sao-paulo",
     title: "Sistema de Hidrante para Galpao Industrial AVCB SP",
     description: "Projeto, instalação e regularização de sistema de hidrante para galpão industrial em SP. Rede, bomba de incêndio, reserva técnica, laudo, ART e AVCB.",
     h1: "Sistema de Hidrante para Galpao Industrial e AVCB em SP",
@@ -65,8 +65,8 @@ export const hydrantSeoPages: Record<string, HydrantSeoPage> = {
       { label: "Manutenção de sistemas", href: "/manutencao" },
     ],
   },
-  "/sistema-hidrante-industria-quimica-sp": {
-    slug: "/sistema-hidrante-industria-quimica-sp",
+  "/sistema-de-hidrantes-para-industria-sao-paulo": {
+    slug: "/sistema-de-hidrantes-para-industria-sao-paulo",
     title: "Sistema de Hidrante para Indústria Química SP",
     description: "Sistema de hidrante para indústria química em SP. Projeto, vazão, pressão, risco elevado, casa de bombas, ART, laudo e AVCB.",
     h1: "Sistema de Hidrante para Indústria Química em SP",

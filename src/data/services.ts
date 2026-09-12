@@ -29,7 +29,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Emissão e renovação do Auto de Vistoria do Corpo de Bombeiros (AVCB) para edificações em SP.",
     h1: "Aprovação de AVCB em São Paulo",
-    metaTitle: "Aprovação de AVCB em São Paulo | DRD2 Engenharia",
+    metaTitle: "Aprovação de AVCB em São Paulo",
     metaDescription: "Aprovação de AVCB em São Paulo com segurança técnica e agilidade. A DRD2 Engenharia gerencia todo o processo junto ao Corpo de Corpo de Bombeiros de São Paulo. Solicite orçamento.",
     pas: {
       problem: "Sua edificação está sem o AVCB válido?",
@@ -108,7 +108,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Sistemas Críticos (Grupo H). Cumpra exigências inter-órgãos (Vigilância e Bombeiro).",
     h1: "AVCB para Hospital e Clínica em São Paulo: Regularize com Quem Conhece o Grupo H",
-    metaTitle: "AVCB para Hospital e Clínica em SP | DRD2 Engenharia",
+    metaTitle: "AVCB para Hospital e Clínica em SP",
     metaDescription: "AVCB para hospital e clínica em São Paulo: processo completo, sistemas obrigatórios e ART. Engenheiro especialista em Grupo H. Solicite análise gratuita.",
     pas: {
       problem: "Sua unidade de saúde passaria numa vistoria mista da Vigilância/Bombeiro hoje?",
@@ -135,7 +135,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Aprovações e reformulações arquitetônicas em Prédios Comerciais e Shoppings.",
     h1: "AVCB para Comércio e Escritório em SP: Evite Falhas com a Lei Comercial",
-    metaTitle: "AVCB para Comércio e Escritório em São Paulo | DRD2 Engenharia",
+    metaTitle: "AVCB para Comércio e Escritório em São Paulo",
     metaDescription: "Estabelecimento comercial ou escritório sem AVCB em SP? Multas severas e risco de interdição. A DRD2 regulariza do projeto à emissão. Fale agora.",
     pas: {
       problem: "O seu prédio exige laudo avulso de Alvará AVCB da sua sala corporativa?",
@@ -187,7 +187,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Processo simplificado de regularização para edificações de baixo risco de incêndio em SP.",
     h1: "Aprovação de CLCB em São Paulo",
-    metaTitle: "Aprovação de CLCB em São Paulo | DRD2 Engenharia",
+    metaTitle: "Aprovação de CLCB em São Paulo",
     metaDescription: "CLCB para edificações de baixo risco em SP. Processo simplificado e aprovação ágil. DRD2 Engenharia cuida de tudo junto ao Corpo de Bombeiros. Fale conosco.",
     pas: {
       problem: "Precisa regularizar seu comércio ou negócio de baixo risco?",
@@ -213,7 +213,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Projetos",
     shortDescription: "Elaboração de Projetos Técnicos de incêndio dentro das normas do CBPMESP.",
     h1: "Projetos de Segurança Contra Incêndio em São Paulo",
-    metaTitle: "Projetos de Segurança Contra Incêndio em SP | DRD2 Engenharia",
+    metaTitle: "Projetos de Segurança Contra Incêndio em SP",
     metaDescription: "Elaboração de projetos de segurança contra incêndio em SP conforme Instruções Técnicas do CBPMESP. ART, aprovação e suporte completo. DRD2 Engenharia.",
     pas: {
       problem: "Edificação sem projeto aprovado ou com layout desatualizado?",
@@ -237,7 +237,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Instalação",
     shortDescription: "SDAI obrigatório (Grupo E) para Escolas e Universidades conforme CBPMESP.",
     h1: "Alarme de Incêndio para Escola e Faculdade em São Paulo",
-    metaTitle: "Alarme de Incêndio para Escola e Faculdade em SP | DRD2 Engenharia",
+    metaTitle: "Alarme de Incêndio para Escola e Faculdade em SP",
     metaDescription: "Escola ou faculdade sem alarme aprovado? Instalamos SDAI conforme IT-19/2025 e NBR 17240, com projeto e AVCB garantido em SP. Solicite análise técnica gratuita.",
     pas: {
       problem: "Sua instituição de ensino sem AVCB e sem sistema legal aprovado?",
@@ -261,7 +261,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Instalação",
     shortDescription: "SDAI obrigatório (Grupos C e D) para Comércios e Escritórios conforme Lei 13.425 e IT-19.",
     h1: "Alarme de Incêndio para Comércio e Escritório em São Paulo",
-    metaTitle: "Alarme de Incêndio para Comercial e Escritório em SP | DRD2 Engenharia",
+    metaTitle: "Alarme de Incêndio para Comercial e Escritório em SP",
     metaDescription: "Prédio comercial ou loja sem alarme aprovado? Instalamos SDAI conforme IT-19/2025 e NBR 17240. Projeto, execução e AVCB garantido em SP. Análise gratuita.",
     pas: {
       problem: "Prédio comercial ou shopping sem aprovação do Bombeiro?",
@@ -285,7 +285,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Instalação",
     shortDescription: "SDAI obrigatório (Grupo H) para Hospitais e Clínicas conforme IT-19/2025.",
     h1: "Alarme de Incêndio para Hospital e Clínica em São Paulo",
-    metaTitle: "Alarme de Incêndio para Hospitais e Clínicas em SP | DRD2 Engenharia",
+    metaTitle: "Alarme de Incêndio para Hospitais e Clínicas em SP",
     metaDescription: "Estabelecimento de saúde sem SDAI aprovado? Instalamos sistema conforme IT-19/2025 e Grupo H. Projeto, execução e AVCB garantido em SP. Solicite análise gratuita.",
     pas: {
       problem: "EAS sem SDAI aprovado no Bombeiro?",
@@ -336,7 +336,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Instalação",
     shortDescription: "Sistemas de detecção e alarme de incêndio SDAI conforme IT-19/2025.",
     h1: "Alarme de Incêndio para Condomínios em São Paulo",
-    metaTitle: "Alarme de Incêndio para Condomínios em SP | DRD2 Engenharia",
+    metaTitle: "Alarme de Incêndio para Condomínios em SP",
     metaDescription: "AVCB do seu condomínio em risco? Instalamos sistema de alarme de incêndio conforme IT-19/2025. Projeto aprovado no CBPMESP. Síndico, solicite análise gratuita.",
     pas: {
       problem: "Síndico, o alarme de incêndio do seu condomínio atende a IT-19/2025?",
@@ -361,7 +361,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Instalação",
     shortDescription: "Instalação de rede de chuveiros automáticos em conformidade com NBR 10897.",
     h1: "Chuveiro Automático Sprinkler em São Paulo",
-    metaTitle: "Chuveiro Automático Sprinkler em SP | DRD2 Engenharia",
+    metaTitle: "Chuveiro Automático Sprinkler em SP",
     metaDescription: "Projeto, fornecimento e instalação de sprinkler em SP conforme IT 23/25 CBPMESP e ABNT NBR 10897. DRD2 Engenharia. Solicite orçamento.",
     pas: {
       problem: "Estão exigindo a complexa instalação de Sprinklers no seu prédio ou galpão?",
@@ -386,7 +386,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Instalação",
     shortDescription: "Fornecimento de Rede de Hidrantes, Reservatórios e Mangotinhos.",
     h1: "Instalação de Hidrante em São Paulo",
-    metaTitle: "Instalação de Hidrante em São Paulo | DRD2 Engenharia",
+    metaTitle: "Instalação de Hidrante em São Paulo",
     metaDescription: "Projeto, fornecimento e instalação de hidrante e mangotinho em SP conforme IT 22/25 CBPMESP. Exigido para AVCB. DRD2 Engenharia. Solicite orçamento.",
     pas: {
       problem: "O seu prédio precisa adequar ou instalar um sistema de Hidrantes e Mangotinhos?",
@@ -411,7 +411,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Instalação",
     shortDescription: "Projeto e Instalação do Sistema de Proteção contra Descargas Atmosféricas (Para-raios).",
     h1: "SPDA — Sistema de Proteção contra Descargas Atmosféricas em São Paulo",
-    metaTitle: "SPDA Para-Raios em São Paulo | DRD2 Engenharia",
+    metaTitle: "SPDA Para-Raios em São Paulo",
     metaDescription: "Projeto, fornecimento e instalação de SPDA em SP conforme Decreto Estadual nº 69.118/2024 e ABNT NBR 5419. Exigido para AVCB. DRD2 Engenharia. Solicite orçamento.",
     pas: {
       problem: "Seu estabelecimento foi exigido de apresentar o Laudo do SPDA (para-raios)?",
@@ -436,7 +436,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Gestão, Laudos Técnicos e Contratos Mensais em Redes de Incêndio.",
     h1: "Manutenção de Sistemas de Incêndio em São Paulo",
-    metaTitle: "Manutenção de Sistemas de Incêndio em SP | DRD2 Engenharia",
+    metaTitle: "Manutenção de Sistemas de Incêndio em SP",
     metaDescription: "Manutenção periódica de alarme, sprinkler, hidrante e SPDA em São Paulo. Laudo técnico, ART e suporte para renovação do AVCB. DRD2 Engenharia. Solicite orçamento.",
     pas: {
       problem: "Seus sistemas de combate a incêndio foram instalados, mas não sofrem inspeção documentada?",
@@ -461,7 +461,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Formação e reciclagem conforme IT 17/25 para certificação e conformidade de segurança.",
     h1: "Treinamento de Brigada de Incêndio em São Paulo",
-    metaTitle: "Treinamento de Brigada de Incêndio em SP conforme IT 17 | DRD2 Engenharia",
+    metaTitle: "Treinamento de Brigada de Incêndio em SP conforme IT 17",
     metaDescription: "Treinamento de Brigada de Incêndio em SP conforme Instrução Técnica 17/25. Formação, reciclagem e certificado para AVCB. DRD2 Engenharia. Solicite orçamento.",
     pas: {
       problem: "Sua equipe está preparada para agir em uma emergência real de fogo?",
@@ -486,7 +486,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Projetos",
     shortDescription: "Projeto e dimensionamento de pressurização de escadas para segurança contra incêndio.",
     h1: "Projeto de Escada Pressurizada em São Paulo",
-    metaTitle: "Projeto de Escada Pressurizada em SP | DRD2 Engenharia",
+    metaTitle: "Projeto de Escada Pressurizada em SP",
     metaDescription: "Projeto e dimensionamento de pressurização de escadas em SP conforme IT 13/25. Segurança e conformidade técnica para seu edifício. DRD2 Engenharia.",
     pas: {
       problem: "Sua escada de emergência está sem a pressurização correta exigida pelos Bombeiros?",
@@ -559,7 +559,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Projetos",
     shortDescription: "Projeto técnico e licenciamento para eventos temporários em todo o estado de SP.",
     h1: "Projeto de Segurança para Eventos Temporários (PET) em SP",
-    metaTitle: "Projeto PET Corpo de Bombeiros de São Paulo | Licença para Eventos | DRD2 Engenharia",
+    metaTitle: "Projeto PET Corpo de Bombeiros de São Paulo | Licença para Eventos",
     metaDescription: "Obtenha seu Projeto PET (Eventos Temporários) em SP com agilidade. Licenciamento total para feiras, congressos e shows. ART inclusa. DRD2 Engenharia.",
     pas: {
       problem: "Seu evento corre o risco de ser interditado na véspera por falta de licença dos Bombeiros?",
@@ -611,7 +611,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularize sua creche antes da fiscalização. Enquadramento E-5 sem retrabalho.",
     h1: "AVCB para Creche em São Paulo",
-    metaTitle: "AVCB para Creche em São Paulo | DRD2 Engenharia — Diagnóstico técnico gratuito",
+    metaTitle: "AVCB para Creche em São Paulo — Diagnóstico técnico gratuito",
     metaDescription: "Mais de 500 creches regularizadas em SP. Saiba se seu processo é PTS ou PT, o impacto da área de 750 m² e como evitar Comunique-se. Diagnóstico técnico gratuito em até 24h.",
     pas: {
       problem: "O Corpo de Bombeiros pode interditar a sua creche sem prévio aviso?",
@@ -640,7 +640,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de ocupação H-3 (Saúde). Proteção total para residentes com mobilidade reduzida.",
     h1: "AVCB para Casa de Repouso em São Paulo",
-    metaTitle: "AVCB para Casa de Repouso em São Paulo | DRD2 Engenharia — Diagnóstico técnico gratuito",
+    metaTitle: "AVCB para Casa de Repouso em São Paulo — Diagnóstico técnico gratuito",
     metaDescription: "Casa de repouso exige AVCB, brigada de incêndio e gerenciamento de risco — independentemente do tamanho. DRD2 Engenharia regulariza seu estabelecimento com segurança técnica. Diagnóstico técnico gratuito em até 24h.",
     pas: {
       problem: "Um incêndio em uma casa de repouso pode ser uma tragédia irreversível.",
@@ -669,7 +669,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de centros fitness, musculação, crossfit e artes marciais em SP. (Grupo E-6).",
     h1: "AVCB para Academia em São Paulo: Regularização Completa",
-    metaTitle: "AVCB para Academia em São Paulo | DRD2 Engenharia",
+    metaTitle: "AVCB para Academia em São Paulo",
     metaDescription: "A DRD2 Engenharia é especialista em AVCB para academias em São Paulo e Grande SP. Projeto, adequação e aprovação no Corpo de Bombeiros com agilidade. Diagnóstico técnico gratuito — fale agora.",
     pas: {
       problem: "Sua academia corre o risco de ser interditada hoje?",
@@ -736,7 +736,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de motéis em São Paulo. Foco em privacidade e segurança noturna (Grupo B).",
     h1: "AVCB para Motel em São Paulo — Regularização Completa",
-    metaTitle: "AVCB para Motel em São Paulo | DRD2 Engenharia",
+    metaTitle: "AVCB para Motel em São Paulo",
     metaDescription: "A DRD2 Engenharia é especialista em AVCB para motéis em São Paulo. Regularização completa com projeto, adequação e aprovação no Corpo de Bombeiros. Diagnóstico técnico gratuito — fale agora.",
     pas: {
       problem: "Seu motel possui AVCB válido para operar com segurança?",
@@ -762,7 +762,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de pousadas e hostels em SP. Apoio técnico para o CLCB (Grupo B).",
     h1: "AVCB para Pousada em São Paulo: Regularização Completa",
-    metaTitle: "AVCB para Pousada em São Paulo | DRD2 Engenharia",
+    metaTitle: "AVCB para Pousada em São Paulo",
     metaDescription: "Precisa de AVCB ou CLCB para sua pousada em SP? A DRD2 Engenharia oferece diagnóstico gratuito e regularização rápida para o setor de turismo (Grupo B).",
     pas: {
       problem: "Sua pousada está perdendo reservas por falta de segurança legal?",
@@ -788,7 +788,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de igrejas, templos e casas de culto em SP. Foco na segurança de fiéis (Grupo F-6).",
     h1: "AVCB para Igreja em São Paulo: Como Regularizar em 2026",
-    metaTitle: "AVCB para Igreja em SP: Como Regularizar em 2026 | DRD2 Engenharia",
+    metaTitle: "AVCB para Igreja em SP: Como Regularizar em 2026",
     metaDescription: "Guia técnico completo sobre AVCB para igrejas e templos em São Paulo em 2026. Exigências do CBPMESP, sistemas obrigatórios, os 3 erros que reprovam na vistoria e como regularizar sem interdição.",
     pas: {
       problem: "Sua igreja corre o risco de interdição durante o culto?",
@@ -814,7 +814,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de escolas, faculdades e creches em SP. Segurança máxima para alunos (Grupo E).",
     h1: "AVCB para Escolas e Faculdades em São Paulo: Regularização Completa",
-    metaTitle: "AVCB para Escolas e Faculdades em São Paulo | DRD2 Engenharia",
+    metaTitle: "AVCB para Escolas e Faculdades em São Paulo",
     metaDescription: "Especialistas em AVCB para escolas e faculdades em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com agilidade e segurança normativa. Diagnóstico técnico gratuito — fale com a DRD2.",
     pas: {
       problem: "Sua escola está operando com o AVCB vencido ou inexistente?",
@@ -840,7 +840,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de hostels e albergues em SP. Segurança para hospedagem coletiva (Grupo B).",
     h1: "AVCB para Hostel em São Paulo — Regularização Completa",
-    metaTitle: "AVCB para Hostel em São Paulo | DRD2 Engenharia",
+    metaTitle: "AVCB para Hostel em São Paulo",
     metaDescription: "A DRD2 Engenharia é especialista em AVCB para hostels em São Paulo. Regularização completa com projeto, adequação e aprovação no Corpo de Bombeiros. Diagnóstico técnico gratuito — fale agora.",
     pas: {
       problem: "Seu hostel corre o risco de interdição e suspensão em plataformas como Booking?",
@@ -866,7 +866,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de supermercados, mercados e minimercados em SP. Segurança para grandes fluxos (Grupo C/D).",
     h1: "AVCB para Supermercado em São Paulo: Regularização Completa",
-    metaTitle: "AVCB para Supermercado em São Paulo | DRD2 Engenharia",
+    metaTitle: "AVCB para Supermercado em São Paulo",
     metaDescription: "A DRD2 Engenharia é especialista em AVCB para supermercados em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com agilidade e segurança normativa. Diagnóstico técnico gratuito.",
     pas: {
       problem: "Seu supermercado está operando sem o AVCB válido?",
@@ -918,7 +918,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de padarias e panificadoras em SP. Grupo C-2 — supressão em coifa, GLP e Extintor Classe K.",
     h1: "AVCB para Padaria em São Paulo",
-    metaTitle: "AVCB para Padaria em São Paulo | DRD2 Engenharia",
+    metaTitle: "AVCB para Padaria em São Paulo",
     metaDescription: "AVCB para padaria em SP — Grupo C-2, supressão em coifa, GLP regularizado, Extintor Classe K e resposta a Comunique-se incluída. Diagnóstico técnico gratuito.",
     pas: {
       problem: "Sua padaria opera com forno, coifa e GLP sem AVCB válido? O risco de embargo, interdição e lacre é real e imediato.",
@@ -945,7 +945,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de farmácias e drogarias em SP. Foco em inflamáveis e Vigilância Sanitária.",
     h1: "AVCB para Farmácia e Drogaria em São Paulo — Regularização Completa",
-    metaTitle: "AVCB para Farmácia e Drogaria em São Paulo | DRD2 Engenharia",
+    metaTitle: "AVCB para Farmácia e Drogaria em São Paulo",
     metaDescription: "AVCB para farmácia e drogaria em SP — Grupo C-2, aerossóis, farmácia de manipulação e CMVS. Resposta a Comunique-se incluída. Diagnóstico técnico gratuito.",
     pas: {
       problem: "Sua farmácia corre o risco de interdição pela Vigilância Sanitária por falta de AVCB?",
@@ -972,7 +972,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de drogarias e perfumarias em SP. Foco em aerossóis e gôndolas.",
     h1: "AVCB para Drogaria em São Paulo — Regularização Completa",
-    metaTitle: "AVCB para Drogaria em São Paulo | DRD2 Engenharia",
+    metaTitle: "AVCB para Drogaria em São Paulo",
     metaDescription: "A DRD2 Engenharia é especialista em AVCB para drogarias em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com agilidade e segurança normativa. Diagnóstico técnico gratuito — fale agora.",
     pas: {
       problem: "Sua drogaria corre o risco de interdição pela Vigilância Sanitária por falta de AVCB?",
@@ -999,7 +999,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de boates e casas noturnas em SP. Rigor máximo em saídas e acústica.",
     h1: "AVCB para Boate e Casa Noturna em São Paulo — Regularização Completa",
-    metaTitle: "AVCB para Boate e Casa Noturna em São Paulo | DRD2 Engenharia",
+    metaTitle: "AVCB para Boate e Casa Noturna em São Paulo",
     metaDescription: "AVCB para boate e casa noturna em SP — Grupo F-6, saídas de emergência, acústica certificada e operações surpresa do Bombeiro. Diagnóstico técnico gratuito.",
     pas: {
       problem: "Sua boate está operando com riscos de tragédias e interdição imediata?",
@@ -1026,7 +1026,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de casas noturnas, clubes e complexos de entretenimento em SP. Foco em compartimentação e lotação.",
     h1: "AVCB para Casa Noturna em São Paulo — Regularização Completa",
-    metaTitle: "AVCB para Casa Noturna em São Paulo | DRD2 Engenharia",
+    metaTitle: "AVCB para Casa Noturna em São Paulo",
     metaDescription: "A DRD2 Engenharia é especialista em AVCB para casas noturnas em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com segurança normativa e agilidade. Diagnóstico técnico gratuito.",
     pas: {
       problem: "Sua casa noturna está operando com riscos de tragédias e interdição imediata?",
@@ -1053,7 +1053,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de bares com show ao vivo, pubs e espaços com música. Foco em enquadramento Grupo F e rotas de fuga.",
     h1: "AVCB para Bar com Show em São Paulo — Regularização Completa",
-    metaTitle: "AVCB para Bar com Show em São Paulo | DRD2 Engenharia",
+    metaTitle: "AVCB para Bar com Show em São Paulo",
     metaDescription: "A DRD2 Engenharia é especialista em AVCB para bares com show em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com segurança normativa e agilidade. Diagnóstico técnico gratuito.",
     pas: {
       problem: "Seu bar com show corre risco de interdição imediata por enquadramento incorreto?",
@@ -1080,7 +1080,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Renovação e regularização de AVCB para condomínios residenciais e comerciais em SP. Foco em responsabilidade do síndico e conformidade 2026.",
     h1: "Renovação de AVCB para Condomínio em São Paulo — Regularize Antes da Multa",
-    metaTitle: "Renovação de AVCB para Condomínio em São Paulo 2026 | DRD2 Engenharia",
+    metaTitle: "Renovação de AVCB para Condomínio em São Paulo 2026",
     metaDescription: "AVCB vencido no seu condomínio? A DRD2 Engenharia faz a renovação e regularização do AVCB para condomínios em SP com agilidade, sem multa e sem Comunique-se. Fale agora.",
     pas: {
       problem: "O AVCB do seu condomínio venceu ou está prestes a vencer?",
@@ -1107,7 +1107,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de salões de festas, casas de eventos e buffets em SP. Foco em lotação máxima e segurança (Grupo F-4).",
     h1: "AVCB para Salão de Festas em São Paulo — Regularização Completa",
-    metaTitle: "AVCB para Salão de Festas em São Paulo | DRD2 Engenharia",
+    metaTitle: "AVCB para Salão de Festas em São Paulo",
     metaDescription: "AVCB para salão de festas e buffet em SP — Grupo F-4, lotação, supressão em coifa e eventos. Regularização completa. Diagnóstico técnico gratuito.",
     pas: {
       problem: "Seu salão de festas corre o risco de interdição durante um evento?",
@@ -1161,7 +1161,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de escritórios corporativos, coworkings e lajes comerciais em SP. Foco em carga elétrica de TI e rotas de fuga (Grupo D).",
     h1: "AVCB para Escritório em São Paulo — Regularização Completa",
-    metaTitle: "AVCB para Escritório em São Paulo | DRD2 Engenharia",
+    metaTitle: "AVCB para Escritório em São Paulo",
     metaDescription: "A DRD2 Engenharia é especialista em AVCB para escritórios em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com agilidade e segurança normativa. Diagnóstico técnico gratuito.",
     pas: {
       problem: "Seu escritório corre o risco de interdição por falta de AVCB?",
@@ -1188,7 +1188,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de shoppings, galerias e grandes centros comerciais em SP. Foco em sprinklers, controle de fumaça e compartimentação (Grupo C/F).",
     h1: "AVCB para Shopping em São Paulo — Regularização Completa",
-    metaTitle: "AVCB para Shopping em São Paulo | DRD2 Engenharia",
+    metaTitle: "AVCB para Shopping em São Paulo",
     metaDescription: "A DRD2 Engenharia é especialista em AVCB para shoppings e centros comerciais em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com segurança normativa. Diagnóstico técnico gratuito.",
     pas: {
       problem: "A irregularidade do AVCB no shopping coloca em risco dezenas de lojistas simultaneamente?",
@@ -1215,7 +1215,7 @@ export const servicesData: Record<string, ServiceData> = {
     category: "Aprovação",
     shortDescription: "Regularização de postos de gasolina, GNV e lojas de conveniência em SP. Foco em instalações elétricas ATEX, aterramento e estanqueidade (Grupo M).",
     h1: "AVCB para Posto de Combustível em São Paulo — Regularização Completa",
-    metaTitle: "AVCB para Posto de Combustível em São Paulo | DRD2 Engenharia",
+    metaTitle: "AVCB para Posto de Combustível em São Paulo",
     metaDescription: "A DRD2 Engenharia é especialista em AVCB para postos de combustível em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com segurança normativa e agilidade. Diagnóstico técnico gratuito.",
     pas: {
       problem: "O risco de interdição e explosão em postos sem AVCB é crítico?",

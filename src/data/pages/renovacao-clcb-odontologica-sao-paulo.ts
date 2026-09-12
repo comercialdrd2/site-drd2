@@ -1,6 +1,6 @@
 export const renovacaoClcbOdontologicaContent = {
   meta: {
-    title: "Renovação de CLCB para Clínica Odontológica em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de CLCB para Clínica Odontológica em São Paulo 2026",
     description: "Clínica odontológica ou consultório dentário com CLCB vencido em SP arrisca interdição e perda do credenciamento junto ao CFO e convênios. DRD2 renova com diagnóstico gratuito.",
     canonical: "/renovacao-clcb-odontologica-sao-paulo",
   },

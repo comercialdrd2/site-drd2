@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/valvula-retencao-sprinkler-sp",
   meta: {
-    title: "Válvula de Retenção para Sprinkler em SP — Clapet e Verificação | DRD2 Engenharia",
+    title: "Válvula de Retenção para Sprinkler em SP — Clapet e Verificação",
     description: "Entenda a função da válvula de retenção (clapet) no sistema de sprinkler. Como funciona, quando substituir, diferença entre válvula de retenção simples e Válvula de Governo e Alarme (VGA), e o que o CBPMESP verifica.",
   },
   eyebrow: "Válvula de Retenção em Sistemas de Sprinkler — Clapet, Válvula de Governo e Alarme (VGA) e Verificação",

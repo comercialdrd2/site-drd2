@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/laudo-alarme-incendio-escola-sao-paulo",
   meta: {
-    title: "Laudo de Alarme de Incêndio para Escola em SP | DRD2 Engenharia",
+    title: "Laudo de Alarme de Incêndio para Escola em SP",
     description: "Laudo técnico de alarme de incêndio para escolas e creches em São Paulo. IT 18/2019, integração com plano de abandono, cobertura de salas e ginásio. ART CREA-SP inclusa.",
   },
   eyebrow: "IT 18 — Alarme de Incêndio para Escola",

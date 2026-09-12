@@ -1,6 +1,6 @@
 import PressurizedStairsLanding from "@/components/PressurizedStairsLanding";
 
-const title = "Quanto Custa Escada Pressurizada em São Paulo | DRD2 Engenharia";
+const title = "Quanto Custa Escada Pressurizada em São Paulo";
 const description = "Quanto custa projeto de escada pressurizada em São Paulo? Saiba os fatores que influenciam o preço: altura do prédio, pavimentos, tipo de ocupação, ventilador e regularização para AVCB.";
 
 export const metadata = {

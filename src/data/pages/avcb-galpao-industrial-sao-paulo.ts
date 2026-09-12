@@ -1,6 +1,6 @@
 export const avcbGalpaoContent = {
   meta: {
-    title: "AVCB para Galpão Industrial em São Paulo 2026 | DRD2 Engenharia",
+    title: "AVCB para Galpão Industrial em São Paulo 2026",
     description:
       "A DRD2 Engenharia regulariza galpões industriais e logísticos no Corpo de Bombeiros em São Paulo. AVCB com sprinklers, hidrantes e brigada aprovados. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/avcb-galpao-industrial-sao-paulo",

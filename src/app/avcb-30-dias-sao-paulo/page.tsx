@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/avcb-30-dias-sao-paulo",
   meta: {
-    title: "AVCB em 30 Dias em São Paulo — Quando é Possível? | DRD2 Engenharia",
+    title: "AVCB em 30 Dias em São Paulo — Quando é Possível?",
     description: "Precisa de AVCB rápido em São Paulo? Saiba quando é possível em 30 dias, o que determina o prazo e como a DRD2 protocola em até 10 dias úteis. Atendimento urgente 24h.",
   },
   eyebrow: "AVCB Urgente em SP — Prazos Reais 2026",

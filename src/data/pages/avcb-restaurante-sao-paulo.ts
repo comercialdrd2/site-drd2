@@ -1,6 +1,6 @@
 export const avcbRestauranteContent = {
   meta: {
-    title: "AVCB para Restaurantes e Bares em São Paulo 2026 | DRD2 Engenharia",
+    title: "AVCB para Restaurantes e Bares em São Paulo 2026",
     description:
       "A DRD2 Engenharia regulariza restaurantes, bares e lanchonetes no Corpo de Bombeiros em São Paulo. AVCB com cozinha industrial e GLP aprovados. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/avcb-restaurante-sao-paulo",

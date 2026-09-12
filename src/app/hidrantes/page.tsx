@@ -8,11 +8,11 @@ import NeighborhoodSilo from "@/components/NeighborhoodSilo";
 import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 
-const _pageTitle = "Rede de Hidrantes em São Paulo 2026 | DRD2 Engenharia — Projeto e Instalação";
+const _pageTitle = "Rede de Hidrantes em São Paulo 2026 — Projeto e Instalação";
 const _pageDesc = "A DRD2 Engenharia projeta, instala e certifica sua rede de hidrantes e mangotinhos em São Paulo conforme IT 22/25. Teste hidrostático com ART inclusa para o AVCB. Diagnóstico técnico gratuito.";
 
 export const metadata = {
-  title: "Rede de Hidrantes em São Paulo 2026 | DRD2 Engenharia — Projeto e Instalação",
+  title: "Rede de Hidrantes em São Paulo 2026 — Projeto e Instalação",
   description: "A DRD2 Engenharia projeta, instala e certifica sua rede de hidrantes e mangotinhos em São Paulo conforme IT 22/25. Teste hidrostático com ART inclusa para o AVCB. Diagnóstico técnico gratuito.",
   alternates: {
     canonical: "/hidrantes",

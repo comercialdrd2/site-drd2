@@ -34,7 +34,7 @@ const stairCostLink: BlogLink = {
 };
 
 const renewalLink: BlogLink = {
-  href: "/blog/avcb-vencido-o-que-fazer",
+  href: "/avcb-vencido-o-que-fazer",
   label: "AVCB vencido ou perto de vencer?",
   desc: "Entenda como renovar, evitar multa, reduzir risco de interdição e manter a licença regular.",
   kind: "renovacao",
@@ -71,7 +71,7 @@ const occupationLinks: Array<{ match: RegExp; link: BlogLink }> = [
   {
     match: /condominio|condomínio|sindico|síndico/,
     link: {
-      href: "/blog/como-regularizar-condominio-corpo-de-bombeiros",
+      href: "/avcb-para-condominio-sao-paulo",
       label: "Como regularizar condomínio",
       desc: "Guia para síndicos sobre responsabilidade, vistoria, renovação e aprovação do AVCB do prédio.",
       kind: "ocupacao",
@@ -116,7 +116,7 @@ const occupationLinks: Array<{ match: RegExp; link: BlogLink }> = [
   {
     match: /creche/,
     link: {
-      href: "/blog/avcb-para-creche-sao-paulo",
+      href: "/avcb-para-creche-sao-paulo",
       label: "AVCB para creche",
       desc: "Rotas de fuga, crianças, sinalização, brigada e cuidados técnicos para aprovação.",
       kind: "ocupacao",
@@ -143,7 +143,7 @@ const occupationLinks: Array<{ match: RegExp; link: BlogLink }> = [
   {
     match: /academia|esporte|fitness/,
     link: {
-      href: "/blog/avcb-para-academia-sao-paulo",
+      href: "/avcb-para-academia-sao-paulo",
       label: "AVCB para academia",
       desc: "Exigências para academias, fluxo de alunos, saídas, lotação, sinalização e regularização.",
       kind: "ocupacao",
@@ -161,7 +161,7 @@ const occupationLinks: Array<{ match: RegExp; link: BlogLink }> = [
   {
     match: /padaria/,
     link: {
-      href: "/blog/avcb-para-padaria-sao-paulo",
+      href: "/avcb-para-padaria-sao-paulo",
       label: "AVCB para padaria",
       desc: "Forno, GLP, exaustão, extintores, sinalização e cuidados para evitar reprovação.",
       kind: "ocupacao",
@@ -188,7 +188,7 @@ const occupationLinks: Array<{ match: RegExp; link: BlogLink }> = [
   {
     match: /igreja|templo|religioso/,
     link: {
-      href: "/blog/avcb-para-igreja-sao-paulo",
+      href: "/avcb-para-igreja-sao-paulo",
       label: "AVCB para igreja",
       desc: "Reunião de público, lotação, saídas de emergência, brigada e regularização do templo.",
       kind: "ocupacao",
@@ -215,7 +215,7 @@ const occupationLinks: Array<{ match: RegExp; link: BlogLink }> = [
   {
     match: /shopping/,
     link: {
-      href: "/blog/avcb-para-shopping-sao-paulo",
+      href: "/avcb-para-shopping-sao-paulo",
       label: "AVCB para shopping",
       desc: "Áreas comuns, lojas, praça de alimentação, sistemas integrados e gestão de risco.",
       kind: "ocupacao",
@@ -277,7 +277,7 @@ const ptotepGuideLinks: BlogLink[] = [
     kind: "ocupacao",
   },
   {
-    href: "/blog/diferenca-entre-avcb-e-ptotep-eventos",
+    href: "/diferenca-avcb-ptotep",
     label: "Diferenca entre AVCB e PTOTEP",
     desc: "Entenda quando o AVCB do local nao basta e quando o evento precisa de projeto temporario.",
     kind: "ocupacao",

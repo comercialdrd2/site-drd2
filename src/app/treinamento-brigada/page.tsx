@@ -10,11 +10,11 @@ import BreadcrumbNav from "@/components/BreadcrumbNav";
 import TrustBar from "@/components/TrustBar";
 import CtaWhatsApp from "@/components/CtaWhatsApp";
 
-const _pageTitle = "Treinamento de Brigada de Incêndio em SP conforme IT 17 | DRD2 Engenharia";
+const _pageTitle = "Treinamento de Brigada de Incêndio em SP conforme IT 17";
 const _pageDesc = "Formação e reciclagem de Brigada de Incêndio em São Paulo conforme IT 17/25. Treinamento prático, teórico e certificação para AVCB. Solicite orçamento.";
 
 export const metadata = {
-  title: "Treinamento de Brigada de Incêndio em SP conforme IT 17 | DRD2 Engenharia",
+  title: "Treinamento de Brigada de Incêndio em SP conforme IT 17",
   description: "Formação e reciclagem de Brigada de Incêndio em São Paulo conforme IT 17/25. Treinamento prático, teórico e certificação para AVCB. Solicite orçamento.",
   alternates: {
     canonical: "/treinamento-brigada",

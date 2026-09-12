@@ -1,6 +1,6 @@
 export const manutencaoGasContent = {
   meta: {
-    title: "Manutenção de Rede de Gás São Paulo | GLP e GN | DRD2 Engenharia",
+    title: "Manutenção de Rede de Gás São Paulo | GLP e GN",
     description: "Manutenção preventiva e corretiva de rede de gás GLP e GN em condomínios, restaurantes e cozinhas industriais em São Paulo. Laudo técnico com ART. DRD2 Engenharia.",
     canonical: "/manutencao-rede-gas-sao-paulo",
   },

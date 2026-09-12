@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/teste-comissionamento-vga-sp",
   meta: {
-    title: "Teste e Comissionamento de Válvula de Governo e Alarme (VGA) em SP — Trip Test e Laudo para AVCB | DRD2 Engenharia",
+    title: "Teste e Comissionamento de Válvula de Governo e Alarme (VGA) em SP — Trip Test e Laudo para AVCB",
     description: "A DRD2 realiza teste e comissionamento de Válvula de Governo e Alarme (VGA) em SP. Trip test da Válvula de Governo e Alarme (VGA) com registro de pressões, campainha, pressostato e laudo técnico para AVCB. IT 23/25. Diagnóstico gratuito.",
   },
   eyebrow: "TESTE E COMISSIONAMENTO DE VÁLVULA DE GOVERNO E ALARME (VGA) — IT 23/25 E NBR 10897 EM SÃO PAULO",

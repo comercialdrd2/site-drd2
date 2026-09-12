@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/laudo-sprinkler-hotel-sao-paulo",
   meta: {
-    title: "Laudo de Sprinkler para Hotel em SP | DRD2 Engenharia",
+    title: "Laudo de Sprinkler para Hotel em SP",
     description: "Laudo técnico do sistema de sprinklers para hotéis e pousadas em São Paulo. IT 23/2025, cobertura por UH, decoração obstruindo cabeças, temperatura de banheiro de spa. ART CREA-SP.",
   },
   eyebrow: "IT 23 — Sistema de Sprinklers para Hotel",

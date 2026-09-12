@@ -18,11 +18,11 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
-const _pageTitle = "AVCB para Farmácias e Drogarias em São Paulo | DRD2 Engenharia";
+const _pageTitle = "AVCB para Farmácias e Drogarias em São Paulo";
 const _pageDesc = "Farmácia sem AVCB válido trava a renovação do CMVS na Vigilância Sanitária. Grupo C-2, laudo de exaustão e extintores. DRD2 Engenharia regulariza.";
 
 export const metadata = {
-  title: "AVCB para Farmácias e Drogarias em São Paulo | DRD2 Engenharia",
+  title: "AVCB para Farmácias e Drogarias em São Paulo",
   description: "Farmácia sem AVCB válido trava a renovação do CMVS na Vigilância Sanitária. Grupo C-2, laudo de exaustão e extintores. DRD2 Engenharia regulariza.",
   alternates: {
     canonical: "/avcb-farmacia-drogaria-sao-paulo",
@@ -389,7 +389,7 @@ export default function AVCBFarmaciaMasterPage() {
               { t: "AVCB para Restaurante", u: "/avcb-restaurante-sao-paulo", i: <Coffee className="w-4 h-4" /> },
               { t: "AVCB para Supermercado", u: "/avcb-supermercado-sao-paulo", i: <Building className="w-4 h-4" /> },
               { t: "AVCB para Padaria", u: "/avcb-para-padaria-sao-paulo", i: <Building className="w-4 h-4" /> },
-              { t: "Quanto Custa o AVCB?", u: "/avcb-preco", i: <Scale className="w-4 h-4" /> },
+              { t: "Quanto Custa o AVCB?", u: "/quanto-custa-avcb-sao-paulo", i: <Scale className="w-4 h-4" /> },
               { t: "Renovação de AVCB", u: "/renovacao-avcb", i: <ClipboardCheck className="w-4 h-4" /> },
               { t: "CLCB em São Paulo", u: "/clcb-sao-paulo", i: <FileCheck className="w-4 h-4" /> },
               { t: "Projetos de Incêndio", u: "/projetos-incendio", i: <LayoutGrid className="w-4 h-4" /> },

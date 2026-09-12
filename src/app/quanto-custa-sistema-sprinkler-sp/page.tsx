@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/quanto-custa-sistema-sprinkler-sp",
   meta: {
-    title: "Quanto Custa um Sistema de Sprinkler em SP? — Wet Pipe, Dry Pipe e Pré-Ação | DRD2 Engenharia",
+    title: "Quanto Custa um Sistema de Sprinkler em SP? — Wet Pipe, Dry Pipe e Pré-Ação",
     description: "Saiba quanto custa um sistema de sprinkler em SP: diferença entre wet pipe, dry pipe e pré-ação, o que encarece (bicos concealed, ESFR, bomba dedicada) e o que deve constar no orçamento. Diagnóstico gratuito.",
   },
   eyebrow: "Referência de Custo — Sistemas de Sprinkler em São Paulo",

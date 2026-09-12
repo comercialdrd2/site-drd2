@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/alarme-incendio-supermercado-avcb-sp",
   meta: {
-    title: "Alarme de Incêndio para Supermercado em SP — IT 18/19 por Setor | DRD2 Engenharia",
+    title: "Alarme de Incêndio para Supermercado em SP — IT 18/19 por Setor",
     description: "A DRD2 projeta e instala alarme de incêndio para supermercado em SP. Detectores específicos por setor: temperatura para padaria, câmara fria, depósito. Central endereçável e ART para AVCB. Diagnóstico gratuito.",
   },
   eyebrow: "IT 18/19 — Supermercados e Hipermercados em SP",

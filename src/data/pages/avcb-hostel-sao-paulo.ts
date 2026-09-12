@@ -1,6 +1,6 @@
 export const avcbHostelContent = {
   meta: {
-    title: "AVCB para Hostel em São Paulo 2026 | DRD2 Engenharia",
+    title: "AVCB para Hostel em São Paulo 2026",
     description:
       "A DRD2 Engenharia é especialista em AVCB para hostels em São Paulo. Aprovação no Corpo de Bombeiros com agilidade, sem Comunique-se e sem burocracia. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/avcb-hostel-sao-paulo",

@@ -1,6 +1,6 @@
 export const renovacaoClcbSalaoContent = {
   meta: {
-    title: "Renovação de CLCB para Salão de Beleza em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de CLCB para Salão de Beleza em São Paulo 2026",
     description: "Salão de beleza com CLCB vencido em SP arrisca interdição e cancelamento do alvará. DRD2 renova o CLCB para salões com processo simplificado e diagnóstico gratuito.",
     canonical: "/renovacao-clcb-salao-beleza-sao-paulo",
   },

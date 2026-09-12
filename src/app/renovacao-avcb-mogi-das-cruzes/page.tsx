@@ -3,7 +3,7 @@ import UniversalSeoPage, { UniversalPageData } from "@/components/UniversalSeoPa
 const pageData: UniversalPageData = {
   slug: "/renovacao-avcb-mogi-das-cruzes",
   meta: {
-    title: "Renovação de AVCB em Mogi das Cruzes SP | DRD2 Engenharia",
+    title: "Renovação de AVCB em Mogi das Cruzes SP",
     description: "Renovação e projeto de AVCB e CLCB em Mogi das Cruzes. Adequação para indústrias, galpões, condomínios e comércio no Alto Tietê. Sem burocracia e com aprovação garantida.",
   },
   eyebrow: "Renovação AVCB - Mogi das Cruzes",

@@ -1,6 +1,6 @@
 export const renovacaoAvcbContent = {
   meta: {
-    title: "Renovação de AVCB para Bares e Restaurantes em São Paulo | DRD2 Engenharia",
+    title: "Renovação de AVCB para Bares e Restaurantes em São Paulo",
     description: "Bares e restaurantes com AVCB vencido em São Paulo correm risco imediato de interdição pelo PSIU e Vigilância Sanitária, além de multas pesadas. Coifa... DRD2 Engenharia renova com agilidade.",
     canonical: "/renovacao-avcb-bares-restaurantes-sao-paulo",
   },

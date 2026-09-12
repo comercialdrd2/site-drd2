@@ -1,6 +1,6 @@
 export const avcbSaoPauloContent = {
   meta: {
-    title: "AVCB em São Paulo 2026 — Aprovação conduzida por engenharia | DRD2 Engenharia",
+    title: "AVCB em São Paulo 2026 — Aprovação conduzida por engenharia",
     description:
       "A DRD2 Engenharia é especialista em AVCB e CLCB em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros para qualquer tipo de estabelecimento. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/avcb-sao-paulo",

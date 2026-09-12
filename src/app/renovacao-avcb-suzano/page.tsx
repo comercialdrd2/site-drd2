@@ -3,7 +3,7 @@ import UniversalSeoPage, { UniversalPageData } from "@/components/UniversalSeoPa
 const pageData: UniversalPageData = {
   slug: "/renovacao-avcb-suzano",
   meta: {
-    title: "Renovação de AVCB em Suzano SP | DRD2 Engenharia",
+    title: "Renovação de AVCB em Suzano SP",
     description: "Renovação e projeto de AVCB e CLCB em Suzano. Adequação para indústrias, galpões, condomínios e comércio no Alto Tietê. Sem burocracia e com aprovação garantida.",
   },
   eyebrow: "Renovação AVCB - Suzano",

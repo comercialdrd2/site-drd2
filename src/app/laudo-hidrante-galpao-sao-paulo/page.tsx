@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/laudo-hidrante-galpao-sao-paulo",
   meta: {
-    title: "Laudo de Hidrante para Galpão Industrial em SP | DRD2 Engenharia",
+    title: "Laudo de Hidrante para Galpão Industrial em SP",
     description: "Laudo técnico do sistema de hidrantes para galpões industriais em São Paulo. IT 22/2025, cálculo por carga de incêndio do estoque, vazão e pressão reais. ART CREA-SP inclusa.",
   },
   eyebrow: "IT 22 — Sistema de Hidrantes para Galpão Industrial",

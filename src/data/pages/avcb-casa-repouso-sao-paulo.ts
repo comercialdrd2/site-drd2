@@ -1,6 +1,6 @@
 export const avcbCasaRepousoContent = {
   meta: {
-    title: "AVCB para Casa de Repouso em São Paulo 2026 | DRD2 Engenharia",
+    title: "AVCB para Casa de Repouso em São Paulo 2026",
     description:
       "Casa de repouso ou ILPI sem AVCB em SP arrisca interdição imediata e cancelamento da licença sanitária CVS. Grupo I, evacuação assistida e brigada especializada. DRD2 Engenharia regulariza.",
     canonical: "/avcb-para-casa-de-repouso-sao-paulo",

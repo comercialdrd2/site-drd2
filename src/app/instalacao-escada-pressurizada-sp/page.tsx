@@ -1,6 +1,6 @@
 import PressurizedStairsLanding from "@/components/PressurizedStairsLanding";
 
-const title = "Instalação de Escada Pressurizada em São Paulo | DRD2 Engenharia";
+const title = "Instalação de Escada Pressurizada em São Paulo";
 const description = "Instalação de escada pressurizada em São Paulo. Projeto, fornecimento e instalação de sistema de pressurização de escada enclausurada para AVCB, com ventilador, dutos, grelhas e ART.";
 
 export const metadata = {

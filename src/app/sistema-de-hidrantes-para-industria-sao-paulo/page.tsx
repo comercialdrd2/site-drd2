@@ -13,7 +13,7 @@ import CtaWhatsApp from "@/components/CtaWhatsApp";
 import InternalLinksBlock from "@/components/InternalLinksBlock";
 
 const _slug = "/sistema-de-hidrantes-para-industria-sao-paulo";
-const _pageTitle = "Sistema de Hidrantes para Indústria em São Paulo | DRD2 Engenharia — IT 22/25";
+const _pageTitle = "Sistema de Hidrantes para Indústria em São Paulo — IT 22/25";
 const _pageDesc = "A DRD2 Engenharia projeta e instala sistemas de hidrantes para indústrias em SP conforme IT 22/25. Cálculo de carga de incêndio por setor, ART e laudo para AVCB industrial. Diagnóstico técnico gratuito!";
 
 export const metadata = {

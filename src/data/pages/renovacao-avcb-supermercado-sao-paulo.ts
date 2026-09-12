@@ -1,6 +1,6 @@
 export const renovacaoAvcbSupermercadoContent = {
   meta: {
-    title: "Renovação de AVCB para Supermercado em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de AVCB para Supermercado em São Paulo 2026",
     description: "AVCB do seu supermercado venceu? A DRD2 Engenharia renova o certificado do Corpo de Bombeiros em São Paulo sem interdição e sem Comunique-se. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/renovacao-avcb-supermercado-sao-paulo",
   },
@@ -160,7 +160,7 @@ export const renovacaoAvcbSupermercadoContent = {
     ]
   },
   linksInternos: [
-    { label: "AVCB para Supermercado em São Paulo", href: "/avcb-para-supermercado-sao-paulo" },
+    { label: "AVCB para Supermercado em São Paulo", href: "/avcb-supermercado-sao-paulo" },
     { label: "Renovação de AVCB em São Paulo", href: "/renovacao-avcb" },
     { label: "Quanto Custa o AVCB em São Paulo?", href: "/quanto-custa-avcb-sao-paulo" }
   ],

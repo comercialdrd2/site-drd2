@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/laudo-hidrante-restaurante-sao-paulo",
   meta: {
-    title: "Laudo de Hidrante para Restaurante em SP | DRD2 Engenharia",
+    title: "Laudo de Hidrante para Restaurante em SP",
     description: "Laudo técnico do sistema de hidrantes para restaurantes e bares em São Paulo. IT 22/2025, cobertura da cozinha industrial, mangueira e pressão testadas. ART CREA-SP inclusa.",
   },
   eyebrow: "IT 22 — Sistema de Hidrantes para Restaurante",
@@ -134,7 +134,7 @@ const data: UniversalPageData = {
     },
   ],
   linksInternos: [
-    { href: "/avcb-para-restaurante-sao-paulo", label: "AVCB para Restaurante em SP" },
+    { href: "/avcb-restaurante-sao-paulo", label: "AVCB para Restaurante em SP" },
     { href: "/alvara-bombeiro-bar-restaurante-sao-paulo", label: "Alvará Bombeiro — Restaurante" },
     { href: "/laudo-alarme-incendio-restaurante-sao-paulo", label: "Laudo de Alarme — Restaurante" },
     { href: "/sistema-de-hidrantes-para-restaurante-sao-paulo", label: "Sistema de Hidrantes para Restaurante" },

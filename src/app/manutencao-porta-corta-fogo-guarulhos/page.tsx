@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/manutencao-porta-corta-fogo-guarulhos",
   meta: {
-    title: "Manutenção de Porta Corta-Fogo em Guarulhos — NBR 11742 e AVCB | DRD2 Engenharia",
+    title: "Manutenção de Porta Corta-Fogo em Guarulhos — NBR 11742 e AVCB",
     description: "Manutenção de porta corta-fogo em Guarulhos. Galpões, indústrias e condomínios. Laudo técnico com ART para AVCB do CBPMESP. Diagnóstico gratuito.",
   },
   eyebrow: "Guarulhos SP — Galpões, Indústrias e Condomínios",

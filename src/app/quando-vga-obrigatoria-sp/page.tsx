@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/quando-vga-obrigatoria-sp",
   meta: {
-    title: "Quando a Válvula de Governo e Alarme (VGA) é Obrigatória em SP? — IT 23/25 e AVCB | DRD2 Engenharia",
+    title: "Quando a Válvula de Governo e Alarme (VGA) é Obrigatória em SP? — IT 23/25 e AVCB",
     description: "Saiba quando a Válvula de Governo e Alarme (VGA) é obrigatória em SP pela IT 23/25. Quais edificações precisam de VGA, quantas VGAs por sistema, DN mínimo e o que o CBPMESP verifica na vistoria.",
   },
   eyebrow: "Quando a Válvula de Governo e Alarme (VGA) é Obrigatória — IT 23/25 e Critérios do CBPMESP em São Paulo",

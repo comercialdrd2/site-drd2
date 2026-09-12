@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/hidrante-supermercado-avcb-sp",
   meta: {
-    title: "Sistema de Hidrante para Supermercado em SP — IT 22/25 e AVCB | DRD2 Engenharia",
+    title: "Sistema de Hidrante para Supermercado em SP — IT 22/25 e AVCB",
     description: "A DRD2 projeta e instala sistemas de hidrante para supermercado em SP. Cobertura de câmara fria, depósito, padaria e área de vendas. IT 22/25, ART e laudo para AVCB. Diagnóstico gratuito.",
   },
   eyebrow: "IT 22/25 — Supermercados e Hipermercados em SP",

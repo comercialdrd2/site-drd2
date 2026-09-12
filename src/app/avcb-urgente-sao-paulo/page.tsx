@@ -4,7 +4,7 @@ const data: UniversalPageData = {
   "dir": "avcb-urgente-sao-paulo",
   "slug": "/avcb-urgente-sao-paulo",
   "meta": {
-    "title": "AVCB Urgente em São Paulo — Prazo Apertado? | DRD2 Engenharia",
+    "title": "AVCB Urgente em São Paulo — Prazo Apertado?",
     "description": "Precisa de AVCB urgente em SP? Venda de imóvel, credenciamento ou prazo vencendo. A DRD2 protocola em até 10 dias úteis com diagnóstico gratuito e documentação completa."
   },
   "eyebrow": "AVCB Express — Protocolo em até 10 Dias Úteis",

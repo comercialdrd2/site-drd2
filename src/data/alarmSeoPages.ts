@@ -19,8 +19,8 @@ export type AlarmSeoPage = {
 };
 
 export const alarmSeoPages: Record<string, AlarmSeoPage> = {
-  "/sistema-alarme-incendio-galpao-industrial-avcb-sp": {
-    slug: "/sistema-alarme-incendio-galpao-industrial-avcb-sp",
+  "/alarme-de-incendio-galpao-industrial-sp": {
+    slug: "/alarme-de-incendio-galpao-industrial-sp",
     title: "Sistema de Alarme de Incêndio para Galpao Industrial AVCB SP",
     description: "Projeto, instalação e manutenção de sistema de alarme de incêndio para galpão industrial em SP. Central, detectores, sirenes, botoeiras, NBR 17240 e AVCB.",
     h1: "Sistema de Alarme de Incêndio para Galpao Industrial e AVCB em SP",
@@ -157,8 +157,8 @@ export const alarmSeoPages: Record<string, AlarmSeoPage> = {
       { label: "Manutenção", href: "/manutencao" },
     ],
   },
-  "/sistema-alarme-incendio-edificio-comercial-sp": {
-    slug: "/sistema-alarme-incendio-edificio-comercial-sp",
+  "/alarme-de-incendio-comercial-escritorio-sp": {
+    slug: "/alarme-de-incendio-comercial-escritorio-sp",
     title: "Sistema de Alarme de Incêndio para Edificio Comercial SP",
     description: "Sistema de alarme de incêndio para edificio comercial e prédio corporativo em SP. Projeto, central, detectores, manutenção e AVCB.",
     h1: "Sistema de Alarme de Incêndio para Edificio Comercial em SP",
@@ -180,8 +180,8 @@ export const alarmSeoPages: Record<string, AlarmSeoPage> = {
       { label: "Manutenção de alarme", href: "/manutencao-alarme-de-incendio-sao-paulo" },
     ],
   },
-  "/sistema-alarme-incendio-hospital-avcb-sp": {
-    slug: "/sistema-alarme-incendio-hospital-avcb-sp",
+  "/alarme-de-incendio-hospital-clinica-sp": {
+    slug: "/alarme-de-incendio-hospital-clinica-sp",
     title: "Sistema de Alarme de Incêndio para Hospital AVCB SP",
     description: "Sistema de alarme de incêndio para hospital e clínica em SP. Detecção hospitalar, central, abandono assistido, laudo, ART e AVCB.",
     h1: "Sistema de Alarme de Incêndio para Hospital, Clinica e AVCB em SP",

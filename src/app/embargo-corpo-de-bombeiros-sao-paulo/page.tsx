@@ -5,7 +5,7 @@ const data: UniversalPageData = {
   "dir": "embargo-corpo-de-bombeiros-sao-paulo",
   "slug": "/embargo-corpo-de-bombeiros-sao-paulo",
   "meta": {
-    "title": "Embargo do Corpo de Bombeiros SP — Como Resolver | DRD2 Engenharia",
+    "title": "Embargo do Corpo de Bombeiros SP — Como Resolver",
     "description": "Estabelecimento embargado pelo Corpo de Bombeiros em São Paulo? Saiba como contestar, regularizar e reabrir. Orientação técnica urgente com engenheiro especialista em até 2h."
   },
   "eyebrow": "Situação Crítica — Orientação Técnica Urgente",

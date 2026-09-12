@@ -4,7 +4,7 @@ const data: UniversalPageData = {
   "dir": "sistema-de-sprinkler-para-escola-sao-paulo",
   "slug": "/sistema-de-sprinkler-para-escola-sao-paulo",
   "meta": {
-    "title": "Sistema de Sprinkler para Escola em SP — IT-23/CBPMESP e NBR 10897 | DRD2 Engenharia",
+    "title": "Sistema de Sprinkler para Escola em SP — IT-23/CBPMESP e NBR 10897",
     "description": "A DRD2 projeta, instala e certifica sistemas de sprinkler para escola em SP conforme IT-23/CBPMESP e NBR 10897. Projeto com ART, laudo para AVCB e manutenção preventiva. Diagnóstico gratuito."
   },
   "eyebrow": "IT-23/CBPMESP e NBR 10897 — Escolas em São Paulo",

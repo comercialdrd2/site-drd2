@@ -13,7 +13,7 @@ import CtaWhatsApp from "@/components/CtaWhatsApp";
 import InternalLinksBlock from "@/components/InternalLinksBlock";
 
 const _slug = "/sistema-de-sprinkler-para-industria-sao-paulo";
-const _pageTitle = "Sistema de Sprinkler para Indústria em São Paulo | DRD2 Engenharia — IT 23/25";
+const _pageTitle = "Sistema de Sprinkler para Indústria em São Paulo — IT 23/25";
 const _pageDesc = "A DRD2 Engenharia projeta e instala sistemas de sprinkler para indústrias em SP conforme IT 23/25 e NBR 10897. Cálculo hidráulico por setor de risco, ART e laudo para AVCB industrial. Diagnóstico técnico gratuito!";
 
 export const metadata = {

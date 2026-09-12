@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/vga-shopping-center-sp",
   meta: {
-    title: "Válvula de Governo e Alarme (VGA) para Shopping Center em SP — Múltiplas Zonas e AVCB | DRD2 Engenharia",
+    title: "Válvula de Governo e Alarme (VGA) para Shopping Center em SP — Múltiplas Zonas e AVCB",
     description: "A DRD2 projeta e mantém Válvula de Governo e Alarme (VGA) para shopping centers em SP. Múltiplas zonas por setor (lojas, praça de alimentação, estacionamento), trip test e laudo para AVCB. IT 23/25. Diagnóstico gratuito.",
   },
   eyebrow: "Válvula de Governo e Alarme (VGA) para Shopping Center — IT 23/25, NBR 10897 e AVCB em São Paulo",
@@ -174,7 +174,7 @@ const data: UniversalPageData = {
     { href: "/manutencao-vga-sprinkler-sp", label: "Manutenção de VGA" },
     { href: "/teste-comissionamento-vga-sp", label: "Trip Test de VGA" },
     { href: "/adequacao-vga-avcb-sp", label: "Adequação de VGA para AVCB" },
-    { href: "/sprinkler-shopping-center-avcb-sp", label: "Sprinkler para Shopping" },
+    { href: "/sistema-sprinkler-shopping-center-sp", label: "Sprinkler para Shopping" },
   ],
   ctaFinal: {
     heading: "VÁLVULA DE GOVERNO E ALARME (VGA) PARA SHOPPING CENTER EM SP — MAPEAMENTO DE ZONAS + TRIP TEST + DOSSIÊ AVCB",

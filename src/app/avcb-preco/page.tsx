@@ -18,7 +18,7 @@ export const metadata = {
   title: "Quanto Custa o AVCB em São Paulo? Preço Real em 2025",
   description: "Descubra o preço do AVCB em São Paulo. Fatores de custo, taxas CBPMESP e honorários técnicos conforme Decreto 69.118/2024. Orçamento gratuito em 2h.",
   alternates: {
-    canonical: "/avcb-preco",
+    canonical: "/quanto-custa-avcb-sao-paulo",
   },
 };
 
@@ -37,7 +37,7 @@ export default function AVCBPrecoPage() {
   ];
 
   const _schema = generateMasterSchema({
-        slug: "/avcb-preco",
+        slug: "/quanto-custa-avcb-sao-paulo",
         title: _pageTitle,
         description: _pageDesc,
         serviceName: "Orçamento de AVCB em São Paulo",
@@ -45,7 +45,7 @@ export default function AVCBPrecoPage() {
         breadcrumbs: [
           { name: "Home", item: "/" },
           { name: "Serviços", item: "/servicos" },
-          { name: "Quanto Custa o AVCB", item: "/avcb-preco" }
+          { name: "Quanto Custa o AVCB", item: "/quanto-custa-avcb-sao-paulo" }
         ]
       });
 
@@ -89,8 +89,8 @@ export default function AVCBPrecoPage() {
                  <h3 className="text-2xl font-black mb-6 uppercase italic text-primary">Simular Investimento</h3>
            
       <div className="container mx-auto px-4 max-w-4xl text-center py-4 opacity-50"><p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Conteúdo Técnico Atualizado em: Maio de 2026</p></div>
-      <ServiceClusterLinks currentSlug="/avcb-preco" />
-      <ServiceBlogLinks currentSlug="/avcb-preco" />
+      <ServiceClusterLinks currentSlug="/quanto-custa-avcb-sao-paulo" />
+      <ServiceBlogLinks currentSlug="/quanto-custa-avcb-sao-paulo" />
 
       <LeadForm variant="compact" />
                </div>

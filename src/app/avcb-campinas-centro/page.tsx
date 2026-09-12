@@ -18,7 +18,7 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import ExpansionAuthorityBlock from "@/components/ExpansionAuthorityBlock";
 
 const _slug = "/avcb-campinas-centro";
-const _pageTitle = "AVCB e CLCB em Centro de Campinas | DRD2 Engenharia";
+const _pageTitle = "AVCB e CLCB em Centro de Campinas";
 const _pageDesc = "Regularização de AVCB e CLCB em Centro de Campinas. Foco em segurança contra incêndio, aprovação técnica e renovação no Corpo de Bombeiros com projeto especializado.";
 
 export const metadata = {

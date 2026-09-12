@@ -1,6 +1,6 @@
 export const renovacaoAvcbContent = {
   meta: {
-    title: "Renovação de AVCB para Consultórios Médicos em São Paulo | DRD2 Engenharia",
+    title: "Renovação de AVCB para Consultórios Médicos em São Paulo",
     description: "Consultórios e clínicas dependem da aprovação da Vigilância Sanitária (LTA/CMVS), que exige AVCB ativo. Oxigênio e equipamentos de risco devem constar... DRD2 Engenharia renova com agilidade.",
     canonical: "/renovacao-avcb-consultorio-medico-sao-paulo",
   },

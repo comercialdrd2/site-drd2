@@ -1,6 +1,6 @@
 export const renovacaoClcbBarContent = {
   meta: {
-    title: "Renovação de CLCB para Bar e Pub em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de CLCB para Bar e Pub em São Paulo 2026",
     description: "Bar ou pub com CLCB vencido em SP arrisca interdição noturna, perda do alvará e responsabilidade em evento com lotação. DRD2 renova o CLCB com diagnóstico gratuito.",
     canonical: "/renovacao-clcb-bar-sao-paulo",
   },

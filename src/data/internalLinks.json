@@ -267,7 +267,7 @@
           "textoSugerido": "Se você precisa de certificado do bombeiro do condomínio em Osasco, a DRD2 atende essa região com diagnóstico gratuito."
         },
         {
-          "bairroSlug": "/avcb-barueri-alphaville",
+          "bairroSlug": "/avcb-alphaville-barueri",
           "bairroLabel": "Barueri/Alphaville",
           "zona": "Oeste",
           "ancora": "AVCB para prédios residenciais",
@@ -455,7 +455,7 @@
           "textoSugerido": "Se você precisa de AVCB para depósito logístico em São Caetano, a DRD2 atende essa região com diagnóstico gratuito."
         },
         {
-          "bairroSlug": "/avcb-barueri-alphaville",
+          "bairroSlug": "/avcb-alphaville-barueri",
           "bairroLabel": "Barueri/Alphaville",
           "zona": "Oeste",
           "ancora": "alvará do bombeiro industrial",
@@ -692,7 +692,7 @@
           "textoSugerido": "Se você precisa de regularizar estabelecimento alimentar em Osasco, a DRD2 atende essa região com diagnóstico gratuito."
         },
         {
-          "bairroSlug": "/avcb-barueri-alphaville",
+          "bairroSlug": "/avcb-alphaville-barueri",
           "bairroLabel": "Barueri/Alphaville",
           "zona": "Oeste",
           "ancora": "AVCB de bares e restaurantes",
@@ -873,7 +873,7 @@
           "textoSugerido": "Se você precisa de AVCB para escritório comercial em Osasco, a DRD2 atende essa região com diagnóstico gratuito."
         },
         {
-          "bairroSlug": "/avcb-barueri-alphaville",
+          "bairroSlug": "/avcb-alphaville-barueri",
           "bairroLabel": "Barueri/Alphaville",
           "zona": "Oeste",
           "ancora": "AVCB para escritório comercial",
@@ -1298,7 +1298,7 @@
           "textoSugerido": "Se você precisa de AVCB para clínicas médicas em Osasco, a DRD2 atende essa região com diagnóstico gratuito."
         },
         {
-          "bairroSlug": "/avcb-barueri-alphaville",
+          "bairroSlug": "/avcb-alphaville-barueri",
           "bairroLabel": "Barueri/Alphaville",
           "zona": "Oeste",
           "ancora": "alvará bombeiro para estabelecimentos de saúde",
@@ -1570,7 +1570,7 @@
           "textoSugerido": "Se você precisa de renovar o AVCB do prédio em Osasco, a DRD2 atende essa região com diagnóstico gratuito."
         },
         {
-          "bairroSlug": "/avcb-barueri-alphaville",
+          "bairroSlug": "/avcb-alphaville-barueri",
           "bairroLabel": "Barueri/Alphaville",
           "zona": "Oeste",
           "ancora": "AVCB vencido no condomínio",
@@ -1946,7 +1946,7 @@
           "textoSugerido": "Se você precisa de alvará bombeiro para hotel em Osasco, a DRD2 atende essa região com diagnóstico gratuito."
         },
         {
-          "bairroSlug": "/avcb-barueri-alphaville",
+          "bairroSlug": "/avcb-alphaville-barueri",
           "bairroLabel": "Barueri/Alphaville",
           "zona": "Oeste",
           "ancora": "regularizar estabelecimento de hospedagem",
@@ -5238,7 +5238,7 @@
         }
       ]
     },
-    "/avcb-barueri-alphaville": {
+    "/avcb-alphaville-barueri": {
       "label": "Barueri/Alphaville",
       "zona": "Oeste",
       "totalLinks": 7,

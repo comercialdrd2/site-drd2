@@ -16,7 +16,7 @@ export const metadata = {
   title: "AVCB Vencido: O Que Fazer, Quais São as Consequências e Como Regularizar",
   description: "Seu AVCB está vencido? Saiba o que acontece, quais são as multas e riscos, e como regularizar o mais rápido possível. Guia prático e atualizado. DRD2 Engenharia.",
   alternates: {
-    canonical: "/blog/avcb-vencido-o-que-fazer",
+    canonical: "/avcb-vencido-o-que-fazer",
   },
 };
 
@@ -280,7 +280,7 @@ export default function AVCBVencidoPost() {
         </div>
       </section>
 
-      <BlogStrategicLinks currentSlug="/blog/avcb-vencido-o-que-fazer" />
+      <BlogStrategicLinks currentSlug="/avcb-vencido-o-que-fazer" />
 
       {/* ── ARTIGOS RELACIONADOS ── */}
       <section className="py-20 bg-white border-t border-slate-100">

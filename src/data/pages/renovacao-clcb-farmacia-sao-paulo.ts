@@ -1,6 +1,6 @@
 export const renovacaoClcbFarmaciaContent = {
   meta: {
-    title: "Renovação de CLCB para Farmácia e Drogaria em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de CLCB para Farmácia e Drogaria em São Paulo 2026",
     description: "Farmácia ou drogaria com CLCB vencido em SP arrisca cancelamento da licença sanitária e interdição imediata. DRD2 renova o CLCB com diagnóstico gratuito e agilidade no processo.",
     canonical: "/renovacao-clcb-farmacia-sao-paulo",
   },

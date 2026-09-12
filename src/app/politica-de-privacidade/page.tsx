@@ -2,11 +2,11 @@ import Link from "next/link";
 import { JsonLD, generateMasterSchema } from "@/components/JsonLD";
 import { ShieldCheck, FileText, Lock } from "lucide-react";
 
-const _pageTitle = "Política de Privacidade | DRD2 Engenharia";
+const _pageTitle = "Política de Privacidade";
 const _pageDesc = "Saiba como a DRD2 Engenharia coleta, usa e protege seus dados pessoais em conformidade com a LGPD — Lei Geral de Proteção de Dados.";
 
 export const metadata = {
-  title: "Política de Privacidade | DRD2 Engenharia",
+  title: "Política de Privacidade",
   description: "Saiba como a DRD2 Engenharia coleta, usa e protege seus dados pessoais em conformidade com a LGPD — Lei Geral de Proteção de Dados.",
   alternates: {
     canonical: "/politica-de-privacidade",

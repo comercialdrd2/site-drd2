@@ -1,7 +1,7 @@
 import HydrantSeoLanding from "@/components/HydrantSeoLanding";
 import { hydrantSeoPages } from "@/data/hydrantSeoPages";
 
-const page = hydrantSeoPages["/sistema-hidrante-galpao-industrial-avcb-sp"];
+const page = hydrantSeoPages["/sistema-de-hidrantes-para-galpao-sao-paulo"];
 
 export const metadata = {
   title: page.title,

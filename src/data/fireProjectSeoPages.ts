@@ -28,7 +28,7 @@ const commonRelated = [
 export const fireProjectSeoPages: Record<string, FireProjectSeoPage> = {
   "/projeto-incendio-para-avcb-sp": {
     slug: "/projeto-incendio-para-avcb-sp",
-    title: "Projeto de Incêndio para AVCB SP | DRD2 Engenharia",
+    title: "Projeto de Incêndio para AVCB SP",
     description: "Projeto de incêndio para AVCB em SP. Plantas, memoriais, ITs do Corpo de Bombeiros, ART, protocolo, exigencias e aprovação no CBPMESP.",
     h1: "Projeto de Incêndio para AVCB em SP",
     eyebrow: "Projeto técnico - AVCB - CBPMESP",

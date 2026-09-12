@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/laudo-tecnico-porta-corta-fogo-sp",
   meta: {
-    title: "Laudo Técnico de Porta Corta-Fogo em SP — ART CREA-SP para AVCB | DRD2 Engenharia",
+    title: "Laudo Técnico de Porta Corta-Fogo em SP — ART CREA-SP para AVCB",
     description: "A DRD2 emite laudo técnico de porta corta-fogo em SP com ART CREA-SP para AVCB e renovação. Inspeção conforme NBR 11742 e IT 11/25. Entrega em 48h.",
   },
   eyebrow: "NBR 11742 e IT 11/25 — Laudo para AVCB",

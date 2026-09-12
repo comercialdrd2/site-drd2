@@ -1,6 +1,6 @@
 export const renovacaoAvcbCasaNoturnaContent = {
   meta: {
-    title: "Renovação de AVCB para Casas Noturnas e Boates em São Paulo | DRD2 Engenharia",
+    title: "Renovação de AVCB para Casas Noturnas e Boates em São Paulo",
     description: "Casa noturna ou boate com AVCB vencido em São Paulo opera sob risco de interdição imediata. Grupo F-3, IT-08, IT-15. DRD2 Engenharia renova com agilidade.",
     canonical: "/renovacao-avcb-casa-noturna-boate-sao-paulo",
   },

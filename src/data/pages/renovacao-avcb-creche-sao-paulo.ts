@@ -1,6 +1,6 @@
 export const renovacaoAvcbContent = {
   meta: {
-    title: "Renovação de AVCB para Creches em São Paulo | DRD2 Engenharia",
+    title: "Renovação de AVCB para Creches em São Paulo",
     description: "Creches sem AVCB válido podem ser fechadas pela Secretaria de Educação. A segurança de crianças pequenas exige rigor extremo em rotas de fuga, corrimã... DRD2 Engenharia renova com agilidade.",
     canonical: "/renovacao-avcb-creche-sao-paulo",
   },

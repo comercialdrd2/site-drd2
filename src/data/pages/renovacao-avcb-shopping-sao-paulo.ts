@@ -1,6 +1,6 @@
 export const renovacaoAvcbContent = {
   meta: {
-    title: "Renovação de AVCB para Shoppings em São Paulo | DRD2 Engenharia",
+    title: "Renovação de AVCB para Shoppings em São Paulo",
     description: "Shoppings sem AVCB regularizado enfrentam multas milionárias e perda do seguro patrimonial. A complexidade do sistema de sprinklers, alarmes e extraçã... DRD2 Engenharia renova com agilidade.",
     canonical: "/renovacao-avcb-shopping-sao-paulo",
   },

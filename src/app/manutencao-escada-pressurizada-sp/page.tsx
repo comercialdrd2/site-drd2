@@ -1,6 +1,6 @@
 import PressurizedStairsLanding from "@/components/PressurizedStairsLanding";
 
-const title = "Manutenção de Escada Pressurizada em São Paulo | DRD2 Engenharia";
+const title = "Manutenção de Escada Pressurizada em São Paulo";
 const description = "Manutenção de escada pressurizada em São Paulo. Inspeção, teste de vazão e pressão, laudo técnico, ART e regularização de sistema de pressurização de escada para renovação do AVCB.";
 
 export const metadata = {

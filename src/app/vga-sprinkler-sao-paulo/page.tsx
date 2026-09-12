@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/vga-sprinkler-sao-paulo",
   meta: {
-    title: "Válvula de Governo e Alarme para Sprinkler em SP — DN65 a DN200 | DRD2 Engenharia",
+    title: "Válvula de Governo e Alarme para Sprinkler em SP — DN65 a DN200",
     description: "A DRD2 instala e mantém válvula de governo e alarme (VGA) para sprinkler em SP. Campainha hidráulica, pressostato, manômetros e ART para AVCB. Instalação, projeto, manutenção e teste. Diagnóstico gratuito.",
   },
   eyebrow: "IT 23/25 e NBR 10897 — Válvula de Governo e Alarme em São Paulo",

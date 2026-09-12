@@ -291,7 +291,7 @@ export default function QuantocustaAVCBPost() {
             <h2 className="text-3xl font-black text-secondary leading-none uppercase tracking-tighter italic mb-12">Quanto custa o AVCB no seu <span className="text-primary not-italic tracking-normal">Bairro?</span></h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
               {[
-                { n: "Mooca", h: "/avcb-zona-leste" },
+                { n: "Mooca", h: "/avcb-zona-leste-sao-paulo" },
                 { n: "Tatuapé", h: "/avcb-tatuape" },
                 { n: "Itaim Bibi", h: "/avcb-itaim-bibi" },
                 { n: "Vila Olímpia", h: "/avcb-vila-olimpia" },
@@ -310,9 +310,9 @@ export default function QuantocustaAVCBPost() {
 
             <div className="mt-16 flex flex-wrap justify-center gap-8">
                <Link href="/avcb-zona-sul" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">ZONA SUL</Link>
-               <Link href="/avcb-zona-leste" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">ZONA LESTE</Link>
-               <Link href="/avcb-zona-oeste" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">ZONA OESTE</Link>
-               <Link href="/avcb-zona-norte" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">ZONA NORTE</Link>
+               <Link href="/avcb-zona-leste-sao-paulo" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">ZONA LESTE</Link>
+               <Link href="/avcb-zona-oeste-sao-paulo" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">ZONA OESTE</Link>
+               <Link href="/avcb-zona-norte-sao-paulo" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">ZONA NORTE</Link>
                <Link href="/avcb-centro-sao-paulo" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">CENTRO SP</Link>
             </div>
         </div>
@@ -339,7 +339,7 @@ export default function QuantocustaAVCBPost() {
                 <span className="text-red-600 text-lg font-black mt-0.5">→</span>
                 <span className="font-black text-slate-900 text-sm uppercase tracking-tight group-hover:text-red-600 transition-colors">Quem Precisa de AVCB?</span>
               </a>
-              <a href="/blog/avcb-vencido-o-que-fazer" className="bg-slate-50 border border-slate-200 rounded-2xl p-6 flex items-start gap-4 hover:border-red-600/40 hover:bg-white transition-all group">
+              <a href="/avcb-vencido-o-que-fazer" className="bg-slate-50 border border-slate-200 rounded-2xl p-6 flex items-start gap-4 hover:border-red-600/40 hover:bg-white transition-all group">
                 <span className="text-red-600 text-lg font-black mt-0.5">→</span>
                 <span className="font-black text-slate-900 text-sm uppercase tracking-tight group-hover:text-red-600 transition-colors">AVCB Vencido: O Que Fazer?</span>
               </a>

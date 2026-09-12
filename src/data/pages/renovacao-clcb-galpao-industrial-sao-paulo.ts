@@ -1,6 +1,6 @@
 export const renovacaoClcbGalpaoContent = {
   meta: {
-    title: "Renovação de CLCB para Galpão Industrial em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de CLCB para Galpão Industrial em São Paulo 2026",
     description: "Galpão industrial ou depósito com CLCB vencido em SP invalida o seguro de carga e expõe a operação a interdição. DRD2 renova o CLCB com diagnóstico gratuito e processo ágil.",
     canonical: "/renovacao-clcb-galpao-industrial-sao-paulo",
   },

@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sistema-sprinkler-edificio-comercial-sp",
   meta: {
-    title: "Sistema de Sprinkler para Edifício Comercial em SP — IT 23/25 e Pré-Ação | DRD2 Engenharia",
+    title: "Sistema de Sprinkler para Edifício Comercial em SP — IT 23/25 e Pré-Ação",
     description: "A DRD2 projeta e instala sistemas de sprinkler para edifício comercial em SP. Pré-ação em sala de servidores, layout variável por inquilino e ART para AVCB. IT 23/25 e NBR 10897. Diagnóstico gratuito.",
   },
   eyebrow: "IT 23/25 e NBR 10897 — Edifícios Comerciais e Corporativos em SP",

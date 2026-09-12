@@ -1,6 +1,6 @@
 export const avcbAcademiaContent = {
   meta: {
-    title: "AVCB para Academia em São Paulo 2026 | DRD2 Engenharia",
+    title: "AVCB para Academia em São Paulo 2026",
     description:
       "A DRD2 Engenharia regulariza academias e estúdios fitness no Corpo de Bombeiros em São Paulo. AVCB com agilidade, sem Comunique-se e sem retrabalho. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/avcb-para-academia-sao-paulo",

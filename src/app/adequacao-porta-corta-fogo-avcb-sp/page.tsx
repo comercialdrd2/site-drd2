@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/adequacao-porta-corta-fogo-avcb-sp",
   meta: {
-    title: "Adequação de Porta Corta-Fogo para AVCB em SP — IT 11/25 | DRD2 Engenharia",
+    title: "Adequação de Porta Corta-Fogo para AVCB em SP — IT 11/25",
     description: "A DRD2 adequa portas corta-fogo para AVCB em SP conforme IT 11/25 e NBR 11742. Substituição, laudo técnico, ART CREA-SP e aprovação na vistoria do Corpo de Bombeiros.",
   },
   eyebrow: "IT 11/25 e NBR 11742 — Adequação para AVCB",

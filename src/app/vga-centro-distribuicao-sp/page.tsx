@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/vga-centro-distribuicao-sp",
   meta: {
-    title: "Válvula de Governo e Alarme (VGA) para Centro de Distribuição em SP — Projeto e AVCB | DRD2 Engenharia",
+    title: "Válvula de Governo e Alarme (VGA) para Centro de Distribuição em SP — Projeto e AVCB",
     description: "A DRD2 projeta Válvula de Governo e Alarme (VGA) para centros de distribuição em SP. DN correto para risco Extra, bicos ESFR, câmara fria, múltiplas zonas e laudo para AVCB. IT 23/25. Diagnóstico gratuito.",
   },
   eyebrow: "Válvula de Governo e Alarme (VGA) para Centro de Distribuição — IT 23/25, NBR 10897 e AVCB em São Paulo",

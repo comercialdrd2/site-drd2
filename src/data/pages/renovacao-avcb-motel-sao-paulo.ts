@@ -1,6 +1,6 @@
 export const renovacaoAvcbMotelContent = {
   meta: {
-    title: "Renovação de AVCB para Motel em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de AVCB para Motel em São Paulo 2026",
     description: "AVCB do seu motel venceu? A DRD2 Engenharia renova o certificado do Corpo de Bombeiros em São Paulo com discrição, sem interdição e sem Comunique-se. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/renovacao-avcb-motel-sao-paulo",
   },

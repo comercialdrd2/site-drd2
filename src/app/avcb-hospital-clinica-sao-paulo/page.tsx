@@ -21,11 +21,11 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
-const _pageTitle = "AVCB para Hospital e Clínica em SP | DRD2 Engenharia";
+const _pageTitle = "AVCB para Hospital e Clínica em SP";
 const _pageDesc = "AVCB para hospitais, clínicas e consultórios em São Paulo. Regularização conforme ITs do CBPMESP e VISA. Aprovação garantida. Diagnóstico técnico gratuito. DRD2 Engenharia.";
 
 export const metadata = {
-  title: "AVCB para Hospital e Clínica em SP | DRD2 Engenharia",
+  title: "AVCB para Hospital e Clínica em SP",
   description: "AVCB para hospitais, clínicas e consultórios em São Paulo. Regularização conforme ITs do CBPMESP e VISA. Aprovação garantida. Diagnóstico técnico gratuito. DRD2 Engenharia.",
   alternates: {
     canonical: "/avcb-hospital-clinica-sao-paulo",
@@ -484,10 +484,10 @@ export default function AVCBHospitalMasterPage() {
               { t: "Hospitais na Consolação", u: "/avcb-centro-bela-vista", i: <Building className="w-4 h-4"/> },
               { t: "Clínicas na Vila Mariana", u: "/avcb-vila-mariana", i: <Stethoscope className="w-4 h-4"/> },
               { t: "Clínicas em Moema", u: "/avcb-moema", i: <Stethoscope className="w-4 h-4"/> },
-              { t: "Preço para Hospitais", u: "/avcb-preco", i: <Scale className="w-4 h-4"/> },
+              { t: "Preço para Hospitais", u: "/quanto-custa-avcb-sao-paulo", i: <Scale className="w-4 h-4"/> },
               { t: "Renovação de Saúde", u: "/renovacao-avcb", i: <ClipboardCheck className="w-4 h-4"/> },
               { t: "Quem é obrigado?", u: "/blog/quem-precisa-de-avcb", i: <FileCheck className="w-4 h-4"/> },
-              { t: "AVCB Vencido: O que fazer?", u: "/blog/avcb-vencido-o-que-fazer", i: <ShieldAlert className="w-4 h-4"/> },
+              { t: "AVCB Vencido: O que fazer?", u: "/avcb-vencido-o-que-fazer", i: <ShieldAlert className="w-4 h-4"/> },
               { t: "Guia Geral SP", u: "/avcb-sao-paulo", i: <MapPin className="w-4 h-4"/> }
             ].map((link, i) => (
               <Link 

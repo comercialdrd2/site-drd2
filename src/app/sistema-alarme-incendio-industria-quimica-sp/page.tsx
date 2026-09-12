@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sistema-alarme-incendio-industria-quimica-sp",
   meta: {
-    title: "Alarme de Incêndio para Indústria Química em SP — IT 18/19 e NR-20 | DRD2 Engenharia",
+    title: "Alarme de Incêndio para Indústria Química em SP — IT 18/19 e NR-20",
     description: "A DRD2 projeta alarme de incêndio para indústria química em SP. Detectores de chama UV/IR para líquidos inflamáveis, ATEX para áreas classificadas, integração com sistema de shutdown. IT 18/19 e NR-20.",
   },
   eyebrow: "IT 18/19 e NR-20 — Indústrias Químicas e Petroquímicas em SP",

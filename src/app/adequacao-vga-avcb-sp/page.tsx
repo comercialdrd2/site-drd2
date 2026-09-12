@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/adequacao-vga-avcb-sp",
   meta: {
-    title: "Adequação de Válvula de Governo e Alarme (VGA) para AVCB em SP — Regularização de Sprinkler | DRD2 Engenharia",
+    title: "Adequação de Válvula de Governo e Alarme (VGA) para AVCB em SP — Regularização de Sprinkler",
     description: "A DRD2 regulariza Válvula de Governo e Alarme (VGA) para AVCB em SP. Diagnóstico de não-conformidades, substituição de componentes, trip test e laudo para aprovação do CBPMESP. Diagnóstico gratuito.",
   },
   eyebrow: "Adequação de Válvula de Governo e Alarme (VGA) para AVCB — IT 23/25 e NBR 10897 em São Paulo",

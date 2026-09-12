@@ -76,7 +76,7 @@ function nextService(currentSlug: string) {
 }
 
 export default function ServiceClusterLinks({ currentSlug }: ServiceClusterLinksProps) {
-  const isHub = currentSlug === hub.slug || currentSlug === "/avcb";
+  const isHub = currentSlug === hub.slug || currentSlug === "/avcb-sao-paulo";
   const isClusterService = cluster.some((item) => item.slug === currentSlug);
   const related = isHub ? cluster : [hub, nextService(currentSlug), ...cluster.filter((item) => item.slug !== currentSlug && item.slug !== nextService(currentSlug).slug).slice(0, 4)];
   const title = isHub

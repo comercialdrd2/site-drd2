@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/manutencao-porta-corta-fogo-sp",
   meta: {
-    title: "Manutenção de Porta Corta-Fogo em SP — NBR 11742 e IT 11/25 | DRD2 Engenharia",
+    title: "Manutenção de Porta Corta-Fogo em SP — NBR 11742 e IT 11/25",
     description: "A DRD2 realiza manutenção de porta corta-fogo em SP conforme NBR 11742 e IT 11/25. Laudo técnico, ART CREA-SP e aprovação no AVCB. Diagnóstico gratuito.",
   },
   eyebrow: "NBR 11742 e IT 11/25 — Rota de Fuga e AVCB",

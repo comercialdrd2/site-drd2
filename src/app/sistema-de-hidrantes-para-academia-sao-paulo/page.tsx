@@ -4,7 +4,7 @@ const data: UniversalPageData = {
   "dir": "sistema-de-hidrantes-para-academia-sao-paulo",
   "slug": "/sistema-de-hidrantes-para-academia-sao-paulo",
   "meta": {
-    "title": "Sistema de Hidrantes para Academia em SP — IT-22/CBPMESP e NBR 13714 | DRD2 Engenharia",
+    "title": "Sistema de Hidrantes para Academia em SP — IT-22/CBPMESP e NBR 13714",
     "description": "A DRD2 projeta, instala e certifica sistemas de hidrantes para academia em SP conforme IT-22/CBPMESP e NBR 13714. Projeto com ART, laudo para AVCB e manutenção preventiva. Diagnóstico gratuito."
   },
   "eyebrow": "IT-22/CBPMESP e NBR 13714 — Academias em São Paulo",

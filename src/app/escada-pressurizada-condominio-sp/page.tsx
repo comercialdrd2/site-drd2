@@ -1,6 +1,6 @@
 import PressurizedStairsLanding from "@/components/PressurizedStairsLanding";
 
-const title = "Escada Pressurizada para Condomínio em São Paulo | DRD2 Engenharia";
+const title = "Escada Pressurizada para Condomínio em São Paulo";
 const description = "Escada pressurizada para condomínio em São Paulo. Projeto, laudo, adequação e regularização de escada enclausurada pressurizada para AVCB de condomínios residenciais.";
 
 export const metadata = {

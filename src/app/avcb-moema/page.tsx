@@ -21,11 +21,11 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
-const _pageTitle = "AVCB e CLCB em Moema | DRD2 Engenharia";
+const _pageTitle = "AVCB e CLCB em Moema";
 const _pageDesc = "Regularização de AVCB e CLCB em Moema. Foco em condomínios verticais, bares e clínicas. Aprovação e renovação no Corpo de Bombeiros com projeto especializado.";
 
 export const metadata = {
-  title: "AVCB e CLCB em Moema | DRD2 Engenharia",
+  title: "AVCB e CLCB em Moema",
   description: "Regularização de AVCB e CLCB em Moema. Foco em condomínios verticais, bares e clínicas. Aprovação e renovação no Corpo de Bombeiros com projeto especializado.",
   alternates: {
     canonical: "/avcb-moema",

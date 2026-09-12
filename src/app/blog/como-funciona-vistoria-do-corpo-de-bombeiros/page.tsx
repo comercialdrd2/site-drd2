@@ -312,7 +312,7 @@ export default function VistoriaBombeirosPost() {
                 <span className="text-red-600 text-lg font-black mt-0.5">→</span>
                 <span className="font-black text-slate-900 text-sm uppercase tracking-tight group-hover:text-red-600 transition-colors">Diferença entre AVCB e CLCB</span>
               </a>
-              <a href="/blog/avcb-vencido-o-que-fazer" className="bg-slate-50 border border-slate-200 rounded-2xl p-6 flex items-start gap-4 hover:border-red-600/40 hover:bg-white transition-all group">
+              <a href="/avcb-vencido-o-que-fazer" className="bg-slate-50 border border-slate-200 rounded-2xl p-6 flex items-start gap-4 hover:border-red-600/40 hover:bg-white transition-all group">
                 <span className="text-red-600 text-lg font-black mt-0.5">→</span>
                 <span className="font-black text-slate-900 text-sm uppercase tracking-tight group-hover:text-red-600 transition-colors">AVCB Vencido: O Que Fazer?</span>
               </a>

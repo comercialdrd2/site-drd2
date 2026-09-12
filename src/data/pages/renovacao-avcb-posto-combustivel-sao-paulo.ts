@@ -1,6 +1,6 @@
 export const renovacaoAvcbContent = {
   meta: {
-    title: "Renovação de AVCB para Postos de Combustível em São Paulo | DRD2 Engenharia",
+    title: "Renovação de AVCB para Postos de Combustível em São Paulo",
     description: "Postos de combustível operam com altíssimo risco de inflamáveis. AVCB vencido significa interdição imediata pela ANP e CETESB. Projetos de espuma desa... DRD2 Engenharia renova com agilidade.",
     canonical: "/renovacao-avcb-posto-combustivel-sao-paulo",
   },

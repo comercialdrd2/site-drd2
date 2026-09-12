@@ -18,11 +18,11 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
-const _pageTitle = "AVCB para Padaria em São Paulo | DRD2 Engenharia";
+const _pageTitle = "AVCB para Padaria em São Paulo";
 const _pageDesc = "AVCB para padaria em São Paulo: Grupo F-3, IT-08, supressão em coifa, central de GLP e Extintor Classe K. Resposta a Comunique-se incluída. DRD2 — do projeto à instalação.";
 
 export const metadata = {
-  title: "AVCB para Padaria em São Paulo | DRD2 Engenharia",
+  title: "AVCB para Padaria em São Paulo",
   description: "AVCB para padaria em São Paulo: Grupo F-3, IT-08, supressão em coifa, central de GLP e Extintor Classe K. Resposta a Comunique-se incluída. DRD2 — do projeto à instalação.",
   alternates: {
     canonical: "/avcb-para-padaria-sao-paulo",
@@ -420,7 +420,7 @@ export default function AVCBPadariaMasterPage() {
             {[
               { t: "AVCB para Restaurante", u: "/avcb-restaurante-sao-paulo", i: <Coffee className="w-4 h-4" /> },
               { t: "AVCB para Supermercado", u: "/avcb-supermercado-sao-paulo", i: <Building className="w-4 h-4" /> },
-              { t: "Quanto Custa o AVCB?", u: "/avcb-preco", i: <Scale className="w-4 h-4" /> },
+              { t: "Quanto Custa o AVCB?", u: "/quanto-custa-avcb-sao-paulo", i: <Scale className="w-4 h-4" /> },
               { t: "Renovação de AVCB", u: "/renovacao-avcb-restaurante-sao-paulo", i: <ClipboardCheck className="w-4 h-4" /> },
               { t: "CLCB em São Paulo", u: "/clcb-sao-paulo", i: <FileCheck className="w-4 h-4" /> },
               { t: "Laudo Estanqueidade Gás", u: "/laudo-estanqueidade-gas-sao-paulo", i: <Fuel className="w-4 h-4" /> },

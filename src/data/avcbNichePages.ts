@@ -46,7 +46,7 @@ export const avcbNichePages: AvcbNichePage[] = [
   {
     slug: "/avcb-clinica-hospital-veterinario-sao-paulo",
     label: "AVCB para clinica e hospital veterinario",
-    title: "AVCB para Clinica e Hospital Veterinario em SP | DRD2 Engenharia",
+    title: "AVCB para Clinica e Hospital Veterinario em SP",
     description:
       "AVCB para clinica veterinaria, hospital veterinario e pet shop em Sao Paulo. Enquadramento H-1, projeto, CLCB ou AVCB, laudos, rotas de fuga e regularizacao completa.",
     eyebrow: "Grupo H-1 - veterinario - regularizacao em SP",
@@ -165,7 +165,7 @@ export const avcbNichePages: AvcbNichePage[] = [
   {
     slug: "/avcb-estacionamento-garagem-sao-paulo",
     label: "AVCB para estacionamento e garagem",
-    title: "AVCB para Estacionamento e Garagem em SP | DRD2 Engenharia",
+    title: "AVCB para Estacionamento e Garagem em SP",
     description:
       "AVCB para estacionamento, garagem coletiva, garagem comercial e estacionamento rotativo em Sao Paulo. Grupo G, rotas, ventilacao, sinalizacao, extintores e regularizacao.",
     eyebrow: "Grupo G - garagem e estacionamento - regularizacao em SP",
@@ -439,7 +439,7 @@ export const avcbNichePages: AvcbNichePage[] = [
   {
     slug: "/avcb-para-renovacao-de-seguro",
     label: "AVCB para renovacao de seguro",
-    title: "AVCB para Renovacao de Seguro Empresarial em SP | DRD2 Engenharia",
+    title: "AVCB para Renovacao de Seguro Empresarial em SP",
     description:
       "Seguradora pediu AVCB valido para renovar a apolice? Regularizamos AVCB e CLCB de empresas e condominios em Sao Paulo com projeto, laudos, ARTs e prazo compativel com a renovacao do seguro.",
     eyebrow: "Exigencia da seguradora - regularizacao em SP",

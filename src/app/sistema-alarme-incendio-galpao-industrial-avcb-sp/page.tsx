@@ -1,7 +1,7 @@
 import AlarmSeoLanding from "@/components/AlarmSeoLanding";
 import { alarmSeoPages } from "@/data/alarmSeoPages";
 
-const page = alarmSeoPages["/sistema-alarme-incendio-galpao-industrial-avcb-sp"];
+const page = alarmSeoPages["/alarme-de-incendio-galpao-industrial-sp"];
 
 export const metadata = {
   title: page.title,

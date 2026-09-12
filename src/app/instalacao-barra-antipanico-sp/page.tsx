@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/instalacao-barra-antipanico-sp",
   meta: {
-    title: "Instalação de Barra Antipânico em SP — NBR 11785 e IT 11/25 | DRD2 Engenharia",
+    title: "Instalação de Barra Antipânico em SP — NBR 11785 e IT 11/25",
     description: "A DRD2 instala barra antipânico em SP conforme NBR 11785 e IT 11/25. Certificação INMETRO, laudo técnico com ART CREA-SP para aprovação no AVCB. Orçamento gratuito.",
   },
   eyebrow: "NBR 11785 e IT 11/25 — Saídas de Emergência",

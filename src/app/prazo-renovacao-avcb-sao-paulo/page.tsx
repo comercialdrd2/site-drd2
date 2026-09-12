@@ -4,7 +4,7 @@ const data: UniversalPageData = {
   "dir": "prazo-renovacao-avcb-sao-paulo",
   "slug": "/prazo-renovacao-avcb-sao-paulo",
   "meta": {
-    "title": "Prazo de Renovação do AVCB em São Paulo 2026 | DRD2 Engenharia",
+    "title": "Prazo de Renovação do AVCB em São Paulo 2026",
     "description": "Quanto tempo leva para renovar o AVCB em SP? Tabela de prazos por tipo de imóvel, etapas e como evitar atrasos. Diagnóstico gratuito com engenheiro."
   },
   "eyebrow": "Guia de Prazos 2026 — AVCB CBPMESP São Paulo",

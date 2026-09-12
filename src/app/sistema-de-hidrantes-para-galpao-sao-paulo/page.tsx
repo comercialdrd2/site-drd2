@@ -13,7 +13,7 @@ import CtaWhatsApp from "@/components/CtaWhatsApp";
 import InternalLinksBlock from "@/components/InternalLinksBlock";
 
 const _slug = "/sistema-de-hidrantes-para-galpao-sao-paulo";
-const _pageTitle = "Sistema de Hidrantes para Galpão em São Paulo | DRD2 Engenharia — IT 22/25";
+const _pageTitle = "Sistema de Hidrantes para Galpão em São Paulo — IT 22/25";
 const _pageDesc = "A DRD2 Engenharia projeta e instala sistemas de hidrantes para galpões em SP conforme IT 22/25. Cálculo hidráulico, ART e laudo para AVCB. Diagnóstico técnico gratuito!";
 
 export const metadata = {

@@ -1,6 +1,6 @@
 export const alvaraBombeiroContent = {
   meta: {
-    title: "Alvará do Bombeiro para Igrejas e Templos em São Paulo | DRD2 Engenharia",
+    title: "Alvará do Bombeiro para Igrejas e Templos em São Paulo",
     description: "Regularize o alvará do Corpo de Bombeiros para Igrejas e Templos em SP. DRD2: 98% de aprovação na 1ª análise, diagnóstico gratuito e Comunique-se incluído.",
     canonical: "/alvara-bombeiro-igreja-sao-paulo",
   },

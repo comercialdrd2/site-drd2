@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sistema-sprinkler-galpao-industrial-avcb-sp",
   meta: {
-    title: "Sistema de Sprinkler para Galpão Industrial em SP — IT 23/25 e NBR 10897 | DRD2 Engenharia",
+    title: "Sistema de Sprinkler para Galpão Industrial em SP — IT 23/25 e NBR 10897",
     description: "A DRD2 projeta e instala sistemas de sprinkler para galpão industrial em SP conforme IT 23/25 e NBR 10897. Cálculo para estocagem em rack, ESFR, pré-ação e ART para AVCB. Diagnóstico gratuito.",
   },
   eyebrow: "IT 23/25 e NBR 10897 — Galpões Industriais e CD",

@@ -65,8 +65,8 @@ export const sprinklerSeoPages: Record<string, SprinklerSeoPage> = {
       { label: "AVCB galpao", href: "/avcb-galpao-industrial-sao-paulo" },
     ],
   },
-  "/sistema-sprinkler-industria-quimica-sp": {
-    slug: "/sistema-sprinkler-industria-quimica-sp",
+  "/sistema-de-sprinkler-para-industria-sao-paulo": {
+    slug: "/sistema-de-sprinkler-para-industria-sao-paulo",
     title: "Sistema de Sprinkler para Indústria Química SP",
     description: "Sistema de sprinkler para indústria química em SP. Projeto de chuveiros automáticos, risco elevado, cálculo hidráulico, ART e AVCB.",
     h1: "Sistema de Sprinkler para Indústria Química em SP",

@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/melhor-empresa-avcb-sao-paulo",
   meta: {
-    title: "Melhor Empresa de AVCB em São Paulo | Como Escolher | DRD2 Engenharia",
+    title: "Melhor Empresa de AVCB em São Paulo | Como Escolher",
     description: "Como escolher a melhor empresa de AVCB em São Paulo. O que verificar antes de contratar, sinais de alerta, credenciais obrigatórias e por que a DRD2 tem 98% de aprovação na 1ª análise.",
   },
   eyebrow: "Como Escolher Empresa de AVCB em SP — Guia 2026",

@@ -20,11 +20,11 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
-const _pageTitle = "AVCB para Salão de Festas em São Paulo 2026 | DRD2 Engenharia";
+const _pageTitle = "AVCB para Salão de Festas em São Paulo 2026";
 const _pageDesc = "Salão de festas sem AVCB em SP arrisca interdição durante o evento com convidados dentro. Grupo F-4, supressão em coifa, lotação e brigada. DRD2 Engenharia regulariza.";
 
 export const metadata = {
-  title: "AVCB para Salão de Festas em São Paulo 2026 | DRD2 Engenharia",
+  title: "AVCB para Salão de Festas em São Paulo 2026",
   description:
     "Salão de festas sem AVCB em SP arrisca interdição durante o evento com convidados dentro. Grupo F-4, supressão em coifa, lotação e brigada. DRD2 Engenharia regulariza.",
   alternates: {

@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/quanto-custa-vga-sprinkler-sp",
   meta: {
-    title: "Quanto Custa Válvula de Governo e Alarme (VGA) para Sprinkler em SP? — Preço e Escopo | DRD2 Engenharia",
+    title: "Quanto Custa Válvula de Governo e Alarme (VGA) para Sprinkler em SP? — Preço e Escopo",
     description: "Entenda o custo de Válvula de Governo e Alarme (VGA) em SP: instalação completa, projeto, manutenção e adequação. O que impacta o preço e por que o diagnóstico é gratuito.",
   },
   eyebrow: "Custo de Válvula de Governo e Alarme (VGA) para Sprinkler — O que Impacta o Preço em São Paulo",

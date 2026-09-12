@@ -34,7 +34,7 @@ const data: UniversalPageData = {
   },
   "linksInternos": [
     {
-      "href": "/comunique-se-corpo-de-bombeiros-sao-paulo",
+      "href": "/blog/o-que-e-comunique-se-corpo-de-bombeiros",
       "label": "Comunique-se Bombeiros SP"
     },
     {

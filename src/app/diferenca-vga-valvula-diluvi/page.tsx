@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/diferenca-vga-valvula-diluvi",
   meta: {
-    title: "Diferença entre Válvula de Governo e Alarme (VGA) e Válvula Dilúvio — Wet Pipe vs. Deluge em SP | DRD2 Engenharia",
+    title: "Diferença entre Válvula de Governo e Alarme (VGA) e Válvula Dilúvio — Wet Pipe vs. Deluge em SP",
     description: "Entenda a diferença entre Válvula de Governo e Alarme (VGA) e válvula dilúvio em sistemas de sprinkler. Quando usar cada uma, como funcionam e o que o CBPMESP exige para o AVCB.",
   },
   eyebrow: "Válvula de Governo e Alarme (VGA) vs. Válvula Dilúvio — Diferenças Técnicas em Sistemas de Sprinkler",

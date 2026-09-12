@@ -1,6 +1,6 @@
 export const renovacaoClcbIgrejaContent = {
   meta: {
-    title: "Renovação de CLCB para Igreja e Templo em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de CLCB para Igreja e Templo em São Paulo 2026",
     description: "Igreja ou templo religioso com CLCB vencido em SP arrisca interdição e multa. DRD2 renova o CLCB para igrejas com processo simplificado e diagnóstico gratuito.",
     canonical: "/renovacao-clcb-igreja-sao-paulo",
   },

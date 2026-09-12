@@ -7,11 +7,11 @@ import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import OccupancyAccordion from "@/components/OccupancyAccordion";
 
-const _pageTitle = "Serviços de Segurança Contra Incêndio em SP | DRD2 Engenharia";
+const _pageTitle = "Serviços de Segurança Contra Incêndio em SP";
 const _pageDesc = "Aprovação de AVCB e CLCB, Treinamento de Brigada de Incêndio, projetos, alarme, sprinkler, hidrante, SPDA e manutenção em São Paulo. Conheça todos os serviços da DRD2 Engenharia.";
 
 export const metadata = {
-  title: "Serviços de Segurança Contra Incêndio em SP | DRD2 Engenharia",
+  title: "Serviços de Segurança Contra Incêndio em SP",
   description: "Aprovação de AVCB e CLCB, Treinamento de Brigada de Incêndio, projetos, alarme, sprinkler, hidrante, SPDA e manutenção em São Paulo. Conheça todos os serviços da DRD2 Engenharia.",
   alternates: {
     canonical: "/servicos",

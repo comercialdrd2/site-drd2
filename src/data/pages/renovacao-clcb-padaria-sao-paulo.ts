@@ -1,6 +1,6 @@
 export const renovacaoClcbPadariaContent = {
   meta: {
-    title: "Renovação de CLCB para Padaria e Confeitaria em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de CLCB para Padaria e Confeitaria em São Paulo 2026",
     description: "Padaria ou confeitaria com CLCB vencido em SP arrisca interdição com produtos no forno e cancelamento do alvará sanitário. DRD2 renova o CLCB com diagnóstico gratuito.",
     canonical: "/renovacao-clcb-padaria-sao-paulo",
   },

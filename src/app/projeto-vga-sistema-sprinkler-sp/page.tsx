@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/projeto-vga-sistema-sprinkler-sp",
   meta: {
-    title: "Projeto de Válvula de Governo e Alarme (VGA) para Sistema de Sprinkler em SP — Cálculo Hidráulico e ART | DRD2 Engenharia",
+    title: "Projeto de Válvula de Governo e Alarme (VGA) para Sistema de Sprinkler em SP — Cálculo Hidráulico e ART",
     description: "A DRD2 projeta Válvula de Governo e Alarme (VGA) para sprinkler em SP. Cálculo de DN por demanda hidráulica, memorial descritivo, detalhe de trim e ART CREA-SP para AVCB. Diagnóstico gratuito.",
   },
   eyebrow: "Projeto de Válvula de Governo e Alarme (VGA) — NBR 10897 e IT 23/25 em São Paulo",

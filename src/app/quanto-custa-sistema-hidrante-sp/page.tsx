@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/quanto-custa-sistema-hidrante-sp",
   meta: {
-    title: "Quanto Custa um Sistema de Hidrante em SP? — Faixas por Porte e Tipo | DRD2 Engenharia",
+    title: "Quanto Custa um Sistema de Hidrante em SP? — Faixas por Porte e Tipo",
     description: "Saiba quanto custa um sistema de hidrante em SP: faixas por porte de edificação, o que encarece o projeto (retrofit, bomba, gerador) e o que deve constar em qualquer orçamento. Diagnóstico gratuito.",
   },
   eyebrow: "Referência de Custo — Sistemas de Hidrante em São Paulo",

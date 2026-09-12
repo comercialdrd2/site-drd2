@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/laudo-hidrante-escola-sao-paulo",
   meta: {
-    title: "Laudo de Hidrante para Escola em SP | DRD2 Engenharia",
+    title: "Laudo de Hidrante para Escola em SP",
     description: "Laudo técnico do sistema de hidrantes para escolas, creches e faculdades em São Paulo. IT 22/2025, cobertura de ginásio e campus, pressão real testada. ART CREA-SP inclusa.",
   },
   eyebrow: "IT 22 — Sistema de Hidrantes para Escola",

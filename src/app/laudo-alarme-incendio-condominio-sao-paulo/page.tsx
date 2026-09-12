@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/laudo-alarme-incendio-condominio-sao-paulo",
   meta: {
-    title: "Laudo de Alarme de Incêndio para Condomínio em SP | DRD2 Engenharia",
+    title: "Laudo de Alarme de Incêndio para Condomínio em SP",
     description: "Laudo técnico de alarme de incêndio para condomínios em São Paulo. IT 18/2019, cobertura por pavimento, detectores de garagem, ART CREA-SP inclusa. DRD2 Engenharia.",
   },
   eyebrow: "IT 18 — Alarme de Incêndio para Condomínio",

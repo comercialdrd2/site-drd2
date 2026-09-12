@@ -1,6 +1,6 @@
 export const renovacaoAvcbFarmaciaContent = {
   meta: {
-    title: "Renovação de AVCB para Farmácia e Drogaria em São Paulo | DRD2 Engenharia",
+    title: "Renovação de AVCB para Farmácia e Drogaria em São Paulo",
     description: "Farmácia ou drogaria com AVCB vencido em São Paulo perde o alvará sanitário. Grupo C-2, IT-29, produtos inflamáveis. DRD2 Engenharia renova com agilidade.",
     canonical: "/renovacao-avcb-farmacia-drogaria-sao-paulo",
   },

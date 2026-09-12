@@ -19,11 +19,11 @@ import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import CtaWhatsApp from "@/components/CtaWhatsApp";
 
-const _pageTitle = "Alarme de Incêndio em São Paulo 2026 | DRD2 Engenharia — IT 17/18";
+const _pageTitle = "Alarme de Incêndio em São Paulo 2026 — IT 17/18";
 const _pageDesc = "Projeto, instalação e manutenção de sistemas de alarme de incêndio em São Paulo conforme IT 17/18 do CBPMESP e NBR 17240. DRD2 Engenharia. Laudo técnico com ART inclusa para o AVCB.";
 
 export const metadata = {
-  title: "Alarme de Incêndio em São Paulo 2026 | DRD2 Engenharia — IT 17/18",
+  title: "Alarme de Incêndio em São Paulo 2026 — IT 17/18",
   description: "Projeto, instalação e manutenção de sistemas de alarme de incêndio em São Paulo conforme IT 17/18 do CBPMESP e NBR 17240. DRD2 Engenharia. Laudo técnico com ART inclusa para o AVCB.",
   alternates: {
     canonical: "/alarme-incendio-sao-paulo",

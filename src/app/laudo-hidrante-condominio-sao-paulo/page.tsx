@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/laudo-hidrante-condominio-sao-paulo",
   meta: {
-    title: "Laudo de Hidrante para Condomínio em SP | DRD2 Engenharia",
+    title: "Laudo de Hidrante para Condomínio em SP",
     description: "Laudo técnico do sistema de hidrantes para condomínios em São Paulo. IT 22/2025, teste de pressão por pavimento, mangueiras e reservatório. ART CREA-SP inclusa. DRD2 Engenharia.",
   },
   eyebrow: "IT 22 — Sistema de Hidrantes para Condomínio",

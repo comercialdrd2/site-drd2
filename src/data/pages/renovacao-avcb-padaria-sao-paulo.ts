@@ -1,6 +1,6 @@
 export const renovacaoAvcbContent = {
   meta: {
-    title: "Renovação de AVCB para Padarias em São Paulo | DRD2 Engenharia",
+    title: "Renovação de AVCB para Padarias em São Paulo",
     description: "Padarias utilizam grandes centrais de gás (GLP) ou gás natural. O AVCB vencido pode paralisar a produção e fechar as portas. A principal causa de recu... DRD2 Engenharia renova com agilidade.",
     canonical: "/renovacao-avcb-padaria-sao-paulo",
   },

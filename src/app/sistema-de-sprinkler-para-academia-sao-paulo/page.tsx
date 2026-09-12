@@ -4,7 +4,7 @@ const data: UniversalPageData = {
   "dir": "sistema-de-sprinkler-para-academia-sao-paulo",
   "slug": "/sistema-de-sprinkler-para-academia-sao-paulo",
   "meta": {
-    "title": "Sistema de Sprinkler para Academia em SP — IT-23/CBPMESP e NBR 10897 | DRD2 Engenharia",
+    "title": "Sistema de Sprinkler para Academia em SP — IT-23/CBPMESP e NBR 10897",
     "description": "A DRD2 projeta, instala e certifica sistemas de sprinkler para academia em SP conforme IT-23/CBPMESP e NBR 10897. Projeto com ART, laudo para AVCB e manutenção preventiva. Diagnóstico gratuito."
   },
   "eyebrow": "IT-23/CBPMESP e NBR 10897 — Academias em São Paulo",

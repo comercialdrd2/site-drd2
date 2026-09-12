@@ -1,6 +1,6 @@
 export const quantoCustaAvcbContent = {
   meta: {
-    title: "Quanto Custa o AVCB em São Paulo 2026 | DRD2 Engenharia",
+    title: "Quanto Custa o AVCB em São Paulo 2026",
     description:
       "Saiba o que determina o custo do AVCB em São Paulo e por que cada caso é único. A DRD2 Engenharia oferece diagnóstico gratuito com orçamento detalhado sem compromisso. Fale agora.",
     canonical: "/quanto-custa-avcb-sao-paulo",

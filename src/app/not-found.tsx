@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ShieldCheck, ArrowRight } from "lucide-react";
 
 export const metadata = {
-  title: "Página não encontrada | DRD2 Engenharia",
+  title: "Página não encontrada",
   description: "A página que você procura não existe. Navegue pelo site da DRD2 Engenharia para encontrar informações sobre AVCB, CLCB e segurança contra incêndio.",
 };
 

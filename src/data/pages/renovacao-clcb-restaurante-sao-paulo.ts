@@ -1,6 +1,6 @@
 export const renovacaoClcbRestauranteContent = {
   meta: {
-    title: "Renovação de CLCB para Restaurante em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de CLCB para Restaurante em São Paulo 2026",
     description: "Restaurante ou lanchonete com CLCB vencido em SP arrisca interdição e cancelamento do alvará sanitário. DRD2 renova o CLCB com processo simplificado e diagnóstico gratuito.",
     canonical: "/renovacao-clcb-restaurante-sao-paulo",
   },

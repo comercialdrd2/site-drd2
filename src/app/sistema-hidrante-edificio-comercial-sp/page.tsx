@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sistema-hidrante-edificio-comercial-sp",
   meta: {
-    title: "Sistema de Hidrante para Edifício Comercial em SP — IT 22/25 por Andar | DRD2 Engenharia",
+    title: "Sistema de Hidrante para Edifício Comercial em SP — IT 22/25 por Andar",
     description: "A DRD2 projeta e instala sistemas de hidrante para edifício comercial em SP conforme IT 22/25. Cobertura por andar, pressão garantida no mais alto, retrofit e laudo para AVCB. Diagnóstico gratuito.",
   },
   eyebrow: "IT 22/25 — Edifícios Comerciais e Corporativos em SP",

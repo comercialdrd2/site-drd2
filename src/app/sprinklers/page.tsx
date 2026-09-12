@@ -8,11 +8,11 @@ import NeighborhoodSilo from "@/components/NeighborhoodSilo";
 import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 
-const _pageTitle = "Sistema de Sprinklers em São Paulo 2026 | DRD2 Engenharia — IT 23/25";
+const _pageTitle = "Sistema de Sprinklers em São Paulo 2026 — IT 23/25";
 const _pageDesc = "A DRD2 Engenharia projeta e instala sistemas de sprinklers (chuveiros automáticos) em SP conforme IT 23/25 e NBR 10897. Cálculo hidráulico com ART inclusa para o AVCB. Diagnóstico técnico gratuito.";
 
 export const metadata = {
-  title: "Sistema de Sprinklers em São Paulo 2026 | DRD2 Engenharia — IT 23/25",
+  title: "Sistema de Sprinklers em São Paulo 2026 — IT 23/25",
   description: "A DRD2 Engenharia projeta e instala sistemas de sprinklers (chuveiros automáticos) em SP conforme IT 23/25 e NBR 10897. Cálculo hidráulico com ART inclusa para o AVCB. Diagnóstico técnico gratuito.",
   alternates: {
     canonical: "/sprinklers",

@@ -1,6 +1,6 @@
 export const renovacaoAvcbContent = {
   meta: {
-    title: "Renovação de AVCB para Salões de Festas em São Paulo | DRD2 Engenharia",
+    title: "Renovação de AVCB para Salões de Festas em São Paulo",
     description: "Salões de festas sem AVCB válido não podem obter alvará para eventos. O risco de embargo durante uma festa é altíssimo, gerando processos judiciais. F... DRD2 Engenharia renova com agilidade.",
     canonical: "/renovacao-avcb-salao-de-festas-sao-paulo",
   },

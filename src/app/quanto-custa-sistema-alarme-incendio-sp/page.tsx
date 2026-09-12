@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/quanto-custa-sistema-alarme-incendio-sp",
   meta: {
-    title: "Quanto Custa um Sistema de Alarme de Incêndio em SP? — Faixas por Porte | DRD2 Engenharia",
+    title: "Quanto Custa um Sistema de Alarme de Incêndio em SP? — Faixas por Porte",
     description: "Saiba quanto custa um alarme de incêndio em SP: diferença entre central convencional e endereçável, o que encarece (detectores especiais, voz, monitoramento) e o que deve constar no orçamento. Diagnóstico gratuito.",
   },
   eyebrow: "Referência de Custo — Sistemas de Alarme de Incêndio em São Paulo",

@@ -1,6 +1,6 @@
 export const renovacaoClcbContent = {
   meta: {
-    title: "Renovação de CLCB em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de CLCB em São Paulo 2026",
     description: "A DRD2 Engenharia renova o CLCB em São Paulo com agilidade e conformidade com o Decreto 69.118/2024. CLCB vencido? Evite interdição e multa. Diagnóstico técnico gratuito.",
     canonical: "/renovacao-clcb-sao-paulo",
   },

@@ -1,6 +1,6 @@
 export const renovacaoAvcbContent = {
   meta: {
-    title: "Renovação de AVCB para Pousadas em São Paulo | DRD2 Engenharia",
+    title: "Renovação de AVCB para Pousadas em São Paulo",
     description: "Pousadas com AVCB vencido perdem credibilidade nas plataformas de reserva e ficam suscetíveis a interdições da prefeitura. Falta de manutenção em dete... DRD2 Engenharia renova com agilidade.",
     canonical: "/renovacao-avcb-pousada-sao-paulo",
   },

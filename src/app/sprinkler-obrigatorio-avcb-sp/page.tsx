@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sprinkler-obrigatorio-avcb-sp",
   meta: {
-    title: "Sprinkler é Obrigatório em SP? — Quando Exigido pela IT 23/25 e AVCB | DRD2 Engenharia",
+    title: "Sprinkler é Obrigatório em SP? — Quando Exigido pela IT 23/25 e AVCB",
     description: "Descubra quando o sistema de sprinkler é obrigatório em SP pela IT 23/25: ocupação, área, altura e risco que determinam a exigência. O que acontece sem o sistema e como regularizar. Diagnóstico gratuito.",
   },
   eyebrow: "IT 23/25 — Obrigatoriedade de Sprinkler em São Paulo",

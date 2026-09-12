@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/hidrante-centro-distribuicao-sp",
   meta: {
-    title: "Sistema de Hidrante para Centro de Distribuição em SP — IT 22/25 | DRD2 Engenharia",
+    title: "Sistema de Hidrante para Centro de Distribuição em SP — IT 22/25",
     description: "A DRD2 projeta e instala sistemas de hidrante para centro de distribuição em SP. RTI para doca, área de estocagem e escritório. IT 22/25, bomba com gerador e laudo para AVCB. Diagnóstico gratuito.",
   },
   eyebrow: "IT 22/25 — Centros de Distribuição e Operadores Logísticos em SP",

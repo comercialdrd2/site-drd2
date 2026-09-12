@@ -1,6 +1,6 @@
 import PressurizedStairsLanding from "@/components/PressurizedStairsLanding";
 
-const title = "Escada Pressurizada para Shopping em São Paulo | DRD2 Engenharia";
+const title = "Escada Pressurizada para Shopping em São Paulo";
 const description = "Escada pressurizada para shopping center em São Paulo. Projeto, laudo e regularização de escada enclausurada pressurizada em shoppings e centros comerciais para AVCB e Corpo de Bombeiros.";
 
 export const metadata = {

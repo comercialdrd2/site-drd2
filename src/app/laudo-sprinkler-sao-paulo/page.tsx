@@ -4,7 +4,7 @@ const data: UniversalPageData = {
   "dir": "laudo-sprinkler-sao-paulo",
   "slug": "/laudo-sprinkler-sao-paulo",
   "meta": {
-    "title": "Laudo de Sprinkler com ART — São Paulo | DRD2 Engenharia",
+    "title": "Laudo de Sprinkler com ART — São Paulo",
     "description": "Emissão de laudo técnico do sistema de sprinkler com ART CREA-SP em SP. Para AVCB, Comunique-se ou auditoria de seguro. Teste hidráulico completo. Vistoria em 24h."
   },
   "eyebrow": "IT-23/CBPMESP e NBR 10897 — Laudo Técnico com ART CREA-SP",

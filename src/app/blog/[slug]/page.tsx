@@ -32,7 +32,7 @@ const NOINDEX_BLOG_SLUGS = new Set<string>([
 
 export function generateMetadata({ params }: { params: { slug: string } }) {
   const post = blogPosts.find(p => p.slug === params.slug);
-  if (!post) return { title: "Post não encontrado | DRD2 Engenharia" };
+  if (!post) return { title: "Post não encontrado" };
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.drd2.com.br";
   const canonical = `/blog/${post.slug}`;
@@ -40,7 +40,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   const isThin = NOINDEX_BLOG_SLUGS.has(post.slug);
 
   return {
-    title: `${post.title} | DRD2 Engenharia`,
+    title: `${post.title}`,
     description: post.excerpt,
     alternates: {
       canonical,

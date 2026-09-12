@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/troca-mola-hidraulica-porta-corta-fogo-sp",
   meta: {
-    title: "Troca de Mola Hidráulica de Porta Corta-Fogo em SP — NBR 11742 | DRD2 Engenharia",
+    title: "Troca de Mola Hidráulica de Porta Corta-Fogo em SP — NBR 11742",
     description: "A DRD2 substitui mola hidráulica de porta corta-fogo em SP conforme NBR 11742. Molas certificadas, ajuste de fechamento e laudo técnico para AVCB. Diagnóstico gratuito.",
   },
   eyebrow: "NBR 11742 — Manutenção de Porta Corta-Fogo",

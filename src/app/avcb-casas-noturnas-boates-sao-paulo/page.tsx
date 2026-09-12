@@ -455,7 +455,7 @@ export default function AVCBBoateMasterPage() {
             {[
               { t: "AVCB para Restaurante", u: "/avcb-restaurante-sao-paulo", i: <Coffee className="w-4 h-4" /> },
               { t: "AVCB para Bar e Restaurante", u: "/avcb-restaurante-sao-paulo", i: <Music className="w-4 h-4" /> },
-              { t: "Quanto Custa o AVCB?", u: "/avcb-preco", i: <Scale className="w-4 h-4" /> },
+              { t: "Quanto Custa o AVCB?", u: "/quanto-custa-avcb-sao-paulo", i: <Scale className="w-4 h-4" /> },
               { t: "Renovação de AVCB", u: "/renovacao-avcb", i: <ClipboardCheck className="w-4 h-4" /> },
               { t: "CLCB em São Paulo", u: "/clcb-sao-paulo", i: <FileCheck className="w-4 h-4" /> },
               { t: "Sistemas de Hidrantes", u: "/hidrantes", i: <Droplets className="w-4 h-4" /> },

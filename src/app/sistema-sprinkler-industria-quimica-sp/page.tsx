@@ -1,7 +1,7 @@
 import SprinklerSeoLanding from "@/components/SprinklerSeoLanding";
 import { sprinklerSeoPages } from "@/data/sprinklerSeoPages";
 
-const page = sprinklerSeoPages["/sistema-sprinkler-industria-quimica-sp"];
+const page = sprinklerSeoPages["/sistema-de-sprinkler-para-industria-sao-paulo"];
 
 export const metadata = {
   title: page.title,

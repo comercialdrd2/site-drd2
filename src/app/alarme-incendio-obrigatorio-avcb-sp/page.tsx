@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/alarme-incendio-obrigatorio-avcb-sp",
   meta: {
-    title: "Alarme de Incêndio é Obrigatório em SP? — Quando Exigido pela IT 18/19 e AVCB | DRD2 Engenharia",
+    title: "Alarme de Incêndio é Obrigatório em SP? — Quando Exigido pela IT 18/19 e AVCB",
     description: "Descubra quando o alarme de incêndio é obrigatório em SP pela IT 18/19: ocupação, área e altura que determinam a exigência. O que acontece sem o sistema e como regularizar. Diagnóstico gratuito.",
   },
   eyebrow: "IT 18/19 — Obrigatoriedade de Alarme de Incêndio em São Paulo",

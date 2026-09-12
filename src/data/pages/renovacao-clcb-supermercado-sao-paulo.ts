@@ -1,6 +1,6 @@
 export const renovacaoClcbSupermercadoContent = {
   meta: {
-    title: "Renovação de CLCB para Supermercado em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de CLCB para Supermercado em São Paulo 2026",
     description: "Supermercado ou mercado com CLCB vencido em SP arrisca interdição com alto fluxo de clientes e cancelamento da licença sanitária. DRD2 renova o CLCB com diagnóstico gratuito.",
     canonical: "/renovacao-clcb-supermercado-sao-paulo",
   },

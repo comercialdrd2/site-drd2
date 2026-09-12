@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sistema-sprinkler-hotel-avcb-sp",
   meta: {
-    title: "Sistema de Sprinkler para Hotel em SP — IT 23/25 por Andar e UH | DRD2 Engenharia",
+    title: "Sistema de Sprinkler para Hotel em SP — IT 23/25 por Andar e UH",
     description: "A DRD2 projeta e instala sistemas de sprinkler para hotel em SP conforme IT 23/25 e NBR 10897. Bicos decorativos em UH, spa, restaurante interno e ART para AVCB hoteleiro. Diagnóstico gratuito.",
   },
   eyebrow: "IT 23/25 e NBR 10897 — Hotéis, Resorts e Flats em SP",

@@ -18,11 +18,11 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
-const _pageTitle = "AVCB para Posto de Combustível em São Paulo 2026 | DRD2 Engenharia";
+const _pageTitle = "AVCB para Posto de Combustível em São Paulo 2026";
 const _pageDesc = "A DRD2 Engenharia é especialista em AVCB para postos de combustível em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com segurança normativa e agilidade. Diagnóstico técnico gratuito.";
 
 export const metadata = {
-  title: "AVCB para Posto de Combustível em São Paulo 2026 | DRD2 Engenharia",
+  title: "AVCB para Posto de Combustível em São Paulo 2026",
   description: "A DRD2 Engenharia é especialista em AVCB para postos de combustível em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com segurança normativa e agilidade. Diagnóstico técnico gratuito.",
   alternates: {
     canonical: "/avcb-posto-combustivel-sao-paulo",
@@ -338,7 +338,7 @@ export default function AVCBPostoPage() {
             {[
               { label: "Laudo de Estanqueidade de Gás", href: "/laudo-estanqueidade-gas-sao-paulo" },
               { label: "SPDA (Para-raios)", href: "/spda" },
-              { label: "AVCB em São Paulo", href: "/avcb" },
+              { label: "AVCB em São Paulo", href: "/avcb-sao-paulo" },
               { label: "Renovação de AVCB", href: "/renovacao-avcb" },
               { label: "Projetos de Incêndio", href: "/projetos-incendio" },
             ].map((link, i) => (

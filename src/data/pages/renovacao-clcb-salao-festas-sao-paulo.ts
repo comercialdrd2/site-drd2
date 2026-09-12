@@ -1,6 +1,6 @@
 export const renovacaoClcbSalaoFestasContent = {
   meta: {
-    title: "Renovação de CLCB para Salão de Festas em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de CLCB para Salão de Festas em São Paulo 2026",
     description: "Salão de festas com CLCB vencido em SP arrisca cancelamento de eventos e responsabilidade civil do proprietário. DRD2 renova o CLCB com diagnóstico gratuito e processo completo.",
     canonical: "/renovacao-clcb-salao-festas-sao-paulo",
   },

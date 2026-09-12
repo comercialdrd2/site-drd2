@@ -1,6 +1,6 @@
 import PressurizedStairsLanding from "@/components/PressurizedStairsLanding";
 
-const title = "Laudo de Escada Pressurizada em São Paulo | DRD2 Engenharia";
+const title = "Laudo de Escada Pressurizada em São Paulo";
 const description = "Laudo técnico de escada pressurizada em São Paulo com ART. Avaliação de sistema de pressurização, ventilador, vazão, pressão, dutos e regularização para AVCB e Corpo de Bombeiros.";
 
 export const metadata = {

@@ -1,6 +1,6 @@
 export const renovacaoClcbFisioterapiaContent = {
   meta: {
-    title: "Renovação de CLCB para Clínica de Fisioterapia em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de CLCB para Clínica de Fisioterapia em São Paulo 2026",
     description: "Clínica de fisioterapia com CLCB vencido em SP arrisca interdição com pacientes em atendimento e perda de credenciamento com planos de saúde. DRD2 renova com diagnóstico gratuito.",
     canonical: "/renovacao-clcb-fisioterapia-sao-paulo",
   },

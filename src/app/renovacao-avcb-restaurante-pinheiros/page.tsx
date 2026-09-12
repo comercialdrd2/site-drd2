@@ -16,7 +16,7 @@ import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 import LeadForm from "@/components/LeadForm";
 
 const _slug = "/renovacao-avcb-restaurante-pinheiros";
-const _pageTitle = "Renovação de AVCB para Restaurante em Pinheiros | DRD2 Engenharia";
+const _pageTitle = "Renovação de AVCB para Restaurante em Pinheiros";
 const _pageDesc = "Engenharia especializada em renovação de AVCB e CLCB para restaurantes e bares em Pinheiros. Laudo de exaustão, gás e adequação rápida. Orçamento técnico sem compromisso.";
 
 export const metadata = {

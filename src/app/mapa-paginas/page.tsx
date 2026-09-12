@@ -15,7 +15,7 @@ import { blogPosts } from "@/data/blog";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mapa de Páginas | DRD2 Engenharia",
+  title: "Mapa de Páginas",
   robots: { index: false, follow: true },
 };
 
@@ -78,7 +78,7 @@ const grandesp = [
   { label: "Santo André", href: "/avcb-santo-andre" },
   { label: "São Bernardo do Campo", href: "/avcb-sao-bernardo" },
   { label: "São Caetano do Sul", href: "/avcb-sao-caetano" },
-  { label: "Barueri / Alphaville", href: "/avcb-barueri-alphaville" },
+  { label: "Barueri / Alphaville", href: "/avcb-alphaville-barueri" },
   { label: "Mogi das Cruzes", href: "/avcb-mogi-das-cruzes" },
   { label: "Suzano", href: "/avcb-suzano" },
   { label: "Poá", href: "/avcb-poa" },
@@ -246,7 +246,7 @@ const renovacaoClcbBairros = [
   { label: "Casa Verde", href: "/renovacao-clcb-casa-verde-sao-paulo" },
   { label: "Consolação", href: "/renovacao-clcb-consolacao-sao-paulo" },
   { label: "Cursino", href: "/renovacao-clcb-cursino-sao-paulo" },
-  { label: "Ermelino Matarazzo", href: "/renovacao-clcb-ermelino-matarazzo-sao-paulo" },
+  { label: "Ermelino Matarazzo", href: "/renovacao-clcb-sao-paulo" },
   { label: "Freguesia do Ó", href: "/renovacao-clcb-freguesia-do-o-sao-paulo" },
   { label: "Grajaú", href: "/renovacao-clcb-graja-sao-paulo" },
   { label: "Higienópolis", href: "/renovacao-clcb-higienopolis-sao-paulo" },
@@ -285,7 +285,7 @@ const renovacaoClcbBairros = [
   { label: "Vila Formosa", href: "/renovacao-clcb-vila-formosa-sao-paulo" },
   { label: "Vila Madalena", href: "/renovacao-clcb-vila-madalena-sao-paulo" },
   { label: "Vila Mariana", href: "/renovacao-clcb-vila-mariana-sao-paulo" },
-  { label: "Vila Matilde", href: "/renovacao-clcb-vila-matilde-sao-paulo" },
+  { label: "Vila Matilde", href: "/renovacao-clcb-sao-paulo" },
   { label: "Vila Olímpia", href: "/renovacao-clcb-vila-olimpia-sao-paulo" },
   { label: "Vila Prudente", href: "/renovacao-clcb-vila-prudente-sao-paulo" },
 ];

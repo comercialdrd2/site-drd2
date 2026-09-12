@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/vga-hotel-sp",
   meta: {
-    title: "Válvula de Governo e Alarme (VGA) para Hotel em SP — Sprinkler em Quartos e AVCB | DRD2 Engenharia",
+    title: "Válvula de Governo e Alarme (VGA) para Hotel em SP — Sprinkler em Quartos e AVCB",
     description: "A DRD2 projeta e mantém Válvula de Governo e Alarme (VGA) para hotéis em SP. Integração com PABX hoteleiro, bicos de temperatura 57°C em quartos, trip test e laudo para AVCB. IT 23/25. Diagnóstico gratuito.",
   },
   eyebrow: "Válvula de Governo e Alarme (VGA) para Hotel — IT 23/25, NBR 10897 e AVCB em São Paulo",
@@ -174,7 +174,7 @@ const data: UniversalPageData = {
     { href: "/manutencao-vga-sprinkler-sp", label: "Manutenção de VGA" },
     { href: "/teste-comissionamento-vga-sp", label: "Trip Test de VGA" },
     { href: "/adequacao-vga-avcb-sp", label: "Adequação de VGA para AVCB" },
-    { href: "/sprinkler-hotel-avcb-sp", label: "Sprinkler para Hotel" },
+    { href: "/sistema-sprinkler-hotel-avcb-sp", label: "Sprinkler para Hotel" },
   ],
   ctaFinal: {
     heading: "VÁLVULA DE GOVERNO E ALARME (VGA) PARA HOTEL EM SP — TRIP TEST + INTEGRAÇÃO HOTELEIRA + LAUDO AVCB",

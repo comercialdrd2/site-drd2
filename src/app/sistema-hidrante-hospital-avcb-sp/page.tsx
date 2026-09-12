@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sistema-hidrante-hospital-avcb-sp",
   meta: {
-    title: "Sistema de Hidrante para Hospital em SP — IT 22/25 e ANVISA | DRD2 Engenharia",
+    title: "Sistema de Hidrante para Hospital em SP — IT 22/25 e ANVISA",
     description: "A DRD2 projeta e instala sistemas de hidrante para hospital e clínica em SP conforme IT 22/25 e ANVISA RDC 50. Operação 24h, setores críticos (UTI, CC), ART e laudo para AVCB hospitalar. Diagnóstico gratuito.",
   },
   eyebrow: "IT 22/25 e ANVISA RDC 50 — Hospitais e Clínicas em SP",

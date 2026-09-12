@@ -4,7 +4,7 @@ const data: UniversalPageData = {
   "dir": "laudo-sistema-hidrantes-sao-paulo",
   "slug": "/laudo-sistema-hidrantes-sao-paulo",
   "meta": {
-    "title": "Laudo de Sistema de Hidrantes com ART — São Paulo | DRD2 Engenharia",
+    "title": "Laudo de Sistema de Hidrantes com ART — São Paulo",
     "description": "Emissão de laudo técnico do sistema de hidrantes com ART CREA-SP em SP. Para renovação do AVCB, Comunique-se ou auditoria de seguro. Vistoria em até 24h."
   },
   "eyebrow": "IT-22/CBPMESP e NBR 13714 — Laudo Técnico com ART CREA-SP",

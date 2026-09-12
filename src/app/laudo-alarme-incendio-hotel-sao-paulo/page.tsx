@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/laudo-alarme-incendio-hotel-sao-paulo",
   meta: {
-    title: "Laudo de Alarme de Incêndio para Hotel em SP | DRD2 Engenharia",
+    title: "Laudo de Alarme de Incêndio para Hotel em SP",
     description: "Laudo técnico de alarme de incêndio para hotéis e pousadas em São Paulo. IT 18/2019, monitoramento 24h, cobertura por UH e áreas comuns. ART CREA-SP inclusa. DRD2 Engenharia.",
   },
   eyebrow: "IT 18 — Alarme de Incêndio para Hotel",

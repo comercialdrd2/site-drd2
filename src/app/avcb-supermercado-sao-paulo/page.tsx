@@ -21,11 +21,11 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
-const _pageTitle = "AVCB para Supermercado em São Paulo | DRD2 Engenharia";
+const _pageTitle = "AVCB para Supermercado em São Paulo";
 const _pageDesc = "A DRD2 Engenharia é especialista em AVCB para supermercados em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com agilidade e segurança normativa. Diagnóstico técnico gratuito.";
 
 export const metadata = {
-  title: "AVCB para Supermercado em São Paulo | DRD2 Engenharia",
+  title: "AVCB para Supermercado em São Paulo",
   description: "A DRD2 Engenharia é especialista em AVCB para supermercados em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com agilidade e segurança normativa. Diagnóstico técnico gratuito.",
   alternates: {
     canonical: "/avcb-supermercado-sao-paulo",
@@ -372,7 +372,7 @@ export default function AVCBSupermercadoMasterPage() {
             {[
               { t: "AVCB para Restaurante", u: "/avcb-restaurante-sao-paulo", i: <ShoppingCart className="w-4 h-4"/> },
               { t: "AVCB para Galpão", u: "/avcb-galpao-industrial-sao-paulo", i: <Building className="w-4 h-4"/> },
-              { t: "Quanto Custa o AVCB?", u: "/avcb-preco", i: <Scale className="w-4 h-4"/> },
+              { t: "Quanto Custa o AVCB?", u: "/quanto-custa-avcb-sao-paulo", i: <Scale className="w-4 h-4"/> },
               { t: "Renovação de AVCB", u: "/renovacao-avcb", i: <ClipboardCheck className="w-4 h-4"/> },
               { t: "CLCB em São Paulo", u: "/clcb-sao-paulo", i: <FileCheck className="w-4 h-4"/> },
               { t: "Sistemas de Hidrantes", u: "/hidrantes", i: <Building className="w-4 h-4"/> },

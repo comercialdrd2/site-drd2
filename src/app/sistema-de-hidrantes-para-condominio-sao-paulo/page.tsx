@@ -13,7 +13,7 @@ import CtaWhatsApp from "@/components/CtaWhatsApp";
 import InternalLinksBlock from "@/components/InternalLinksBlock";
 
 const _slug = "/sistema-de-hidrantes-para-condominio-sao-paulo";
-const _pageTitle = "Sistema de Hidrantes para Condomínio em São Paulo | DRD2 Engenharia — IT 22/25";
+const _pageTitle = "Sistema de Hidrantes para Condomínio em São Paulo — IT 22/25";
 const _pageDesc = "A DRD2 Engenharia projeta, instala e mantém sistemas de hidrantes para condomínios em SP conforme IT 22/25. Teste de mangueiras, ART e laudo para AVCB condominial. Diagnóstico técnico gratuito!";
 
 export const metadata = {

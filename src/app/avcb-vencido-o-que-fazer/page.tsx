@@ -5,7 +5,7 @@ const data: UniversalPageData = {
   "dir": "avcb-vencido-o-que-fazer",
   "slug": "/avcb-vencido-o-que-fazer",
   "meta": {
-    "title": "AVCB Vencido — O Que Fazer? Guia Urgente 2026 | DRD2 Engenharia",
+    "title": "AVCB Vencido — O Que Fazer? Guia Urgente 2026",
     "description": "Seu AVCB venceu? Saiba o que fazer agora: riscos reais, prazo para regularização, como evitar interdição e multa. Diagnóstico gratuito com engenheiro em até 2h."
   },
   "eyebrow": "Situação de Risco — Ação Imediata Necessária",

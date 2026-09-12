@@ -2,7 +2,7 @@ import Link from "next/link";
 import { CheckCircle, Phone } from "lucide-react";
 
 export const metadata = {
-  title: "Solicitação Recebida | DRD2 Engenharia",
+  title: "Solicitação Recebida",
   description: "Sua solicitação foi recebida com sucesso. Nossa equipe retornará em até 2 horas.",
   robots: { index: false, follow: false },
   alternates: { canonical: "/obrigado" },

@@ -1,6 +1,6 @@
 export const renovacaoClcbClinicaContent = {
   meta: {
-    title: "Renovação de CLCB para Clínica Médica em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de CLCB para Clínica Médica em São Paulo 2026",
     description: "Clínica médica com CLCB vencido em SP coloca pacientes em risco e pode ter credenciamento suspenso pelo plano de saúde. DRD2 renova o CLCB com diagnóstico gratuito e processo ágil.",
     canonical: "/renovacao-clcb-clinica-sao-paulo",
   },

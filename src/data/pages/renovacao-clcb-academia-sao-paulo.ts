@@ -1,6 +1,6 @@
 export const renovacaoClcbAcademiaContent = {
   meta: {
-    title: "Renovação de CLCB para Academia em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de CLCB para Academia em São Paulo 2026",
     description: "Academia ou estúdio fitness com CLCB vencido em SP arrisca interdição e cancelamento do alvará. DRD2 renova o CLCB com processo simplificado e diagnóstico gratuito.",
     canonical: "/renovacao-clcb-academia-sao-paulo",
   },

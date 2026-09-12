@@ -19,11 +19,11 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
-const _pageTitle = "AVCB para Clínica Odontológica em São Paulo 2026 | DRD2 Engenharia";
+const _pageTitle = "AVCB para Clínica Odontológica em São Paulo 2026";
 const _pageDesc = "Clínica odontológica sem AVCB em SP arrisca bloqueio do CMVS e interdição pela Vigilância Sanitária. Grupo I, gases medicinais, autoclaves e CLCB ou AVCB completo. DRD2 Engenharia regulariza.";
 
 export const metadata = {
-  title: "AVCB para Clínica Odontológica em São Paulo 2026 | DRD2 Engenharia",
+  title: "AVCB para Clínica Odontológica em São Paulo 2026",
   description:
     "Clínica odontológica sem AVCB em SP arrisca bloqueio do CMVS e interdição pela Vigilância Sanitária. Grupo I, gases medicinais, autoclaves e CLCB ou AVCB completo. DRD2 Engenharia regulariza.",
   alternates: {

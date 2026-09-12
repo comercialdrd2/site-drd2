@@ -1,6 +1,6 @@
 export const renovacaoAvcbCondominioContent = {
   meta: {
-    title: "Renovação de AVCB para Condomínio em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de AVCB para Condomínio em São Paulo 2026",
     description:
       "AVCB do seu condomínio venceu? A DRD2 Engenharia renova o certificado do Corpo de Bombeiros em São Paulo com agilidade e sem Comunique-se. O síndico não pode esperar. Fale agora.",
     canonical: "/renovacao-avcb-condominio-sao-paulo",

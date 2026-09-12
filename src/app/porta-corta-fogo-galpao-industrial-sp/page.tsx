@@ -38,7 +38,7 @@ const data: UniversalPageData = {
       "label": "AVCB Galpão Industrial"
     },
     {
-      "href": "/sistema-de-sprinkler-para-galpao-sao-paulo",
+      "href": "/sistema-sprinkler-galpao-industrial-avcb-sp",
       "label": "Sprinklers em Galpão"
     },
     {

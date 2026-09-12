@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/laudo-sprinkler-condominio-sao-paulo",
   meta: {
-    title: "Laudo de Sprinkler para Condomínio em SP | DRD2 Engenharia",
+    title: "Laudo de Sprinkler para Condomínio em SP",
     description: "Laudo técnico do sistema de sprinklers para condomínios em São Paulo. IT 23/2025, teste de fluxo, obstrução de cabeças e pressão por pavimento. ART CREA-SP inclusa. DRD2 Engenharia.",
   },
   eyebrow: "IT 23 — Sistema de Sprinklers para Condomínio",

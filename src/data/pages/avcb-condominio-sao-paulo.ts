@@ -1,6 +1,6 @@
 export const avcbCondominioContent = {
   meta: {
-    title: "AVCB para Condomínio em São Paulo 2026 | DRD2 Engenharia",
+    title: "AVCB para Condomínio em São Paulo 2026",
     description:
       "A DRD2 Engenharia regulariza condomínios residenciais e comerciais no Corpo de Bombeiros em São Paulo. AVCB com agilidade e sem Comunique-se. Diagnóstico técnico gratuito para síndicos. Fale agora.",
     canonical: "/avcb-para-condominio-sao-paulo",

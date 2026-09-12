@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/quanto-custa-renovacao-avcb-sao-paulo",
   meta: {
-    title: "Quanto Custa a Renovação do AVCB em São Paulo? | DRD2 Engenharia",
+    title: "Quanto Custa a Renovação do AVCB em São Paulo?",
     description: "Saiba quanto custa renovar o AVCB em São Paulo. Preços, fatores que influenciam o valor, o que está incluso e por que renovar é mais barato que tirar pela primeira vez.",
   },
   eyebrow: "Renovação de AVCB — Custo e Prazo em SP 2026",

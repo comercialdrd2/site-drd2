@@ -1,6 +1,6 @@
 export const avcbMotelContent = {
   meta: {
-    title: "AVCB para Motel em São Paulo 2026 | DRD2 Engenharia",
+    title: "AVCB para Motel em São Paulo 2026",
     description:
       "A DRD2 Engenharia é especialista em AVCB para motéis em São Paulo. Aprovação no Corpo de Bombeiros com sigilo, agilidade e sem Comunique-se. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/avcb-motel-sao-paulo",

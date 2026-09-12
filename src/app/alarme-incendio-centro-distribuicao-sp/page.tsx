@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/alarme-incendio-centro-distribuicao-sp",
   meta: {
-    title: "Sistema de Alarme de Incêndio para Centro de Distribuição em SP — IT 18/19 | DRD2 Engenharia",
+    title: "Sistema de Alarme de Incêndio para Centro de Distribuição em SP — IT 18/19",
     description: "A DRD2 projeta e instala sistemas de alarme de incêndio para centro de distribuição em SP. Detecção em rack, doca e escritório. IT 18/19, VESDA e laudo para AVCB. Diagnóstico gratuito.",
   },
   eyebrow: "IT 18/19 — Centros de Distribuição e Operadores Logísticos em SP",

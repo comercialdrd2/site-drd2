@@ -8,11 +8,11 @@ import NeighborhoodSilo from "@/components/NeighborhoodSilo";
 import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 
-const _pageTitle = "Projeto de Incêndio (PPCI) em São Paulo 2026 | DRD2 Engenharia";
+const _pageTitle = "Projeto de Incêndio (PPCI) em São Paulo 2026";
 const _pageDesc = "A DRD2 Engenharia elabora Projetos de Incêndio (PPCI) em São Paulo conforme Decreto 69.118/2024. Aprovação ágil no CBPMESP, ART inclusa. Diagnóstico técnico gratuito.";
 
 export const metadata = {
-  title: "Projeto de Incêndio (PPCI) em São Paulo 2026 | DRD2 Engenharia",
+  title: "Projeto de Incêndio (PPCI) em São Paulo 2026",
   description: "A DRD2 Engenharia elabora Projetos de Incêndio (PPCI) em São Paulo conforme Decreto 69.118/2024. Aprovação ágil no CBPMESP, ART inclusa. Diagnóstico técnico gratuito.",
   alternates: {
     canonical: "/projetos-incendio",

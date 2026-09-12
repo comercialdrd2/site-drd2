@@ -57,7 +57,7 @@ const REGIONS = {
   "grande-sp": [
     { name: "Guarulhos", slug: "/avcb-guarulhos" },
     { name: "Osasco", slug: "/avcb-osasco" },
-    { name: "Barueri (Alphaville)", slug: "/avcb-barueri-alphaville" },
+    { name: "Barueri (Alphaville)", slug: "/avcb-alphaville-barueri" },
   ],
   "abc-paulista": [
     { name: "Santo André", slug: "/avcb-santo-andre" },

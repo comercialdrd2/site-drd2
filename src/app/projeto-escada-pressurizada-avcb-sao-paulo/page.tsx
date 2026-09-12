@@ -13,11 +13,11 @@ import LeadForm from "@/components/LeadForm";
 import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 
-const _pageTitle = "Projeto de Escada Pressurizada para AVCB em São Paulo | DRD2 Engenharia";
+const _pageTitle = "Projeto de Escada Pressurizada para AVCB em São Paulo";
 const _pageDesc = "Projeto de escada pressurizada em São Paulo com memorial de cálculo, detalhamento técnico e suporte para aprovação no CBPMESP. Fale com a DRD2 Engenharia.";
 
 export const metadata = {
-  title: "Projeto de Escada Pressurizada para AVCB em São Paulo | DRD2 Engenharia",
+  title: "Projeto de Escada Pressurizada para AVCB em São Paulo",
   description: "Projeto de escada pressurizada em São Paulo com memorial de cálculo, detalhamento técnico e suporte para aprovação no CBPMESP. Fale com a DRD2 Engenharia.",
   alternates: {
     canonical: "/projeto-escada-pressurizada-avcb-sao-paulo",

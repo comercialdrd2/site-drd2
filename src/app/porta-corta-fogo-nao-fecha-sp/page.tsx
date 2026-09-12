@@ -38,7 +38,7 @@ const data: UniversalPageData = {
       "label": "Manutenção de PCF"
     },
     {
-      "href": "/comunique-se-corpo-de-bombeiros-sao-paulo",
+      "href": "/blog/o-que-e-comunique-se-corpo-de-bombeiros",
       "label": "Recebi Comunique-se"
     },
     {

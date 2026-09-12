@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sistema-alarme-incendio-hotel-avcb-sp",
   meta: {
-    title: "Sistema de Alarme de Incêndio para Hotel em SP — IT 18/19 e Monitoramento 24h | DRD2 Engenharia",
+    title: "Sistema de Alarme de Incêndio para Hotel em SP — IT 18/19 e Monitoramento 24h",
     description: "A DRD2 projeta e instala sistemas de alarme de incêndio para hotel em SP conforme IT 18/19. Detecção por UH, central endereçável, monitoramento 24h e laudo para AVCB hoteleiro. Diagnóstico gratuito.",
   },
   eyebrow: "IT 18/19 — Hotéis, Resorts e Flats em SP",

@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sistema-hidrante-shopping-center-sp",
   meta: {
-    title: "Sistema de Hidrante para Shopping Center em SP — IT 22/25 por Setor | DRD2 Engenharia",
+    title: "Sistema de Hidrante para Shopping Center em SP — IT 22/25 por Setor",
     description: "A DRD2 projeta e instala sistemas de hidrante para shopping center em SP conforme IT 22/25. Cobertura por âncora, estacionamento subterrâneo, bomba com gerador e laudo para AVCB. Diagnóstico gratuito.",
   },
   eyebrow: "IT 22/25 — Shopping Centers e Centros Comerciais em SP",

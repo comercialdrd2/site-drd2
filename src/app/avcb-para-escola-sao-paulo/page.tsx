@@ -19,11 +19,11 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
-const _pageTitle = "AVCB para Escola em São Paulo | DRD2 Engenharia";
+const _pageTitle = "AVCB para Escola em São Paulo";
 const _pageDesc = "Escola sem AVCB em São Paulo arrisca embargo, multa e bloqueio do credenciamento no MEC. Grupo E, evacuação de crianças, brigada e saídas dimensionadas. DRD2 Engenharia regulariza.";
 
 export const metadata = {
-  title: "AVCB para Escola em São Paulo | DRD2 Engenharia",
+  title: "AVCB para Escola em São Paulo",
   description: "Escola sem AVCB em São Paulo arrisca embargo, multa e bloqueio do credenciamento no MEC. Grupo E, evacuação de crianças, brigada e saídas dimensionadas. DRD2 Engenharia regulariza.",
   alternates: {
     canonical: "/avcb-para-escola-sao-paulo",

@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sistema-hidrante-hotel-avcb-sp",
   meta: {
-    title: "Sistema de Hidrante para Hotel em SP — IT 22/25 por UH e Andar | DRD2 Engenharia",
+    title: "Sistema de Hidrante para Hotel em SP — IT 22/25 por UH e Andar",
     description: "A DRD2 projeta e instala sistemas de hidrante para hotel em SP conforme IT 22/25. Pressão garantida no andar mais alto, abrigo por corredor de UH, ART e laudo para AVCB hoteleiro. Diagnóstico gratuito.",
   },
   eyebrow: "IT 22/25 — Hotéis, Resorts e Flats em SP",

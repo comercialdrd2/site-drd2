@@ -1,6 +1,6 @@
 export const renovacaoAvcbCasaRepousoContent = {
   meta: {
-    title: "Renovação de AVCB para Casa de Repouso em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de AVCB para Casa de Repouso em São Paulo 2026",
     description: "AVCB da sua casa de repouso venceu? A DRD2 renova o certificado do Corpo de Bombeiros em SP com urgência e sem Comunique-se. Proteja seus residentes. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/renovacao-avcb-casa-de-repouso-sao-paulo",
   },

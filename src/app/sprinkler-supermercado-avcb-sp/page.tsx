@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sprinkler-supermercado-avcb-sp",
   meta: {
-    title: "Sistema de Sprinkler para Supermercado em SP — IT 23/25 por Setor | DRD2 Engenharia",
+    title: "Sistema de Sprinkler para Supermercado em SP — IT 23/25 por Setor",
     description: "A DRD2 projeta e instala sprinkler para supermercado em SP. Dry pipe para câmara de congelados, temperatura calibrada para padaria e Risco Ordinário G2 para depósito. IT 23/25. Diagnóstico gratuito.",
   },
   eyebrow: "IT 23/25 e NBR 10897 — Supermercados e Hipermercados em SP",

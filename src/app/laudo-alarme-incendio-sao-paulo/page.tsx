@@ -4,7 +4,7 @@ const data: UniversalPageData = {
   "dir": "laudo-alarme-incendio-sao-paulo",
   "slug": "/laudo-alarme-incendio-sao-paulo",
   "meta": {
-    "title": "Laudo de Alarme de Incêndio com ART — São Paulo | DRD2 Engenharia",
+    "title": "Laudo de Alarme de Incêndio com ART — São Paulo",
     "description": "Emissão de laudo técnico do sistema de alarme de incêndio com ART CREA-SP em SP. Para AVCB, auditoria de seguro ou Comunique-se. Diagnóstico gratuito em 24h."
   },
   "eyebrow": "Laudo Técnico com ART CREA-SP — Alarme de Incêndio SP",

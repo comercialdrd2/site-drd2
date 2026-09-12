@@ -19,11 +19,11 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
-const _pageTitle = "AVCB para Condomínio em São Paulo | DRD2 Engenharia";
+const _pageTitle = "AVCB para Condomínio em São Paulo";
 const _pageDesc = "AVCB para condomínios em São Paulo. Regularização das áreas comuns, renovação de certificado vencido e projeto técnico com ART. Diagnóstico técnico gratuito. DRD2 Engenharia.";
 
 export const metadata = {
-  title: "AVCB para Condomínio em São Paulo | DRD2 Engenharia",
+  title: "AVCB para Condomínio em São Paulo",
   description: "AVCB para condomínios em São Paulo. Regularização das áreas comuns, renovação de certificado vencido e projeto técnico com ART. Diagnóstico técnico gratuito. DRD2 Engenharia.",
   alternates: {
     canonical: "/avcb-para-condominio-sao-paulo",
@@ -35,7 +35,7 @@ export default function AVCBCondominioMasterPage() {
   const whatsappLink = `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`;
 
   const _schema = generateMasterSchema({
-        slug: "/avcb-condominio-sao-paulo",
+        slug: "/avcb-para-condominio-sao-paulo",
         title: _pageTitle,
         description: _pageDesc,
         serviceName: "AVCB Condomínio SP",
@@ -46,7 +46,7 @@ export default function AVCBCondominioMasterPage() {
         breadcrumbs: [
           { name: "Home", item: "/" },
           { name: "Serviços", item: "/servicos" },
-          { name: "AVCB para Condomínio em SP", item: "/avcb-condominio-sao-paulo" }
+          { name: "AVCB para Condomínio em SP", item: "/avcb-para-condominio-sao-paulo" }
         ]
       });
 
@@ -472,7 +472,7 @@ export default function AVCBCondominioMasterPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { t: "Quanto Custa o AVCB?", u: "/avcb-preco", i: <Scale className="w-4 h-4"/> },
+              { t: "Quanto Custa o AVCB?", u: "/quanto-custa-avcb-sao-paulo", i: <Scale className="w-4 h-4"/> },
               { t: "Renovação de Certificado", u: "/renovacao-avcb", i: <ClipboardCheck className="w-4 h-4"/> },
               { t: "AVCB na Zona Sul", u: "/avcb-zona-sul", i: <MapPin className="w-4 h-4"/> },
               { t: "AVCB na Zona Oeste", u: "/avcb-zona-oeste-sao-paulo", i: <MapPin className="w-4 h-4"/> },
@@ -529,14 +529,14 @@ export default function AVCBCondominioMasterPage() {
 
       <OccupationAuthorityBlock
         occupation="Condominio"
-        currentSlug="/avcb-condominio-sao-paulo"
+        currentSlug="/avcb-para-condominio-sao-paulo"
       />
 
 
 
       <OccupationDepthBlock
         occupation="Condominio"
-        currentSlug="/avcb-condominio-sao-paulo"
+        currentSlug="/avcb-para-condominio-sao-paulo"
       />
 
       <InternalLinksBlock
@@ -547,11 +547,11 @@ export default function AVCBCondominioMasterPage() {
       />
 
 
-      <ServiceClusterLinks currentSlug="/avcb-condominio-sao-paulo" />
-      <ServiceBlogLinks currentSlug="/avcb-condominio-sao-paulo" />
+      <ServiceClusterLinks currentSlug="/avcb-para-condominio-sao-paulo" />
+      <ServiceBlogLinks currentSlug="/avcb-para-condominio-sao-paulo" />
 
       <div className="container mx-auto px-4 max-w-4xl text-center py-4 opacity-50"><p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Conteúdo Técnico Atualizado em: Maio de 2026</p></div>
-      <NeighborhoodSilo currentSlug="/avcb-condominio-sao-paulo" />
+      <NeighborhoodSilo currentSlug="/avcb-para-condominio-sao-paulo" />
 
       {/* ── RESPONSÁVEL TÉCNICO BLOCK ── */}
       <section className="py-24 bg-white italic">

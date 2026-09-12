@@ -8,11 +8,11 @@ import NeighborhoodSilo from "@/components/NeighborhoodSilo";
 import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 
-const _pageTitle = "Manutenção de Sistemas de Incêndio em SP 2026 | DRD2 Engenharia — ART Inclusa";
+const _pageTitle = "Manutenção de Sistemas de Incêndio em SP 2026 — ART Inclusa";
 const _pageDesc = "A DRD2 Engenharia oferece manutenção preventiva e corretiva de sistemas de incêndio em São Paulo: alarmes, hidrantes, sprinklers e SPDA. ARTs e laudos para renovação do AVCB.";
 
 export const metadata = {
-  title: "Manutenção de Sistemas de Incêndio em SP 2026 | DRD2 Engenharia — ART Inclusa",
+  title: "Manutenção de Sistemas de Incêndio em SP 2026 — ART Inclusa",
   description: "A DRD2 Engenharia oferece manutenção preventiva e corretiva de sistemas de incêndio em São Paulo: alarmes, hidrantes, sprinklers e SPDA. ARTs e laudos para renovação do AVCB.",
   alternates: {
     canonical: "/manutencao",

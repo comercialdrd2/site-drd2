@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/manutencao-porta-corta-fogo-zona-sul-sp",
   meta: {
-    title: "Manutenção de Porta Corta-Fogo Zona Sul SP — Santo Amaro, Moema | DRD2 Engenharia",
+    title: "Manutenção de Porta Corta-Fogo Zona Sul SP — Santo Amaro, Moema",
     description: "Manutenção de porta corta-fogo na Zona Sul de SP: Santo Amaro, Moema, Brooklin, Itaim Bibi. Laudo técnico com ART para AVCB. Diagnóstico gratuito.",
   },
   eyebrow: "Zona Sul SP — Santo Amaro, Moema, Brooklin, Itaim Bibi",

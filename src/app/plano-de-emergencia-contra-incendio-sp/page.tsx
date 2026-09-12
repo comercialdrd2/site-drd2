@@ -2,7 +2,7 @@ import UniversalSeoPage, { UniversalPageData } from "@/components/UniversalSeoPa
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Plano de Emergência contra Incêndio em São Paulo | DRD2 Engenharia",
+  title: "Plano de Emergência contra Incêndio em São Paulo",
   description: "Elaboração de Plano de Emergência contra Incêndio conforme IT-16 do CBPMESP. Regularização para indústrias, condomínios e galpões. Diagnóstico gratuito.",
   alternates: {
     canonical: "https://www.drd2.com.br/plano-de-emergencia-contra-incendio-sp",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const pageData: UniversalPageData = {
   slug: "plano-de-emergencia-contra-incendio-sp",
   meta: {
-    title: "Plano de Emergência contra Incêndio em São Paulo | DRD2 Engenharia",
+    title: "Plano de Emergência contra Incêndio em São Paulo",
     description: "Elaboração de Plano de Emergência contra Incêndio conforme IT-16 do CBPMESP. Regularização para indústrias, condomínios e galpões. Diagnóstico gratuito.",
   },
   eyebrow: "IT-16 CBPMESP — CONFORMIDADE TOTAL",

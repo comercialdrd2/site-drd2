@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/o-que-e-valvula-governo-alarme",
   meta: {
-    title: "O que é Válvula de Governo e Alarme (VGA)? — Componentes e Função | DRD2 Engenharia",
+    title: "O que é Válvula de Governo e Alarme (VGA)? — Componentes e Função",
     description: "Entenda o que é a válvula de governo e alarme (VGA): função no sistema de sprinkler, componentes do trim (campainha, pressostato, manômetros), como funciona o trip test e quando é obrigatória.",
   },
   eyebrow: "Válvula de Governo e Alarme — Conceito, Componentes e Função",

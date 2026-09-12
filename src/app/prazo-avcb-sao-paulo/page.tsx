@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/prazo-avcb-sao-paulo",
   meta: {
-    title: "Prazo do AVCB em São Paulo — Quanto Tempo Leva? | DRD2 Engenharia",
+    title: "Prazo do AVCB em São Paulo — Quanto Tempo Leva?",
     description: "Quanto tempo leva para tirar ou renovar o AVCB em São Paulo? Prazos reais por tipo de ocupação, o que atrasa o processo e como protocolar mais rápido. DRD2 Engenharia.",
   },
   eyebrow: "Prazo do AVCB em SP — Prazos Reais 2026",

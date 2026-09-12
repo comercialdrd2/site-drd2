@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sistema-sprinkler-shopping-center-sp",
   meta: {
-    title: "Sistema de Sprinkler para Shopping Center em SP — IT 23/25 por Setor | DRD2 Engenharia",
+    title: "Sistema de Sprinkler para Shopping Center em SP — IT 23/25 por Setor",
     description: "A DRD2 projeta e instala sistemas de sprinkler para shopping center em SP. Praça de alimentação (risco extra), cinema (pré-ação), estacionamento e âncoras. IT 23/25 e NBR 10897. Diagnóstico gratuito.",
   },
   eyebrow: "IT 23/25 e NBR 10897 — Shopping Centers e Centros Comerciais em SP",

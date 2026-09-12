@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/vga-supermercado-sp",
   meta: {
-    title: "Válvula de Governo e Alarme (VGA) para Supermercado em SP — Projeto por Setor e AVCB | DRD2 Engenharia",
+    title: "Válvula de Governo e Alarme (VGA) para Supermercado em SP — Projeto por Setor e AVCB",
     description: "A DRD2 projeta Válvula de Governo e Alarme (VGA) para supermercados em SP. DN correto por setor (vendas, depósito, câmara fria, câmara de congelados), bicos de temperatura específica e AVCB. Diagnóstico gratuito.",
   },
   eyebrow: "Válvula de Governo e Alarme (VGA) para Supermercado — IT 23/25, NBR 10897 e AVCB em São Paulo",

@@ -1,6 +1,6 @@
 export const renovacaoAvcbContent = {
   meta: {
-    title: "Renovação de AVCB em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de AVCB em São Paulo 2026",
     description: "A DRD2 Engenharia renova AVCB em São Paulo com agilidade e sem Comunique-se. AVCB vencido? Evite interdição e multa. Diagnóstico técnico gratuito. Fale agora com um engenheiro.",
     canonical: "/renovacao-avcb",
   },

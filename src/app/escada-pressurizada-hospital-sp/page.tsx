@@ -1,6 +1,6 @@
 import PressurizedStairsLanding from "@/components/PressurizedStairsLanding";
 
-const title = "Escada Pressurizada para Hospital em São Paulo | DRD2 Engenharia";
+const title = "Escada Pressurizada para Hospital em São Paulo";
 const description = "Escada pressurizada para hospital e clínica em São Paulo. Projeto, laudo, adequação e regularização de escada enclausurada pressurizada para unidades de saúde — AVCB e Corpo de Bombeiros.";
 
 export const metadata = {

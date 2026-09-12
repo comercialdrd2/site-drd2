@@ -1,6 +1,6 @@
 export const alvaraBombeiroContent = {
   meta: {
-    title: "Alvará do Bombeiro para Farmácias e Drogarias em São Paulo | DRD2 Engenharia",
+    title: "Alvará do Bombeiro para Farmácias e Drogarias em São Paulo",
     description: "Regularize o alvará do Corpo de Bombeiros para Farmácias e Drogarias em SP. DRD2: 98% de aprovação na 1ª análise, diagnóstico gratuito e Comunique-se incluído.",
     canonical: "/alvara-bombeiro-farmacia-drogaria-sao-paulo",
   },

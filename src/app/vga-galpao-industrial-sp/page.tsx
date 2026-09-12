@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/vga-galpao-industrial-sp",
   meta: {
-    title: "Válvula de Governo e Alarme (VGA) para Galpão Industrial em SP — Projeto e AVCB | DRD2 Engenharia",
+    title: "Válvula de Governo e Alarme (VGA) para Galpão Industrial em SP — Projeto e AVCB",
     description: "A DRD2 instala e mantém Válvula de Governo e Alarme (VGA) para galpões industriais em SP. Cálculo de DN para Risco Ordinário e Extra, bicos ESFR, câmara fria e AVCB. Diagnóstico gratuito.",
   },
   eyebrow: "Válvula de Governo e Alarme (VGA) para Galpão Industrial — IT 23/25, NBR 10897 e AVCB em São Paulo",
@@ -174,7 +174,7 @@ const data: UniversalPageData = {
     { href: "/instalacao-vga-sprinkler-sp", label: "Instalação de VGA" },
     { href: "/manutencao-vga-sprinkler-sp", label: "Manutenção de VGA" },
     { href: "/teste-comissionamento-vga-sp", label: "Trip Test de VGA" },
-    { href: "/sprinkler-galpao-avcb-sp", label: "Sprinkler para Galpão Industrial" },
+    { href: "/sistema-sprinkler-galpao-industrial-avcb-sp", label: "Sprinkler para Galpão Industrial" },
   ],
   ctaFinal: {
     heading: "VÁLVULA DE GOVERNO E ALARME (VGA) PARA GALPÃO INDUSTRIAL EM SP — PROJETO + INSTALAÇÃO + TRIP TEST + AVCB",

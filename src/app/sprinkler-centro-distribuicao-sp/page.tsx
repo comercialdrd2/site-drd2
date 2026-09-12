@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sprinkler-centro-distribuicao-sp",
   meta: {
-    title: "Sistema de Sprinkler para Centro de Distribuição em SP — IT 23/25 e ESFR | DRD2 Engenharia",
+    title: "Sistema de Sprinkler para Centro de Distribuição em SP — IT 23/25 e ESFR",
     description: "A DRD2 projeta e instala sistemas de sprinkler para centro de distribuição em SP. ESFR para rack alto, in-rack, câmara fria e doca. IT 23/25, NBR 10897 e laudo para AVCB. Diagnóstico gratuito.",
   },
   eyebrow: "IT 23/25 e NBR 10897 — Centros de Distribuição e Logística em SP",

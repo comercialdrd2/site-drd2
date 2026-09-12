@@ -1,6 +1,6 @@
 export const renovacaoClcbEscolaContent = {
   meta: {
-    title: "Renovação de CLCB para Escola e Creche em São Paulo 2026 | DRD2 Engenharia",
+    title: "Renovação de CLCB para Escola e Creche em São Paulo 2026",
     description: "Escola, creche ou cursinho com CLCB vencido em SP arrisca interdição imediata e responsabilidade criminal da direção. DRD2 renova o CLCB com diagnóstico gratuito e processo completo.",
     canonical: "/renovacao-clcb-escola-sao-paulo",
   },

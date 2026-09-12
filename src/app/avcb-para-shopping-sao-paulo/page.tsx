@@ -20,11 +20,11 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
-const _pageTitle = "AVCB para Shopping em São Paulo | DRD2 Engenharia";
+const _pageTitle = "AVCB para Shopping em São Paulo";
 const _pageDesc = "A DRD2 Engenharia é especialista em AVCB para shoppings e centros comerciais em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com segurança normativa. Diagnóstico técnico gratuito.";
 
 export const metadata = {
-  title: "AVCB para Shopping em São Paulo | DRD2 Engenharia",
+  title: "AVCB para Shopping em São Paulo",
   description: "A DRD2 Engenharia é especialista em AVCB para shoppings e centros comerciais em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com segurança normativa. Diagnóstico técnico gratuito.",
   alternates: {
     canonical: "/avcb-para-shopping-sao-paulo",

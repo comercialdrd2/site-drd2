@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/avcb-15-dias-sao-paulo",
   meta: {
-    title: "AVCB em 15 Dias em São Paulo — Atendimento Urgente Real | DRD2 Engenharia",
+    title: "AVCB em 15 Dias em São Paulo — Atendimento Urgente Real",
     description: "AVCB em 15 dias em São Paulo: protocolo em até 5 dias úteis e certificado em 2 semanas para imóveis com sistemas conformes. DRD2 Engenharia — atendimento urgente real, sem promessa vazia.",
   },
   eyebrow: "AVCB em 15 Dias — Urgência Real em SP",

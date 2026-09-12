@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sistema-alarme-incendio-shopping-center-sp",
   meta: {
-    title: "Sistema de Alarme de Incêndio para Shopping Center em SP — IT 18/19 | DRD2 Engenharia",
+    title: "Sistema de Alarme de Incêndio para Shopping Center em SP — IT 18/19",
     description: "A DRD2 projeta e instala sistemas de alarme de incêndio para shopping center em SP conforme IT 18/19. Central endereçável, controle de fumaça, evacuação escalonada e laudo para AVCB. Diagnóstico gratuito.",
   },
   eyebrow: "IT 18/19 — Shopping Centers e Centros Comerciais em SP",

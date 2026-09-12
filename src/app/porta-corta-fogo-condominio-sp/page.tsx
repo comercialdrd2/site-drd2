@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/porta-corta-fogo-condominio-sp",
   meta: {
-    title: "Porta Corta-Fogo para Condomínio em SP — NBR 11742 e AVCB | DRD2 Engenharia",
+    title: "Porta Corta-Fogo para Condomínio em SP — NBR 11742 e AVCB",
     description: "A DRD2 realiza manutenção, adequação e laudo de porta corta-fogo para condomínios em SP. Conformidade com NBR 11742, IT 11/25 e aprovação garantida no AVCB. Diagnóstico gratuito.",
   },
   eyebrow: "NBR 11742 e IT 11/25 — Condomínios e AVCB",

@@ -1,6 +1,6 @@
 import PressurizedStairsLanding from "@/components/PressurizedStairsLanding";
 
-const title = "Escada Pressurizada para Hotel em São Paulo | DRD2 Engenharia";
+const title = "Escada Pressurizada para Hotel em São Paulo";
 const description = "Escada pressurizada para hotel em São Paulo. Projeto, laudo e regularização de escada enclausurada pressurizada para hotéis, flats e pousadas — aprovação no Corpo de Bombeiros para AVCB.";
 
 export const metadata = {

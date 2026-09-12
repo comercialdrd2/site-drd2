@@ -1,6 +1,6 @@
 export const alvaraBombeiroContent = {
   meta: {
-    title: "Alvará do Bombeiro para Motéis em São Paulo | DRD2 Engenharia",
+    title: "Alvará do Bombeiro para Motéis em São Paulo",
     description: "Regularize o alvará do Corpo de Bombeiros para Motéis em SP. DRD2: 98% de aprovação na 1ª análise, diagnóstico gratuito e Comunique-se incluído.",
     canonical: "/alvara-bombeiro-motel-sao-paulo",
   },
