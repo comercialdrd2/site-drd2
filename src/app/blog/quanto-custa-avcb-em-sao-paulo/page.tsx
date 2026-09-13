@@ -109,7 +109,7 @@ export default function QuantocustaAVCBPost() {
             <nav className="flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] text-primary mb-8 bg-primary/10 w-fit px-4 py-1.5 rounded-full border border-primary/20">
               <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
               <span>/</span>
-              <span className="text-gray-400">Guia de Preços 2026</span>
+              <span className="text-gray-400">O que pesa no preço</span>
             </nav>
 
             <h1 className="text-5xl md:text-8xl font-black mb-8 leading-[0.85] tracking-tighter uppercase italic text-white">
@@ -147,7 +147,7 @@ export default function QuantocustaAVCBPost() {
         items={[
           { label: "Home", href: "/" },
           { label: "Blog", href: "/blog" },
-          { label: "Guia de Preços 2026" },
+          { label: "O que pesa no preço" },
         ]}
         dark
       />

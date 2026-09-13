@@ -30,7 +30,7 @@ const data: UniversalPageData = {
     itens: [
       {
         titulo: "Preço muito abaixo do mercado",
-        desc: "Serviço de AVCB abaixo de R$ 1.200 para qualquer tipo de edificação geralmente significa processo sem ART, sem vistoria presencial ou sem resposta a Comunique-se inclusa. O barato sai caro quando o processo é reprovado.",
+        desc: "Orçamento muito abaixo do mercado, para qualquer tipo de edificação, geralmente significa processo sem ART, sem vistoria presencial ou sem resposta a Comunique-se inclusa. O barato sai caro quando o processo é reprovado.",
       },
       {
         titulo: "Não emite ART",

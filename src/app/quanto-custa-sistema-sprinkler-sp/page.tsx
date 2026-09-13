@@ -12,7 +12,7 @@ const data: UniversalPageData = {
   h1Line2: "em SP? — Wet Pipe, Dry Pipe e Pré-Ação",
   heroBg: "/images/banner-hero.webp",
   introP1:
-    "O sistema de sprinkler é o mais custoso dos três sistemas de proteção contra incêndio — e o que mais varia em custo conforme o tipo: um sistema wet pipe (tubulação sempre com água) para escritório de Risco Leve é radicalmente diferente em custo de um sistema dry pipe para câmara de congelados ou de um sistema de pré-ação para sala de servidores. A diferença entre um projeto wet pipe básico e um projeto com pré-ação para ambiente crítico pode ser de R$ 40.000 a R$ 200.000 no mesmo porte de edificação. Entender o tipo correto antes de orçar é o passo mais importante.",
+    "O sistema de sprinkler é o mais custoso dos três sistemas de proteção contra incêndio — e o que mais varia em custo conforme o tipo: um sistema wet pipe (tubulação sempre com água) para escritório de Risco Leve é radicalmente diferente em custo de um sistema dry pipe para câmara de congelados ou de um sistema de pré-ação para sala de servidores. A diferença entre um projeto wet pipe básico e um projeto com pré-ação para ambiente crítico chega a ser de várias vezes, no mesmo porte de edificação. Entender o tipo correto antes de orçar é o passo mais importante.",
   introP2:
     "Esta página apresenta faixas de referência por tipo de sistema e porte de edificação, os principais fatores que encarecem o projeto e o que deve constar em qualquer orçamento completo para aprovação do AVCB. A DRD2 realiza diagnóstico técnico gratuito com identificação do sistema correto antes de qualquer proposta.",
   breadcrumbs: [
@@ -25,7 +25,7 @@ const data: UniversalPageData = {
     heading: "O que determina o custo de um sistema de sprinkler em SP?",
     body: "Cinco variáveis principais definem o custo: (1) tipo de sistema — wet pipe (molhado), dry pipe (seco), pré-ação, dilúvio ou ESFR; (2) classificação de risco — Leve, Ordinário G1/G2 ou Extra G1/G2 determinam a densidade de descarga e o tamanho da bomba; (3) tipo de bico — bico padrão de teto é o mais barato; bico embutido (concealed) para forro rebaixado é o mais caro; bico ESFR (K≥200) para racks altos tem custo unitário elevado; (4) bomba dedicada com reservatório exclusivo; (5) retrofit versus construção nova.",
     body2:
-      "O custo por bico instalado — que inclui bico, tubulação, conexões e suportes rateados por ponto — varia de R$ 180 a R$ 350 para bico padrão wet pipe, de R$ 350 a R$ 650 para bico concealed em forro rebaixado, e de R$ 800 a R$ 1.500 para bico ESFR em instalação industrial. A bomba dedicada com painel e reservatório exclusivo adiciona R$ 18.000 a R$ 60.000 ao custo total — e é obrigatória pela IT 23/25 para qualquer sistema de sprinkler.",
+      "O custo por bico instalado — que inclui bico, tubulação, conexões e suportes rateados por ponto — sobe conforme o tipo: o bico padrão wet pipe é o mais barato, o concealed em forro rebaixado custa mais, e o ESFR de instalação industrial é o mais caro dos três. A bomba dedicada com painel e reservatório exclusivo pesa bastante no total — e é obrigatória pela IT 23/25 para qualquer sistema de sprinkler.",
   },
   h2_riscos: {
     heading: "O que faz o orçamento de sprinkler encarecer além do esperado",
@@ -38,7 +38,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Classificação de risco subestimada",
-        desc: "Depósito com rack acima de 1,5 m classificado como Risco Leve tem bomba subdimensionada e bicos com k insuficiente. Reclassificação após instalação exige troca de bomba, bicos e cálculo hidráulico — custo de retrabalho de R$ 20.000 a R$ 80.000 dependendo do porte.",
+        desc: "Depósito com rack acima de 1,5 m classificado como Risco Leve tem bomba subdimensionada e bicos com k insuficiente. Reclassificação após instalação exige troca de bomba, bicos e cálculo hidráulico — e o retrabalho sai caro, dependendo do porte.",
       },
       {
         titulo: "Bomba compartilhada com sistema de hidrante",
@@ -50,7 +50,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Reservatório de incêndio exclusivo não previsto",
-        desc: "A IT 23/25 exige reservatório exclusivo para sprinkler — não compartilhado com abastecimento predial. Se a edificação não tem reservatório separado, a construção ou adaptação pode adicionar R$ 8.000 a R$ 45.000 ao custo total.",
+        desc: "A IT 23/25 exige reservatório exclusivo para sprinkler — não compartilhado com abastecimento predial. Se a edificação não tem reservatório separado, a construção ou adaptação entra como item à parte no orçamento.",
       },
       {
         titulo: "Retrofit com tubulação em área já ocupada",
@@ -74,7 +74,7 @@ const data: UniversalPageData = {
       {
         numero: "ITEM 03",
         titulo: "ART de projeto CREA-SP",
-        desc: "Assinatura do engenheiro responsável. Custo entre R$ 1.200 e R$ 4.000 dependendo do porte e da complexidade — deve constar explicitamente no orçamento.",
+        desc: "Assinatura do engenheiro responsável. Varia com o porte e a complexidade — e deve constar explicitamente no orçamento.",
       },
       {
         numero: "ITEM 04",
@@ -102,11 +102,11 @@ const data: UniversalPageData = {
     itens: [
       {
         titulo: "Wet pipe — Risco Leve, até 1.000 m²",
-        desc: "Faixa de referência: R$ 18.000 a R$ 45.000. Bicos padrão de teto, bomba de 5 a 10 CV, reservatório de 6 m³ a 10 m³. Adequado para escritórios e pequeno comércio sem ambientes especiais.",
+        desc: "Bicos padrão de teto, bomba de 5 a 10 CV, reservatório de 6 m³ a 10 m³. Adequado para escritórios e pequeno comércio sem ambientes especiais.",
       },
       {
         titulo: "Wet pipe — Risco Ordinário, 1.000 m² a 3.000 m²",
-        desc: "Faixa de referência: R$ 45.000 a R$ 130.000. Bicos com k maior, bomba de 15 a 30 CV, reservatório de 15 m³ a 30 m³. Para comércio médio, depósitos e indústria leve.",
+        desc: "Bicos com k maior, bomba de 15 a 30 CV, reservatório de 15 m³ a 30 m³. Para comércio médio, depósitos e indústria leve.",
       },
       {
         titulo: "Dry pipe ou pré-ação — qualquer porte",
@@ -114,7 +114,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "ESFR para rack alto — galpão industrial ou CD",
-        desc: "Faixa de referência: R$ 80.000 a R$ 300.000+ dependendo da área e altura do rack. Bicos K≥200 com espaçamento reduzido, bomba de 30 a 75 CV, reservatório acima de 30 m³. Sistema mais caro, mas elimina a necessidade de in-rack sprinklers em racks abertos.",
+        desc: "Varia muito conforme a área e a altura do rack. Bicos K≥200 com espaçamento reduzido, bomba de 30 a 75 CV, reservatório acima de 30 m³. Sistema mais caro, mas elimina a necessidade de in-rack sprinklers em racks abertos.",
       },
     ],
     closing:
@@ -145,12 +145,12 @@ const data: UniversalPageData = {
     {
       question: "Qual o custo médio de um sistema de sprinkler para escritório em SP?",
       answer:
-        "Para escritórios até 1.000 m² com Risco Leve e wet pipe convencional, a faixa de referência é R$ 18.000 a R$ 45.000 para projeto completo com ART e laudo. Se o escritório tiver forro rebaixado de gesso exigindo bicos concealed, adicione 30% a 50% ao custo dos bicos.",
+        "Para escritórios até 1.000 m² com Risco Leve e wet pipe convencional, o escopo é o mais simples da lista, com projeto completo, ART e laudo. Se o escritório tiver forro rebaixado de gesso exigindo bicos concealed, adicione 30% a 50% ao custo dos bicos.",
     },
     {
       question: "Quanto custa sistema de sprinkler dry pipe para câmara de congelados?",
       answer:
-        "O dry pipe custa 40% a 80% a mais do que wet pipe equivalente pelo custo da válvula aceleradora, compressor de ar, painel de controle e complexidade do teste. Para câmara de congelados de 200 m², a faixa é R$ 25.000 a R$ 55.000 dependendo da altura do pé-direito e do produto armazenado.",
+        "O dry pipe custa 40% a 80% a mais do que wet pipe equivalente pelo custo da válvula aceleradora, compressor de ar, painel de controle e complexidade do teste. Numa câmara de congelados de 200 m², o valor final depende da altura do pé-direito e do produto armazenado.",
     },
     {
       question: "A bomba de sprinkler precisa ser separada da bomba de hidrante?",

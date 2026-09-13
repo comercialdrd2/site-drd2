@@ -4,14 +4,14 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/quanto-custa-renovacao-avcb-sao-paulo",
   meta: {
-    title: "Quanto Custa Renovar o AVCB em SP? Faixas de Preço 2026",
+    title: "Quanto Custa Renovar o AVCB em SP? O Que Pesa no Preço",
     description: "Quanto custa renovar o AVCB em SP em 2026: o que entra no preço, o que faz o valor variar e o risco de deixar vencer. Orçamento com engenheiro CREA-SP.",
   },
   eyebrow: "Renovação de AVCB — Custo e Prazo em SP 2026",
   h1Line1: "Quanto Custa Renovar o AVCB",
   h1Line2: "em São Paulo? Preços e Prazos",
   heroBg: "/images/blog/fire_safety_equipment_premium.webp",
-  introP1: "A renovação do AVCB em São Paulo custa entre R$ 1.800 e R$ 12.000 dependendo da área da edificação, dos sistemas instalados e do estado de conservação dos equipamentos. Para a maioria dos condomínios e estabelecimentos comerciais de médio porte, o valor fica entre R$ 3.000 e R$ 6.000 — significativamente menos que o processo inicial, porque os sistemas já estão instalados.",
+  introP1: "A renovação do AVCB em São Paulo custa bem menos que o processo inicial, porque os sistemas já estão instalados. O que define o valor é a área da edificação, quais sistemas existem e o estado de conservação dos equipamentos — por isso o orçamento sai depois da vistoria técnica, que é gratuita.",
   introP2: "Mas o custo real da renovação não é só o preço do serviço: é o custo de não renovar. AVCB vencido bloqueia renovação de alvará, trava credenciamento, impede venda do imóvel e expõe o responsável a multa e responsabilidade civil. A DRD2 faz o diagnóstico gratuito e informa o custo exato antes de qualquer compromisso.",
   breadcrumbs: [
     { label: "Home", href: "/" },
@@ -89,12 +89,12 @@ const data: UniversalPageData = {
     body1: "Os valores abaixo são referências médias do mercado para renovação completa (serviço + documentação, excluindo adequações físicas). São estimativas — o valor real é definido após vistoria gratuita.",
     alerta: "Cotações muito abaixo da média indicam serviço incompleto: sem ART, sem resposta a Comunique-se inclusa ou sem visita técnica presencial. Esses processos têm taxa de reprovação muito maior.",
     itens: [
-      { titulo: "Condomínio residencial até 5.000m²", desc: "R$ 2.500 – R$ 4.500 (dependendo de torres, subsolos e sistemas)" },
-      { titulo: "Restaurante ou bar até 500m²", desc: "R$ 1.800 – R$ 3.500 (GLP, coifa e sistemas básicos)" },
-      { titulo: "Escola ou academia até 2.000m²", desc: "R$ 2.800 – R$ 5.000 (brigada, alarme, rotas de saída)" },
-      { titulo: "Hotel ou pousada de médio porte", desc: "R$ 3.500 – R$ 7.000 (múltiplos pavimentos e UHs)" },
-      { titulo: "Galpão industrial até 5.000m²", desc: "R$ 3.000 – R$ 6.500 (hidrantes, sprinkler, SPDA)" },
-      { titulo: "Hospital ou clínica acima de 750m²", desc: "R$ 5.000 – R$ 12.000 (Grupo I, exigências específicas de gases medicinais)" },
+      { titulo: "Condomínio residencial até 5.000m²", desc: "Pesam o número de torres, os subsolos e os sistemas instalados" },
+      { titulo: "Restaurante ou bar até 500m²", desc: "Pesam o GLP, a coifa e os sistemas básicos" },
+      { titulo: "Escola ou academia até 2.000m²", desc: "Pesam a brigada, o alarme e as rotas de saída" },
+      { titulo: "Hotel ou pousada de médio porte", desc: "Pesam os múltiplos pavimentos e o número de unidades" },
+      { titulo: "Galpão industrial até 5.000m²", desc: "Pesam os hidrantes, o sprinkler e o SPDA" },
+      { titulo: "Hospital ou clínica acima de 750m²", desc: "Grupo I, com exigências específicas de gases medicinais" },
     ],
     closing: "Para edificações fora dessas faixas, agende a vistoria gratuita. O engenheiro da DRD2 informa o custo exato após avaliar os sistemas e a documentação existente.",
   },
@@ -116,7 +116,7 @@ const data: UniversalPageData = {
   faqs: [
     {
       question: "Quanto custa a renovação do AVCB para um condomínio em SP?",
-      answer: "Para condomínios residenciais de médio porte (até 5.000m²), o custo de renovação fica entre R$ 2.500 e R$ 4.500. Condomínios maiores, com múltiplas torres ou sistemas mais complexos (escada pressurizada, sprinkler), podem chegar a R$ 8.000 ou mais. O valor exato é definido após vistoria técnica gratuita.",
+      answer: "O valor depende do número de torres, dos subsolos e dos sistemas instalados. Um condomínio com escada pressurizada ou sprinkler exige bem mais verificações que um de sistema básico, e isso se reflete no orçamento. O valor exato é definido após vistoria técnica gratuita.",
     },
     {
       question: "A resposta a Comunique-se está inclusa no preço?",

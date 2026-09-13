@@ -12,7 +12,7 @@ const data: UniversalPageData = {
   h1Line2: "de Incêndio em SP? — Convencional vs. Endereçável",
   heroBg: "/images/banner-hero.webp",
   introP1:
-    "O custo de um sistema de alarme de incêndio em SP depende principalmente de um fator que muitos orçamentos omitem: central convencional ou central endereçável. A central convencional — que identifica apenas qual zona disparou — é adequada para edificações simples de até 3 zonas. A central endereçável — que identifica o detector exato — é exigida pela IT 18/19 para edificações complexas, com múltiplos andares, múltiplos inquilinos ou ambientes de risco diferenciado. A diferença de custo entre os dois sistemas pode ser de R$ 5.000 a R$ 30.000 — mas é a diferença entre aprovação e reprovação na vistoria.",
+    "O custo de um sistema de alarme de incêndio em SP depende principalmente de um fator que muitos orçamentos omitem: central convencional ou central endereçável. A central convencional — que identifica apenas qual zona disparou — é adequada para edificações simples de até 3 zonas. A central endereçável — que identifica o detector exato — é exigida pela IT 18/19 para edificações complexas, com múltiplos andares, múltiplos inquilinos ou ambientes de risco diferenciado. A diferença de custo entre os dois sistemas é grande — mas é a diferença entre aprovação e reprovação na vistoria.",
   introP2:
     "Esta página apresenta faixas de referência por porte e tipo de sistema, os principais fatores que encarecem o projeto e o que deve constar em qualquer orçamento completo para aprovação do AVCB. A DRD2 realiza diagnóstico técnico gratuito com escopo detalhado antes de qualquer proposta.",
   breadcrumbs: [
@@ -25,7 +25,7 @@ const data: UniversalPageData = {
     heading: "O que determina o custo de um alarme de incêndio em SP?",
     body: "Três variáveis principais definem o custo: (1) tipo de central — convencional (por zona) ou endereçável (por ponto); (2) número e tipo de detectores — ópticos de fumaça são os mais comuns e baratos, termostáticos para ambientes com calor, detectores de gás para cozinhas, detectores de feixe (beam) para grandes vãos; (3) periféricos — anunciador de voz, módulo de monitoramento remoto, botoeiras manuais, sirenes e integração com outros sistemas de proteção.",
     body2:
-      "O componente que mais surpreende em orçamentos é o anunciador de voz. A IT 18/19 exige anunciador de voz em edificações com ocupação pública — e um sistema de voz com amplificador, alto-falantes e mensagens gravadas por setor pode custar de R$ 4.000 a R$ 25.000 dependendo da área e do número de pontos de anúncio. Orçamentos que não incluem anunciador de voz para edificações que o exigem serão reprovados na vistoria.",
+      "O componente que mais surpreende em orçamentos é o anunciador de voz. A IT 18/19 exige anunciador de voz em edificações com ocupação pública — e um sistema de voz com amplificador, alto-falantes e mensagens gravadas por setor pesa bastante no total, dependendo da área e do número de pontos de anúncio. Orçamentos que não incluem anunciador de voz para edificações que o exigem serão reprovados na vistoria.",
   },
   h2_riscos: {
     heading: "O que faz o orçamento de alarme de incêndio encarecer além do esperado",
@@ -42,15 +42,15 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Anunciador de voz esquecido no orçamento",
-        desc: "Edificações com ocupação pública (comércio, serviços, escolas, hotéis) precisam de anunciador de voz. Um orçamento que inclui apenas sirenes para uma dessas edificações está incompleto — o adicional para instalar o sistema de voz depois pode ser de R$ 6.000 a R$ 20.000.",
+        desc: "Edificações com ocupação pública (comércio, serviços, escolas, hotéis) precisam de anunciador de voz. Um orçamento que inclui apenas sirenes para uma dessas edificações está incompleto — instalar o sistema de voz depois sai bem mais caro do que já prevê-lo no projeto.",
       },
       {
         titulo: "Monitoramento 24h não incluído",
-        desc: "A IT 18/19 exige que a central de alarme seja monitorada por empresa habilitada ou por bombeiro civil treinado em serviço. O contrato de monitoramento é custo recorrente (R$ 250 a R$ 600/mês) que deve ser previsto no planejamento — não é opcional.",
+        desc: "A IT 18/19 exige que a central de alarme seja monitorada por empresa habilitada ou por bombeiro civil treinado em serviço. O contrato de monitoramento é custo recorrente mensal, que deve ser previsto no planejamento — não é opcional.",
       },
       {
         titulo: "Integração com sistema de sprinkler ou hidrante",
-        desc: "Quando a edificação tem sprinkler ou hidrante, a IT 18/19 exige integração do alarme com esses sistemas. Módulos de integração e fiação adicional entre as centrais podem adicionar R$ 2.000 a R$ 8.000 ao custo total.",
+        desc: "Quando a edificação tem sprinkler ou hidrante, a IT 18/19 exige integração do alarme com esses sistemas. Módulos de integração e fiação adicional entre as centrais somam ao custo total.",
       },
       {
         titulo: "Retrofit com fiação embutida",
@@ -69,12 +69,12 @@ const data: UniversalPageData = {
       {
         numero: "ITEM 02",
         titulo: "ART de projeto CREA-SP",
-        desc: "Assinatura do engenheiro responsável pelo projeto. Custo entre R$ 600 e R$ 2.000 dependendo do porte — deve constar explicitamente no orçamento.",
+        desc: "Assinatura do engenheiro responsável pelo projeto. Varia com o porte da edificação e deve constar explicitamente no orçamento, separada dos equipamentos.",
       },
       {
         numero: "ITEM 03",
         titulo: "Central de alarme (convencional ou endereçável)",
-        desc: "Central com capacidade de zonas ou pontos conforme o projeto. Central convencional de 4 a 8 zonas: R$ 1.200 a R$ 3.500. Central endereçável de 1 a 2 laços: R$ 4.500 a R$ 12.000. Equipamento com certificação NBR 17240.",
+        desc: "Central com capacidade de zonas ou pontos conforme o projeto. A convencional (4 a 8 zonas) é bem mais barata que a endereçável (1 a 2 laços) — a escolha entre as duas é o que mais muda o orçamento. Equipamento com certificação NBR 17240.",
       },
       {
         numero: "ITEM 04",
@@ -102,19 +102,19 @@ const data: UniversalPageData = {
     itens: [
       {
         titulo: "Pequeno porte — até 500 m² com central convencional",
-        desc: "Faixa de referência: R$ 3.500 a R$ 9.000. Central convencional de 4 zonas, 8 a 20 detectores ópticos, botoeiras e sirenes. Adequado para pequenos comércios e depósitos sem ocupação pública e sem ambientes de risco diferenciado.",
+        desc: "Central convencional de 4 zonas, 8 a 20 detectores ópticos, botoeiras e sirenes. Adequado para pequenos comércios e depósitos sem ocupação pública e sem ambientes de risco diferenciado.",
       },
       {
         titulo: "Médio porte — 500 m² a 2.000 m² com central endereçável",
-        desc: "Faixa de referência: R$ 9.000 a R$ 28.000. Central endereçável de 1 laço, 20 a 60 detectores com endereçamento individual, botoeiras, sirenes e anunciador de voz quando exigido.",
+        desc: "Central endereçável de 1 laço, 20 a 60 detectores com endereçamento individual, botoeiras, sirenes e anunciador de voz quando exigido.",
       },
       {
         titulo: "Grande porte — acima de 2.000 m² ou múltiplos andares",
-        desc: "Faixa de referência: R$ 28.000 a R$ 90.000+. Central endereçável de múltiplos laços com repetidora, detectores especiais por setor, anunciador de voz com múltiplos canais, integração com sprinkler e monitoramento 24h.",
+        desc: "Central endereçável de múltiplos laços com repetidora, detectores especiais por setor, anunciador de voz com múltiplos canais, integração com sprinkler e monitoramento 24h.",
       },
       {
         titulo: "Adicional por anunciador de voz",
-        desc: "Sistema de anunciador de voz com amplificador, alto-falantes e mensagens gravadas: R$ 4.500 a R$ 25.000 dependendo do número de zonas de anúncio e da área coberta. Obrigatório para edificações com ocupação pública.",
+        desc: "Sistema de anunciador de voz com amplificador, alto-falantes e mensagens gravadas. O valor depende do número de zonas de anúncio e da área coberta. Obrigatório para edificações com ocupação pública.",
       },
     ],
     closing:
@@ -145,17 +145,17 @@ const data: UniversalPageData = {
     {
       question: "Qual a diferença de custo entre alarme convencional e endereçável?",
       answer:
-        "A central endereçável custa de R$ 3.000 a R$ 9.000 a mais do que a convencional somente em equipamento. No entanto, a central endereçável identifica o detector exato que disparou — reduzindo o tempo de resposta e sendo exigida pela IT 18/19 para edificações complexas. Para a maioria dos edifícios comerciais e multifamiliares, o endereçável é o tipo correto.",
+        "A central endereçável custa bastante mais que a convencional só em equipamento. No entanto, a central endereçável identifica o detector exato que disparou — reduzindo o tempo de resposta e sendo exigida pela IT 18/19 para edificações complexas. Para a maioria dos edifícios comerciais e multifamiliares, o endereçável é o tipo correto.",
     },
     {
       question: "Qual o custo médio de alarme para um pequeno comércio em SP?",
       answer:
-        "Para pequenos comércios até 500 m² com central convencional, a faixa é R$ 3.500 a R$ 9.000 para projeto completo. Se a edificação tiver ocupação pública e exigir anunciador de voz, adicione R$ 4.500 a R$ 8.000. O diagnóstico técnico define o escopo correto.",
+        "Um pequeno comércio de até 500 m² com central convencional fica bem abaixo de uma edificação com ocupação pública, que exige anunciador de voz e encarece o conjunto. O diagnóstico técnico define o escopo correto, e o orçamento sai depois dele.",
     },
     {
       question: "O monitoramento 24h está incluído no orçamento de alarme?",
       answer:
-        "Raramente. O monitoramento é um serviço recorrente (R$ 250 a R$ 600/mês com empresa habilitada) separado do custo de instalação. A IT 18/19 exige monitoramento — verifique se o orçamento inclui ao menos a previsão de integração com operadora de monitoramento.",
+        "Raramente. O monitoramento é um serviço recorrente, cobrado por mês por empresa habilitada, separado do custo de instalação. A IT 18/19 exige monitoramento — verifique se o orçamento inclui ao menos a previsão de integração com operadora de monitoramento.",
     },
     {
       question: "O orçamento precisa incluir ART de engenheiro?",

@@ -135,7 +135,7 @@ const data: UniversalPageData = {
   "faqs": [
     {
       "question": "Quanto custa regularizar um AVCB vencido?",
-      "answer": "O custo varia muito conforme o tipo de imóvel, área e sistemas exigidos. Para CLCB em imóveis pequenos, o custo pode ser de R$ 3.000 a R$ 8.000. Para AVCB completo com múltiplos sistemas, pode chegar a R$ 50.000 ou mais. A DRD2 faz diagnóstico gratuito e orçamento fechado antes de qualquer compromisso."
+      "answer": "O custo varia muito conforme o tipo de imóvel, a área e os sistemas exigidos. Um CLCB em imóvel pequeno é bem mais simples que um AVCB completo com múltiplos sistemas. A DRD2 faz diagnóstico gratuito e orçamento fechado antes de qualquer compromisso."
     },
     {
       "question": "Posso regularizar o AVCB sem paralisar o funcionamento?",

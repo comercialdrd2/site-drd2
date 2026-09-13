@@ -25,7 +25,7 @@ const data: UniversalPageData = {
     heading: "O que determina o custo de um sistema de hidrante em SP?",
     body: "Quatro variáveis definem o custo: (1) área total e número de pavimentos — mais área significa mais tubulação, mais abrigos de mangueira e maior bomba; (2) ponto mais desfavorecido — quanto maior a distância vertical entre a casa de máquinas e o hidrante mais alto, maior a pressão necessária e mais potente a bomba; (3) reservatório de incêndio (RTI) — determinado pela IT 22/25 para operação simultânea dos dois pontos mais desfavorecidos por 30 minutos; (4) retrofit versus construção nova — em prédios existentes, a instalação exige roteamento alternativo de tubulação, fixação em shafts já ocupados e, muitas vezes, abertura e fechamento de forros.",
     body2:
-      "O componente de maior peso no custo total é a bomba de recalque com painel elétrico e jockey. Uma bomba trifásica de 15 CV com painel e pressostato custa entre R$ 12.000 e R$ 22.000 somente em equipamento — antes de instalação, tubulação e ART. Projetos que apresentam orçamentos muito abaixo dessa faixa frequentemente omitem a bomba correta, usam equipamento sem certificação ou subdimensionam o reservatório. Esses projetos falham na vistoria do CBPMESP.",
+      "O componente de maior peso no custo total é a bomba de recalque com painel elétrico e jockey. Uma bomba trifásica de 15 CV com painel e pressostato já pesa bastante só em equipamento — antes de instalação, tubulação e ART. Orçamentos muito baratos costumam omitir a bomba correta, usam equipamento sem certificação ou subdimensionam o reservatório. Esses projetos falham na vistoria do CBPMESP.",
   },
   h2_riscos: {
     heading: "O que faz o orçamento de hidrante encarecer além do esperado",
@@ -38,11 +38,11 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Bomba com alimentação pelo gerador",
-        desc: "Edificações com gerador de emergência devem conectar a bomba de incêndio ao circuito prioritário. O quadro de transferência automática (QTA) para a bomba custa entre R$ 4.000 e R$ 9.000 e é frequentemente esquecido no orçamento inicial.",
+        desc: "Edificações com gerador de emergência devem conectar a bomba de incêndio ao circuito prioritário. O quadro de transferência automática (QTA) para a bomba é um item à parte e frequentemente esquecido no orçamento inicial.",
       },
       {
         titulo: "Reservatório de incêndio separado",
-        desc: "A IT 22/25 exige que a RTI seja exclusiva — não compartilhada com reservatório de abastecimento predial. Se o prédio não tem reservatório separado, o custo de construção ou adaptação pode variar de R$ 5.000 a R$ 35.000 dependendo do volume exigido.",
+        desc: "A IT 22/25 exige que a RTI seja exclusiva — não compartilhada com reservatório de abastecimento predial. Se o prédio não tem reservatório separado, a construção ou adaptação entra como item à parte, conforme o volume exigido.",
       },
       {
         titulo: "Tubulação de incêndio em vermelho com conexões certificadas",
@@ -69,7 +69,7 @@ const data: UniversalPageData = {
       {
         numero: "ITEM 02",
         titulo: "ART de projeto CREA-SP",
-        desc: "Assinatura do engenheiro responsável pelo projeto. Custo varia entre R$ 800 e R$ 2.500 dependendo do porte — deve constar explicitamente no orçamento.",
+        desc: "Assinatura do engenheiro responsável pelo projeto. Varia com o porte da edificação — e deve constar explicitamente no orçamento.",
       },
       {
         numero: "ITEM 03",
@@ -79,7 +79,7 @@ const data: UniversalPageData = {
       {
         numero: "ITEM 04",
         titulo: "Abrigos de mangueira e mangueiras certificadas",
-        desc: "Abrigos metálicos ou embutidos com mangueira semi-rígida ou flexível certificada NBR 11861, esguicho regulável e válvula de abertura rápida. Um abrigo completo equipado custa entre R$ 1.200 e R$ 3.500.",
+        desc: "Abrigos metálicos ou embutidos com mangueira semi-rígida ou flexível certificada NBR 11861, esguicho regulável e válvula de abertura rápida. O tipo de abrigo e da mangueira muda o valor de cada ponto.",
       },
       {
         numero: "ITEM 05",
@@ -102,15 +102,15 @@ const data: UniversalPageData = {
     itens: [
       {
         titulo: "Pequeno porte — até 750 m² em pavimento único",
-        desc: "Faixa de referência: R$ 8.000 a R$ 22.000. Inclui sistema simples com bomba de 5 a 10 CV, reservatório de 5 m³ a 8 m³, 3 a 6 abrigos de mangueira e tubulação em aço galvanizado. ART e laudo inclusos.",
+        desc: "Sistema simples, que inclui com bomba de 5 a 10 CV, reservatório de 5 m³ a 8 m³, 3 a 6 abrigos de mangueira e tubulação em aço galvanizado. ART e laudo inclusos.",
       },
       {
         titulo: "Médio porte — 750 m² a 3.000 m² ou até 5 pavimentos",
-        desc: "Faixa de referência: R$ 22.000 a R$ 75.000. Bomba de 10 a 20 CV, reservatório de 10 m³ a 20 m³, 6 a 16 abrigos, tubulação com coluna de recalque por pavimento e siamês externo.",
+        desc: "Bomba de 10 a 20 CV, reservatório de 10 m³ a 20 m³, 6 a 16 abrigos, tubulação com coluna de recalque por pavimento e siamês externo.",
       },
       {
         titulo: "Grande porte — acima de 3.000 m² ou mais de 5 pavimentos",
-        desc: "Faixa de referência: R$ 75.000 a R$ 250.000+. Bomba de 20 a 60 CV com painel elétrico dedicado, reservatório acima de 20 m³, tubulação em aço carbono, siamês com múltiplas entradas e conexão ao gerador de emergência.",
+        desc: "Bomba de 20 a 60 CV com painel elétrico dedicado, reservatório acima de 20 m³, tubulação em aço carbono, siamês com múltiplas entradas e conexão ao gerador de emergência.",
       },
       {
         titulo: "Retrofit em prédio existente (qualquer porte)",
@@ -145,7 +145,7 @@ const data: UniversalPageData = {
     {
       question: "Qual o custo médio de um sistema de hidrante para um pequeno comércio em SP?",
       answer:
-        "Para pequenos comércios até 750 m² em pavimento único, a faixa de referência é R$ 8.000 a R$ 22.000 para um projeto completo — incluindo levantamento, projeto, ART, materiais, instalação, testes e laudo. O custo real depende das condições específicas da edificação e se é instalação nova ou retrofit.",
+        "Para pequenos comércios até 750 m² em pavimento único, o escopo é o mais enxuto da lista — incluindo levantamento, projeto, ART, materiais, instalação, testes e laudo. O custo real depende das condições específicas da edificação e se é instalação nova ou retrofit.",
     },
     {
       question: "O orçamento de hidrante precisa incluir ART?",
@@ -155,7 +155,7 @@ const data: UniversalPageData = {
     {
       question: "Quanto custa instalar hidrante em prédio existente (retrofit)?",
       answer:
-        "Retrofit custa 30% a 60% mais do que instalação em obra nova, pelas dificuldades de roteamento de tubulação, abertura de forros e fixação em estrutura já acabada. Um projeto que custaria R$ 30.000 em obra nova pode custar R$ 40.000 a R$ 48.000 em retrofit no mesmo porte de edificação.",
+        "Retrofit custa 30% a 60% mais do que instalação em obra nova, pelas dificuldades de roteamento de tubulação, abertura de forros e fixação em estrutura já acabada. O mesmo porte de edificação sai bem mais caro quando o prédio já está pronto.",
     },
     {
       question: "A bomba de incêndio está incluída no orçamento?",

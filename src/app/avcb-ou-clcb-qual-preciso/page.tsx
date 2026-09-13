@@ -136,7 +136,7 @@ const data: UniversalPageData = {
   "faqs": [
     {
       "question": "Qual a diferença de custo entre AVCB e CLCB?",
-      "answer": "O CLCB é significativamente mais barato: custos típicos de R$ 3.000 a R$ 8.000 incluindo projeto e taxas. O AVCB completo varia de R$ 8.000 a R$ 80.000+ dependendo da área, complexidade dos sistemas e obras de adequação necessárias. A diferença de prazo também é relevante: CLCB em 30–45 dias vs. AVCB em 60–150 dias."
+      "answer": "O CLCB é significativamente mais barato, porque envolve projeto e taxas num escopo bem menor. O AVCB completo varia muito conforme a área, a complexidade dos sistemas e as obras de adequação necessárias. A diferença de prazo também é relevante: CLCB em 30–45 dias vs. AVCB em 60–150 dias."
     },
     {
       "question": "Meu imóvel mudou de uso — preciso mudar de CLCB para AVCB?",
