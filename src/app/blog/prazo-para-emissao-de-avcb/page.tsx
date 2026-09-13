@@ -9,7 +9,7 @@ import BlogStrategicLinks from "@/components/BlogStrategicLinks";
 import BlogAuthorEvidence from "@/components/BlogAuthorEvidence";
 
 export const metadata = {
-  title: "Prazo para Emissão do AVCB em São Paulo: Quanto Tempo Leva? Guia Atualizado",
+  title: "Quanto Tempo Leva para Sair o AVCB em São Paulo?",
   description: "Saiba quanto tempo leva para emitir o AVCB em São Paulo. Entenda cada etapa do processo, o que influencia o prazo e como evitar atrasos desnecessários. Guia técnico DRD2.",
   alternates: {
     canonical: "/blog/prazo-para-emissao-de-avcb",

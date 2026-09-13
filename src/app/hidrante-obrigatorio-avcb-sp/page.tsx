@@ -4,7 +4,7 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/hidrante-obrigatorio-avcb-sp",
   meta: {
-    title: "Hidrante é Obrigatório em SP? — Quando Exigido pela IT 22/25 e AVCB",
+    title: "Hidrante é Obrigatório em SP? Quando a IT 22/25 Exige",
     description: "Descubra quando o sistema de hidrante é obrigatório em SP pela IT 22/25: ocupação, área e altura que determinam a exigência. O que acontece sem o sistema e como regularizar. Diagnóstico gratuito.",
   },
   eyebrow: "IT 22/25 — Obrigatoriedade de Hidrante em São Paulo",

@@ -848,7 +848,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
   },
   {
     slug: "alarme-de-incendio-condominio-it-19-2025-responsabilidade-sindico",
-    title: "Alarme de Incêndio em Condomínio: O que a IT-19/2025 Exige e Qual a Responsabilidade do Síndico",
+    title: "Meu Condomínio Precisa de Alarme de Incêndio? IT-19/2025",
     date: "2026-04-09",
     category: "Condomínios",
     excerpt: "Vamos abordar com objetividade o que a legislação vigente exige, o que mudou com a IT-19/2025 do CBPMESP, e os riscos reais que um sistema inadequado representa para o síndico.",
@@ -2239,7 +2239,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
   },
   {
     slug: "it-22-cbpmesp-quando-hidrante-e-obrigatorio",
-    title: "IT-22 Explicada: Quando o Hidrante é Obrigatório no Seu Imóvel em SP",
+    title: "Meu Prédio Precisa de Hidrante? Veja a Regra por Metragem",
     date: "2026-05-08",
     category: "Normas Técnicas",
     excerpt: "Entenda a IT-22 do CBPMESP: quando o sistema de hidrantes é obrigatório, como é dimensionado e o que acontece sem ele no processo de AVCB.",
@@ -2691,7 +2691,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
 
   {
     slug: "como-emitir-clcb-em-sao-paulo-passo-a-passo",
-    title: "Como emitir CLCB em São Paulo: passo a passo do processo simplificado",
+    title: "CLCB em SP: Quem Pode Usar e Como Emitir (até 750 m²)",
     date: "2026-05-13",
     category: "CLCB",
     excerpt: "Guia técnico completo para emitir o CLCB em São Paulo em 2026. Documentos, prazos, plataforma Via Fácil Bombeiros e como evitar exigências do CBPMESP.",

@@ -20,11 +20,11 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
-const _pageTitle = "AVCB para Igreja em SP: Aprovação Rápida em 2026";
+const _pageTitle = "AVCB para Igreja em SP: O Que o Bombeiro Exige";
 const _pageDesc = "Obtenha o AVCB para sua Igreja em SP com 100% de segurança jurídica. Especialistas no Grupo F-6, IT-08 e IT-17. Evite interdições e multas. Diagnóstico técnico gratuito em 24h.";
 
 export const metadata = {
-  title: "AVCB para Igreja em SP: Aprovação Rápida em 2026",
+  title: "AVCB para Igreja em SP: O Que o Bombeiro Exige",
   description: "Obtenha o AVCB para sua Igreja em SP com 100% de segurança jurídica. Especialistas no Grupo F-6, IT-08 e IT-17. Evite interdições e multas. Diagnóstico técnico gratuito em 24h.",
   alternates: {
     canonical: "/avcb-para-igreja-sao-paulo",
