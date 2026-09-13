@@ -79,20 +79,35 @@ export function getLeadTrackingContext(): LeadTrackingContext {
   }
 
   const params = new URLSearchParams(window.location.search);
-  const firstLandingPage = window.sessionStorage.getItem("drd2_landing_page") || window.location.href;
-  window.sessionStorage.setItem("drd2_landing_page", firstLandingPage);
+
+  // Guarda o PRIMEIRO toque da sessao e nunca mais sobrescreve.
+  // Sem isso, uma navegacao interna (landing -> outra pagina -> formulario)
+  // troca a origem real ("veio do Google") pelo endereco da pagina anterior
+  // do proprio site, e a informacao de onde o lead veio se perde.
+  function firstTouch(key: string, current: string) {
+    try {
+      const stored = window.sessionStorage.getItem(key);
+      if (stored !== null) return stored;
+      window.sessionStorage.setItem(key, current);
+    } catch {
+      // Navegador com armazenamento bloqueado: usa o valor desta visita.
+    }
+    return current;
+  }
+
+  const firstLandingPage = firstTouch("drd2_landing_page", window.location.href);
 
   return {
     páginaEntrada: firstLandingPage,
     urlAtual: window.location.href,
     caminho: window.location.pathname,
     tituloPagina: document.title || "",
-    referrer: document.referrer || "direto",
-    origem: params.get("utm_source") || "organico/direto",
-    midia: params.get("utm_medium") || "",
-    campanha: params.get("utm_campaign") || "",
-    termo: params.get("utm_term") || "",
-    conteudo: params.get("utm_content") || "",
+    referrer: firstTouch("drd2_referrer", document.referrer || "direto"),
+    origem: firstTouch("drd2_utm_source", params.get("utm_source") || "organico/direto"),
+    midia: firstTouch("drd2_utm_medium", params.get("utm_medium") || ""),
+    campanha: firstTouch("drd2_utm_campaign", params.get("utm_campaign") || ""),
+    termo: firstTouch("drd2_utm_term", params.get("utm_term") || ""),
+    conteudo: firstTouch("drd2_utm_content", params.get("utm_content") || ""),
     tipoPagina: inferPageType(window.location.pathname),
     segmentoProvavel: inferSegment(window.location.pathname),
   };

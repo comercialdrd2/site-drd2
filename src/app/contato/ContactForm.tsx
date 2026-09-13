@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { generateBreadcrumbSchema, generateOrganizationSchema } from "@/components/JsonLD";
+import { getLeadTrackingContext } from "@/lib/leadTracking";
 
 type FormState = {
   name: string;
@@ -30,10 +31,23 @@ export default function ContactForm() {
     e.preventDefault();
     setStatus("sending");
     try {
+      // Leva junto de onde o visitante veio, para o e-mail dizer o canal.
+      const tracking = getLeadTrackingContext();
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({
+          ...form,
+          Pagina_Entrada: tracking.páginaEntrada,
+          URL_Atual: tracking.urlAtual,
+          Caminho: tracking.caminho,
+          Referrer: tracking.referrer,
+          UTM_Source: tracking.origem,
+          UTM_Medium: tracking.midia,
+          UTM_Campaign: tracking.campanha,
+          UTM_Term: tracking.termo,
+          UTM_Content: tracking.conteudo,
+        }),
       });
       if (!res.ok) throw new Error("Erro");
       setStatus("success");
