@@ -36,135 +36,53 @@ const EXCLUDED_SEGMENTS = new Set([
 const DYNAMIC_SEGMENTS = /\[[^\]]+\]/;
 
 // Slugs que tem redirect 301 — nao incluir no sitemap
-const REDIRECT_SOURCES = new Set([
-  "/avcb-sao-paulo",
-  "/quanto-custa-avcb-sao-paulo",
-  "/avcb-para-condominio-sao-paulo",
-  "/sistema-hidrante-edificio-residencial-avcb-sp",
-  "/sistema-de-hidrantes-para-galpao-sao-paulo",
-  "/alarme-de-incendio-galpao-industrial-sp",
-  "/alarme-de-incendio-hospital-clinica-sp",
-  "/alarme-de-incendio-comercial-escritorio-sp",
-  "/projeto-escada-pressurizada-avcb-sao-paulo",
-  "/sistema-de-hidrantes-para-industria-sao-paulo",
-  "/sistema-de-sprinkler-para-industria-sao-paulo",
-  "/avcb-restaurante-sao-paulo",
-  "/avcb-restaurante-sao-paulo",
-  "/avcb-restaurante-sao-paulo",
-  "/avcb-pousada-sao-paulo",
-  "/avcb-hoteis-pousadas-sao-paulo",
-  "/avcb-escola-faculdade-sao-paulo",
-  "/avcb-salao-de-festas-sao-paulo",
-  "/avcb-farmacia-drogaria-sao-paulo",
-  "/avcb-farmacia-drogaria-sao-paulo",
-  "/avcb-casas-noturnas-boates-sao-paulo",
-  "/avcb-casas-noturnas-boates-sao-paulo",
-  "/avcb-casas-noturnas-boates-sao-paulo",
-  "/avcb-para-clínica-odontologica-sao-paulo",
-  "/avcb-restaurante-sao-paulo",
-  "/avcb-hoteis-pousadas-sao-paulo",
-  "/treinamento-brigada",
-  // Blog redirects (canibalizacao consolidada)
-  "/blog/prazo-para-emissao-de-avcb",
-  "/avcb-vencido-o-que-fazer",
-  "/blog/quanto-custa-avcb-em-sao-paulo",
-  "/blog/diferenca-entre-avcb-e-clcb",
-  "/blog/diferenca-entre-avcb-e-clcb",
-  "/blog/sprinkler-obrigatorio-para-quem-e-quando",
-  "/blog/quem-precisa-de-avcb",
-  "/blog/avcb-para-restaurante-em-sp-como-regularizar-em-2026",
-  // Serviços legados com redirect 301 (sincronizar com next.config.mjs)
-  "/sprinklers",
-  "/hidrantes",
-  "/spda",
-  "/manutencao",
-  "/projetos-incendio",
-  "/clcb-sao-paulo",
-  "/avcb-sao-paulo",
-  "/avcb-restaurante-sao-paulo",
-  "/avcb-hoteis-pousadas-sao-paulo",
-  "/avcb-para-escola-sao-paulo",
-  "/avcb-farmacia-drogaria-sao-paulo",
-  "/avcb-casas-noturnas-boates-sao-paulo",
-  "/avcb-casas-noturnas-boates-sao-paulo",
-  "/avcb-hoteis-pousadas-sao-paulo",
-  // Blog noindex (posts thin <300 palavras — sincronizar com NOINDEX_BLOG_SLUGS no [slug]/page.tsx)
-  // Blog posts canibalizando páginas de serviço
-  "/avcb-para-condominio-sao-paulo",
-  "/diferenca-avcb-ptotep",
-  "/alarme-de-incendio-galpao-industrial-sp",
-  // Blog noindex (posts thin <300 palavras — sincronizar com NOINDEX_BLOG_SLUGS no [slug]/page.tsx)
-  "/blog/avcb-para-casa-de-repouso-sao-paulo",
-  "/blog/vistoria-bombeiros-porta-corta-fogo",
-  "/blog/avcb-para-pousada-exigencias-e-como-regularizar",
-  "/blog/embargo-corpo-de-bombeiros-como-resolver",
-  "/blog/seguro-predial-sem-avcb-o-que-acontece-em-sinistro",
-  // ===== 08/08/2026 — novos redirects (sincronizado com next.config.mjs) =====
-  "/alarme-incendio-sao-paulo",
-  "/avcb-casas-noturnas-boates-sao-paulo",
-  "/avcb-restaurante-sao-paulo",
-  "/avcb-supermercado-sao-paulo",
-  "/avcb-zona-norte-sao-paulo",
-  "/blog/o-que-e-comunique-se-corpo-de-bombeiros",
-  "/renovacao-avcb-aricanduva",
-  "/renovacao-avcb-barra-funda",
-  "/renovacao-avcb-carrao",
-  "/renovacao-avcb-casa-verde",
-  "/renovacao-avcb-freguesia-do-o",
-  "/renovacao-avcb-itaquera",
-  "/renovacao-avcb-jacana",
-  "/renovacao-avcb-liberdade",
-  "/renovacao-avcb-limao",
-  "/renovacao-avcb-paraiso",
-  "/renovacao-avcb-penha",
-  "/renovacao-avcb-sapopemba",
-  "/renovacao-avcb-se",
-  "/renovacao-avcb-vila-madalena",
-  "/renovacao-avcb-vila-re",
-  "/renovacao-clcb-sao-paulo",
-  "/renovacao-clcb-sao-paulo",
-  "/renovacao-clcb-sao-paulo",
-  "/renovacao-clcb-sao-paulo",
-  "/sistema-sprinkler-galpao-industrial-avcb-sp",
-  "/sistema-sprinkler-galpao-industrial-avcb-sp",
-  "/sistema-sprinkler-hospital-avcb-sp",
-  "/sistema-sprinkler-hotel-avcb-sp",
-  "/sistema-sprinkler-shopping-center-sp",
-  "/avcb-para-academia-sao-paulo",
-  "/avcb-para-creche-sao-paulo",
-  "/avcb-para-igreja-sao-paulo",
-  "/avcb-para-padaria-sao-paulo",
-  "/avcb-para-shopping-sao-paulo",
-  "/avcb-vencido-o-que-fazer",
-  "/alarme-de-incendio-comercial-escritorio-sp",
-  "/alarme-de-incendio-escola-faculdade-sp",
-  "/alarme-de-incendio-galpao-industrial-sp",
-  "/alarme-de-incendio-hospital-clinica-sp",
-  "/alarme-de-incendio-para-condominio-sao-paulo",
-  "/avcb-casas-noturnas-boates-sao-paulo",
-  "/avcb-comercial-escritorio-sao-paulo",
-  "/avcb-consultorios-medicos-odontologicos-sao-paulo",
-  "/avcb-farmacia-drogaria-sao-paulo",
-  "/avcb-galpao-industrial-sao-paulo",
-  "/avcb-hospital-clinica-sao-paulo",
-  "/avcb-hostel-sao-paulo",
-  "/avcb-motel-sao-paulo",
-  "/avcb-para-academia-sao-paulo",
-  "/avcb-para-casa-de-repouso-sao-paulo",
-  "/avcb-para-creche-sao-paulo",
-  "/avcb-para-escola-sao-paulo",
-  "/avcb-para-escritorio-sao-paulo",
-  "/avcb-para-igreja-sao-paulo",
-  "/avcb-para-padaria-sao-paulo",
-  "/avcb-para-shopping-sao-paulo",
-  "/avcb-posto-combustivel-sao-paulo",
-  "/avcb-restaurante-sao-paulo",
-  "/avcb-salao-de-festas-sao-paulo",
-  "/avcb-supermercado-sao-paulo",
-  "/laudo-estanqueidade-gas-sao-paulo",
-  "/projeto-escada-pressurizada-avcb-sao-paulo",
-  "/renovacao-avcb-condominio-sao-paulo",
-]);
+// ----------------------------------------------------------------------------
+// Fontes de redirect 301 — nao entram no sitemap.
+//
+// Esta lista ERA escrita a mao e tinha saido de sincronia nos dois sentidos:
+// continha 82 rotas que nunca foram redirect (e por isso sumiam do sitemap sem
+// motivo, incluindo /avcb-sao-paulo, /clcb-sao-paulo, /hidrantes, /sprinklers)
+// e nao continha as 13 que sao redirect de verdade.
+//
+// Agora e derivada do proprio next.config.mjs em tempo de build, entao nao tem
+// como divergir de novo: mudou o redirect, mudou o sitemap junto.
+// ----------------------------------------------------------------------------
+
+// Usada so se a leitura do next.config.mjs falhar (ex.: arquivo fora do bundle).
+// Sao as 13 fontes de redirect que tambem tem page.tsx — as unicas que podem
+// aparecer no sitemap por engano.
+const REDIRECT_SOURCES_FALLBACK = [
+  "/avcb",
+  "/avcb-bares-restaurantes-sao-paulo",
+  "/avcb-condominio-sao-paulo",
+  "/avcb-para-salao-de-festas-sao-paulo",
+  "/avcb-preco",
+  "/blog/avcb-vencido-o-que-fazer",
+  "/projeto-escada-pressurizada-avcb",
+  "/sistema-alarme-incendio-edificio-comercial-sp",
+  "/sistema-alarme-incendio-galpao-industrial-avcb-sp",
+  "/sistema-alarme-incendio-hospital-avcb-sp",
+  "/sistema-hidrante-galpao-industrial-avcb-sp",
+  "/sistema-hidrante-industria-quimica-sp",
+  "/sistema-sprinkler-industria-quimica-sp",
+];
+
+function readRedirectSources(): Set<string> {
+  try {
+    const cfg = fs.readFileSync(path.join(process.cwd(), "next.config.mjs"), "utf8");
+    const re = /source:\s*["'`]([^"'`]+)["'`]/g;
+    const fontes: string[] = [];
+    let m: RegExpExecArray | null;
+    while ((m = re.exec(cfg)) !== null) fontes.push(m[1]);
+    if (fontes.length > 0) return new Set(fontes);
+  } catch {
+    // arquivo indisponivel: cai no fallback abaixo
+  }
+  return new Set(REDIRECT_SOURCES_FALLBACK);
+}
+
+const REDIRECT_SOURCES = readRedirectSources();
+
 
 // Heuristica: paginas cuja rota contem nome de bairro/cidade -> sitemap-neighborhoods
 const NEIGHBORHOOD_KEYWORDS = [
