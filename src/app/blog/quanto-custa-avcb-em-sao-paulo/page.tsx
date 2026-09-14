@@ -121,7 +121,7 @@ export default function QuantocustaAVCBPost() {
             </p>
 
             <p className="text-base md:text-lg text-gray-400 mb-10 leading-relaxed max-w-3xl">
-              Procurando a faixa de valores por tipo de imóvel? Está na página de{" "}
+              Quer entender o que pesa no preço por tipo de imóvel? Está na página de{" "}
               <a href="/quanto-custa-avcb-sao-paulo" className="text-primary font-bold underline">
                 quanto custa o AVCB em São Paulo
               </a>

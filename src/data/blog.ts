@@ -983,7 +983,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
         <li>❌ <strong>Risco real de multas pesadas</strong> e até interdição do condomínio.</li>
       </ul>
 
-      <p>A boa notícia é que 90% desses erros são previsíveis e podem ser evitados com uma análise técnica correta antes da vistoria. Se você quer saber o valor do investimento para não errar, <a href="/quanto-custa-avcb-sao-paulo" class="text-primary font-bold underline">consulte nossa tabela de preços AVCB 2026</a>.</p>
+      <p>A boa notícia é que 90% desses erros são previsíveis e podem ser evitados com uma análise técnica correta antes da vistoria. Se você quer saber o valor do investimento para não errar, <a href="/quanto-custa-avcb-sao-paulo" class="text-primary font-bold underline">veja o que pesa no preço do AVCB</a>.</p>
 
       <h2>1. Divergência entre Projeto e Execução (IT-01)</h2>
       <p>Esse é o erro "campeão" de reprovações. O projeto aprovado no Via Fácil precisa refletir exatamente o que existe na edificação. Mudanças como divisórias novas de drywall, fechamento de sacadas, mudança de layout de salas ou alteração de uso (ex: transformar depósito em escritório) impactam diretamente no fluxo de fumaça e na eficácia dos bicos de sprinkler e detectores.</p>
@@ -2842,7 +2842,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
 
   {
     slug: "quanto-custa-clcb-em-sao-paulo-2026",
-    title: "Quanto custa o CLCB em São Paulo em 2026? Faixa de preço por ocupação",
+    title: "Quanto custa o CLCB em São Paulo? O que pesa no preço por ocupação",
     date: "2026-05-13",
     category: "CLCB",
     excerpt: "Custo real do CLCB em São Paulo em 2026: taxa do CBPMESP, honorários técnicos e adequações por tipo de estabelecimento. Sem surpresas no orçamento.",
@@ -2851,7 +2851,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     content: `
       <p>Entender quanto custa o <strong>CLCB</strong> em São Paulo é fundamental para o planejamento financeiro de qualquer comércio, clínica ou pequeno estabelecimento. Apesar de ser significativamente mais barato que o AVCB, o CLCB ainda envolve várias componentes de custo que precisam ser consideradas.</p>
 
-      <p>Este guia detalha em 2026 cada item que entra no orçamento do CLCB e apresenta faixas reais de preço por tipo de ocupação, baseado em médias de mercado em São Paulo capital e Grande SP.</p>
+      <p>Este guia detalha cada item que entra no orçamento do CLCB e o que faz o valor mudar de uma ocupação para outra, com base em processos reais em São Paulo capital e Grande SP.</p>
 
       <h2>Componentes do custo do CLCB</h2>
       <p>O custo total do CLCB se divide em 3 grandes blocos:</p>

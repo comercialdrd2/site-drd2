@@ -85,7 +85,7 @@ const data: UniversalPageData = {
     ],
   },
   h2_detalhes: {
-    heading: "Faixa de preço por tipo de edificação em São Paulo",
+    heading: "O que pesa no preço por tipo de edificação em São Paulo",
     body1: "Os valores abaixo são referências médias do mercado para renovação completa (serviço + documentação, excluindo adequações físicas). São estimativas — o valor real é definido após vistoria gratuita.",
     alerta: "Cotações muito abaixo da média indicam serviço incompleto: sem ART, sem resposta a Comunique-se inclusa ou sem visita técnica presencial. Esses processos têm taxa de reprovação muito maior.",
     itens: [
