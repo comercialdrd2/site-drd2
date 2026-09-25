@@ -76,7 +76,7 @@ export default function AVCBSaoPauloPage() {
               REGULARIZAÇÃO 2026 — Resposta a Comunique-se Incluída
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white">AVCB EM</span>
+              <span className="text-white">EMPRESA DE AVCB EM</span>
               <span className="text-red-600 not-italic text-3xl md:text-3xl lg:text-4xl mt-2 block drop-shadow-2xl">
                 SÃO PAULO 2026
               </span>

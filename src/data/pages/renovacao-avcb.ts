@@ -1,7 +1,7 @@
 export const renovacaoAvcbContent = {
   meta: {
-    title: "Renovação de AVCB em São Paulo 2026",
-    description: "A DRD2 Engenharia renova AVCB em São Paulo com agilidade e sem Comunique-se. AVCB vencido? Evite interdição e multa. Diagnóstico técnico gratuito. Fale agora com um engenheiro.",
+    title: "Renovação de AVCB em SP — AVCB Vencido? Renove com Engenheiro",
+    description: "Renovação de AVCB em São Paulo para condomínios, comércios e empresas. AVCB vencido ou perto de vencer? Engenheiro CREA-SP cuida da vistoria ao certificado. Diagnóstico gratuito pelo WhatsApp.",
     canonical: "/renovacao-avcb",
   },
   intro: [

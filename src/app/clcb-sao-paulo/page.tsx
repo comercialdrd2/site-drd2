@@ -10,12 +10,12 @@ import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import AvcbOuClcbCalculator from "@/components/AvcbOuClcbCalculator";
 
-const _pageTitle = "CLCB em São Paulo 2026 — Diagnóstico técnico gratuito";
-const _pageDesc = "A DRD2 Engenharia obtém o CLCB em São Paulo com agilidade e conformidade com o Decreto 69.118/2024. Enquadramento gratuito: descubra se seu imóvel precisa de CLCB ou AVCB.";
+const _pageTitle = "CLCB em São Paulo — Emissão e Renovação com Engenheiro";
+const _pageDesc = "Emissão e renovação de CLCB em São Paulo para comércios, escritórios e clínicas até 750 m². Engenheiro CREA-SP cuida do Via Fácil ao certificado. Fale pelo WhatsApp.";
 
 export const metadata = {
-  title: "CLCB em São Paulo 2026 — Diagnóstico técnico gratuito",
-  description: "A DRD2 Engenharia obtém o CLCB em São Paulo com agilidade e conformidade com o Decreto 69.118/2024. Enquadramento gratuito: descubra se seu imóvel precisa de CLCB ou AVCB.",
+  title: "CLCB em São Paulo — Emissão e Renovação com Engenheiro",
+  description: "Emissão e renovação de CLCB em São Paulo para comércios, escritórios e clínicas até 750 m². Engenheiro CREA-SP cuida do Via Fácil ao certificado. Fale pelo WhatsApp.",
   alternates: {
     canonical: "/clcb-sao-paulo",
   },

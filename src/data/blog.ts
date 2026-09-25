@@ -866,6 +866,11 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
         Em termos práticos: sem sistema de alarme aprovado, não há AVCB. Sem AVCB, o condomínio está irregular perante o Corpo de Bombeiros.
       </div>
 
+      <div style="border:2px solid #16a34a;border-radius:12px;padding:20px;margin:28px 0;background:#f0fdf4">
+        <p style="margin:0 0 8px"><strong>Síndico, o alarme do seu prédio está em dia?</strong> A DRD2 avalia o sistema e cuida da renovação do AVCB do condomínio, com engenheiro CREA-SP.</p>
+        <p style="margin:0"><a href="https://wa.me/5511942232969?text=Ol%C3%A1%2C%20sou%20s%C3%ADndico%20e%20li%20o%20artigo%20de%20alarme%20no%20site.%20Quero%20uma%20avalia%C3%A7%C3%A3o." style="display:inline-block;background:#16a34a;color:#fff;font-weight:700;padding:12px 20px;border-radius:8px;text-decoration:none">Falar com engenheiro pelo WhatsApp</a> &nbsp;ou veja <a href="/renovacao-avcb-condominio-sao-paulo">Renovação de AVCB para condomínio</a>.</p>
+      </div>
+
       <h2>O que mudou com a IT-19/2025?</h2>
       <p>A Instrução Técnica nº 19 foi atualizada em março de 2025, por meio da Portaria CCB-003/800/25, e substituiu a versão de 2019. As principais mudanças trazem maior rigor técnico e ampliam a eficiência e confiabilidade dos sistemas exigidos, com destaque para:</p>
       <ul>
@@ -2251,6 +2256,11 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <h2>Quando o hidrante é obrigatório pela IT-22?</h2>
       <p>O sistema de hidrantes é exigido pela IT-22 com base na combinação de área total, altura da edificação e grupo de ocupação. De forma geral: edificações residenciais acima de determinada área e pavimentos, edificações comerciais e de serviços de médio e grande porte, indústrias e depósitos acima de 750m², hotéis e hospitais de médio porte, e edificações com alta carga de incêndio independente da área.</p>
 
+      <div style="border:2px solid #16a34a;border-radius:12px;padding:20px;margin:28px 0;background:#f0fdf4">
+        <p style="margin:0 0 8px"><strong>Não sabe se o seu imóvel precisa de hidrante?</strong> Um engenheiro da DRD2 faz o enquadramento na IT-22 e cuida do AVCB do início ao fim.</p>
+        <p style="margin:0"><a href="https://wa.me/5511942232969?text=Ol%C3%A1%2C%20li%20o%20artigo%20da%20IT-22%20no%20site%20e%20quero%20saber%20se%20meu%20im%C3%B3vel%20precisa%20de%20hidrante." style="display:inline-block;background:#16a34a;color:#fff;font-weight:700;padding:12px 20px;border-radius:8px;text-decoration:none">Falar com engenheiro pelo WhatsApp</a> &nbsp;ou veja <a href="/avcb-sao-paulo">AVCB em São Paulo</a>.</p>
+      </div>
+
       <h2>Hidrante vs. mangotinho: qual a diferença?</h2>
       <p>O <strong>hidrante</strong> usa mangueira de 40mm ou 65mm com esguicho, operado por brigadistas treinados — sistema para imóveis de maior porte. O <strong>mangotinho</strong> usa mangueira semi-rígida de 25mm que qualquer pessoa pode operar — sistema simplificado para imóveis menores. A IT-22 define qual tipo é exigido para cada classificação de imóvel.</p>
 
@@ -2723,6 +2733,11 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
         <li><strong>ART do engenheiro</strong> responsável pela vistoria CLCB (quando aplicável)</li>
       </ul>
       <p>Diferente do AVCB, o CLCB não exige Projeto Técnico completo com memorial descritivo e plantas dimensionadas. Mas a planta básica e as fotos são obrigatórias.</p>
+
+      <div style="border:2px solid #16a34a;border-radius:12px;padding:20px;margin:28px 0;background:#f0fdf4">
+        <p style="margin:0 0 8px"><strong>Prefere não perder tempo com o Via Fácil?</strong> A DRD2 cuida do seu CLCB do enquadramento ao certificado, com engenheiro CREA-SP e ART.</p>
+        <p style="margin:0"><a href="https://wa.me/5511942232969?text=Ol%C3%A1%2C%20li%20o%20guia%20de%20CLCB%20no%20site%20e%20quero%20um%20or%C3%A7amento." style="display:inline-block;background:#16a34a;color:#fff;font-weight:700;padding:12px 20px;border-radius:8px;text-decoration:none">Pedir orçamento do CLCB pelo WhatsApp</a> &nbsp;ou veja <a href="/clcb-sao-paulo">CLCB em São Paulo</a>.</p>
+      </div>
 
       <h2>Etapa 3: Adequar os itens auto-declarados</h2>
       <p>O CLCB é um processo de declaração. Você declara ao CBPMESP que os seguintes itens estão em conformidade. Por isso, eles precisam estar realmente conformes antes do protocolo:</p>
