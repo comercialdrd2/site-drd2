@@ -172,7 +172,7 @@ const occupationLinks: Record<string, StrategicLink> = {
     kind: "ocupacao",
   },
   "avcb-comercial-escritorio-sao-paulo": {
-    href: "/avcb-comercial-escritorio-sao-paulo",
+    href: "/avcb-para-escritorio-sao-paulo",
     label: "AVCB para comércio e escritório",
     context: "ocupação específica: lojas, salas comerciais, contratos de locação e licença de funcionamento",
     kind: "ocupacao",
@@ -208,7 +208,7 @@ const occupationLinks: Record<string, StrategicLink> = {
     kind: "ocupacao",
   },
   "avcb-preco": {
-    href: "/avcb-comercial-escritorio-sao-paulo",
+    href: "/avcb-para-escritorio-sao-paulo",
     label: "AVCB para comércio e escritório",
     context: "ocupação específica: imóveis comerciais que precisam estimar custo e regularização",
     kind: "ocupacao",

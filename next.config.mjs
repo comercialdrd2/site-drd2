@@ -76,7 +76,7 @@ const nextConfig = {
       { source: '/avcb-zona-leste', destination: '/avcb-zona-leste-sao-paulo', permanent: true },
       { source: '/avcb-zona-oeste', destination: '/avcb-zona-oeste-sao-paulo', permanent: true },
       { source: '/avcb-zona-norte', destination: '/avcb-zona-norte-sao-paulo', permanent: true },
-      { source: '/avcb-comercio', destination: '/avcb-comercial-escritorio-sao-paulo', permanent: true },
+      { source: '/avcb-comercio', destination: '/avcb-para-escritorio-sao-paulo', permanent: true },
       { source: '/quanto-custa-avcb-em-sao-paulo', destination: '/quanto-custa-avcb-sao-paulo', permanent: true },
       {
         source: '/avcb-restaurante',
@@ -321,7 +321,7 @@ const nextConfig = {
       { source: '/servicos/alarme-de-incendio-hospital-clinica-sp', destination: '/alarme-de-incendio-hospital-clinica-sp', permanent: true },
       { source: '/servicos/alarme-de-incendio-para-condominio-sao-paulo', destination: '/alarme-de-incendio-para-condominio-sao-paulo', permanent: true },
       { source: '/servicos/avcb-casas-noturnas-boates-sao-paulo', destination: '/avcb-casas-noturnas-boates-sao-paulo', permanent: true },
-      { source: '/servicos/avcb-comercial-escritorio-sao-paulo', destination: '/avcb-comercial-escritorio-sao-paulo', permanent: true },
+      { source: '/servicos/avcb-comercial-escritorio-sao-paulo', destination: '/avcb-para-escritorio-sao-paulo', permanent: true },
       { source: '/servicos/avcb-consultorios-medicos-odontologicos-sao-paulo', destination: '/avcb-consultorios-medicos-odontologicos-sao-paulo', permanent: true },
       { source: '/servicos/avcb-farmacia-drogaria-sao-paulo', destination: '/avcb-farmacia-drogaria-sao-paulo', permanent: true },
       { source: '/servicos/avcb-galpao-industrial-sao-paulo', destination: '/avcb-galpao-industrial-sao-paulo', permanent: true },
@@ -343,6 +343,20 @@ const nextConfig = {
       { source: '/servicos/laudo-estanqueidade-gas-sao-paulo', destination: '/laudo-estanqueidade-gas-sao-paulo', permanent: true },
       { source: '/servicos/projeto-escada-pressurizada-avcb-sao-paulo', destination: '/projeto-escada-pressurizada-avcb-sao-paulo', permanent: true },
       { source: '/servicos/renovacao-avcb-condominio-sao-paulo', destination: '/renovacao-avcb-condominio-sao-paulo', permanent: true },
+      // 25/09/2026 — páginas duplicadas unificadas: cada origem tratava do mesmo assunto que o destino.
+      // Mantém a página que o Google já indexava (ou a de nome mais claro) e soma a força das duas.
+      { source: '/sistema-de-hidrantes-para-hotel-sao-paulo', destination: '/sistema-hidrante-hotel-avcb-sp', permanent: true },
+      { source: '/sistema-de-sprinkler-para-hotel-sao-paulo', destination: '/sistema-sprinkler-hotel-avcb-sp', permanent: true },
+      { source: '/sistema-de-hidrantes-para-hospital-sao-paulo', destination: '/sistema-hidrante-hospital-avcb-sp', permanent: true },
+      { source: '/sistema-de-sprinkler-para-hospital-sao-paulo', destination: '/sistema-sprinkler-hospital-avcb-sp', permanent: true },
+      { source: '/avcb-escola-faculdade-sao-paulo', destination: '/avcb-para-escola-sao-paulo', permanent: true },
+      { source: '/alvara-bombeiro-escola-sao-paulo', destination: '/alvara-bombeiro-escola-faculdade-sao-paulo', permanent: true },
+      { source: '/laudo-bombeiro-escola-sao-paulo', destination: '/laudo-bombeiro-escola-faculdade-sao-paulo', permanent: true },
+      { source: '/avcb-comercial-escritorio-sao-paulo', destination: '/avcb-para-escritorio-sao-paulo', permanent: true },
+      { source: '/alvara-bombeiro-restaurante-sao-paulo', destination: '/alvara-bombeiro-bar-restaurante-sao-paulo', permanent: true },
+      { source: '/laudo-bombeiro-restaurante-sao-paulo', destination: '/laudo-bombeiro-bar-restaurante-sao-paulo', permanent: true },
+      { source: '/renovacao-avcb-bares-restaurantes-sao-paulo', destination: '/renovacao-avcb-restaurante-sao-paulo', permanent: true },
+      { source: '/avcb-pousada-sao-paulo', destination: '/avcb-hoteis-pousadas-sao-paulo', permanent: true },
     ];
   },
 };

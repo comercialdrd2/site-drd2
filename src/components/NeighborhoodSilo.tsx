@@ -96,7 +96,6 @@ const ALVARA_PAGES = [
 
 const RENOVACAO_PAGES = [
   { name: "Academia", slug: "/renovacao-avcb-academia-sao-paulo" },
-  { name: "Bares e Restaurantes", slug: "/renovacao-avcb-bares-restaurantes-sao-paulo" },
   { name: "Casa de Repouso", slug: "/renovacao-avcb-casa-de-repouso-sao-paulo" },
   { name: "Casa Noturna / Boate", slug: "/renovacao-avcb-casa-noturna-boate-sao-paulo" },
   { name: "Condomínio", slug: "/renovacao-avcb-condominio-sao-paulo" },
@@ -124,7 +123,7 @@ const RENOVACAO_PAGES = [
 
 const CROSS_LINK: Record<string, { name: string; slug: string; label: string }> = {
   "/alvara-bombeiro-academia-sao-paulo": { name: "Renovação AVCB Academia SP", slug: "/renovacao-avcb-academia-sao-paulo", label: "Renovar AVCB" },
-  "/alvara-bombeiro-bar-restaurante-sao-paulo": { name: "Renovação AVCB Bares e Rest. SP", slug: "/renovacao-avcb-bares-restaurantes-sao-paulo", label: "Renovar AVCB" },
+  "/alvara-bombeiro-bar-restaurante-sao-paulo": { name: "Renovação AVCB Bar e Restaurante SP", slug: "/renovacao-avcb-restaurante-sao-paulo", label: "Renovar AVCB" },
   "/alvara-bombeiro-casa-de-repouso-sao-paulo": { name: "Renovação AVCB Casa de Repouso SP", slug: "/renovacao-avcb-casa-de-repouso-sao-paulo", label: "Renovar AVCB" },
   "/alvara-bombeiro-casa-noturna-boate-sao-paulo": { name: "Renovação AVCB Casa Noturna SP", slug: "/renovacao-avcb-casa-noturna-boate-sao-paulo", label: "Renovar AVCB" },
   "/alvara-bombeiro-condominio-sao-paulo": { name: "Renovação AVCB Condomínio SP", slug: "/renovacao-avcb-condominio-sao-paulo", label: "Renovar AVCB" },

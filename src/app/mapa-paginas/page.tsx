@@ -165,7 +165,7 @@ const renovacoes = [
   { label: "Casa de Repouso", href: "/renovacao-avcb-casa-de-repouso-sao-paulo" },
   { label: "Casa Noturna / Boate", href: "/renovacao-avcb-casa-noturna-boate-sao-paulo" },
   { label: "Farmácia / Drogaria", href: "/renovacao-avcb-farmacia-drogaria-sao-paulo" },
-  { label: "Bares e Restaurantes", href: "/renovacao-avcb-bares-restaurantes-sao-paulo" },
+  { label: "Bares e Restaurantes", href: "/renovacao-avcb-restaurante-sao-paulo" },
   { label: "Salão de Festas", href: "/renovacao-avcb-salao-de-festas-sao-paulo" },
   { label: "Pousada", href: "/renovacao-avcb-pousada-sao-paulo" },
   { label: "Posto de Combustível", href: "/renovacao-avcb-posto-combustivel-sao-paulo" },

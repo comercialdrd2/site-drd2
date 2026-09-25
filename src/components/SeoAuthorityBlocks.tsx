@@ -99,7 +99,7 @@ const occupationProfiles: Record<string, {
     links: [
       { label: "renovação AVCB para hotel", href: "/renovacao-avcb-hotel-sao-paulo" },
       { label: "sistema de alarme para hotel", href: "/sistema-alarme-incendio-hotel-avcb-sp" },
-      { label: "sprinkler para hotel", href: "/sistema-de-sprinkler-para-hotel-sao-paulo" },
+      { label: "sprinkler para hotel", href: "/sistema-sprinkler-hotel-avcb-sp" },
     ],
   },
   // AVCB Hospital/Clinica grande — grupo H-3
@@ -111,7 +111,7 @@ const occupationProfiles: Record<string, {
     links: [
       { label: "renovação AVCB para hospital", href: "/renovacao-avcb-hospital-clinica-sao-paulo" },
       { label: "sistema de alarme para hospital", href: "/alarme-de-incendio-hospital-clinica-sp" },
-      { label: "sprinkler para hospital", href: "/sistema-de-sprinkler-para-hospital-sao-paulo" },
+      { label: "sprinkler para hospital", href: "/sistema-sprinkler-hospital-avcb-sp" },
     ],
   },
   // AVCB Escola/Faculdade/Creche — grupo E
@@ -159,7 +159,7 @@ const occupationProfiles: Record<string, {
     links: [
       { label: "renovação AVCB para escritório", href: "/renovacao-avcb-escritorio-sao-paulo" },
       { label: "alarme para comercial/escritório", href: "/alarme-de-incendio-comercial-escritorio-sp" },
-      { label: "AVCB para escritório", href: "/avcb-comercial-escritorio-sao-paulo" },
+      { label: "AVCB para escritório", href: "/avcb-para-escritorio-sao-paulo" },
     ],
   },
   default: {
