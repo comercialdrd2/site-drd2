@@ -324,9 +324,9 @@ export default function HydrantSeoLanding({ page }: HydrantSeoLandingProps) {
                 Links relacionados do silo
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {[...page.related, { label: "Hidrantes", href: "/hidrantes" }, { label: "AVCB São Paulo", href: "/avcb-sao-paulo" }, { label: "Manutenção", href: "/manutencao" }].map((item) => (
+                {[...page.related, { label: "Hidrantes", href: "/hidrantes" }, { label: "AVCB São Paulo", href: "/avcb-sao-paulo" }, { label: "Manutenção", href: "/manutencao" }].map((item, i) => (
                   <Link
-                    key={`${item.href}-${item.label}`}
+                    key={`silo-link-${i}`}
                     href={item.href}
                     className="bg-white border border-slate-200 p-4 rounded-xl font-black text-slate-800 hover:text-red-700 hover:border-red-500 transition-colors"
                   >

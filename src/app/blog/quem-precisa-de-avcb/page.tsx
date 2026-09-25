@@ -292,7 +292,7 @@ export default function QuemPrecisaAVCBPost() {
                <Link href="/blog/diferenca-entre-avcb-e-clcb" className="text-[10px] font-black uppercase text-gray-500 hover:text-primary transition-colors tracking-widest">→ AVCB vs CLCB</Link>
                <Link href="/avcb-sao-paulo" className="text-[10px] font-black uppercase text-gray-500 hover:text-primary transition-colors tracking-widest">→ PROCESSO SP</Link>
                <Link href="/quanto-custa-avcb-sao-paulo" className="text-[10px] font-black uppercase text-gray-500 hover:text-primary transition-colors tracking-widest">→ TABELA PREÇOS</Link>
-               <Link href="/avcb-comércio" className="text-[10px] font-black uppercase text-gray-500 hover:text-primary transition-colors tracking-widest">→ AVCB COMÉRCIO</Link>
+               <Link href="/avcb-comercial-escritorio-sao-paulo" className="text-[10px] font-black uppercase text-gray-500 hover:text-primary transition-colors tracking-widest">→ AVCB COMÉRCIO</Link>
             </div>
         </div>
       </section>
