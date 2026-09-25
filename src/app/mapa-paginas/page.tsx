@@ -864,82 +864,82 @@ export default function MapaPaginasPage() {
 
         {/* Alarme de Incendio */}
         <Section
-          title="Cluster SEO: Alarme de Incêndio"
+          title="Alarme de Incêndio"
           color="bg-red-900 text-white"
           items={clusterAlarme}
         />
 
         {/* Hidrantes SEO */}
         <Section
-          title="Cluster SEO: Hidrantes"
+          title="Hidrantes"
           color="bg-cyan-900 text-white"
           items={clusterHidrantesSeo}
         />
 
         {/* Sprinklers SEO */}
         <Section
-          title="Cluster SEO: Sprinklers"
+          title="Sprinklers"
           color="bg-sky-900 text-white"
           items={clusterSprinklersSeo}
         />
 
         {/* VGA */}
         <Section
-          title="Cluster SEO: Válvula de Governo e Alarme (VGA)"
+          title="Válvula de Governo e Alarme (VGA)"
           color="bg-orange-500 text-white"
           items={clusterVGA}
         />
 
         {/* Porta Corta-Fogo */}
         <Section
-          title="Cluster SEO: Porta Corta-Fogo (Manutenção e Adequação)"
+          title="Porta Corta-Fogo (Manutenção e Adequação)"
           color="bg-red-500 text-white"
           items={clusterPortaCortaFogo}
         />
 
         {/* Projetos de Incendio SEO */}
         <Section
-          title="Cluster SEO: Projetos de Incêndio"
+          title="Projetos de Incêndio"
           color="bg-orange-900 text-white"
           items={clusterProjetosIncendioSeo}
         />
 
         {/* Brigada SEO */}
         <Section
-          title="Cluster SEO: Brigada de Incêndio"
+          title="Brigada de Incêndio"
           color="bg-red-800 text-white"
           items={clusterBrigadaSeo}
         />
 
         {/* SPDA SEO */}
         <Section
-          title="Cluster SEO: SPDA Para-raios"
+          title="SPDA Para-raios"
           color="bg-violet-900 text-white"
           items={clusterSpdaSeo}
         />
 
         {/* Renovação AVCB por Bairro SEO */}
         <Section
-          title="Cluster SEO: Renovação AVCB por Bairro"
+          title="Renovação AVCB por Bairro"
           color="bg-emerald-900 text-white"
           items={clusterRenovacaoBairrosSeo}
         />
 
         {/* AVCB Bairros Novos SEO */}
         <Section
-          title="Cluster SEO: AVCB Bairros Novos"
+          title="AVCB Bairros Novos"
           color="bg-purple-900 text-white"
           items={clusterAvcbBairrosNovosSeo}
         />
 
         {/* Clusters Locais SEO */}
         <Section
-          title="Cluster SEO: Renovação Condomínio"
+          title="Renovação Condomínio"
           color="bg-teal-100 text-teal-800"
           items={clusterCondominio}
         />
         <Section
-          title="Cluster SEO: Renovação Restaurante"
+          title="Renovação Restaurante"
           color="bg-rose-100 text-rose-800"
           items={clusterRestaurante}
         />

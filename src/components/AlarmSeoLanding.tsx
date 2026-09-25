@@ -321,7 +321,7 @@ export default function AlarmSeoLanding({ page }: AlarmSeoLandingProps) {
             </div>
             <div className="bg-slate-50 border border-slate-200 p-8 rounded-2xl">
               <h3 className="text-2xl font-black text-slate-950 mb-5 uppercase italic">
-                Links relacionados do silo
+                Veja também
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[...page.related, { label: "Alarme de incêndio SP", href: "/alarme-incendio-sao-paulo" }, { label: "Manutenção de alarme", href: "/manutencao-alarme-de-incendio-sao-paulo" }, { label: "AVCB São Paulo", href: "/avcb-sao-paulo" }].map((item, i) => (

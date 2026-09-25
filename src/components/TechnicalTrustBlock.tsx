@@ -11,7 +11,7 @@ type TrustItem = {
 const trustItems: TrustItem[] = [
   {
     icon: ShieldCheck,
-    title: "Responsavel técnico",
+    title: "Responsável técnico",
     text: (
       <>
         Eng. Samuel Costa,{" "}
@@ -24,24 +24,24 @@ const trustItems: TrustItem[] = [
         >
           CREA-SP 5070163570
         </a>
-        , responsavel por análises, laudos e acompanhamento técnico.
+        , responsável por análises, laudos e acompanhamento técnico.
       </>
     ),
   },
   {
     icon: Building2,
     title: "Empresa identificada",
-    text: "DRD2 Engenharia LTDA, CNPJ 51.774.619/0001-94, base operacional em Sao Paulo capital.",
+    text: "DRD2 Engenharia LTDA, CNPJ 51.774.619/0001-94, base em São Paulo capital.",
   },
   {
     icon: ClipboardCheck,
-    title: "Metodo de aprovação",
-    text: "Diagnóstico, conferencia documental, adequacoes, protocolo no Via Fácil Bombeiros e resposta a Comunique-se.",
+    title: "Como conduzimos o processo",
+    text: "Diagnóstico, conferência dos documentos, adequações, protocolo no Via Fácil Bombeiros e resposta a Comunique-se até a emissão do certificado.",
   },
   {
     icon: FileCheck2,
-    title: "Escopo técnico",
-    text: "AVCB, CLCB, renovacao, projeto técnico, hidrantes, sprinklers, alarme, SPDA, gas e brigada.",
+    title: "O que fazemos",
+    text: "AVCB, CLCB, renovação, projeto técnico, hidrantes, sprinklers, alarme, SPDA, gás e brigada.",
   },
 ];
 
@@ -51,13 +51,13 @@ export default function TechnicalTrustBlock() {
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
           <div className="lg:col-span-4">
-            <span className="text-red-600 font-black text-[10px] uppercase tracking-[0.3em]">EEAT técnico</span>
+            <span className="text-red-600 font-black text-[10px] uppercase tracking-[0.3em]">Quem cuida do seu processo</span>
             <h2 className="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tighter mt-4 mb-5">
-              Engenharia identificada, processo rastreavel e atendimento local
+              Engenheiro responsável, empresa registrada e atendimento em SP
             </h2>
             <p className="text-slate-600 font-medium leading-relaxed">
-              Paginas de AVCB precisam provar quem assina, onde atende e como conduz o processo. A DRD2 deixa essas
-              informacoes visiveis para reduzir risco comercial, aumentar confianca e fortalecer a entidade local.
+              Você sabe exatamente quem assina o seu projeto: engenheiro com CREA ativo, empresa com CNPJ e
+              acompanhamento direto do diagnóstico até o certificado do Corpo de Bombeiros.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link href="/sobre" className="inline-flex items-center gap-2 bg-slate-950 text-white px-5 py-3 rounded-xl text-xs font-black uppercase">

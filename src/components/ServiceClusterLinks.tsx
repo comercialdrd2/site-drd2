@@ -80,22 +80,22 @@ export default function ServiceClusterLinks({ currentSlug }: ServiceClusterLinks
   const isClusterService = cluster.some((item) => item.slug === currentSlug);
   const related = isHub ? cluster : [hub, nextService(currentSlug), ...cluster.filter((item) => item.slug !== currentSlug && item.slug !== nextService(currentSlug).slug).slice(0, 4)];
   const title = isHub
-    ? "Cluster completo de segurança contra incêndio"
+    ? "Tudo o que o Corpo de Bombeiros pode exigir"
     : isClusterService
-      ? "Este servico faz parte do cluster AVCB"
-      : "Servicos técnicos ligados ao AVCB";
+      ? "Serviços que andam junto com o AVCB"
+      : "Serviços técnicos ligados ao AVCB";
   const intro = isHub
-    ? "O AVCB e a página pilar. Ele conecta os sistemas técnicos que o Corpo de Bombeiros verifica em projeto, vistoria e renovacao."
+    ? "Para tirar ou renovar o AVCB, cada sistema do prédio precisa estar em ordem. A DRD2 cuida de todos eles na mesma obra."
     : isClusterService
-      ? "Nenhum sistema trabalha isolado. Para ganhar autoridade de tema e orientar o usuario, esta página aponta para o hub AVCB e para o proximo sistema técnico do silo."
-      : "Esta página tambem faz parte do tema de regularização contra incêndio. Por isso, aponta para o hub AVCB e para os sistemas técnicos que sustentam a aprovação no Corpo de Bombeiros.";
+      ? "Nenhum sistema funciona sozinho. Veja os outros serviços que o Corpo de Bombeiros costuma exigir junto com este para aprovar o AVCB."
+      : "Veja também os sistemas que o Corpo de Bombeiros verifica para aprovar o AVCB do seu imóvel.";
 
   return (
     <section className="py-20 bg-slate-950 text-white border-y border-slate-800">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
           <div className="lg:col-span-4">
-            <span className="text-red-500 font-black text-[10px] uppercase tracking-[0.3em]">Silo técnico DRD2</span>
+            <span className="text-red-500 font-black text-[10px] uppercase tracking-[0.3em]">Serviços relacionados</span>
             <h2 className="text-3xl md:text-4xl font-black uppercase italic tracking-tighter mt-4 mb-5 leading-none">
               {title}
             </h2>

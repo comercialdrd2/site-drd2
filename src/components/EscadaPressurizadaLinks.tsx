@@ -147,7 +147,7 @@ export default function EscadaPressurizadaLinks({ currentSlug }: EscadaLinksProp
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="mb-10">
           <span className="text-red-600 font-black text-[10px] uppercase tracking-[0.3em] mb-3 block">
-            Silo de Escada Pressurizada — DRD2
+            Escada pressurizada: páginas relacionadas
           </span>
           <h2 className="text-3xl md:text-4xl font-black text-slate-950 uppercase italic tracking-tight leading-none mb-3">
             Tudo sobre escada pressurizada em São Paulo

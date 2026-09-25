@@ -252,7 +252,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
                   </>
                 )}
                 <p>
-                  A DRD2 conecta a página local ao silo técnico do site: <Link href="/projetos-incendio" className="text-red-700 font-black underline">projeto de incêndio</Link>, <Link href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme</Link>, <Link href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link href="/spda" className="text-red-700 font-black underline">SPDA</Link> e <Link href="/treinamento-brigada" className="text-red-700 font-black underline">brigada</Link>. Isso ajuda o cliente a entender o problema e ajuda o Google a reconhecer autoridade tematica.
+                  Além do AVCB, a DRD2 cuida de todos os sistemas exigidos na região: <Link href="/projetos-incendio" className="text-red-700 font-black underline">projeto de incêndio</Link>, <Link href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme</Link>, <Link href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link href="/spda" className="text-red-700 font-black underline">SPDA</Link> e <Link href="/treinamento-brigada" className="text-red-700 font-black underline">brigada</Link>. Isso ajuda o cliente a entender o problema e ajuda o Google a reconhecer autoridade tematica.
                 </p>
               </div>
             </div>

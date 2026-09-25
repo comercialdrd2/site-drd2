@@ -161,7 +161,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-16 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center text-[10px] font-black uppercase tracking-[0.2em] text-slate-600">
-          <p>© {new Date().getFullYear()} DRD2 ENGENHARIA. CÓDIGO E SEO PROTEGIDOS.</p>
+          <p>© {new Date().getFullYear()} DRD2 ENGENHARIA LTDA. TODOS OS DIREITOS RESERVADOS.</p>
           <div className="mt-4 md:mt-0 space-x-6">
             <Link href="/clcb-sao-paulo" className="hover:text-white transition-colors">CLCB Rápido</Link>
             <Link href="/renovacao-avcb-condominio-sao-paulo" className="hover:text-white transition-colors">Renovação</Link>

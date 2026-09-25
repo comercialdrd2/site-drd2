@@ -318,7 +318,7 @@ export default function FireProjectSeoLanding({ page }: FireProjectSeoLandingPro
             </div>
             <div className="bg-slate-50 border border-slate-200 p-8 rounded-2xl">
               <h3 className="text-2xl font-black text-slate-950 mb-5 uppercase italic">
-                Links relacionados do silo
+                Veja também
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[...page.related, { label: "Projetos de incêndio", href: "/projetos-incendio" }, { label: "Renovação AVCB", href: "/renovacao-avcb" }, { label: "Manutenção", href: "/manutencao" }].map((item, i) => (
