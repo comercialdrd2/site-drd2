@@ -95,6 +95,7 @@ export default function Footer() {
               <li><Link href="/laudo-sprinkler-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Laudo de Sprinkler SP</Link></li>
               <li><Link href="/porta-corta-fogo-condominio-sp" className="hover:text-primary transition-colors flex items-center gap-2">▶ Porta Corta-Fogo Condomínio</Link></li>
               <li><Link href="/sistema-de-hidrantes-para-restaurante-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Hidrante para Restaurante</Link></li>
+              <li><Link href="/avcb-por-tipo-de-imovel" className="hover:text-primary transition-colors flex items-center gap-2 text-white font-black">▶ Ver todos os tipos de imóvel</Link></li>
             </ul>
           </div>
 
@@ -116,6 +117,7 @@ export default function Footer() {
               <li><Link href="/ptotep-para-evento-em-igreja" className="hover:text-primary transition-colors flex items-center gap-2">▶ PTOTEP Evento em Igreja</Link></li>
               <li><Link href="/vga-galpao-industrial-sp" className="hover:text-primary transition-colors flex items-center gap-2">▶ VGA Galpão Industrial</Link></li>
               <li><Link href="/vga-hotel-sp" className="hover:text-primary transition-colors flex items-center gap-2">▶ VGA Hotel SP</Link></li>
+              <li><Link href="/avcb-clcb-por-regiao" className="hover:text-primary transition-colors flex items-center gap-2 text-white font-black">▶ Ver todos os bairros e cidades</Link></li>
             </ul>
           </div>
 
@@ -166,6 +168,8 @@ export default function Footer() {
             <Link href="/clcb-sao-paulo" className="hover:text-white transition-colors">CLCB Rápido</Link>
             <Link href="/renovacao-avcb-condominio-sao-paulo" className="hover:text-white transition-colors">Renovação</Link>
             <Link href="/blog" className="hover:text-white transition-colors">Dossiês DRD2</Link>
+            <Link href="/avcb-clcb-por-regiao" className="hover:text-white transition-colors">Regiões atendidas</Link>
+            <Link href="/avcb-por-tipo-de-imovel" className="hover:text-white transition-colors">Tipos de imóvel</Link>
             <Link href="/mapa-paginas" className="hover:text-white transition-colors">Mapa do Site</Link>
             <Link href="/politica-de-privacidade" className="hover:text-white transition-colors">Privacidade</Link>
           </div>

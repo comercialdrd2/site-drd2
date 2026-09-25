@@ -3,6 +3,8 @@ import path from "path";
 import { blogPosts } from "@/data/blog";
 import { servicesData } from "@/data/services";
 import type { MetadataRoute } from "next";
+// Data real da última alteração de cada página (gerada por scripts/gerar-lastmod.cjs).
+import lastmodPorRota from "@/data/lastmod.json";
 
 // ============================================================================
 // SITEMAP SEGMENTADO — Next 14 generateSitemaps
@@ -126,8 +128,11 @@ function walkPages(dir: string, pages: PageEntry[] = []): PageEntry[] {
       continue;
     }
     if (entry.isFile() && entry.name === "page.tsx") {
-      const mtime = fs.statSync(fullPath).mtime.toISOString();
-      pages.push({ route: routeFromPath(fullPath), mtime });
+      // Não usar a data do arquivo: na Vercel o repositório é clonado a cada deploy
+      // e todas as páginas sairiam com a data do deploy.
+      const route = routeFromPath(fullPath);
+      const mtime = (lastmodPorRota as Record<string, string>)[route] ?? MAIN_LAST_MOD;
+      pages.push({ route, mtime });
     }
   }
   return pages;

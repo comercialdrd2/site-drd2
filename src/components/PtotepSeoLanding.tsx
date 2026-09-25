@@ -25,10 +25,10 @@ type Props = {
 };
 
 const kindLabel: Record<PtotepPage["kind"], string> = {
-  principal: "Guia principal",
-  evento: "Pagina por tipo de evento",
-  cidade: "Pagina por cidade",
-  duvida: "Pagina de duvida",
+  principal: "Guia completo de PTOTEP",
+  evento: "PTOTEP por tipo de evento",
+  cidade: "PTOTEP na sua cidade",
+  duvida: "Dúvidas sobre PTOTEP",
 };
 
 export function generatePtotepMetadata(page: PtotepPage) {
@@ -45,57 +45,57 @@ export function generatePtotepMetadata(page: PtotepPage) {
 function getTechnicalDepth(page: PtotepPage) {
   const subject = page.label.toLowerCase();
   const primaryContext = page.context[0] ?? page.focus;
-  const primaryRisk = page.risks[0] ?? "layout temporario sem leitura tecnica antes da montagem";
-  const primaryDocument = page.documents[0] ?? "documentos tecnicos do evento e da edificacao permanente";
+  const primaryRisk = page.risks[0] ?? "layout temporário sem leitura técnica antes da montagem";
+  const primaryDocument = page.documents[0] ?? "documentos técnicos do evento e da edificação permanente";
 
   if (page.kind === "cidade") {
     const city = page.label.replace(/^PTOTEP\s+/i, "");
     return {
-      title: `Como a analise muda em ${city}`,
+      title: `Como a análise muda em ${city}`,
       intro:
-        `Em ${city}, a regularizacao de evento temporario precisa considerar o perfil real dos locais usados para feiras, shows, convencoes, igrejas, universidades, clubes, hoteis e shoppings. A mesma montagem pode ser simples em um salao preparado para eventos e complexa em uma area improvisada de shopping, patio, garagem, auditorio ou galpao. Por isso, a DRD2 nao trata PTOTEP como formulario padrao: primeiro identifica a licenca existente, a rota de fuga do imovel, a lotacao prevista e o impacto da ocupacao temporaria sobre as medidas de seguranca ja aprovadas.`,
+        `Em ${city}, a regularização de evento temporário precisa considerar o perfil real dos locais usados para feiras, shows, convenções, igrejas, universidades, clubes, hoteis e shoppings. A mesma montagem pode ser simples em um salão preparado para eventos e complexa em uma área improvisada de shopping, patio, garagem, auditorio ou galpão. Por isso, a DRD2 não trata PTOTEP como formulario padrão: primeiro identifica a licença existente, a rota de fuga do imóvel, a lotação prevista e o impacto da ocupação temporária sobre as medidas de segurança já aprovadas.`,
       details: [
         primaryContext,
-        `O ponto de maior atencao costuma ser ${primaryRisk}. Quando essa leitura fica para a vespera, o organizador perde tempo para corrigir layout, pedir ART de fornecedor, reposicionar fila, mudar acesso ou complementar sinalizacao.`,
-        `Antes do protocolo, conferimos ${primaryDocument}, layout, publico, montagem, documentos de fornecedores e compatibilidade com o uso permanente do local. Essa etapa reduz risco de Comunique-se e evita que a montagem final fique diferente do que foi analisado tecnicamente.`,
+        `O ponto de maior atenção costuma ser ${primaryRisk}. Quando essa leitura fica para a vespera, o organizador perde tempo para corrigir layout, pedir ART de fornecedor, reposicionar fila, mudar acesso ou complementar sinalização.`,
+        `Antes do protocolo, conferimos ${primaryDocument}, layout, público, montagem, documentos de fornecedores e compatibilidade com o uso permanente do local. Essa etapa reduz risco de Comunique-se e evita que a montagem final fique diferente do que foi analisado tecnicamente.`,
       ],
     };
   }
 
   if (page.kind === "duvida") {
     return {
-      title: `Resposta tecnica para ${subject}`,
+      title: `Resposta técnica para ${subject}`,
       intro:
-        `Perguntas sobre PTOTEP normalmente aparecem quando o evento ja tem data, fornecedor e local definidos. O problema e que custo, prazo, documentos, diferenca entre AVCB e PTOTEP e necessidade de ocupacao temporaria dependem de uma mesma base tecnica: o que o evento muda no imovel permanente. Sem essa leitura, a resposta vira chute e o processo pode nascer incompleto.`,
+        `Perguntas sobre PTOTEP normalmente aparecem quando o evento já tem data, fornecedor e local definidos. O problema e que custo, prazo, documentos, diferença entre AVCB e PTOTEP e necessidade de ocupação temporária dependem de uma mesma base técnica: o que o evento muda no imóvel permanente. Sem essa leitura, a resposta vira chute e o processo pode nascer incompleto.`,
       details: [
         page.focus,
-        `Na pratica, avaliamos ${primaryContext}. Depois cruzamos essa informacao com publico estimado, controle de acesso, palco, stands, gerador, GLP, eletrica temporaria, rotas de fuga e regras internas do local.`,
-        `O risco mais comum e ${primaryRisk}. Por isso, a orientacao correta nao e apenas dizer se precisa ou nao precisa: e apontar quais documentos devem entrar, quais ajustes precisam ocorrer antes da montagem e qual caminho reduz atraso perto da data do evento.`,
+        `Na pratica, avaliamos ${primaryContext}. Depois cruzamos essa informação com público estimado, controle de acesso, palco, stands, gerador, GLP, elétrica temporária, rotas de fuga e regras internas do local.`,
+        `O risco mais comum e ${primaryRisk}. Por isso, a orientação correta não e apenas dizer se precisa ou não precisa: e apontar quais documentos devem entrar, quais ajustes precisam ocorrer antes da montagem e qual caminho reduz atraso perto da data do evento.`,
       ],
     };
   }
 
   if (page.kind === "evento") {
     return {
-      title: `Leitura especifica para ${subject}`,
+      title: `Leitura específica para ${subject}`,
       intro:
-        `Cada tipo de evento cria uma ocupacao temporaria diferente. Feira, show, exposicao, evento corporativo, ativacao em shopping, festival, food park, evento esportivo e evento universitario nao devem receber o mesmo checklist. O nome ajuda na busca, mas o que define a regularizacao e o conjunto formado por publico, layout, estrutura, energia, rotas e documentos.`,
+        `Cada tipo de evento cria uma ocupação temporária diferente. Feira, show, exposição, evento corporativo, ativação em shopping, festival, food park, evento esportivo e evento universitário não devem receber o mesmo checklist. O que define a regularização é o conjunto formado por público, layout, estrutura, energia, rotas e documentos.`,
       details: [
         page.focus,
-        `Nesta pagina, o risco central e ${primaryRisk}. Esse ponto precisa aparecer no projeto porque interfere diretamente na seguranca do publico e na preservacao do AVCB ou da licenca existente da edificacao permanente.`,
-        `A DRD2 organiza ${primaryDocument}, memoriais, ARTs/RRTs, plantas e orientacoes de montagem para que o evento nao seja avaliado apenas no papel. O objetivo e fazer o desenho tecnico conversar com o que sera montado no dia, reduzindo divergencia entre projeto, vistoria e operacao.`,
+        `Neste tipo de evento, o risco central é ${primaryRisk}. Esse ponto precisa aparecer no projeto porque interfere diretamente na segurança do público e na preservação do AVCB ou da licença existente da edificação permanente.`,
+        `A DRD2 organiza ${primaryDocument}, memoriais, ARTs/RRTs, plantas e orientações de montagem para que o evento não seja avaliado apenas no papel. O objetivo e fazer o desenho técnico conversar com o que será montado no dia, reduzindo divergência entre projeto, vistoria e operação.`,
       ],
     };
   }
 
   return {
-    title: "Camada tecnica que sustenta o PTOTEP",
+    title: "Camada técnica que sustenta o PTOTEP",
     intro:
-      "O PTOTEP precisa demonstrar que a ocupacao temporaria nao compromete a seguranca da edificacao permanente. Isso exige mais do que descrever o evento: e necessario conectar licenca existente, uso aprovado, publico estimado, layout temporario, rotas de fuga, estruturas, fornecedores e responsabilidades tecnicas.",
+      "O PTOTEP precisa demonstrar que a ocupação temporária não compromete a segurança da edificação permanente. Isso exige mais do que descrever o evento: e necessário conectar licença existente, uso aprovado, público estimado, layout temporário, rotas de fuga, estruturas, fornecedores e responsabilidades técnicas.",
     details: [
       page.focus,
-      `O ponto de atencao inicial e ${primaryContext}. A partir dele, verificamos se palco, stands, filas, areas VIP, credenciamento, cozinha, gerador, GLP ou estruturas provisorias alteram a logica original do imovel.`,
-      `O risco mais comum e ${primaryRisk}. Quando o projeto nasce antes da montagem, ainda existe tempo para ajustar layout, solicitar documentos e alinhar fornecedores. Quando nasce depois, qualquer correcao vira urgencia e pode afetar a data do evento.`,
+      `O ponto de atenção inicial e ${primaryContext}. A partir dele, verificamos se palco, stands, filas, áreas VIP, credenciamento, cozinha, gerador, GLP ou estruturas provisorias alteram a logica original do imóvel.`,
+      `O risco mais comum e ${primaryRisk}. Quando o projeto nasce antes da montagem, ainda existe tempo para ajustar layout, solicitar documentos e alinhar fornecedores. Quando nasce depois, qualquer correção vira urgência e pode afetar a data do evento.`,
     ],
   };
 }
@@ -176,19 +176,19 @@ export default function PtotepSeoLanding({ page }: Props) {
       <section className="bg-white py-20">
         <div className="container mx-auto px-4 max-w-6xl">
           <p className="text-xs font-black uppercase tracking-[0.2em] text-red-600 mb-4">
-            Leitura tecnica do evento
+            Leitura técnica do evento
           </p>
           <h2 className="text-3xl md:text-5xl font-black text-slate-950 uppercase italic tracking-tight leading-none mb-7 max-w-4xl">
-            O PTOTEP protege o evento e a licenca do local
+            O PTOTEP protege o evento e a licença do local
           </h2>
           <p className="text-lg text-slate-700 font-medium leading-relaxed max-w-4xl">
             {page.focus}
           </p>
           <div className="mt-9 grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { icon: Building2, title: "Edificacao", text: "licenca vigente, uso aprovado e sistemas existentes" },
-              { icon: Users, title: "Publico", text: "lotacao, acesso, filas, rotas e areas de concentracao" },
-              { icon: CalendarCheck, title: "Evento", text: "montagem temporaria, fornecedores, prazo e vistoria" },
+              { icon: Building2, title: "Edificacao", text: "licença vigente, uso aprovado e sistemas existentes" },
+              { icon: Users, title: "Publico", text: "lotação, acesso, filas, rotas e áreas de concentração" },
+              { icon: CalendarCheck, title: "Evento", text: "montagem temporária, fornecedores, prazo e vistoria" },
             ].map((item) => (
               <div key={item.title} className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
                 <item.icon className="h-7 w-7 text-red-600 mb-4" />
@@ -231,13 +231,13 @@ export default function PtotepSeoLanding({ page }: Props) {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
             <div className="lg:col-span-5">
               <p className="text-xs font-black uppercase tracking-[0.2em] text-red-500 mb-4">
-                Risco de reprovacao
+                Risco de reprovação
               </p>
               <h2 className="text-3xl md:text-5xl font-black uppercase italic tracking-tight leading-none">
                 {page.riskTitle}
               </h2>
               <p className="mt-6 text-slate-300 font-medium leading-relaxed">
-                A maior parte das pendencias aparece quando layout, fornecedores e documentos caminham separados. O projeto precisa transformar a operacao do evento em informacao tecnica verificavel.
+                A maior parte das pendencias aparece quando layout, fornecedores e documentos caminham separados. O projeto precisa transformar a operação do evento em informação técnica verificavel.
               </p>
             </div>
             <div className="lg:col-span-7">
@@ -259,7 +259,7 @@ export default function PtotepSeoLanding({ page }: Props) {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-5">
               <p className="text-xs font-black uppercase tracking-[0.2em] text-red-600 mb-4">
-                Profundidade tecnica
+                Profundidade técnica
               </p>
               <h2 className="text-3xl md:text-5xl font-black text-slate-950 uppercase italic tracking-tight leading-none">
                 {technicalDepth.title}
@@ -287,10 +287,10 @@ export default function PtotepSeoLanding({ page }: Props) {
                   Como isso evita projeto fraco e retrabalho
                 </h3>
                 <p className="text-slate-300 font-medium leading-relaxed">
-                  A analise mostra o que muda na operacao e transforma essa leitura em documento: planta, memoriais,
-                  ARTs, checklist de montagem, orientacao de fornecedores e resposta a exigencias. Assim, o organizador
-                  antecipa riscos antes de contratar estrutura, congelar layout ou iniciar montagem, e a equipe tecnica
-                  consegue definir prazo, custo e caminho de aprovacao com menos incerteza.
+                  A análise mostra o que muda na operação e transforma essa leitura em documento: planta, memoriais,
+                  ARTs, checklist de montagem, orientação de fornecedores e resposta a exigências. Assim, o organizador
+                  antecipa riscos antes de contratar estrutura, congelar layout ou iniciar montagem, e a equipe técnica
+                  consegue definir prazo, custo e caminho de aprovação com menos incerteza.
                 </p>
               </div>
             </div>
@@ -324,7 +324,7 @@ export default function PtotepSeoLanding({ page }: Props) {
                 Checklist documental
               </p>
               <h2 className="text-3xl md:text-5xl font-black text-slate-950 uppercase italic tracking-tight leading-none mb-8">
-                Documentos que entram na analise
+                Documentos que entram na análise
               </h2>
               <div className="space-y-4">
                 {page.documents.map((doc) => (
@@ -343,10 +343,10 @@ export default function PtotepSeoLanding({ page }: Props) {
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <ClipboardCheck className="mx-auto mb-5 h-12 w-12 text-red-200" />
           <h2 className="text-3xl md:text-5xl font-black uppercase italic tracking-tight leading-none">
-            Evento temporario nao combina com improviso
+            Evento temporário não combina com improviso
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-red-100 font-medium leading-relaxed">
-            Antes de fechar fornecedor, mapa final ou data de montagem, valide o enquadramento tecnico. Uma decisao pequena no layout pode evitar exigencia grande no protocolo.
+            Antes de fechar fornecedor, mapa final ou data de montagem, valide o enquadramento técnico. Uma decisão pequena no layout pode evitar exigência grande no protocolo.
           </p>
           <div className="mt-8">
             <CtaWhatsApp

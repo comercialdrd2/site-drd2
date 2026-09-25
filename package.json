@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "generate-pages": "node scripts/generate-bairro-pages.js"
+    "generate-pages": "node scripts/generate-bairro-pages.js",
+    "lastmod": "node scripts/gerar-lastmod.cjs"
   },
   "dependencies": {
     "lucide-react": "^0.395.0",

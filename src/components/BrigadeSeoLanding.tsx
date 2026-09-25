@@ -106,7 +106,7 @@ export default function BrigadeSeoLanding({ page }: BrigadeSeoLandingProps) {
                 href="/treinamento-brigada"
                 className="bg-white/10 hover:bg-white/20 text-white font-black px-8 py-4 rounded-2xl transition-all flex sm:inline-flex items-center justify-center gap-3 uppercase tracking-tighter text-base w-full sm:w-auto border border-white/20"
               >
-                Ver página pilar de brigada
+                Ver guia completo de brigada
               </Link>
             </div>
           </div>

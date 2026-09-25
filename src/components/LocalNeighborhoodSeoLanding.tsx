@@ -43,9 +43,9 @@ function pageCopy(neighborhood: LocalNeighborhoodSeoPage, mode: Mode) {
         slug: `/renovacao-avcb-${n.slug}`,
         title: `Renovação AVCB ${n.name} SP`,
         description: `Renovação de AVCB no ${n.name} para imóveis do tipo ${n.profile}. Atendemos a ${n.zone} com projetos, laudos, ARTs e vistoria técnica.`,
-        h1: `Renovação AVCB ${n.name}: laudos, vistoria e regularizacao`,
-        serviceName: `Renovacao de AVCB em ${n.name}`,
-        hero: `Renovacao de AVCB em ${n.name} com revisao de laudos, sistemas de incendio, ARTs, projeto aprovado e preparação para vistoria.`,
+        h1: `Renovação de AVCB em ${n.name}: laudos, vistoria e regularização`,
+        serviceName: `Renovação de AVCB em ${n.name}`,
+        hero: `Renovação de AVCB em ${n.name} com revisão de laudos, sistemas de incêndio, ARTs, projeto aprovado e preparação para a vistoria.`,
         pillarHref: "/renovacao-avcb",
         pillarLabel: "Renovação AVCB",
       };
@@ -57,9 +57,9 @@ function pageCopy(neighborhood: LocalNeighborhoodSeoPage, mode: Mode) {
         slug: mode === "clcb" ? `/renovacao-clcb-${n.slug}-sao-paulo` : `/renovacao-clcb-${n.slug}`,
         title: `Renovação CLCB ${n.name} SP | Licença Corpo de Bombeiros`,
         description: `Renovação de CLCB no ${n.name} (${n.zone}) para comércios e imóveis de menor risco: ${n.buildings.slice(0, 3).join(", ")}. Processo com engenheiro, ART e emissão pelo Via Fácil Bombeiros.`,
-        h1: `Renovação CLCB ${n.name}: licenca do Corpo de Bombeiros para seu comercio`,
-        serviceName: `Renovacao de CLCB em ${n.name}`,
-        hero: `Renovacao de CLCB em ${n.name} para imóveis de menor risco: conferencia de enquadramento, medidas de seguranca, ART e emissao pelo Via Facil Bombeiros, sem travar a operacao do seu negocio.`,
+        h1: `Renovação de CLCB em ${n.name}: licença do Corpo de Bombeiros para o seu comércio`,
+        serviceName: `Renovação de CLCB em ${n.name}`,
+        hero: `Renovação de CLCB em ${n.name} para imóveis de menor risco: conferência de enquadramento, medidas de segurança, ART e emissão pelo Via Fácil Bombeiros, sem travar a operação do seu negócio.`,
         pillarHref: "/renovacao-clcb-sao-paulo",
         pillarLabel: "Renovação CLCB",
       };
@@ -70,9 +70,9 @@ function pageCopy(neighborhood: LocalNeighborhoodSeoPage, mode: Mode) {
         slug: `/renovacao-avcb-condominio-${n.slug}`,
         title: `Renovação AVCB Condomínio ${n.name} SP`,
         description: `Renovação de AVCB para condomínios no ${n.name} (${n.zone}). Atendimento a síndicos e administradoras: laudos, ARTs, adequações e acompanhamento da vistoria do Corpo de Bombeiros.`,
-        h1: `Renovação AVCB de condominio em ${n.name}`,
-        serviceName: `Renovacao de AVCB de condominio em ${n.name}`,
-        hero: `Renovacao de AVCB de condominios em ${n.name}: revisao de hidrantes, alarme, iluminacao de emergencia e portas corta-fogo, com laudos, ARTs e acompanhamento da vistoria — tudo reportado ao sindico.`,
+        h1: `Renovação de AVCB de condomínio em ${n.name}`,
+        serviceName: `Renovação de AVCB de condomínio em ${n.name}`,
+        hero: `Renovação de AVCB de condomínios em ${n.name}: revisão de hidrantes, alarme, iluminação de emergência e portas corta-fogo, com laudos, ARTs e acompanhamento da vistoria — tudo reportado ao síndico.`,
         pillarHref: "/avcb-para-condominio-sao-paulo",
         pillarLabel: "AVCB para Condomínio",
       };
@@ -83,9 +83,9 @@ function pageCopy(neighborhood: LocalNeighborhoodSeoPage, mode: Mode) {
         slug: `/avcb-${n.slug}`,
         title: `AVCB ${n.name} SP | Regularização Bombeiros`,
         description: `Regularização e emissão de AVCB no bairro ${n.name} (${n.zone}). Especialistas em adequação de ${n.profile} com engenharia completa.`,
-        h1: `AVCB ${n.name}: regularizacao com engenheiro em Sao Paulo`,
+        h1: `AVCB em ${n.name}: regularização com engenheiro em São Paulo`,
         serviceName: `AVCB em ${n.name}`,
-        hero: `Regularizacao de AVCB e CLCB em ${n.name} com diagnostico tecnico, projeto, laudos, ARTs e acompanhamento junto ao Corpo de Bombeiros.`,
+        hero: `Regularização de AVCB e CLCB em ${n.name} com diagnóstico técnico, projeto, laudos, ARTs e acompanhamento junto ao Corpo de Bombeiros.`,
         pillarHref: "/avcb-sao-paulo",
         pillarLabel: "AVCB São Paulo",
       };
@@ -119,23 +119,23 @@ function faqsFor(neighborhood: LocalNeighborhoodSeoPage, mode: Mode, useRichData
       question: isRenewal
         ? `Quanto tempo leva para renovar ${docName} em ${neighborhood.name}?`
         : `Quanto tempo leva para tirar ${docName} em ${neighborhood.name}?`,
-      answer: `O prazo depende de area, ocupacao, sistemas existentes, pendencias de laudo e necessidade de projeto. Em ${neighborhood.name}, o ideal e iniciar com diagnostico documental e vistoria tecnica para evitar exigencias previsiveis no CBPMESP.`,
+      answer: `O prazo depende de área, ocupação, sistemas existentes, pendências de laudo e necessidade de projeto. Em ${neighborhood.name}, o ideal é começar com diagnóstico documental e vistoria técnica para evitar exigências previsíveis no CBPMESP.`,
     },
     {
-      question: `Quais documentos normalmente sao exigidos em ${neighborhood.name}?`,
-      answer: "Planta ou croqui, dados do imóvel, CNPJ ou responsavel, laudos de sistemas, ARTs, manutenção de extintores, alarme, hidrantes, SPDA, gas quando houver, brigada e documentos do projeto aprovado quando aplicavel.",
+      question: `Quais documentos normalmente são exigidos em ${neighborhood.name}?`,
+      answer: "Planta ou croqui, dados do imóvel, CNPJ ou responsável, laudos de sistemas, ARTs, manutenção de extintores, alarme, hidrantes, SPDA, gás quando houver, brigada e documentos do projeto aprovado quando aplicável.",
     },
     {
       question: `A DRD2 atende presencialmente em ${neighborhood.name}?`,
-      answer: `Sim. A DRD2 atende o bairro ${neighborhood.name} e regioes proximas como ${neighborhood.nearby.join(", ")}, com diagnostico tecnico, orientacao documental, adequacoes e acompanhamento do processo.`,
+      answer: `Sim. A DRD2 atende ${neighborhood.name} e regiões próximas, como ${neighborhood.nearby.join(", ")}, com diagnóstico técnico, orientação documental, adequações e acompanhamento do processo.`,
     },
     {
       question: `${docName} vencido pode gerar multa ou interdição?`,
-      answer: `Sim. ${docName} vencido aumenta risco de autuacao, interdição, recusa de seguro, problema com alvará e responsabilidade civil em caso de sinistro. A renovacao deve ser iniciada antes do vencimento.`,
+      answer: `Sim. ${docName} vencido aumenta o risco de autuação, interdição, recusa de seguro, problema com alvará e responsabilidade civil em caso de sinistro. A renovação deve começar antes do vencimento.`,
     },
     {
       question: "Como saber se o imóvel precisa de AVCB ou CLCB?",
-      answer: "A definicao depende de área, altura, ocupação, risco, lotação e sistemas obrigatórios. A DRD2 avalia o enquadramento para evitar protocolo incorreto, que costuma gerar atraso e retrabalho.",
+      answer: "A definição depende de área, altura, ocupação, risco, lotação e sistemas obrigatórios. A DRD2 avalia o enquadramento para evitar protocolo incorreto, que costuma gerar atraso e retrabalho.",
     },
   ];
 }
@@ -202,7 +202,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
                 href={copy.pillarHref}
                 className="bg-white/10 hover:bg-white/20 text-white font-black px-8 py-4 rounded-2xl transition-all flex sm:inline-flex items-center justify-center gap-3 uppercase tracking-tighter text-base w-full sm:w-auto border border-white/20"
               >
-                Ver página pilar
+                Ver {copy.pillarLabel}
               </Link>
             </div>
           </div>
@@ -243,16 +243,16 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
                 ) : (
                   <>
                     <p>
-                      {neighborhood.name} e um bairro da {neighborhood.zone} com perfil de {neighborhood.profile}. Esse contexto muda o caminho do AVCB porque o Corpo de Bombeiros avalia uso real, lotação, sistemas instalados, rotas de fuga e documentos técnicos, não apenas o nome do bairro no endereco.
+                      {neighborhood.name} é um bairro da {neighborhood.zone} com perfil de {neighborhood.profile}. Esse contexto muda o caminho do AVCB porque o Corpo de Bombeiros avalia uso real, lotação, sistemas instalados, rotas de fuga e documentos técnicos, não apenas o nome do bairro no endereço.
                     </p>
                     <p>
-                      As referencias locais mais importantes para o diagnóstico sao {neighborhood.localRefs.join(", ")}. Em imóveis perto desses eixos, e comum encontrar reformas, ampliacoes, mudancas de uso, aumento de público e sistemas de segurança que não acompanharam a operacao atual.
+                      As referências locais mais importantes para o diagnóstico são {neighborhood.localRefs.join(", ")}. Em imóveis perto desses eixos, é comum encontrar reformas, ampliações, mudanças de uso, aumento de público e sistemas de segurança que não acompanharam a operação atual.
                     </p>
                     <p>{neighborhood.urgency}</p>
                   </>
                 )}
                 <p>
-                  Além do AVCB, a DRD2 cuida de todos os sistemas exigidos na região: <Link href="/projetos-incendio" className="text-red-700 font-black underline">projeto de incêndio</Link>, <Link href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme</Link>, <Link href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link href="/spda" className="text-red-700 font-black underline">SPDA</Link> e <Link href="/treinamento-brigada" className="text-red-700 font-black underline">brigada</Link>. Isso ajuda o cliente a entender o problema e ajuda o Google a reconhecer autoridade tematica.
+                  Além do AVCB, a DRD2 cuida de todos os sistemas exigidos na região: <Link href="/projetos-incendio" className="text-red-700 font-black underline">projeto de incêndio</Link>, <Link href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme</Link>, <Link href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link href="/spda" className="text-red-700 font-black underline">SPDA</Link> e <Link href="/treinamento-brigada" className="text-red-700 font-black underline">brigada</Link>, para que o imóvel chegue à vistoria com tudo resolvido.
                 </p>
               </div>
             </div>
@@ -278,7 +278,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
               Tipos de imóvel mais comuns no bairro
             </h2>
             <p className="text-lg text-slate-600 font-medium max-w-3xl mx-auto mt-4">
-              Cada tipo de ocupação muda o enquadramento, os laudos e o prazo. Por isso a página precisa ser local e técnica ao mesmo tempo.
+              Cada tipo de ocupação muda o enquadramento, os laudos e o prazo. Por isso analisamos cada imóvel individualmente antes de protocolar no Corpo de Bombeiros.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -297,17 +297,17 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             <div>
               <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-7 uppercase italic tracking-tight">
-                O que pode travar {copy.isRenewal ? "a renovacao" : "a emissão"} do {copy.docName}
+                O que pode travar {copy.isRenewal ? "a renovação" : "a emissão"} do {copy.docName}
               </h2>
               <div className="space-y-5 text-slate-700 text-lg leading-relaxed font-medium">
                 <p>
-                  O primeiro ponto e confirmar se o imóvel se enquadra em CLCB, AVCB com vistoria, Projeto Técnico ou substituicao de projeto. Um erro de enquadramento faz o processo voltar e consome prazo comercial importante.
+                  O primeiro ponto é confirmar se o imóvel se enquadra em CLCB, AVCB com vistoria, Projeto Técnico ou substituição de projeto. Um erro de enquadramento faz o processo voltar e consome um prazo importante.
                 </p>
                 <p>
-                  O segundo ponto e verificar se a documentação acompanha a realidade: plantas, layout, área, rotas, quantidade de pavimentos, populacao, sistemas instalados, manutencoes e ARTs. Em {neighborhood.name}, isso e especialmente importante para {neighborhood.buildings.join(", ")}.
+                  O segundo ponto é verificar se a documentação acompanha a realidade: plantas, layout, área, rotas, quantidade de pavimentos, população, sistemas instalados, manutenções e ARTs. Em {neighborhood.name}, isso é especialmente importante para {neighborhood.buildings.join(", ")}.
                 </p>
                 <p>
-                  O terceiro ponto e preparar os sistemas antes de pedir vistoria: extintores, alarme, iluminação, sinalização, hidrantes, SPDA, gas, brigada e laudo elétrico. Quando a vistoria acontece antes da pre-auditoria, o risco de exigencia aumenta.
+                  O terceiro ponto é preparar os sistemas antes de pedir a vistoria: extintores, alarme, iluminação, sinalização, hidrantes, SPDA, gás, brigada e laudo elétrico. Quando a vistoria acontece antes da pré-auditoria, o risco de exigência aumenta.
                 </p>
               </div>
             </div>
@@ -333,7 +333,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
                       <div>
                         <h4 className="font-black uppercase">{risk}</h4>
                         <p className="text-slate-300 text-sm mt-1">
-                          Esse item deve ser verificado antes do protocolo ou da vistoria para reduzir retrabalho, comunique-se e atraso na liberacao.
+                          Esse item deve ser verificado antes do protocolo ou da vistoria para reduzir retrabalho, comunique-se e atraso na liberação.
                         </p>
                       </div>
                     </div>
@@ -402,10 +402,10 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
           <div className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
             <div className="p-7 border-b border-slate-200">
               <h2 className="text-3xl font-black text-slate-950 uppercase italic">
-                Tabela de exigencias por metragem
+                Tabela de exigências por metragem
               </h2>
               <p className="text-slate-600 font-medium mt-3">
-                A tabela e uma referencia inicial. O enquadramento final depende do uso, risco e caracteristicas da edificação.
+                A tabela é uma referência inicial. O enquadramento final depende do uso, do risco e das características da edificação.
               </p>
             </div>
             <div className="overflow-x-auto">
@@ -413,16 +413,16 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
                 <thead className="bg-slate-950 text-white">
                   <tr>
                     <th className="p-4 font-black uppercase">Faixa comum</th>
-                    <th className="p-4 font-black uppercase">Atencao técnica</th>
-                    <th className="p-4 font-black uppercase">Prazo medio</th>
+                    <th className="p-4 font-black uppercase">Atenção técnica</th>
+                    <th className="p-4 font-black uppercase">Prazo médio</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-200">
                   {[
-                    ["Ate 750 m2", "Pode permitir processo simplificado quando não ha risco especial, mas exige documentos corretos e sistemas basicos em ordem.", "15 a 45 dias"],
-                    ["751 a 1.500 m2", "Costuma exigir mais verificacoes de lotação, rotas, alarme, extintores, laudos e compatibilidade de planta.", "30 a 75 dias"],
-                    ["1.501 a 2.500 m2", "A chance de projeto técnico, hidrantes, alarme, brigada e laudos complementares aumenta conforme ocupação.", "45 a 90 dias"],
-                    ["Acima de 2.500 m2", "Normalmente exige planejamento técnico completo, memoriais, ARTs, sistemas integrados e acompanhamento proximo.", "60 a 120 dias"],
+                    ["Até 750 m²", "Pode permitir processo simplificado quando não há risco especial, mas exige documentos corretos e sistemas básicos em ordem.", "15 a 45 dias"],
+                    ["751 a 1.500 m²", "Costuma exigir mais verificações de lotação, rotas, alarme, extintores, laudos e compatibilidade de planta.", "30 a 75 dias"],
+                    ["1.501 a 2.500 m²", "A chance de projeto técnico, hidrantes, alarme, brigada e laudos complementares aumenta conforme ocupação.", "45 a 90 dias"],
+                    ["Acima de 2.500 m²", "Normalmente exige planejamento técnico completo, memoriais, ARTs, sistemas integrados e acompanhamento próximo.", "60 a 120 dias"],
                   ].map((row) => (
                     <tr key={row[0]}>
                       <td className="p-4 font-bold text-slate-900">{row[0]}</td>
@@ -446,22 +446,22 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
               </h2>
               <div className="space-y-5 text-slate-300 text-lg leading-relaxed font-medium">
                 <p>
-                  Comecamos com diagnóstico do imóvel e documentos existentes. Depois avaliamos se o caminho correto e CLCB, AVCB, renovacao simples, substituicao de projeto, FAT ou adequação fisica antes da vistoria.
+                  Começamos com o diagnóstico do imóvel e dos documentos existentes. Depois avaliamos se o caminho correto é CLCB, AVCB, renovação simples, substituição de projeto, FAT ou adequação física antes da vistoria.
                 </p>
                 <p>
-                  Em seguida, organizamos laudos e sistemas: elétrica, SPDA, gas, extintores, hidrantes, alarme, iluminação, sinalização, brigada e manutencoes. O objetivo e chegar ao protocolo com previsibilidade.
+                  Em seguida, organizamos laudos e sistemas: elétrica, SPDA, gás, extintores, hidrantes, alarme, iluminação, sinalização, brigada e manutenções. O objetivo é chegar ao protocolo com previsibilidade.
                 </p>
                 <p>
-                  Para clientes em {neighborhood.name}, tambem avaliamos impacto de regioes proximas como {neighborhood.nearby.join(", ")}, porque empresas com mais de uma unidade podem ganhar escala em laudos, cronograma e manutenção.
+                  Para clientes em {neighborhood.name}, também consideramos regiões próximas, como {neighborhood.nearby.join(", ")}, porque empresas com mais de uma unidade podem ganhar escala em laudos, cronograma e manutenção.
                 </p>
               </div>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {[
-                { icon: FileText, title: "Documentos", desc: "Plantas, ARTs, laudos e dados do responsavel." },
-                { icon: ClipboardCheck, title: "Sistemas", desc: "Extintores, alarme, hidrante, SPDA, gas e sinalização." },
-                { icon: ShieldCheck, title: "Vistoria", desc: "Pre-auditoria antes de solicitar avaliacao final." },
-                { icon: MapPin, title: "Local", desc: `Conteudo e diagnostico voltados para ${neighborhood.name}.` },
+                { icon: FileText, title: "Documentos", desc: "Plantas, ARTs, laudos e dados do responsável." },
+                { icon: ClipboardCheck, title: "Sistemas", desc: "Extintores, alarme, hidrante, SPDA, gás e sinalização." },
+                { icon: ShieldCheck, title: "Vistoria", desc: "Pré-auditoria antes de solicitar a vistoria final." },
+                { icon: MapPin, title: "Local", desc: `Diagnóstico feito para imóveis em ${neighborhood.name}.` },
               ].map((item) => (
                 <article key={item.title} className="bg-white/5 border border-white/10 p-6 rounded-2xl">
                   <item.icon className="w-9 h-9 text-red-500 mb-4" />
@@ -483,10 +483,10 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
               </h2>
               <div className="space-y-4">
                 {[
-                  `Diagnostico do imovel em ${neighborhood.name}, tipo de ocupacao, area, uso real e vencimento.`,
+                  `Diagnóstico do imóvel em ${neighborhood.name}: tipo de ocupação, área, uso real e vencimento.`,
                   "Conferencia de projeto, plantas, laudos, ARTs e sistemas de segurança contra incêndio.",
-                  "Definicao das adequacoes antes do protocolo para evitar exigencias previsiveis.",
-                  "Acompanhamento técnico ate emissão ou renovacao do documento, com CTA direto para WhatsApp.",
+                  "Definição das adequações antes do protocolo para evitar exigências previsíveis.",
+                  "Acompanhamento técnico até a emissão ou renovação do documento, com atendimento direto pelo WhatsApp.",
                 ].map((step) => (
                   <div key={step} className="flex gap-4">
                     <CheckCircle2 className="w-6 h-6 text-red-600 shrink-0 mt-1" />
@@ -553,7 +553,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
               Solicite análise para {neighborhood.name}
             </h2>
             <p className="text-slate-600 font-medium">
-              Informe o endereco, atividade, metragem, vencimento do AVCB e se possui projeto ou laudos anteriores.
+              Informe o endereço, a atividade, a metragem, o vencimento do AVCB e se possui projeto ou laudos anteriores.
             </p>
           </div>
           <LeadForm variant="compact" showWrapper={false} />
@@ -573,7 +573,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
           <p className="text-xl md:text-2xl mb-10 font-bold opacity-95 max-w-3xl mx-auto">
             {richData && richData.ctaFinal 
               ? richData.ctaFinal 
-              : "Documento vencido, projeto antigo ou laudo pendente pode virar multa, seguro negado e atraso na operacao."}
+              : "Documento vencido, projeto antigo ou laudo pendente pode virar multa, seguro negado e atraso na operação."}
           </p>
           <a
             href={whatsappLink}

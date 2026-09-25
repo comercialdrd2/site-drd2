@@ -19,7 +19,7 @@ export type SpdaSeoPage = {
 };
 
 const baseRelated = [
-  { label: "SPDA página pilar", href: "/spda" },
+  { label: "SPDA: guia completo", href: "/spda" },
   { label: "AVCB São Paulo", href: "/avcb-sao-paulo" },
   { label: "Projetos de incêndio", href: "/projetos-incendio" },
   { label: "Laudo Bombeiro", href: "/laudo-bombeiro-escritorio-sao-paulo" },
