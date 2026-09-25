@@ -61,6 +61,12 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      { source: '/avcb-sao-paulo-AVCB', destination: '/avcb-sao-paulo', permanent: true },
+      { source: '/treinamento-brigada-Brigada', destination: '/treinamento-brigada', permanent: true },
+      { source: '/hidrantes-Hidrantes', destination: '/hidrantes', permanent: true },
+      { source: '/sprinklers-Sprinklers', destination: '/sprinklers', permanent: true },
+      { source: '/avcb-com%C3%A9rcio', destination: '/avcb-sao-paulo', permanent: true },
+      { source: '/manutencao-Manuten%C3%A7%C3%A3o', destination: '/manutencao', permanent: true },
       { source: '/renovacao-avcb-moema', destination: '/renovacao-avcb-condominio-moema', permanent: true },
       { source: '/renovacao-avcb-vila-olimpia', destination: '/renovacao-avcb-condominio-vila-olimpia', permanent: true },
       { source: '/renovacao-avcb-pinheiros', destination: '/renovacao-avcb-condominio-pinheiros', permanent: true },
