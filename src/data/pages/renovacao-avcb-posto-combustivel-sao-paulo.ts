@@ -7,7 +7,7 @@ export const renovacaoAvcbContent = {
   badge: "GRUPO G-3 — COMÉRCIO DE DERIVADOS — RENOVAÇÃO 2026",
   h1: "Renovação de AVCB para Postos de Combustível em São Paulo",
   intro: [
-    "<strong>Postos de Combustível com AVCB vencido em São Paulo</strong> correm sérios riscos. Postos de combustível operam com altíssimo risco de inflamáveis. AVCB vencido significa interdição imediata pela ANP e CETESB. Projetos de espuma desatualizados e laudos de estanqueidade vencidos travam o processo.<br/><br/>📲 <strong>Evite multas e interdições.</strong> Fale agora com um engenheiro: <a href='https://wa.me/5511993206900' class='text-green-600 font-bold underline'>Chamar no WhatsApp</a>",
+    "<strong>Postos de Combustível com AVCB vencido em São Paulo</strong> correm sérios riscos. Postos de combustível operam com altíssimo risco de inflamáveis. AVCB vencido significa interdição imediata pela ANP e CETESB. Projetos de espuma desatualizados e laudos de estanqueidade vencidos travam o processo.<br/><br/>📲 <strong>Evite multas e interdições.</strong> Fale agora com um engenheiro: <a href='https://wa.me/5511942232969' class='text-green-600 font-bold underline'>Chamar no WhatsApp</a>",
     "A <strong>DRD2 Engenharia</strong> executa a renovação completa do projeto à instalação — levantamento técnico, atualização da documentação, adequação dos sistemas e aprovação junto ao Corpo de Bombeiros, com resposta incluída a qualquer Comunique-se, sem custo adicional."
   ],
   sections: [

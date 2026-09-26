@@ -7,7 +7,7 @@ export const renovacaoAvcbCasaNoturnaContent = {
   badge: "GRUPO F-3 — LOCAIS DE REUNIÃO DE PÚBLICO — RENOVAÇÃO 2026",
   h1: "Renovação de AVCB para Casas Noturnas e Boates em São Paulo",
   intro: [
-    "<strong>Casa noturna, boate ou bar com show ao vivo</strong> é o segmento com maior risco de <strong>interdição imediata</strong> em São Paulo — o CBPMESP aplica critérios mais rígidos para locais de reunião de público com capacidade elevada, som ao vivo e funcionamento noturno.<br/><br/>📲 <strong>AVCB da casa noturna vencido?</strong> Fale agora com um engenheiro e evite o fechamento: <a href='https://wa.me/5511993206900' class='text-green-600 font-bold underline'>Chamar no WhatsApp</a>",
+    "<strong>Casa noturna, boate ou bar com show ao vivo</strong> é o segmento com maior risco de <strong>interdição imediata</strong> em São Paulo — o CBPMESP aplica critérios mais rígidos para locais de reunião de público com capacidade elevada, som ao vivo e funcionamento noturno.<br/><br/>📲 <strong>AVCB da casa noturna vencido?</strong> Fale agora com um engenheiro e evite o fechamento: <a href='https://wa.me/5511942232969' class='text-green-600 font-bold underline'>Chamar no WhatsApp</a>",
     "AVCB vencido, saídas de emergência bloqueadas ou capacidade de público acima do limite aprovado são os motivos mais frequentes de <strong>embargo, lacre e interdição</strong> com notificação imediata nesses estabelecimentos.",
     "A <strong>DRD2 Engenharia</strong> executa a renovação completa do projeto à instalação — enquadramento correto no Grupo F-3, adequação dos sistemas, memorial de capacidade de público e aprovação junto ao Corpo de Bombeiros, com resposta incluída a qualquer Comunique-se, sem custo adicional."
   ],

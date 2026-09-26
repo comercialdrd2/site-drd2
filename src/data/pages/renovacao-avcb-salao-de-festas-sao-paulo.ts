@@ -7,7 +7,7 @@ export const renovacaoAvcbContent = {
   badge: "GRUPO F-3 — CENTROS ESPORTIVOS E EVENTOS — RENOVAÇÃO 2026",
   h1: "Renovação de AVCB para Salões de Festas em São Paulo",
   intro: [
-    "<strong>Salões de Festas com AVCB vencido em São Paulo</strong> correm sérios riscos. Salões de festas sem AVCB válido não podem obter alvará para eventos. O risco de embargo durante uma festa é altíssimo, gerando processos judiciais. Falhas em saídas de emergência e rotas de fuga são os maiores motivos de Comunique-se.<br/><br/>📲 <strong>Evite multas e interdições.</strong> Fale agora com um engenheiro: <a href='https://wa.me/5511993206900' class='text-green-600 font-bold underline'>Chamar no WhatsApp</a>",
+    "<strong>Salões de Festas com AVCB vencido em São Paulo</strong> correm sérios riscos. Salões de festas sem AVCB válido não podem obter alvará para eventos. O risco de embargo durante uma festa é altíssimo, gerando processos judiciais. Falhas em saídas de emergência e rotas de fuga são os maiores motivos de Comunique-se.<br/><br/>📲 <strong>Evite multas e interdições.</strong> Fale agora com um engenheiro: <a href='https://wa.me/5511942232969' class='text-green-600 font-bold underline'>Chamar no WhatsApp</a>",
     "A <strong>DRD2 Engenharia</strong> executa a renovação completa do projeto à instalação — levantamento técnico, atualização da documentação, adequação dos sistemas e aprovação junto ao Corpo de Bombeiros, com resposta incluída a qualquer Comunique-se, sem custo adicional."
   ],
   sections: [

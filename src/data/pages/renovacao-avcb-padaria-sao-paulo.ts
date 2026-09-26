@@ -7,7 +7,7 @@ export const renovacaoAvcbContent = {
   badge: "GRUPO C-1 — COMÉRCIO VAREJISTA — RENOVAÇÃO 2026",
   h1: "Renovação de AVCB para Padarias em São Paulo",
   intro: [
-    "<strong>Padarias com AVCB vencido em São Paulo</strong> correm sérios riscos. Padarias utilizam grandes centrais de gás (GLP) ou gás natural. O AVCB vencido pode paralisar a produção e fechar as portas. A principal causa de recusa é o laudo de estanqueidade do gás.<br/><br/>📲 <strong>Evite multas e interdições.</strong> Fale agora com um engenheiro: <a href='https://wa.me/5511993206900' class='text-green-600 font-bold underline'>Chamar no WhatsApp</a>",
+    "<strong>Padarias com AVCB vencido em São Paulo</strong> correm sérios riscos. Padarias utilizam grandes centrais de gás (GLP) ou gás natural. O AVCB vencido pode paralisar a produção e fechar as portas. A principal causa de recusa é o laudo de estanqueidade do gás.<br/><br/>📲 <strong>Evite multas e interdições.</strong> Fale agora com um engenheiro: <a href='https://wa.me/5511942232969' class='text-green-600 font-bold underline'>Chamar no WhatsApp</a>",
     "A <strong>DRD2 Engenharia</strong> executa a renovação completa do projeto à instalação — levantamento técnico, atualização da documentação, adequação dos sistemas e aprovação junto ao Corpo de Bombeiros, com resposta incluída a qualquer Comunique-se, sem custo adicional."
   ],
   sections: [

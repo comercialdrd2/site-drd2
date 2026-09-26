@@ -7,7 +7,7 @@ export const renovacaoAvcbFarmaciaContent = {
   badge: "GRUPO C-2 — COMÉRCIO VAREJISTA — RENOVAÇÃO 2026",
   h1: "Renovação de AVCB para Farmácias e Drogarias em São Paulo",
   intro: [
-    "<strong>Farmácia ou drogaria com AVCB vencido em São Paulo</strong> não consegue renovar o alvará sanitário junto à Vigilância Sanitária — e essa dupla irregularidade cria risco simultâneo de embargo, interdição e lacre por dois órgãos diferentes. Armazenagem de álcool, aerossóis e produtos inflamáveis sem memorial descritivo atualizado é a causa mais frequente de Comunique-se na renovação do AVCB desse segmento.<br/><br/>📲 <strong>Evite o fechamento da sua farmácia.</strong> Fale agora com um engenheiro: <a href='https://wa.me/5511993206900' class='text-green-600 font-bold underline'>Chamar no WhatsApp</a>",
+    "<strong>Farmácia ou drogaria com AVCB vencido em São Paulo</strong> não consegue renovar o alvará sanitário junto à Vigilância Sanitária — e essa dupla irregularidade cria risco simultâneo de embargo, interdição e lacre por dois órgãos diferentes. Armazenagem de álcool, aerossóis e produtos inflamáveis sem memorial descritivo atualizado é a causa mais frequente de Comunique-se na renovação do AVCB desse segmento.<br/><br/>📲 <strong>Evite o fechamento da sua farmácia.</strong> Fale agora com um engenheiro: <a href='https://wa.me/5511942232969' class='text-green-600 font-bold underline'>Chamar no WhatsApp</a>",
     "A <strong>DRD2 Engenharia</strong> executa a renovação completa do projeto à instalação — levantamento técnico, atualização da documentação, adequação dos sistemas e aprovação junto ao Corpo de Bombeiros, com resposta incluída a qualquer Comunique-se, sem custo adicional."
   ],
   sections: [

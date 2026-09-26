@@ -7,7 +7,7 @@ export const renovacaoAvcbContent = {
   badge: "GRUPO B-1 — HOSPEDAGEM — RENOVAÇÃO 2026",
   h1: "Renovação de AVCB para Pousadas em São Paulo",
   intro: [
-    "<strong>Pousadas com AVCB vencido em São Paulo</strong> correm sérios riscos. Pousadas com AVCB vencido perdem credibilidade nas plataformas de reserva e ficam suscetíveis a interdições da prefeitura. Falta de manutenção em detectores de fumaça e extintores é a principal falha na vistoria.<br/><br/>📲 <strong>Evite multas e interdições.</strong> Fale agora com um engenheiro: <a href='https://wa.me/5511993206900' class='text-green-600 font-bold underline'>Chamar no WhatsApp</a>",
+    "<strong>Pousadas com AVCB vencido em São Paulo</strong> correm sérios riscos. Pousadas com AVCB vencido perdem credibilidade nas plataformas de reserva e ficam suscetíveis a interdições da prefeitura. Falta de manutenção em detectores de fumaça e extintores é a principal falha na vistoria.<br/><br/>📲 <strong>Evite multas e interdições.</strong> Fale agora com um engenheiro: <a href='https://wa.me/5511942232969' class='text-green-600 font-bold underline'>Chamar no WhatsApp</a>",
     "A <strong>DRD2 Engenharia</strong> executa a renovação completa do projeto à instalação — levantamento técnico, atualização da documentação, adequação dos sistemas e aprovação junto ao Corpo de Bombeiros, com resposta incluída a qualquer Comunique-se, sem custo adicional."
   ],
   sections: [
