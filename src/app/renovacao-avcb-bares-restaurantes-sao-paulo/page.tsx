@@ -9,6 +9,7 @@ import { JsonLD, generateMasterSchema } from "@/components/JsonLD";
 import LeadForm from "@/components/LeadForm";
 import TrustBar from "@/components/TrustBar";
 import CtaWhatsApp from "@/components/CtaWhatsApp";
+import OcupacaoServicosLinks from "@/components/OcupacaoServicosLinks";
 import BreadcrumbNav from "@/components/BreadcrumbNav";
 import { renovacaoAvcbContent as c } from "@/data/pages/renovacao-avcb-bares-restaurantes-sao-paulo";
 
@@ -177,6 +178,7 @@ export default function RenovacaoAVCBPage() {
           </div>
         </div>
       </section>
+      <OcupacaoServicosLinks currentSlug={c.meta.canonical} />
     </>
   );
 }

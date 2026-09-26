@@ -1,4 +1,5 @@
 import Link from "next/link";
+import OcupacaoServicosLinks from "@/components/OcupacaoServicosLinks";
 import { ArrowRight, Bell, Droplets, Flame, ShieldCheck, Wind, Wrench, Zap } from "lucide-react";
 
 type ServiceClusterLinksProps = {
@@ -91,6 +92,8 @@ export default function ServiceClusterLinks({ currentSlug }: ServiceClusterLinks
       : "Veja também os sistemas que o Corpo de Bombeiros verifica para aprovar o AVCB do seu imóvel.";
 
   return (
+    <>
+    <OcupacaoServicosLinks currentSlug={currentSlug} />
     <section className="py-20 bg-slate-950 text-white border-y border-slate-800">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
@@ -101,6 +104,17 @@ export default function ServiceClusterLinks({ currentSlug }: ServiceClusterLinks
             </h2>
             <p className="text-slate-400 font-medium leading-relaxed">
               {intro}
+            </p>
+            <p className="text-slate-400 font-medium leading-relaxed mt-4 text-sm">
+              Todo o processo tem um{" "}
+              <Link href="/engenheiro-avcb-sao-paulo" className="text-white underline hover:text-red-400">
+                engenheiro de AVCB
+              </Link>{" "}
+              responsável pela ART. Dependendo da ocupação, o Corpo de Bombeiros também exige o{" "}
+              <Link href="/plano-de-emergencia-contra-incendio-sp" className="text-white underline hover:text-red-400">
+                plano de emergência contra incêndio
+              </Link>
+              .
             </p>
           </div>
 
@@ -138,5 +152,6 @@ export default function ServiceClusterLinks({ currentSlug }: ServiceClusterLinks
         </div>
       </div>
     </section>
+    </>
   );
 }

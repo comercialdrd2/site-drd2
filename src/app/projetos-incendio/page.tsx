@@ -1,4 +1,6 @@
 ﻿import Image from "next/image";
+import Link from "next/link";
+import { fireProjectSeoPages } from "@/data/fireProjectSeoPages";
 import { JsonLD, generateMasterSchema } from "@/components/JsonLD";
 import { CheckCircle, FileText, ShieldCheck, Layout, Zap, Factory, Users, HardHat, ClipboardCheck } from "lucide-react";
 import BreadcrumbNav from "@/components/BreadcrumbNav";
@@ -344,6 +346,28 @@ export default function ProjetosPage() {
       </section>
 
 
+      <section aria-labelledby="projeto-por-tipo" className="py-16 bg-white border-t border-slate-200">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <h2 id="projeto-por-tipo" className="text-2xl md:text-3xl font-black text-slate-900 mb-3">
+            Projeto de incêndio por tipo de imóvel
+          </h2>
+          <p className="text-slate-600 mb-8 max-w-3xl">
+            Cada ocupação muda os sistemas exigidos, os memoriais e o caminho de aprovação. Veja o projeto para o seu caso.
+          </p>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {Object.values(fireProjectSeoPages).map((p) => (
+              <li key={p.slug}>
+                <Link
+                  href={p.slug}
+                  className="block h-full border border-slate-200 rounded-xl p-4 font-bold text-slate-800 hover:border-red-500 hover:text-red-700 transition-colors"
+                >
+                  {p.h1}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
       <ServiceClusterLinks currentSlug="/projetos-incendio" />
       <ServiceBlogLinks currentSlug="/projetos-incendio" />
 

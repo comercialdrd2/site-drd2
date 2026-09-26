@@ -164,12 +164,15 @@ export default function Footer() {
         
         <div className="mt-16 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center text-[10px] font-black uppercase tracking-[0.2em] text-slate-600">
           <p>© {new Date().getFullYear()} DRD2 ENGENHARIA LTDA. TODOS OS DIREITOS RESERVADOS.</p>
-          <div className="mt-4 md:mt-0 space-x-6">
+          <div className="mt-4 md:mt-0 flex flex-wrap justify-center md:justify-end gap-x-6 gap-y-2">
             <Link href="/clcb-sao-paulo" className="hover:text-white transition-colors">CLCB Rápido</Link>
             <Link href="/renovacao-avcb-condominio-sao-paulo" className="hover:text-white transition-colors">Renovação</Link>
             <Link href="/blog" className="hover:text-white transition-colors">Dossiês DRD2</Link>
             <Link href="/avcb-clcb-por-regiao" className="hover:text-white transition-colors">Regiões atendidas</Link>
             <Link href="/avcb-por-tipo-de-imovel" className="hover:text-white transition-colors">Tipos de imóvel</Link>
+            <Link href="/engenheiro-avcb-sao-paulo" className="hover:text-white transition-colors">Engenheiro de AVCB</Link>
+            <Link href="/avcb-urgente-sao-paulo" className="hover:text-white transition-colors">AVCB urgente</Link>
+            <Link href="/plano-de-emergencia-contra-incendio-sp" className="hover:text-white transition-colors">Plano de emergência</Link>
             <Link href="/mapa-paginas" className="hover:text-white transition-colors">Mapa do Site</Link>
             <Link href="/politica-de-privacidade" className="hover:text-white transition-colors">Privacidade</Link>
           </div>

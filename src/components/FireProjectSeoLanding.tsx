@@ -26,24 +26,24 @@ type FireProjectSeoLandingProps = {
 function faqsFor(page: FireProjectSeoPage) {
   return [
     {
-      question: `Projeto de incendio e obrigatorio para ${page.segment}?`,
-      answer: `Depende de area, altura, ocupacao, lotacao, carga de incendio, risco especial e tipo de processo. Em ${page.segment}, a DRD2 verifica se o caso pode seguir como CLCB/PTS ou se precisa de Projeto Tecnico completo para AVCB com plantas, memoriais, calculos, ART e acompanhamento no CBPMESP.`,
+      question: `Projeto de incêndio e obrigatório para ${page.segment}?`,
+      answer: `Depende de área, altura, ocupação, lotação, carga de incêndio, risco especial e tipo de processo. Em ${page.segment}, a DRD2 verifica se o caso pode seguir como CLCB/PTS ou se precisa de Projeto Técnico completo para AVCB com plantas, memoriais, calculos, ART e acompanhamento no CBPMESP.`,
     },
     {
       question: "O que entra em um projeto de incêndio para AVCB?",
       answer: "Entram plantas, memoriais, enquadramento da ocupação, rotas de fuga, extintores, sinalização, iluminação de emergência, alarme, hidrantes, sprinkler quando exigido, SPDA, GLP, controle de materiais, cálculos e ART conforme o risco do imóvel.",
     },
     {
-      question: `Quanto custa projeto de incendio para ${page.segment}?`,
-      answer: `${page.costDrivers} O valor correto precisa considerar levantamento tecnico, compatibilizacao das plantas, sistemas exigidos, memoriais, ART, protocolo e eventuais respostas a exigencias do Corpo de Bombeiros.`,
+      question: `Quanto custa projeto de incêndio para ${page.segment}?`,
+      answer: `${page.costDrivers} O valor correto precisa considerar levantamento técnico, compatibilização das plantas, sistemas exigidos, memoriais, ART, protocolo e eventuais respostas a exigências do Corpo de Bombeiros.`,
     },
     {
       question: "Projeto aprovado garante AVCB automaticamente?",
-      answer: "Não. A aprovação do projeto e uma etapa. Depois, o imóvel precisa executar ou adequar as medidas previstas, reunir laudos, ARTs, manutencoes e estar pronto para vistoria quando o processo exigir AVCB.",
+      answer: "Não. A aprovação do projeto e uma etapa. Depois, o imóvel precisa executar ou adequar as medidas previstas, reunir laudos, ARTs, manutenções e estar pronto para vistoria quando o processo exigir AVCB.",
     },
     {
-      question: "A DRD2 acompanha exigencias e comunique-se?",
-      answer: "Sim. A equipe pode analisar exigencias, ajustar plantas, revisar memoriais, orientar adequacoes e acompanhar a estrategia técnica ate a regularização do processo.",
+      question: "A DRD2 acompanha exigências e comunique-se?",
+      answer: "Sim. A equipe pode analisar exigências, ajustar plantas, revisar memoriais, orientar adequações e acompanhar a estratégia técnica até a regularização do processo.",
     },
   ];
 }
@@ -201,7 +201,7 @@ export default function FireProjectSeoLanding({ page }: FireProjectSeoLandingPro
               </div>
             </div>
             <div className="bg-slate-950 text-white p-8 rounded-2xl">
-              <h3 className="text-2xl font-black mb-6 uppercase italic">Falhas que mais geram exigencia</h3>
+              <h3 className="text-2xl font-black mb-6 uppercase italic">Falhas que mais geram exigência</h3>
               <div className="space-y-4">
                 {page.failures.map((failure) => (
                   <div key={failure} className="flex gap-4 border-b border-white/10 pb-4">
@@ -236,7 +236,7 @@ export default function FireProjectSeoLanding({ page }: FireProjectSeoLandingPro
                 <thead className="bg-slate-950 text-white">
                   <tr>
                     <th className="p-4 font-black uppercase">Área ou imóvel</th>
-                    <th className="p-4 font-black uppercase">Ponto critico</th>
+                    <th className="p-4 font-black uppercase">Ponto crítico</th>
                     <th className="p-4 font-black uppercase">Documento ou medida</th>
                   </tr>
                 </thead>
@@ -272,7 +272,7 @@ export default function FireProjectSeoLanding({ page }: FireProjectSeoLandingPro
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {[
-                { icon: FileText, title: "Plantas", desc: "Base técnica legivel e compativel com a edificação real." },
+                { icon: FileText, title: "Plantas", desc: "Base técnica legivel e compatível com a edificação real." },
                 { icon: ShieldCheck, title: "ITs", desc: "Medidas de segurança alinhadas ao enquadramento." },
                 { icon: ClipboardCheck, title: "ART", desc: "Responsabilidade técnica para projeto e documentos." },
                 { icon: Flame, title: "Sistemas", desc: "Hidrantes, sprinkler, alarme, extintores e rotas integrados." },
@@ -297,10 +297,10 @@ export default function FireProjectSeoLanding({ page }: FireProjectSeoLandingPro
               </h2>
               <div className="space-y-4">
                 {[
-                  "Diagnóstico do imóvel, ocupação, área, uso real e urgencia da regularização.",
+                  "Diagnóstico do imóvel, ocupação, área, uso real e urgência da regularização.",
                   "Levantamento de plantas, sistemas existentes, riscos, rotas, documentação e pendencias.",
-                  "Elaboracao ou revisao do projeto com memoriais, cálculos, ART e estrategia de aprovação.",
-                  "Acompanhamento do protocolo, respostas técnicas e orientação para execução das adequacoes.",
+                  "Elaboração ou revisão do projeto com memoriais, cálculos, ART e estratégia de aprovação.",
+                  "Acompanhamento do protocolo, respostas técnicas e orientação para execução das adequações.",
                 ].map((step) => (
                   <div key={step} className="flex gap-4">
                     <CheckCircle2 className="w-6 h-6 text-red-600 shrink-0 mt-1" />
