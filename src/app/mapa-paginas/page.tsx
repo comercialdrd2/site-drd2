@@ -564,7 +564,7 @@ function Section({ title, color, items }: { title: string; color: string; items:
       </h2>
       <div className="flex flex-wrap gap-2">
         {items.map((item, i) => (
-          <Link
+          <Link prefetch={false}
             key={i}
             href={item.href}
             target="_blank"
@@ -702,7 +702,7 @@ export default function MapaPaginasPage() {
             </h2>
             <div className="flex flex-wrap gap-2">
               {escadaPressurizada.map((item, i) => (
-                <Link
+                <Link prefetch={false}
                   key={i}
                   href={item.href}
                   target="_blank"
@@ -720,7 +720,7 @@ export default function MapaPaginasPage() {
             </h2>
             <div className="flex flex-wrap gap-2">
               {gasEstanqueidade.map((item, i) => (
-                <Link
+                <Link prefetch={false}
                   key={i}
                   href={item.href}
                   target="_blank"

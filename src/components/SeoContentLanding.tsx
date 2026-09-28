@@ -90,7 +90,7 @@ export default function SeoContentLanding({ content, breadcrumbParent, occupatio
             )}
             <div className="mt-7 flex flex-col sm:flex-row gap-4">
               <CtaWhatsApp label="Falar com engenheiro no WhatsApp" occupationType={cta} size="md" />
-              <Link
+              <Link prefetch={false}
                 href="#faq"
                 className="inline-flex min-h-[48px] items-center justify-center gap-2 rounded-2xl border-2 border-white/80 px-7 py-4 text-sm font-black uppercase tracking-tight text-white transition-all hover:bg-white hover:text-slate-950"
               >

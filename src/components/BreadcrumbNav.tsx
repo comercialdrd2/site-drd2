@@ -47,7 +47,7 @@ export default function BreadcrumbNav({
               itemType="https://schema.org/ListItem"
             >
               {item.href ? (
-                <Link
+                <Link prefetch={false}
                   href={item.href}
                   className={`transition-colors ${hoverColor}`}
                   itemProp="item"

@@ -102,7 +102,7 @@ export default function SpdaSeoLanding({ page }: SpdaSeoLandingProps) {
                 <Phone className="w-5 h-5 flex-shrink-0" />
                 Solicitar análise de SPDA
               </a>
-              <Link
+              <Link prefetch={false}
                 href="/spda"
                 className="bg-white/10 hover:bg-white/20 text-white font-black px-8 py-4 rounded-2xl transition-all flex sm:inline-flex items-center justify-center gap-3 uppercase tracking-tighter text-base w-full sm:w-auto border border-white/20"
               >
@@ -136,7 +136,7 @@ export default function SpdaSeoLanding({ page }: SpdaSeoLandingProps) {
                 <p dangerouslySetInnerHTML={{ __html: page.riskProfile }} />
                 <p dangerouslySetInnerHTML={{ __html: page.localDemand }} />
                 <p>
-                  SPDA não e somente para-raios no topo do prédio. Ele precisa conversar com aterramento, DPS, quadros elétricos, estrutura metalica, <Link href="/projetos-incendio" className="text-red-700 font-black underline">projeto de incêndio</Link>, <Link href="/avcb-sao-paulo" className="text-red-700 font-black underline">AVCB</Link> e manutenção. Quando a proteção externa e interna ficam separadas, o risco de dano e exigencia documental aumenta.
+                  SPDA não e somente para-raios no topo do prédio. Ele precisa conversar com aterramento, DPS, quadros elétricos, estrutura metalica, <Link prefetch={false} href="/projetos-incendio" className="text-red-700 font-black underline">projeto de incêndio</Link>, <Link prefetch={false} href="/avcb-sao-paulo" className="text-red-700 font-black underline">AVCB</Link> e manutenção. Quando a proteção externa e interna ficam separadas, o risco de dano e exigencia documental aumenta.
                 </p>
               </div>
             </div>
@@ -314,7 +314,7 @@ export default function SpdaSeoLanding({ page }: SpdaSeoLandingProps) {
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[...page.related, { label: "SPDA", href: "/spda" }, { label: "AVCB", href: "/avcb-sao-paulo" }, { label: "Manutenção", href: "/manutencao" }].map((item, i) => (
-                  <Link
+                  <Link prefetch={false}
                     key={`silo-link-${i}`}
                     href={item.href}
                     className="bg-white border border-slate-200 p-4 rounded-xl font-black text-slate-800 hover:text-red-700 hover:border-red-500 transition-colors"

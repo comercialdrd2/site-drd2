@@ -286,7 +286,7 @@ export default function RenovacaoCLCBPage() {
             {c.h2_tipos.tipos.map((tipo, i) => {
               const Icon = occupationIcons[tipo.nome] || Building2;
               return (
-                <Link
+                <Link prefetch={false}
                   key={i}
                   href={tipo.href}
                   className="bg-white p-6 rounded-2xl border border-slate-200 hover:border-red-600 hover:shadow-xl transition-all flex items-center gap-4 group"
@@ -401,7 +401,7 @@ export default function RenovacaoCLCBPage() {
           <p className="text-sm font-black uppercase tracking-[0.3em] text-slate-400 mb-8">Links Relacionados</p>
           <div className="flex flex-wrap justify-center gap-4">
             {c.linksInternos.map((link, i) => (
-              <Link
+              <Link prefetch={false}
                 key={i}
                 href={link.href}
                 className="flex items-center gap-2 bg-slate-50 hover:bg-red-600 hover:text-white text-slate-700 font-bold px-6 py-3 rounded-2xl border border-slate-200 hover:border-red-600 transition-all text-sm"

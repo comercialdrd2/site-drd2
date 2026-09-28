@@ -164,7 +164,7 @@ export default function AVCBCrechePage() {
           <p className="text-lg text-slate-700 leading-relaxed mb-6">
             Muitos proprietários de creche chegam até nós acreditando que vão fazer um CLCB (Certificado de Licença) porque a escola é "pequena". A grande maioria sai com um processo de AVCB, que é mais robusto e exigente. A definição depende do tipo de processo: PTS ou Projeto Técnico Completo. E é aqui que mora o erro mais comum.
           </p>
-          <Link href="/clcb-sao-paulo" className="text-blue-700 font-bold hover:underline">Entenda a diferença técnica entre AVCB e CLCB &rarr;</Link>
+          <Link prefetch={false} href="/clcb-sao-paulo" className="text-blue-700 font-bold hover:underline">Entenda a diferença técnica entre AVCB e CLCB &rarr;</Link>
         </div>
       </section>
 
@@ -405,7 +405,7 @@ export default function AVCBCrechePage() {
                 Leitura <br /><span className="text-red-600 not-italic italic">Recomendada</span>
               </h2>
             </div>
-            <Link href="/blog" className="group flex items-center gap-3 text-slate-950 font-black uppercase text-xs tracking-[0.2em] border-b-2 border-red-600 pb-1 hover:text-red-600 transition-all italic">
+            <Link prefetch={false} href="/blog" className="group flex items-center gap-3 text-slate-950 font-black uppercase text-xs tracking-[0.2em] border-b-2 border-red-600 pb-1 hover:text-red-600 transition-all italic">
               Ver todos os artigos <ArrowRight className="w-4 h-4 group-hover:translate-x-2 transition-transform" />
             </Link>
           </div>
@@ -431,7 +431,7 @@ export default function AVCBCrechePage() {
                 desc: "Valores, taxas e honorários para regularização de estabelecimentos educacionais."
               }
             ].map((post, i) => (
-              <Link key={i} href={`/blog/${post.slug}`} className="group bg-white rounded-[3rem] overflow-hidden border border-slate-200 hover:shadow-2xl hover:border-red-600/20 transition-all flex flex-col h-full font-black italic">
+              <Link prefetch={false} key={i} href={`/blog/${post.slug}`} className="group bg-white rounded-[3rem] overflow-hidden border border-slate-200 hover:shadow-2xl hover:border-red-600/20 transition-all flex flex-col h-full font-black italic">
                 <div className="relative h-64 overflow-hidden">
                   <Image 
                     src={post.image} 
@@ -557,8 +557,8 @@ export default function AVCBCrechePage() {
           <div className="mt-12 text-center">
             <p className="text-slate-500 italic">
                Assim como nos projetos para condomínios e galpões, cada ocupação tem suas próprias exigências — e para creches, a precisão no enquadramento é ainda mais crítica.{' '}
-               <Link href="/avcb-para-condominio-sao-paulo" className="text-red-600 font-bold hover:underline">Veja sobre condomínios</Link> ou{' '}
-               <Link href="/avcb-galpao-industrial-sao-paulo" className="text-red-600 font-bold hover:underline">indústrias</Link>.
+               <Link prefetch={false} href="/avcb-para-condominio-sao-paulo" className="text-red-600 font-bold hover:underline">Veja sobre condomínios</Link> ou{' '}
+               <Link prefetch={false} href="/avcb-galpao-industrial-sao-paulo" className="text-red-600 font-bold hover:underline">indústrias</Link>.
             </p>
           </div>
         </div>

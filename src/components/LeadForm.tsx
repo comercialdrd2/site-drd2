@@ -262,7 +262,7 @@ export default function LeadForm({
                   </div>
                   <p className="text-center mt-4 text-[11px] leading-relaxed text-slate-700 font-medium">
                     Ao enviar, você concorda com o tratamento dos seus dados pela DRD2 Engenharia para retorno do contato técnico, conforme nossa{" "}
-                    <Link href="/politica-de-privacidade" className="text-red-600 font-bold underline hover:text-red-700">
+                    <Link prefetch={false} href="/politica-de-privacidade" className="text-red-600 font-bold underline hover:text-red-700">
                       Política de Privacidade
                     </Link>
                     {" "}e a Lei 13.709/2018 (LGPD).

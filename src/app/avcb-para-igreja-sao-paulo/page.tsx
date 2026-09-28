@@ -328,7 +328,7 @@ export default function AVCBIgrejaMasterPage() {
                 Leitura <br /><span className="text-red-600 not-italic italic">Recomendada</span>
               </h2>
             </div>
-            <Link href="/blog" className="group flex items-center gap-3 text-slate-950 font-black uppercase text-xs tracking-[0.2em] border-b-2 border-red-600 pb-1 hover:text-red-600 transition-all italic">
+            <Link prefetch={false} href="/blog" className="group flex items-center gap-3 text-slate-950 font-black uppercase text-xs tracking-[0.2em] border-b-2 border-red-600 pb-1 hover:text-red-600 transition-all italic">
               Ver todos os artigos <ArrowRight className="w-4 h-4 group-hover:translate-x-2 transition-transform" />
             </Link>
           </div>
@@ -354,7 +354,7 @@ export default function AVCBIgrejaMasterPage() {
                 desc: "Esclareça as responsabilidades legais em imóveis alugados para fins religiosos."
               }
             ].map((post, i) => (
-              <Link key={i} href={`/blog/${post.slug}`} className="group bg-white rounded-[3rem] overflow-hidden border border-slate-200 hover:shadow-2xl hover:border-red-600/20 transition-all flex flex-col h-full font-black italic">
+              <Link prefetch={false} key={i} href={`/blog/${post.slug}`} className="group bg-white rounded-[3rem] overflow-hidden border border-slate-200 hover:shadow-2xl hover:border-red-600/20 transition-all flex flex-col h-full font-black italic">
                 <div className="relative h-64 overflow-hidden">
                   <Image 
                     src={post.image} 

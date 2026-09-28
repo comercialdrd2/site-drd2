@@ -452,9 +452,9 @@ export default function OccupationDepthBlock({ occupation, currentSlug }: Occupa
                 Antes de protocolar, a DRD2 cruza dados da edificação, documentos, sistemas instalados e exigencias das
                 Instrucoes Técnicas do Corpo de Bombeiros. Quando o caso exige complemento, os servicos conectados mais
                 comuns sao{" "}
-                <Link href={profile.links[0].href} className="text-red-600 font-black underline">{profile.links[0].label}</Link>,{" "}
-                <Link href={profile.links[1].href} className="text-red-600 font-black underline">{profile.links[1].label}</Link>{" "}
-                e <Link href={profile.links[2].href} className="text-red-600 font-black underline">{profile.links[2].label}</Link>.
+                <Link prefetch={false} href={profile.links[0].href} className="text-red-600 font-black underline">{profile.links[0].label}</Link>,{" "}
+                <Link prefetch={false} href={profile.links[1].href} className="text-red-600 font-black underline">{profile.links[1].label}</Link>{" "}
+                e <Link prefetch={false} href={profile.links[2].href} className="text-red-600 font-black underline">{profile.links[2].label}</Link>.
               </p>
               <p>{profile.cost}</p>
             </div>
@@ -514,7 +514,7 @@ export default function OccupationDepthBlock({ occupation, currentSlug }: Occupa
                 <h3 className="text-lg font-black uppercase italic">Por que agir agora</h3>
               </div>
               <p className="text-red-50 text-sm font-bold leading-relaxed mb-5">{profile.urgency}</p>
-              <Link
+              <Link prefetch={false}
                 href="/contato"
                 className="inline-flex items-center justify-center gap-2 bg-white text-red-700 hover:bg-slate-100 px-5 py-3 rounded-xl text-sm font-black uppercase transition-all"
               >

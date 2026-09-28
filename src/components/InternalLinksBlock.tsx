@@ -60,7 +60,7 @@ export default function InternalLinksBlock({
           {/* Grid de bairros */}
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
             {links.map((link: any, i: number) => (
-              <Link
+              <Link prefetch={false}
                 key={i}
                 href={link.bairroSlug}
                 title={`${data.label} em ${link.bairroLabel} — DRD2 Engenharia`}
@@ -85,7 +85,7 @@ export default function InternalLinksBlock({
               a Grande São Paulo. Nosso engenheiro vai até o local para{" "}
               <strong className="text-slate-700">diagnóstico técnico gratuito</strong>,
               com relatório de pendências e proposta de regularização sem compromisso.{" "}
-              <Link href="/contato" className="text-red-600 hover:underline font-bold">
+              <Link prefetch={false} href="/contato" className="text-red-600 hover:underline font-bold">
                 Solicite agora →
               </Link>
             </p>
@@ -124,7 +124,7 @@ export default function InternalLinksBlock({
           {/* Cards de ocupação */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {ocupacoes.map((ocup: any, i: number) => (
-              <Link
+              <Link prefetch={false}
                 key={i}
                 href={ocup.ocupacaoSlug}
                 title={`${ocup.ocupacaoLabel} em ${data.label} — DRD2 Engenharia`}
@@ -150,7 +150,7 @@ export default function InternalLinksBlock({
               regularização de AVCB, CLCB e Alvará do Corpo de Bombeiros em diferentes tipos
               de imóvel. Do galpão industrial ao consultório médico,{" "}
               <strong className="text-slate-800">a DRD2 emite o certificado do início ao fim</strong>.{" "}
-              <Link href="/avcb-sao-paulo" className="text-red-600 hover:underline font-bold">
+              <Link prefetch={false} href="/avcb-sao-paulo" className="text-red-600 hover:underline font-bold">
                 Saiba mais sobre o processo →
               </Link>
             </p>

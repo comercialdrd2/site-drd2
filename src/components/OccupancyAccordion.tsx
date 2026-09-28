@@ -140,7 +140,7 @@ export default function OccupancyAccordion() {
                       );
 
                       return item.href ? (
-                        <Link key={i} href={item.href}>
+                        <Link prefetch={false} key={i} href={item.href}>
                           <Content />
                         </Link>
                       ) : (
@@ -153,7 +153,7 @@ export default function OccupancyAccordion() {
                   <div className="mt-10 p-4 border-t border-gray-800 text-center">
                     <p className="text-sm text-gray-500">
                       Não encontrou sua ocupação específica? Nossa engenharia cobre todos os grupos (A a M) do Decreto Estadual de SP. 
-                      <Link href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`} target="_blank" className="text-red-500 font-bold ml-1 hover:underline">Consulte um engenheiro →</Link>
+                      <Link prefetch={false} href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`} target="_blank" className="text-red-500 font-bold ml-1 hover:underline">Consulte um engenheiro →</Link>
                     </p>
                   </div>
                 </div>

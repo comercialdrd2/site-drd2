@@ -275,7 +275,7 @@ export default function AvcbOuClcbCalculator() {
                 <p className="text-slate-700 leading-relaxed font-medium mb-5">
                   {result.reason}
                 </p>
-                <Link
+                <Link prefetch={false}
                   href={result.ctaHref}
                   className="inline-flex items-center gap-2 bg-slate-950 hover:bg-red-600 text-white font-black uppercase tracking-tight px-6 py-3 rounded-xl transition-all text-sm"
                 >
@@ -287,7 +287,7 @@ export default function AvcbOuClcbCalculator() {
             <p className="text-xs text-slate-500 mt-6 italic leading-relaxed border-t border-slate-200 pt-4">
               ⚠️ Resultado orientativo. O enquadramento definitivo depende de avaliação técnica do projeto pelo
               engenheiro responsável + análise do CBPMESP. Para diagnóstico gratuito sem compromisso,{" "}
-              <Link href="/contato" className="text-red-600 font-bold underline">fale com a DRD2</Link>.
+              <Link prefetch={false} href="/contato" className="text-red-600 font-bold underline">fale com a DRD2</Link>.
             </p>
           </div>
         )}

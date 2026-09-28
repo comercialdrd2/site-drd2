@@ -349,7 +349,7 @@ export default function BlogStrategicLinks({ currentSlug, relatedServiceSlug }: 
           {links.map((link) => {
             const Icon = iconByKind[link.kind];
             return (
-              <Link
+              <Link prefetch={false}
                 key={link.href}
                 href={link.href}
                 className="group bg-white/5 border border-white/10 hover:bg-white/10 hover:border-red-500/60 rounded-2xl p-5 flex flex-col gap-3 transition-all"

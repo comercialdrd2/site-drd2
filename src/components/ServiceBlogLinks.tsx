@@ -409,7 +409,7 @@ export default function ServiceBlogLinks({ currentSlug }: ServiceBlogLinksProps)
           {links.map((link) => {
             const Icon = iconByKind[link.kind];
             return (
-              <Link
+              <Link prefetch={false}
                 key={link.href}
                 href={link.href}
                 className="group bg-slate-50 border border-slate-200 hover:bg-white hover:border-red-500 rounded-2xl p-5 flex items-start gap-4 transition-all shadow-sm hover:shadow-lg"
@@ -435,7 +435,7 @@ export default function ServiceBlogLinks({ currentSlug }: ServiceBlogLinksProps)
           <p className="text-sm md:text-base font-semibold text-slate-200 leading-relaxed">
             Precisa transformar a dúvida em regularização? Um engenheiro da DRD2 avalia custo, prazo, renovação e exigências do Corpo de Bombeiros para o seu imóvel.
           </p>
-          <Link
+          <Link prefetch={false}
             href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`}
             target="_blank"
             className="inline-flex items-center justify-center gap-2 bg-red-600 hover:bg-red-700 text-white font-black uppercase tracking-widest text-xs px-5 py-3 rounded-xl transition-colors shrink-0"

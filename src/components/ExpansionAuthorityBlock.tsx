@@ -208,7 +208,7 @@ export default function ExpansionAuthorityBlock({ slug }: { slug: string }) {
             </p>
             <div className="space-y-4">
               {profile.complementaryServices.map((service) => (
-                <Link
+                <Link prefetch={false}
                   key={service.href}
                   href={service.href}
                   className="block border border-slate-200 rounded-lg p-4 hover:border-red-500 hover:bg-red-50 transition-colors"

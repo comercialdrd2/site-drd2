@@ -357,7 +357,7 @@ export default function ProjetosPage() {
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {Object.values(fireProjectSeoPages).map((p) => (
               <li key={p.slug}>
-                <Link
+                <Link prefetch={false}
                   href={p.slug}
                   className="block h-full border border-slate-200 rounded-xl p-4 font-bold text-slate-800 hover:border-red-500 hover:text-red-700 transition-colors"
                 >

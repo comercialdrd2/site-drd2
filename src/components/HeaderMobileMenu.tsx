@@ -39,7 +39,7 @@ export default function HeaderMobileMenu() {
       {isOpen && (
         <div className="fixed inset-0 top-20 z-[90] bg-[#0D121F] p-6 animate-in fade-in slide-in-from-right-full duration-300 overflow-y-auto">
           <div className="space-y-4">
-            <Link
+            <Link prefetch={false}
               onClick={close}
               href="/"
               className="block py-4 border-b border-white/5 text-xl font-black text-white uppercase italic tracking-tighter hover:text-red-500 transition-colors"
@@ -53,7 +53,7 @@ export default function HeaderMobileMenu() {
               </p>
               <div className="grid grid-cols-1 gap-2">
                 {services.map(({ href, name }) => (
-                  <Link
+                  <Link prefetch={false}
                     key={href}
                     onClick={close}
                     href={href}
@@ -62,14 +62,14 @@ export default function HeaderMobileMenu() {
                     <span className="uppercase text-xs tracking-tight">{name}</span>
                   </Link>
                 ))}
-                <Link
+                <Link prefetch={false}
                   onClick={close}
                   href="/quanto-custa-avcb-sao-paulo"
                   className="block py-2 mt-2 text-red-400 font-black hover:text-red-300 border-t border-white/10 pt-3"
                 >
                   <span className="uppercase text-xs tracking-tight">💰 Quanto Custa o AVCB</span>
                 </Link>
-                <Link
+                <Link prefetch={false}
                   onClick={close}
                   href="/servicos"
                   className="block py-2 text-slate-400 font-bold hover:text-white"
@@ -79,21 +79,21 @@ export default function HeaderMobileMenu() {
               </div>
             </div>
 
-            <Link
+            <Link prefetch={false}
               onClick={close}
               href="/blog"
               className="block py-4 border-b border-white/5 text-xl font-black text-white uppercase italic tracking-tighter hover:text-red-500 transition-colors"
             >
               Blog
             </Link>
-            <Link
+            <Link prefetch={false}
               onClick={close}
               href="/sobre"
               className="block py-4 border-b border-white/5 text-xl font-black text-white uppercase italic tracking-tighter hover:text-red-500 transition-colors"
             >
               Sobre
             </Link>
-            <Link
+            <Link prefetch={false}
               onClick={close}
               href="/contato"
               className="block py-4 border-b border-white/5 text-xl font-black text-white uppercase italic tracking-tighter hover:text-red-500 transition-colors"

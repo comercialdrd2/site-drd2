@@ -107,11 +107,11 @@ export default function ServiceClusterLinks({ currentSlug }: ServiceClusterLinks
             </p>
             <p className="text-slate-400 font-medium leading-relaxed mt-4 text-sm">
               Todo o processo tem um{" "}
-              <Link href="/engenheiro-avcb-sao-paulo" className="text-white underline hover:text-red-400">
+              <Link prefetch={false} href="/engenheiro-avcb-sao-paulo" className="text-white underline hover:text-red-400">
                 engenheiro de AVCB
               </Link>{" "}
               responsável pela ART. Dependendo da ocupação, o Corpo de Bombeiros também exige o{" "}
-              <Link href="/plano-de-emergencia-contra-incendio-sp" className="text-white underline hover:text-red-400">
+              <Link prefetch={false} href="/plano-de-emergencia-contra-incendio-sp" className="text-white underline hover:text-red-400">
                 plano de emergência contra incêndio
               </Link>
               .
@@ -122,7 +122,7 @@ export default function ServiceClusterLinks({ currentSlug }: ServiceClusterLinks
             {related.map(({ slug, label, desc, Icon }, index) => {
               const primary = slug === hub.slug || (isHub && index === 0);
               return (
-                <Link
+                <Link prefetch={false}
                   key={slug}
                   href={slug}
                   className={`group border rounded-2xl p-5 flex items-start gap-4 transition-all ${

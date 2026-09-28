@@ -74,7 +74,7 @@ export default function BlogHubPage() {
               <article key={post.slug} className="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border border-gray-100 flex flex-col group">
                 
                 {/* Image Placeholder Dinâmico PREMIUM */}
-                <Link href={`/blog/${post.slug}`} className="relative h-60 w-full bg-gray-900 overflow-hidden block">
+                <Link prefetch={false} href={`/blog/${post.slug}`} className="relative h-60 w-full bg-gray-900 overflow-hidden block">
                    {post.image ? (
                      <Image
                        src={post.image}
@@ -105,11 +105,11 @@ export default function BlogHubPage() {
                     {new Date(post.date).toLocaleDateString('pt-BR', { year: 'numeric', month: 'long', day: 'numeric' })}
                   </div>
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 leading-snug group-hover:text-red-700 transition-colors">
-                    <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+                    <Link prefetch={false} href={`/blog/${post.slug}`}>{post.title}</Link>
                   </h2>
                   <p className="text-gray-600 mb-8 flex-grow leading-relaxed">{post.excerpt}</p>
                   
-                  <Link href={`/blog/${post.slug}`} className="inline-flex items-center justify-between w-full font-bold text-red-700 uppercase tracking-widest text-sm pt-6 border-t border-gray-100 group-hover:text-gray-900 transition-colors">
+                  <Link prefetch={false} href={`/blog/${post.slug}`} className="inline-flex items-center justify-between w-full font-bold text-red-700 uppercase tracking-widest text-sm pt-6 border-t border-gray-100 group-hover:text-gray-900 transition-colors">
                     <span>Ler Artigo Técnico</span>
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
                   </Link>

@@ -116,7 +116,7 @@ export default function RenovacaoAVCBPage() {
               </h2>
               <div className="space-y-5 text-lg text-slate-700 leading-relaxed font-medium">
                 <p>{c.h2_prazo.body}</p>
-                <p className="text-base text-slate-500 font-medium">Nossos engenheiros atendem condomínios e empresas de ponta a ponta na capital paulista. Realizamos renovações frequentes na Zona Sul (<Link href="/renovacao-avcb-condominio-moema" className="text-red-600 font-bold hover:underline">Moema</Link>, <Link href="/renovacao-avcb-condominio-vila-olimpia" className="text-red-600 font-bold hover:underline">Vila Olímpia</Link>, <Link href="/renovacao-avcb-saude" className="text-red-600 font-bold hover:underline">Saúde</Link>), Zona Oeste (<Link href="/renovacao-avcb-condominio-pinheiros" className="text-red-600 font-bold hover:underline">Pinheiros</Link>, <Link href="/renovacao-avcb-condominio-perdizes" className="text-red-600 font-bold hover:underline">Perdizes</Link>), e Centro Expandido (<Link href="/renovacao-avcb-condominio-bela-vista" className="text-red-600 font-bold hover:underline">Bela Vista</Link>, <Link href="/renovacao-avcb-paraiso" className="text-red-600 font-bold hover:underline">Paraíso</Link>, Paulista). Também atendemos com agilidade Guarulhos, Osasco e região do ABC.</p>
+                <p className="text-base text-slate-500 font-medium">Nossos engenheiros atendem condomínios e empresas de ponta a ponta na capital paulista. Realizamos renovações frequentes na Zona Sul (<Link prefetch={false} href="/renovacao-avcb-condominio-moema" className="text-red-600 font-bold hover:underline">Moema</Link>, <Link prefetch={false} href="/renovacao-avcb-condominio-vila-olimpia" className="text-red-600 font-bold hover:underline">Vila Olímpia</Link>, <Link prefetch={false} href="/renovacao-avcb-saude" className="text-red-600 font-bold hover:underline">Saúde</Link>), Zona Oeste (<Link prefetch={false} href="/renovacao-avcb-condominio-pinheiros" className="text-red-600 font-bold hover:underline">Pinheiros</Link>, <Link prefetch={false} href="/renovacao-avcb-condominio-perdizes" className="text-red-600 font-bold hover:underline">Perdizes</Link>), e Centro Expandido (<Link prefetch={false} href="/renovacao-avcb-condominio-bela-vista" className="text-red-600 font-bold hover:underline">Bela Vista</Link>, <Link prefetch={false} href="/renovacao-avcb-paraiso" className="text-red-600 font-bold hover:underline">Paraíso</Link>, Paulista). Também atendemos com agilidade Guarulhos, Osasco e região do ABC.</p>
               </div>
             </div>
 
@@ -290,7 +290,7 @@ export default function RenovacaoAVCBPage() {
                 {c.h2_tipos.tipos.map((tipo, i) => {
                     const Icon = occupationIcons[tipo.nome] || Building2;
                     return (
-                        <Link 
+                        <Link prefetch={false} 
                             key={i} 
                             href={tipo.href}
                             className="bg-white p-6 rounded-2xl border border-slate-200 hover:border-red-600 hover:shadow-xl transition-all flex items-center gap-4 group"
@@ -403,7 +403,7 @@ export default function RenovacaoAVCBPage() {
             <p className="text-sm font-black uppercase tracking-[0.3em] text-slate-400 mb-8">Links Internos Recomendados</p>
             <div className="flex flex-wrap justify-center gap-4">
                 {c.linksInternos.map((link, i) => (
-                <Link
+                <Link prefetch={false}
                     key={i}
                     href={link.href}
                     className="flex items-center gap-2 bg-slate-50 hover:bg-red-600 hover:text-white text-slate-700 font-bold px-6 py-3 rounded-2xl border border-slate-200 hover:border-red-600 transition-all text-sm"

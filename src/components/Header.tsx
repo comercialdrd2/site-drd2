@@ -40,7 +40,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-[100] w-full border-b border-white/5 bg-[#0D121F] shadow-xl">
       <div className="container mx-auto px-4 h-20 grid grid-cols-[auto_1fr_auto] items-center gap-4">
-        <Link href="/" className="flex items-center shrink-0">
+        <Link prefetch={false} href="/" className="flex items-center shrink-0">
           <Image
             src="/images/logo-white.png"
             alt="DRD2 Engenharia e Serviços"
@@ -53,7 +53,7 @@ export default function Header() {
         </Link>
 
         <nav className="hidden lg:flex items-center justify-center gap-8" aria-label="Menu principal">
-          <Link href="/" className={navLinkClass}>
+          <Link prefetch={false} href="/" className={navLinkClass}>
             Home
           </Link>
 
@@ -69,7 +69,7 @@ export default function Header() {
               </p>
               <div className="flex flex-col gap-2">
                 {services.map(({ href, name, icon: Icon }) => (
-                  <Link
+                  <Link prefetch={false}
                     key={href}
                     href={href}
                     className="flex items-center gap-3 p-3 text-[12px] font-bold text-gray-300 hover:text-white hover:bg-red-600/20 rounded-xl transition-all border border-transparent hover:border-white/5"
@@ -82,7 +82,7 @@ export default function Header() {
                 ))}
               </div>
               <div className="border-t border-white/10 mt-3 pt-3 flex flex-col gap-2">
-                <Link
+                <Link prefetch={false}
                   href="/quanto-custa-avcb-sao-paulo"
                   className="flex items-center gap-3 p-3 text-[12px] font-black text-red-400 hover:text-white bg-red-600/10 hover:bg-red-600 rounded-xl transition-all border border-red-600/30 hover:border-red-600"
                 >
@@ -91,7 +91,7 @@ export default function Header() {
                   </div>
                   <span className="uppercase tracking-tight">Quanto Custa o AVCB</span>
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="/servicos"
                   className="text-center text-[11px] font-black uppercase tracking-widest text-slate-400 hover:text-white py-2 transition-colors"
                 >
@@ -101,9 +101,9 @@ export default function Header() {
             </div>
           </div>
 
-          <Link href="/blog" className={navLinkClass}>Blog</Link>
-          <Link href="/sobre" className={navLinkClass}>Sobre</Link>
-          <Link href="/contato" className={navLinkClass}>Contato</Link>
+          <Link prefetch={false} href="/blog" className={navLinkClass}>Blog</Link>
+          <Link prefetch={false} href="/sobre" className={navLinkClass}>Sobre</Link>
+          <Link prefetch={false} href="/contato" className={navLinkClass}>Contato</Link>
         </nav>
 
         <HeaderMobileMenu />

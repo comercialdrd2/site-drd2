@@ -65,7 +65,7 @@ export default function AvcbPorTipoDeImovelPage() {
               <ul className="space-y-1.5 text-sm">
                 {grupo.links.map((link) => (
                   <li key={link.href}>
-                    <Link href={link.href} className="text-slate-700 hover:text-red-700 hover:underline">
+                    <Link prefetch={false} href={link.href} className="text-slate-700 hover:text-red-700 hover:underline">
                       {link.label}
                     </Link>
                   </li>

@@ -437,7 +437,7 @@ export default function AVCBSalaoFestasPage() {
               { label: "AVCB para Condomínio", href: "/avcb-para-condominio-sao-paulo" },
               { label: "AVCB para Escola", href: "/avcb-para-escola-sao-paulo" },
             ].map((link, idx) => (
-              <Link
+              <Link prefetch={false}
                 key={idx}
                 href={link.href}
                 className="flex items-center gap-2 p-4 bg-slate-50 rounded-xl border border-slate-200 hover:border-red-600 hover:bg-red-50 transition-all group"

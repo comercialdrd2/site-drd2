@@ -105,7 +105,7 @@ export default function VistoriaBombeirosPost() {
         <div className="relative z-10 container mx-auto px-4 max-w-6xl py-12">
           <div className="max-w-4xl">
             <nav className="flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] text-primary mb-8 bg-primary/10 w-fit px-4 py-1.5 rounded-full border border-primary/20">
-              <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+              <Link prefetch={false} href="/blog" className="hover:text-white transition-colors">Blog</Link>
               <span>/</span>
               <span className="text-gray-400">Inspeção Técnica Oficial</span>
             </nav>
@@ -202,11 +202,11 @@ export default function VistoriaBombeirosPost() {
               <p>A vistoria é moldada de acordo com o grupo de ocupação do imóvel. A cobrança sobre uma loja pequena difere brutalmente de uma indústria logística. Escolha o perfil da sua edificação para ver as exigências exclusivas:</p>
               
               <ul className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 my-8 font-black text-xs uppercase tracking-widest italic">
-                <li><Link href="/avcb-galpao-industrial-sao-paulo" className="flex items-center gap-2 p-4 bg-white border border-slate-200 rounded-xl hover:border-primary text-secondary hover:text-primary transition-all"><ArrowRight className="w-4 h-4"/> Galpões Industriais & Logística</Link></li>
-                <li><Link href="/avcb-restaurante-sao-paulo" className="flex items-center gap-2 p-4 bg-white border border-slate-200 rounded-xl hover:border-primary text-secondary hover:text-primary transition-all"><ArrowRight className="w-4 h-4"/> Restaurantes e Bares</Link></li>
-                <li><Link href="/avcb-para-condominio-sao-paulo" className="flex items-center gap-2 p-4 bg-white border border-slate-200 rounded-xl hover:border-primary text-secondary hover:text-primary transition-all"><ArrowRight className="w-4 h-4"/> Condomínios Residenciais</Link></li>
-                <li><Link href="/avcb-hospital-clinica-sao-paulo" className="flex items-center gap-2 p-4 bg-white border border-slate-200 rounded-xl hover:border-primary text-secondary hover:text-primary transition-all"><ArrowRight className="w-4 h-4"/> Clínicas e Hospitais (VISA)</Link></li>
-                <li><Link href="/avcb-itaim-bibi" className="flex items-center gap-2 p-4 bg-white border border-slate-200 rounded-xl hover:border-primary text-secondary hover:text-primary transition-all"><ArrowRight className="w-4 h-4"/> Lajes Corporativas (Triple A)</Link></li>
+                <li><Link prefetch={false} href="/avcb-galpao-industrial-sao-paulo" className="flex items-center gap-2 p-4 bg-white border border-slate-200 rounded-xl hover:border-primary text-secondary hover:text-primary transition-all"><ArrowRight className="w-4 h-4"/> Galpões Industriais & Logística</Link></li>
+                <li><Link prefetch={false} href="/avcb-restaurante-sao-paulo" className="flex items-center gap-2 p-4 bg-white border border-slate-200 rounded-xl hover:border-primary text-secondary hover:text-primary transition-all"><ArrowRight className="w-4 h-4"/> Restaurantes e Bares</Link></li>
+                <li><Link prefetch={false} href="/avcb-para-condominio-sao-paulo" className="flex items-center gap-2 p-4 bg-white border border-slate-200 rounded-xl hover:border-primary text-secondary hover:text-primary transition-all"><ArrowRight className="w-4 h-4"/> Condomínios Residenciais</Link></li>
+                <li><Link prefetch={false} href="/avcb-hospital-clinica-sao-paulo" className="flex items-center gap-2 p-4 bg-white border border-slate-200 rounded-xl hover:border-primary text-secondary hover:text-primary transition-all"><ArrowRight className="w-4 h-4"/> Clínicas e Hospitais (VISA)</Link></li>
+                <li><Link prefetch={false} href="/avcb-itaim-bibi" className="flex items-center gap-2 p-4 bg-white border border-slate-200 rounded-xl hover:border-primary text-secondary hover:text-primary transition-all"><ArrowRight className="w-4 h-4"/> Lajes Corporativas (Triple A)</Link></li>
               </ul>
 
               <h2 className="text-3xl font-black text-secondary uppercase tracking-tighter italic my-12 border-l-8 border-primary pl-6 leading-none">Reprovação: O que acontece?</h2>
@@ -338,7 +338,7 @@ export default function VistoriaBombeirosPost() {
             
             <div className="mt-20 flex flex-wrap justify-center gap-8 border-t border-white/10 pt-10">
                {subSectors.map((loc, i) => (
-                 <Link key={i} href={loc.h} className="text-[10px] font-black uppercase text-gray-500 hover:text-primary transition-colors tracking-widest">→ {loc.n}</Link>
+                 <Link prefetch={false} key={i} href={loc.h} className="text-[10px] font-black uppercase text-gray-500 hover:text-primary transition-colors tracking-widest">→ {loc.n}</Link>
                ))}
             </div>
         </div>

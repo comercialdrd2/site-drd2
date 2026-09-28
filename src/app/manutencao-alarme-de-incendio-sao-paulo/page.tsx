@@ -148,7 +148,7 @@ export default function ManutencaoAlarmeIncendioPage() {
                 <Phone className="w-5 h-5 flex-shrink-0" />
                 Solicitar vistoria técnica
               </a>
-              <Link
+              <Link prefetch={false}
                 href="/alarme-incendio-sao-paulo"
                 className="bg-white/10 hover:bg-white/20 text-white font-black px-8 py-4 rounded-2xl transition-all flex sm:inline-flex items-center justify-center gap-3 uppercase tracking-tighter text-base w-full sm:w-auto border border-white/20"
               >
@@ -185,7 +185,7 @@ export default function ManutencaoAlarmeIncendioPage() {
                   Em São Paulo, esse cuidado tem impacto direto no AVCB e no CLCB. O Corpo de Bombeiros pode exigir comprovacao de funcionamento, laudo técnico, ART e evidencias de que detectores, botoeiras, sirenes e central estao operacionais. Quando o sistema falha na vistoria, o processo recebe exigencia e o imóvel continua irregular ate a correcao.
                 </p>
                 <p>
-                  A DRD2 Engenharia atende condomínios, indústrias, galpões, escolas, clínicas, escritorios, restaurantes e comércios com manutenção preventiva e corretiva. O trabalho considera NBR 17240, projeto aprovado, ocupação real, rotas de fuga e integracao com outros sistemas, como <Link href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link href="/sprinklers" className="text-red-700 font-black underline">sprinklers</Link> e plano de abandono.
+                  A DRD2 Engenharia atende condomínios, indústrias, galpões, escolas, clínicas, escritorios, restaurantes e comércios com manutenção preventiva e corretiva. O trabalho considera NBR 17240, projeto aprovado, ocupação real, rotas de fuga e integracao com outros sistemas, como <Link prefetch={false} href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link prefetch={false} href="/sprinklers" className="text-red-700 font-black underline">sprinklers</Link> e plano de abandono.
                 </p>
               </div>
             </div>
@@ -336,7 +336,7 @@ export default function ManutencaoAlarmeIncendioPage() {
                   O Corpo de Bombeiros não avalia apenas se existe uma central instalada. A vistoria observa se o sistema esta coerente com o projeto, se os acionadores estao acessiveis, se o aviso sonoro e visual funciona, se ha falhas indicadas na central e se a documentação técnica comprova manutenção.
                 </p>
                 <p>
-                  Em renovacao de AVCB, a falta de manutenção do alarme pode travar o processo mesmo quando extintores, hidrantes e sinalização estao corretos. Por isso, a manutenção do sistema de detecção e alarme deve ser tratada como parte do plano de regularização, junto com <Link href="/manutencao" className="text-red-400 font-black underline">manutenção de sistemas de incêndio</Link> e documentação de engenharia.
+                  Em renovacao de AVCB, a falta de manutenção do alarme pode travar o processo mesmo quando extintores, hidrantes e sinalização estao corretos. Por isso, a manutenção do sistema de detecção e alarme deve ser tratada como parte do plano de regularização, junto com <Link prefetch={false} href="/manutencao" className="text-red-400 font-black underline">manutenção de sistemas de incêndio</Link> e documentação de engenharia.
                 </p>
               </div>
             </div>
@@ -387,7 +387,7 @@ export default function ManutencaoAlarmeIncendioPage() {
                   ["Sistema de hidrantes", "/hidrantes"],
                   ["Sistema de sprinklers", "/sprinklers"],
                 ].map(([label, href]) => (
-                  <Link
+                  <Link prefetch={false}
                     key={href}
                     href={href}
                     className="bg-white border border-slate-200 p-4 rounded-xl font-black text-slate-800 hover:text-red-700 hover:border-red-500 transition-colors"

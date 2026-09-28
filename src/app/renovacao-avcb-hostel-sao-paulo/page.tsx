@@ -379,7 +379,7 @@ export default function RenovacaoAVCBHostelPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             {c.linksInternos.map((link, i) => (
-              <Link
+              <Link prefetch={false}
                 key={i}
                 href={link.href}
                 className="flex items-center gap-2 bg-slate-50 hover:bg-red-600 hover:text-white text-slate-700 font-bold px-6 py-3 rounded-2xl border border-slate-200 hover:border-red-600 transition-all text-sm"

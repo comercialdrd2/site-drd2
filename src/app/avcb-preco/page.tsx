@@ -191,7 +191,7 @@ export default function AVCBPrecoPage() {
                   <p className="text-gray-400 font-medium leading-relaxed mb-8 text-sm">
                     Projetos significativamente abaixo do mercado indicam ausência de ART ou falta de visita técnica. Um projeto mal elaborado gera reprovação e retrabalho — custo superior a um projeto correto desde o início.
                   </p>
-                  <Link href="/avcb-sao-paulo" className="text-primary font-black uppercase tracking-widest text-xs flex items-center gap-2 hover:translate-x-2 transition-transform">
+                  <Link prefetch={false} href="/avcb-sao-paulo" className="text-primary font-black uppercase tracking-widest text-xs flex items-center gap-2 hover:translate-x-2 transition-transform">
                      Ver Guia de Aprovação <ArrowRight className="w-4 h-4" />
                   </Link>
                </div>

@@ -71,7 +71,7 @@ export default function ObrigadoPage() {
         </div>
 
         {/* Back home */}
-        <Link
+        <Link prefetch={false}
           href="/"
           className="text-slate-500 hover:text-white text-sm font-bold uppercase tracking-widest transition-colors border-b border-slate-600 hover:border-white pb-0.5"
         >

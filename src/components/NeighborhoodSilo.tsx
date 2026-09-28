@@ -206,7 +206,7 @@ const NeighborhoodSilo: FC<NeighborhoodSiloProps> = ({ currentSlug }) => {
         </span>
         <div className="flex flex-wrap justify-center gap-8">
           {related.map((link) => (
-            <Link
+            <Link prefetch={false}
               key={link.slug}
               href={link.slug}
               className="text-[11px] font-black uppercase text-slate-400 hover:text-primary transition-colors flex items-center gap-2 group"
@@ -218,7 +218,7 @@ const NeighborhoodSilo: FC<NeighborhoodSiloProps> = ({ currentSlug }) => {
         </div>
         {crossLink && (
           <div className="mt-2">
-            <Link
+            <Link prefetch={false}
               href={crossLink.slug}
               className="text-[11px] font-black uppercase text-red-500 hover:text-red-700 transition-colors border border-red-200 px-3 py-1 rounded-full hover:border-red-400"
             >
@@ -253,7 +253,7 @@ const NeighborhoodSilo: FC<NeighborhoodSiloProps> = ({ currentSlug }) => {
       </span>
       <div className="flex flex-wrap justify-center gap-8">
         {displayLinks.map((link) => (
-          <Link
+          <Link prefetch={false}
             key={link.slug}
             href={link.slug}
             className="text-[11px] font-black uppercase text-slate-400 hover:text-primary transition-colors flex items-center gap-2 group"
@@ -265,7 +265,7 @@ const NeighborhoodSilo: FC<NeighborhoodSiloProps> = ({ currentSlug }) => {
       </div>
       {/* Botão para concentrar Link Juice na página Hub e incentivar o clique */}
       <div className="mt-8">
-        <Link
+        <Link prefetch={false}
           href="/avcb-sao-paulo"
           className="text-[12px] font-black uppercase text-red-600 hover:text-white transition-colors border-2 border-red-200 hover:bg-red-600 px-6 py-3 rounded-full hover:border-red-600 shadow-sm inline-flex items-center gap-2"
         >

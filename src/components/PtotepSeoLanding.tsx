@@ -152,7 +152,7 @@ export default function PtotepSeoLanding({ page }: Props) {
                 occupationType={page.ctaOccupation}
                 size="md"
               />
-              <Link
+              <Link prefetch={false}
                 href="#checklist"
                 className="inline-flex min-h-[48px] items-center justify-center gap-2 rounded-2xl border-2 border-white/80 px-7 py-4 text-sm font-black uppercase tracking-tight text-white transition-all hover:bg-white hover:text-slate-950"
               >
@@ -392,7 +392,7 @@ export default function PtotepSeoLanding({ page }: Props) {
           </div>
           <div className="flex flex-wrap gap-3">
             {page.related.map((link) => (
-              <Link
+              <Link prefetch={false}
                 key={link.href}
                 href={link.href}
                 className="inline-flex items-center gap-2 rounded-2xl border border-slate-200 bg-slate-50 px-5 py-3 text-sm font-black text-slate-700 transition-all hover:border-red-600 hover:bg-red-600 hover:text-white"

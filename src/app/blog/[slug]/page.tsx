@@ -167,7 +167,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
 
       <article className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-4 max-w-3xl">
-          <Link href="/blog" className="inline-flex items-center text-sm font-semibold text-gray-500 hover:text-primary mb-8 transition-colors">
+          <Link prefetch={false} href="/blog" className="inline-flex items-center text-sm font-semibold text-gray-500 hover:text-primary mb-8 transition-colors">
             <ArrowLeft className="w-4 h-4 mr-2" /> Voltar para o Blog
           </Link>
 

@@ -316,10 +316,10 @@ export default function AboutPage() {
           </div>
           
           <div className="mt-20 pt-10 border-t border-slate-800 flex flex-wrap justify-center gap-8 text-[11px] font-black text-slate-500 uppercase tracking-widest">
-             <Link href="/" className="hover:text-primary transition-colors">→ Início</Link>
-             <Link href="/avcb-para-condominio-sao-paulo" className="hover:text-primary transition-colors">→ AVCB Condomínios</Link>
-             <Link href="/avcb-galpao-industrial-sao-paulo" className="hover:text-primary transition-colors">→ AVCB Indústrias</Link>
-             <Link href="/quanto-custa-avcb-sao-paulo" className="hover:text-primary transition-colors">→ O que pesa no preço</Link>
+             <Link prefetch={false} href="/" className="hover:text-primary transition-colors">→ Início</Link>
+             <Link prefetch={false} href="/avcb-para-condominio-sao-paulo" className="hover:text-primary transition-colors">→ AVCB Condomínios</Link>
+             <Link prefetch={false} href="/avcb-galpao-industrial-sao-paulo" className="hover:text-primary transition-colors">→ AVCB Indústrias</Link>
+             <Link prefetch={false} href="/quanto-custa-avcb-sao-paulo" className="hover:text-primary transition-colors">→ O que pesa no preço</Link>
           </div>
         </div>
       </section>

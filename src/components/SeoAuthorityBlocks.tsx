@@ -258,9 +258,9 @@ export function OccupationAuthorityBlock({ occupation, currentSlug }: Occupation
                 Na vistoria, os pontos mais sensiveis costumam ser {profile.risk}. Quando o levantamento identifica
                 falha em rede hidraulica, alarme ou documentação, a regularização deve ser planejada antes do protocolo.
                 Isso evita Comunique-se e reduz retrabalho em servicos como{" "}
-                <Link href={profile.links[0].href} className="text-red-600 font-black underline">{profile.links[0].label}</Link>,{" "}
-                <Link href={profile.links[1].href} className="text-red-600 font-black underline">{profile.links[1].label}</Link>{" "}
-                e <Link href={profile.links[2].href} className="text-red-600 font-black underline">{profile.links[2].label}</Link>.
+                <Link prefetch={false} href={profile.links[0].href} className="text-red-600 font-black underline">{profile.links[0].label}</Link>,{" "}
+                <Link prefetch={false} href={profile.links[1].href} className="text-red-600 font-black underline">{profile.links[1].label}</Link>{" "}
+                e <Link prefetch={false} href={profile.links[2].href} className="text-red-600 font-black underline">{profile.links[2].label}</Link>.
               </p>
               <p>
                 Prazo medio real: {profile.prazo}. O prazo curto so acontece quando plantas, ARTs, notas de manutenção,
@@ -326,9 +326,9 @@ export function NeighborhoodAuthorityBlock({
               <p>
                 Prazo medio observado: {context.prazo}. Antes do protocolo, a DRD2 confere área de IPTU, planta,
                 uso real, carga de incêndio, ARTs, validade de manutencoes e pendencias de sistemas como{" "}
-                <Link href="/hidrantes" className="text-red-600 font-black underline">hidrantes</Link>,{" "}
-                <Link href="/alarme-incendio-sao-paulo" className="text-red-600 font-black underline">alarme de incêndio</Link>{" "}
-                e <Link href="/spda" className="text-red-600 font-black underline">SPDA</Link>.
+                <Link prefetch={false} href="/hidrantes" className="text-red-600 font-black underline">hidrantes</Link>,{" "}
+                <Link prefetch={false} href="/alarme-incendio-sao-paulo" className="text-red-600 font-black underline">alarme de incêndio</Link>{" "}
+                e <Link prefetch={false} href="/spda" className="text-red-600 font-black underline">SPDA</Link>.
               </p>
             </div>
           </div>

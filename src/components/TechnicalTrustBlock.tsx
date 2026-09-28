@@ -60,11 +60,11 @@ export default function TechnicalTrustBlock() {
               acompanhamento direto do diagnóstico até o certificado do Corpo de Bombeiros.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <Link href="/sobre" className="inline-flex items-center gap-2 bg-slate-950 text-white px-5 py-3 rounded-xl text-xs font-black uppercase">
+              <Link prefetch={false} href="/sobre" className="inline-flex items-center gap-2 bg-slate-950 text-white px-5 py-3 rounded-xl text-xs font-black uppercase">
                 <BadgeCheck className="w-4 h-4 text-red-500" />
                 Ver empresa
               </Link>
-              <Link href="/contato" className="inline-flex items-center gap-2 bg-red-600 text-white px-5 py-3 rounded-xl text-xs font-black uppercase">
+              <Link prefetch={false} href="/contato" className="inline-flex items-center gap-2 bg-red-600 text-white px-5 py-3 rounded-xl text-xs font-black uppercase">
                 <MapPin className="w-4 h-4" />
                 Solicitar diagnóstico
               </Link>

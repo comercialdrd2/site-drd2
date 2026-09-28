@@ -245,7 +245,7 @@ export default function AlarmeIncendioSaoPauloPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {segmentos.map((seg, i) => (
-              <Link
+              <Link prefetch={false}
                 key={i}
                 href={seg.href}
                 className="group bg-slate-50 p-8 rounded-[2rem] border border-slate-200 hover:border-red-600/30 hover:shadow-xl hover:bg-white transition-all flex flex-col"

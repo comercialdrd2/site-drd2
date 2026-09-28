@@ -425,7 +425,7 @@ export default function AVCBEscritorioMasterPage() {
               { t: "Projetos de Incêndio", u: "/projetos-incendio", i: <LayoutGrid className="w-4 h-4" /> },
               { t: "Empresa de AVCB SP", u: "/empresa-avcb-sao-paulo", i: <Building2 className="w-4 h-4" /> },
             ].map((link, i) => (
-              <Link
+              <Link prefetch={false}
                 key={i}
                 href={link.u}
                 className="bg-slate-50 border border-slate-200 p-5 rounded-2xl flex items-center justify-between group hover:border-red-600 hover:bg-red-50 transition-all font-black text-[10px] uppercase italic"

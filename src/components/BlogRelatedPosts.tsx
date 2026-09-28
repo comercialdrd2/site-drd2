@@ -85,7 +85,7 @@ export default function BlogRelatedPosts({
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {ranked.map(({ post }) => (
-          <Link
+          <Link prefetch={false}
             key={post.slug}
             href={`/blog/${post.slug}`}
             className="group block bg-white border border-slate-200 rounded-2xl overflow-hidden hover:border-red-600/30 hover:shadow-lg transition-all"

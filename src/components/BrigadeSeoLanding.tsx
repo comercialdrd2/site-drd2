@@ -102,7 +102,7 @@ export default function BrigadeSeoLanding({ page }: BrigadeSeoLandingProps) {
                 <Phone className="w-5 h-5 flex-shrink-0" />
                 Solicitar orçamento da brigada
               </a>
-              <Link
+              <Link prefetch={false}
                 href="/treinamento-brigada"
                 className="bg-white/10 hover:bg-white/20 text-white font-black px-8 py-4 rounded-2xl transition-all flex sm:inline-flex items-center justify-center gap-3 uppercase tracking-tighter text-base w-full sm:w-auto border border-white/20"
               >
@@ -136,7 +136,7 @@ export default function BrigadeSeoLanding({ page }: BrigadeSeoLandingProps) {
                 <p dangerouslySetInnerHTML={{ __html: page.riskProfile }} />
                 <p dangerouslySetInnerHTML={{ __html: page.localDemand }} />
                 <p>
-                  Brigada não e so certificado. A equipe precisa entender o plano de emergência, rotas, ponto de encontro, acionamento de <Link href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme de incêndio</Link>, uso de extintores e apoio aos sistemas do imóvel, como <Link href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link> e <Link href="/sprinklers" className="text-red-700 font-black underline">sprinklers</Link>. Isso melhora a segurança real e reduz risco de exigencia no AVCB.
+                  Brigada não e so certificado. A equipe precisa entender o plano de emergência, rotas, ponto de encontro, acionamento de <Link prefetch={false} href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme de incêndio</Link>, uso de extintores e apoio aos sistemas do imóvel, como <Link prefetch={false} href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link> e <Link prefetch={false} href="/sprinklers" className="text-red-700 font-black underline">sprinklers</Link>. Isso melhora a segurança real e reduz risco de exigencia no AVCB.
                 </p>
 
                 <div className="my-10 relative h-[350px] w-full rounded-[2rem] overflow-hidden shadow-2xl border border-slate-200 group">
@@ -323,7 +323,7 @@ export default function BrigadeSeoLanding({ page }: BrigadeSeoLandingProps) {
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[...page.related, { label: "Brigada de incêndio", href: "/treinamento-brigada" }, { label: "Projeto de incêndio", href: "/projetos-incendio" }, { label: "Manutenção", href: "/manutencao" }].map((item, i) => (
-                  <Link
+                  <Link prefetch={false}
                     key={`silo-link-${i}`}
                     href={item.href}
                     className="bg-white border border-slate-200 p-4 rounded-xl font-black text-slate-800 hover:text-red-700 hover:border-red-500 transition-colors"

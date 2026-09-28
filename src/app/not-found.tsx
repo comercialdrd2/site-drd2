@@ -19,19 +19,19 @@ export default function NotFound() {
           O endereço que você acessou não existe ou foi movido.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link
+          <Link prefetch={false}
             href="/"
             className="inline-flex items-center justify-center gap-2 bg-primary text-white font-bold px-6 py-3 rounded-xl hover:bg-red-700 transition"
           >
             <ArrowRight className="w-4 h-4 rotate-180" /> Voltar para o início
           </Link>
-          <Link
+          <Link prefetch={false}
             href="/avcb-sao-paulo"
             className="inline-flex items-center justify-center gap-2 border-2 border-secondary text-secondary font-bold px-6 py-3 rounded-xl hover:bg-secondary hover:text-white transition"
           >
             AVCB em São Paulo
           </Link>
-          <Link
+          <Link prefetch={false}
             href="/contato"
             className="inline-flex items-center justify-center gap-2 border-2 border-gray-200 text-gray-600 font-bold px-6 py-3 rounded-xl hover:border-primary hover:text-primary transition"
           >
@@ -39,10 +39,10 @@ export default function NotFound() {
           </Link>
         </div>
         <div className="mt-12 flex flex-wrap justify-center gap-6 text-sm font-bold text-primary">
-          <Link href="/renovacao-avcb" className="hover:underline">Renovação de AVCB</Link>
-          <Link href="/clcb-sao-paulo" className="hover:underline">CLCB</Link>
-          <Link href="/blog" className="hover:underline">Blog técnico</Link>
-          <Link href="/sobre" className="hover:underline">Sobre a DRD2</Link>
+          <Link prefetch={false} href="/renovacao-avcb" className="hover:underline">Renovação de AVCB</Link>
+          <Link prefetch={false} href="/clcb-sao-paulo" className="hover:underline">CLCB</Link>
+          <Link prefetch={false} href="/blog" className="hover:underline">Blog técnico</Link>
+          <Link prefetch={false} href="/sobre" className="hover:underline">Sobre a DRD2</Link>
         </div>
       </div>
     </div>

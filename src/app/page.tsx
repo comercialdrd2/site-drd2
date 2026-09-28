@@ -207,7 +207,7 @@ export default function HomePage() {
               { icon: Activity,    name: "Laudos e ARTs",           desc: "Estanqueidade de Gás, CMAR e Elétrica",            href: "/manutencao" },
               { icon: Users,       name: "Treinamento de Brigada",  desc: "Formação em pista com atestado válido",            href: "/treinamento-brigada" },
             ].map((item, i) => (
-              <Link
+              <Link prefetch={false}
                 key={i}
                 href={item.href}
                 className={`group relative bg-white p-8 rounded-[2rem] border ${item.highlight ? 'border-red-500/50 shadow-red-500/10' : 'border-slate-200 shadow-slate-200/50'} shadow-xl hover:-translate-y-2 transition-all duration-500 overflow-hidden`}
@@ -263,7 +263,7 @@ export default function HomePage() {
                   { name: "Centro & Zona Leste", slug: "/avcb-centro-sao-paulo", color: "from-emerald-500 to-teal-500" },
                   { name: "ABC Paulista", slug: "/projetos-incendio", color: "from-orange-500 to-yellow-500" } // Fallback link
                 ].map((reg, idx) => (
-                  <Link 
+                  <Link prefetch={false} 
                     key={idx}
                     href={reg.slug} 
                     className="group bg-slate-900/50 backdrop-blur-md border border-white/5 hover:border-red-500/50 p-6 rounded-3xl transition-all duration-300 hover:shadow-[0_0_30px_rgba(220,38,38,0.15)] flex flex-col"
@@ -354,7 +354,7 @@ export default function HomePage() {
                 Últimas do <span className="text-red-600 italic">Blog DRD2</span>
               </h2>
             </div>
-            <Link 
+            <Link prefetch={false} 
               href="/blog" 
               className="inline-flex items-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-900 font-black text-sm uppercase tracking-widest px-6 py-3 rounded-xl transition-colors"
             >
@@ -364,7 +364,7 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {blogPosts.slice(0, 3).map((post) => (
-              <Link 
+              <Link prefetch={false} 
                 key={post.slug} 
                 href={`/blog/${post.slug}`}
                 className="group flex flex-col h-full"

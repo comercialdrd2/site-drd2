@@ -103,7 +103,7 @@ export default function SprinklerSeoLanding({ page }: SprinklerSeoLandingProps) 
                 <Phone className="w-5 h-5 flex-shrink-0" />
                 Solicitar análise técnica
               </a>
-              <Link
+              <Link prefetch={false}
                 href="/sprinklers"
                 className="bg-white/10 hover:bg-white/20 text-white font-black px-8 py-4 rounded-2xl transition-all flex sm:inline-flex items-center justify-center gap-3 uppercase tracking-tighter text-base w-full sm:w-auto border border-white/20"
               >
@@ -137,7 +137,7 @@ export default function SprinklerSeoLanding({ page }: SprinklerSeoLandingProps) 
                 <p>{page.riskProfile}</p>
                 <p>{page.localDemand}</p>
                 <p>
-                  Um sistema de sprinkler não e apenas uma rede de bicos no teto. Ele precisa descarregar agua na densidade correta, no tempo correto e na área correta, sem obstrucoes e com reserva suficiente. Por isso, o chuveiro automático deve ser tratado junto com <Link href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme de incêndio</Link>, brigada, compartimentacao e manutenção preventiva.
+                  Um sistema de sprinkler não e apenas uma rede de bicos no teto. Ele precisa descarregar agua na densidade correta, no tempo correto e na área correta, sem obstrucoes e com reserva suficiente. Por isso, o chuveiro automático deve ser tratado junto com <Link prefetch={false} href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link prefetch={false} href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme de incêndio</Link>, brigada, compartimentacao e manutenção preventiva.
                 </p>
 
                 <div className="my-10 relative h-[350px] w-full rounded-[2rem] overflow-hidden shadow-2xl border border-slate-200 group">
@@ -324,7 +324,7 @@ export default function SprinklerSeoLanding({ page }: SprinklerSeoLandingProps) 
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[...page.related, { label: "Sprinklers", href: "/sprinklers" }, { label: "AVCB São Paulo", href: "/avcb-sao-paulo" }, { label: "Manutenção", href: "/manutencao" }].map((item, i) => (
-                  <Link
+                  <Link prefetch={false}
                     key={`silo-link-${i}`}
                     href={item.href}
                     className="bg-white border border-slate-200 p-4 rounded-xl font-black text-slate-800 hover:text-red-700 hover:border-red-500 transition-colors"

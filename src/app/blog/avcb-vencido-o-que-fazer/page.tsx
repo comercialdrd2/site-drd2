@@ -105,7 +105,7 @@ export default function AVCBVencidoPost() {
         <div className="relative z-10 container mx-auto px-4 max-w-6xl py-12">
           <div className="max-w-4xl">
             <nav className="flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] text-primary mb-8 bg-primary/10 w-fit px-4 py-1.5 rounded-full border border-primary/20">
-              <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+              <Link prefetch={false} href="/blog" className="hover:text-white transition-colors">Blog</Link>
               <span>/</span>
               <span className="text-gray-400">Regularização Urgente</span>
             </nav>
@@ -272,7 +272,7 @@ export default function AVCBVencidoPost() {
                 { n: "Vila Mariana", h: "/avcb-vila-mariana" },
                 { n: "Jabaquara", h: "/avcb-jabaquara" }
               ].map((loc, i) => (
-                <Link key={i} href={loc.h} className="px-6 py-4 bg-slate-50 rounded-2xl text-[10px] font-black text-secondary border border-slate-200 uppercase tracking-widest hover:border-primary/30 transition-all hover:bg-white">
+                <Link prefetch={false} key={i} href={loc.h} className="px-6 py-4 bg-slate-50 rounded-2xl text-[10px] font-black text-secondary border border-slate-200 uppercase tracking-widest hover:border-primary/30 transition-all hover:bg-white">
                    {loc.n}
                 </Link>
               ))}
@@ -329,9 +329,9 @@ export default function AVCBVencidoPost() {
             </div>
 
             <div className="mt-20 flex flex-wrap justify-center gap-8 border-t border-white/10 pt-10">
-               <Link href="/renovacao-avcb" className="text-[10px] font-black uppercase text-gray-500 hover:text-primary transition-colors tracking-widest">→ RENOVAÇÃO</Link>
-               <Link href="/quanto-custa-avcb-sao-paulo" className="text-[10px] font-black uppercase text-gray-500 hover:text-primary transition-colors tracking-widest">→ PREÇOS</Link>
-               <Link href="/engenheiro-avcb-sao-paulo" className="text-[10px] font-black uppercase text-gray-500 hover:text-primary transition-colors tracking-widest">→ ENGENHEIRO SP</Link>
+               <Link prefetch={false} href="/renovacao-avcb" className="text-[10px] font-black uppercase text-gray-500 hover:text-primary transition-colors tracking-widest">→ RENOVAÇÃO</Link>
+               <Link prefetch={false} href="/quanto-custa-avcb-sao-paulo" className="text-[10px] font-black uppercase text-gray-500 hover:text-primary transition-colors tracking-widest">→ PREÇOS</Link>
+               <Link prefetch={false} href="/engenheiro-avcb-sao-paulo" className="text-[10px] font-black uppercase text-gray-500 hover:text-primary transition-colors tracking-widest">→ ENGENHEIRO SP</Link>
             </div>
         </div>
       </section>

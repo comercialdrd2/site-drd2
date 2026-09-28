@@ -101,7 +101,7 @@ export default function FireProjectSeoLanding({ page }: FireProjectSeoLandingPro
                 <Phone className="w-5 h-5 flex-shrink-0" />
                 Solicitar análise do projeto
               </a>
-              <Link
+              <Link prefetch={false}
                 href="/projetos-incendio"
                 className="bg-white/10 hover:bg-white/20 text-white font-black px-8 py-4 rounded-2xl transition-all flex sm:inline-flex items-center justify-center gap-3 uppercase tracking-tighter text-base w-full sm:w-auto border border-white/20"
               >
@@ -135,7 +135,7 @@ export default function FireProjectSeoLanding({ page }: FireProjectSeoLandingPro
                 <p dangerouslySetInnerHTML={{ __html: page.riskProfile }} />
                 <p dangerouslySetInnerHTML={{ __html: page.localDemand }} />
                 <p>
-                  O projeto e o documento que amarra todas as medidas de segurança. Ele precisa conversar com <Link href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link href="/sprinklers" className="text-red-700 font-black underline">sprinklers</Link>, <Link href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme de incêndio</Link>, SPDA, GLP, brigada, rotas de fuga e manutenção. Quando cada sistema fica isolado, o processo fica vulneravel a exigencia.
+                  O projeto e o documento que amarra todas as medidas de segurança. Ele precisa conversar com <Link prefetch={false} href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link prefetch={false} href="/sprinklers" className="text-red-700 font-black underline">sprinklers</Link>, <Link prefetch={false} href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme de incêndio</Link>, SPDA, GLP, brigada, rotas de fuga e manutenção. Quando cada sistema fica isolado, o processo fica vulneravel a exigencia.
                 </p>
 
                 <div className="my-10 relative h-[350px] w-full rounded-[2rem] overflow-hidden shadow-2xl border border-slate-200 group">
@@ -322,7 +322,7 @@ export default function FireProjectSeoLanding({ page }: FireProjectSeoLandingPro
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[...page.related, { label: "Projetos de incêndio", href: "/projetos-incendio" }, { label: "Renovação AVCB", href: "/renovacao-avcb" }, { label: "Manutenção", href: "/manutencao" }].map((item, i) => (
-                  <Link
+                  <Link prefetch={false}
                     key={`silo-link-${i}`}
                     href={item.href}
                     className="bg-white border border-slate-200 p-4 rounded-xl font-black text-slate-800 hover:text-red-700 hover:border-red-500 transition-colors"

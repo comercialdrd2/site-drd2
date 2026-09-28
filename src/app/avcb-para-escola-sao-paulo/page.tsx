@@ -354,9 +354,9 @@ export default function AVCBEscolaMasterPage() {
               </div>
            </div>
            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-xs font-black uppercase tracking-[0.3em] text-slate-400 italic">
-              <Link href="/avcb-para-academia-sao-paulo" className="hover:text-red-600 transition-colors">AVCB para Academias &rarr;</Link>
-              <Link href="/avcb-hoteis-pousadas-sao-paulo" className="hover:text-red-600 transition-colors">AVCB para Hotéis &rarr;</Link>
-              <Link href="/avcb-para-igreja-sao-paulo" className="hover:text-red-600 transition-colors">AVCB para Igrejas &rarr;</Link>
+              <Link prefetch={false} href="/avcb-para-academia-sao-paulo" className="hover:text-red-600 transition-colors">AVCB para Academias &rarr;</Link>
+              <Link prefetch={false} href="/avcb-hoteis-pousadas-sao-paulo" className="hover:text-red-600 transition-colors">AVCB para Hotéis &rarr;</Link>
+              <Link prefetch={false} href="/avcb-para-igreja-sao-paulo" className="hover:text-red-600 transition-colors">AVCB para Igrejas &rarr;</Link>
            </div>
         </div>
       </section>

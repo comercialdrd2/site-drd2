@@ -129,7 +129,7 @@ export default function PoliticaPrivacidadePage() {
 
       {/* Back link */}
       <div className="py-10 bg-slate-50 border-t border-slate-200 text-center">
-        <Link href="/" className="text-red-600 font-black uppercase italic tracking-tight hover:underline text-sm">
+        <Link prefetch={false} href="/" className="text-red-600 font-black uppercase italic tracking-tight hover:underline text-sm">
           ← Voltar para a página inicial
         </Link>
       </div>

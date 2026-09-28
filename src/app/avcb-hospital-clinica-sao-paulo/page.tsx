@@ -490,7 +490,7 @@ export default function AVCBHospitalMasterPage() {
               { t: "AVCB Vencido: O que fazer?", u: "/avcb-vencido-o-que-fazer", i: <ShieldAlert className="w-4 h-4"/> },
               { t: "Guia Geral SP", u: "/avcb-sao-paulo", i: <MapPin className="w-4 h-4"/> }
             ].map((link, i) => (
-              <Link 
+              <Link prefetch={false} 
                 key={i} 
                 href={link.u}
                 className="bg-slate-50 border border-slate-100 p-5 rounded-2xl flex items-center justify-between group hover:border-red-600 hover:bg-white hover:shadow-xl transition-all"
@@ -516,7 +516,7 @@ export default function AVCBHospitalMasterPage() {
                 Leitura <br /><span className="text-red-600 not-italic italic">Recomendada</span>
               </h2>
             </div>
-            <Link href="/blog" className="group flex items-center gap-3 text-slate-950 font-black uppercase text-xs tracking-[0.2em] border-b-2 border-red-600 pb-1 hover:text-red-600 transition-all italic">
+            <Link prefetch={false} href="/blog" className="group flex items-center gap-3 text-slate-950 font-black uppercase text-xs tracking-[0.2em] border-b-2 border-red-600 pb-1 hover:text-red-600 transition-all italic">
               Ver todos os artigos <ArrowRight className="w-4 h-4 group-hover:translate-x-2 transition-transform" />
             </Link>
           </div>
@@ -542,7 +542,7 @@ export default function AVCBHospitalMasterPage() {
                 desc: "Evite a interdição imediata pela Vigilância Sanitária em 2026."
               }
             ].map((post, i) => (
-              <Link key={i} href={`/blog/${post.slug}`} className="group bg-white rounded-[3rem] overflow-hidden border border-slate-200 hover:shadow-2xl hover:border-red-600/20 transition-all flex flex-col h-full font-black italic">
+              <Link prefetch={false} key={i} href={`/blog/${post.slug}`} className="group bg-white rounded-[3rem] overflow-hidden border border-slate-200 hover:shadow-2xl hover:border-red-600/20 transition-all flex flex-col h-full font-black italic">
                 <div className="relative h-64 overflow-hidden">
                   <Image 
                     src={post.image} 

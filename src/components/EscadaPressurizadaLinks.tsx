@@ -160,7 +160,7 @@ export default function EscadaPressurizadaLinks({ currentSlug }: EscadaLinksProp
         {/* 3 links estratégicos: custo (fixo), dor (varia), ocupação (específica) */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
           {featured.map(({ slug, label, desc, icon: Icon }, i) => (
-            <Link
+            <Link prefetch={false}
               key={slug}
               href={slug}
               className={`group rounded-2xl p-6 flex items-start gap-4 border transition-all shadow-sm hover:shadow-md ${
@@ -197,7 +197,7 @@ export default function EscadaPressurizadaLinks({ currentSlug }: EscadaLinksProp
         {extras.length > 0 && (
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {extras.map(({ slug, label, icon: Icon }) => (
-              <Link
+              <Link prefetch={false}
                 key={slug}
                 href={slug}
                 className="group bg-white border border-slate-200 hover:border-red-400 rounded-xl p-4 flex items-center gap-3 transition-all shadow-sm hover:shadow-md"

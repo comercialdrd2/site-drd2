@@ -107,7 +107,7 @@ export default function QuantocustaAVCBPost() {
         <div className="relative z-10 container mx-auto px-4 max-w-6xl py-12">
           <div className="max-w-4xl">
             <nav className="flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] text-primary mb-8 bg-primary/10 w-fit px-4 py-1.5 rounded-full border border-primary/20">
-              <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+              <Link prefetch={false} href="/blog" className="hover:text-white transition-colors">Blog</Link>
               <span>/</span>
               <span className="text-gray-400">O que pesa no preço</span>
             </nav>
@@ -302,18 +302,18 @@ export default function QuantocustaAVCBPost() {
                 { n: "Campo Belo", h: "/avcb-campo-belo" },
                 { n: "Vila Mariana", h: "/avcb-vila-mariana" }
               ].map((loc, i) => (
-                <Link key={i} href={loc.h} className="px-6 py-4 bg-slate-50 rounded-2xl text-[10px] font-black text-secondary border border-slate-200 uppercase tracking-widest hover:border-primary/30 transition-all hover:bg-white">
+                <Link prefetch={false} key={i} href={loc.h} className="px-6 py-4 bg-slate-50 rounded-2xl text-[10px] font-black text-secondary border border-slate-200 uppercase tracking-widest hover:border-primary/30 transition-all hover:bg-white">
                    {loc.n}
                 </Link>
               ))}
             </div>
 
             <div className="mt-16 flex flex-wrap justify-center gap-8">
-               <Link href="/avcb-zona-sul" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">ZONA SUL</Link>
-               <Link href="/avcb-zona-leste-sao-paulo" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">ZONA LESTE</Link>
-               <Link href="/avcb-zona-oeste-sao-paulo" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">ZONA OESTE</Link>
-               <Link href="/avcb-zona-norte-sao-paulo" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">ZONA NORTE</Link>
-               <Link href="/avcb-centro-sao-paulo" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">CENTRO SP</Link>
+               <Link prefetch={false} href="/avcb-zona-sul" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">ZONA SUL</Link>
+               <Link prefetch={false} href="/avcb-zona-leste-sao-paulo" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">ZONA LESTE</Link>
+               <Link prefetch={false} href="/avcb-zona-oeste-sao-paulo" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">ZONA OESTE</Link>
+               <Link prefetch={false} href="/avcb-zona-norte-sao-paulo" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">ZONA NORTE</Link>
+               <Link prefetch={false} href="/avcb-centro-sao-paulo" className="text-[10px] font-black uppercase text-primary tracking-widest hover:underline">CENTRO SP</Link>
             </div>
         </div>
       </section>

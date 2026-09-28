@@ -53,7 +53,7 @@ export default function OcupacaoServicosLinks({ currentSlug }: { currentSlug: st
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {outros.map((link) => (
             <li key={link.href}>
-              <Link
+              <Link prefetch={false}
                 href={link.href}
                 className="block h-full border border-slate-200 rounded-xl p-4 font-bold text-slate-800 hover:border-red-500 hover:text-red-700 transition-colors"
               >
@@ -63,7 +63,7 @@ export default function OcupacaoServicosLinks({ currentSlug }: { currentSlug: st
           ))}
         </ul>
         <p className="mt-6 text-sm">
-          <Link href="/avcb-por-tipo-de-imovel" className="text-red-700 font-bold underline">
+          <Link prefetch={false} href="/avcb-por-tipo-de-imovel" className="text-red-700 font-bold underline">
             Ver todos os tipos de imóvel
           </Link>
         </p>

@@ -218,7 +218,7 @@ export default function EmpresaAVCBPage() {
              O mercado de AVCB em São Paulo é saturado de profissionais amadores. A **DRD2 Engenharia** se diferencia pela estabilidade corporativa e pelo compromisso com o resultado final: o certificado emitido e aprovado pelo Comando dos Bombeiros.
            </p>
            <div className="pt-8">
-              <Link href="/avcb-sao-paulo" className="inline-flex items-center gap-4 bg-secondary text-white font-black px-12 py-6 rounded-2xl text-xl hover:bg-primary transition shadow-xl">
+              <Link prefetch={false} href="/avcb-sao-paulo" className="inline-flex items-center gap-4 bg-secondary text-white font-black px-12 py-6 rounded-2xl text-xl hover:bg-primary transition shadow-xl">
                  Ver Guia de Autoridade SP <ArrowRight />
               </Link>
            </div>
@@ -243,7 +243,7 @@ export default function EmpresaAVCBPage() {
               >
                 Solicitar Visita Técnica
               </a>
-              <Link 
+              <Link prefetch={false} 
                 href="/quanto-custa-avcb-sao-paulo"
                 className="border-2 border-secondary text-secondary font-black px-12 py-5 rounded-2xl text-xl hover:bg-secondary hover:text-white transition-all"
               >

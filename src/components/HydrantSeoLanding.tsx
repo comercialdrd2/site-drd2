@@ -104,7 +104,7 @@ export default function HydrantSeoLanding({ page }: HydrantSeoLandingProps) {
                 <Phone className="w-5 h-5 flex-shrink-0" />
                 Solicitar análise técnica
               </a>
-              <Link
+              <Link prefetch={false}
                 href="/hidrantes"
                 className="bg-white/10 hover:bg-white/20 text-white font-black px-8 py-4 rounded-2xl transition-all flex sm:inline-flex items-center justify-center gap-3 uppercase tracking-tighter text-base w-full sm:w-auto border border-white/20"
               >
@@ -138,7 +138,7 @@ export default function HydrantSeoLanding({ page }: HydrantSeoLandingProps) {
                 <p>{page.riskProfile}</p>
                 <p>{page.localDemand}</p>
                 <p>
-                  Uma rede de hidrantes não e apenas tubulação com registro. Ela precisa entregar vazão, pressão e alcance em situacao de emergência, inclusive no ponto mais desfavoravel. Por isso, o sistema deve ser tratado como parte do processo de AVCB, junto com <Link href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme de incêndio</Link>, <Link href="/sprinklers" className="text-red-700 font-black underline">sprinklers</Link>, brigada e manutenção preventiva.
+                  Uma rede de hidrantes não e apenas tubulação com registro. Ela precisa entregar vazão, pressão e alcance em situacao de emergência, inclusive no ponto mais desfavoravel. Por isso, o sistema deve ser tratado como parte do processo de AVCB, junto com <Link prefetch={false} href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme de incêndio</Link>, <Link prefetch={false} href="/sprinklers" className="text-red-700 font-black underline">sprinklers</Link>, brigada e manutenção preventiva.
                 </p>
 
                 <div className="my-10 relative h-[350px] w-full rounded-[2rem] overflow-hidden shadow-2xl border border-slate-200 group">
@@ -325,7 +325,7 @@ export default function HydrantSeoLanding({ page }: HydrantSeoLandingProps) {
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[...page.related, { label: "Hidrantes", href: "/hidrantes" }, { label: "AVCB São Paulo", href: "/avcb-sao-paulo" }, { label: "Manutenção", href: "/manutencao" }].map((item, i) => (
-                  <Link
+                  <Link prefetch={false}
                     key={`silo-link-${i}`}
                     href={item.href}
                     className="bg-white border border-slate-200 p-4 rounded-xl font-black text-slate-800 hover:text-red-700 hover:border-red-500 transition-colors"

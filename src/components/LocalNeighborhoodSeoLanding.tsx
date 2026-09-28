@@ -198,7 +198,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
                 <Phone className="w-5 h-5 flex-shrink-0" />
                 Falar com engenheiro
               </a>
-              <Link
+              <Link prefetch={false}
                 href={copy.pillarHref}
                 className="bg-white/10 hover:bg-white/20 text-white font-black px-8 py-4 rounded-2xl transition-all flex sm:inline-flex items-center justify-center gap-3 uppercase tracking-tighter text-base w-full sm:w-auto border border-white/20"
               >
@@ -252,7 +252,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
                   </>
                 )}
                 <p>
-                  Além do AVCB, a DRD2 cuida de todos os sistemas exigidos na região: <Link href="/projetos-incendio" className="text-red-700 font-black underline">projeto de incêndio</Link>, <Link href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme</Link>, <Link href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link href="/spda" className="text-red-700 font-black underline">SPDA</Link> e <Link href="/treinamento-brigada" className="text-red-700 font-black underline">brigada</Link>, para que o imóvel chegue à vistoria com tudo resolvido.
+                  Além do AVCB, a DRD2 cuida de todos os sistemas exigidos na região: <Link prefetch={false} href="/projetos-incendio" className="text-red-700 font-black underline">projeto de incêndio</Link>, <Link prefetch={false} href="/alarme-incendio-sao-paulo" className="text-red-700 font-black underline">alarme</Link>, <Link prefetch={false} href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link prefetch={false} href="/spda" className="text-red-700 font-black underline">SPDA</Link> e <Link prefetch={false} href="/treinamento-brigada" className="text-red-700 font-black underline">brigada</Link>, para que o imóvel chegue à vistoria com tudo resolvido.
                 </p>
               </div>
             </div>
@@ -513,7 +513,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
                   { label: "Hidrantes", href: "/hidrantes" },
                   { label: "Brigada", href: "/treinamento-brigada" },
                 ].map((item) => (
-                  <Link
+                  <Link prefetch={false}
                     key={item.href}
                     href={item.href}
                     className="bg-white border border-slate-200 p-4 rounded-xl font-black text-slate-800 hover:text-red-700 hover:border-red-500 transition-colors"

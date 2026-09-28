@@ -75,7 +75,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
             <a href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}?text=Olá,%20tenho%20interesse%20no%20serviço%20de%20${service.title}`} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-sm font-semibold text-white shadow hover:bg-[#1EBE5A] transition-colors">
               Falar com engenheiro especialista Especialista
             </a>
-            <Link href="/contato" className="inline-flex items-center justify-center rounded-md bg-white border border-transparent px-6 py-3 text-sm font-semibold text-secondary hover:bg-gray-100 transition-colors">
+            <Link prefetch={false} href="/contato" className="inline-flex items-center justify-center rounded-md bg-white border border-transparent px-6 py-3 text-sm font-semibold text-secondary hover:bg-gray-100 transition-colors">
               Solicitar Análise Técnica
             </Link>
           </div>
@@ -125,9 +125,9 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
           <div className="my-12 text-center p-8 bg-white rounded-lg shadow-sm border border-gray-200">
             <h3 className="text-2xl font-bold text-secondary mb-4">Pronto para resolver isso de forma definitiva?</h3>
             {service.slug === 'manutencao-sistemas-incendio' ? (
-              <Link href="/contato" className="inline-block bg-primary text-white font-semibold py-3 px-8 rounded hover:bg-primary/90 transition-colors">Solicitar Plano de Manutenção</Link>
+              <Link prefetch={false} href="/contato" className="inline-block bg-primary text-white font-semibold py-3 px-8 rounded hover:bg-primary/90 transition-colors">Solicitar Plano de Manutenção</Link>
             ) : (
-              <Link href="/contato" className="inline-block bg-primary text-white font-semibold py-3 px-8 rounded hover:bg-primary/90 transition-colors">Receber Orçamento Técnico</Link>
+              <Link prefetch={false} href="/contato" className="inline-block bg-primary text-white font-semibold py-3 px-8 rounded hover:bg-primary/90 transition-colors">Receber Orçamento Técnico</Link>
             )}
           </div>
         </div>

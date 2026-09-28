@@ -404,7 +404,7 @@ export default function AVCBClinicaOdontologicaPage() {
               { label: "AVCB para Farmácia e Drogaria em São Paulo", href: "/avcb-farmacia-drogaria-sao-paulo" },
               { label: "AVCB ou CLCB: Qual Certificado Preciso?", href: "/clcb-sao-paulo" },
             ].map((link, i) => (
-              <Link
+              <Link prefetch={false}
                 key={i}
                 href={link.href}
                 className="flex items-center gap-2 bg-slate-50 hover:bg-red-600 hover:text-white text-slate-700 font-bold px-6 py-3 rounded-2xl border border-slate-200 hover:border-red-600 transition-all text-sm"

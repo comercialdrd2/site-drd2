@@ -481,7 +481,7 @@ export default function AVCBCondominioMasterPage() {
               { t: "Guia Geral São Paulo", u: "/avcb-sao-paulo", i: <Building className="w-4 h-4"/> },
               { t: "Quem Paga o AVCB?", u: "/blog/quem-paga-o-avcb-proprietario-ou-inquilino", i: <FileText className="w-4 h-4"/> }
             ].map((link, i) => (
-              <Link 
+              <Link prefetch={false} 
                 key={i} 
                 href={link.u}
                 className="bg-white border border-slate-200 p-5 rounded-2xl flex items-center justify-between group hover:border-red-600 hover:bg-red-50 transition-all transition-shadow shadow-sm hover:shadow-md"

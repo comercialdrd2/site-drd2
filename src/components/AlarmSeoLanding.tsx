@@ -104,7 +104,7 @@ export default function AlarmSeoLanding({ page }: AlarmSeoLandingProps) {
                 <Phone className="w-5 h-5 flex-shrink-0" />
                 Solicitar orçamento técnico
               </a>
-              <Link
+              <Link prefetch={false}
                 href="/alarme-incendio-sao-paulo"
                 className="bg-white/10 hover:bg-white/20 text-white font-black px-8 py-4 rounded-2xl transition-all flex sm:inline-flex items-center justify-center gap-3 uppercase tracking-tighter text-base w-full sm:w-auto border border-white/20"
               >
@@ -199,7 +199,7 @@ export default function AlarmSeoLanding({ page }: AlarmSeoLandingProps) {
                 <p>{page.technicalFocus}</p>
                 <p>{page.approvalFocus}</p>
                 <p>
-                  O dimensionamento tambem deve considerar se a edificação usa sistema convencional ou enderecavel, se existem áreas com poeira, vapor, calor ou umidade, se a central esta em local de facil acesso e se o aviso sonoro chega a todos os ocupantes. Quando ha <Link href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link href="/sprinklers" className="text-red-700 font-black underline">sprinklers</Link> ou brigada, o alarme precisa fazer parte do mesmo raciocinio de emergência.
+                  O dimensionamento tambem deve considerar se a edificação usa sistema convencional ou enderecavel, se existem áreas com poeira, vapor, calor ou umidade, se a central esta em local de facil acesso e se o aviso sonoro chega a todos os ocupantes. Quando ha <Link prefetch={false} href="/hidrantes" className="text-red-700 font-black underline">hidrantes</Link>, <Link prefetch={false} href="/sprinklers" className="text-red-700 font-black underline">sprinklers</Link> ou brigada, o alarme precisa fazer parte do mesmo raciocinio de emergência.
                 </p>
               </div>
             </div>
@@ -325,7 +325,7 @@ export default function AlarmSeoLanding({ page }: AlarmSeoLandingProps) {
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[...page.related, { label: "Alarme de incêndio SP", href: "/alarme-incendio-sao-paulo" }, { label: "Manutenção de alarme", href: "/manutencao-alarme-de-incendio-sao-paulo" }, { label: "AVCB São Paulo", href: "/avcb-sao-paulo" }].map((item, i) => (
-                  <Link
+                  <Link prefetch={false}
                     key={`silo-link-${i}`}
                     href={item.href}
                     className="bg-white border border-slate-200 p-4 rounded-xl font-black text-slate-800 hover:text-red-700 hover:border-red-500 transition-colors"

@@ -82,7 +82,7 @@ export default function AVCBShoppingPage() {
               Shoppings centers, galerias comerciais e centros de compras estão entre as edificações de maior complexidade técnica para regularização junto ao Corpo de Bombeiros. Alta lotação, múltiplas ocupações simultâneas e sistemas interligados exigem especialização real.
             </p>
             <div className="flex flex-col sm:flex-row gap-6">
-              <Link 
+              <Link prefetch={false} 
                 href={whatsappLink}
                 className="bg-primary text-white text-xl font-black px-10 py-6 rounded-2xl shadow-2xl hover:bg-red-700 transition-all flex items-center justify-center gap-3 uppercase tracking-tighter"
               >
@@ -298,7 +298,7 @@ export default function AVCBShoppingPage() {
               Shoppings e galerias comerciais exigem o mais alto nível de especialização técnica. Regularize seu empreendimento com quem domina a IT-02 e o Decreto 69.118/2024.
             </p>
             <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
-              <Link 
+              <Link prefetch={false} 
                 href={whatsappLink}
                 className="bg-slate-950 text-white text-2xl font-black px-12 py-8 rounded-2xl shadow-3xl hover:scale-105 active:scale-95 transition-all uppercase tracking-tighter flex items-center gap-4"
               >

@@ -260,7 +260,7 @@ export default function AVCBSaoPauloPage() {
                     {sistemaIcons[s.nome] ?? <ShieldAlert className="w-7 h-7" />}
                   </div>
                   {href ? (
-                    <Link href={href} className="text-base font-black text-slate-900 mb-3 uppercase italic tracking-tight hover:text-red-600 transition-colors block">
+                    <Link prefetch={false} href={href} className="text-base font-black text-slate-900 mb-3 uppercase italic tracking-tight hover:text-red-600 transition-colors block">
                       {s.nome} →
                     </Link>
                   ) : (
@@ -371,7 +371,7 @@ export default function AVCBSaoPauloPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {c.h2_porTipo.links.map((link, i) => (
-              <Link
+              <Link prefetch={false}
                 key={i}
                 href={link.href}
                 className="group bg-white border border-slate-200 hover:border-red-600/30 hover:shadow-xl p-7 rounded-3xl transition-all flex items-center justify-between"
@@ -394,7 +394,7 @@ export default function AVCBSaoPauloPage() {
           </h3>
           <div className="flex flex-col sm:flex-row gap-5">
             {c.linksInternos.map((link, i) => (
-              <Link
+              <Link prefetch={false}
                 key={i}
                 href={link.href}
                 className="group flex items-center gap-3 text-slate-700 hover:text-red-600 font-bold text-sm transition-all border-b-2 border-slate-200 hover:border-red-600 pb-1"

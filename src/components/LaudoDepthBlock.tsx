@@ -80,10 +80,10 @@ export default function LaudoDepthBlock({ occupation, currentSlug }: LaudoDepthB
               </p>
               <p>
                 Quando o diagnóstico identifica falha em sistemas como{" "}
-                <Link href="/alarme-incendio-sao-paulo" className="text-red-600 font-black underline">alarme de incêndio</Link>,{" "}
-                <Link href="/hidrantes" className="text-red-600 font-black underline">hidrantes</Link>,{" "}
-                <Link href="/spda" className="text-red-600 font-black underline">SPDA</Link>{" "}
-                ou <Link href="/laudo-estanqueidade-gas-sao-paulo" className="text-red-600 font-black underline">gas</Link>,
+                <Link prefetch={false} href="/alarme-incendio-sao-paulo" className="text-red-600 font-black underline">alarme de incêndio</Link>,{" "}
+                <Link prefetch={false} href="/hidrantes" className="text-red-600 font-black underline">hidrantes</Link>,{" "}
+                <Link prefetch={false} href="/spda" className="text-red-600 font-black underline">SPDA</Link>{" "}
+                ou <Link prefetch={false} href="/laudo-estanqueidade-gas-sao-paulo" className="text-red-600 font-black underline">gas</Link>,
                 o laudo deixa de ser apenas burocracia e passa a orientar a decisao técnica que libera a regularização.
               </p>
             </div>
@@ -118,7 +118,7 @@ export default function LaudoDepthBlock({ occupation, currentSlug }: LaudoDepthB
               </div>
             </div>
 
-            <Link
+            <Link prefetch={false}
               href="/avcb-sao-paulo"
               className="flex items-center justify-between gap-4 bg-slate-900 hover:bg-red-600 text-white rounded-2xl p-6 transition-all group"
             >

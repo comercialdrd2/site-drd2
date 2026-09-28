@@ -65,7 +65,7 @@ export default function AvcbPorRegiaoPage() {
                   {grupo.paginasDaRegiao.map((p, i) => (
                     <span key={p.href}>
                       {i > 0 && " · "}
-                      <Link href={p.href} className="font-bold text-red-700 underline">
+                      <Link prefetch={false} href={p.href} className="font-bold text-red-700 underline">
                         {p.label}
                       </Link>
                     </span>
@@ -79,7 +79,7 @@ export default function AvcbPorRegiaoPage() {
                     <ul className="space-y-1.5 text-sm">
                       {local.links.map((link) => (
                         <li key={link.href}>
-                          <Link href={link.href} className="text-slate-700 hover:text-red-700 hover:underline">
+                          <Link prefetch={false} href={link.href} className="text-slate-700 hover:text-red-700 hover:underline">
                             {link.label} em {local.nome}
                           </Link>
                         </li>
