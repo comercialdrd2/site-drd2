@@ -165,7 +165,7 @@ const data: UniversalPageData = {
     {
       question: "Com que frequência o sistema de hidrante precisa ser renovado para o AVCB?",
       answer:
-        "O AVCB é renovado anualmente. Para a renovação, é necessário laudo técnico com ART de manutenção atestando que o sistema está em conformidade com a IT 22/25. A manutenção semestral do sistema é obrigatória e deve ser documentada para compor o laudo de renovação.",
+        "O AVCB tem validade de 3 anos. Para a renovação, é necessário laudo técnico com ART de manutenção atestando que o sistema está em conformidade com a IT 22/25. A manutenção semestral do sistema é obrigatória e deve ser documentada para compor o laudo de renovação.",
     },
   ],
   linksInternos: [

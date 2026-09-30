@@ -257,7 +257,7 @@ export default function AVCBGalpaoPage() {
               <span className="text-7xl font-black text-red-600/10 absolute bottom-[-10px] right-[-10px] leading-none select-none">05</span>
               <p className="relative z-10 text-[10px] font-black uppercase tracking-widest text-red-500 mb-3">Auditoria Final</p>
               <h3 className="relative z-10 text-xl font-black mb-4 uppercase italic">Vistoria e Emissão</h3>
-              <p className="relative z-10 text-gray-400 font-medium text-sm">Acompanhamos a visita presencial do Oficial Bombeiro na sua fábrica. Com a conformidade confirmada, o AVCB é emitido com a validade (de 1 a 3 anos, dependendo do risco), legalizando seu CNPJ.</p>
+              <p className="relative z-10 text-gray-400 font-medium text-sm">Acompanhamos a visita presencial do Oficial Bombeiro na sua fábrica. Com a conformidade confirmada, o AVCB é emitido com validade de 3 anos, legalizando seu CNPJ.</p>
             </div>
           </div>
         </div>

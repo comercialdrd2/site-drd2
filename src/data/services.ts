@@ -202,7 +202,7 @@ export const servicesData: Record<string, ServiceData> = {
     faqs: [
       { question: "Qual a diferença prática entre AVCB e CLCB?", answer: "O CLCB é para locais de menor porte e baixo risco, muitas vezes aprovado de forma documental e amostral. O AVCB requer projeto técnico prévio e vistoria in loco obrigatória por um Bombeiro." },
       { question: "Como saber se meu imóvel precisa de CLCB ou AVCB?", answer: "O enquadramento depende da área construída, altura, carga de incêndio e atividade. Nossa equipe avalia gratuitamente essas características." },
-      { question: "CLCB tem validade? Precisa renovar?", answer: "Sim. O CLCB possui validade que varia de 1 a 5 anos dependendo do uso da edificação, precisando ser renovado sucessivamente." },
+      { question: "CLCB tem validade? Precisa renovar?", answer: "Sim. O CLCB tem validade de 3 anos e precisa ser renovado antes do vencimento." },
       { question: "O que acontece se abrir empresa sem CLCB em SP?", answer: "Além do risco à vida, sua empresa ficará irregular e terá o alvará de funcionamento barrado pela prefeitura do município." }
     ],
     icon: "/images/services/clcb.svg"

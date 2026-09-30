@@ -338,7 +338,7 @@ export default function AVCBFarmaciaMasterPage() {
           </h2>
           <div className="space-y-5 text-lg text-slate-600 leading-relaxed font-medium">
             <p>
-              O AVCB ou CLCB para farmácias comerciais do Grupo C-2 tem validade variando de 1 a 3 anos no estado de São Paulo, dependendo da classificação e carga de incêndio.
+              O AVCB ou CLCB para farmácias comerciais do Grupo C-2 tem validade de 3 anos no estado de São Paulo — a data de vencimento vem impressa no próprio certificado.
             </p>
             <p>
               Aconselhamos o início da renovação com pelo menos 60 dias de antecedência do vencimento para evitar que o CNPJ fique descoberto na hora de renovar a licença sanitária e licitações de medicamentos.

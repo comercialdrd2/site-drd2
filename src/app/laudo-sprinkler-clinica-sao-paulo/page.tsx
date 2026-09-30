@@ -99,7 +99,7 @@ const data: UniversalPageData = {
   },
   h2_quando: {
     heading: "Quando a clínica precisa renovar o laudo de sprinkler",
-    body1: "O laudo é exigido na renovação do AVCB e da licença sanitária (geralmente anual para clínicas com internação e a cada 2 a 3 anos para consultórios). Também é necessário quando há reforma que adiciona ou remove salas, quando novos equipamentos de alto calor são instalados e quando há instalação de novos pontos de gases medicinais.",
+    body1: "O laudo é exigido na renovação do AVCB, que tem validade de 3 anos, e na renovação da licença sanitária. Também é necessário quando há reforma que adiciona ou remove salas, quando novos equipamentos de alto calor são instalados e quando há instalação de novos pontos de gases medicinais.",
     body2: "Clínicas que expandem para novas especialidades — especialmente cirurgia ambulatorial, hemodiálise ou quimioterapia — precisam reclassificar o risco das novas áreas e atualizar o laudo. A DRD2 verifica essa necessidade antes de qualquer protocolo.",
   },
   h2_escolher: {

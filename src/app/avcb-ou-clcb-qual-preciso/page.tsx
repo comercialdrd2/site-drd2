@@ -144,7 +144,7 @@ const data: UniversalPageData = {
     },
     {
       "question": "CLCB e AVCB têm o mesmo prazo de validade?",
-      "answer": "O AVCB tem validade de 3 anos. O CLCB também tem validade definida pelo Corpo de Bombeiros. Nos dois casos, a data de vencimento vem impressa no próprio certificado, e a renovação deve ser iniciada com pelo menos 90 dias de antecedência."
+      "answer": "Sim. O AVCB e o CLCB têm validade de 3 anos. Nos dois casos, a data de vencimento vem impressa no próprio certificado, e a renovação deve ser iniciada com pelo menos 90 dias de antecedência."
     },
     {
       "question": "Posso ter CLCB para parte do imóvel e AVCB para outra?",

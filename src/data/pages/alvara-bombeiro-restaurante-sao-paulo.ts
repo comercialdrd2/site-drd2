@@ -57,7 +57,7 @@ export const alvaraBombeiroContent = {
     {
       title: "Validade e Renovação do AVCB de Restaurante",
       content: [
-        "Em São Paulo, o AVCB ou CLCB para restaurantes costuma ter validade de 1 a 3 anos, dependendo da área e risco. A renovação deve ser iniciada 60 dias antes do vencimento para evitar que o restaurante fique descoberto em caso de fiscalização da Prefeitura."
+        "Em São Paulo, o AVCB ou CLCB de restaurante tem validade de 3 anos. A renovação deve ser iniciada 60 dias antes do vencimento para evitar que o restaurante fique descoberto em caso de fiscalização da Prefeitura."
       ],
     },
   ],

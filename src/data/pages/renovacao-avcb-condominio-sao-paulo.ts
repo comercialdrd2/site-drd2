@@ -19,7 +19,7 @@ export const renovacaoAvcbCondominioContent = {
     heading: "Por que o AVCB do Condomínio Vence e Precisa ser Renovado?",
     body: [
       "O AVCB não é um documento permanente. O <strong>Corpo de Bombeiros</strong> estabelece prazo de validade para garantir que as condições de segurança da edificação sejam verificadas periodicamente — sistemas de segurança se degradam com o tempo, normas são atualizadas e reformas alteram as características da edificação.",
-      "Para condomínios residenciais e comerciais em São Paulo, o prazo de validade do AVCB costuma ser de 2 a 3 anos, dependendo do porte e do risco da edificação. O prazo exato consta no próprio certificado.",
+      "Para condomínios residenciais e comerciais em São Paulo, o AVCB tem validade de 3 anos. O prazo exato consta no próprio certificado.",
       "Os motivos mais comuns para o AVCB do condomínio vencer sem renovação:",
     ],
     motivos: [

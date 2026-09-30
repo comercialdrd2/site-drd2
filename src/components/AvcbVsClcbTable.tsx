@@ -59,7 +59,7 @@ const ROWS: Array<{ label: string; clcb: Cell; avcb: Cell }> = [
   },
   {
     label: "Validade típica",
-    clcb: { value: "3 a 5 anos", tone: "neutral" },
+    clcb: { value: "3 anos", tone: "neutral" },
     avcb: { value: "3 anos", tone: "neutral" },
   },
   {

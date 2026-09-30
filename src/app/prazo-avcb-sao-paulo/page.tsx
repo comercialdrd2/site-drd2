@@ -86,14 +86,14 @@ const data: UniversalPageData = {
   },
   h2_detalhes: {
     heading: "Prazo de validade do AVCB em São Paulo",
-    body1: "O AVCB emitido pelo CBPMESP tem validade variável conforme o tipo de ocupação e os sistemas presentes na edificação. A validade mais comum é de 3 anos para a maioria das ocupações comerciais e residenciais.",
+    body1: "O AVCB emitido pelo CBPMESP tem validade de 3 anos. A data de vencimento vem impressa no próprio certificado.",
     alerta: "Iniciar a renovação com menos de 30 dias para o vencimento é arriscado. O processo leva tempo e, com o AVCB vencido, o estabelecimento fica em situação irregular perante a Prefeitura e o Corpo de Bombeiros.",
     itens: [
       { titulo: "Condomínios residenciais", desc: "Validade de 3 anos. Renovação indicada com 90 dias de antecedência." },
-      { titulo: "Restaurantes e bares", desc: "Validade de 1 a 3 anos dependendo dos sistemas. Verificar na última emissão." },
+      { titulo: "Restaurantes e bares", desc: "Validade de 3 anos. Confira a data de vencimento no último certificado." },
       { titulo: "Escolas e academias", desc: "Validade de 3 anos. Renovação antes do início do ano letivo é a prática recomendada." },
       { titulo: "Hotéis e pousadas", desc: "Validade de 3 anos. Renovar na baixa temporada para evitar impacto operacional." },
-      { titulo: "Hospitais e clínicas", desc: "Validade de 1 a 3 anos dependendo dos sistemas e da classificação de risco." },
+      { titulo: "Hospitais e clínicas", desc: "Validade de 3 anos. Laudos dos sistemas precisam estar em dia na renovação." },
       { titulo: "Galpões industriais", desc: "Validade de 3 anos. Qualquer ampliação exige atualização antecipada do processo." },
     ],
     closing: "Dúvida sobre a validade do seu AVCB? A data de vencimento consta no próprio certificado. Em caso de dúvida, a DRD2 verifica gratuitamente na consulta inicial.",

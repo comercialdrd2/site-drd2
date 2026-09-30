@@ -16,7 +16,7 @@ export const renovacaoAvcbHotelContent = {
 
   h2_porqueVence: {
     heading: "Por que o AVCB do Hotel Vence com Frequência?",
-    intro: "Hotéis têm um dos menores prazos de validade do AVCB entre os tipos de estabelecimento — geralmente 1 ano — justamente porque a operação 24 horas, a alta rotatividade de hóspedes e a complexidade dos sistemas de segurança exigem verificação periódica frequente pelo <strong>Corpo de Bombeiros</strong>.",
+    intro: "O AVCB de hotel tem validade de 3 anos, mas a operação 24 horas, a alta rotatividade de hóspedes e a complexidade dos sistemas de segurança exigem manutenção constante para passar na renovação pelo <strong>Corpo de Bombeiros</strong>.",
     body: [
       "Na prática, o AVCB do hotel vence com frequência porque a gestão operacional do empreendimento — ocupação, revenue management, manutenção predial e equipe — absorve toda a atenção da diretoria, e o controle de vencimentos de documentos técnicos fica em segundo plano até que a fiscalização apareça.",
       "Situações que complicam a renovação de hotéis:"
@@ -207,7 +207,7 @@ export const renovacaoAvcbHotelContent = {
       },
       {
         question: "Qual o prazo de validade do AVCB de um hotel em São Paulo?",
-        answer: "Hotéis geralmente têm prazo de validade de 1 ano, sendo um dos estabelecimentos com renovação mais frequente. O prazo exato consta no certificado emitido pelo <strong>Corpo de Bombeiros</strong>. A DRD2 monitora o prazo e alerta para a renovação com antecedência."
+        answer: "O AVCB de hotel tem validade de 3 anos. O prazo exato consta no certificado emitido pelo <strong>Corpo de Bombeiros</strong>. A DRD2 monitora o prazo e alerta para a renovação com antecedência."
       },
       {
         question: "Quanto custa renovar o AVCB de um hotel em SP?",

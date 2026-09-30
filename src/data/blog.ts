@@ -2764,7 +2764,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>As exigências mais comuns em CLCB são: planta inconsistente com fotos, ART faltando, fotos antigas ou de baixa qualidade, e declaração de extintores incompatível com a vistoria documentada.</p>
 
       <h2>Etapa 6: Receber o CLCB e cumprir validade</h2>
-      <p>Aprovado o processo, o CBPMESP emite o CLCB digital. A validade típica é de <strong>3 a 5 anos</strong> dependendo da ocupação. A renovação deve ser iniciada com 60 dias de antecedência para não haver lapso na regularidade.</p>
+      <p>Aprovado o processo, o CBPMESP emite o CLCB digital. A validade é de <strong>3 anos</strong>. A renovação deve ser iniciada com 60 dias de antecedência para não haver lapso na regularidade.</p>
       <p>Durante a vigência, mantenha os itens declarados em conformidade. Fiscalizações podem ocorrer a qualquer momento e divergências resultam em interdição.</p>
 
       <h2>Quanto custa o CLCB em 2026?</h2>
@@ -2790,7 +2790,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     content: `
       <p>Uma das principais vantagens do <strong>CLCB</strong> sobre o AVCB é a ausência de vistoria física obrigatória no protocolo. Mas isso não significa que o Corpo de Bombeiros nunca aparece no local — significa apenas que a vistoria não faz parte do fluxo padrão de aprovação.</p>
 
-      <p>Entender quando e por que o CBPMESP fiscaliza estabelecimentos com CLCB é essencial para manter a regularidade do certificado durante toda sua validade (3 a 5 anos típicos).</p>
+      <p>Entender quando e por que o CBPMESP fiscaliza estabelecimentos com CLCB é essencial para manter a regularidade do certificado durante toda sua validade de 3 anos.</p>
 
       <h2>Como funciona o CLCB sem vistoria</h2>
       <p>O CLCB é um processo de <strong>declaração</strong>. O responsável (proprietário ou engenheiro) declara ao CBPMESP que os sistemas de prevenção contra incêndio estão em conformidade: extintores no prazo, sinalização adequada, iluminação de emergência funcional, rotas de fuga desobstruídas.</p>
