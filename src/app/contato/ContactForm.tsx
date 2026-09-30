@@ -94,7 +94,7 @@ export default function ContactForm() {
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 flex flex-col items-center text-center">
               <div className="relative w-32 h-40 mb-4 rounded-xl overflow-hidden border-2 border-slate-200 shadow-sm">
                 <Image
-                  src="/images/eng-samuel-oficial.webp"
+                  src="/images/eng-samuel-oficial-v2.webp"
                   alt="Eng. Samuel Costa, responsável técnico DRD2 Engenharia, CREA-SP 5070163570"
                   fill
                   className="object-cover"

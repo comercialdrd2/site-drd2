@@ -101,7 +101,7 @@ export default function AboutPage() {
                <div className="absolute -inset-2 bg-gradient-to-tr from-primary to-rose-900 rounded-[2.5rem] blur-xl opacity-50 group-hover:opacity-100 transition-opacity duration-500"></div>
                <div className="relative aspect-[4/5] w-full rounded-[2rem] overflow-hidden border-4 border-slate-800 shadow-2xl">
                  <Image 
-                   src="/images/eng-samuel-oficial.webp" 
+                   src="/images/eng-samuel-oficial-v2.webp" 
                    alt="Eng. Samuel Costa, responsável técnico DRD2 Engenharia, CREA-SP 5070163570"
                    fill
                    sizes="(max-width: 768px) 100vw, 500px"

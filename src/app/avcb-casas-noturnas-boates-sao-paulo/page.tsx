@@ -372,7 +372,7 @@ export default function AVCBBoateMasterPage() {
           <div className="bg-slate-900 rounded-[4rem] p-12 md:p-16 text-white shadow-2xl flex flex-col md:flex-row items-center gap-12 border-8 border-slate-50">
             <div className="shrink-0 relative">
               <Image
-                src="/images/eng-samuel-oficial.webp"
+                src="/images/eng-samuel-oficial-v2.webp"
                 alt="Eng. Samuel Costa — Especialista em AVCB para Boates e Casas Noturnas em São Paulo"
                 width={180}
                 height={180}

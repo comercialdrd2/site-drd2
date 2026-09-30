@@ -21,7 +21,7 @@ export default function BlogAuthorEvidence({
       <div className="mt-6 flex flex-col sm:flex-row sm:items-center gap-4 rounded-2xl border border-slate-200 bg-slate-50 p-4">
         <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-full border-2 border-white shadow-sm">
           <Image
-            src="/images/eng-samuel-oficial.webp"
+            src="/images/eng-samuel-oficial-v2.webp"
             alt="Eng. Samuel Costa, responsavel técnico da DRD2 Engenharia, CREA-SP 5070163570"
             fill
             className="object-cover"
@@ -56,7 +56,7 @@ export default function BlogAuthorEvidence({
         <div className="flex flex-col sm:flex-row gap-6 rounded-3xl bg-slate-50 border border-slate-200 p-6 shadow-sm">
           <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-2xl border-4 border-white shadow-md">
             <Image
-              src="/images/eng-samuel-oficial.webp"
+              src="/images/eng-samuel-oficial-v2.webp"
               alt="Eng. Samuel Costa, responsavel técnico da DRD2 Engenharia, CREA-SP 5070163570"
               fill
               className="object-cover"

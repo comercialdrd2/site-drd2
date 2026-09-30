@@ -265,7 +265,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           <div className="my-12 bg-slate-50 border border-slate-200 rounded-2xl p-8 flex flex-col sm:flex-row items-center gap-8 shadow-sm">
              <div className="relative w-28 h-28 shrink-0 rounded-full overflow-hidden border-4 border-white shadow-md">
                 <Image 
-                   src="/images/eng-samuel-oficial.webp" 
+                   src="/images/eng-samuel-oficial-v2.webp" 
                    alt="Eng. Samuel Costa, responsável técnico DRD2 Engenharia, CREA-SP 5070163570" 
                    fill 
                    className="object-cover" 
