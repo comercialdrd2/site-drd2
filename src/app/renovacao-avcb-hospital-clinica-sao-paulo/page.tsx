@@ -67,7 +67,7 @@ export default function RenovacaoAVCBHospitalPage() {
               Setor de Saúde — Renovação 2026
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white">RENOVAÇÃO DE AVCB</span>
+              <span className="text-white">RENOVAÇÃO DE AVCB</span>{" "}
               <span className="text-red-600 not-italic text-2xl md:text-3xl lg:text-4xl mt-2 block drop-shadow-2xl text-wrap">
                 PARA HOSPITAL E CLÍNICA EM SP — A SEGURANÇA DOS PACIENTES
               </span>
@@ -94,7 +94,7 @@ export default function RenovacaoAVCBHospitalPage() {
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── H2 #1: POR QUE VENCE? ── */}
       <section className="py-24 bg-white">

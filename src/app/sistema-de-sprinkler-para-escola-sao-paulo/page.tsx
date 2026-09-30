@@ -54,7 +54,7 @@ const data: UniversalPageData = {
       },
       {
         "titulo": "Responsabilidade do responsável legal",
-        "desc": "O responsável legal pelo escola responde civil e criminalmente por omissão na manutenção dos sistemas de segurança em caso de sinistro com vítimas."
+        "desc": "O responsável legal pelo estabelecimento pode responder civil e criminalmente por omissão na manutenção dos sistemas de segurança em caso de sinistro com vítimas."
       },
       {
         "titulo": "Multa por sistema não mantido",

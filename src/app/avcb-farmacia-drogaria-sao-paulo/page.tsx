@@ -101,7 +101,7 @@ export default function AVCBFarmaciaMasterPage() {
               GRUPO C-2 — DROGARIAS E FARMÁCIAS — REGULARIZAÇÃO 2026
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-4 lg:mb-5 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white">AVCB PARA</span>
+              <span className="text-white">AVCB PARA</span>{" "}
               <span className="text-red-600 not-italic text-3xl md:text-3xl lg:text-4xl mt-2 block drop-shadow-2xl">
                 FARMÁCIA E DROGARIA EM SP
               </span>
@@ -133,7 +133,7 @@ export default function AVCBFarmaciaMasterPage() {
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── ENQUADRAMENTO TÉCNICO ── */}
       <section className="py-24 bg-white">

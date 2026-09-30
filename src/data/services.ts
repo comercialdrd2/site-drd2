@@ -241,7 +241,7 @@ export const servicesData: Record<string, ServiceData> = {
     metaDescription: "Escola ou faculdade sem alarme aprovado? Instalamos SDAI conforme IT-19/2025 e NBR 17240, com projeto e AVCB garantido em SP. Solicite análise técnica gratuita.",
     pas: {
       problem: "Sua instituição de ensino sem AVCB e sem sistema legal aprovado?",
-      agitation: "Instituição de ensino sem AVCB válido pode ser interditada pelo Corpo de Bombeiros — e o diretor ou mantenedor responde pessoalmente (civil e criminalmente) por qualquer sinistro em uma edificação irregular.",
+      agitation: "Instituição de ensino sem AVCB válido pode ser interditada pelo Corpo de Bombeiros — e o diretor ou mantenedor pode responder pessoalmente (civil e criminalmente) em caso de sinistro em uma edificação irregular.",
       solution: "A DRD2 Engenharia garante que crianças, jovens e universitários tenham tempo hábil de evacuação com painéis certificados (INMETRO) e detectores blindados anti-vandalismo nos corredores."
     },
     content: [
@@ -555,9 +555,9 @@ export const servicesData: Record<string, ServiceData> = {
   },
   "projeto-pet-sp": {
     slug: "projeto-pet-sp",
-    title: "Projeto PET (Eventos)",
+    title: "Licença para eventos (PTOTEP e PTOT)",
     category: "Projetos",
-    shortDescription: "Projeto técnico e licenciamento para eventos temporários em todo o estado de SP.",
+    shortDescription: "Projeto técnico e aprovação de eventos temporários no Corpo de Bombeiros e na Prefeitura.",
     h1: "Projeto de Segurança para Eventos Temporários (PET) em SP",
     metaTitle: "Projeto PET Corpo de Bombeiros de São Paulo | Licença para Eventos",
     metaDescription: "Obtenha seu Projeto PET (Eventos Temporários) em SP com agilidade. Licenciamento total para feiras, congressos e shows. ART inclusa. DRD2 Engenharia.",
@@ -927,7 +927,7 @@ export const servicesData: Record<string, ServiceData> = {
     },
     content: [
       "Padarias são enquadradas pelo CBPMESP como Grupo C-2 — Comércio Varejista de Produtos Alimentícios — com exigências técnicas específicas para área de produção, coifas e sistemas de GLP.",
-      "O AVCB tem validade de 3 anos conforme o Decreto Estadual nº 69.118/2024. Estabelecimentos com AVCB vencido estão sujeitos a interdição pelo Corpo de Bombeiros e bloqueio do CMVS pela Vigilância Sanitária.",
+      "O AVCB tem validade de 3 anos — a data de vencimento vem impressa no próprio certificado. Estabelecimentos com AVCB vencido estão sujeitos a interdição pelo Corpo de Bombeiros e bloqueio do CMVS pela Vigilância Sanitária.",
       "A DRD2 Engenharia executa do projeto à instalação dos sistemas, acompanha o protocolo no CBPMESP e responde a Comunique-se sem cobrar adicional."
     ],
     faqs: [
@@ -1081,7 +1081,7 @@ export const servicesData: Record<string, ServiceData> = {
     shortDescription: "Renovação e regularização de AVCB para condomínios residenciais e comerciais em SP. Foco em responsabilidade do síndico e conformidade 2026.",
     h1: "Renovação de AVCB para Condomínio em São Paulo — Regularize Antes da Multa",
     metaTitle: "Renovação de AVCB para Condomínio em São Paulo 2026",
-    metaDescription: "AVCB vencido no seu condomínio? A DRD2 Engenharia faz a renovação e regularização do AVCB para condomínios em SP com agilidade, sem multa e sem Comunique-se. Fale agora.",
+    metaDescription: "AVCB vencido no seu condomínio? A DRD2 Engenharia faz a renovação e regularização do AVCB para condomínios em SP com agilidade e sem multa. Fale agora.",
     pas: {
       problem: "O AVCB do seu condomínio venceu ou está prestes a vencer?",
       agitation: "A cada dia com o certificado irregular, o síndico assume responsabilidade pessoal e intransferível por qualquer acidente nas áreas comuns.",
@@ -1089,7 +1089,7 @@ export const servicesData: Record<string, ServiceData> = {
     },
     content: [
       "O AVCB para condomínio em São Paulo tem validade de 3 anos, conforme enquadramento na IT-02 do CBPMESP. Após esse prazo, o condomínio fica irregular.",
-      "Atuamos com vistoria prévia, diagnóstico técnico completo e aprovação junto ao CBPMESP — sem burocracia, sem Comunique-se e com acompanhamento integral.",
+      "Atuamos com vistoria prévia, diagnóstico técnico completo e aprovação junto ao CBPMESP — sem burocracia e com acompanhamento integral.",
       "Nosso foco é garantir que o síndico tenha segurança jurídica total, eliminando riscos civis e criminais por negligência na segurança contra incêndio."
     ],
     faqs: [

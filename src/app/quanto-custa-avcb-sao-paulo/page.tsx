@@ -95,7 +95,7 @@ export default function QuantoCustaAvcbPage() {
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── H2 #1: POR QUE VARIA ── */}
       <section className="py-24 bg-white">

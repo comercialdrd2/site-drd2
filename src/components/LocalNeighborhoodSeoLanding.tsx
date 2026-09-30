@@ -24,6 +24,11 @@ import { bairrosCondominio } from "@/data/bairros-renovacao";
 import { cidadesExpansao } from "@/data/expansao-cidades";
 import { getLocalNeighborhoodDeepDive } from "@/data/localNeighborhoodDeepDive";
 
+// "na Zona Leste", "no Centro", "no Centro Expandido"
+function zoneWithArticle(zone: string) {
+  return /^(Centro|Litoral)/i.test(zone) ? `no ${zone}` : `na ${zone}`;
+}
+
 type Mode = "avcb" | "renovacao" | "clcb" | "clcb-cidade" | "condominio";
 
 type LocalNeighborhoodSeoLandingProps = {
@@ -42,7 +47,7 @@ function pageCopy(neighborhood: LocalNeighborhoodSeoPage, mode: Mode) {
         docName: "AVCB",
         slug: `/renovacao-avcb-${n.slug}`,
         title: `Renovação AVCB ${n.name} SP`,
-        description: `Renovação de AVCB no ${n.name} para imóveis do tipo ${n.profile}. Atendemos a ${n.zone} com projetos, laudos, ARTs e vistoria técnica.`,
+        description: `Renovação de AVCB no ${n.name} para imóveis do tipo ${n.profile}. Atendemos imóveis ${zoneWithArticle(n.zone)} com projetos, laudos, ARTs e vistoria técnica.`,
         h1: `Renovação de AVCB em ${n.name}: laudos, vistoria e regularização`,
         serviceName: `Renovação de AVCB em ${n.name}`,
         hero: `Renovação de AVCB em ${n.name} com revisão de laudos, sistemas de incêndio, ARTs, projeto aprovado e preparação para a vistoria.`,
@@ -217,7 +222,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento={mode === "clcb" || mode === "clcb-cidade" ? undefined : "avcb"} dark />
 
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-6xl">
@@ -243,7 +248,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
                 ) : (
                   <>
                     <p>
-                      {neighborhood.name} é um bairro da {neighborhood.zone} com perfil de {neighborhood.profile}. Esse contexto muda o caminho do AVCB porque o Corpo de Bombeiros avalia uso real, lotação, sistemas instalados, rotas de fuga e documentos técnicos, não apenas o nome do bairro no endereço.
+                      {neighborhood.name} fica {zoneWithArticle(neighborhood.zone)} e tem perfil de {neighborhood.profile}. Esse contexto muda o caminho do AVCB porque o Corpo de Bombeiros avalia uso real, lotação, sistemas instalados, rotas de fuga e documentos técnicos, não apenas o nome do bairro no endereço.
                     </p>
                     <p>
                       As referências locais mais importantes para o diagnóstico são {neighborhood.localRefs.join(", ")}. Em imóveis perto desses eixos, é comum encontrar reformas, ampliações, mudanças de uso, aumento de público e sistemas de segurança que não acompanharam a operação atual.
@@ -559,6 +564,20 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
           <LeadForm variant="compact" showWrapper={false} />
         </div>
       </section>
+
+      {/^(santos|guaruja|praia-grande|sao-vicente|bertioga|cubatao|itanhaem)/.test(neighborhood.slug) && (
+        <section className="bg-white py-12 border-t border-slate-200">
+          <div className="container mx-auto px-4 max-w-6xl">
+            <p className="text-lg text-slate-700 font-medium">
+              Vai fazer um evento no litoral, como réveillon, show ou festa de verão?{" "}
+              <Link prefetch={false} href="/ptotep-santos-baixada" className="font-bold text-red-700 underline">
+                Veja como regularizar eventos em Santos e na Baixada Santista
+              </Link>
+              .
+            </p>
+          </div>
+        </section>
+      )}
 
       <ServiceClusterLinks currentSlug={copy.slug} />
       <ServiceBlogLinks currentSlug={copy.slug} />

@@ -9,8 +9,8 @@ import { blogPosts } from "@/data/blog";
 
 
 export const metadata = {
-  title: "DRD2 Engenharia | Empresa de Segurança Contra Incêndio em São Paulo",
-  description: "Empresa especializada em AVCB, CLCB, projetos técnicos, alarme, sprinkler, hidrante e SPDA em São Paulo. Regularização completa junto ao Corpo de Bombeiros.",
+  title: "DRD2 Engenharia: AVCB, CLCB e PTOTEP em São Paulo",
+  description: "AVCB, CLCB, projetos de incêndio e PTOTEP para eventos em São Paulo, com engenheiro CREA-SP do diagnóstico à vistoria. Fale pelo WhatsApp.",
   alternates: {
     canonical: "/",
   },

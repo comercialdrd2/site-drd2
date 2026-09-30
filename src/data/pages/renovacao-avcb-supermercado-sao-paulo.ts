@@ -1,7 +1,7 @@
 export const renovacaoAvcbSupermercadoContent = {
   meta: {
     title: "Renovação de AVCB para Supermercado em São Paulo 2026",
-    description: "AVCB do seu supermercado venceu? A DRD2 Engenharia renova o certificado do Corpo de Bombeiros em São Paulo sem interdição e sem Comunique-se. Diagnóstico técnico gratuito. Fale agora.",
+    description: "AVCB do seu supermercado venceu? A DRD2 Engenharia renova o certificado do Corpo de Bombeiros em São Paulo sem interdição. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/renovacao-avcb-supermercado-sao-paulo",
   },
   intro: [

@@ -53,7 +53,7 @@ export const renovacaoAvcbContent = {
     {
       title: "Prazo de validade do AVCB",
       content: [
-        "O AVCB em São Paulo tem validade definida pelo Decreto Estadual nº 69.118/2024. Após o vencimento o estabelecimento entra em situação irregular."
+        "O AVCB em São Paulo tem validade definida pelo Corpo de Bombeiros, com a data de vencimento impressa no próprio certificado. Após o vencimento o estabelecimento entra em situação irregular."
       ]
     }
   ],

@@ -102,7 +102,7 @@ const data: UniversalPageData = {
       {
         "numero": "ETAPA 03",
         "titulo": "Aprovação no CBPMESP",
-        "desc": "Protocolo do projeto na Unidade responsável. Com documentação correta para Grupo H, o projeto entra na análise sem Comunique-se inicial."
+        "desc": "Protocolo do projeto na Unidade responsável. Com documentação correta para Grupo H, o projeto entra na análise com menos risco de Comunique-se inicial."
       },
       {
         "numero": "ETAPA 04",

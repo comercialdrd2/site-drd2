@@ -2,7 +2,7 @@ export const avcbHostelContent = {
   meta: {
     title: "AVCB para Hostel em São Paulo 2026",
     description:
-      "A DRD2 Engenharia é especialista em AVCB para hostels em São Paulo. Aprovação no Corpo de Bombeiros com agilidade, sem Comunique-se e sem burocracia. Diagnóstico técnico gratuito. Fale agora.",
+      "A DRD2 Engenharia é especialista em AVCB para hostels em São Paulo. Aprovação no Corpo de Bombeiros com agilidade, sem burocracia. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/avcb-hostel-sao-paulo",
   },
 
@@ -10,7 +10,7 @@ export const avcbHostelContent = {
 
   intro: [
     "<strong>AVCB para hostel</strong> com emissão pontual e assessoria de engenharia especializada no setor de hospedagem.<br/><br/>Regularize seu espaço de forma definitiva e evite multas ou <strong>embargos</strong> surpresa na alta temporada.",
-    "A DRD2 Engenharia é especializada em AVCB para hostels em São Paulo, com domínio técnico das exigências específicas para esse tipo de ocupação e aprovação completa junto ao CBPMESP — sem Comunique-se, sem retrabalho e dentro do prazo.",
+    "A DRD2 Engenharia é especializada em AVCB para hostels em São Paulo, com domínio técnico das exigências específicas para esse tipo de ocupação e aprovação completa junto ao CBPMESP — sem retrabalho e dentro do prazo.",
   ],
 
   cta_intro: "📲 Fale agora com um engenheiro pelo WhatsApp e receba o diagnóstico gratuito do seu hostel.",

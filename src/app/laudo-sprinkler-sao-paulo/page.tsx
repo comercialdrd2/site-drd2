@@ -58,7 +58,7 @@ const data: UniversalPageData = {
       },
       {
         "titulo": "Responsabilidade civil por omissão",
-        "desc": "Em incêndio com vítimas em imóvel com sistema de sprinkler instalado mas inoperante por falta de manutenção certificada, o responsável legal pode responder civil e criminalmente por omissão dolosa."
+        "desc": "Em incêndio com vítimas em imóvel com sistema de sprinkler instalado mas inoperante por falta de manutenção certificada, o responsável legal pode responder civil e criminalmente por omissão."
       }
     ]
   },

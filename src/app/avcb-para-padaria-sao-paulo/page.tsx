@@ -156,7 +156,7 @@ export default function AVCBPadariaMasterPage() {
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── ENQUADRAMENTO TÉCNICO ── */}
       <section className="py-24 bg-white">
@@ -375,7 +375,7 @@ export default function AVCBPadariaMasterPage() {
           </h2>
           <div className="space-y-5 text-lg text-slate-600 leading-relaxed font-medium">
             <p>
-              O AVCB de padarias no Estado de São Paulo tem validade de 3 anos, conforme o Decreto Estadual nº 69.118/2024.
+              O AVCB de padarias no Estado de São Paulo tem validade de 3 anos — a data de vencimento vem impressa no próprio certificado.
             </p>
             <p>
               O processo deve ser iniciado com antecedência mínima de 60 a 90 dias antes do vencimento, considerando o prazo médio de análise do CBPMESP e a eventual necessidade de adequação dos sistemas antes do protocolo. Padaria que aguarda o vencimento para iniciar está operando em risco real — o período de análise conta como irregularidade para fins de fiscalização.

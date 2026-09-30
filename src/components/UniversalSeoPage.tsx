@@ -116,7 +116,7 @@ export default function UniversalSeoPage({ data: d, beforeCta }: Props) {
 
             {/* H1 */}
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-5 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white">{d.h1Line1}</span>
+              <span className="text-white">{d.h1Line1}</span>{" "}
               <span className="text-red-600 not-italic text-3xl md:text-4xl lg:text-5xl mt-2 block drop-shadow-2xl leading-tight">
                 {d.h1Line2}
               </span>
@@ -350,7 +350,7 @@ export default function UniversalSeoPage({ data: d, beforeCta }: Props) {
             <div className="grid grid-cols-2 gap-4">
               {[
                 { l: "Aprovação por engenharia", i: ShieldCheck },
-                { l: "Sem Comunique-se", i: Zap },
+                { l: "Correções incluídas", i: Zap },
                 { l: "Diagnóstico Grátis", i: CheckCircle2 },
                 { l: "Processo Completo", i: ClipboardCheck },
               ].map((item, i) => (

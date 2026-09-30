@@ -60,7 +60,7 @@ export default function HidrantesCondominioPage() {
           <div className="lg:w-3/5">
             <span className="inline-block bg-red-600 text-white text-[10px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest mb-3">IT 22/25 — Condomínios Residenciais e Comerciais</span>
             <h1 className="font-extrabold mb-4 leading-tight tracking-tight uppercase text-white flex flex-col">
-              <span className="text-base md:text-lg font-bold tracking-[0.18em] opacity-60">SISTEMA DE HIDRANTES PARA CONDOMÍNIO</span>
+              <span className="text-base md:text-lg font-bold tracking-[0.18em] opacity-60">SISTEMA DE HIDRANTES PARA CONDOMÍNIO</span>{" "}
               <span className="text-2xl md:text-3xl lg:text-4xl italic text-red-500 mt-1 block leading-none">EM SÃO PAULO — PROJETO, INSTALAÇÃO E MANUTENÇÃO</span>
             </h1>
             <p className="text-base md:text-lg text-gray-200 mb-6 leading-relaxed font-medium max-w-2xl border-l-4 border-red-600 pl-6 py-1">
@@ -86,7 +86,7 @@ export default function HidrantesCondominioPage() {
               </h2>
               <div className="space-y-6 text-lg text-slate-700 leading-relaxed font-medium">
                 <p>
-                  O <strong>sistema de hidrantes para condomínio</strong> é uma obrigação legal regulamentada pela <strong>IT 22 do CBPMESP</strong> para edifícios com mais de 2 pavimentos, altura superior a 12 metros ou área construída acima de 750 m². Mais do que uma exigência do Corpo de Bombeiros, é uma proteção direta aos moradores e ao próprio síndico, que responde civil e criminalmente pelo estado das instalações prediais de segurança.
+                  O <strong>sistema de hidrantes para condomínio</strong> é uma obrigação legal regulamentada pela <strong>IT 22 do CBPMESP</strong> para edifícios com mais de 2 pavimentos, altura superior a 12 metros ou área construída acima de 750 m². Mais do que uma exigência do Corpo de Bombeiros, é uma proteção direta aos moradores e ao próprio síndico, que pode responder civil e criminalmente pelo estado das instalações prediais de segurança.
                 </p>
                 <p>
                   Na prática, a maioria dos condomínios de São Paulo possui o sistema instalado desde a construção do edifício, mas negligencia a manutenção obrigatória. Mangueiras vencidas, bombas sem calibração, abrigos danificados e registros de recalque oxidados são a realidade em muitos edifícios que tentam renovar o AVCB — e são as causas mais comuns de reprovação na vistoria do Corpo de Bombeiros.

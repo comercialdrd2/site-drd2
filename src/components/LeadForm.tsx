@@ -124,7 +124,7 @@ export default function LeadForm({
             <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2"></div>
             <h3 className="text-3xl xl:text-4xl font-black mb-6 relative z-10 leading-tight">Diagnóstico Técnico Gratuito</h3>
             <p className="text-base xl:text-lg text-slate-300 mb-8 xl:mb-10 relative z-10 leading-relaxed font-normal">
-              Fale com um <strong>Engenheiro Especialista</strong>. Analisamos sua ocupação e enviamos uma proposta técnica detalhada para aprovação do seu AVCB.
+              Fale com um <strong>Engenheiro Especialista</strong>. Analisamos sua ocupação e enviamos uma proposta técnica detalhada para a regularização junto ao Corpo de Bombeiros.
             </p>
             <ul className="space-y-4 xl:space-y-5 relative z-10">
               <li className="flex items-center gap-4 text-slate-200 group">

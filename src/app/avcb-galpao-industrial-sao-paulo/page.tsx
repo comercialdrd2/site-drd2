@@ -21,13 +21,13 @@ import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
 // 1 & 5. SEO TÉCNICO E MAXIMIZAÇÃO DE CTR: Metadados Magnéticos B2B
 export const metadata: Metadata = {
-  title: "AVCB para Galpão Industrial em SP: Processo e Prazos | DRD2",
-  description: "Engenharia especialista em AVCB para Galpão Industrial e Logístico em São Paulo. Adequação de Sprinklers (IT-23), Hidrantes e Carga de Incêndio. Diagnóstico em 2h.",
+  title: "AVCB para galpão industrial e depósito em SP",
+  description: "Galpão industrial ou logístico: enquadramento, carga de incêndio, sprinklers e hidrantes para o AVCB, com engenheiro CREA-SP e ART.",
   alternates: {
     canonical: "/avcb-galpao-industrial-sao-paulo",
   },
   openGraph: {
-    title: "AVCB para Galpão Industrial em SP: Processo e Prazos | DRD2",
+    title: "AVCB para galpão industrial e depósito em SP",
     description: "Regularização completa para galpões, armazéns e centros de distribuição. Especialistas em Grupos I e J.",
     url: "https://www.drd2.com.br/avcb-galpao-industrial-sao-paulo",
     type: "website",
@@ -76,7 +76,7 @@ export default function AVCBGalpaoPage() {
               Grupo G — Serviços Industriais — Exigências 2026
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white">AVCB PARA</span>
+              <span className="text-white">AVCB PARA</span>{" "}
               <span className="text-red-600 not-italic text-3xl md:text-3xl lg:text-4xl mt-2 block drop-shadow-2xl">
                 GALPÃO INDUSTRIAL EM SP
               </span>
@@ -111,7 +111,7 @@ export default function AVCBGalpaoPage() {
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── H2 #1: PRECISA DE AVCB? ── */}
       <section className="py-24 bg-white">

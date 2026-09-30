@@ -2,7 +2,7 @@ export const avcbMotelContent = {
   meta: {
     title: "AVCB para Motel em São Paulo 2026",
     description:
-      "A DRD2 Engenharia é especialista em AVCB para motéis em São Paulo. Aprovação no Corpo de Bombeiros com sigilo, agilidade e sem Comunique-se. Diagnóstico técnico gratuito. Fale agora.",
+      "A DRD2 Engenharia é especialista em AVCB para motéis em São Paulo. Aprovação no Corpo de Bombeiros com sigilo e agilidade. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/avcb-motel-sao-paulo",
   },
 
@@ -10,7 +10,7 @@ export const avcbMotelContent = {
 
   intro: [
     "<strong>AVCB para motel</strong> aprovado com discrição absoluta e adequações que não travam o giro de ocupação.<br/><br/>Garanta a segurança das suas suítes e proteja seu negócio da exposição pública de um <strong>lacre</strong>.",
-    "A DRD2 Engenharia é especializada em AVCB para motéis em São Paulo, com processo discreto, tecnicamente preciso e aprovação garantida junto ao CBPMESP — sem Comunique-se e sem retrabalho.",
+    "A DRD2 Engenharia é especializada em AVCB para motéis em São Paulo, com processo discreto, tecnicamente preciso e aprovação garantida junto ao CBPMESP — sem retrabalho.",
   ],
 
   cta_intro: "📲 Fale agora com um engenheiro pelo WhatsApp e receba o diagnóstico gratuito do seu motel.",

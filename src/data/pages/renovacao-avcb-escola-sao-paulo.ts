@@ -1,7 +1,7 @@
 export const renovacaoAvcbEscolaContent = {
   meta: {
     title: "Renovação de AVCB para Escola em São Paulo 2026",
-    description: "AVCB da sua escola venceu? A DRD2 Engenharia renova o certificado do Corpo de Bombeiros em São Paulo sem interdição e sem Comunique-se. Diagnóstico técnico gratuito. Fale agora.",
+    description: "AVCB da sua escola venceu? A DRD2 Engenharia renova o certificado do Corpo de Bombeiros em São Paulo sem interdição. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/renovacao-avcb-escola-sao-paulo",
   },
   intro: [

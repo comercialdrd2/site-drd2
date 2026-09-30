@@ -72,7 +72,7 @@ export default function AVCBCasaRepousoPage() {
               Grupo I — Serviços de Saúde — Exigências Máximas 2026
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white">AVCB PARA</span>
+              <span className="text-white">AVCB PARA</span>{" "}
               <span className="text-red-600 not-italic text-3xl md:text-3xl lg:text-4xl mt-2 block drop-shadow-2xl">
                 CASA DE REPOUSO EM SP
               </span>
@@ -101,7 +101,7 @@ export default function AVCBCasaRepousoPage() {
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── H2 #1: PRECISA DE AVCB? ── */}
       <section className="py-24 bg-white">

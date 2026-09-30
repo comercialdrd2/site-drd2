@@ -83,7 +83,7 @@ export default function ManutencaoPage() {
             <h1 className="font-extrabold mb-4 leading-tight tracking-tight uppercase text-white flex flex-col">
               <span className="text-base md:text-lg font-bold tracking-[0.18em] opacity-60 not-italic">
                 MANUTENÇÃO DE SISTEMAS DE INCÊNDIO
-              </span>
+              </span>{" "}
               <span className="text-2xl md:text-3xl lg:text-4xl italic text-red-500 mt-1 block leading-none">
                 EM SÃO PAULO — LAUDOS E ARTs PARA O AVCB
               </span>

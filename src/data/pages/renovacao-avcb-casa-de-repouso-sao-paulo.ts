@@ -1,7 +1,7 @@
 export const renovacaoAvcbCasaRepousoContent = {
   meta: {
     title: "Renovação de AVCB para Casa de Repouso em São Paulo 2026",
-    description: "AVCB da sua casa de repouso venceu? A DRD2 renova o certificado do Corpo de Bombeiros em SP com urgência e sem Comunique-se. Proteja seus residentes. Diagnóstico técnico gratuito. Fale agora.",
+    description: "AVCB da sua casa de repouso venceu? A DRD2 renova o certificado do Corpo de Bombeiros em SP com urgência. Proteja seus residentes. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/renovacao-avcb-casa-de-repouso-sao-paulo",
   },
   intro: [
@@ -9,7 +9,7 @@ export const renovacaoAvcbCasaRepousoContent = {
     "Entre todas as ocupações fiscalizadas pelo <strong>Corpo de Bombeiros</strong> em São Paulo, as ILPIs estão entre as que recebem tratamento mais rigoroso — justamente porque o risco de vida em caso de incêndio é real e imediato para residentes que não conseguem evacuar sem assistência. A <strong>DRD2 Engenharia</strong> é especializada em renovação de AVCB para casas de repouso em São Paulo, com processo conduzido do <strong>diagnóstico técnico</strong> até a retirada do novo certificado — sem impacto na rotina de cuidados dos residentes e com total segurança jurídica para a direção da instituição."
   ],
   h2_porqueVence: {
-    intro: "Casas de repouso e ILPIs têm prazo de validade do AVCB de 1 a 2 anos — e o vencimento frequentemente ocorre porque a direção está completamente absorvida pela gestão assistencial da instituição: escala de cuidadores, medicação, alimentação, família dos residentes e conformidade sanitária.<br/><br/>O controle de documentos técnicos de segurança fica em segundo plano até que a <strong>Vigilância Sanitária</strong> ou o <strong>Corpo de Bombeiros</strong> apareça para fiscalizar.",
+    intro: "Casas de repouso e ILPIs têm AVCB com validade de 3 anos — e o vencimento frequentemente ocorre porque a direção está completamente absorvida pela gestão assistencial da instituição: escala de cuidadores, medicação, alimentação, família dos residentes e conformidade sanitária.<br/><br/>O controle de documentos técnicos de segurança fica em segundo plano até que a <strong>Vigilância Sanitária</strong> ou o <strong>Corpo de Bombeiros</strong> apareça para fiscalizar.",
     body: [
       "A situação é agravada pelo fato de que casas de repouso estão sujeitas à fiscalização simultânea de múltiplos órgãos — <strong>Corpo de Bombeiros</strong>, <strong>Vigilância Sanitária</strong>, Conselho do Idoso e Ministério Público — o que aumenta a frequência de vistorias e o risco de identificação do <strong>AVCB vencido</strong>."
     ],

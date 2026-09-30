@@ -1,7 +1,7 @@
 export const renovacaoAvcbAcademiaContent = {
   meta: {
     title: "Renovação de AVCB para Academia em São Paulo 2026",
-    description: "AVCB da sua academia venceu? A DRD2 Engenharia renova o certificado do Corpo de Bombeiros em São Paulo sem interdição e sem Comunique-se. Diagnóstico técnico gratuito. Fale agora.",
+    description: "AVCB da sua academia venceu? A DRD2 Engenharia renova o certificado do Corpo de Bombeiros em São Paulo sem interdição. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/renovacao-avcb-academia-sao-paulo",
   },
 
@@ -16,7 +16,7 @@ export const renovacaoAvcbAcademiaContent = {
 
   h2_porqueVence: {
     heading: "Por que o AVCB da Academia Vence sem que o Dono Perceba?",
-    intro: "Academias e estúdios fitness têm prazo de validade do AVCB de 1 a 2 anos — e o vencimento costuma passar despercebido porque o proprietário está completamente focado na operação do negócio: retenção de alunos, contratação de instrutores, equipamentos novos e campanhas de matrícula.",
+    intro: "Academias e estúdios fitness têm AVCB com validade de 3 anos — e o vencimento costuma passar despercebido porque o proprietário está completamente focado na operação do negócio: retenção de alunos, contratação de instrutores, equipamentos novos e campanhas de matrícula.",
     body: [
       "O controle de vencimentos de documentos técnicos raramente faz parte da rotina de gestão de academias menores — e quando o proprietário descobre que o AVCB venceu, frequentemente já está em situação de risco real de <strong>interdição</strong>.",
       "Situações que complicam a renovação de academias:"

@@ -96,7 +96,7 @@ export default function AVCBComercialPage() {
       </section>
 
       <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviços", href: "/servicos" }, { label: "AVCB Comercial" }]} dark />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── INTRODUÇÃO TÉCNICA — VERBATIM RESTORATION ── */}
       <section className="py-24 bg-white">
@@ -206,7 +206,7 @@ export default function AVCBComercialPage() {
 
 
       <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviços", href: "/servicos" }, { label: "AVCB Comercial" }]} dark />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── EXIGÊNCIAS TÉCNICAS — COMÉRCIO ── */}
       <section className="py-24 bg-white border-b border-gray-200">
@@ -232,7 +232,7 @@ export default function AVCBComercialPage() {
       </section>
 
       <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviços", href: "/servicos" }, { label: "AVCB Comercial" }]} dark />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* FAQ Com Schema.org — VERBATIM RESTORATION */}
       <section className="py-24 bg-gray-50 border-t border-gray-200">
@@ -284,7 +284,7 @@ export default function AVCBComercialPage() {
 
 
       <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviços", href: "/servicos" }, { label: "AVCB Comercial" }]} dark />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* Mega CTA Final */}
       <section className="py-24 bg-secondary text-center relative overflow-hidden text-white border-t-8 border-primary">

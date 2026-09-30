@@ -1,12 +1,12 @@
 export const renovacaoAvcbContent = {
   meta: {
-    title: "Renovação de AVCB em SP — AVCB Vencido? Renove com Engenheiro",
-    description: "Renovação de AVCB em São Paulo para condomínios, comércios e empresas. AVCB vencido ou perto de vencer? Engenheiro CREA-SP cuida da vistoria ao certificado. Diagnóstico gratuito pelo WhatsApp.",
+    title: "Renovação de AVCB em SP: vencido ou vencendo | DRD2",
+    description: "AVCB vencido ou perto de vencer? Conferimos documentos e sistemas, protocolamos e acompanhamos a vistoria até o novo AVCB. Fale pelo WhatsApp.",
     canonical: "/renovacao-avcb",
   },
   intro: [
     "O AVCB tem prazo de validade de 3 anos. Quando vence, o estabelecimento fica em situação irregular perante o Corpo de Bombeiros — sujeito a autuação, multa e interdição imediata em qualquer fiscalização. Renovar o AVCB dentro do prazo não é apenas uma obrigação legal: é a única forma de manter sua operação protegida e sua responsabilidade civil em dia.",
-    "A DRD2 Engenharia é especializada em renovação de AVCB em São Paulo, com processo completo desde o diagnóstico técnico até a retirada do novo certificado — sem Comunique-se e sem surpresas no processo."
+    "A DRD2 Engenharia é especializada em renovação de AVCB em São Paulo, com processo completo desde o diagnóstico técnico até a retirada do novo certificado — sem surpresas no processo."
   ],
   h2_prazo: {
     heading: "Qual é o Prazo de Validade do AVCB em São Paulo?",
@@ -20,7 +20,7 @@ export const renovacaoAvcbContent = {
       { titulo: "Multa administrativa", desc: "autuação com multa proporcional ao tempo de irregularidade e ao porte do estabelecimento." },
       { titulo: "Cancelamento do alvará de funcionamento", desc: "a Prefeitura de São Paulo pode cancelar o alvará de funcionamento de estabelecimentos com AVCB vencido mediante comunicação do Corpo de Bombeiros." },
       { titulo: "Impedimento de renovação de licenças", desc: "licença sanitária, licença ambiental e outros alvarás que exigem regularidade perante o Corpo de Bombeiros ficam bloqueados." },
-      { titulo: "Responsabilidade civil e criminal", desc: "em caso de sinistro com vítimas em estabelecimento com AVCB vencido, o responsável responde civil e criminalmente pela negligência comprovada." },
+      { titulo: "Responsabilidade civil e criminal", desc: "em caso de sinistro com vítimas em estabelecimento com AVCB vencido, o responsável pode responder civil e criminalmente, se a negligência for comprovada." },
       { titulo: "Problemas com seguro predial", desc: "seguradoras podem negar indenização em caso de sinistro quando the estabelecimento está com documentação de segurança vencida." }
     ]
   },
@@ -94,7 +94,7 @@ export const renovacaoAvcbContent = {
   },
   h2_escolher: {
     heading: "Por que Escolher a DRD2 para Renovar seu AVCB em SP",
-    body1: "A DRD2 Engenharia tem histórico comprovado de aprovação junto ao CBPMESP, com processos conduzidos sem Comunique-se e com total acompanhamento técnico do início ao fim. Nossa equipe conhece as exigências específicas de cada tipo de ocupação e antecipa os pontos críticos antes do protocolo — evitando o retrabalho que gera atraso e custo adicional.",
+    body1: "A DRD2 Engenharia tem histórico comprovado de aprovação junto ao CBPMESP, com processos conduzidos com total acompanhamento técnico do início ao fim. Nossa equipe conhece as exigências específicas de cada tipo de ocupação e antecipa os pontos críticos antes do protocolo — evitando o retrabalho que gera atraso e custo adicional.",
     body2: "Atendemos São Paulo capital e toda a Grande SP, com engenheiros disponíveis para visita técnica gratuita em qualquer região."
   },
   h2_cobertura: {

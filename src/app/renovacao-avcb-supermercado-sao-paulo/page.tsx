@@ -66,7 +66,7 @@ export default function RenovacaoAVCBSupermercadoPage() {
               Varejo Alimentar — Renovação 2026
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white">RENOVAÇÃO DE AVCB</span>
+              <span className="text-white">RENOVAÇÃO DE AVCB</span>{" "}
               <span className="text-red-600 not-italic text-2xl md:text-3xl lg:text-4xl mt-2 block drop-shadow-2xl text-wrap">
                 PARA SUPERMERCADO EM SP — NÃO DEIXE SEU MERCADO PARAR
               </span>
@@ -93,7 +93,7 @@ export default function RenovacaoAVCBSupermercadoPage() {
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── INTRO EXTRA ── */}
       <section className="py-12 bg-white">

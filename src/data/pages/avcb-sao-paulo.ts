@@ -1,8 +1,8 @@
 export const avcbSaoPauloContent = {
   meta: {
-    title: "Empresa de AVCB em São Paulo — Emissão e Renovação | DRD2",
+    title: "AVCB em São Paulo: emissão com engenheiro | DRD2",
     description:
-      "Empresa de engenharia que tira e renova o AVCB em São Paulo: projeto, adequação e aprovação no Corpo de Bombeiros, com engenheiro CREA-SP e ART. Diagnóstico gratuito pelo WhatsApp.",
+      "Primeiro AVCB do seu imóvel em São Paulo: enquadramento, projeto, adequações e vistoria do Corpo de Bombeiros, com ART. Peça orçamento.",
     canonical: "/avcb-sao-paulo",
   },
 
@@ -193,7 +193,7 @@ export const avcbSaoPauloContent = {
       "A DRD2 Engenharia atua exclusivamente com segurança contra incêndio em São Paulo, com domínio técnico completo das Instruções Técnicas do CBPMESP, do Decreto Estadual nº 69.118/2024 e das normas ABNT aplicáveis.",
     diferenciais: [
       {
-        titulo: "Sem Comunique-se",
+        titulo: "Correções incluídas",
         desc: "Nosso processo de diagnóstico prévio elimina as principais causas de exigência durante a análise do Corpo de Bombeiros — reduzindo o tempo de aprovação e o custo total do processo.",
       },
       {
@@ -273,7 +273,7 @@ export const avcbSaoPauloContent = {
 
   ctaFinal: {
     heading: "Seu estabelecimento precisa de AVCB ou CLCB em São Paulo?",
-    body: "Fale agora com um engenheiro da DRD2 e receba o diagnóstico gratuito. Identificamos o enquadramento correto, mapeamos as adequações necessárias e entregamos o certificado do início ao fim — sem burocracia e sem Comunique-se.",
+    body: "Fale agora com um engenheiro da DRD2 e receba o diagnóstico gratuito. Identificamos o enquadramento correto, mapeamos as adequações necessárias e entregamos o certificado do início ao fim — sem burocracia.",
     cta: "📲 Solicitar diagnóstico técnico gratuito pelo WhatsApp",
   },
 };

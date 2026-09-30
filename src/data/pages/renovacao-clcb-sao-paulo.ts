@@ -34,7 +34,7 @@ export const renovacaoClcbContent = {
       },
       {
         titulo: "Responsabilidade civil e criminal",
-        desc: "Em caso de sinistro com vítimas em estabelecimento com CLCB vencido, o responsável responde civil e criminalmente pela negligência comprovada.",
+        desc: "Em caso de sinistro com vítimas em estabelecimento com CLCB vencido, o responsável pode responder civil e criminalmente, se a negligência for comprovada.",
       },
       {
         titulo: "Problemas com seguro predial",

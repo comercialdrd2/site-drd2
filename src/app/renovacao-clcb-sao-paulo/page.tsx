@@ -71,7 +71,7 @@ export default function RenovacaoCLCBPage() {
               Certificado do Corpo de Bombeiros — São Paulo 2026
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white">RENOVAÇÃO DE CLCB</span>
+              <span className="text-white">RENOVAÇÃO DE CLCB</span>{" "}
               <span className="text-red-600 not-italic text-2xl md:text-3xl lg:text-4xl mt-2 block drop-shadow-2xl text-wrap">
                 EM SÃO PAULO — CLCB VENCIDO? EVITE INTERDIÇÃO E MULTA
               </span>

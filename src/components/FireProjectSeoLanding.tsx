@@ -121,7 +121,7 @@ export default function FireProjectSeoLanding({ page }: FireProjectSeoLandingPro
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="projeto" dark />
 
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-6xl">

@@ -67,7 +67,7 @@ const data: UniversalPageData = {
   h2_escolher: {
     heading: "Por que a DRD2 para laudo técnico de porta corta-fogo?",
     body1: "A DRD2 emite laudos de porta corta-fogo aceitos pelo CBPMESP e pelas principais seguradoras do mercado. Cada laudo é emitido por engenheiro com ART CREA-SP ativa, com checklist normativo e relatório fotográfico completo.",
-    body2: "Entrega em até 48h após a inspeção. Sem retrabalho e sem Comunique-se sobre documentação de porta corta-fogo.",
+    body2: "Entrega em até 48h após a inspeção. Sem retrabalho na documentação de porta corta-fogo.",
   },
   h2_cobertura: {
     heading: "Laudo técnico de porta corta-fogo em toda a Grande São Paulo",

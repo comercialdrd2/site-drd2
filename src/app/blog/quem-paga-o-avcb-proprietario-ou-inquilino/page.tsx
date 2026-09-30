@@ -97,7 +97,7 @@ export default function QuemPagaAVCBPage() {
           <div className="max-w-4xl">
             <span className="inline-block bg-primary text-white text-[10px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest mb-6 border border-white/10 leading-none shadow-xl">Guia Especializado 2026</span>
             <h1 className="text-3xl md:text-[6rem] font-black mb-8 leading-[0.8] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white">QUEM PAGA O</span>
+              <span className="text-white">QUEM PAGA O</span>{" "}
               <span className="text-primary not-italic tracking-tighter uppercase">AVCB?</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 mb-10 leading-relaxed font-bold uppercase tracking-tight text-balance">

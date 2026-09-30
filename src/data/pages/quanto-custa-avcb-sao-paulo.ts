@@ -1,8 +1,8 @@
 export const quantoCustaAvcbContent = {
   meta: {
-    title: "Quanto Custa o AVCB em SP? O Que Pesa no Preço",
+    title: "Quanto custa o AVCB em São Paulo? | DRD2",
     description:
-      "Saiba o que determina o custo do AVCB em São Paulo e por que cada caso é único. A DRD2 Engenharia oferece diagnóstico gratuito com orçamento detalhado sem compromisso. Fale agora.",
+      "O preço do AVCB depende de área, ocupação, documentos e sistemas. Veja o que entra no valor, o que é pago à parte e peça orçamento fechado.",
     canonical: "/quanto-custa-avcb-sao-paulo",
   },
 

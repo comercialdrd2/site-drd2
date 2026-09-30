@@ -1,7 +1,7 @@
 export const renovacaoAvcbHostelContent = {
   meta: {
     title: "Renovação de AVCB para Hostel em São Paulo 2026",
-    description: "AVCB do seu hostel venceu? A DRD2 Engenharia renova o certificado do Corpo de Bombeiros em São Paulo sem interdição e sem Comunique-se. Diagnóstico técnico gratuito. Fale agora.",
+    description: "AVCB do seu hostel venceu? A DRD2 Engenharia renova o certificado do Corpo de Bombeiros em São Paulo sem interdição. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/renovacao-avcb-hostel-sao-paulo",
   },
   intro: [
@@ -9,7 +9,7 @@ export const renovacaoAvcbHostelContent = {
     "A <strong>DRD2 Engenharia</strong> é especializada em renovação de AVCB para hostels em São Paulo, com processo conduzido do <strong>diagnóstico técnico</strong> até a retirada do novo certificado — com mínimo impacto na operação e total segurança jurídica para o proprietário."
   ],
   h2_porqueVence: {
-    intro: "Hostels têm prazo de validade do AVCB de 1 a 2 anos — e o vencimento frequentemente passa despercebido porque o proprietário está focado na operação diária: check-in, check-out, limpeza de dormitórios, gestão de avaliações online e campanhas de ocupação.<br/><br/>O controle de documentos técnicos raramente faz parte da rotina de gestão de hostels menores e independentes.",
+    intro: "Hostels têm AVCB com validade de 3 anos — e o vencimento frequentemente passa despercebido porque o proprietário está focado na operação diária: check-in, check-out, limpeza de dormitórios, gestão de avaliações online e campanhas de ocupação.<br/><br/>O controle de documentos técnicos raramente faz parte da rotina de gestão de hostels menores e independentes.",
     body: [
       "Além disso, muitos hostels funcionam em imóveis adaptados — casas antigas ou sobrados convertidos — onde a documentação técnica nunca foi organizada de forma sistemática desde a abertura."
     ],

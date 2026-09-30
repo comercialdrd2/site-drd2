@@ -1,7 +1,7 @@
 export const renovacaoAvcbRestauranteContent = {
   meta: {
     title: "Renovação de AVCB para Restaurante em São Paulo 2026",
-    description: "AVCB do seu restaurante venceu? A DRD2 Engenharia renova o certificado do Corpo de Bombeiros em São Paulo sem interdição e sem Comunique-se. Diagnóstico técnico gratuito. Fale agora.",
+    description: "AVCB do seu restaurante venceu? A DRD2 Engenharia renova o certificado do Corpo de Bombeiros em São Paulo sem interdição. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/renovacao-avcb-restaurante-sao-paulo",
   },
 
@@ -17,7 +17,7 @@ export const renovacaoAvcbRestauranteContent = {
   h2_porqueVence: {
     heading: "Por que o AVCB do Restaurante Vence com Frequência?",
     body: [
-      "Restaurantes, bares e estabelecimentos de alimentação têm prazo de validade do AVCB geralmente de 1 a 2 anos — um dos menores entre os tipos de estabelecimento — justamente porque a cozinha industrial, o GLP e a alta rotatividade de público representam risco contínuo que exige verificação periódica pelo <strong>Corpo de Bombeiros</strong>.",
+      "Restaurantes, bares e estabelecimentos de alimentação têm AVCB com validade de 3 anos, e a renovação exige atenção redobrada porque a cozinha industrial, o GLP e a alta rotatividade de público representam risco contínuo que exige verificação periódica pelo <strong>Corpo de Bombeiros</strong>.",
       "Na prática, o AVCB do restaurante vence com frequência porque o proprietário está focado na operação do negócio — cardápio, fornecedores, equipe, movimento — e o vencimento de documentos técnicos passa despercebido até que a fiscalização apareça ou o <strong>alvará de funcionamento</strong> não seja renovado pela <strong>Prefeitura</strong>.",
       "Situações que aceleram o vencimento ou complicam a renovação:"
     ],

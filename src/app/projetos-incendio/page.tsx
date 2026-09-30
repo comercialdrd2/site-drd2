@@ -99,7 +99,7 @@ export default function ProjetosPage() {
             <h1 className="font-extrabold mb-4 leading-tight tracking-tight uppercase text-white flex flex-col">
               <span className="text-base md:text-lg font-bold tracking-[0.18em] opacity-60 not-italic">
                 PROJETO DE INCÊNDIO (PPCI)
-              </span>
+              </span>{" "}
               <span className="text-2xl md:text-3xl lg:text-4xl italic text-red-500 mt-1 block leading-none">
                 EM SÃO PAULO — APROVAÇÃO NO CBPMESP
               </span>
@@ -128,7 +128,7 @@ export default function ProjetosPage() {
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="projeto" dark />
 
       {/* ── O QUE É O PPCI ── */}
       <section className="py-20 bg-white overflow-hidden">

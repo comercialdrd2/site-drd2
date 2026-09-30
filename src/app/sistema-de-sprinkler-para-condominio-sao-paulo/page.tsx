@@ -60,7 +60,7 @@ export default function SprinklerCondominioPage() {
           <div className="lg:w-3/5">
             <span className="inline-block bg-red-600 text-white text-[10px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest mb-3">IT 23/25 e NBR 10897 — Condomínios Residenciais e Comerciais</span>
             <h1 className="font-extrabold mb-4 leading-tight tracking-tight uppercase text-white flex flex-col">
-              <span className="text-base md:text-lg font-bold tracking-[0.18em] opacity-60">SISTEMA DE SPRINKLER PARA CONDOMÍNIO</span>
+              <span className="text-base md:text-lg font-bold tracking-[0.18em] opacity-60">SISTEMA DE SPRINKLER PARA CONDOMÍNIO</span>{" "}
               <span className="text-2xl md:text-3xl lg:text-4xl italic text-red-500 mt-1 block leading-none">EM SÃO PAULO — PROJETO, INSTALAÇÃO E MANUTENÇÃO</span>
             </h1>
             <p className="text-base md:text-lg text-gray-200 mb-6 leading-relaxed font-medium max-w-2xl border-l-4 border-red-600 pl-6 py-1">

@@ -80,7 +80,7 @@ const data: UniversalPageData = {
         "desc": "Para hospitais: licença sanitária VISA e laudo de gases medicinais. Para postos: licença CETESB. Para galpões acima de 5.000m²: laudo de carga de incêndio por compartimento. Para locais de reunião: laudo de capacidade de lotação."
       }
     ],
-    "closing": "A DRD2 realiza auditoria documental completa antes do protocolo — identificamos exatamente o que está faltando ou incorreto para cada imóvel específico. Processo entra correto na primeira tentativa, sem Comunique-se documental."
+    "closing": "A DRD2 realiza auditoria documental completa antes do protocolo — identificamos exatamente o que está faltando ou incorreto para cada imóvel específico. Processo entra correto na primeira tentativa, com menos risco de Comunique-se documental."
   },
   "h2_processo": {
     "heading": "Como a DRD2 garante documentação completa para AVCB",
@@ -177,7 +177,7 @@ const data: UniversalPageData = {
     }
   ],
   "ctaFinal": {
-    "heading": "DOCUMENTAÇÃO COMPLETA PARA AVCB SEM COMUNIQUE-SE",
+    "heading": "DOCUMENTAÇÃO COMPLETA PARA O AVCB",
     "body": "Auditoria documental gratuita. Processo correto na primeira tentativa.",
     "cta": "Solicitar Auditoria Documental Gratuita"
   }

@@ -308,6 +308,12 @@ const nextConfig = {
       { source: '/sprinkler-hospital-avcb-sp', destination: '/sistema-sprinkler-hospital-avcb-sp', permanent: true },
       { source: '/sprinkler-hotel-avcb-sp', destination: '/sistema-sprinkler-hotel-avcb-sp', permanent: true },
       { source: '/sprinkler-shopping-center-avcb-sp', destination: '/sistema-sprinkler-shopping-center-sp', permanent: true },
+      // ===== 30/09/2026 — diagnóstico SEO: páginas com o mesmo título/H1 de outra URL =====
+      { source: '/ptotep-sao-paulo', destination: '/ptotep', permanent: true },
+      { source: '/projeto-pet', destination: '/regularizacao-de-eventos-sao-paulo', permanent: true },
+      { source: '/servicos/projeto-pet-sp', destination: '/regularizacao-de-eventos-sao-paulo', permanent: true },
+      { source: '/servicos/avcb-condominio-sao-paulo', destination: '/avcb-para-condominio-sao-paulo', permanent: true },
+      { source: '/servicos/treinamento-brigada-incendio', destination: '/treinamento-brigada', permanent: true },
       // ===== 08/08/2026 — desduplicacao: /servicos/ e /blog/ vao para a raiz (versao completa) =====
       { source: '/blog/avcb-para-academia-sao-paulo', destination: '/avcb-para-academia-sao-paulo', permanent: true },
       { source: '/blog/avcb-para-creche-sao-paulo', destination: '/avcb-para-creche-sao-paulo', permanent: true },

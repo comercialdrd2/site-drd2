@@ -78,7 +78,7 @@ export default function AVCBHotelPage() {
               Aprovação conduzida por engenharia — Regularização 2026
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white">AVCB PARA</span>
+              <span className="text-white">AVCB PARA</span>{" "}
               <span className="text-red-600 not-italic text-3xl md:text-3xl lg:text-4xl mt-2 block drop-shadow-2xl">
                 HOTÉIS E POUSADAS</span>
             </h1>
@@ -106,7 +106,7 @@ export default function AVCBHotelPage() {
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── H2 #1: QUEM PRECISA ── */}
       <section className="py-24 bg-white">
@@ -264,7 +264,7 @@ export default function AVCBHotelPage() {
       <section className="py-24 bg-slate-900 text-white">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center mb-20">
-            <span className="text-red-500 font-black uppercase tracking-widest text-xs">Sem Comunique-se — Sem Retrabalho</span>
+            <span className="text-red-500 font-black uppercase tracking-widest text-xs">Correções incluídas — Sem Retrabalho</span>
             <h2 className="text-3xl md:text-5xl font-black mb-6 tracking-tighter leading-none uppercase italic mt-4">
               Como a DRD2 Conduz o{" "}
               <span className="text-red-600 not-italic">AVCB para Hotel e Pousada em SP</span>

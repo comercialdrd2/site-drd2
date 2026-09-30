@@ -59,7 +59,7 @@ export default function RenovacaoRestaurantePage() {
       <HeroSection 
         occupation="restaurante" 
         tag="Polo Gastronômico — Rua dos Pinheiros e Harmonia"
-        title={<><span className="opacity-80 font-bold tracking-widest block mb-2 text-xl md:text-2xl">RENOVAÇÃO DE AVCB E CLCB PARA RESTAURANTE</span><span className="italic text-red-500 block leading-tight">EM PINHEIROS — AGILIDADE E LEGALIDADE</span></>}
+        title={<><span className="opacity-80 font-bold tracking-widest block mb-2 text-xl md:text-2xl">RENOVAÇÃO DE AVCB E CLCB PARA RESTAURANTE</span>{" "}<span className="italic text-red-500 block leading-tight">EM PINHEIROS — AGILIDADE E LEGALIDADE</span></>}
         subtitle="Evite embargo, multa, interdição e bloqueio de licenças da Vigilância Sanitária e bloqueio de alvará. Regularização técnica ágil de coifas, central de gás e saídas de emergência."
         address="Rua dos Pinheiros, Harmonia, Cardeal Arcoverde e região"
         showForm={true}
@@ -67,7 +67,7 @@ export default function RenovacaoRestaurantePage() {
       />
 
       <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Renovações", href: "/renovacao-avcb" }, { label: "Pinheiros" }]} dark />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       <section className="py-24 bg-white">
         <div className="container mx-auto px-4 max-w-4xl">

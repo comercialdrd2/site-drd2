@@ -60,7 +60,7 @@ export const renovacaoAvcbCasaNoturnaContent = {
     {
       title: "Prazo de validade do AVCB para casas noturnas",
       content: [
-        "O AVCB de casas noturnas, boates e bares com show ao vivo em São Paulo tem <strong>validade de 3 anos</strong>, conforme o Decreto Estadual nº 69.118/2024. O processo de renovação deve ser iniciado com antecedência mínima de 60 a 90 dias antes do vencimento.",
+        "O AVCB de casas noturnas, boates e bares com show ao vivo em São Paulo tem <strong>validade de 3 anos</strong> — a data de vencimento vem impressa no próprio certificado. O processo de renovação deve ser iniciado com antecedência mínima de 60 a 90 dias antes do vencimento.",
         "Estabelecimentos desse segmento são alvos prioritários de fiscalização noturna — operar com AVCB vencido é aceitar o risco de <strong>interdição imediata</strong> a qualquer momento, com impacto direto no faturamento e na reputação do negócio."
       ]
     }

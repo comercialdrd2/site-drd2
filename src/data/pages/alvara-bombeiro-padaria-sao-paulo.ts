@@ -62,7 +62,7 @@ export const alvaraBombeiroContent = {
     {
       title: "Validade e renovação do alvará do Corpo de Bombeiros",
       content: [
-        "O AVCB para Padarias em São Paulo tem <strong>validade de 3 anos</strong> conforme o Decreto Estadual nº 69.118/2024. Após o vencimento, a irregularidade é imediata — não existe período de carência.",
+        "O AVCB para Padarias em São Paulo tem <strong>validade de 3 anos</strong> — a data de vencimento vem impressa no próprio certificado. Após o vencimento, a irregularidade é imediata — não existe período de carência.",
         "Com AVCB vencido, o estabelecimento está impedido de renovar o alvará de funcionamento e sujeito a interdição em qualquer fiscalização. Inicie a renovação com <strong>60 a 90 dias de antecedência</strong> para garantir continuidade operacional sem riscos.",
       ],
     },

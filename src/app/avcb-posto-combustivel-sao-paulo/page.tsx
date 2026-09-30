@@ -99,7 +99,7 @@ export default function AVCBPostoPage() {
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── O QUE É E POR QUE SEU POSTO PRECISA ── */}
       <section className="py-20 bg-slate-50 border-b border-slate-200">

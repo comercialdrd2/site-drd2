@@ -61,7 +61,7 @@ const data: UniversalPageData = {
   "h2_detalhes": {
     "heading": "O cronograma real do AVCB urgente em São Paulo",
     "body1": "Com documentação completa e sistemas conformes, este é o cronograma mínimo realista para AVCB em São Paulo. Não existe forma de acelerar a análise interna do CBPMESP — mas é possível chegar ao protocolo perfeito e sem riscos em até 10 dias úteis.",
-    "alerta": "Protocolo correto = sem Comunique-se = processo mais rápido.",
+    "alerta": "Protocolo correto = menos exigências = processo mais rápido.",
     "itens": [
       {
         "titulo": "Dias 1–2: Diagnóstico técnico",

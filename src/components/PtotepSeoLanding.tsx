@@ -18,6 +18,7 @@ import { JsonLD, generateMasterSchema } from "@/components/JsonLD";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import TrustBar from "@/components/TrustBar";
+import RichText from "@/components/RichText";
 import type { PtotepPage } from "@/data/ptotepSeoPages";
 
 type Props = {
@@ -53,10 +54,10 @@ function getTechnicalDepth(page: PtotepPage) {
     return {
       title: `Como a análise muda em ${city}`,
       intro:
-        `Em ${city}, a regularização de evento temporário precisa considerar o perfil real dos locais usados para feiras, shows, convenções, igrejas, universidades, clubes, hoteis e shoppings. A mesma montagem pode ser simples em um salão preparado para eventos e complexa em uma área improvisada de shopping, patio, garagem, auditorio ou galpão. Por isso, a DRD2 não trata PTOTEP como formulario padrão: primeiro identifica a licença existente, a rota de fuga do imóvel, a lotação prevista e o impacto da ocupação temporária sobre as medidas de segurança já aprovadas.`,
+        `Em ${city}, a regularização de evento temporário precisa considerar o perfil real dos locais usados para feiras, shows, convenções, igrejas, universidades, clubes, hotéis e shoppings. A mesma montagem pode ser simples em um salão preparado para eventos e complexa em uma área improvisada de shopping, pátio, garagem, auditório ou galpão. Por isso, a DRD2 não trata PTOTEP como formulário padrão: primeiro identifica a licença existente, a rota de fuga do imóvel, a lotação prevista e o impacto da ocupação temporária sobre as medidas de segurança já aprovadas.`,
       details: [
         primaryContext,
-        `O ponto de maior atenção costuma ser ${primaryRisk}. Quando essa leitura fica para a vespera, o organizador perde tempo para corrigir layout, pedir ART de fornecedor, reposicionar fila, mudar acesso ou complementar sinalização.`,
+        `O ponto de maior atenção costuma ser ${primaryRisk}. Quando essa leitura fica para a véspera, o organizador perde tempo para corrigir layout, pedir ART de fornecedor, reposicionar fila, mudar acesso ou complementar sinalização.`,
         `Antes do protocolo, conferimos ${primaryDocument}, layout, público, montagem, documentos de fornecedores e compatibilidade com o uso permanente do local. Essa etapa reduz risco de Comunique-se e evita que a montagem final fique diferente do que foi analisado tecnicamente.`,
       ],
     };
@@ -69,7 +70,7 @@ function getTechnicalDepth(page: PtotepPage) {
         `Perguntas sobre PTOTEP normalmente aparecem quando o evento já tem data, fornecedor e local definidos. O problema e que custo, prazo, documentos, diferença entre AVCB e PTOTEP e necessidade de ocupação temporária dependem de uma mesma base técnica: o que o evento muda no imóvel permanente. Sem essa leitura, a resposta vira chute e o processo pode nascer incompleto.`,
       details: [
         page.focus,
-        `Na pratica, avaliamos ${primaryContext}. Depois cruzamos essa informação com público estimado, controle de acesso, palco, stands, gerador, GLP, elétrica temporária, rotas de fuga e regras internas do local.`,
+        `Na prática, avaliamos ${primaryContext}. Depois cruzamos essa informação com público estimado, controle de acesso, palco, stands, gerador, GLP, elétrica temporária, rotas de fuga e regras internas do local.`,
         `O risco mais comum e ${primaryRisk}. Por isso, a orientação correta não e apenas dizer se precisa ou não precisa: e apontar quais documentos devem entrar, quais ajustes precisam ocorrer antes da montagem e qual caminho reduz atraso perto da data do evento.`,
       ],
     };
@@ -94,7 +95,7 @@ function getTechnicalDepth(page: PtotepPage) {
       "O PTOTEP precisa demonstrar que a ocupação temporária não compromete a segurança da edificação permanente. Isso exige mais do que descrever o evento: e necessário conectar licença existente, uso aprovado, público estimado, layout temporário, rotas de fuga, estruturas, fornecedores e responsabilidades técnicas.",
     details: [
       page.focus,
-      `O ponto de atenção inicial e ${primaryContext}. A partir dele, verificamos se palco, stands, filas, áreas VIP, credenciamento, cozinha, gerador, GLP ou estruturas provisorias alteram a logica original do imóvel.`,
+      `O ponto de atenção inicial e ${primaryContext}. A partir dele, verificamos se palco, stands, filas, áreas VIP, credenciamento, cozinha, gerador, GLP ou estruturas provisórias alteram a lógica original do imóvel.`,
       `O risco mais comum e ${primaryRisk}. Quando o projeto nasce antes da montagem, ainda existe tempo para ajustar layout, solicitar documentos e alinhar fornecedores. Quando nasce depois, qualquer correção vira urgência e pode afetar a data do evento.`,
     ],
   };
@@ -148,7 +149,7 @@ export default function PtotepSeoLanding({ page }: Props) {
             </p>
             <div className="mt-6 flex flex-col sm:flex-row gap-4">
               <CtaWhatsApp
-                label="Analisar meu evento no WhatsApp"
+                label={page.ctaLabel ?? "Analisar meu evento no WhatsApp"}
                 occupationType={page.ctaOccupation}
                 size="md"
               />
@@ -159,6 +160,9 @@ export default function PtotepSeoLanding({ page }: Props) {
                 Ver checklist <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
+            <p className="mt-5 text-sm font-bold text-slate-200">
+              ✓ 1º pagamento só após a aprovação do projeto pelo Corpo de Bombeiros · ✓ Correções sem custo adicional
+            </p>
           </div>
         </div>
       </section>
@@ -171,7 +175,7 @@ export default function PtotepSeoLanding({ page }: Props) {
           { label: page.label },
         ]}
       />
-      <TrustBar dark />
+      <TrustBar pagamento="projeto" dark />
 
       <section className="bg-white py-20">
         <div className="container mx-auto px-4 max-w-6xl">
@@ -179,15 +183,15 @@ export default function PtotepSeoLanding({ page }: Props) {
             Leitura técnica do evento
           </p>
           <h2 className="text-3xl md:text-5xl font-black text-slate-950 uppercase italic tracking-tight leading-none mb-7 max-w-4xl">
-            O PTOTEP protege o evento e a licença do local
+            {page.focusTitle ?? "O PTOTEP protege o evento e a licença do local"}
           </h2>
           <p className="text-lg text-slate-700 font-medium leading-relaxed max-w-4xl">
             {page.focus}
           </p>
           <div className="mt-9 grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { icon: Building2, title: "Edificacao", text: "licença vigente, uso aprovado e sistemas existentes" },
-              { icon: Users, title: "Publico", text: "lotação, acesso, filas, rotas e áreas de concentração" },
+              { icon: Building2, title: "Edificação", text: "licença vigente, uso aprovado e sistemas existentes" },
+              { icon: Users, title: "Público", text: "lotação, acesso, filas, rotas e áreas de concentração" },
               { icon: CalendarCheck, title: "Evento", text: "montagem temporária, fornecedores, prazo e vistoria" },
             ].map((item) => (
               <div key={item.title} className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
@@ -219,12 +223,68 @@ export default function PtotepSeoLanding({ page }: Props) {
                 <span className="text-5xl font-black text-red-600/10 leading-none">
                   {String(index + 1).padStart(2, "0")}
                 </span>
-                <p className="mt-5 text-slate-700 font-medium leading-relaxed" dangerouslySetInnerHTML={{ __html: item }} />
+                <p className="mt-5 text-slate-700 font-medium leading-relaxed [&_a]:text-red-700 [&_a]:font-bold [&_a]:underline" dangerouslySetInnerHTML={{ __html: item }} />
               </div>
             ))}
           </div>
         </div>
       </section>
+
+      {page.extraSections?.map((section) => (
+        <section key={section.title} className="bg-white py-16 border-b border-slate-200">
+          <div className="container mx-auto px-4 max-w-6xl">
+            <h2 className="text-3xl md:text-4xl font-black text-slate-950 uppercase italic tracking-tight leading-none mb-6">
+              {section.title}
+            </h2>
+            {section.intro && (
+              <p
+                className="max-w-4xl text-lg text-slate-700 font-medium leading-relaxed [&_a]:text-red-700 [&_a]:font-bold [&_a]:underline"
+                dangerouslySetInnerHTML={{ __html: section.intro }}
+              />
+            )}
+            {section.table && (
+              <div className="mt-6 overflow-x-auto rounded-2xl border border-slate-200">
+                <table className="w-full text-left text-sm md:text-base">
+                  <thead className="bg-slate-950 text-white">
+                    <tr>
+                      {section.table.head.map((h) => (
+                        <th key={h} className="p-4 font-black">{h}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {section.table.rows.map((row, i) => (
+                      <tr key={i} className="border-t border-slate-200 odd:bg-slate-50">
+                        {row.map((cell, j) => (
+                          <td
+                            key={j}
+                            className={`p-4 align-top text-slate-700 [&_a]:text-red-700 [&_a]:font-bold [&_a]:underline ${j === 0 ? "font-bold text-slate-900" : ""}`}
+                            dangerouslySetInnerHTML={{ __html: cell }}
+                          />
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+            {section.items && (
+              <ul className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+                {section.items.map((item) => (
+                  <li key={item} className="flex items-start gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                    <CheckCircle2 className="mt-1 h-5 w-5 shrink-0 text-red-600" />
+                    <span
+                      className="text-slate-700 font-medium leading-relaxed [&_a]:text-red-700 [&_a]:underline"
+                      dangerouslySetInnerHTML={{ __html: item }}
+                    />
+                  </li>
+                ))}
+              </ul>
+            )}
+            {section.note && <p className="mt-4 text-slate-600 font-medium">{section.note}</p>}
+          </div>
+        </section>
+      ))}
 
       <section className="bg-slate-950 py-20 text-white">
         <div className="container mx-auto px-4 max-w-6xl">
@@ -236,9 +296,14 @@ export default function PtotepSeoLanding({ page }: Props) {
               <h2 className="text-3xl md:text-5xl font-black uppercase italic tracking-tight leading-none">
                 {page.riskTitle}
               </h2>
-              <p className="mt-6 text-slate-300 font-medium leading-relaxed">
-                A maior parte das pendencias aparece quando layout, fornecedores e documentos caminham separados. O projeto precisa transformar a operação do evento em informação técnica verificavel.
-              </p>
+              <p
+                className="mt-6 text-slate-300 font-medium leading-relaxed [&_a]:text-red-300 [&_a]:underline"
+                dangerouslySetInnerHTML={{
+                  __html:
+                    page.riskIntro ??
+                    "A maior parte das pendências aparece quando layout, fornecedores e documentos caminham separados. O projeto precisa transformar a operação do evento em informação técnica verificável.",
+                }}
+              />
             </div>
             <div className="lg:col-span-7">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -254,6 +319,7 @@ export default function PtotepSeoLanding({ page }: Props) {
         </div>
       </section>
 
+      {!page.hideTechnicalDepth && (
       <section className="bg-white py-20 border-y border-slate-200">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
@@ -276,10 +342,10 @@ export default function PtotepSeoLanding({ page }: Props) {
                       {index + 1}
                     </span>
                     <h3 className="text-sm font-black uppercase italic tracking-tight text-slate-950">
-                      Ponto de conferencia
+                      Ponto de conferência
                     </h3>
                   </div>
-                  <p className="text-slate-700 font-medium leading-relaxed">{detail}</p>
+                  <p className="text-slate-700 font-medium leading-relaxed"><RichText value={detail} /></p>
                 </div>
               ))}
               <div className="rounded-2xl bg-slate-950 p-6 text-white">
@@ -297,6 +363,7 @@ export default function PtotepSeoLanding({ page }: Props) {
           </div>
         </div>
       </section>
+      )}
 
       <section id="checklist" className="bg-white py-20">
         <div className="container mx-auto px-4 max-w-6xl">

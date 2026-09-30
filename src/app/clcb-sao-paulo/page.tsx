@@ -10,12 +10,12 @@ import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import AvcbOuClcbCalculator from "@/components/AvcbOuClcbCalculator";
 
-const _pageTitle = "CLCB em São Paulo — Emissão e Renovação com Engenheiro";
-const _pageDesc = "Emissão e renovação de CLCB em São Paulo para comércios, escritórios e clínicas até 750 m². Engenheiro CREA-SP cuida do Via Fácil ao certificado. Fale pelo WhatsApp.";
+const _pageTitle = "CLCB em São Paulo: emissão e renovação | DRD2";
+const _pageDesc = "Comércio, escritório ou clínica de baixo risco? Verificamos se o imóvel se enquadra no CLCB e cuidamos do protocolo no Via Fácil Bombeiros.";
 
 export const metadata = {
-  title: "CLCB em São Paulo — Emissão e Renovação com Engenheiro",
-  description: "Emissão e renovação de CLCB em São Paulo para comércios, escritórios e clínicas até 750 m². Engenheiro CREA-SP cuida do Via Fácil ao certificado. Fale pelo WhatsApp.",
+  title: "CLCB em São Paulo: emissão e renovação | DRD2",
+  description: "Comércio, escritório ou clínica de baixo risco? Verificamos se o imóvel se enquadra no CLCB e cuidamos do protocolo no Via Fácil Bombeiros.",
   alternates: {
     canonical: "/clcb-sao-paulo",
   },
@@ -81,7 +81,7 @@ export default function CLCBSaoPaulo() {
             <h1 className="font-extrabold mb-4 leading-tight tracking-tight uppercase text-white flex flex-col">
               <span className="text-base md:text-lg font-bold tracking-[0.18em] opacity-60 not-italic">
                 CLCB — CERTIFICADO DO CORPO DE BOMBEIROS
-              </span>
+              </span>{" "}
               <span className="text-2xl md:text-3xl lg:text-4xl italic text-red-500 mt-1 block leading-none">
                 EM SÃO PAULO 2026 — PROCESSO SIMPLIFICADO
               </span>

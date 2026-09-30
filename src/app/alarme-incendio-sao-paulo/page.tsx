@@ -129,7 +129,7 @@ export default function AlarmeIncendioSaoPauloPage() {
               Proteção Ativa 24/7 — IT 19/2025 — São Paulo 2026
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white">ALARME DE INCÊNDIO</span>
+              <span className="text-white">ALARME DE INCÊNDIO</span>{" "}
               <span className="text-red-600 not-italic text-3xl md:text-3xl lg:text-4xl mt-2 block drop-shadow-2xl">
                 EM SÃO PAULO — PROJETO E INSTALAÇÃO
               </span>

@@ -76,7 +76,7 @@ export default function AVCBSaoPauloPage() {
               REGULARIZAÇÃO 2026 — Resposta a Comunique-se Incluída
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white">EMPRESA DE AVCB EM</span>
+              <span className="text-white">EMPRESA DE AVCB EM</span>{" "}
               <span className="text-red-600 not-italic text-3xl md:text-3xl lg:text-4xl mt-2 block drop-shadow-2xl">
                 SÃO PAULO 2026
               </span>
@@ -105,7 +105,7 @@ export default function AVCBSaoPauloPage() {
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── H2 #1: O QUE É O AVCB ── */}
       <section className="py-24 bg-white">
@@ -279,7 +279,7 @@ export default function AVCBSaoPauloPage() {
       <section className="py-24 bg-slate-900 text-white relative">
         <div className="container mx-auto px-4 max-w-6xl relative z-10">
           <div className="text-center mb-20">
-            <span className="text-red-500 font-black uppercase tracking-widest text-xs">Sem Comunique-se — Sem Retrabalho</span>
+            <span className="text-red-500 font-black uppercase tracking-widest text-xs">Correções incluídas — Sem Retrabalho</span>
             <h2 className="text-3xl md:text-6xl font-black mb-6 tracking-tighter leading-none uppercase italic mt-4">
               Como Funciona o Processo de{" "}
               <span className="text-red-600 not-italic">AVCB com a DRD2</span>

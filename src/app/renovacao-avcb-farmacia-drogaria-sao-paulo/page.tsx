@@ -65,7 +65,7 @@ export default function RenovacaoAVCBFarmaciaPage() {
               {c.badge}
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white">RENOVAÇÃO DE AVCB</span>
+              <span className="text-white">RENOVAÇÃO DE AVCB</span>{" "}
               <span className="text-red-600 not-italic text-3xl md:text-3xl lg:text-4xl mt-2 block drop-shadow-2xl">
                 PARA FARMÁCIAS E DROGARIAS EM SP
               </span>
@@ -95,7 +95,7 @@ export default function RenovacaoAVCBFarmaciaPage() {
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── CONTEXTO (Abaixo da Dobra) ── */}
       <section className="py-16 bg-white border-b border-slate-100">

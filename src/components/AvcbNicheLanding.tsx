@@ -116,7 +116,7 @@ export default function AvcbNicheLanding({ page }: Props) {
           { label: page.label },
         ]}
       />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       <section className="bg-white py-20">
         <div className="container mx-auto px-4 max-w-6xl">

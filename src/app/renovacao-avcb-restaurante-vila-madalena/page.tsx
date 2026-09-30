@@ -59,7 +59,7 @@ export default function RenovacaoRestaurantePage() {
       <HeroSection 
         occupation="restaurante" 
         tag="Bairro Boêmio e Gastronômico de SP"
-        title={<><span className="opacity-80 font-bold tracking-widest block mb-2 text-xl md:text-2xl">RENOVAÇÃO DE AVCB E CLCB PARA RESTAURANTE</span><span className="italic text-red-500 block leading-tight">EM VILA MADALENA — AGILIDADE E LEGALIDADE</span></>}
+        title={<><span className="opacity-80 font-bold tracking-widest block mb-2 text-xl md:text-2xl">RENOVAÇÃO DE AVCB E CLCB PARA RESTAURANTE</span>{" "}<span className="italic text-red-500 block leading-tight">EM VILA MADALENA — AGILIDADE E LEGALIDADE</span></>}
         subtitle="Evite embargo, multa, interdição e bloqueio de licenças da Vigilância Sanitária e bloqueio de alvará. Regularização técnica ágil de coifas, central de gás e saídas de emergência."
         address="Rua Aspicuelta, Fradique Coutinho, Mourato Coelho e região"
         showForm={true}
@@ -67,7 +67,7 @@ export default function RenovacaoRestaurantePage() {
       />
 
       <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Renovações", href: "/renovacao-avcb" }, { label: "Vila Madalena" }]} dark />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       <section className="py-24 bg-white">
         <div className="container mx-auto px-4 max-w-4xl">

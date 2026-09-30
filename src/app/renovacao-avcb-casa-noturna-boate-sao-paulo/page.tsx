@@ -67,7 +67,7 @@ export default function RenovacaoAVCBCasaNoturnaPage() {
             <h1 className="font-extrabold mb-4 leading-tight tracking-tight uppercase text-white flex flex-col">
               <span className="text-base md:text-lg font-bold tracking-[0.18em] opacity-60 not-italic">
                 RENOVAÇÃO DE AVCB
-              </span>
+              </span>{" "}
               <span className="text-2xl md:text-3xl lg:text-4xl italic text-red-500 mt-1 block leading-none">
                 PARA CASAS NOTURNAS<br className="hidden sm:block" /> E BOATES EM SP
               </span>
@@ -97,7 +97,7 @@ export default function RenovacaoAVCBCasaNoturnaPage() {
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── CONTEXTO (Abaixo da Dobra) ── */}
       <section className="py-16 bg-white border-b border-slate-100">

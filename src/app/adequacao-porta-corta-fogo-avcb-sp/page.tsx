@@ -61,7 +61,7 @@ const data: UniversalPageData = {
   },
   h2_quando: {
     heading: "Quando iniciar a adequação de porta corta-fogo?",
-    body1: "O momento ideal é antes do protocolo do AVCB — com as portas adequadas e laudo técnico em mãos, o processo tramita sem Comunique-se sobre saídas de emergência. Para edificações com AVCB vencido, a adequação deve ser concluída antes da vistoria de renovação.",
+    body1: "O momento ideal é antes do protocolo do AVCB — com as portas adequadas e laudo técnico em mãos, o processo tramita com menos risco de Comunique-se sobre saídas de emergência. Para edificações com AVCB vencido, a adequação deve ser concluída antes da vistoria de renovação.",
     body2: "Situações que exigem adequação imediata: Comunique-se do CBPMESP sobre portas, auditoria de seguradora exigindo conformidade, reforma que alterou as rotas de fuga ou mudança de uso do imóvel.",
   },
   h2_escolher: {

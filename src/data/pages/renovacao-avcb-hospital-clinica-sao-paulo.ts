@@ -1,7 +1,7 @@
 export const renovacaoAvcbHospitalContent = {
   meta: {
     title: "Renovação de AVCB para Hospital e Clínica em São Paulo 2026",
-    description: "AVCB do seu hospital ou clínica venceu? A DRD2 Engenharia renova o certificado do Corpo de Bombeiros em São Paulo sem interdição e sem Comunique-se. Diagnóstico técnico gratuito. Fale agora.",
+    description: "AVCB do seu hospital ou clínica venceu? A DRD2 Engenharia renova o certificado do Corpo de Bombeiros em São Paulo sem interdição. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/renovacao-avcb-hospital-clinica-sao-paulo",
   },
   intro: [

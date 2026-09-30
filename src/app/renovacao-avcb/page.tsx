@@ -72,7 +72,7 @@ export default function RenovacaoAVCBPage() {
               Serviço Especializado — São Paulo 2026
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white">RENOVAÇÃO DE AVCB</span>
+              <span className="text-white">RENOVAÇÃO DE AVCB</span>{" "}
               <span className="text-red-600 not-italic text-2xl md:text-3xl lg:text-4xl mt-2 block drop-shadow-2xl text-wrap">
                 EM SÃO PAULO — AVCB VENCIDO? EVITE INTERDIÇÃO E MULTA
               </span>
@@ -104,7 +104,7 @@ export default function RenovacaoAVCBPage() {
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── H2 #1: PRAZO DE VALIDADE ── */}
       <section className="py-24 bg-white">
@@ -322,7 +322,7 @@ export default function RenovacaoAVCBPage() {
             <div className="grid grid-cols-2 gap-4">
                 {[
                     { l: "Aprovação conduzida por engenharia", i: ShieldCheck },
-                    { l: "Sem Comunique-se", i: Zap },
+                    { l: "Correções incluídas", i: Zap },
                     { l: "Diagnóstico Grátis", i: CheckCircle2 },
                     { l: "Time Próprio", i: Phone }
                 ].map((item, i) => (

@@ -156,7 +156,7 @@ export default function AVCBEscritorioMasterPage() {
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── ENQUADRAMENTO TÉCNICO ── */}
       <section className="py-24 bg-white">
@@ -373,7 +373,7 @@ export default function AVCBEscritorioMasterPage() {
           </h2>
           <div className="space-y-5 text-lg text-slate-600 leading-relaxed font-medium">
             <p>
-              O AVCB de escritórios e lajes corporativas em São Paulo tem validade de 3 anos, conforme o Decreto Estadual nº 69.118/2024.
+              O AVCB de escritórios e lajes corporativas em São Paulo tem validade de 3 anos — a data de vencimento vem impressa no próprio certificado.
             </p>
             <p>
               O processo de renovação deve ser iniciado com antecedência mínima de 60 a 90 dias antes do vencimento. Empresas que aguardam o vencimento para iniciar ficam em situação irregular durante o período de análise — o que pode comprometer contratos, auditorias internas e certificações que exigem AVCB válido como requisito documental.

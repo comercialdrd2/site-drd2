@@ -73,7 +73,7 @@ export default function AVCBCondominioMasterPage() {
               Grupo A/B — Condomínios Residenciais — Regularização 2026
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white">AVCB PARA</span>
+              <span className="text-white">AVCB PARA</span>{" "}
               <span className="text-red-600 not-italic text-3xl md:text-3xl lg:text-4xl mt-2 block drop-shadow-2xl">
                 CONDOMÍNIO EM SÃO PAULO
               </span>
@@ -102,7 +102,7 @@ export default function AVCBCondominioMasterPage() {
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── INTRODUÇÃO TÉCNICA — VERBATIM RESTORATION ── */}
       <section className="py-24 bg-white">
@@ -311,7 +311,7 @@ export default function AVCBCondominioMasterPage() {
            <div className="text-center mb-16">
             <span className="text-red-600 font-black text-xs uppercase tracking-widest mb-4 block underline decoration-red-600 underline-offset-4">Foco na Paz do Síndico</span>
             <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-8 leading-[0.9] tracking-tighter uppercase italic">
-              Metodologia <span className="text-red-600 not-italic">Sem Comunique-se</span>
+              Metodologia <span className="text-red-600 not-italic">Sem Retrabalho</span>
             </h2>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto font-medium">O síndico não precisa ir ao Corpo de Bombeiros nem se preocupar com burocracia. Nós resolvemos tudo.</p>
            </div>

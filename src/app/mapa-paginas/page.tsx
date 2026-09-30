@@ -136,7 +136,7 @@ const servicos = [
   { label: "Projetos de Incêndio", href: "/projetos-incendio" },
   { label: "Treinamento Brigada", href: "/treinamento-brigada" },
   { label: "Laudo Estanqueidade Gás", href: "/laudo-estanqueidade-gas-sao-paulo" },
-  { label: "Projeto PET", href: "/projeto-pet" },
+  { label: "Regularização de eventos", href: "/regularizacao-de-eventos-sao-paulo" },
   { label: "Escada Pressurizada em São Paulo", href: "/escada-pressurizada-sao-paulo" },
   { label: "Projeto Escada Pressurizada AVCB SP", href: "/projeto-escada-pressurizada-avcb-sao-paulo" },
   { label: "Instalação Escada Pressurizada SP", href: "/instalacao-escada-pressurizada-sp" },

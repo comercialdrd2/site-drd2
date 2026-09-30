@@ -1,7 +1,7 @@
 export const renovacaoAvcbGalpaoContent = {
   meta: {
     title: "Renovação de AVCB para Galpão Industrial em São Paulo 2026",
-    description: "AVCB do seu galpão venceu? A DRD2 Engenharia renova o certificado do Corpo de Bombeiros em São Paulo sem interdição e sem Comunique-se. Diagnóstico técnico gratuito. Fale agora.",
+    description: "AVCB do seu galpão venceu? A DRD2 Engenharia renova o certificado do Corpo de Bombeiros em São Paulo sem interdição. Diagnóstico técnico gratuito. Fale agora.",
     canonical: "/renovacao-avcb-galpao-industrial-sao-paulo",
   },
   intro: [
@@ -9,7 +9,7 @@ export const renovacaoAvcbGalpaoContent = {
     "No setor industrial e logístico de São Paulo, onde os custos de parada de linha são altíssimos, a <strong>interdição</strong> por <strong>AVCB vencido</strong> é um risco que nenhum gestor responsável pode aceitar.<br/><br/>A <strong>renovação preventiva</strong> elimina esse risco completamente."
   ],
   h2_porqueVence: {
-    intro: "Galpões industriais e logísticos têm prazo de validade do AVCB de 1 a 2 anos — e o vencimento frequentemente passa despercebido porque o gestor industrial está focado em produção, logística, contratos e equipe.<br/><br/>O controle de documentos técnicos de segurança raramente tem a mesma prioridade que os indicadores operacionais do negócio.",
+    intro: "Galpões industriais e logísticos têm AVCB com validade de 3 anos — e o vencimento frequentemente passa despercebido porque o gestor industrial está focado em produção, logística, contratos e equipe.<br/><br/>O controle de documentos técnicos de segurança raramente tem a mesma prioridade que os indicadores operacionais do negócio.",
     body: [
       "Em galpões locados, a situação é ainda mais comum — o locatário assume que a documentação é responsabilidade do proprietário, o proprietário assume que é responsabilidade do locatário, e o AVCB vence sem que ninguém tome providência."
     ],

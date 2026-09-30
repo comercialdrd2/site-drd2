@@ -21,96 +21,96 @@ const ptotepBlogPosts: BlogPost[] = [
     title: "O que e PTOTEP e quando um evento precisa desse projeto?",
     date: "2026-05-06",
     category: "PTOTEP e Eventos",
-    excerpt: "Entenda quando feira, show, exposicao, evento corporativo ou ativacao temporaria precisa de Projeto Tecnico de Ocupacao Temporaria em Edificacao Permanente.",
+    excerpt: "Entenda quando feira, show, exposição, evento corporativo ou ativação temporária precisa de Projeto Técnico de Ocupação Temporária em Edificação Permanente.",
     relatedServiceSlug: "ptotep",
     image: "/images/blog/blog_hero_mooca_avcb.webp",
     content: `
-      <p>PTOTEP significa <strong>Projeto Tecnico de Ocupacao Temporaria em Edificacao Permanente</strong>. Na pratica, ele e usado quando um evento temporario acontece dentro de um local que ja existe, como shopping, hotel, igreja, escola, clube, centro de convencoes, galpao ou edificio comercial, mas cria uma forma de uso diferente daquela prevista no AVCB ou na licenca da edificacao.</p>
+      <p>PTOTEP significa <strong>Projeto Técnico de Ocupação Temporária em Edificação Permanente</strong>. Na prática, ele e usado quando um evento temporário acontece dentro de um local que já existe, como shopping, hotel, igreja, escola, clube, centro de convenções, galpao ou edifício comercial, mas cria uma forma de uso diferente daquela prevista no AVCB ou na licença da edificacao.</p>
 
-      <p>O erro mais comum e acreditar que o AVCB do local resolve automaticamente qualquer evento. O AVCB trata a seguranca da edificacao no uso permanente aprovado. O PTOTEP olha o que o evento muda: publico, layout, stands, palco, rotas de fuga, instalacoes eletricas temporarias, uso de GLP, geradores, cenografia, filas e controle de acesso.</p>
+      <p>O erro mais comum e acreditar que o AVCB do local resolve automaticamente qualquer evento. O AVCB trata a segurança da edificação no uso permanente aprovado. O PTOTEP olha o que o evento muda: público, layout, stands, palco, rotas de fuga, instalações elétricas temporárias, uso de GLP, geradores, cenografia, filas e controle de acesso.</p>
 
-      <h2>Quando o PTOTEP costuma ser necessario</h2>
-      <p>O projeto temporario passa a ser relevante quando a montagem altera a rotina normal do imovel. Isso pode acontecer em uma feira montada no mall de um shopping, em um show dentro de casa de eventos, em uma exposicao temporaria, em uma convencao corporativa com palco e credenciamento, em evento religioso com grande publico ou em food park instalado em area que normalmente nao recebe essa ocupacao.</p>
+      <h2>Quando o PTOTEP costuma ser necessário</h2>
+      <p>O projeto temporário passa a ser relevante quando a montagem altera a rotina normal do imovel. Isso pode acontecer em uma feira montada no mall de um shopping, em um show dentro de casa de eventos, em uma exposição temporária, em uma convenção corporativa com palco e credenciamento, em evento religioso com grande público ou em food park instalado em área que normalmente não recebe essa ocupacao.</p>
 
       <ul>
-        <li><strong>Aumento de publico:</strong> o evento leva mais pessoas ou concentra publico em area especifica.</li>
-        <li><strong>Mudanca de layout:</strong> stands, grades, palco, mesas, filas ou cenografia interferem na circulacao.</li>
-        <li><strong>Estruturas temporarias:</strong> tendas, arquibancadas, palcos, house mix, backdrop e estruturas metalicas.</li>
-        <li><strong>Instalacoes provisórias:</strong> eletrica temporaria, gerador, equipamentos de som, iluminacao, GLP e cozinhas moveis.</li>
-        <li><strong>Interferencia nas rotas:</strong> corredores, saidas, escadas e portas podem ficar parcialmente bloqueados se o layout for mal planejado.</li>
+        <li><strong>Aumento de público:</strong> o evento leva mais pessoas ou concentra público em área especifica.</li>
+        <li><strong>Mudança de layout:</strong> stands, grades, palco, mesas, filas ou cenografia interferem na circulacao.</li>
+        <li><strong>Estruturas temporárias:</strong> tendas, arquibancadas, palcos, house mix, backdrop e estruturas metalicas.</li>
+        <li><strong>Instalações provisórias:</strong> elétrica temporária, gerador, equipamentos de som, iluminação, GLP e cozinhas moveis.</li>
+        <li><strong>Interferência nas rotas:</strong> corredores, saídas, escadas e portas podem ficar parcialmente bloqueados se o layout for mal planejado.</li>
       </ul>
 
-      <h2>PTOTEP nao e apenas papel</h2>
-      <p>Um bom PTOTEP nasce da leitura tecnica do evento. O engenheiro precisa entender o local, a licenca existente, a data, o publico estimado, a montagem prevista e os pontos de risco. So depois disso faz sentido montar memoriais, plantas, ART/RRT, documentacao de estruturas e demais anexos.</p>
+      <h2>PTOTEP não e apenas papel</h2>
+      <p>Um bom PTOTEP nasce da leitura técnica do evento. O engenheiro precisa entender o local, a licença existente, a data, o público estimado, a montagem prevista e os pontos de risco. Só depois disso faz sentido montar memoriais, plantas, ART/RRT, documentação de estruturas e demais anexos.</p>
 
-      <p>Quando esse trabalho e feito tarde, o organizador perde margem para corrigir layout, pedir documentos de fornecedores ou ajustar rotas de fuga. Por isso, eventos com data marcada devem tratar PTOTEP logo no inicio da producao, antes da montagem entrar em campo.</p>
+      <p>Quando esse trabalho e feito tarde, o organizador perde margem para corrigir layout, pedir documentos de fornecedores ou ajustar rotas de fuga. Por isso, eventos com data marcada devem tratar PTOTEP logo no início da produção, antes da montagem entrar em campo.</p>
 
-      <h2>Exemplos praticos</h2>
-      <p>Uma feira em shopping pode precisar demonstrar que os stands nao reduzem corredores e nao bloqueiam saidas. Um show em hotel pode exigir controle de lotacao, palco, extintores adicionais, brigada e eletrica temporaria. Um evento gastronomico pode exigir atencao para GLP, fritadeiras, geradores e rotas entre mesas.</p>
+      <h2>Exemplos práticos</h2>
+      <p>Uma feira em shopping pode precisar demonstrar que os stands não reduzem corredores e não bloqueiam saidas. Um show em hotel pode exigir controle de lotação, palco, extintores adicionais, brigada e elétrica temporaria. Um evento gastronômico pode exigir atenção para GLP, fritadeiras, geradores e rotas entre mesas.</p>
 
-      <p>Em todos esses casos, a pergunta principal nao e apenas "tem AVCB?". A pergunta correta e: <strong>o evento criou uma ocupacao temporaria que muda o risco do local?</strong> Se a resposta for sim, o PTOTEP deve ser avaliado tecnicamente.</p>
+      <p>Em todos esses casos, a pergunta principal não e apenas "tem AVCB?". A pergunta correta e: <strong>o evento criou uma ocupação temporária que muda o risco do local?</strong> Se a resposta for sim, o PTOTEP deve ser avaliado tecnicamente.</p>
 
       <h2>Como a DRD2 conduz esse processo</h2>
-      <p>A DRD2 Engenharia avalia o local, revisa o escopo do evento, orienta os documentos de fornecedores, organiza plantas e memoriais, emite responsabilidade tecnica quando aplicavel e acompanha a estrategia de protocolo. O objetivo e evitar improviso, reduzir exigencias e proteger a data do evento.</p>
+      <p>A DRD2 Engenharia avalia o local, revisa o escopo do evento, orienta os documentos de fornecedores, organiza plantas e memoriais, emite responsabilidade técnica quando aplicável e acompanha a estratégia de protocolo. O objetivo e evitar improviso, reduzir exigências e proteger a data do evento.</p>
 
-      <p>Para aprofundar, veja tambem a pagina principal de <a href="/ptotep" class="text-primary font-bold underline">PTOTEP para eventos temporarios</a> e o guia sobre <a href="/diferenca-avcb-ptotep" class="text-primary font-bold underline">diferenca entre AVCB e PTOTEP</a>. Para custo e documentacao do processo, veja <a href="/blog/quanto-custa-ptotep-para-evento" class="text-primary font-bold underline">quanto custa PTOTEP para evento</a> e <a href="/blog/documentos-necessarios-para-ptotep-evento" class="text-primary font-bold underline">documentos necessarios para PTOTEP</a>.</p>
+      <p>Para aprofundar, veja também a pagina principal de <a href="/ptotep" class="text-primary font-bold underline">PTOTEP para eventos temporários</a> e o guia sobre <a href="/diferenca-avcb-ptotep" class="text-primary font-bold underline">diferença entre AVCB e PTOTEP</a>. Para custo e documentação do processo, veja <a href="/blog/quanto-custa-ptotep-para-evento" class="text-primary font-bold underline">quanto custa PTOTEP para evento</a> e <a href="/blog/documentos-necessarios-para-ptotep-evento" class="text-primary font-bold underline">documentos necessários para PTOTEP</a>.</p>
     `,
     faqs: [
-      { question: "PTOTEP substitui o AVCB do local?", answer: "Nao. O AVCB trata a edificacao permanente. O PTOTEP avalia a ocupacao temporaria criada pelo evento, quando ela altera publico, layout, rotas ou riscos." },
-      { question: "Todo evento precisa de PTOTEP?", answer: "Nao. A necessidade depende do local, publico, montagem, estruturas e interferencia nas medidas de seguranca existentes." },
+      { question: "PTOTEP substitui o AVCB do local?", answer: "Nao. O AVCB trata a edificação permanente. O PTOTEP avalia a ocupação temporária criada pelo evento, quando ela altera público, layout, rotas ou riscos." },
+      { question: "Todo evento precisa de PTOTEP?", answer: "Nao. A necessidade depende do local, público, montagem, estruturas e interferência nas medidas de segurança existentes." },
       { question: "Quando devo iniciar o PTOTEP?", answer: "O ideal e iniciar antes da montagem e com tempo para ajustar layout, fornecedores, ARTs e documentos exigidos." }
     ]
   },
   {
     slug: "documentos-necessarios-para-ptotep-evento",
-    title: "Documentos necessarios para PTOTEP: checklist para eventos",
+    title: "Documentos necessários para PTOTEP: checklist para eventos",
     date: "2026-05-06",
     category: "Documentos PTOTEP",
-    excerpt: "Veja quais documentos normalmente entram no PTOTEP de feira, show, exposicao, evento em shopping, food park e ocupacao temporaria.",
+    excerpt: "Veja quais documentos normalmente entram no PTOTEP de feira, show, exposição, evento em shopping, food park e ocupação temporaria.",
     relatedServiceSlug: "ptotep",
     image: "/images/blog/fire_safety_equipment_premium.webp",
     content: `
-      <p>A documentacao do PTOTEP muda conforme o tipo de evento, mas existe uma logica comum: provar que a edificacao permanente esta regular, que a ocupacao temporaria foi planejada tecnicamente e que os sistemas provisórios nao criam risco descontrolado para o publico.</p>
+      <p>A documentação do PTOTEP muda conforme o tipo de evento, mas existe uma lógica comum: provar que a edificação permanente esta regular, que a ocupação temporária foi planejada tecnicamente e que os sistemas provisórios não criam risco descontrolado para o publico.</p>
 
-      <p>O checklist abaixo ajuda organizadores, produtores, administradoras de shopping, hoteis, igrejas e centros de eventos a entenderem o que deve ser preparado antes do protocolo.</p>
+      <p>O checklist abaixo ajuda organizadores, produtores, administradoras de shopping, hotéis, igrejas e centros de eventos a entenderem o que deve ser preparado antes do protocolo.</p>
 
       <h2>Documentos do local</h2>
       <ul>
-        <li><strong>Licenca da edificacao:</strong> AVCB, CLCB ou documento equivalente vigente, quando aplicavel.</li>
-        <li><strong>Dados da edificacao:</strong> endereco, responsavel, area ocupada pelo evento e uso permanente do imovel.</li>
-        <li><strong>Plantas ou layout base:</strong> informacao minima para entender acessos, saidas, escadas, corredores e equipamentos existentes.</li>
-        <li><strong>Regras do empreendimento:</strong> exigencias internas de shopping, hotel, clube, escola ou centro de convencoes.</li>
+        <li><strong>Licença da edificação:</strong> AVCB, CLCB ou documento equivalente vigente, quando aplicavel.</li>
+        <li><strong>Dados da edificação:</strong> endereço, responsável, área ocupada pelo evento e uso permanente do imovel.</li>
+        <li><strong>Plantas ou layout base:</strong> informação mínima para entender acessos, saídas, escadas, corredores e equipamentos existentes.</li>
+        <li><strong>Regras do empreendimento:</strong> exigências internas de shopping, hotel, clube, escola ou centro de convencoes.</li>
       </ul>
 
       <h2>Documentos do evento</h2>
       <ul>
-        <li><strong>Layout da ocupacao temporaria:</strong> posicao de stands, palco, tendas, filas, mesas, grades, camarins, cozinha e areas tecnicas.</li>
-        <li><strong>Publico estimado:</strong> quantidade de pessoas, controle de acesso, horarios e pico de ocupacao.</li>
-        <li><strong>Memorial descritivo:</strong> explicacao tecnica da montagem, uso do espaco e medidas de seguranca.</li>
-        <li><strong>Responsabilidade tecnica:</strong> ART/RRT dos projetos e montagens que exigem profissional habilitado.</li>
+        <li><strong>Layout da ocupação temporária:</strong> posição de stands, palco, tendas, filas, mesas, grades, camarins, cozinha e áreas tecnicas.</li>
+        <li><strong>Público estimado:</strong> quantidade de pessoas, controle de acesso, horários e pico de ocupacao.</li>
+        <li><strong>Memorial descritivo:</strong> explicação técnica da montagem, uso do espaço e medidas de seguranca.</li>
+        <li><strong>Responsabilidade técnica:</strong> ART/RRT dos projetos e montagens que exigem profissional habilitado.</li>
       </ul>
 
       <h2>Fornecedores que costumam gerar anexos</h2>
-      <p>Palco, estruturas metalicas, tendas, arquibancadas, cenografia, eletrica temporaria, gerador, sonorizacao, iluminacao, GLP, cozinha temporaria, brigada e ambulancia podem exigir documentos especificos. O ponto central e rastrear quem projetou, quem instalou e quem responde tecnicamente por cada sistema.</p>
+      <p>Palco, estruturas metálicas, tendas, arquibancadas, cenografia, elétrica temporária, gerador, sonorização, iluminação, GLP, cozinha temporária, brigada e ambulância podem exigir documentos especificos. O ponto central e rastrear quem projetou, quem instalou e quem responde tecnicamente por cada sistema.</p>
 
       <h2>Por que o checklist muda tanto?</h2>
-      <p>Um evento corporativo em auditorio tem risco diferente de um festival gastronomico. Uma feira com stands em shopping tem leitura diferente de um show com palco e gerador. O PTOTEP deve refletir a realidade da montagem, nao apenas repetir uma lista padrao.</p>
+      <p>Um evento corporativo em auditório tem risco diferente de um festival gastronomico. Uma feira com stands em shopping tem leitura diferente de um show com palco e gerador. O PTOTEP deve refletir a realidade da montagem, não apenas repetir uma lista padrao.</p>
 
-      <h2>Erros que atrasam a aprovacao</h2>
+      <h2>Erros que atrasam a aprovação</h2>
       <ul>
-        <li>Enviar layout sem escala, sem saidas ou sem dimensoes de corredores.</li>
-        <li>Deixar ARTs de fornecedores para a ultima semana.</li>
-        <li>Nao informar gerador, GLP, palco ou estruturas temporarias.</li>
-        <li>Usar o AVCB do local como unico argumento, sem demonstrar o impacto do evento.</li>
+        <li>Enviar layout sem escala, sem saídas ou sem dimensões de corredores.</li>
+        <li>Deixar ARTs de fornecedores para a última semana.</li>
+        <li>Não informar gerador, GLP, palco ou estruturas temporarias.</li>
+        <li>Usar o AVCB do local como único argumento, sem demonstrar o impacto do evento.</li>
         <li>Mudar layout depois do protocolo sem revisar o projeto.</li>
       </ul>
 
-      <p>A DRD2 Engenharia organiza o checklist por tipo de evento e orienta quais documentos devem ser solicitados de cada fornecedor. Veja tambem a pagina de <a href="/documentos-necessarios-ptotep" class="text-primary font-bold underline">documentos necessarios para PTOTEP</a> e a pagina principal de <a href="/ptotep" class="text-primary font-bold underline">Projeto Tecnico de Ocupacao Temporaria</a>. Veja tambem <a href="/blog/o-que-e-ptotep-quando-evento-precisa" class="text-primary font-bold underline">o que e PTOTEP e quando o evento precisa</a> e <a href="/blog/quanto-custa-ptotep-para-evento" class="text-primary font-bold underline">quanto custa PTOTEP para evento</a>.</p>
+      <p>A DRD2 Engenharia organiza o checklist por tipo de evento e orienta quais documentos devem ser solicitados de cada fornecedor. Veja também a pagina de <a href="/documentos-necessarios-ptotep" class="text-primary font-bold underline">documentos necessários para PTOTEP</a> e a pagina principal de <a href="/ptotep" class="text-primary font-bold underline">Projeto Técnico de Ocupação Temporária</a>. Veja também <a href="/blog/o-que-e-ptotep-quando-evento-precisa" class="text-primary font-bold underline">o que e PTOTEP e quando o evento precisa</a> e <a href="/blog/quanto-custa-ptotep-para-evento" class="text-primary font-bold underline">quanto custa PTOTEP para evento</a>.</p>
     `,
     faqs: [
-      { question: "Preciso do AVCB do local para fazer PTOTEP?", answer: "Normalmente a licenca da edificacao permanente e parte importante da analise, porque o PTOTEP precisa entender a base de seguranca do imovel." },
-      { question: "Fornecedor precisa emitir ART?", answer: "Pode precisar, especialmente em estruturas, eletrica, palco, gerador, GLP e sistemas que envolvem responsabilidade tecnica." },
-      { question: "Layout simples serve para protocolo?", answer: "Depende. O layout precisa ser tecnico o suficiente para demonstrar circulacao, saidas, equipamentos, lotacao e interferencias da montagem." }
+      { question: "Preciso do AVCB do local para fazer PTOTEP?", answer: "Normalmente a licença da edificação permanente e parte importante da análise, porque o PTOTEP precisa entender a base de segurança do imovel." },
+      { question: "Fornecedor precisa emitir ART?", answer: "Pode precisar, especialmente em estruturas, elétrica, palco, gerador, GLP e sistemas que envolvem responsabilidade tecnica." },
+      { question: "Layout simples serve para protocolo?", answer: "Depende. O layout precisa ser técnico o suficiente para demonstrar circulação, saídas, equipamentos, lotação e interferências da montagem." }
     ]
   },
   {
@@ -118,130 +118,130 @@ const ptotepBlogPosts: BlogPost[] = [
     title: "Quanto custa PTOTEP para evento?",
     date: "2026-05-06",
     category: "Custos PTOTEP",
-    excerpt: "Entenda os fatores que influenciam o valor do PTOTEP: tipo de evento, cidade, publico, prazo, layout, ARTs, fornecedores e complexidade da montagem.",
+    excerpt: "Entenda os fatores que influenciam o valor do PTOTEP: tipo de evento, cidade, público, prazo, layout, ARTs, fornecedores e complexidade da montagem.",
     relatedServiceSlug: "ptotep",
     image: "/images/blog/blog_hero_avcb_preco.webp",
     content: `
-      <p>O custo do PTOTEP nao deve ser calculado apenas pelo nome do evento. O que realmente muda o valor e a complexidade da ocupacao temporaria: publico, tamanho da area, quantidade de estruturas, interferencia nas rotas de fuga, exigencias do local, documentos de fornecedores e prazo disponivel ate a data do evento.</p>
+      <p>O custo do PTOTEP não deve ser calculado apenas pelo nome do evento. O que realmente muda o valor e a complexidade da ocupação temporária: público, tamanho da área, quantidade de estruturas, interferência nas rotas de fuga, exigências do local, documentos de fornecedores e prazo disponível até a data do evento.</p>
 
-      <p>Uma palestra simples em auditorio regularizado pode ter uma demanda menor. Ja uma feira com dezenas de stands, gerador, food trucks, palco, filas e grande publico exige uma analise muito mais cuidadosa.</p>
+      <p>Uma palestra simples em auditório regularizado pode ter uma demanda menor. Já uma feira com dezenas de stands, gerador, food trucks, palco, filas e grande público exige uma análise muito mais cuidadosa.</p>
 
       <h2>Fatores que mais pesam no valor</h2>
       <ul>
-        <li><strong>Tipo de evento:</strong> feira, show, exposicao, evento corporativo, festival, food park ou evento esportivo.</li>
+        <li><strong>Tipo de evento:</strong> feira, show, exposição, evento corporativo, festival, food park ou evento esportivo.</li>
         <li><strong>Local:</strong> shopping, hotel, igreja, escola, clube, galpao ou centro de convencoes.</li>
-        <li><strong>Publico estimado:</strong> quantidade de pessoas e controle de acesso.</li>
+        <li><strong>Público estimado:</strong> quantidade de pessoas e controle de acesso.</li>
         <li><strong>Montagem:</strong> stands, palco, tendas, grades, cenografia, arquibancada e estruturas especiais.</li>
-        <li><strong>Sistemas temporarios:</strong> eletrica provisoria, gerador, GLP, cozinha, som e iluminacao.</li>
-        <li><strong>Documentacao:</strong> ART/RRT, memoriais, plantas, anexos de fornecedores e adequacoes.</li>
-        <li><strong>Urgencia:</strong> prazo curto aumenta risco, necessidade de revisoes rapidas e dependencia de terceiros.</li>
+        <li><strong>Sistemas temporários:</strong> elétrica provisória, gerador, GLP, cozinha, som e iluminacao.</li>
+        <li><strong>Documentação:</strong> ART/RRT, memoriais, plantas, anexos de fornecedores e adequacoes.</li>
+        <li><strong>Urgência:</strong> prazo curto aumenta risco, necessidade de revisões rápidas e dependência de terceiros.</li>
       </ul>
 
-      <h2>Por que nao existe preco unico?</h2>
-      <p>Dois eventos com o mesmo publico podem ter riscos totalmente diferentes. Um evento sentado, com rotas livres, pode ser mais simples que uma ativacao cheia de stands e filas ocupando circulacao. O preco correto nasce de diagnostico tecnico, nao de tabela generica.</p>
+      <h2>Por que não existe preço único?</h2>
+      <p>Dois eventos com o mesmo público podem ter riscos totalmente diferentes. Um evento sentado, com rotas livres, pode ser mais simples que uma ativação cheia de stands e filas ocupando circulacao. O preço correto nasce de diagnostico técnico, não de tabela generica.</p>
 
-      <h2>O que um orcamento serio deve incluir</h2>
-      <p>O orcamento deve deixar claro o escopo: analise do local, orientacao de documentos, elaboracao de projeto, memoriais, responsabilidade tecnica, acompanhamento de exigencias e limites de revisao. Tambem deve separar o que depende de fornecedores externos, como ART de palco, estrutura, eletrica, gerador e GLP.</p>
+      <h2>O que um orçamento serio deve incluir</h2>
+      <p>O orçamento deve deixar claro o escopo: análise do local, orientação de documentos, elaboração de projeto, memoriais, responsabilidade técnica, acompanhamento de exigências e limites de revisao. Também deve separar o que depende de fornecedores externos, como ART de palco, estrutura, elétrica, gerador e GLP.</p>
 
       <h2>Economizar no projeto pode custar a data do evento</h2>
-      <p>O maior prejuizo nao costuma ser o valor do PTOTEP, mas o atraso por documento incompleto, layout mal desenhado, falta de ART ou exigencia recebida perto da montagem. Quando a data e fixa, retrabalho tecnico vira risco comercial.</p>
+      <p>O maior prejuízo não costuma ser o valor do PTOTEP, mas o atraso por documento incompleto, layout mal desenhado, falta de ART ou exigência recebida perto da montagem. Quando a data e fixa, retrabalho técnico vira risco comercial.</p>
 
-      <p>A DRD2 avalia o evento antes de fechar o escopo, para indicar o caminho mais seguro. Veja tambem a pagina de <a href="/quanto-custa-ptotep" class="text-primary font-bold underline">quanto custa PTOTEP</a> e a pagina de <a href="/ptotep" class="text-primary font-bold underline">PTOTEP para eventos</a>. Veja tambem <a href="/blog/o-que-e-ptotep-quando-evento-precisa" class="text-primary font-bold underline">o que e PTOTEP e quando o evento precisa</a> e <a href="/blog/documentos-necessarios-para-ptotep-evento" class="text-primary font-bold underline">documentos necessarios para PTOTEP</a>.</p>
+      <p>A DRD2 avalia o evento antes de fechar o escopo, para indicar o caminho mais seguro. Veja também a pagina de <a href="/quanto-custa-ptotep" class="text-primary font-bold underline">quanto custa PTOTEP</a> e a pagina de <a href="/ptotep" class="text-primary font-bold underline">PTOTEP para eventos</a>. Veja também <a href="/blog/o-que-e-ptotep-quando-evento-precisa" class="text-primary font-bold underline">o que e PTOTEP e quando o evento precisa</a> e <a href="/blog/documentos-necessarios-para-ptotep-evento" class="text-primary font-bold underline">documentos necessários para PTOTEP</a>.</p>
     `,
     faqs: [
-      { question: "PTOTEP tem valor fixo?", answer: "Nao. O valor depende do tipo de evento, local, publico, montagem, documentos, ARTs e prazo." },
-      { question: "Evento pequeno paga menos?", answer: "Pode pagar menos se a montagem for simples, mas evento pequeno com GLP, gerador ou estrutura especial pode exigir analise detalhada." },
-      { question: "Urgencia aumenta custo?", answer: "Pode aumentar, porque reduz margem para revisar documentos, coordenar fornecedores e responder exigencias antes da data do evento." }
+      { question: "PTOTEP tem valor fixo?", answer: "Nao. O valor depende do tipo de evento, local, público, montagem, documentos, ARTs e prazo." },
+      { question: "Evento pequeno paga menos?", answer: "Pode pagar menos se a montagem for simples, mas evento pequeno com GLP, gerador ou estrutura especial pode exigir análise detalhada." },
+      { question: "Urgência aumenta custo?", answer: "Pode aumentar, porque reduz margem para revisar documentos, coordenar fornecedores e responder exigências antes da data do evento." }
     ]
   },
   {
     slug: "prazo-aprovacao-bombeiros-evento-ptotep",
-    title: "Prazo de aprovacao dos Bombeiros para evento com PTOTEP",
+    title: "Prazo de aprovação dos Bombeiros para evento com PTOTEP",
     date: "2026-05-06",
     category: "Prazos PTOTEP",
-    excerpt: "Veja como planejar o prazo de aprovacao de evento temporario, organizar fornecedores e evitar que exigencias dos Bombeiros travem a montagem.",
+    excerpt: "Veja como planejar o prazo de aprovação de evento temporário, organizar fornecedores e evitar que exigências dos Bombeiros travem a montagem.",
     relatedServiceSlug: "ptotep",
     image: "/images/blog/blog_hero_avcb_preco.webp",
     content: `
-      <p>O prazo de aprovacao para evento temporario deve ser tratado como parte do cronograma de producao. O problema e que muitos organizadores deixam o PTOTEP para depois de vender o evento, fechar fornecedores e aprovar o layout comercial. Quando a engenharia entra tarde, qualquer ajuste vira urgencia.</p>
+      <p>O prazo de aprovação para evento temporário deve ser tratado como parte do cronograma de producao. O problema e que muitos organizadores deixam o PTOTEP para depois de vender o evento, fechar fornecedores e aprovar o layout comercial. Quando a engenharia entra tarde, qualquer ajuste vira urgencia.</p>
 
-      <p>O tempo necessario depende do tipo de evento, cidade, disponibilidade de documentos, complexidade da montagem e capacidade de resposta a eventuais exigencias. Por isso, o melhor caminho e iniciar a analise tecnica antes da montagem e antes de congelar o layout final.</p>
+      <p>O tempo necessário depende do tipo de evento, cidade, disponibilidade de documentos, complexidade da montagem e capacidade de resposta a eventuais exigencias. Por isso, o melhor caminho e iniciar a análise técnica antes da montagem e antes de congelar o layout final.</p>
 
       <h2>Etapas que entram no prazo</h2>
       <ol>
-        <li><strong>Diagnostico:</strong> leitura do local, da licenca existente e do escopo do evento.</li>
+        <li><strong>Diagnostico:</strong> leitura do local, da licença existente e do escopo do evento.</li>
         <li><strong>Coleta de documentos:</strong> AVCB/CLCB do local, layout, ARTs, memoriais e dados de fornecedores.</li>
-        <li><strong>Projeto:</strong> desenho tecnico da ocupacao temporaria, rotas, equipamentos, publico e interferencias.</li>
-        <li><strong>Protocolo:</strong> organizacao do processo junto ao sistema aplicavel.</li>
-        <li><strong>Exigencias:</strong> respostas e revisoes caso o orgao solicite ajustes.</li>
-        <li><strong>Montagem:</strong> execucao coerente com o que foi projetado e documentado.</li>
+        <li><strong>Projeto:</strong> desenho técnico da ocupação temporária, rotas, equipamentos, público e interferencias.</li>
+        <li><strong>Protocolo:</strong> organização do processo junto ao sistema aplicavel.</li>
+        <li><strong>Exigências:</strong> respostas e revisões caso o órgão solicite ajustes.</li>
+        <li><strong>Montagem:</strong> execução coerente com o que foi projetado e documentado.</li>
       </ol>
 
       <h2>O que mais atrasa</h2>
-      <p>O atraso geralmente nao vem de uma unica causa. Ele aparece quando o layout muda muitas vezes, fornecedor demora para entregar ART, o local nao envia documentos, o evento inclui GLP ou gerador sem aviso, ou a producao tenta protocolar uma versao incompleta para "ganhar tempo".</p>
+      <p>O atraso geralmente não vem de uma única causa. Ele aparece quando o layout muda muitas vezes, fornecedor demora para entregar ART, o local não envia documentos, o evento inclui GLP ou gerador sem aviso, ou a produção tenta protocolar uma versão incompleta para "ganhar tempo".</p>
 
       <h2>Como proteger a data do evento</h2>
       <ul>
         <li>Validar tecnicamente o layout antes de vender todos os espacos.</li>
-        <li>Solicitar ARTs e documentos de fornecedores no contrato, nao na vespera.</li>
-        <li>Definir publico maximo e controle de acesso desde o inicio.</li>
+        <li>Solicitar ARTs e documentos de fornecedores no contrato, não na vespera.</li>
+        <li>Definir público máximo e controle de acesso desde o inicio.</li>
         <li>Informar palco, gerador, GLP, tendas e estruturas especiais sem ocultar detalhes.</li>
-        <li>Reservar tempo para exigencias e revisoes.</li>
+        <li>Reservar tempo para exigências e revisoes.</li>
       </ul>
 
-      <h2>Da para aprovar de ultima hora?</h2>
-      <p>Alguns casos simples podem ser encaminhados com rapidez, mas evento com data proxima sempre carrega risco. Quando faltam documentos, ARTs ou compatibilidade do layout, a urgencia nao substitui a analise tecnica. O ideal e tratar prazo como risco do projeto, igual montagem, energia, seguranca e operacao.</p>
+      <h2>Da para aprovar de última hora?</h2>
+      <p>Alguns casos simples podem ser encaminhados com rapidez, mas evento com data próxima sempre carrega risco. Quando faltam documentos, ARTs ou compatibilidade do layout, a urgência não substitui a análise tecnica. O ideal e tratar prazo como risco do projeto, igual montagem, energia, segurança e operacao.</p>
 
-      <p>A DRD2 ajuda a organizar o cronograma tecnico e os documentos antes do protocolo. Veja tambem o guia de <a href="/prazo-aprovacao-bombeiros-evento" class="text-primary font-bold underline">prazo de aprovacao dos Bombeiros para evento</a>.</p>
+      <p>A DRD2 ajuda a organizar o cronograma técnico e os documentos antes do protocolo. Veja também o guia de <a href="/prazo-aprovacao-bombeiros-evento" class="text-primary font-bold underline">prazo de aprovação dos Bombeiros para evento</a>.</p>
     `,
     faqs: [
       { question: "Qual prazo ideal para iniciar PTOTEP?", answer: "Quanto antes no cronograma do evento, melhor. O ideal e iniciar antes de congelar layout, contratar todos os fornecedores e iniciar montagem." },
-      { question: "O que mais atrasa a aprovacao?", answer: "Layout incompleto, falta de ARTs, mudancas de escopo, documentos do local atrasados e informacoes omitidas sobre GLP, gerador ou estruturas." },
-      { question: "Posso montar antes de aprovar?", answer: "A montagem deve seguir a estrategia tecnica e as regras aplicaveis. Montar fora do projeto aumenta risco de exigencia, ajuste emergencial e atraso." }
+      { question: "O que mais atrasa a aprovação?", answer: "Layout incompleto, falta de ARTs, mudanças de escopo, documentos do local atrasados e informações omitidas sobre GLP, gerador ou estruturas." },
+      { question: "Posso montar antes de aprovar?", answer: "A montagem deve seguir a estratégia técnica e as regras aplicaveis. Montar fora do projeto aumenta risco de exigência, ajuste emergencial e atraso." }
     ]
   },
   {
     slug: "diferenca-entre-avcb-e-ptotep-eventos",
-    title: "Diferenca entre AVCB e PTOTEP em eventos",
+    title: "Diferença entre AVCB e PTOTEP em eventos",
     date: "2026-05-06",
     category: "AVCB x PTOTEP",
-    excerpt: "Entenda por que o AVCB do local nem sempre basta para feira, show, evento corporativo, exposicao ou ocupacao temporaria.",
+    excerpt: "Entenda por que o AVCB do local nem sempre basta para feira, show, evento corporativo, exposição ou ocupação temporaria.",
     relatedServiceSlug: "ptotep",
     image: "/images/blog/fire_safety_equipment_premium.webp",
     content: `
-      <p>AVCB e PTOTEP nao sao o mesmo documento. O <strong>AVCB</strong> comprova que a edificacao permanente atende as medidas de seguranca contra incendio para determinado uso. O <strong>PTOTEP</strong> avalia a ocupacao temporaria criada por um evento dentro dessa edificacao.</p>
+      <p>AVCB e PTOTEP não são o mesmo documento. O <strong>AVCB</strong> comprova que a edificação permanente atende as medidas de segurança contra incêndio para determinado uso. O <strong>PTOTEP</strong> avalia a ocupação temporária criada por um evento dentro dessa edificacao.</p>
 
-      <p>Essa diferenca e decisiva para shopping, hotel, igreja, escola, clube, centro de convencoes e galpao que recebem eventos temporarios. O local pode estar regular, mas a montagem do evento pode criar risco novo — e esse risco nao esta coberto pelo AVCB do imovel.</p>
+      <p>Essa diferença e decisiva para shopping, hotel, igreja, escola, clube, centro de convenções e galpao que recebem eventos temporarios. O local pode estar regular, mas a montagem do evento pode criar risco novo — e esse risco não esta coberto pelo AVCB do imovel.</p>
 
       <h2>O que o AVCB olha</h2>
-      <p>O AVCB considera a edificacao no uso aprovado: rotas de fuga, extintores, hidrantes, alarme, iluminacao, sinalizacao, escadas, lotacao e demais sistemas previstos para aquele imovel. Ele nao necessariamente cobre um palco temporario, uma feira de stands ou uma area gastronomica instalada depois. O AVCB e a fotografia da edificacao em operacao normal — nao do evento que acontece dentro dela.</p>
+      <p>O AVCB considera a edificação no uso aprovado: rotas de fuga, extintores, hidrantes, alarme, iluminação, sinalização, escadas, lotação e demais sistemas previstos para aquele imovel. Ele não necessariamente cobre um palco temporário, uma feira de stands ou uma área gastronômica instalada depois. O AVCB e a fotografia da edificação em operação normal — não do evento que acontece dentro dela.</p>
 
       <h2>O que o PTOTEP olha</h2>
-      <p>O PTOTEP olha a interferencia do evento: onde o publico fica, como circula, onde sai em emergencia, quais estruturas foram montadas, se existe GLP, gerador, eletrica temporaria, cenografia, tendas, filas ou bloqueios de rota. O projeto conecta o que o evento monta com o que o local ja tem aprovado, e aponta o que precisa ser ajustado para que a montagem seja segura.</p>
+      <p>O PTOTEP olha a interferência do evento: onde o público fica, como circula, onde sai em emergência, quais estruturas foram montadas, se existe GLP, gerador, elétrica temporária, cenografia, tendas, filas ou bloqueios de rota. O projeto conecta o que o evento monta com o que o local já tem aprovado, e aponta o que precisa ser ajustado para que a montagem seja segura.</p>
 
       <h2>Exemplo pratico: shopping com feira</h2>
-      <p>Um shopping pode ter AVCB vigente com lotacao e sistemas aprovados para o uso de varejo. Mesmo assim, uma feira com stands no mall pode reduzir a largura de circulacao, bloquear visibilidade de sinalizacao, criar pontos eletricos temporarios e concentrar publico acima da rotina do local. Nesse caso, o risco nao e do shopping em operacao normal — e da ocupacao temporaria criada pela feira. O PTOTEP documenta e regulariza exatamente esse risco.</p>
+      <p>Um shopping pode ter AVCB vigente com lotação e sistemas aprovados para o uso de varejo. Mesmo assim, uma feira com stands no mall pode reduzir a largura de circulação, bloquear visibilidade de sinalização, criar pontos elétricos temporários e concentrar público acima da rotina do local. Nesse caso, o risco não e do shopping em operação normal — e da ocupação temporária criada pela feira. O PTOTEP documenta e regulariza exatamente esse risco.</p>
 
       <h2>Exemplo pratico: igreja com congresso</h2>
-      <p>Uma igreja com CLCB vigente pode receber o culto habitual sem problemas. Mas quando um congresso com palco, sistema de som profissional, transmissao ao vivo, catering e publico visitante de outras cidades transforma o templo em local de evento, a condicao de uso muda. Visitantes nao conhecem as saidas. O palco pode ocupar area critica. A carga eletrica temporaria exige responsabilidade tecnica. O PTOTEP trata esses pontos especificamente.</p>
+      <p>Uma igreja com CLCB vigente pode receber o culto habitual sem problemas. Mas quando um congresso com palco, sistema de som profissional, transmissão ao vivo, catering e público visitante de outras cidades transforma o templo em local de evento, a condição de uso muda. Visitantes não conhecem as saidas. O palco pode ocupar área critica. A carga elétrica temporária exige responsabilidade tecnica. O PTOTEP trata esses pontos especificamente.</p>
 
       <h2>Quando o AVCB do local ajuda</h2>
-      <p>O AVCB do local e importante porque mostra a base de seguranca existente — quais rotas, sistemas, hidrantes e extintores ja estao aprovados. Ele ajuda a entender o ponto de partida. Mas ele nao substitui a avaliacao do evento quando a montagem altera o uso normal da edificacao. Os dois documentos se complementam: o AVCB cobre o permanente, o PTOTEP cobre o temporario.</p>
+      <p>O AVCB do local e importante porque mostra a base de segurança existente — quais rotas, sistemas, hidrantes e extintores já estão aprovados. Ele ajuda a entender o ponto de partida. Mas ele não substitui a avaliação do evento quando a montagem altera o uso normal da edificacao. Os dois documentos se complementam: o AVCB cobre o permanente, o PTOTEP cobre o temporario.</p>
 
       <h2>Quais eventos geralmente precisam de PTOTEP</h2>
-      <p>Eventos que instalam estruturas temporarias (palco, tendas, stands, arquibancada), utilizam GLP ou gerador, aumentam significativamente a lotacao do local, ou alteram rotas de fuga e areas de circulacao tendem a precisar de PTOTEP. Isso inclui feiras, shows, congressos, festivais, exposicoes, food parks, eventos corporativos e eventos religiosos de grande porte.</p>
+      <p>Eventos que instalam estruturas temporárias (palco, tendas, stands, arquibancada), utilizam GLP ou gerador, aumentam significativamente a lotação do local, ou alteram rotas de fuga e áreas de circulação tendem a precisar de PTOTEP. Isso inclui feiras, shows, congressos, festivais, exposições, food parks, eventos corporativos e eventos religiosos de grande porte.</p>
 
       <h2>Como decidir qual caminho seguir</h2>
-      <p>A decisao deve considerar local, publico, montagem, estruturas, duracao, risco especifico e documentos disponiveis. Em alguns casos, o evento pode ser simples e nao exigir processo complexo. Em outros, tentar usar apenas o AVCB do local gera exigencia, atraso e inseguranca juridica — especialmente se o orgao fiscalizador constatar que a montagem nao estava coberta pelo documento existente.</p>
+      <p>A decisão deve considerar local, público, montagem, estruturas, duração, risco especifico e documentos disponiveis. Em alguns casos, o evento pode ser simples e não exigir processo complexo. Em outros, tentar usar apenas o AVCB do local gera exigência, atraso e insegurança jurídica — especialmente se o órgão fiscalizador constatar que a montagem não estava coberta pelo documento existente.</p>
 
-      <p>A DRD2 faz essa leitura de enquadramento antes de qualquer protocolo e orienta o caminho correto para cada tipo de evento. Para continuar, acesse a pagina de <a href="/diferenca-avcb-ptotep" class="text-primary font-bold underline">diferenca entre AVCB e PTOTEP</a> ou fale sobre o seu evento pela pagina de <a href="/ptotep" class="text-primary font-bold underline">PTOTEP</a>.</p>
+      <p>A DRD2 faz essa leitura de enquadramento antes de qualquer protocolo e orienta o caminho correto para cada tipo de evento. Para continuar, acesse a pagina de <a href="/diferenca-avcb-ptotep" class="text-primary font-bold underline">diferença entre AVCB e PTOTEP</a> ou fale sobre o seu evento pela pagina de <a href="/ptotep" class="text-primary font-bold underline">PTOTEP</a>.</p>
     `,
     faqs: [
-      { question: "Se o local tem AVCB, preciso de PTOTEP?", answer: "Pode precisar, se o evento alterar publico, layout, rotas, estruturas, sistemas temporarios ou risco de uso em relacao ao uso permanente aprovado pelo AVCB." },
-      { question: "PTOTEP e AVCB temporario?", answer: "Nao exatamente. O PTOTEP e um projeto para ocupacao temporaria em edificacao permanente, nao uma simples emissao de AVCB com prazo reduzido. Ele avalia o risco especifico do evento e documenta as medidas de seguranca adotadas." },
-      { question: "Quem deve pedir a analise tecnica?", answer: "Organizador, produtor, administradora do local ou responsavel pela montagem devem alinhar a analise tecnica antes do evento. Quanto antes a analise comecar, mais tempo existe para ajustar layout, coletar ARTs e regularizar a situacao sem urgencia." },
-      { question: "O PTOTEP substitui o AVCB do local?", answer: "Nao. O PTOTEP complementa o AVCB existente. O local precisa ter seu proprio AVCB ou CLCB vigente, e o PTOTEP trata apenas o que o evento temporario altera ou acrescenta naquele imovel." },
-      { question: "Quanto tempo antes do evento devo iniciar o PTOTEP?", answer: "O ideal e iniciar pelo menos 30 a 60 dias antes da data do evento, dependendo da complexidade. Congressos, feiras e shows com estruturas, GLP e grande publico exigem mais tempo para reunir ARTs de fornecedores, plantas e memoriais. Deixar para a ultima semana aumenta o risco de exigencia e cancelamento." }
+      { question: "Se o local tem AVCB, preciso de PTOTEP?", answer: "Pode precisar, se o evento alterar público, layout, rotas, estruturas, sistemas temporários ou risco de uso em relação ao uso permanente aprovado pelo AVCB." },
+      { question: "PTOTEP e AVCB temporário?", answer: "Não exatamente. O PTOTEP e um projeto para ocupação temporária em edificação permanente, não uma simples emissão de AVCB com prazo reduzido. Ele avalia o risco especifico do evento e documenta as medidas de segurança adotadas." },
+      { question: "Quem deve pedir a análise técnica?", answer: "Organizador, produtor, administradora do local ou responsável pela montagem devem alinhar a análise técnica antes do evento. Quanto antes a análise começar, mais tempo existe para ajustar layout, coletar ARTs e regularizar a situação sem urgencia." },
+      { question: "O PTOTEP substitui o AVCB do local?", answer: "Nao. O PTOTEP complementa o AVCB existente. O local precisa ter seu próprio AVCB ou CLCB vigente, e o PTOTEP trata apenas o que o evento temporário altera ou acrescenta naquele imovel." },
+      { question: "Quanto tempo antes do evento devo iniciar o PTOTEP?", answer: "O ideal e iniciar pelo menos 30 a 60 dias antes da data do evento, dependendo da complexidade. Congressos, feiras e shows com estruturas, GLP e grande público exigem mais tempo para reunir ARTs de fornecedores, plantas e memoriais. Deixar para a última semana aumenta o risco de exigência e cancelamento." }
     ]
   }
 ];
@@ -1070,7 +1070,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       
       <p>Ao longo de 15 anos regularizando creches junto ao <strong>CBPMESP</strong>, a DRD2 Engenharia acumulou mais de 500 processos aprovados para escolas de educação infantil em todo o Estado de São Paulo. Nesse tempo, vimos os mesmos erros se repetindo: processos protocolados no tipo errado, área real divergente do IPTU, brigada de incêndio ignorada até a véspera da vistoria, e proprietários que só descobriram o problema quando o Corpo de Bombeiros bateu na porta.</p>
       
-      <p>Este guia existe para que você não cometa esses erros. Vamos explicar, em linguagem direta, tudo o que sua creche precisa para obter o AVCB em São Paulo — sem retrabalho, sem Comunique-se e sem surpresas.</p>
+      <p>Este guia existe para que você não cometa esses erros. Vamos explicar, em linguagem direta, tudo o que sua creche precisa para obter o AVCB em São Paulo — sem retrabalho, sem surpresas.</p>
 
       <h2>O que é o AVCB e por que sua creche precisa dele</h2>
       <p>O Auto de Vistoria do Corpo de Bombeiros é o documento que comprova que uma edificação foi vistoriada pelo CBPMESP e atende a todos os requisitos mínimos de segurança contra incêndio e pânico exigidos pela legislação estadual.</p>

@@ -140,7 +140,7 @@ export default function Footer() {
             <h3 className="text-slate-100 font-black mb-6 uppercase tracking-wides border-b border-white/10 pb-2 text-sm flex items-center gap-2 italic">
                Operacional DRD2
             </h3>
-            <ul className="space-y-3 text-[12px] font-bold text-slate-400 uppercase tracking-widest break-all">
+            <ul className="space-y-3 text-[12px] font-bold text-slate-400 uppercase tracking-widest break-words">
               <li className="text-white bg-white/5 p-2 rounded-lg border border-white/10 inline-block mb-2">Rua Cel. José Eusébio, 95 — Casa 13, Higienópolis, São Paulo/SP — CEP 01239-030</li>
               <li>
                  <a href={`tel:+${process.env.NEXT_PUBLIC_WHATSAPP || "5511942232969"}`} className="hover:text-white transition-colors block py-1 border-b border-slate-800 text-primary">

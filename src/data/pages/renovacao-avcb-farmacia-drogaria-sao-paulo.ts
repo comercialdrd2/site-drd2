@@ -56,7 +56,7 @@ export const renovacaoAvcbFarmaciaContent = {
     {
       title: "Prazo de validade do AVCB para farmácias e drogarias",
       content: [
-        "O AVCB de farmácias e drogarias em São Paulo tem <strong>validade de 3 anos</strong>, conforme o Decreto Estadual nº 69.118/2024. Após o vencimento o estabelecimento entra em situação irregular perante o CBPMESP e a Vigilância Sanitária simultaneamente — com risco de embargo, interdição e lacre pelas duas esferas."
+        "O AVCB de farmácias e drogarias em São Paulo tem <strong>validade de 3 anos</strong> — a data de vencimento vem impressa no próprio certificado. Após o vencimento o estabelecimento entra em situação irregular perante o CBPMESP e a Vigilância Sanitária simultaneamente — com risco de embargo, interdição e lacre pelas duas esferas."
       ]
     }
   ],

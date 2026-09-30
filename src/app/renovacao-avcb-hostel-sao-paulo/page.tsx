@@ -65,7 +65,7 @@ export default function RenovacaoAVCBHostelPage() {
               Setor de Hospedagem — Renovação 2026
             </span>
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-black mb-6 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white drop-shadow-[0_5px_15px_rgba(0,0,0,0.5)]">RENOVAÇÃO DE AVCB</span>
+              <span className="text-white drop-shadow-[0_5px_15px_rgba(0,0,0,0.5)]">RENOVAÇÃO DE AVCB</span>{" "}
               <span className="text-red-600 not-italic mt-1 block drop-shadow-[0_10px_30px_rgba(0,0,0,0.8)]">
                 PARA HOSTEL EM SP
               </span>
@@ -112,7 +112,7 @@ export default function RenovacaoAVCBHostelPage() {
         ]}
         dark
       />
-      <TrustBar dark />
+      <TrustBar pagamento="avcb" dark />
 
       {/* ── H2 #1: POR QUE VENCE? ── */}
       <section className="py-24 bg-white">
