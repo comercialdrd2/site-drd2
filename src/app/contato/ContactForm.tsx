@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { generateBreadcrumbSchema } from "@/components/JsonLD";
 import { getLeadTrackingContext } from "@/lib/leadTracking";
+import { trackLeadSubmit } from "@/lib/analytics";
 
 type FormState = {
   name: string;
@@ -50,6 +51,8 @@ export default function ContactForm() {
         }),
       });
       if (!res.ok) throw new Error("Erro");
+      // GA4: o envio pelo /contato também conta como lead (antes só o LeadForm registrava).
+      trackLeadSubmit({ source: tracking.caminho, intent: form.service, occupation: form.type });
       setStatus("success");
     } catch {
       setStatus("error");
