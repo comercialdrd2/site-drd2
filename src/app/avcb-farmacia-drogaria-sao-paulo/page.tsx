@@ -35,7 +35,7 @@ export default function AVCBFarmaciaMasterPage() {
   const faqs = [
     {
       question: "Minha farmácia é pequena e de bairro. Precisa de AVCB?",
-      answer: "Todo comércio precisa de regularização. Para farmácias abaixo de 750m² e sem manipulação de risco, o processo geralmente é simplificado através do CLCB, que é mais rápido e barato, mas igualmente obrigatório."
+      answer: "Todo comércio precisa de regularização. Para farmácias sem manipulação de risco com até 750 m² (ou até 1.500 m² com sistema de hidrantes), o processo geralmente é simplificado através do CLCB, que é mais rápido e barato, mas igualmente obrigatório."
     },
     {
       question: "Estou com o CMVS travado por falta de AVCB. O protocolo serve?",
@@ -283,11 +283,6 @@ export default function AVCBFarmaciaMasterPage() {
 
       {/* ── PROVA SOCIAL ── */}
       <SocialProof
-        testimonial={{
-          text: "A Vigilância Sanitária travou nosso alvará porque precisávamos renovar o AVCB urgente. A DRD2 assumiu tudo: o laudo, a instalação dos extintores novos e o protocolo. Em poucas semanas estávamos com o CMVS regularizado de novo. Recomendo 100%.",
-          author: "Mariana Souza",
-          role: "Proprietária de Drogaria, Zona Leste",
-        }}
       />
 
       {/* ── O QUE A DRD2 ENTREGA ── */}

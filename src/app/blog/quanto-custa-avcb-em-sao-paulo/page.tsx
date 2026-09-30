@@ -81,7 +81,7 @@ export default function QuantocustaAVCBPost() {
     },
     {
       question: "Qual é o custo de manutenção depois de ter o AVCB?",
-      answer: "O AVCB tem validade de 1 a 5 anos conforme o tipo de ocupação. Após o vencimento, a renovação tem um custo de consultoria menor do que a primeira emissão, desde que os sistemas estejam em conformidade. Manter os equipamentos em dia ao longo da vigência é fundamental para evitar exigências surpresa na renovação."
+      answer: "O AVCB tem validade de 3 anos — a data de vencimento vem impressa no próprio certificado. Após o vencimento, a renovação tem um custo de consultoria menor do que a primeira emissão, desde que os sistemas estejam em conformidade. Manter os equipamentos em dia ao longo da vigência é fundamental para evitar exigências surpresa na renovação."
     },
     {
       question: "Quanto custa a renovação do AVCB?",
@@ -186,7 +186,7 @@ export default function QuantocustaAVCBPost() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-slate-50 p-6 rounded-2xl border-l-4 border-primary">
                     <h4 className="text-secondary uppercase text-sm mb-2">PTS (Processo Técnico Simplificado)</h4>
-                    <p className="text-xs text-gray-500 font-medium">Edificações de baixo risco, geralmente até 750 m². Processo mais ágil, com análise técnica simplificada e menor custo de adequação.</p>
+                    <p className="text-xs text-gray-500 font-medium">Edificações de baixo risco com até 750 m², ou até 1.500 m² com sistema de hidrantes. Processo mais ágil, com análise técnica simplificada e menor custo de adequação.</p>
                   </div>
                   <div className="bg-slate-50 p-6 rounded-2xl border-l-4 border-secondary">
                     <h4 className="text-secondary uppercase text-sm mb-2">Projeto Técnico (PT)</h4>

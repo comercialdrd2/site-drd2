@@ -198,11 +198,6 @@ export default function SprinklerIndustriaPage() {
       </section>
 
       <SocialProof
-        testimonial={{
-          text: "A DRD2 fez o levantamento completo da nossa planta, classificou cada setor e dimensionou o SPK com precisão. AVCB industrial aprovado na primeira vistoria, sem comunique-se. Recomendo sem hesitar.",
-          author: "Juliana Cardoso",
-          role: "Gerente HSE — Indústria Química, Santo André SP",
-        }}
       />
 
       {/* ── DOCUMENTAÇÃO ── */}

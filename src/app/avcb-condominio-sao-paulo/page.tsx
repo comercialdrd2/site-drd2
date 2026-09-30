@@ -142,7 +142,7 @@ export default function AVCBCondominioMasterPage() {
             <div className="md:col-span-4 bg-slate-950 p-8 rounded-[2.5rem] text-white shadow-xl sticky top-24">
               <h4 className="text-red-600 font-black text-xs uppercase tracking-widest mb-6 italic">Validade do AVCB:</h4>
               <p className="text-sm font-bold leading-relaxed uppercase italic mb-8">
-                Para condomínios residenciais em São Paulo, o AVCB tem validade de <span className="text-red-500">5 anos</span>.
+                Para condomínios residenciais em São Paulo, o AVCB tem validade de <span className="text-red-500">3 anos</span>.
               </p>
               <div className="space-y-4">
                  <div className="p-4 bg-white/5 rounded-2xl border border-white/10">
@@ -387,11 +387,6 @@ export default function AVCBCondominioMasterPage() {
 
       {/* ── PROVA SOCIAL ── */}
       <SocialProof
-        testimonial={{
-          text: "A DRD2 resolveu a regularização do nosso condomínio em tempo recorde. O Eng. Samuel esteve pessoalmente na vistoria e o AVCB saiu sem pendências. Recomendo a todos os síndicos.",
-          author: "Ricardo Oliveira",
-          role: "Síndico Profissional — Edifício Jardins SP",
-        }}
       />
 
       {/* ── FAQ CONDOMÍNIO — SCHEMA SYNC ── */}
@@ -406,7 +401,7 @@ export default function AVCBCondominioMasterPage() {
             {[
               {
                 question: "Qual a validade do AVCB para condomínio residencial?",
-                answer: "Em São Paulo, o AVCB para condomínios residenciais costuma ter validade de 5 anos. No entanto, se o condomínio possuir áreas comerciais integradas (uso misto), esse prazo pode ser reduzido para 3 anos."
+                answer: "Em São Paulo, o AVCB de condomínio tem validade de 3 anos, seja residencial ou de uso misto. A data de vencimento vem impressa no próprio certificado."
               },
               {
                 question: "O seguro cobre incêndio se o AVCB estiver vencido?",

@@ -198,11 +198,6 @@ export default function SprinklerCondominioPage() {
       </section>
 
       <SocialProof
-        testimonial={{
-          text: "A DRD2 fez a revisão completa do sistema de sprinklers do nosso edifício. Trocaram os bicos pintados, fizeram a manutenção da VGA e entregaram toda a documentação para renovar o AVCB. Aprovado na primeira vistoria.",
-          author: "Cláudio Teixeira",
-          role: "Síndico — Edifício Comercial, Itaim Bibi SP",
-        }}
       />
 
       {/* ── DOCUMENTAÇÃO ── */}

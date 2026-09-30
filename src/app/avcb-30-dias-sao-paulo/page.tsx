@@ -11,7 +11,7 @@ const data: UniversalPageData = {
   h1Line1: "AVCB em 30 Dias",
   h1Line2: "em São Paulo — Quando é Possível?",
   heroBg: "/images/blog/fire_safety_equipment_premium.webp",
-  introP1: "AVCB em 30 dias em São Paulo é possível — mas depende do tipo de edificação, do estado dos sistemas instalados e da situação documental. Para imóveis pequenos e de baixo risco (CLCB, até 750m²), 30 dias é um prazo real. Para AVCB completo com sistemas conformes e documentação pronta, 30 dias é o mínimo possível em condições ideais.",
+  introP1: "AVCB em 30 dias em São Paulo é possível — mas depende do tipo de edificação, do estado dos sistemas instalados e da situação documental. Para imóveis pequenos e de baixo risco (CLCB, até 750 m² sem hidrantes ou até 1.500 m² com hidrantes), 30 dias é um prazo real. Para AVCB completo com sistemas conformes e documentação pronta, 30 dias é o mínimo possível em condições ideais.",
   introP2: "O que define o prazo não é a DRD2 — é a fila do CBPMESP e o estado do seu imóvel. A DRD2 protocola em até 10 dias úteis após o diagnóstico quando os sistemas estão conformes. A partir daí, o prazo de análise do Corpo de Bombeiros começa. Com edificação e documentação perfeitas, fechamos o processo em 30 a 45 dias.",
   breadcrumbs: [
     { label: "Home", href: "/" },
@@ -21,7 +21,7 @@ const data: UniversalPageData = {
   occupationType: "AVCB urgente em SP",
   h2_principal: {
     heading: "Quando o AVCB em 30 dias é possível em São Paulo",
-    body: "Três condições precisam ser atendidas para que o processo feche em 30 dias: o imóvel deve ser de baixo risco e enquadrar no CLCB (geralmente abaixo de 750m²), ou ter AVCB com todos os sistemas instalados e em dia (extintor, alarme, hidrante, brigada, laudo de gás); a documentação deve estar completa (ART, planta, IPTU, laudo elétrico); e o protocolo deve ocorrer fora dos picos de demanda do CBPMESP (janeiro, fevereiro e julho).",
+    body: "Três condições precisam ser atendidas para que o processo feche em 30 dias: o imóvel deve ser de baixo risco e enquadrar no CLCB (até 750 m² sem hidrantes, ou até 1.500 m² com sistema de hidrantes), ou ter AVCB com todos os sistemas instalados e em dia (extintor, alarme, hidrante, brigada, laudo de gás); a documentação deve estar completa (ART, planta, IPTU, laudo elétrico); e o protocolo deve ocorrer fora dos picos de demanda do CBPMESP (janeiro, fevereiro e julho).",
     body2: "Para edificações que precisam de adequação antes do protocolo — sistema de alarme sem manutenção, extintor com carga vencida, porta corta-fogo danificada — o prazo de 30 dias não é realista. Cada adequação acrescenta de 7 a 30 dias à fase pré-protocolo. A DRD2 informa o prazo exato na vistoria técnica gratuita, antes de qualquer compromisso.",
   },
   h2_riscos: {
@@ -89,7 +89,7 @@ const data: UniversalPageData = {
     body1: "Os prazos abaixo são estimativas para edificações com sistemas conformes e documentação organizada. Esses são os menores prazos possíveis — o prazo exato depende da situação específica do imóvel.",
     alerta: "Empresa que promete AVCB em 5 ou 10 dias não existe. O CBPMESP tem fila de análise. O que a DRD2 garante é protocolo rápido — o prazo de análise é do órgão público.",
     itens: [
-      { titulo: "CLCB (até 750m², baixo risco)", desc: "20 a 35 dias — o processo mais ágil do CBPMESP. Análise simplificada e sem vistoria presencial em muitos casos." },
+      { titulo: "CLCB (baixo risco, até 1.500 m²)", desc: "20 a 35 dias — o processo mais ágil do CBPMESP. Análise simplificada e sem vistoria presencial em muitos casos." },
       { titulo: "Restaurante / Bar (conforme)", desc: "30 a 45 dias com sistemas em dia e laudo de gás válido. Sem adequações pendentes." },
       { titulo: "Condomínio residencial médio porte", desc: "45 a 60 dias com brigada e sistemas conformes. Vistoria presencial obrigatória." },
       { titulo: "Escola / Academia (conforme)", desc: "40 a 55 dias com brigada e rotas de saída regularizadas." },
@@ -116,7 +116,7 @@ const data: UniversalPageData = {
   faqs: [
     {
       question: "É possível tirar o AVCB em 30 dias em São Paulo?",
-      answer: "Sim, para imóveis enquadrados no CLCB (geralmente até 750m² e baixo risco) e para edificações com todos os sistemas conformes e documentação pronta. Para AVCB completo, 30 dias é o prazo mínimo em condições ideais — sistemas em dia, documentação completa e protocolo fora dos picos de demanda. A DRD2 informa o prazo real na vistoria gratuita.",
+      answer: "Sim, para imóveis enquadrados no CLCB (baixo risco, até 750 m² sem hidrantes ou até 1.500 m² com hidrantes) e para edificações com todos os sistemas conformes e documentação pronta. Para AVCB completo, 30 dias é o prazo mínimo em condições ideais — sistemas em dia, documentação completa e protocolo fora dos picos de demanda. A DRD2 informa o prazo real na vistoria gratuita.",
     },
     {
       question: "Quanto tempo a DRD2 leva para protocolar um processo urgente?",

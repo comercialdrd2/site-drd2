@@ -183,11 +183,6 @@ export default function ExpansionLandingPage() {
       </div>
 
       <SocialProof
-        testimonial={{
-          text: "Conseguimos o AVCB do nosso prédio na Glicério após 5 anos de tentativas frustradas com outras empresas. A DRD2 soube lidar com a idade do imóvel.",
-          author: "Felipe Rossi",
-          role: "Síndico Predial — Centro Campinas",
-        }}
       />
 
       <ExpansionAuthorityBlock slug={_slug} />

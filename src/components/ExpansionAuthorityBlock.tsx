@@ -151,9 +151,9 @@ export default function ExpansionAuthorityBlock({ slug }: { slug: string }) {
                 </thead>
                 <tbody className="divide-y divide-slate-200">
                   <tr>
-                    <td className="p-4 font-bold text-slate-900">Ate 750 m2 e baixo risco</td>
+                    <td className="p-4 font-bold text-slate-900">Até 1.500 m² e baixo risco</td>
                     <td className="p-4 text-slate-700">Enquadramento incorreto, extintores vencidos, sinalização ausente e documentos divergentes.</td>
-                    <td className="p-4 text-slate-700">Validar possibilidade de CLCB, corrigir layout e reunir ARTs antes do envio.</td>
+                    <td className="p-4 text-slate-700">Validar possibilidade de CLCB (acima de 750 m², com sistema de hidrantes), corrigir layout e reunir ARTs antes do envio.</td>
                   </tr>
                   <tr>
                     <td className="p-4 font-bold text-slate-900">750 a 2.500 m2</td>

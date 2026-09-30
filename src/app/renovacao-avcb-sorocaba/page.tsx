@@ -228,11 +228,6 @@ export default function RenovacaoAvcbSorocabaPage() {
       </section>
 
       <SocialProof
-        testimonial={{
-          text: "Nossa indústria têxtil em Sorocaba estava com AVCB vencido e correndo risco de interdição. A DRD2 agiu rápido — diagnóstico no dia seguinte, processo iniciado em 48h. AVCB renovado sem parar a produção.",
-          author: "Cliente DRD2 Engenharia",
-          role: "Diretor Industrial — Sorocaba, SP",
-        }}
       />
 
       <section className="py-24 bg-slate-50">

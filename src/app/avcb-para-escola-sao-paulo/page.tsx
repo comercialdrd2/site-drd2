@@ -363,11 +363,6 @@ export default function AVCBEscolaMasterPage() {
 
       {/* ── PROVA SOCIAL ── */}
       <SocialProof
-        testimonial={{
-          text: "A DRD2 regularizou nossa escola particular sem interromper nenhuma aula. Profissionalismo total. O AVCB foi aprovado na primeira vistoria do Corpo de Bombeiros.",
-          author: "Elaine Cardoso",
-          role: "Diretora — Escola São Francisco de Assis SP",
-        }}
       />
 
       {/* ── FAQ ── */}

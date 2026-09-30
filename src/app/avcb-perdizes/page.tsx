@@ -94,7 +94,7 @@ const data: UniversalPageData = {
   },
   "h2_quando": {
     "heading": "Vencimento do AVCB em Prédios Residenciais",
-    "body1": "Condomínios residenciais em São Paulo possuem AVCB com validade de até 5 anos (ou 3, dependendo da classificação antiga). Deixar vencer significa expor o patrimônio a seguradoras que negarão cobertura em caso de curto-circuito.",
+    "body1": "Condomínios residenciais em São Paulo possuem AVCB com validade de 3 anos — a data de vencimento vem impressa no próprio certificado. Deixar vencer significa expor o patrimônio a seguradoras que negarão cobertura em caso de curto-circuito.",
     "body2": "Recomendamos acionar a DRD2 Engenharia 90 dias antes do vencimento do seu certificado atual para garantir o retrofit de extintores e mangueiras com calma e orçamentos justos."
   },
   "h2_escolher": {

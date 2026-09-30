@@ -120,7 +120,7 @@ const data: UniversalPageData = {
     },
     {
       question: "Posso contratar AVCB com despachante em vez de engenheiro?",
-      answer: "Para edificações que se enquadram no CLCB (geralmente abaixo de 750m² e de baixo risco), é possível protocolar sem engenheiro. Para AVCB completo, o engenheiro habilitado e a ART são obrigatórios. Despachante sem engenheiro não pode assinar a documentação técnica.",
+      answer: "Para edificações de baixo risco que se enquadram no CLCB sem sistema de hidrantes (até 750 m²), é possível protocolar sem engenheiro. Para AVCB completo, o engenheiro habilitado e a ART são obrigatórios. Despachante sem engenheiro não pode assinar a documentação técnica.",
     },
     {
       question: "Empresa de AVCB pode garantir aprovação?",

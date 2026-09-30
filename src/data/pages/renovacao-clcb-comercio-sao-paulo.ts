@@ -14,7 +14,7 @@ export const renovacaoClcbComercioContent = {
     {
       title: "Por que o CLCB de comércios precisa ser renovado no prazo",
       content: [
-        "O CLCB é o certificado exigido para comércios de menor porte — em geral com área até 750 m² e baixo risco de incêndio. Quando vence, o estabelecimento perde sua regularidade perante o Corpo de Bombeiros e fica sujeito a autuação imediata em qualquer fiscalização, sem aviso prévio.",
+        "O CLCB é o certificado exigido para comércios de menor porte — de baixo risco de incêndio, com até 750 m², ou até 1.500 m² quando há sistema de hidrantes. Quando vence, o estabelecimento perde sua regularidade perante o Corpo de Bombeiros e fica sujeito a autuação imediata em qualquer fiscalização, sem aviso prévio.",
         "Para o comércio, o CLCB vencido impacta diretamente o Alvará de Funcionamento Municipal: a Prefeitura de São Paulo pode cancelar o alvará mediante comunicação do Corpo de Bombeiros — o que obriga o estabelecimento a fechar as portas até a regularização.",
         "Além disso, comércios em shoppings, galerias e condomínios comerciais podem ser notificados pelo síndico ou pela administração do empreendimento a apresentar o CLCB válido. Em caso de sinistro com CLCB vencido, o responsável pelo estabelecimento responde civil e criminalmente pela negligência.",
         "O prazo ideal para iniciar a renovação é de 45 a 60 dias antes do vencimento — tempo suficiente para o diagnóstico técnico, execução das adequações simples (recarga de extintores, reposição de sinalização) e protocolo junto ao CBPMESP.",
@@ -26,7 +26,7 @@ export const renovacaoClcbComercioContent = {
         "Extintores com carga vencida ou lacre violado: é a causa mais comum de impedimento na renovação. Todo extintor precisa estar com a recarga dentro do prazo e o lacre íntegro. A DRD2 providencia recarga e manutenção dentro do escopo do serviço.",
         "Sinalização desgastada ou ausente: placas de saída de emergência, rota de fuga e localização dos extintores precisam estar visíveis e em bom estado. Sinalização desbotada ou ausente gera exigência imediata.",
         "Iluminação de emergência com defeito: blocos autônomos de iluminação de emergência devem funcionar corretamente e estar fixados nos pontos definidos no processo anterior. Defeito em qualquer bloco é apontado em vistoria.",
-        "Ampliação de área não comunicada: comércios que ampliaram o espaço sem comunicar ao CBPMESP podem ter ultrapassado o limite de 750 m² e precisar migrar para AVCB. A DRD2 avalia o enquadramento correto antes de iniciar qualquer processo.",
+        "Ampliação de área não comunicada: comércios que ampliaram o espaço sem comunicar ao CBPMESP podem ter passado de 750 m² sem sistema de hidrantes, ou de 1.500 m², e precisar migrar para AVCB. A DRD2 avalia o enquadramento correto antes de iniciar qualquer processo.",
         "Mudança de uso ou de atividade: loja que mudou de ramo (ex: virou depósito ou passou a vender produtos inflamáveis) pode ter saído do enquadramento CLCB. O diagnóstico prévio evita o retrabalho e o custo de um processo iniciado incorretamente.",
       ],
     },

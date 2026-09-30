@@ -198,11 +198,6 @@ export default function HidrantesCondominioPage() {
       </section>
 
       <SocialProof
-        testimonial={{
-          text: "Contratamos a DRD2 para manutenção anual dos hidrantes do condomínio. Eles fazem o teste de mangueiras, verificam a bomba e entregam toda a documentação para renovar o AVCB. Trabalho rápido e extremamente profissional.",
-          author: "Adriana Moraes",
-          role: "Síndica — Condomínio Residencial, Moema SP",
-        }}
       />
 
       {/* ── DOCUMENTAÇÃO ── */}

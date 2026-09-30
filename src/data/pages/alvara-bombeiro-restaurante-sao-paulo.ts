@@ -41,8 +41,8 @@ export const alvaraBombeiroContent = {
     {
       title: "AVCB ou CLCB — qual o restaurante precisa em São Paulo",
       content: [
-        "A definição entre AVCB (Auto de Vistoria do Corpo de Bombeiros) e CLCB (Certificado de Licença do Corpo de Bombeiros) depende da área total do restaurante e de outras características técnicas. Restaurantes abaixo de 750m² com baixo risco podem se enquadrar no CLCB — processo mais simples, mais barato e mais rápido.",
-        "Restaurantes acima de 750m² ou com características de risco elevado (GLP em grande quantidade, câmaras frigoríficas, grande lotação) precisam de AVCB, que pode exigir projeto técnico completo com ART. A DRD2 define gratuitamente o enquadramento correto na vistoria.",
+        "A definição entre AVCB (Auto de Vistoria do Corpo de Bombeiros) e CLCB (Certificado de Licença do Corpo de Bombeiros) depende da área total do restaurante e de outras características técnicas. Restaurantes de baixo risco com até 750 m² (ou até 1.500 m² com sistema de hidrantes) podem se enquadrar no CLCB — processo mais simples, mais barato e mais rápido.",
+        "Restaurantes acima de 1.500 m², acima de 750 m² sem sistema de hidrantes, ou com características de risco elevado (GLP em grande quantidade, câmaras frigoríficas, grande lotação) precisam de AVCB, que pode exigir projeto técnico completo com ART. A DRD2 define gratuitamente o enquadramento correto na vistoria.",
         "Para restaurantes com espaço para eventos e capacidade acima de determinado número de pessoas, o enquadramento pode mudar para Grupo F (reunião de público), com exigências específicas de saídas de emergência e controle de lotação.",
       ],
     },
@@ -64,7 +64,7 @@ export const alvaraBombeiroContent = {
   faq: [
     {
       question: "Restaurante pequeno de 80m² precisa de AVCB?",
-      answer: "Restaurantes pequenos abaixo de 750m² geralmente se enquadram no CLCB, que é um processo simplificado. Mas isso depende também das características do imóvel e do tipo de cozinha. A DRD2 define gratuitamente o enquadramento correto — e o CLCB também é obrigatório.",
+      answer: "Restaurantes de baixo risco com até 750 m² (ou até 1.500 m² com sistema de hidrantes) geralmente se enquadram no CLCB, que é um processo simplificado. Mas isso depende também das características do imóvel e do tipo de cozinha. A DRD2 define gratuitamente o enquadramento correto — e o CLCB também é obrigatório.",
     },
     {
       question: "Posso funcionar com o protocolo enquanto o AVCB tramita?",

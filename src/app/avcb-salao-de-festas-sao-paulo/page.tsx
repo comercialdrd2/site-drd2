@@ -389,11 +389,6 @@ export default function AVCBSalaoFestasPage() {
       </section>
 
       <SocialProof
-        testimonial={{
-          text: "A DRD2 regularizou nosso buffet em menos de 60 dias. Processo sem burocracia, acompanhamento constante e AVCB emitido antes do evento de inauguração.",
-          author: "Buffet Celebrations",
-          role: "Proprietário — Vila Olímpia, SP",
-        }}
       />
 
       {/* ── FAQ ── */}

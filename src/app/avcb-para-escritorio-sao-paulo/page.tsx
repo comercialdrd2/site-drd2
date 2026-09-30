@@ -309,11 +309,6 @@ export default function AVCBEscritorioMasterPage() {
 
       {/* ── PROVA SOCIAL ── */}
       <SocialProof
-        testimonial={{
-          text: "Assumimos uma laje corporativa de 800m² e o AVCB da nossa unidade bloqueou a renovação do alvará. A DRD2 atualizou o projeto do nosso layout open space, integrou a detecção de fumaça ao prédio e aprovou o AVCB sem conflito com o síndico. Equipe muito técnica e transparente.",
-          author: "Rodrigo Farias",
-          role: "Diretor de Operações — Escritório de Advocacia, Av. Paulista",
-        }}
       />
 
       {/* ── O QUE A DRD2 ENTREGA ── */}

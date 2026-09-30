@@ -435,7 +435,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>Antes de iniciar qualquer processo, é necessário entender qual documento se aplica à sua situação. Muita empresa contrata errado e perde tempo.</p>
       <p><strong>AVCB (Auto de Vistoria do Corpo de Bombeiros):</strong> é o documento completo, exigido para edificações que requerem análise de projeto técnico, vistoria presencial e aprovação formal pelo CBPMESP. Aplicável à maioria dos galpões industriais com área relevante, carga de incêndio média a alta ou sistemas de combate a incêndio instalados.</p>
       <p><strong>CLCB (Certificado de Licença do Corpo de Bombeiros):</strong> modalidade simplificada, aplicável a ocupações de menor risco e porte reduzido, com processo administrativo menos complexo e sem necessidade de projeto completo em todos os casos.</p>
-      <p>A IT-01/CBPMESP define os critérios de enquadramento. Na prática, a maioria dos galpões industriais em São Paulo — especialmente os que operam acima de 750 m² ou com carga de incêndio elevada — exige AVCB completo. Qualquer afirmação diferente sem análise técnica prévia é irresponsável.</p>
+      <p>A IT-01/CBPMESP define os critérios de enquadramento. Na prática, a maioria dos galpões industriais em São Paulo — especialmente os que operam acima de 1.500 m² ou com carga de incêndio elevada — exige AVCB completo. Entre 751 e 1.500 m², o CLCB só é possível com sistema de hidrantes, entre outras exigências. Qualquer afirmação diferente sem análise técnica prévia é irresponsável.</p>
       <p>Se você não sabe qual se aplica ao seu galpão, o caminho correto é uma vistoria técnica prévia com engenheiro registrado no CREA-SP.</p>
 
       <h2>Como tirar o AVCB para galpão industrial — o processo real, etapa por etapa</h2>
@@ -526,7 +526,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       { question: "Galpão industrial é obrigado a ter AVCB em São Paulo?", answer: "Sim. A obrigatoriedade está estabelecida no Decreto Estadual nº 69.118/2024 e regulamentada pelas Instruções Técnicas do CBPMESP. Galpões enquadrados nos Grupos I (Depósitos) e J (Industrial), conforme a IT-02/CBPMESP, estão sujeitos à obrigatoriedade independentemente do porte da empresa que o ocupa. O que determina a exigência é a classificação da edificação, não a atividade do locatário." },
       { question: "O que acontece se o galpão for fiscalizado sem AVCB?", answer: "A fiscalização do CBPMESP pode resultar em auto de infração, notificação para regularização com prazo determinado, interdição parcial ou total da atividade e comunicação ao órgão municipal responsável pelo alvará de funcionamento. Em caso de sinistro com vítimas ou danos a terceiros, a ausência de AVCB agrava significativamente a responsabilidade civil e criminal do proprietário e do responsável legal pela operação." },
       { question: "Qual o prazo real para aprovação do AVCB no CBPMESP?", answer: "Em processos bem instruídos — projeto completo, ART emitida, adequações executadas antes do protocolo — o prazo costuma variar entre 60 e 120 dias. Processos com documentação incompleta ou projetos com inconsistências técnicas podem ultrapassar 8 a 12 meses devido a Comunique-se e reprotocolos. A qualidade técnica da instrução processual é o principal fator de controle de prazo." },
-      { question: "Qual a diferença entre AVCB e CLCB para galpões?", answer: "O AVCB é o documento completo, exigido para edificações com maior complexidade, área ou risco. O CLCB é a modalidade simplificada, aplicável a ocupações de menor risco e porte reduzido. Para a maioria dos galpões industriais em São Paulo — especialmente acima de 750 m² ou com carga de incêndio elevada — o AVCB completo é o documento aplicável. O enquadramento correto depende de análise técnica prévia conforme a IT-01 e IT-02/CBPMESP." },
+      { question: "Qual a diferença entre AVCB e CLCB para galpões?", answer: "O AVCB é o documento completo, exigido para edificações com maior complexidade, área ou risco. O CLCB é a modalidade simplificada, aplicável a ocupações de menor risco e porte reduzido. Para a maioria dos galpões industriais em São Paulo — especialmente acima de 1.500 m² ou com carga de incêndio elevada — o AVCB completo é o documento aplicável. Entre 751 e 1.500 m², o CLCB só é possível com sistema de hidrantes, entre outras exigências. O enquadramento correto depende de análise técnica prévia conforme a IT-01 e IT-02/CBPMESP." },
       { question: "Quem pode assinar o projeto de segurança contra incêndio?", answer: "O projeto deve ser elaborado e assinado por engenheiro registrado no CREA-SP, com emissão de ART (Anotação de Responsabilidade Técnica). O CBPMESP não aceita projetos sem ART. Despachantes, técnicos de segurança e empresas de instalação não têm habilitação legal para assinar projetos — apenas engenheiros com registro ativo no conselho regional." },
       { question: "Quanto custa tirar ou renovar o AVCB de um galpão industrial em SP?", answer: "O custo varia conforme a área do galpão, o grupo de ocupação, o estado atual dos sistemas de prevenção e o escopo de adequações necessárias. Projetos para galpões menores e já adequados têm custo significativamente diferente de processos que exigem instalação de sistemas completos de hidrante, sprinkler e controle de fumaça. Qualquer orçamento sério depende de diagnóstico técnico prévio. Desconfie de valores fechados passados sem vistoria." }
     ]
@@ -885,7 +885,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>Essa é a pergunta que mais preocupa — e com razão.</p>
       <p>O síndico é o representante legal do condomínio e, como tal, responde pessoalmente pela regularidade dos sistemas de segurança contra incêndio. Isso significa que, em caso de sinistro com vítimas em um condomínio com sistema irregular ou vencido, o síndico pode responder civil e criminalmente pelo ocorrido.</p>
       <p>Além disso, o condomínio sem AVCB está sujeito a multas que podem ultrapassar <strong>R$ 310 mil</strong>, calculadas com base na UFESP (Unidade Fiscal do Estado de São Paulo) e reajustadas anualmente.</p>
-      <p>O AVCB residencial em São Paulo deve ser renovado a cada 5 anos. Se o processo de renovação não for iniciado com antecedência, o condomínio pode ficar com o documento vencido — especialmente porque o prazo de aprovação junto ao CBPMESP varia.</p>
+      <p>O AVCB de condomínio residencial em São Paulo tem validade de 3 anos. Se o processo de renovação não for iniciado com antecedência, o condomínio pode ficar com o documento vencido — especialmente porque o prazo de aprovação junto ao CBPMESP varia.</p>
 
       <h2>O que compõe um sistema de alarme de incêndio adequado para condomínios?</h2>
       <p>Um sistema completo e aprovável pelo CBPMESP, conforme a IT-19/2025 e a NBR 17240, é composto por:</p>
@@ -918,7 +918,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       { question: "O alarme de incêndio é obrigatório para condomínios residenciais em São Paulo?", answer: "Sim. Conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP, o sistema de detecção e alarme de incêndio é exigido para condomínios residenciais a partir de determinadas faixas de área e altura. Sua aprovação é condição obrigatória para emissão e renovação do AVCB." },
       { question: "O que é a IT-19/2025 do CBPMESP?", answer: "A IT-19/2025 é a Instrução Técnica nº 19 do Corpo de Bombeiros de São Paulo, atualizada em março de 2025 (Portaria CCB-003/800/25). Ela define os requisitos mínimos para o dimensionamento, instalação e aprovação de sistemas de detecção e alarme de incêndio no Estado de São Paulo." },
       { question: "O síndico pode ser multado por falta de alarme de incêndio no condomínio?", answer: "Sim. O síndico é o responsável legal pela regularidade do AVCB. Condomínios sem o documento em dia podem receber multas superiores a R$ 310 mil, além de o síndico responder civil e criminalmente por sinistros ocorridos em edificação irregular." },
-      { question: "De quanto em quanto tempo o AVCB de condomínio residencial deve ser renovado em SP?", answer: "O AVCB de condomínio residencial em São Paulo deve ser renovado a cada 5 anos. Para condomínios comerciais, o prazo é de 3 anos." },
+      { question: "De quanto em quanto tempo o AVCB de condomínio residencial deve ser renovado em SP?", answer: "O AVCB de condomínio em São Paulo, residencial ou comercial, tem validade de 3 anos. A data de vencimento vem impressa no próprio certificado." },
       { question: "Quanto tempo leva para aprovar o alarme de incêndio no Corpo de Corpo de Bombeiros de São Paulo?", answer: "O prazo varia conforme a complexidade da edificação e o volume de processos no CBPMESP. Em média, o processo pode levar de 30 a 120 dias. Recomenda-se iniciar o processo com pelo menos 6 meses de antecedência em relação ao vencimento do AVCB." }
     ]
   },
@@ -965,7 +965,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       </div>
     `,
     faqs: [
-      { question: "Qual a validade do AVCB para condomínios residenciais?", answer: "Em São Paulo, a validade padrão é de 5 anos para condomínios exclusivamente residenciais. Para prédios de uso misto (comércio no térreo) ou comerciais, a validade é de 3 anos." },
+      { question: "Qual a validade do AVCB para condomínios residenciais?", answer: "Em São Paulo, o AVCB de condomínio tem validade de 3 anos, seja residencial, de uso misto ou comercial. A data de vencimento vem impressa no próprio certificado." },
       { question: "O que acontece se o seguro do prédio vencer com o AVCB irregular?", answer: "Na verdade, se o AVCB vencer, o seguro já está em risco. Em caso de sinistro, a seguradora solicita o AVCB vigente no dia do evento. Se estiver vencido, ela tem base legal para negar o pagamento." },
       { question: "Zelador pode ser o único brigadista do prédio?", answer: "Não. A IT-17 exige um número mínimo de brigadistas baseado na população fixa do prédio. Geralmente envolve toda a equipe operativa (portaria/limpeza) e representantes de cada bloco/andar." }
     ]
@@ -2653,12 +2653,12 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>Este guia técnico apresenta as 5 perguntas oficiais do CBPMESP que definem qual certificado se aplica à sua edificação, baseadas na Instrução Técnica IT-01 e no Decreto 69.118/2024 atualizado em 2025/2026.</p>
 
       <h2>1. Qual a área construída total da edificação?</h2>
-      <p>Essa é a primeira e mais decisiva pergunta. O <strong>CLCB</strong> (Certificado de Licença do Corpo de Bombeiros) é exclusivo para edificações com até <strong>750 m² de área construída total</strong>. Acima disso, automaticamente migra para AVCB.</p>
+      <p>Essa é a primeira e mais decisiva pergunta. O <strong>CLCB</strong> (Certificado de Licença do Corpo de Bombeiros) vale para edificações com até <strong>750 m² de área construída total</strong> sem sistema de hidrantes, ou até <strong>1.500 m²</strong> com sistema de hidrantes instalado, entre outras exigências. Acima de 1.500 m², o caminho é o AVCB.</p>
       <p>Importante: o cálculo considera a área construída total, não só a área útil. Isso inclui escadas, depósitos, sanitários, áreas técnicas e qualquer cobertura. Use o IPTU ou a planta arquitetônica para confirmar.</p>
       <p>Edificações em prédios comerciais devem considerar apenas a unidade individual — não a soma do prédio inteiro. Cada unidade com alvará próprio tem enquadramento independente.</p>
 
       <h2>2. Qual o grupo de ocupação conforme a IT-02?</h2>
-      <p>A IT-02 classifica todas as edificações em grupos de risco. Alguns grupos <strong>nunca</strong> se enquadram em CLCB, mesmo abaixo de 750 m²:</p>
+      <p>A IT-02 classifica todas as edificações em grupos de risco. Alguns grupos <strong>nunca</strong> se enquadram em CLCB, mesmo em área pequena:</p>
       <ul>
         <li><strong>Grupo H-3 (hospitais)</strong>: AVCB obrigatório por causa de pacientes acamados</li>
         <li><strong>Grupo B (hotéis, motéis, pensões)</strong>: AVCB obrigatório por causa de hóspedes dormindo</li>
@@ -2676,9 +2676,9 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>Restaurantes com salão para 80-100 pessoas, salões de festas pequenos e igrejas com público modesto costumam ainda caber em CLCB. Casas noturnas, bares com show e templos grandes vão direto para AVCB.</p>
 
       <h2>5. A edificação tem sistemas técnicos exigidos por norma?</h2>
-      <p>Algumas exigências automaticamente puxam para AVCB porque o CLCB não cobre sistemas técnicos complexos:</p>
+      <p>Algumas exigências puxam para AVCB porque o CLCB não cobre sistemas técnicos complexos. O sistema de hidrantes é a exceção: com ele instalado, o CLCB vale até 1.500 m².</p>
       <ul>
-        <li>Hidrante interno obrigatório (geralmente acima de 750 m² ou carga alta)</li>
+        <li>Área acima de 1.500 m², ou carga de incêndio alta</li>
         <li>Sprinkler (chuveiro automático) — exigência específica por área/altura</li>
         <li>Sistema de detecção e alarme com central — alguns casos exigem</li>
         <li>Escada pressurizada ou enclausurada</li>
@@ -2687,35 +2687,35 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>Se a edificação tem qualquer um desses sistemas instalados ou exigidos por norma, o caminho correto é AVCB — o CLCB não documenta esses sistemas.</p>
 
       <h2>Conclusão prática</h2>
-      <p>Se você respondeu "sim" à elegibilidade nas 5 perguntas (até 750 m², grupo permitido, até 2 pavimentos, até 100 pessoas, sem sistemas complexos), seu caminho mais rápido e econômico é o <strong>CLCB</strong>. Em São Paulo, o processo leva de 15 a 45 dias, sem vistoria física obrigatória.</p>
+      <p>Se você respondeu "sim" à elegibilidade nas 5 perguntas (até 750 m², ou até 1.500 m² com sistema de hidrantes; grupo permitido; até 2 pavimentos; até 100 pessoas; sem sistemas complexos), seu caminho mais rápido e econômico é o <strong>CLCB</strong>. Em São Paulo, o processo leva de 15 a 45 dias, sem vistoria física obrigatória.</p>
       <p>Se algum dos critérios falhou, é AVCB — processo mais robusto, com projeto técnico, ART, vistoria física e prazo de 60 a 180 dias dependendo do porte.</p>
       <p>A DRD2 Engenharia faz o diagnóstico definitivo gratuitamente para qualquer estabelecimento em São Paulo e Grande SP. <a href="/avcb-ou-clcb-qual-preciso" class="text-primary font-bold underline">Use nossa calculadora interativa</a> ou fale direto no WhatsApp.</p>
     `,
     faqs: [
-      { question: "Posso usar CLCB se minha edificação tem 800 m²?", answer: "Não. O limite legal do CLCB é 750 m² de área construída total. A partir de 751 m² o enquadramento é obrigatoriamente AVCB. A DRD2 confirma a área no diagnóstico gratuito comparando IPTU e levantamento físico." },
+      { question: "Posso usar CLCB se minha edificação tem 800 m²?", answer: "Pode, desde que a edificação tenha sistema de hidrantes instalado, entre outras exigências. Sem hidrantes, o CLCB vale até 750 m². Acima de 1.500 m², o caminho é o AVCB. A DRD2 confirma a área no diagnóstico gratuito comparando IPTU e levantamento físico." },
       { question: "Hotel de 200 m² pode CLCB?", answer: "Não. Hotéis, pousadas, motéis e hostels são grupo B na IT-02 e exigem AVCB independente da área, por causa de hóspedes dormindo (risco elevado em incêndio noturno)." },
-      { question: "Restaurante com 60 lugares precisa de AVCB ou CLCB?", answer: "Depende da área. Se for até 750 m² e lotação até ~100 pessoas, CLCB se aplica. Acima disso, AVCB. A central de GLP e a cozinha exigem atenção específica em qualquer caso." },
+      { question: "Restaurante com 60 lugares precisa de AVCB ou CLCB?", answer: "Depende da área. Com lotação até ~100 pessoas, o CLCB se aplica até 750 m², ou até 1.500 m² com sistema de hidrantes. Fora disso, AVCB. A central de GLP e a cozinha exigem atenção específica em qualquer caso." },
       { question: "Posso emitir CLCB sem engenheiro?", answer: "Sim, o CLCB é por declaração — o proprietário pode protocolar diretamente. Mas a recomendação técnica é contar com engenheiro para garantir que a declaração esteja correta (extintores no prazo, sinalização adequada, rotas de fuga). Declaração falsa gera responsabilidade civil e criminal." }
     ]
   },
 
   {
     slug: "como-emitir-clcb-em-sao-paulo-passo-a-passo",
-    title: "CLCB em SP: Quem Pode Usar e Como Emitir (até 750 m²)",
+    title: "CLCB em SP: Quem Pode Usar e Como Emitir (até 1.500 m²)",
     date: "2026-05-13",
     category: "CLCB",
     excerpt: "Guia técnico completo para emitir o CLCB em São Paulo em 2026. Documentos, prazos, plataforma Via Fácil Bombeiros e como evitar exigências do CBPMESP.",
     relatedServiceSlug: "clcb-sao-paulo",
     image: "/images/blog/fire_safety_equipment_premium.webp",
     content: `
-      <p>O <strong>CLCB</strong> (Certificado de Licença do Corpo de Bombeiros) é a versão simplificada da regularização junto ao CBPMESP para edificações de baixo risco até 750 m². O processo é mais rápido, mais barato e exige menos documentação que o AVCB — mas tem regras específicas que, se ignoradas, fazem o protocolo ser recusado.</p>
+      <p>O <strong>CLCB</strong> (Certificado de Licença do Corpo de Bombeiros) é a versão simplificada da regularização junto ao CBPMESP para edificações de baixo risco com até 750 m², ou até 1.500 m² com sistema de hidrantes. O processo é mais rápido, mais barato e exige menos documentação que o AVCB — mas tem regras específicas que, se ignoradas, fazem o protocolo ser recusado.</p>
 
       <p>Este guia detalha o passo a passo oficial do CLCB em 2026 conforme as Instruções Técnicas IT-01 e o Decreto 69.118/2024 atualizado.</p>
 
       <h2>Etapa 1: Confirmar enquadramento</h2>
       <p>Antes de qualquer documento, confirme que sua edificação realmente se enquadra no CLCB. Os critérios são cumulativos:</p>
       <ul>
-        <li>Área construída total até 750 m²</li>
+        <li>Área construída total até 750 m², ou até 1.500 m² com sistema de hidrantes instalado</li>
         <li>Grupo de ocupação compatível (não pode ser hospital, hotel, indústria)</li>
         <li>Até 2 pavimentos</li>
         <li>Lotação até ~100 pessoas</li>
@@ -2939,7 +2939,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
         <li>Processo mais rápido (custo de oportunidade menor)</li>
       </ul>
 
-      <p>Se sua edificação se enquadra no CLCB (até 750 m², baixo risco), aproveite essa via simplificada. Para descobrir qual certificado se aplica ao seu caso, <a href="/avcb-ou-clcb-qual-preciso" class="text-primary font-bold underline">use nossa calculadora interativa</a> ou solicite diagnóstico gratuito da DRD2 pelo WhatsApp.</p>
+      <p>Se sua edificação se enquadra no CLCB (baixo risco, até 750 m² ou até 1.500 m² com hidrantes), aproveite essa via simplificada. Para descobrir qual certificado se aplica ao seu caso, <a href="/avcb-ou-clcb-qual-preciso" class="text-primary font-bold underline">use nossa calculadora interativa</a> ou solicite diagnóstico gratuito da DRD2 pelo WhatsApp.</p>
     `,
     faqs: [
       { question: "Posso parcelar a taxa do CBPMESP?", answer: "Não. A taxa do Corpo de Bombeiros é paga à vista no momento do protocolo. Já os honorários da empresa contratada podem ser parcelados conforme negociação." },

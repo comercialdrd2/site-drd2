@@ -265,11 +265,6 @@ export default function AVCBIgrejaMasterPage() {
 
       {/* ── PROVA SOCIAL ── */}
       <SocialProof
-        testimonial={{
-          text: "A DRD2 regularizou nosso templo sem interromper nenhum culto. A equipe foi extremamente respeitosa com nossa dinâmica e o AVCB foi aprovado de primeira. Deus abençoe!",
-          author: "Pastor Roberto Alves",
-          role: "Igreja Renovação da Fé — Santo André SP",
-        }}
       />
 
       {/* ── FAQ IGREJA — VERBATIM RESTORATION ── */}

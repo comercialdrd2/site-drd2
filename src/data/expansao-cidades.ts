@@ -9,11 +9,6 @@ export interface BairroData {
   box: string;
   problemas: [string, string, string];
   problemasDesc: [string, string, string];
-  testimonial: {
-    text: string;
-    author: string;
-    role: string;
-  };
   faq1q: string;
   faq1a: string;
   faq2q: string;
@@ -40,11 +35,6 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Em Guarulhos, a prefeitura e o Corpo de Bombeiros integram a fiscalização de forma rígida. Um edifício comercial no Centro sem AVCB válido é impedido de renovar o Alvará de Funcionamento anual, o que pode levar ao lacre de dezenas de escritórios e lojas simultaneamente.",
     "problemas": ["Escadas fora de norma", "Centrais de alarme obsoletas", "Falta de iluminação de emergência"],
     "problemasDesc": ["Degraus e corrimãos que não seguem a IT-11, exigindo projetos de medidas compensatórias.", "Sistemas de alarme que não possuem autonomia de bateria ou cujas botoeiras estão inacessíveis.", "Lâmpadas queimadas ou sem autonomia mínima de 90 minutos exigida pelo Bombeiro."],
-    "testimonial": {
-      "text": "Nosso prédio comercial na Paulo Faccini estava com o AVCB vencido há 3 anos. A DRD2 regularizou tudo sem precisar de obras estruturais complexas.",
-      "author": "Ricardo Mendes",
-      "role": "Síndico Comercial — Centro Guarulhos"
-    },
     "faq1q": "O Corpo de Bombeiros de Guarulhos é mais rigoroso que o de SP?",
     "faq1a": "As normas (Instruções Técnicas) são as mesmas para todo o estado de SP, mas em Guarulhos a fiscalização atua em conjunto com a Secretaria de Desenvolvimento Urbano, o que torna o processo de renovação crítico para manter o Alvará em dia.",
     "faq2q": "Qual o prazo de vistoria em Guarulhos?",
@@ -64,17 +54,12 @@ export const cidadesExpansao: BairroData[] = [
     "tag": "Especialistas em Condomínios Clube",
     "avenidas": "Av. Guarulhos, Av. Pres. Humberto de Alencar Castelo Branco",
     "perfil": "região de forte verticalização com megacondomínios clube recém-entregues",
-    "intro": "A Vila Augusta transformou-se no principal polo de condomínios clube de Guarulhos. Esses empreendimentos possuem sistemas complexos: bombas de alta vazão, geradores potentes e quilômetros de rede de hidrantes. A manutenção desses sistemas nos primeiros 5 anos é o que define o sucesso da primeira renovação de AVCB.",
+    "intro": "A Vila Augusta transformou-se no principal polo de condomínios clube de Guarulhos. Esses empreendimentos possuem sistemas complexos: bombas de alta vazão, geradores potentes e quilômetros de rede de hidrantes. A manutenção desses sistemas nos primeiros 3 anos é o que define o sucesso da primeira renovação de AVCB.",
     "box": "Em condomínios clube da Vila Augusta, é comum o sistema de alarme apresentar falhas por conta de reformas nos apartamentos. Poeira de gesso e pintura costumam 'cegar' os detectores de fumaça nos halls, gerando disparos falsos e a reprovação da central na vistoria.",
     "problemas": ["Bombas de incêndio travadas", "Detectores de fumaça sujos", "Portas corta-fogo desalinhadas"],
     "problemasDesc": ["Falta de acionamento semanal das bombas, que acabam travando por oxidação.", "Obras nos apartamentos que sujam os sensores, exigindo limpeza técnica certificada.", "Uso intenso das escadas que desregula as molas das portas, permitindo passagem de fumaça."],
-    "testimonial": {
-      "text": "O AVCB do nosso condomínio novo estava prestes a vencer e nada funcionava. A DRD2 fez o PMOC de incêndio e aprovou tudo de primeira.",
-      "author": "Juliana Silveira",
-      "role": "Síndica — Vila Augusta"
-    },
     "faq1q": "Prédio novo precisa de laudo de hidrante?",
-    "faq1a": "Sim. Mesmo sendo novo, para a renovação (geralmente após 5 anos), é obrigatório o teste hidrostático das mangueiras e o laudo de estanqueidade de gás.",
+    "faq1a": "Sim. Mesmo sendo novo, para a renovação (após 3 anos), é obrigatório o teste hidrostático das mangueiras e o laudo de estanqueidade de gás.",
     "faq2q": "Como evitar disparos falsos de alarme na Vila Augusta?",
     "faq2a": "A manutenção preventiva mensal (PMOC) é essencial para limpar os sensores e testar as baterias da central.",
     "faq3q": "O gerador do condomínio entra no AVCB?",
@@ -96,11 +81,6 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Em prédios de luxo no Maia, é frequente encontrarmos portas corta-fogo revestidas de madeira ou espelhos. Isso anula a certificação da porta. A DRD2 utiliza soluções técnicas (verniz retardante ou substituição estética) para manter o padrão e a segurança.",
     "problemas": ["Revestimento combustível em rotas de fuga", "Modificações em halls privativos", "Falta de laudo de para-raios"],
     "problemasDesc": ["Papéis de parede e marcenaria em corredores que propagam fogo rápido demais.", "Moradores que bloqueiam o acesso a hidrantes com móveis decorativos.", "Medições de aterramento do SPDA vencidas em prédios altos isolados."],
-    "testimonial": {
-      "text": "Nossa torre no Maia foi elogiada pelo vistoriador. A DRD2 preparou cada detalhe, desde os extintores até o gerador.",
-      "author": "Marcos Fontana",
-      "role": "Conselheiro — Parque Maia"
-    },
     "faq1q": "Hall de elevador privativo pode ser decorado?",
     "faq1a": "Sim, mas os materiais devem ter o laudo CMAR (Controle de Materiais de Acabamento) e não podem obstruir os equipamentos de combate.",
     "faq2q": "O que é o laudo CMAR?",
@@ -124,11 +104,6 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Clínicas no Macedo que possuem internação ou procedimentos cirúrgicos são classificadas como Risco Especial. A ausência de AVCB válido aqui não gera apenas multas, mas a suspensão imediata do convênio médico e da vigilância sanitária.",
     "problemas": ["Planos de abandono inexistentes", "Sinalização tátil e visual precária", "Central de GLP irregular"],
     "problemasDesc": ["Falta de treinamento de brigada para remover pacientes em caso de fumaça.", "Ausência de placas que orientem saídas em hospitais e clínicas de grande porte.", "Cilindros de oxigênio e gás de cozinha próximos demais, sem barreira de proteção."],
-    "testimonial": {
-      "text": "Nossa clínica precisava renovar o AVCB para manter o contrato com o convênio. A DRD2 fez o projeto de sinalização e aprovou em tempo recorde.",
-      "author": "Dra. Ana Paula",
-      "role": "Diretora Clínica — Macedo"
-    },
     "faq1q": "Hospital precisa de brigada de incêndio?",
     "faq1a": "Sim, e a brigada deve ser composta por funcionários treinados para lidar com a evacuação de pacientes acamados.",
     "faq2q": "O que muda no AVCB para clínicas?",
@@ -152,11 +127,6 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Em galpões logísticos próximos ao aeroporto, o Corpo de Bombeiros fiscaliza severamente a altura de empilhamento. Mercadorias próximas demais aos bicos de sprinklers anulam a eficácia do sistema, levando à reprovação sumária do AVCB.",
     "problemas": ["Estocagem acima da altura permitida", "Bicos de sprinklers obstruídos", "Falta de laudo de estanqueidade de hidrantes"],
     "problemasDesc": ["Cargas bloqueando a dispersão de água do sistema automático de combate.", "Prateleiras que impedem o funcionamento dos sensores e chuveiros automáticos.", "Redes de incêndio que perdem pressão devido a vazamentos nas juntas de galpões gigantes."],
-    "testimonial": {
-      "text": "Nosso centro logístico foi aprovado sem restrições. A consultoria técnica da DRD2 sobre o tipo de carga foi fundamental para o projeto.",
-      "author": "Sérgio Tanaka",
-      "role": "Gerente de Operações — Logística Aeroporto"
-    },
     "faq1q": "Armazenar produtos químicos exige AVCB especial?",
     "faq1a": "Sim, exige o cálculo específico de carga de incêndio e, dependendo do produto, bacias de contenção e sistemas de espuma.",
     "faq2q": "Hotel de trânsito perto do aeroporto precisa de AVCB?",
@@ -180,11 +150,6 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Nas indústrias de Bonsucesso, o maior risco é o 'efeito cascata'. Um incêndio mal combatido em um tanque de óleo ou solvente pode atingir indústrias vizinhas. Por isso, o Bombeiro exige planos de auxílio mútuo e sistemas de contenção de resíduos.",
     "problemas": ["Falta de bacias de contenção", "Brigada de incêndio desatualizada", "Hidrantes externos obstruídos"],
     "problemasDesc": ["Ausência de muretas que impeçam líquidos inflamáveis de escorrer para a rua em caso de vazamento.", "Funcionários que não refazem o treinamento anual obrigatório de combate a incêndio.", "Caminhões estacionados sobre os registros de recalque e hidrantes de coluna."],
-    "testimonial": {
-      "text": "Nossa indústria metalúrgica em Bonsucesso renovou o AVCB com a DRD2. Eles entenderam as particularidades das nossas máquinas e fluxos.",
-      "author": "Luiz Alberto",
-      "role": "Gerente de Planta — Indústria Bonsucesso"
-    },
     "faq1q": "Indústria precisa de AVCB ou CLCB?",
     "faq1a": "Pelo porte e risco das indústrias em Bonsucesso, quase 100% exigem o AVCB completo com projeto técnico detalhado.",
     "faq2q": "O que é o laudo de inflamáveis?",
@@ -208,13 +173,8 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Supermercados no Pimentas frequentemente utilizam áreas de estoque para exposição de produtos, reduzindo a largura dos corredores e obstruindo extintores. Isso gera multas imediatas em vistorias surpresa do Corpo de Bombeiros.",
     "problemas": ["Corredores de saída obstruídos", "Lotação acima do permitido", "Extintores vencidos ou escondidos"],
     "problemasDesc": ["Carrinhos e mercadorias travando as rotas que deveriam estar livres para fuga.", "Estabelecimentos que não controlam a entrada de público, gerando risco de pisoteamento.", "Equipamentos de combate que ficam atrás de gôndolas ou balcões, impossíveis de usar em emergência."],
-    "testimonial": {
-      "text": "Regularizamos nosso supermercado no Pimentas com a DRD2. Eles treinaram nossa equipe para manter o prédio seguro todos os dias.",
-      "author": "José Oliveira",
-      "role": "Gerente de Varejo — Pimentas"
-    },
     "faq1q": "Loja pequena no Pimentas precisa de AVCB?",
-    "faq1a": "Se tiver até 750m² e baixo risco, pode tirar o CLCB (processo simplificado). A DRD2 faz isso em poucos dias.",
+    "faq1a": "Se for de baixo risco e tiver até 750 m² (ou até 1.500 m² com sistema de hidrantes), pode tirar o CLCB (processo simplificado). A DRD2 faz isso em poucos dias.",
     "faq2q": "Como saber a lotação máxima da minha loja?",
     "faq2a": "O cálculo é feito com base na área útil de vendas e no número de saídas disponíveis. Nós fazemos esse cálculo para você.",
     "faq3q": "O que acontece se eu não tiver o AVCB no Pimentas?",
@@ -238,11 +198,6 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Em restaurantes do Cambuí, a vistoria do Bombeiro de Campinas foca quase exclusivamente no sistema de exaustão das cozinhas. O acúmulo de gordura em dutos é a causa nº 1 de incêndios em bairros gastronômicos.",
     "problemas": ["Dutos de coifa com gordura", "Sinalização decorativa fora de norma", "Portas corta-fogo sem manutenção"],
     "problemasDesc": ["Falta de laudo de limpeza periódica dos sistemas de exaustão industrial.", "Placas de saída que foram trocadas por modelos 'estéticos' que não brilham no escuro.", "Molas de portas que não fecham sozinhas, permitindo propagação de fumaça no hall social."],
-    "testimonial": {
-      "text": "Nosso restaurante no Cambuí precisava renovar o AVCB e a DRD2 foi cirúrgica. Resolveram a questão da coifa e aprovamos em 10 dias.",
-      "author": "André Vasconcelos",
-      "role": "Proprietário de Restaurante — Cambuí"
-    },
     "faq1q": "Restaurante no Cambuí precisa de qual licença?",
     "faq1a": "Geralmente AVCB, devido à carga de incêndio das cozinhas e lotação de público. Se for pequeno, pode ser CLCB.",
     "faq2q": "O Bombeiro de Campinas é exigente?",
@@ -266,11 +221,6 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Muitos prédios no Centro de Campinas operam com o AVCB vencido há décadas. Isso significa que o seguro predial é nulo. Em caso de curto-circuito, o prejuízo financeiro e jurídico para o síndico é total e sem cobertura.",
     "problemas": ["Fiação elétrica de pano", "Falta de reserva de água", "Escadas estreitas e obstruídas"],
     "problemasDesc": ["Instalações elétricas originais que não suportam a carga de computadores e ar-condicionado.", "Prédios que usam a mesma água do consumo para os hidrantes, sem separação técnica.", "Rotas de fuga que viraram depósitos de arquivos e móveis velhos nos corredores."],
-    "testimonial": {
-      "text": "Conseguimos o AVCB do nosso prédio na Glicério após 5 anos de tentativas frustradas com outras empresas. A DRD2 soube lidar com a idade do imóvel.",
-      "author": "Felipe Rossi",
-      "role": "Síndico Predial — Centro Campinas"
-    },
     "faq1q": "Prédio muito antigo no Centro tem anistia?",
     "faq1a": "Não. Existe o 'Regulamento de Segurança contra Incêndio das Edificações Existentes' (Decreto Estadual 69.118/2024), que permite adaptações proporcionais, mas nunca isenção.",
     "faq2q": "Quanto custa o AVCB para prédio antigo?",
@@ -294,11 +244,6 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Laboratórios em Barão Geraldo são classificados como Risco Alto devido ao uso de gases e reagentes. Um AVCB vencido aqui pode travar verbas de pesquisa federais e internacionais que exigem padrões globais de segurança contra incêndio.",
     "problemas": ["Gases medicinais e industriais sem laudo", "Alta carga de incêndio em bibliotecas", "Falta de treinamento de pânico em repúblicas"],
     "problemasDesc": ["Cilindros e tubulações que não possuem o teste de estanqueidade anual obrigatório.", "Grandes volumes de papel estocados sem sistemas de sprinklers ou detecção fumaça.", "Moradias coletivas que não possuem sinalização básica de saída e extintores suficientes."],
-    "testimonial": {
-      "text": "Nossa startup de biotecnologia em Barão Geraldo precisava de AVCB para receber investimento. A DRD2 resolveu a planta técnica em tempo recorde.",
-      "author": "Cláudia Werneck",
-      "role": "CEO Tech — Barão Geraldo"
-    },
     "faq1q": "Laboratório precisa de projeto especial de incêndio?",
     "faq1a": "Sim, é necessário prever bacias de contenção, chuveiros de emergência e detecção sensível para reagentes químicos.",
     "faq2q": "Pensionatos e repúblicas precisam de CLCB?",
@@ -322,11 +267,6 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Clubes no Taquaral que realizam festas e eventos precisam de AVCB específico que contemple a lotação máxima de salões. Usar um salão para 500 pessoas quando a licença é para 200 é infração gravíssima com interdição imediata.",
     "problemas": ["Sistemas de som sem integração ao alarme", "Portas de saída trancadas com cadeado", "Falta de brigada para eventos"],
     "problemasDesc": ["O alarme de incêndio deve desligar automaticamente o som da festa para que todos ouçam o aviso de evacuação.", "Prática comum e perigosa de trancar saídas de emergência para controle de acesso em clubes.", "Eventos realizados sem o número mínimo de brigadistas certificados pelo bombeiro."],
-    "testimonial": {
-      "text": "Nosso clube no Taquaral nunca teve problemas após a consultoria da DRD2. Eles organizam nossos laudos e treinam nossa brigada todos os anos.",
-      "author": "Sérgio Malta",
-      "role": "Diretor de Patrimônio — Clube Taquaral"
-    },
     "faq1q": "Academia no Taquaral precisa de AVCB?",
     "faq1a": "Sim, academias com grande área ou mezaninos devem ter licença. O Bombeiro olha muito a largura das rotas entre os aparelhos.",
     "faq2q": "O que é o laudo de grupo gerador?",
@@ -350,15 +290,10 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Em condomínios das Mansões, é recorrente a reprovação do AVCB por 'Comunique-se' devido a fechamentos de sacadas com vidro. Se a planta original não previa esse fechamento, a carga de incêndio muda e o projeto deve ser atualizado.",
     "problemas": ["Sacadas fechadas sem projeto", "Sensores de fumaça pintados por decoradores", "Falta de manutenção em bombas de pressurização"],
     "problemasDesc": ["Vidros e cortinas em varandas que aumentam a área fechada do prédio sem registro no Bombeiro.", "Reformas de luxo que cobrem os equipamentos de segurança com forros de gesso ou tinta.", "Sistemas que deveriam manter as escadas livres de fumaça mas que falham por falta de uso."],
-    "testimonial": {
-      "text": "O AVCB do nosso prédio nas Mansões estava vencido por causa de uma obra no térreo. A DRD2 fez o novo projeto e aprovou tudo.",
-      "author": "Patrícia Lima",
-      "role": "Síndica — Mansões Santo Antônio"
-    },
     "faq1q": "Pode fechar a sacada do apartamento?",
     "faq1a": "Pode, mas o condomínio deve atualizar o Projeto Técnico junto ao Bombeiro para que a nova realidade seja aprovada no AVCB geral.",
     "faq2q": "Quanto tempo vale o AVCB para prédios novos nas Mansões?",
-    "faq2a": "Geralmente 5 anos para residenciais, mas a manutenção deve ser comprovada mensalmente em livro técnico.",
+    "faq2a": "3 anos, inclusive para residenciais, mas a manutenção deve ser comprovada mensalmente em livro técnico.",
     "faq3q": "O síndico é culpado se o alarme falhar?",
     "faq3a": "Sim, o síndico responde civil e criminalmente se não houver prova de que ele contratou a manutenção obrigatória.",
     "faq4q": "Qual o custo da renovação nas Mansões?",
@@ -378,11 +313,6 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Em muitos prédios do Castelo, os para-raios instalados há 20 anos estão fora da norma atual (NBR 5419). Na vistoria para o AVCB, o Bombeiro exige o laudo com as novas medições de continuidade, o que frequentemente exige reformas na malha do topo do prédio.",
     "problemas": ["Para-raios fora da norma NBR 5419", "Falta de corrimão em escadas antigas", "Extintores em altura errada"],
     "problemasDesc": ["Sistemas de proteção contra descargas atmosféricas que não garantem mais a segurança dos moradores.", "Escadarias que possuem apenas corrimão de um lado ou com material combustível (madeira).", "Equipamentos instalados muito altos ou muito baixos, dificultando o uso por pessoas de baixa estatura ou crianças."],
-    "testimonial": {
-      "text": "A DRD2 refez nosso sistema de para-raios e conseguiu aprovar o AVCB que estava travado há 2 anos. Atendimento técnico de primeira.",
-      "author": "Roberto Almeida",
-      "role": "Síndico — Castelo"
-    },
     "faq1q": "Corrimão de madeira reprova o AVCB no Castelo?",
     "faq1a": "Sim, o corrimão deve ser de material incombustível (aço/ferro) e ter as terminações curvadas para a parede, conforme a IT-11.",
     "faq2q": "O laudo de para-raios vale por quanto tempo?",
@@ -406,11 +336,6 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Em laboratórios e clínicas do Guanabara, a atenção do Bombeiro volta-se para o armazenamento de líquidos inflamáveis e gases. O projeto deve prever compartimentação total dessas áreas para que um pequeno vazamento não se transforme em tragédia.",
     "problemas": ["Armazenamento de reagentes irregular", "Falta de iluminação tátil", "Baterias de alarme vencidas"],
     "problemasDesc": ["Produtos químicos guardados em locais sem ventilação ou contenção de resíduos.", "Ausência de sinalização para deficientes visuais em clínicas de grande porte.", "Centrais de alarme que ficam 'mudas' durante a falta de energia por baterias velhas."],
-    "testimonial": {
-      "text": "Nossa clínica na Barão de Itapura renovou com a DRD2. O suporte técnico sobre a IT-21 de hospitais foi essencial para nossa aprovação.",
-      "author": "Dr. Luiz Gustavo",
-      "role": "Gestor Hospitalar — Guanabara"
-    },
     "faq1q": "Clínica pequena no Guanabara precisa de AVCB?",
     "faq1a": "Se tiver baixo risco e área menor, pode ser CLCB. Nós avaliamos o enquadramento gratuito para sua clínica.",
     "faq2q": "Gases medicinais exigem projeto?",
@@ -436,15 +361,10 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Em prédios do Gonzaga, é comum a rede de hidrantes em ferro galvanizado estar totalmente obstruída por oxidação interna. Durante a vistoria do 6º Grupamento de Bombeiros, a água simplesmente não sai no último andar, gerando reprovação imediata e multas.",
     "problemas": ["Oxidação por maresia", "Tubulações de hidrante furadas", "Painéis elétricos oxidados"],
     "problemasDesc": ["Equipamentos de metal que corroem rápido demais devido à proximidade com o mar.", "Microfuros nas prumadas de incêndio que fazem o sistema perder pressão.", "Contatos elétricos de bombas e alarmes que falham por crostas de salitre."],
-    "testimonial": {
-      "text": "Nosso prédio na Ana Costa estava com as bombas travadas pela maresia. A DRD2 recuperou o sistema e aprovou nosso AVCB em tempo recorde.",
-      "author": "Felipe Mendes",
-      "role": "Síndico — Gonzaga"
-    },
     "faq1q": "Maresia afeta o AVCB em Santos?",
     "faq1a": "Diretamente. Ela corrói extintores, mangueiras e fiação. O bombeiro de Santos exige que tudo esteja em perfeito estado, sem sinais de ferrugem.",
     "faq2q": "Qual a validade do AVCB para prédios na orla?",
-    "faq2a": "A mesma do estado (geralmente 5 anos para residenciais), mas a manutenção deve ser muito mais frequente devido à corrosão.",
+    "faq2a": "A mesma do estado: 3 anos, inclusive para residenciais. Mas a manutenção deve ser muito mais frequente devido à corrosão.",
     "faq3q": "O que o Bombeiro de Santos mais olha?",
     "faq3a": "O estado de conservação dos hidrantes e a funcionalidade das bombas de incêndio na casa de máquinas.",
     "faq4q": "Quanto custa renovar o AVCB no Gonzaga?",
@@ -464,11 +384,6 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Em grandes torres da Ponta da Praia, a pressurização das escadas é o ponto crítico. Se o ventilador no topo do prédio não atingir a pressão correta, a fumaça invade a rota de fuga e o Bombeiro reprova o prédio todo na hora.",
     "problemas": ["Pressurização de escada inoperante", "Sistemas de sprinklers sem manutenção", "Vazamentos em caixas d'água elevadas"],
     "problemasDesc": ["Motores que não ligam no teste de fumaça, colocando em risco a evacuação de centenas de famílias.", "Bicos de chuveiros automáticos obstruídos ou pintados por moradores em reformas.", "Estruturas que sustentam a reserva técnica de incêndio com sinais de infiltração e corrosão."],
-    "testimonial": {
-      "text": "Nossa torre de 32 andares precisava renovar. A DRD2 fez o teste de fumaça e ajustou a pressurização. Aprovamos de primeira com o Bombeiro.",
-      "author": "Luciana Dantas",
-      "role": "Síndica — Ponta da Praia"
-    },
     "faq1q": "Prédios altos na Ponta da Praia precisam de sprinklers?",
     "faq1a": "Sim, acima de certas alturas e áreas construídas, o sistema de chuveiros automáticos é obrigatório por norma estadual.",
     "faq2q": "O que é o teste de fumaça?",
@@ -492,11 +407,6 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Em faculdades e hospitais do Boqueirão, o Plano de Abandono (IT-17) é o documento mais cobrado. Não basta ter o equipamento; a equipe deve estar treinada para evacuar prédios complexos em menos de 5 minutos.",
     "problemas": ["Saídas de emergência subdimensionadas", "Brigada de incêndio escolar/hospitalar falha", "Falta de iluminação tátil"],
     "problemasDesc": ["Portas que não comportam o fluxo de saída de alunos ou pacientes em emergência.", "Falta de treinamento específico para lidar com pânico em locais de grande aglomeração.", "Ausência de sinalização para deficientes visuais nas rotas de fuga obrigatórias."],
-    "testimonial": {
-      "text": "Regularizamos nossa faculdade no Boqueirão com a DRD2. O projeto de saídas de emergência foi elogiado pelos Bombeiros.",
-      "author": "Carlos Eduardo",
-      "role": "Diretor Administrativo — Instituição Ensino Boqueirão"
-    },
     "faq1q": "Escolas em Santos precisam de brigada?",
     "faq1a": "Sim, e o treinamento deve incluir a simulação de evacuação com os alunos e funcionários.",
     "faq2q": "Hospitais no Boqueirão têm normas diferentes?",
@@ -520,11 +430,6 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Em prédios residenciais da Aparecida, a substituição de portas corta-fogo por modelos 'comuns' em reformas de moradores é um problema crônico que trava a renovação do AVCB de todo o condomínio.",
     "problemas": ["Sprinklers obstruídos em lojas", "Central de incêndio em 'bypass'", "Bombas de incêndio com vazamento"],
     "problemasDesc": ["Lojistas que colocam gesso ou decoração sobre os bicos de água, inutilizando o sistema.", "Condomínios que desligam o alarme devido a alarmes falsos, o que é crime de perigo comum.", "Equipamentos que perdem a pressão e não funcionariam em caso de incêndio real."],
-    "testimonial": {
-      "text": "A DRD2 fez a auditoria de todo o nosso complexo na Aparecida. Resolveram problemas crônicos no alarme e aprovamos o AVCB.",
-      "author": "Sônia Vieira",
-      "role": "Gerente de Condomínio — Aparecida"
-    },
     "faq1q": "Shopping precisa de AVCB ou CLCB?",
     "faq1a": "Sempre AVCB completo, devido à complexidade e alta lotação de público.",
     "faq2q": "Como saber se a porta corta-fogo do prédio está boa?",
@@ -548,11 +453,6 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Em prédios históricos de Santos, o uso de fiação elétrica antiga (de pano ou sem aterramento) é a causa principal de incêndios. O Bombeiro exige o Laudo Elétrico (Termografia) para garantir que o prédio não vai pegar fogo por sobrecarga.",
     "problemas": ["Instalações elétricas históricas precárias", "Falta de reserva técnica de água", "Escadarias de madeira combustíveis"],
     "problemasDesc": ["Fiação que não suporta ar-condicionado e servidores modernos de empresas.", "Prédios antigos que não possuem caixa d'água exclusiva para os bombeiros.", "Estruturas que exigem tratamento químico retardante de chamas para serem aprovadas."],
-    "testimonial": {
-      "text": "Nosso casarão no Centro foi regularizado pela DRD2 com uso de extintores especiais e alarme sem fio. Preservamos a história e a vida.",
-      "author": "Henrique Bastos",
-      "role": "Proprietário de Imóvel Histórico — Centro Santos"
-    },
     "faq1q": "Prédio tombado precisa de AVCB?",
     "faq1a": "Sim, e as medidas são adaptadas em conjunto com o CONDEPASA/CONDEPHAAT para não descaracterizar o imóvel.",
     "faq2q": "Pode usar alarme sem fio em Santos?",
@@ -576,11 +476,6 @@ export const cidadesExpansao: BairroData[] = [
     "box": "Em prédios do Embaré, a maresia ataca as caixas de hidrantes nos corredores. Se a porta da caixa estiver enferrujada e travar, o Bombeiro reprova a vistoria. A DRD2 recomenda o uso de caixas de fibra de vidro para evitar esse problema crônico.",
     "problemas": ["Portas de hidrantes emperradas", "Mangueiras com mofo e furos", "Falta de luz de emergência em halls"],
     "problemasDesc": ["A oxidação trava os fechos das caixas, impedindo o acesso rápido às mangueiras.", "Umidade do mar que apodrece o tecido das mangueiras se não forem secas após o teste.", "Lâmpadas que falham por falta de troca periódica de baterias internas."],
-    "testimonial": {
-      "text": "Nosso condomínio no Embaré renovou o AVCB com facilidade. A DRD2 fez a revisão de todos os hidrantes e mangueiras.",
-      "author": "Marta Silveira",
-      "role": "Síndica — Embaré"
-    },
     "faq1q": "Pode guardar objetos dentro da caixa de hidrante?",
     "faq1a": "Nunca. A caixa de hidrante deve conter APENAS a mangueira, o esguicho e a chave. Qualquer objeto extra gera reprovação.",
     "faq2q": "Qual a largura mínima da saída de emergência em Santos?",

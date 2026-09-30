@@ -196,7 +196,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { icon: ShieldCheck, name: "Emissão de AVCB",           desc: "Auto de Vistoria para condomínios e shoppings",    href: "/avcb-sao-paulo", highlight: true },
-              { icon: FileCheck,   name: "Renovação CLCB",          desc: "Processo rápido para negócios até 750m²",          href: "/clcb-sao-paulo" },
+              { icon: FileCheck,   name: "Renovação CLCB",          desc: "Processo rápido para imóveis de baixo risco até 1.500 m²",          href: "/clcb-sao-paulo" },
               { icon: Flame,       name: "Projeto Técnico (PT)",    desc: "Plantas DWG conforme ITs do Corpo de Bombeiros",   href: "/projetos-incendio" },
               { icon: Droplets,    name: "Rede de Sprinklers",      desc: "Instalação e laudo de chuveiros automáticos",      href: "/sprinklers" },
               { icon: Wind,        name: "Casa de Bombas",          desc: "Dimensionamento e teste de rede de hidrantes",     href: "/hidrantes" },

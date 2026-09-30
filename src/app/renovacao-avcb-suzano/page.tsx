@@ -80,7 +80,7 @@ const pageData: UniversalPageData = {
     },
     {
       question: "Qual a diferença entre AVCB e CLCB em Suzano?",
-      answer: "O CLCB (Certificado de Licença) é emitido para edificações de menor risco, geralmente até 750m² sem necessidades especiais (como subsolo com grande ocupação). O AVCB (Auto de Vistoria) aplica-se a imóveis maiores ou com maior carga de incêndio (galpões, indústrias, prédios residenciais).",
+      answer: "O CLCB (Certificado de Licença) é emitido para edificações de menor risco, até 750 m² sem hidrantes, ou até 1.500 m² com sistema de hidrantes, sem necessidades especiais (como subsolo com grande ocupação). O AVCB (Auto de Vistoria) aplica-se a imóveis maiores ou com maior carga de incêndio (galpões, indústrias, prédios residenciais).",
     },
     {
       question: "Meu galpão em Suzano já está pronto, mas o bombeiro pediu adequações. Vocês fazem?",

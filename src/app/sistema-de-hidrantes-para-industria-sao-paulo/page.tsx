@@ -198,11 +198,6 @@ export default function HidrantesIndustriaPage() {
       </section>
 
       <SocialProof
-        testimonial={{
-          text: "A DRD2 fez o levantamento completo da nossa planta industrial e dimensionou o sistema de hidrantes para cada setor. O AVCB industrial foi aprovado na primeira vistoria. Trabalho técnico de altíssimo nível.",
-          author: "Ricardo Fernandes",
-          role: "Diretor de Segurança — Indústria Metalúrgica, São Bernardo do Campo SP",
-        }}
       />
 
       {/* ── DOCUMENTAÇÃO ── */}

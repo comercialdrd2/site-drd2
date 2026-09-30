@@ -72,7 +72,7 @@ export const servicesData: Record<string, ServiceData> = {
       { question: "Quem paga o AVCB do condomínio — o síndico ou os moradores?", answer: "O custo do AVCB é uma despesa condominial ordinária — rateada entre todas as unidades. O síndico é o responsável por contratar o serviço e aprovar o gasto em assembleia, mas o custo é distribuído entre os condôminos." },
       { question: "O AVCB cobre os apartamentos ou só as áreas comuns?", answer: "Apenas as áreas comuns. Apartamentos com uso exclusivamente residencial não precisam de AVCB próprio. Unidades com uso comercial ou profissional podem ter obrigações próprias dependendo da atividade." },
       { question: "A academia e o salão de festas do condomínio precisam estar cobertos pelo AVCB?", answer: "Sim. Todos os espaços de uso coletivo do condomínio — academia, salão de festas, espaço gourmet, brinquedoteca — precisam estar contemplados no projeto técnico do AVCB." },
-      { question: "Qual o prazo de validade do AVCB para condomínio em São Paulo?", answer: "A validade varia conforme o tipo de ocupação e o nível de risco — geralmente de 3 a 5 anos para condomínios residenciais. O prazo exato está definido no próprio certificado emitido pelo CBPMESP." }
+      { question: "Qual o prazo de validade do AVCB para condomínio em São Paulo?", answer: "O AVCB de condomínio tem validade de 3 anos. O prazo exato está definido no próprio certificado emitido pelo CBPMESP." }
     ],
     icon: "/images/services/avcb.svg"
   },
@@ -195,7 +195,7 @@ export const servicesData: Record<string, ServiceData> = {
       solution: "A DRD2 enquadra corretamente o seu imóvel e realiza o processo simplificado do CLCB, assegurando a documentação regular de forma rápida e sem burocracias desnecessárias."
     },
     content: [
-      "O CLCB (Certificado de Licença do Corpo de Bombeiros) é o licenciamento rápido para imóveis até 750m² e com até 3 pavimentos, que possuem baixo risco de incêndio e não demandam sistemas complexos (como hidrantes ou sprinklers).",
+      "O CLCB (Certificado de Licença do Corpo de Bombeiros) é o licenciamento rápido para imóveis de baixo risco de incêndio, com até 3 pavimentos, que tenham até 750 m², ou até 1.500 m² com sistema de hidrantes instalado, entre outras exigências.",
       "É importante frisar que o CLCB tem a mesma força legal do AVCB em termos de comprovação de regularidade. Porém, um enquadramento equivocado por profissionais inexperientes pode fazer seu imóvel cair em exigências desnecessárias.",
       "A DRD2 coleta os atestados exigidos (ARTs, recibos de extintores), preenche as declarações no sistema Via Fácil Bombeiros e agiliza a liberação da licença com precisão técnica."
     ],
@@ -628,7 +628,7 @@ export const servicesData: Record<string, ServiceData> = {
       { question: "A área da minha creche no IPTU é menor do que a real. Isso é problema?", answer: "Sim, é um ponto crítico. Essa divergência precisa ser identificada e tratada antes do protocolo. Dependendo do impacto, pode alterar o tipo de processo exigido e gerar Comunique-se ou indeferimento. A DRD2 identifica esse problema no diagnóstico inicial — sem custo para o cliente." },
       { question: "O que é Comunique-se no processo do Corpo de Bombeiros?", answer: "É uma exigência formal emitida pelo CBPMESP durante a análise do processo, solicitando complementação de documentação ou adequação técnica. Precisa ser respondida dentro do prazo. A DRD2 Engenharia analisa e responde Comunique-se para creches." },
       { question: "Creche pequena pode fazer CLCB em vez de AVCB?", answer: "Depende da análise técnica do caso concreto. O enquadramento correto é uma conclusão técnica baseada nas características da edificação — não uma escolha do proprietário. A DRD2 faz essa avaliação gratuitamente no diagnóstico inicial." },
-      { question: "AVCB de creche tem prazo de validade?", answer: "Sim. O prazo varia conforme as medidas de proteção instaladas, podendo ser de 1 a 5 anos. A renovação deve ser iniciada antes do vencimento." },
+      { question: "AVCB de creche tem prazo de validade?", answer: "Sim. O AVCB tem validade de 3 anos, com a data de vencimento impressa no próprio certificado. A renovação deve ser iniciada antes do vencimento." },
       { question: "O Corpo de Bombeiros pode interditar minha creche sem aviso?", answer: "Sim. O CBPMESP e as prefeituras têm poder de polícia para interditar edificações em situação irregular, sem necessidade de notificação prévia." },
       { question: "A DRD2 atende minha creche fora de São Paulo capital?", answer: "Sim. Atendemos todo o Estado de São Paulo, incluindo Grande SP, ABC Paulista, Campinas, Sorocaba, Santos, São José dos Campos, Ribeirão Preto e demais municípios." }
     ],
@@ -657,7 +657,7 @@ export const servicesData: Record<string, ServiceData> = {
       { question: "O que é gerenciamento de risco e quando é exigido?", answer: "Gerenciamento de risco é o conjunto de procedimentos que identifica, mapeia e estabelece planos de ação para os riscos de incêndio presentes na edificação. Para casas de repouso, é uma exigência que varia conforme o porte e as características do estabelecimento. A DRD2 avalia a necessidade no diagnóstico inicial." },
       { question: "Minha casa de repouso funciona em uma casa adaptada. Isso é problema?", answer: "Pode ser. Edificações adaptadas frequentemente apresentam divergências de área, ausência de projeto aprovado para uso institucional e inadequações nas saídas de emergência. Essas situações precisam ser identificadas e tratadas antes do protocolo no CBPMESP." },
       { question: "O que é Comunique-se e como evitar?", answer: "Comunique-se é uma exigência formal do CBPMESP solicitando complementação de documentação ou adequação técnica durante a análise do processo. A melhor forma de evitar é com diagnóstico técnico completo antes do protocolo — que é exatamente o que a DRD2 Engenharia realiza gratuitamente." },
-      { question: "AVCB de casa de repouso tem prazo de validade?", answer: "Sim. O prazo varia conforme as medidas de proteção instaladas, podendo ser de 1 a 5 anos. A renovação deve ser iniciada antes do vencimento para evitar irregularidade." },
+      { question: "AVCB de casa de repouso tem prazo de validade?", answer: "Sim. O AVCB tem validade de 3 anos, com a data de vencimento impressa no próprio certificado. A renovação deve ser iniciada antes do vencimento para evitar irregularidade." },
       { question: "O Corpo de Bombeiros pode interditar minha casa de repouso sem aviso?", answer: "Sim. O CBPMESP e os órgãos de vigilância sanitária têm poder de polícia para interditar estabelecimentos em situação irregular, sem necessidade de notificação prévia." },
       { question: "A DRD2 atende fora de São Paulo capital?", answer: "Sim. Atendemos todo o Estado de São Paulo, incluindo Grande SP, ABC Paulista, Campinas, Sorocaba, Santos, São José dos Campos, Ribeirão Preto e demais municípios." }
     ],

@@ -228,11 +228,6 @@ export default function RenovacaoAvcbSaoJoseDosCamposPage() {
       </section>
 
       <SocialProof
-        testimonial={{
-          text: "Nossa planta fornecedora da Embraer em SJC estava com AVCB prestes a vencer. A DRD2 conduziu a renovação antes do prazo, sem interromper a produção. Auditoria do cliente aprovada sem ressalvas. Recomendo.",
-          author: "Cliente DRD2 Engenharia",
-          role: "Coordenador de Qualidade — São José dos Campos, SP",
-        }}
       />
 
       <section className="py-24 bg-slate-50">

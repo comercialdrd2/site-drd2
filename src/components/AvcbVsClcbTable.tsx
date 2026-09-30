@@ -14,7 +14,7 @@ type Cell = { value: string; tone?: "good" | "bad" | "warn" | "neutral" };
 const ROWS: Array<{ label: string; clcb: Cell; avcb: Cell }> = [
   {
     label: "Área limite",
-    clcb: { value: "Até 750 m²", tone: "good" },
+    clcb: { value: "Até 750 m² sem hidrantes; até 1.500 m² com hidrantes", tone: "good" },
     avcb: { value: "Sem limite", tone: "neutral" },
   },
   {
@@ -60,7 +60,7 @@ const ROWS: Array<{ label: string; clcb: Cell; avcb: Cell }> = [
   {
     label: "Validade típica",
     clcb: { value: "3 a 5 anos", tone: "neutral" },
-    avcb: { value: "1 a 3 anos (varia por ocupação)", tone: "neutral" },
+    avcb: { value: "3 anos", tone: "neutral" },
   },
   {
     label: "Custo comparativo",

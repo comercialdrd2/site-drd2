@@ -424,8 +424,8 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
                 </thead>
                 <tbody className="divide-y divide-slate-200">
                   {[
-                    ["Até 750 m²", "Pode permitir processo simplificado quando não há risco especial, mas exige documentos corretos e sistemas básicos em ordem.", "15 a 45 dias"],
-                    ["751 a 1.500 m²", "Costuma exigir mais verificações de lotação, rotas, alarme, extintores, laudos e compatibilidade de planta.", "30 a 75 dias"],
+                    ["Até 750 m²", "Pode seguir como CLCB, sem hidrantes, quando não há risco especial, mas exige documentos corretos e sistemas básicos em ordem.", "15 a 45 dias"],
+                    ["751 a 1.500 m²", "Ainda pode ser CLCB se houver sistema de hidrantes, entre outras exigências; verificamos lotação, rotas, alarme, extintores e laudos.", "30 a 75 dias"],
                     ["1.501 a 2.500 m²", "A chance de projeto técnico, hidrantes, alarme, brigada e laudos complementares aumenta conforme ocupação.", "45 a 90 dias"],
                     ["Acima de 2.500 m²", "Normalmente exige planejamento técnico completo, memoriais, ARTs, sistemas integrados e acompanhamento próximo.", "60 a 120 dias"],
                   ].map((row) => (

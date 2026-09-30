@@ -54,9 +54,9 @@ const occupationProfiles: Record<string, {
       { label: "renovacao para restaurante", href: "/renovacao-avcb-restaurante-sao-paulo" },
     ],
   },
-  // CLCB: base para edificações até 750 m² de baixo risco — processo simplificado, sem vistoria física obrigatória
+  // CLCB: edificações de baixo risco até 750 m² sem hidrantes, ou até 1.500 m² com sistema de hidrantes — processo simplificado, sem vistoria física obrigatória
   clcbDefault: {
-    group: "edificação até 750 m² com baixo risco de incêndio (carga até 300 MJ/m²) enquadrada na IT-01 e IT-02 do CBPMESP",
+    group: "edificação de baixo risco de incêndio (carga até 300 MJ/m²) com até 750 m², ou até 1.500 m² com sistema de hidrantes, enquadrada na IT-01 e IT-02 do CBPMESP",
     risk: "extintores no prazo, sinalização visível, iluminação de emergência e rotas de fuga desobstruídas — itens auto-declarados na vertente CLCB",
     systems: ["IT-01: procedimentos para CLCB", "IT-02: classificação da ocupação", "IT-11: saídas de emergência", "IT-21: extintores", "IT-18: iluminação de emergência", "IT-20: sinalização"],
     prazo: "15 a 45 dias para CLCB sem pendências; 45 a 90 dias quando ha adequação física antes do protocolo (extintores vencidos, sinalização, iluminação)",
@@ -68,7 +68,7 @@ const occupationProfiles: Record<string, {
   },
   // CLCB Alimentação — restaurante, bar, padaria de pequeno porte
   clcbAlimentacao: {
-    group: "F-8/F-2 (alimentação) com até 750 m² e capacidade média — atende CLCB se a carga de incêndio for compatível",
+    group: "F-8/F-2 (alimentação) com até 750 m² (ou até 1.500 m² com hidrantes) e capacidade média — atende CLCB se a carga de incêndio for compatível",
     risk: "central de GLP, coifa de cozinha, extintor classe K, rota de fuga até a calçada e lotação real verificada",
     systems: ["IT-11: saídas e lotação", "IT-21: extintor classe K para cozinha", "IT-20: sinalização", "IT-28: GLP com ART", "IT-25: combustíveis líquidos quando houver"],
     prazo: "20 a 45 dias para CLCB sem pendências; 45 a 90 dias com adequação de gás, coifa ou extintor",
@@ -80,7 +80,7 @@ const occupationProfiles: Record<string, {
   },
   // CLCB Saúde — clínicas, consultórios, fisioterapia, odontologia
   clcbSaude: {
-    group: "H-2 (atendimento à saúde) até 750 m² — clínica, consultório, fisioterapia, odontologia",
+    group: "H-2 (atendimento à saúde) até 750 m², ou até 1.500 m² com hidrantes — clínica, consultório, fisioterapia, odontologia",
     risk: "acessibilidade nas rotas (cadeirantes, macas), oxigênio medicinal, equipamentos elétricos sensíveis e exigências de planos de saúde",
     systems: ["IT-11: rotas com largura para macas/cadeira de rodas", "IT-21: extintor CO₂ para sala de raio-X/equipamentos", "IT-20: sinalização visível", "IT-18: iluminação de emergência em áreas críticas"],
     prazo: "15 a 45 dias para CLCB sem pendências; 30 a 60 dias com adequação de extintor por tipo de sala ou sinalização",
@@ -273,9 +273,9 @@ export function OccupationAuthorityBlock({ occupation, currentSlug }: Occupation
             <h3 className="text-xl font-black uppercase italic mb-6">Tabela rapida por metragem</h3>
             <div className="space-y-4">
               {[
-                ["Ate 750 m2", "Pode enquadrar como CLCB se não houver alto risco, subsolo complexo ou público elevado."],
-                ["750 a 1.500 m2", "Exige análise de sistemas, lotação e saídas; muitos casos migram para Projeto Técnico."],
-                ["Acima de 1.500 m2", "Normalmente exige projeto completo, ARTs, memoriais, vistoria e acompanhamento técnico."],
+                ["Até 750 m²", "Pode enquadrar como CLCB sem sistema de hidrantes, se não houver alto risco, subsolo complexo ou público elevado."],
+                ["751 a 1.500 m²", "Ainda pode ser CLCB, desde que a edificação tenha sistema de hidrantes, entre outras exigências. Sem isso, vai para AVCB."],
+                ["Acima de 1.500 m²", "Sai do CLCB e normalmente exige projeto completo, ARTs, memoriais, vistoria e acompanhamento técnico."],
                 ["Acima de 2.500 m2", "Avaliar hidrantes, alarme setorizado, controle de fumaca, sprinklers e brigada."],
               ].map(([area, desc]) => (
                 <div key={area} className="flex gap-4 border border-white/10 rounded-2xl p-4 bg-white/5">

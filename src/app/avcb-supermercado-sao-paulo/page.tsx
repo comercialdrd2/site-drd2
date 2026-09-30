@@ -330,11 +330,6 @@ export default function AVCBSupermercadoMasterPage() {
       {/* ── FAQ ── */}
       {/* ── PROVA SOCIAL ── */}
       <SocialProof
-        testimonial={{
-          text: "A DRD2 regularizou nossa rede de 3 supermercados em tempo récord. Cada unidade foi aprovada sem nenhuma pendência. Essencial para manter o CMVS em dia e operar com segurança.",
-          author: "Paulo Henrique Salaveá",
-          role: "Sócio — Rede Mercado Unido SP",
-        }}
       />
 
       {/* ── FAQ ── */}

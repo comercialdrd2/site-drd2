@@ -26,8 +26,8 @@ const data: UniversalPageData = {
   "occupationType": "imóvel",
   "h2_principal": {
     "heading": "AVCB e CLCB: o que são e quando cada um se aplica?",
-    "body": "O AVCB — Auto de Vistoria do Corpo de Bombeiros — é o certificado completo, emitido após vistoria presencial do CBPMESP com análise de todos os sistemas de prevenção e combate a incêndio instalados. É exigido para edificações acima de 750m², ocupações de alto risco e qualquer imóvel com sistema de sprinkler, hidrante pressurizado ou alarme de detecção instalado, independente da área.",
-    "body2": "O CLCB — Certificado de Licença do Corpo de Bombeiros — é a versão simplificada para imóveis de até 750m² e baixo risco de incêndio conforme o Decreto 69.118/2024. O processo é mais ágil, pode ser concedido com análise documental sem vistoria presencial em muitos casos, e tem custo significativamente menor. Escolher CLCB quando o imóvel exige AVCB gera rejeição imediata do processo no protocolo."
+    "body": "O AVCB — Auto de Vistoria do Corpo de Bombeiros — é o certificado completo, emitido após vistoria presencial do CBPMESP com análise de todos os sistemas de prevenção e combate a incêndio instalados. É exigido para edificações acima de 1.500 m², para imóveis acima de 750 m² sem sistema de hidrantes e para ocupações de alto risco.",
+    "body2": "O CLCB — Certificado de Licença do Corpo de Bombeiros — é a versão simplificada para imóveis de baixo risco de incêndio com até 750 m², ou até 1.500 m² quando há sistema de hidrantes instalado, entre outras exigências. O processo é mais ágil, pode ser concedido com análise documental sem vistoria presencial em muitos casos, e tem custo significativamente menor. Escolher CLCB quando o imóvel exige AVCB gera rejeição imediata do processo no protocolo."
   },
   "h2_riscos": {
     "heading": "Por que o enquadramento incorreto é um problema grave",
@@ -65,20 +65,20 @@ const data: UniversalPageData = {
     "alerta": "Área isolada não define o enquadramento. O uso e o risco também contam.",
     "itens": [
       {
-        "titulo": "CLCB: imóveis até 750m² e baixo risco",
-        "desc": "Escritórios, consultórios sem internação, lojas de varejo, salões de beleza, academias pequenas, padarias e atividades similares de baixo risco de incêndio. Processo simplificado, análise documental, prazo de 30–45 dias."
+        "titulo": "CLCB: imóveis de baixo risco até 1.500 m²",
+        "desc": "Escritórios, consultórios sem internação, lojas de varejo, salões de beleza, academias pequenas, padarias e atividades similares de baixo risco de incêndio. Até 750 m², sem exigência de hidrantes; de 751 a 1.500 m², com sistema de hidrantes, entre outras exigências. Processo simplificado, análise documental, prazo de 30–45 dias."
       },
       {
-        "titulo": "AVCB: obrigatório acima de 750m²",
-        "desc": "Qualquer edificação com área total acima de 750m² exige AVCB, independente do tipo de ocupação. Condomínios, galpões, supermercados e escritórios corporativos entram nessa categoria."
+        "titulo": "AVCB: obrigatório acima de 1.500 m²",
+        "desc": "Qualquer edificação com área total acima de 1.500 m² exige AVCB, independente do tipo de ocupação. Entre 751 e 1.500 m², sem sistema de hidrantes, o caminho também é o AVCB."
       },
       {
         "titulo": "AVCB por risco: independe da área",
         "desc": "Casas noturnas, hospitais, hotéis, locais de reunião de público acima de 50 pessoas, postos de combustível e imóveis com armazenamento de inflamáveis exigem AVCB independente da área."
       },
       {
-        "titulo": "AVCB por sistemas instalados",
-        "desc": "Imóvel com sistema de sprinkler, hidrante pressurizado ou alarme de detecção instalado exige AVCB mesmo que a área seja inferior a 750m². O sistema define o enquadramento."
+        "titulo": "AVCB por sistemas exigidos",
+        "desc": "Quando a ocupação exige sistemas além dos previstos para o CLCB, como chuveiros automáticos (sprinklers), o caminho é o AVCB mesmo em área menor. O engenheiro confirma o enquadramento no diagnóstico."
       }
     ],
     "closing": "A DRD2 realiza o enquadramento correto gratuitamente: análise da área, uso, sistemas e ocupação conforme a Tabela A do Decreto 69.118/2024. Erro de enquadramento não acontece."
@@ -140,11 +140,11 @@ const data: UniversalPageData = {
     },
     {
       "question": "Meu imóvel mudou de uso — preciso mudar de CLCB para AVCB?",
-      "answer": "Depende. Se o novo uso eleva o risco ou a área foi ampliada acima de 750m², a migração para AVCB é obrigatória. Operar com CLCB quando o imóvel exige AVCB é irregularidade que pode gerar embargo. A DRD2 avalia a necessidade de migração gratuitamente."
+      "answer": "Depende. Se o novo uso eleva o risco, ou se a área passou de 1.500 m² (ou de 750 m² sem sistema de hidrantes), a migração para AVCB é obrigatória. Operar com CLCB quando o imóvel exige AVCB é irregularidade que pode gerar embargo. A DRD2 avalia a necessidade de migração gratuitamente."
     },
     {
       "question": "CLCB e AVCB têm o mesmo prazo de validade?",
-      "answer": "Sim. Ambos têm prazo de validade definido pelo CBPMESP, geralmente de 1 a 5 anos conforme o tipo de ocupação. A renovação deve ser iniciada com pelo menos 90 dias de antecedência do vencimento."
+      "answer": "O AVCB tem validade de 3 anos. O CLCB também tem validade definida pelo Corpo de Bombeiros. Nos dois casos, a data de vencimento vem impressa no próprio certificado, e a renovação deve ser iniciada com pelo menos 90 dias de antecedência."
     },
     {
       "question": "Posso ter CLCB para parte do imóvel e AVCB para outra?",

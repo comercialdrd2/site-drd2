@@ -800,7 +800,7 @@ export const localNeighborhoods: LocalNeighborhoodSeoPage[] = [
           "Cilindros de CO2 vazios",
           "Rotas de fuga obstruídas por lixo"
       ],
-      "urgency": "Condomínios gigantes recém-entregues na Lapa costumam perder o primeiro AVCB (de 5 anos) por pura falta de manutenção. As construtoras entregam o sistema perfeito, mas a ausência de contratos preventivos faz com que mangueiras apodreçam e baterias de alarmes estourem antes da primeira renovação.",
+      "urgency": "Condomínios gigantes recém-entregues na Lapa costumam perder o primeiro AVCB (de 3 anos) por pura falta de manutenção. As construtoras entregam o sistema perfeito, mas a ausência de contratos preventivos faz com que mangueiras apodreçam e baterias de alarmes estourem antes da primeira renovação.",
       "nearby": [
           "Vila Leopoldina",
           "Pompeia",

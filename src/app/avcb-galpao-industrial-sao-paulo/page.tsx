@@ -5,7 +5,7 @@ import {
   Phone, CheckCircle2, ShieldAlert, ArrowRight, ShieldCheck,
   Flame, Droplets, Lightbulb, TriangleAlert, Bell, Layers,
   Users, MapPin, ShieldX, Factory, Zap,
-  FileText, Clock, Star, Box
+  FileText, Clock, Box
 } from "lucide-react";
 import { JsonLD, generateMasterSchema } from "@/components/JsonLD";
 import LeadForm from "@/components/LeadForm";
@@ -186,7 +186,7 @@ export default function AVCBGalpaoPage() {
                 <div>
                   <p className="text-slate-900 font-black text-xl mb-2">CLCB (Processo Simplificado)</p>
                   <p className="text-slate-600 leading-relaxed font-medium">
-                    Aplicável a galpões de menor risco, geralmente com <strong>área construída de até 750 m²</strong> (ou até 1.500 m² sob condições específicas da IT-42). É um licenciamento ágil, muitas vezes emitido por amostragem sem necessidade de vistoria prévia presencial do Bombeiro, se os laudos ART forem bem elaborados.
+                    Aplicável a galpões de menor risco, com <strong>área construída de até 750 m²</strong> sem sistema de hidrantes, ou <strong>até 1.500 m²</strong> com sistema de hidrantes instalado, entre outras exigências. É um licenciamento ágil, muitas vezes emitido por amostragem sem necessidade de vistoria prévia presencial do Bombeiro, se os laudos ART forem bem elaborados.
                   </p>
                 </div>
               </div>
@@ -203,33 +203,10 @@ export default function AVCBGalpaoPage() {
                 <div>
                   <p className="text-slate-900 font-black text-xl mb-2">AVCB (Projeto Técnico Completo)</p>
                   <p className="text-slate-600 leading-relaxed font-medium">
-                    Exigido para galpões <strong>acima de 750 m²</strong> ou operações com carga de incêndio elevada. Exige aprovação de plantas arquitetônicas, memoriais de cálculo hidráulico, instalação de sistemas complexos (hidrantes/sprinklers) e a obrigatoriedade da vistoria física do Oficial do CBPMESP.
+                    Exigido para galpões <strong>acima de 1.500 m²</strong>, galpões acima de 750 m² sem os sistemas exigidos para o CLCB, ou operações com carga de incêndio elevada. Exige aprovação de plantas arquitetônicas, memoriais de cálculo hidráulico, instalação de sistemas complexos (hidrantes/sprinklers) e a obrigatoriedade da vistoria física do Oficial do CBPMESP.
                   </p>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── 3. OTIMIZAÇÃO DE PROVA SOCIAL (CRO): Depoimento do Nicho ── */}
-      <section className="py-20 bg-white border-b border-slate-200">
-        <div className="container mx-auto px-4 max-w-4xl text-center">
-          <div className="flex justify-center mb-6 text-amber-500">
-            <Star className="w-8 h-8 fill-current" />
-            <Star className="w-8 h-8 fill-current" />
-            <Star className="w-8 h-8 fill-current" />
-            <Star className="w-8 h-8 fill-current" />
-            <Star className="w-8 h-8 fill-current" />
-          </div>
-          <p className="text-2xl text-slate-800 italic font-medium leading-relaxed mb-8">
-            "Nosso Centro de Distribuição em Barueri foi autuado e quase perdeu o seguro devido à alteração no layout de estocagem que invalidou o projeto anterior. O Eng. Samuel refez o memorial de carga de incêndio (IT-14), adequou os bicos do sprinkler na IT-23 e aprovaram o novo AVCB na primeira vistoria. Uma assessoria impecável para logística."
-          </p>
-          <div className="flex items-center justify-center gap-4">
-            <div className="w-14 h-14 bg-slate-900 rounded-full flex items-center justify-center text-white font-black text-xl">R</div>
-            <div className="text-left">
-              <p className="font-black text-slate-900 uppercase">Ricardo M.</p>
-              <p className="text-sm text-slate-500 font-medium">Diretor de Logística (Supply Chain) • Barueri, SP</p>
             </div>
           </div>
         </div>
@@ -368,7 +345,7 @@ export default function AVCBGalpaoPage() {
               },
               {
                 question: "Qual a diferença entre AVCB e CLCB para galpões logísticos?",
-                answer: "O CLCB é modalidade simplificada, aplicada a depósitos de baixo risco e área de até 750 m² (em regras da IT-42, até 1.500m²). Para a maioria dos galpões acima dessa metragem, ou com pé-direito elevado e uso de inflamáveis, o AVCB Completo é exigido."
+                answer: "O CLCB é modalidade simplificada, aplicada a depósitos de baixo risco com até 750 m², ou até 1.500 m² quando há sistema de hidrantes instalado, entre outras exigências. Para a maioria dos galpões acima dessa metragem, ou com pé-direito elevado e uso de inflamáveis, o AVCB Completo é exigido."
               },
               {
                 question: "Galpão alugado: quem paga o AVCB, o dono do imóvel ou a indústria?",

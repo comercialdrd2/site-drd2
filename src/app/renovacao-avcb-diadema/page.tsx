@@ -228,11 +228,6 @@ export default function RenovacaoAvcbDiademaPage() {
       </section>
 
       <SocialProof
-        testimonial={{
-          text: "Nossa planta de cosméticos em Diadema estava com AVCB vencido — risco de perder auditoria do cliente principal. A DRD2 agiu com urgência, conduziu tudo com competência técnica e entregou o AVCB renovado antes do prazo da auditoria.",
-          author: "Cliente DRD2 Engenharia",
-          role: "Gerente de Qualidade — Diadema, SP",
-        }}
       />
 
       <section className="py-24 bg-slate-50">

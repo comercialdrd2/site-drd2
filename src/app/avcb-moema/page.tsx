@@ -46,7 +46,7 @@ export default function MoemaLandingPage() {
     },
     {
       question: "Meu imóvel em Moema precisa de AVCB completo ou CLCB simplificado?",
-      answer: "Depende da área e do uso. Imóveis acima de 750m² ou com uso de alto risco geralmente exigem AVCB completo. Abaixo disso, pode ser CLCB. A DRD2 avalia o enquadramento correto gratuitamente."
+      answer: "Depende da área e do uso. Imóveis acima de 1.500 m² ou com uso de alto risco exigem AVCB completo. Até 750 m², pode ser CLCB; de 751 a 1.500 m², também, desde que o imóvel tenha sistema de hidrantes, entre outras exigências. A DRD2 avalia o enquadramento correto gratuitamente."
     },
     {
       question: "O AVCB vencido impede a renovacao do alvará de funcionamento em Moema?",
@@ -266,11 +266,6 @@ export default function MoemaLandingPage() {
 
             {/* â"€â"€ PROVA SOCIAL â"€â"€ */}
       <SocialProof
-        testimonial={{
-          text: "A DRD2 regularizou nosso estabelecimento em Moema com agilidade e sem burocracia. Processo impecavel, AVCB aprovado sem nenhuma pendência. Recomendo a todos os empresarios da regiao.",
-          author: "Cliente DRD2 Engenharia",
-          role: "Empresario — Moema, São Paulo",
-        }}
       />
 
       {/* FAQ Estilo Casa de Repouso */}

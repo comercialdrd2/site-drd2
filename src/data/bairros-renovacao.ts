@@ -9,11 +9,6 @@ export interface BairroData {
   box: string;
   problemas: [string, string, string];
   problemasDesc: [string, string, string];
-  testimonial?: {
-    text: string;
-    author: string;
-    role: string;
-  };
   faq1q: string;
   faq1a: string;
   faq2q: string;
@@ -160,7 +155,7 @@ export const bairrosCondominio: BairroData[] = [
     "avenidas": "Rua Pio XI, Guaicurus, Cerro Corá e Tito",
     "perfil": "vila de antigas indústrias que deram lugar a modernos condomínios residenciais e comerciais",
     "intro": "A Lapa vive um boom de condomínios-clube erguidos sobre terrenos de antigas fábricas. Esses complexos abrigam milhares de moradores e sistemas massivos de prevenção de incêndio. A gestão documental (As-Built e PMOC) para evitar falhas em um sistema tão grande é o desafio número um dos síndicos profissionais da região.",
-    "box": "Condomínios gigantes recém-entregues na Lapa costumam perder o primeiro AVCB (de 5 anos) por pura falta de manutenção. As construtoras entregam o sistema perfeito, mas a ausência de contratos preventivos faz com que mangueiras apodreçam e baterias de alarmes estourem antes da primeira renovação.",
+    "box": "Condomínios gigantes recém-entregues na Lapa costumam perder o primeiro AVCB (de 3 anos) por pura falta de manutenção. As construtoras entregam o sistema perfeito, mas a ausência de contratos preventivos faz com que mangueiras apodreçam e baterias de alarmes estourem antes da primeira renovação.",
     "problemas": [
       "Falta de manutenção em prédios novos",
       "Cilindros de CO2 vazios",
@@ -172,7 +167,7 @@ export const bairrosCondominio: BairroData[] = [
       "Moradores deixando bicicletas, lixeiras e móveis nos corredores e escadas, bloqueando as saídas de emergência."
     ],
     "faq1q": "Prédio novo recém entregue pela construtora tem garantia do Corpo de Bombeiros?",
-    "faq1a": "O AVCB emitido na entrega da obra tem validade de 3 a 5 anos, MAS a legislação obriga a manutenção periódica documentada (PMOC). Se o condomínio não fizer o teste anual das mangueiras ou recarga dos extintores, o AVCB perde a validade técnica e jurídica instantaneamente.",
+    "faq1a": "O AVCB emitido na entrega da obra tem validade de 3 anos, MAS a legislação obriga a manutenção periódica documentada (PMOC). Se o condomínio não fizer o teste anual das mangueiras ou recarga dos extintores, o AVCB perde a validade técnica e jurídica instantaneamente.",
     "ctaFinal": "Sua primeira ou décima renovação na Lapa com garantia total",
     "guiaLegislacaoLocal": "A aprovação de projetos técnicos e a emissão do Auto de Vistoria do Corpo de Bombeiros (AVCB) no bairro de Lapa obedecem rigorosamente aos trâmites do Comando do Corpo de Bombeiros da Polícia Militar do Estado de São Paulo (CBPMESP), em conjunto com as diretrizes da Subprefeitura responsável pela Zona Oeste. Devido ao perfil local, marcado por vila de antigas indústrias que deram lugar a modernos condomínios residenciais e comerciais, a fiscalização na região da Rua Pio XI, Guaicurus, Cerro Corá e Tito tem se intensificado, especialmente após as recentes atualizações do Decreto Estadual 69.118/2024. O decreto exige que edificações existentes se adaptem às novas Instruções Técnicas (ITs), sob pena de interdição.\n\nMuitos gestores e síndicos em Lapa não sabem que, em caso de sinistro, podem ser chamados a responder civil e criminalmente se as medidas de segurança não estiverem em dia. Se uma edificação não possui o AVCB válido ou se as medidas de segurança contra incêndio (como extintores, mangueiras e detectores) estiverem inoperantes, a apólice de seguro predial pode ser sumariamente anulada. Em uma região com vila de antigas indústrias que deram lugar a modernos condomínios residenciais e comerciais, a ausência de compartimentação adequada ou falhas no sistema elétrico potencializam o risco estrutural. É por isso que a engenharia preventiva se torna não apenas uma exigência legal, mas um escudo jurídico para a administração.\n\nO processo de renovação em Lapa começa com a fase de diagnóstico e emissão de laudos técnicos especializados. Nossos engenheiros realizam o levantamento de campo minucioso para avaliar se a infraestrutura existente atende à IT-21 (Sistemas de proteção por extintores), IT-22 (Sistemas de hidrantes), e IT-41 (Inspeção visual em instalações elétricas). Caso haja divergências entre o Projeto Técnico aprovado anteriormente e a realidade física da edificação — como o fechamento irregular de varandas ou alteração de rotas de fuga —, é obrigatório protocolar um Formulário de Atendimento Técnico (FAT) ou um Projeto Técnico de Substituição (PTS) junto ao Via Fácil Bombeiros.\n\nApós a adequação física e documental, todos os laudos (ARTs de elétrica, SPDA, gás e bombas) são consolidados e submetidos eletronicamente. A vistoria do CBPMESP na região de Lapa é rigorosa e os tenentes vistoriadores testam na prática o funcionamento das bombas de recalque e o acionamento do alarme geral. Com a DRD2 Engenharia, acompanhamos o vistoriador presencialmente em seu endereço próximo à Rua Pio XI, Guaicurus, Cerro Corá e Tito, garantindo que qualquer questionamento técnico seja sanado imediatamente, resultando na emissão rápida e segura do seu AVCB.",
     "custoDetalhe": "Em Lapa, os custos de renovação do AVCB variam drasticamente dependendo do grau de manutenção preventiva que a edificação recebeu nos últimos anos. Para condomínios ou estabelecimentos que estão com todos os sistemas operantes, o investimento foca apenas na responsabilidade técnica (ARTs) e nas taxas estaduais, girando em torno de emissões de laudos básicos. No entanto, se o seu prédio apresentar problemas comuns da região, como falta de manutenção em prédios novos ou cilindros de co2 vazios, será necessário um orçamento para adequação física antes da vistoria. Por exemplo, a emissão de um laudo de estanqueidade de gás ou termografia elétrica pode custar uma fração mínima se comparada à multa aplicada pelo CBPMESP por operação irregular. A DRD2 fornece um diagnóstico claro e modular, separando o custo documental do custo de obras (se necessárias).",
@@ -532,7 +527,7 @@ export const bairrosCondominio: BairroData[] = [
     "avenidas": "Av. Imperatriz Leopoldina, Gastão Vidigal e Carlos Weber",
     "perfil": "condomínios de alto padrão recentes construídos em antigas áreas industriais",
     "intro": "A Vila Leopoldina passou por uma explosão imobiliária na última década. A principal peculiaridade para a engenharia de incêndio local é que muitos desses novos condomínios-clube dividem muros ou infraestrutura com antigos galpões industriais ainda operantes, exigindo isolamento de risco severo.",
-    "box": "Quando a construtora entrega o prédio, o AVCB costuma estar em ordem. O problema surge na primeira renovação (após 5 anos), quando o condomínio descobre que as bombas de incêndio importadas ou os sistemas de alarme digitais nunca receberam a manutenção obrigatória do fabricante.",
+    "box": "Quando a construtora entrega o prédio, o AVCB costuma estar em ordem. O problema surge na primeira renovação (após 3 anos), quando o condomínio descobre que as bombas de incêndio importadas ou os sistemas de alarme digitais nunca receberam a manutenção obrigatória do fabricante.",
     "problemas": [
       "Bombas de incêndio desativadas por vazamento",
       "Isolamento de risco rompido",

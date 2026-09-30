@@ -404,11 +404,6 @@ export default function AVCBBoateMasterPage() {
 
       {/* ── PROVA SOCIAL ── */}
       <SocialProof
-        testimonial={{
-          text: "A DRD2 regularizou nossa boate em tempo récord. No mês seguinte à aprovação passamos por uma operação surpresa do Bombeiro e não tivemos nenhuma pendência. Valeu cada centavo investido.",
-          author: "Ricardo Alvares",
-          role: "Proprietário — Club Noir, Vila Olímpia",
-        }}
       />
 
       {/* ── FAQ ── */}

@@ -89,7 +89,7 @@ const data: UniversalPageData = {
     body1: "Com base em processos reais da DRD2, esses são os perfis de imóvel que fecham em 15 dias com maior frequência:",
     alerta: "A DRD2 só confirma o prazo de 15 dias após a vistoria técnica gratuita. Não trabalhamos com prazo prometido sem diagnóstico — é a única forma de garantir a entrega.",
     itens: [
-      { titulo: "CLCB (até 750m², baixo risco)", desc: "O processo mais rápido do CBPMESP. Com documentação pronta, é o perfil mais frequente para 15 dias." },
+      { titulo: "CLCB (baixo risco, até 1.500 m²)", desc: "O processo mais rápido do CBPMESP. Com documentação pronta, é o perfil mais frequente para 15 dias." },
       { titulo: "Restaurante e bar com laudo de gás válido", desc: "Se o laudo de gás e o extintor estão em dia, protocolamos rápido. O sistema de coifa precisa estar documentado." },
       { titulo: "Escritório e sala comercial conforme", desc: "Ocupações de menor risco com menos sistemas exigidos têm análise mais ágil no CBPMESP." },
       { titulo: "Loja de varejo até 1.500m²", desc: "Com sistemas básicos conformes (extintor, alarme, sinalização), processo ágil e vistoria rápida." },

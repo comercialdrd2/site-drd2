@@ -438,7 +438,7 @@ export default function AVCBHospitalMasterPage() {
               },
               {
                 question: "Qual a diferença entre AVCB e CLCB para clínicas?",
-                answer: "O CLCB é para clínicas de menor porte (geralmente até 750 m²) e baixo risco. O AVCB é para hospitais e clínicas maiores ou com alto risco (presença de internação, centros cirúrgicos, etc.)."
+                answer: "O CLCB é para clínicas de baixo risco com até 750 m², ou até 1.500 m² com sistema de hidrantes. O AVCB é para hospitais e clínicas maiores ou com alto risco (presença de internação, centros cirúrgicos, etc.)."
               },
               {
                 question: "O que é o enquadramento no Grupo H?",
@@ -567,11 +567,6 @@ export default function AVCBHospitalMasterPage() {
 
       {/* -- PROVA SOCIAL -- */}
       <SocialProof
-        testimonial={{
-          text: "A DRD2 foi fundamental para regularizarmos nossa clínica a tempo da renovação VISA. Processo impecável, primeiro AVCB aprovado sem nenhuma pendência. Profissionalismo acima da média.",
-          author: "Dr. Marcelo Teixeira",
-          role: "Diretor Clínico — Instituto Médico Bela Vista SP",
-        }}
       />
 
       {/* -- CTA 4 — APÓS ARTIGOS -- */}

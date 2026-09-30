@@ -64,7 +64,7 @@ const data: UniversalPageData = {
     "alerta": "Inicie o processo com pelo menos 90 dias de antecedência do vencimento.",
     "itens": [
       {
-        "titulo": "CLCB — Imóveis até 750m², baixo risco",
+        "titulo": "CLCB — Imóveis de baixo risco até 1.500 m²",
         "desc": "Prazo total: 30 a 45 dias. Inclui diagnóstico (2–3 dias), documentação (5–10 dias), análise CBPMESP (15–25 dias) e emissão (5 dias). Exemplos: escritórios, consultórios, lojas pequenas, salões."
       },
       {
@@ -72,7 +72,7 @@ const data: UniversalPageData = {
         "desc": "Prazo total: 60 a 90 dias. Inclui diagnóstico e adequações (10–15 dias), projeto e documentação (10–15 dias), análise e vistoria CBPMESP (30–60 dias), emissão (5–10 dias)."
       },
       {
-        "titulo": "AVCB — Comércio e serviços acima de 750m²",
+        "titulo": "AVCB — Comércio e serviços acima de 1.500 m²",
         "desc": "Prazo total: 60 a 120 dias. Restaurantes, supermercados e academias grandes geralmente levam 75 a 90 dias com documentação completa. Varia com número de sistemas."
       },
       {
@@ -135,7 +135,7 @@ const data: UniversalPageData = {
   "faqs": [
     {
       "question": "O AVCB tem data de vencimento fixa ou varia por tipo?",
-      "answer": "O prazo de validade varia por tipo de ocupação conforme definido pelo CBPMESP no momento da emissão. Pode ser de 1, 2, 3 ou 5 anos. Condomínios residenciais geralmente recebem validade de 5 anos. Hospitais e locais de alto risco recebem validade menor. A data está impressa no próprio certificado."
+      "answer": "O AVCB tem validade de 3 anos, inclusive em condomínios residenciais. A data de vencimento está impressa no próprio certificado."
     },
     {
       "question": "Posso renovar o AVCB antes de vencer?",

@@ -199,11 +199,6 @@ export default function HidrantesGalpaoPage() {
 
       {/* ── SOCIAL PROOF ── */}
       <SocialProof
-        testimonial={{
-          text: "A DRD2 instalou toda a rede de hidrantes do nosso galpão logístico de 4.000 m² em tempo recorde. O AVCB foi aprovado na primeira vistoria sem nenhum comunique-se. Equipe técnica impecável.",
-          author: "Marcos Albuquerque",
-          role: "Gerente de Operações — Galpão Logístico, Guarulhos SP",
-        }}
       />
 
       {/* ── DOCUMENTAÇÃO NECESSÁRIA ── */}

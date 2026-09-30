@@ -199,9 +199,6 @@ export default function EmpresaAVCBPage() {
                          </span>
                        ))}
                     </div>
-                    <div className="mt-10 border-t border-white/10 pt-8">
-                       <p className="text-sm text-gray-400 font-medium italic">"A DRD2 é a nossa escolha recorrente para auditorias de segurança em nossas plantas industriais de SP." — Diretor de Facilities</p>
-                    </div>
                  </div>
                </div>
             </div>

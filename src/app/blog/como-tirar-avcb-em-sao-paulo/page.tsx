@@ -51,7 +51,7 @@ export default function ComoTirarAVCBPost() {
     { title: "Projeto", desc: "Elaboração do PPCI (Plano de Prevenção e Proteção Contra Incêndio) com memorial descritivo, plantas técnicas e emissão obrigatória da ART no CREA-SP.", icon: DraftingCompass },
     { title: "Protocolo", desc: "Submissão digital do processo completo no portal do CBPMESP com pagamento das taxas estaduais. O número de protocolo permite acompanhar a análise online.", icon: Send },
     { title: "Vistoria", desc: "Agendamento e acompanhamento da inspeção oficial por representante do Corpo de Bombeiros, que verifica in loco se os sistemas implantados atendem ao projeto aprovado.", icon: Search },
-    { title: "Certificado", desc: "Após aprovação da vistoria, o AVCB é emitido com prazo de validade de 1 a 5 anos conforme o tipo de ocupação e porte da edificação, habilitando o imóvel para funcionamento regular.", icon: Scroll }
+    { title: "Certificado", desc: "Após aprovação da vistoria, o AVCB é emitido com validade de 3 anos, habilitando o imóvel para funcionamento regular.", icon: Scroll }
   ];
 
   const faqItems = [
@@ -73,7 +73,7 @@ export default function ComoTirarAVCBPost() {
     },
     {
       question: "Qual é a validade do AVCB após a aprovação?",
-      answer: "A validade do AVCB varia conforme o tipo de ocupação e o porte da edificação — geralmente de 1 a 5 anos. Ocupações de maior risco, como postos de combustível e indústrias químicas, têm validades mais curtas. O proprietário é responsável por iniciar o processo de renovação antes do vencimento para evitar multas e irregularidades."
+      answer: "O AVCB tem validade de 3 anos — a data de vencimento vem impressa no próprio certificado. Ocupações de maior risco, como postos de combustível e indústrias químicas, têm validades mais curtas. O proprietário é responsável por iniciar o processo de renovação antes do vencimento para evitar multas e irregularidades."
     }
   ];
 
@@ -187,12 +187,12 @@ export default function ComoTirarAVCBPost() {
                   <tbody className="bg-white text-slate-700">
                     <tr className="border-b border-slate-100 italic">
                       <td className="p-6 font-bold uppercase text-xs">CLCB (Simplificado)</td>
-                      <td className="p-6 font-bold">Até 750m²</td>
+                      <td className="p-6 font-bold">Até 750 m² (até 1.500 m² com hidrantes)</td>
                       <td className="p-6 text-xs font-black text-primary">30 a 60 Dias</td>
                     </tr>
                     <tr className="border-b border-slate-100 italic">
                       <td className="p-6 font-bold uppercase text-xs">AVCB Médio</td>
-                      <td className="p-6 font-bold">750m² a 1.500m²</td>
+                      <td className="p-6 font-bold">Até 1.500 m², quando não cabe no CLCB</td>
                       <td className="p-6 text-xs font-black text-primary">60 a 120 Dias</td>
                     </tr>
                     <tr className="italic">

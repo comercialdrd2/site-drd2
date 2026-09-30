@@ -228,11 +228,6 @@ export default function RenovacaoAvcbSantosPage() {
       </section>
 
       <SocialProof
-        testimonial={{
-          text: "Nosso hotel em Santos estava com AVCB vencido e risco de interdição. A DRD2 enviou engenheiro no dia seguinte, identificou os equipamentos corroídos pela maresia e conduziu toda a renovação sem fechar o hotel. Serviço excelente.",
-          author: "Cliente DRD2 Engenharia",
-          role: "Gerente de Hotel — Santos, SP",
-        }}
       />
 
       <section className="py-24 bg-slate-50">

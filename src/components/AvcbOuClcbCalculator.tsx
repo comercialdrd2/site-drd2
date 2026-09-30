@@ -65,12 +65,12 @@ function calculate(area: number, occupation: Occupation | null, floors: number, 
     };
   }
 
-  // Regra 2: area > 750 m² ja exige AVCB
-  if (area > 750) {
+  // Regra 2: area > 1.500 m² ja exige AVCB (de 751 a 1.500 m², o CLCB exige sistema de hidrantes)
+  if (area > 1500) {
     return {
       type: "AVCB",
       title: "AVCB recomendado",
-      reason: `Edificações acima de 750 m² (sua área: ${area} m²) saem do enquadramento CLCB e exigem AVCB com Projeto Técnico, vistoria física e ART do engenheiro responsável.`,
+      reason: `Edificações acima de 1.500 m² (sua área: ${area} m²) saem do enquadramento CLCB e exigem AVCB com Projeto Técnico, vistoria física e ART do engenheiro responsável.`,
       ctaLabel: "Ver renovação de AVCB",
       ctaHref: "/renovacao-avcb",
     };
@@ -92,7 +92,7 @@ function calculate(area: number, occupation: Occupation | null, floors: number, 
     return {
       type: "AVCB",
       title: "AVCB recomendado",
-      reason: `Lotação acima de 100 pessoas (você indicou ${capacity}) tipicamente exige AVCB pelo dimensionamento de saídas de emergência conforme IT-11, mesmo em áreas menores que 750 m².`,
+      reason: `Lotação acima de 100 pessoas (você indicou ${capacity}) tipicamente exige AVCB pelo dimensionamento de saídas de emergência conforme IT-11, mesmo em áreas pequenas.`,
       ctaLabel: "Ver renovação de AVCB",
       ctaHref: "/renovacao-avcb",
     };
@@ -114,7 +114,7 @@ function calculate(area: number, occupation: Occupation | null, floors: number, 
   return {
     type: "CLCB",
     title: "CLCB é a opção mais ágil para você",
-    reason: `Com ${area} m², ${floors} pavimento(s) e lotação até ${capacity} pessoas em uma ocupação de baixo/médio risco (${occupation.label}), você se enquadra no CLCB — processo simplificado, sem vistoria física obrigatória, prazo de 15 a 45 dias.`,
+    reason: `Com ${area} m², ${floors} pavimento(s) e lotação até ${capacity} pessoas em uma ocupação de baixo/médio risco (${occupation.label}), você se enquadra no CLCB — processo simplificado, sem vistoria física obrigatória, prazo de 15 a 45 dias.${area > 750 ? " Como a área passa de 750 m², a edificação precisa ter sistema de hidrantes, entre outras exigências." : ""}`,
     ctaLabel: `Ver renovação CLCB para ${occupation.label.toLowerCase()}`,
     ctaHref: slugMap[occupation.id] || "/renovacao-clcb-sao-paulo",
   };

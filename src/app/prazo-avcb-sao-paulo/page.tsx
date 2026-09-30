@@ -120,7 +120,7 @@ const data: UniversalPageData = {
     },
     {
       question: "É possível tirar o AVCB em 30 dias em São Paulo?",
-      answer: "Para edificações de baixo risco com CLCB (geralmente abaixo de 750m² e sem sistemas complexos), o processo pode ser concluído em 30 dias em casos favoráveis. Para AVCB completo, 30 dias é o tempo mínimo otimista — possível quando os sistemas estão 100% conformes e a documentação está perfeita. A DRD2 informa o prazo real na vistoria técnica gratuita.",
+      answer: "Para edificações de baixo risco com CLCB (até 750 m² sem hidrantes, ou até 1.500 m² com sistema de hidrantes), o processo pode ser concluído em 30 dias em casos favoráveis. Para AVCB completo, 30 dias é o tempo mínimo otimista — possível quando os sistemas estão 100% conformes e a documentação está perfeita. A DRD2 informa o prazo real na vistoria técnica gratuita.",
     },
     {
       question: "O Corpo de Bombeiros tem prazo para analisar o processo?",

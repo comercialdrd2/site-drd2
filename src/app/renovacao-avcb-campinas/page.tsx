@@ -228,11 +228,6 @@ export default function RenovacaoAvcbCampinasPage() {
       </section>
 
       <SocialProof
-        testimonial={{
-          text: "Nossa empresa farmacêutica em Campinas estava com AVCB vencido há 3 meses. A DRD2 iniciou o processo em 48h e regularizou tudo sem interromper a produção. Profissionalismo e agilidade exemplares.",
-          author: "Cliente DRD2 Engenharia",
-          role: "Gestor de Facilities — Campinas, SP",
-        }}
       />
 
       <section className="py-24 bg-slate-50">

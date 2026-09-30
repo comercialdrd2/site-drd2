@@ -137,7 +137,7 @@ export const renovacaoClcbContent = {
       },
       {
         question: "Meu imóvel pode mudar de CLCB para AVCB na renovação?",
-        answer: "Sim. Se houve ampliação de área (ultrapassando 750 m²) ou mudança para uso de maior risco, o imóvel pode passar a exigir AVCB completo. A DRD2 faz esse diagnóstico de enquadramento gratuitamente antes de iniciar qualquer processo.",
+        answer: "Sim. Se houve ampliação de área (acima de 1.500 m², ou acima de 750 m² sem sistema de hidrantes) ou mudança para uso de maior risco, o imóvel pode passar a exigir AVCB completo. A DRD2 faz esse diagnóstico de enquadramento gratuitamente antes de iniciar qualquer processo.",
       },
       {
         question: "É possível renovar o CLCB sem fazer obras?",
