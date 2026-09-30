@@ -145,7 +145,7 @@ function responsibleEngineerNode() {
     "name": "Samuel Costa",
     "jobTitle": "Engenheiro Civil e Engenheiro de Segurança do Trabalho",
     "description": "Responsável técnico da DRD2 Engenharia, CREA-SP 5070163570, com atuação em AVCB, CLCB, laudos e projetos de segurança contra incêndio.",
-    "image": `${BASE_URL}/images/eng-samuel-oficial-v2.webp`,
+    "image": `${BASE_URL}/images/eng-samuel-oficial-v3.webp`,
     "worksFor": { "@id": `${BASE_URL}/#organization` },
     "knowsAbout": knowsAbout,
     // Credencial profissional verificavel — Google usa para E-E-A-T em conteudo YMYL

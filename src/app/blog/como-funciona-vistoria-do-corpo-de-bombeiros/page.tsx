@@ -221,7 +221,7 @@ export default function VistoriaBombeirosPost() {
               <div className="not-prose my-12 bg-slate-50 border border-slate-200 rounded-[2rem] p-8 flex flex-col sm:flex-row items-center gap-8 shadow-sm max-w-4xl mx-auto">
                  <div className="relative w-28 h-28 shrink-0 rounded-full overflow-hidden border-4 border-white shadow-md">
                     <Image 
-                       src="/images/eng-samuel-oficial-v2.webp" 
+                       src="/images/eng-samuel-oficial-v3.webp" 
                        alt="Eng. Samuel Costa, responsável técnico DRD2 Engenharia, CREA-SP 5070163570" 
                        fill 
                        className="object-cover" 

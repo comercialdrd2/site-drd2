@@ -122,7 +122,7 @@ export default function HomePage() {
                 <div className="relative rounded-[2rem] overflow-hidden border border-white/10 bg-slate-900/80 backdrop-blur-xl shadow-2xl p-2">
                   <div className="relative rounded-[1.5rem] overflow-hidden aspect-[4/5]">
                     <Image
-                      src="/images/eng-samuel-oficial-v2.webp"
+                      src="/images/eng-samuel-oficial-v3.webp"
                       alt="Eng. Samuel Costa - DRD2 Engenharia"
                       fill
                       className="object-cover object-top filter contrast-125 saturate-110 group-hover:scale-105 transition-transform duration-700"

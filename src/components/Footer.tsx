@@ -39,7 +39,7 @@ export default function Footer() {
             <div className="bg-slate-900 border border-slate-800 p-4 rounded-xl shadow-inner flex items-center gap-4">
               <div className="relative w-12 h-12 shrink-0 rounded-full overflow-hidden border-2 border-slate-700 shadow-md">
                 <Image 
-                  src="/images/eng-samuel-oficial-v2.webp" 
+                  src="/images/eng-samuel-oficial-v3.webp" 
                   alt="Eng. Samuel Costa, responsável técnico DRD2 Engenharia, CREA-SP 5070163570" 
                   fill 
                   className="object-cover" 

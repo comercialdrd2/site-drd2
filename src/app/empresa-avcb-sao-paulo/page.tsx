@@ -56,7 +56,7 @@ export default function EmpresaAVCBPage() {
 
       {/* Hero Corporate - High Magnitude */}
       <section className="relative bg-slate-900 text-white pt-32 pb-24 overflow-hidden border-b-8 border-primary">
-        <Image src="/images/eng-samuel-oficial-v2.webp" alt="Equipe de engenharia especializada em regularização do Corpo de Bombeiros" fill className="object-cover object-top opacity-30 grayscale-[30%]" priority sizes="100vw" quality={65} />
+        <Image src="/images/eng-samuel-oficial-v3.webp" alt="Equipe de engenharia especializada em regularização do Corpo de Bombeiros" fill className="object-cover object-top opacity-30 grayscale-[30%]" priority sizes="100vw" quality={65} />
 
         <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] bg-cover bg-center opacity-10" />
         <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950/50" />

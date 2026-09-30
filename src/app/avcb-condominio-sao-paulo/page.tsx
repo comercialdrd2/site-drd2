@@ -554,7 +554,7 @@ export default function AVCBCondominioMasterPage() {
            <div className="bg-slate-900 rounded-[4rem] p-12 md:p-16 text-white shadow-3xl flex flex-col md:flex-row items-center gap-12 border-8 border-slate-50">
               <div className="shrink-0 relative">
                  <Image 
-                    src="/images/eng-samuel-oficial-v2.webp" 
+                    src="/images/eng-samuel-oficial-v3.webp" 
                     alt="Eng. Samuel Costa - Responsável Técnico em AVCB para Condomínios"
                     width={180}
                     height={180}
