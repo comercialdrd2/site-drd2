@@ -77,7 +77,7 @@ export const avcbHostelContent = {
       },
       {
         nome: "Saídas de emergência",
-        desc: "dimensionamento correto das rotas de fuga considerando a capacidade máxima de hóspedes, com portas de saída desobstruídas e abertura no sentido do fluxo conforme IT-08.",
+        desc: "dimensionamento correto das rotas de fuga considerando a capacidade máxima de hóspedes, com portas de saída desobstruídas e abertura no sentido do fluxo conforme IT-11.",
       },
       {
         nome: "Compartimentação corta-fogo",

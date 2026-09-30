@@ -29,9 +29,9 @@ export const renovacaoAvcbContent = {
     {
       title: "Instruções Técnicas aplicáveis à renovação",
       content: [
-        "<strong>IT-02/2019</strong>: Enquadramento e carga de incêndio aplicáveis.",
+        "<strong>IT-14/2025</strong>: Carga de incêndio aplicável à ocupação.",
         "<strong>IT-17 — Brigada de Incêndio</strong>: documentação de treinamento atualizada obrigatória.",
-        "<strong>IT-20 e IT-21</strong>: Detecção, alarme e hidrantes (se aplicável ao porte)."
+        "<strong>IT-19 e IT-22</strong>: Detecção, alarme e hidrantes (se aplicável ao porte)."
       ]
     },
     {

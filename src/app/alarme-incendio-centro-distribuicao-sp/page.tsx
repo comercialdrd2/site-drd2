@@ -4,15 +4,15 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/alarme-incendio-centro-distribuicao-sp",
   meta: {
-    title: "Sistema de Alarme de Incêndio para Centro de Distribuição em SP — IT 18/19",
-    description: "A DRD2 projeta e instala sistemas de alarme de incêndio para centro de distribuição em SP. Detecção em rack, doca e escritório. IT 18/19, VESDA e laudo para AVCB. Diagnóstico gratuito.",
+    title: "Sistema de Alarme de Incêndio para Centro de Distribuição em SP — IT 19/2025",
+    description: "A DRD2 projeta e instala sistemas de alarme de incêndio para centro de distribuição em SP. Detecção em rack, doca e escritório. IT 19/2025, VESDA e laudo para AVCB. Diagnóstico gratuito.",
   },
-  eyebrow: "IT 18/19 — Centros de Distribuição e Operadores Logísticos em SP",
+  eyebrow: "IT 19/2025 — Centros de Distribuição e Operadores Logísticos em SP",
   h1Line1: "Sistema de Alarme de Incêndio para Centro de Distribuição",
-  h1Line2: "em São Paulo — IT 18/19, VESDA e Doca",
+  h1Line2: "em São Paulo — IT 19/2025, VESDA e Doca",
   heroBg: "/images/bg-galpao.jpg",
   introP1:
-    "Centros de distribuição têm um desafio de detecção que escritórios não enfrentam: pé-direito de 12 a 18 m com rack de múltiplos andares — onde o calor e a fumaça sobem lentamente até o detector de teto enquanto o incêndio já destruiu toda uma coluna do rack. Detectores convencionais de teto respondem tarde demais para essa tipologia. A DRD2 projeta e instala sistemas de alarme de incêndio para CD em SP com tecnologia adequada para o pé-direito alto, conforme IT 18/19, com ART CREA-SP e laudo para AVCB.",
+    "Centros de distribuição têm um desafio de detecção que escritórios não enfrentam: pé-direito de 12 a 18 m com rack de múltiplos andares — onde o calor e a fumaça sobem lentamente até o detector de teto enquanto o incêndio já destruiu toda uma coluna do rack. Detectores convencionais de teto respondem tarde demais para essa tipologia. A DRD2 projeta e instala sistemas de alarme de incêndio para CD em SP com tecnologia adequada para o pé-direito alto, conforme IT 19/2025, com ART CREA-SP e laudo para AVCB.",
   introP2:
     "Processo completo: análise de pé-direito e tipologia do rack, projeto com detecção no nível correto (teto, em-rack ou VESDA), integração com sprinkler e controle de fumaça e laudo para AVCB. Diagnóstico técnico gratuito.",
   breadcrumbs: [
@@ -23,7 +23,7 @@ const data: UniversalPageData = {
   occupationType: "galpão industrial",
   h2_principal: {
     heading: "Por que detectores convencionais de teto falham em CDs com pé-direito alto?",
-    body: "A física do incêndio em rack alto é diferente de um escritório. A fumaça quente sobe em pluma e, ao chegar ao teto de 15 m de altura, já está diluída pelo ar frio dos corredores do rack — às vezes abaixo da concentração necessária para ativar detectores ópticos convencionais. Enquanto isso, o incêndio já consumiu 2 a 3 paletes de produto inflamável. A IT 18/19 reconhece esse problema e permite sistemas de detecção por amostragem de ar (VESDA — Very Early Smoke Detection Apparatus) para ambientes com pé-direito acima de 10 m.",
+    body: "A física do incêndio em rack alto é diferente de um escritório. A fumaça quente sobe em pluma e, ao chegar ao teto de 15 m de altura, já está diluída pelo ar frio dos corredores do rack — às vezes abaixo da concentração necessária para ativar detectores ópticos convencionais. Enquanto isso, o incêndio já consumiu 2 a 3 paletes de produto inflamável. A IT 19/2025 reconhece esse problema e permite sistemas de detecção por amostragem de ar (VESDA — Very Early Smoke Detection Apparatus) para ambientes com pé-direito acima de 10 m.",
     body2:
       "O VESDA captura amostras de ar através de uma rede de tubos ao longo do rack e analisa a concentração de partículas de fumaça no laboratório central — detectando o incêndio em fase pré-combustão, muito antes que a fumaça alcance o detector de teto. Para CDs com produtos de alto valor ou logística de frio (câmaras frias), o VESDA é a solução que reduz o tempo de resposta de minutos para segundos. A DRD2 avalia o pé-direito e o portfólio do CD para recomendar a tecnologia correta.",
   },
@@ -34,7 +34,7 @@ const data: UniversalPageData = {
     itens: [
       {
         titulo: "Detectores de teto em pé-direito acima de 10 m",
-        desc: "A IT 18/19 limita a altura de instalação de detectores convencionais. Em CDs com pé-direito acima de 10 m, detectores de teto sem compensação de altura ou VESDA resultam em tempo de resposta inadequado.",
+        desc: "A IT 19/2025 limita a altura de instalação de detectores convencionais. Em CDs com pé-direito acima de 10 m, detectores de teto sem compensação de altura ou VESDA resultam em tempo de resposta inadequado.",
       },
       {
         titulo: "Ausência de detecção na área de doca",
@@ -46,15 +46,15 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Central sem supervisão 24h em CD com operação noturna",
-        desc: "CDs com operação noturna precisam de operador treinado monitorando a central 24h — não apenas câmeras de segurança. A IT 18/19 é explícita nesse requisito para edificações com risco elevado e operação contínua.",
+        desc: "CDs com operação noturna precisam de operador treinado monitorando a central 24h — não apenas câmeras de segurança. A IT 19/2025 é explícita nesse requisito para edificações com risco elevado e operação contínua.",
       },
       {
         titulo: "Integração inexistente com o sistema de sprinkler",
-        desc: "A IT 18/19 exige que o alarme de incêndio seja integrado ao sinal de fluxo do sprinkler. Quando um bico aciona, a central deve indicar o setor. CDs sem essa integração têm sistema de alarme parcialmente inoperante.",
+        desc: "A IT 19/2025 exige que o alarme de incêndio seja integrado ao sinal de fluxo do sprinkler. Quando um bico aciona, a central deve indicar o setor. CDs sem essa integração têm sistema de alarme parcialmente inoperante.",
       },
       {
         titulo: "Baterias sem autonomia para CDs de grande porte",
-        desc: "A IT 18/19 exige 24h em standby e 30 min em alarme. CDs grandes têm alta quantidade de dispositivos — baterias subdimensionadas perdem a autonomia mínima exigida antes do vencimento programado.",
+        desc: "A IT 19/2025 exige 24h em standby e 30 min em alarme. CDs grandes têm alta quantidade de dispositivos — baterias subdimensionadas perdem a autonomia mínima exigida antes do vencimento programado.",
       },
     ],
   },
@@ -94,19 +94,19 @@ const data: UniversalPageData = {
     ],
   },
   h2_detalhes: {
-    heading: "O que a IT 18/19 exige para alarme de incêndio em CD",
+    heading: "O que a IT 19/2025 exige para alarme de incêndio em CD",
     body1:
-      "Centros de distribuição são classificados pela IT 18/19 conforme a área e o tipo de produto armazenado. CDs com produtos inflamáveis ou operação contínua têm exigências específicas de tecnologia de detecção e monitoramento.",
+      "Centros de distribuição são classificados pela IT 19/2025 conforme a área e o tipo de produto armazenado. CDs com produtos inflamáveis ou operação contínua têm exigências específicas de tecnologia de detecção e monitoramento.",
     alerta:
       "Ampliação do CD, instalação de câmara fria, nova doca ou mudança de portfólio para produtos inflamáveis exige atualização do projeto de alarme com nova ART.",
     itens: [
       {
         titulo: "VESDA para pé-direito acima de 10 m",
-        desc: "A IT 18/19 permite sistemas de detecção por amostragem de ar (VESDA) para edificações com pé-direito acima do limite de detectores pontuais. O VESDA detecta fumaça em fase pré-combustão.",
+        desc: "A IT 19/2025 permite sistemas de detecção por amostragem de ar (VESDA) para edificações com pé-direito acima do limite de detectores pontuais. O VESDA detecta fumaça em fase pré-combustão.",
       },
       {
         titulo: "Detector de feixe (beam) para grandes vãos",
-        desc: "Detectores de feixe são aprovados pela IT 18/19 para galpões com grandes vãos onde a instalação de detectores pontuais no espaçamento correto seria impraticável. O feixe cobre até 100 m linear.",
+        desc: "Detectores de feixe são aprovados pela IT 19/2025 para galpões com grandes vãos onde a instalação de detectores pontuais no espaçamento correto seria impraticável. O feixe cobre até 100 m linear.",
       },
       {
         titulo: "Monitoramento 24h com operador treinado",
@@ -114,7 +114,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Integração obrigatória com sprinkler",
-        desc: "A IT 18/19 exige integração do sinal de fluxo do sprinkler à central de alarme. Qualquer acionamento de bico deve gerar alerta imediato na central com identificação do setor.",
+        desc: "A IT 19/2025 exige integração do sinal de fluxo do sprinkler à central de alarme. Qualquer acionamento de bico deve gerar alerta imediato na central com identificação do setor.",
       },
     ],
     closing:
@@ -145,7 +145,7 @@ const data: UniversalPageData = {
     {
       question: "Detectores de teto convencionais funcionam em CDs com pé-direito alto?",
       answer:
-        "Para pé-direito acima de 10 m, detectores pontuais convencionais de teto têm desempenho reduzido — a fumaça diluída pelo ar frio pode não atingir a concentração necessária para ativação. A IT 18/19 permite VESDA e detectores de feixe para esses ambientes.",
+        "Para pé-direito acima de 10 m, detectores pontuais convencionais de teto têm desempenho reduzido — a fumaça diluída pelo ar frio pode não atingir a concentração necessária para ativação. A IT 19/2025 permite VESDA e detectores de feixe para esses ambientes.",
     },
     {
       question: "O que é o sistema VESDA e quando é indicado para CDs?",
@@ -160,12 +160,12 @@ const data: UniversalPageData = {
     {
       question: "O sistema de alarme do CD deve ser integrado ao sprinkler?",
       answer:
-        "Sim. A IT 18/19 exige que o sinal de fluxo do sistema de sprinkler seja integrado à central de alarme de incêndio. Qualquer acionamento de bico gera alerta imediato na central com identificação do setor — permitindo resposta rápida antes que a água cause dano patrimonial.",
+        "Sim. A IT 19/2025 exige que o sinal de fluxo do sistema de sprinkler seja integrado à central de alarme de incêndio. Qualquer acionamento de bico gera alerta imediato na central com identificação do setor — permitindo resposta rápida antes que a água cause dano patrimonial.",
     },
     {
       question: "CD que opera 24h precisa de monitoramento noturno da central de alarme?",
       answer:
-        "Sim. CDs com operação noturna e risco elevado devem ter operador treinado monitorando a central 24h. A IT 18/19 é explícita nesse requisito. O treinamento deve ser documentado com registros disponíveis para o CBPMESP.",
+        "Sim. CDs com operação noturna e risco elevado devem ter operador treinado monitorando a central 24h. A IT 19/2025 é explícita nesse requisito. O treinamento deve ser documentado com registros disponíveis para o CBPMESP.",
     },
   ],
   linksInternos: [
@@ -177,7 +177,7 @@ const data: UniversalPageData = {
   ],
   ctaFinal: {
     heading: "ALARME PARA CD — VESDA + DETECÇÃO EM RACK + LAUDO AVCB",
-    body: "Diagnóstico técnico gratuito. Tecnologia correta para o pé-direito do seu CD. Conforme IT 18/19.",
+    body: "Diagnóstico técnico gratuito. Tecnologia correta para o pé-direito do seu CD. Conforme IT 19/2025.",
     cta: "Solicitar Diagnóstico Técnico Gratuito",
   },
 };

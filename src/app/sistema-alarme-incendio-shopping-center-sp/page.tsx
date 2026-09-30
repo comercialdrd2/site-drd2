@@ -4,15 +4,15 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sistema-alarme-incendio-shopping-center-sp",
   meta: {
-    title: "Sistema de Alarme de Incêndio para Shopping Center em SP — IT 18/19",
-    description: "A DRD2 projeta e instala sistemas de alarme de incêndio para shopping center em SP conforme IT 18/19. Central endereçável, controle de fumaça, evacuação escalonada e laudo para AVCB. Diagnóstico gratuito.",
+    title: "Sistema de Alarme de Incêndio para Shopping Center em SP — IT 19/2025",
+    description: "A DRD2 projeta e instala sistemas de alarme de incêndio para shopping center em SP conforme IT 19/2025. Central endereçável, controle de fumaça, evacuação escalonada e laudo para AVCB. Diagnóstico gratuito.",
   },
-  eyebrow: "IT 18/19 — Shopping Centers e Centros Comerciais em SP",
+  eyebrow: "IT 19/2025 — Shopping Centers e Centros Comerciais em SP",
   h1Line1: "Sistema de Alarme de Incêndio para Shopping Center",
   h1Line2: "em São Paulo — Endereçável, Controle de Fumaça e AVCB",
   heroBg: "/images/blog/fire_safety_equipment_premium.webp",
   introP1:
-    "Shopping centers reúnem milhares de pessoas simultâneas em um único ambiente fechado. O sistema de alarme de incêndio precisa identificar o setor exato do incêndio em segundos, acionar o controle de fumaça automaticamente e permitir evacuação escalonada por ala — sem disparar alarme geral que cause pânico de massa. A DRD2 projeta e instala sistemas de alarme endereçável para shopping em SP conforme IT 18/19, com ART CREA-SP e laudo para AVCB.",
+    "Shopping centers reúnem milhares de pessoas simultâneas em um único ambiente fechado. O sistema de alarme de incêndio precisa identificar o setor exato do incêndio em segundos, acionar o controle de fumaça automaticamente e permitir evacuação escalonada por ala — sem disparar alarme geral que cause pânico de massa. A DRD2 projeta e instala sistemas de alarme endereçável para shopping em SP conforme IT 19/2025, com ART CREA-SP e laudo para AVCB.",
   introP2:
     "Processo completo: projeto de loop endereçável por ala e andar, integração com controle de fumaça e sprinklers, anunciador de voz para evacuação ordenada e laudo para aprovação do AVCB. Diagnóstico técnico gratuito.",
   breadcrumbs: [
@@ -23,9 +23,9 @@ const data: UniversalPageData = {
   occupationType: "shopping",
   h2_principal: {
     heading: "Por que shoppings precisam de alarme endereçável e evacuação escalonada?",
-    body: "Um shopping com 5.000 pessoas simultâneas não pode disparar um alarme geral sem coordenação — o pânico de massa causa mais vítimas do que o incêndio em muitos cenários. A IT 18/19 exige que shoppings de grande porte tenham sistema endereçável que identifica o exato local do alarme (por exemplo, 'detector fumaça praça alimentação setor A') e anunciador de voz que permite a evacuação ordenada somente da ala afetada, enquanto o restante do shopping mantém operação normal.",
+    body: "Um shopping com 5.000 pessoas simultâneas não pode disparar um alarme geral sem coordenação — o pânico de massa causa mais vítimas do que o incêndio em muitos cenários. A IT 19/2025 exige que shoppings de grande porte tenham sistema endereçável que identifica o exato local do alarme (por exemplo, 'detector fumaça praça alimentação setor A') e anunciador de voz que permite a evacuação ordenada somente da ala afetada, enquanto o restante do shopping mantém operação normal.",
     body2:
-      "A integração do alarme com o sistema de controle de fumaça é outro diferencial crítico para shoppings. Quando um detector é ativado, os dampers de fumaça da ala afetada fecham automaticamente, os exaustores de fumaça ativam e as portas corta-fogo fecham — tudo em menos de 30 segundos, antes que a fumaça se espalhe pelo mall. Shoppings sem essa integração estão em não-conformidade formal com a IT 18/19 e com a IT 15 (controle de fumaça).",
+      "A integração do alarme com o sistema de controle de fumaça é outro diferencial crítico para shoppings. Quando um detector é ativado, os dampers de fumaça da ala afetada fecham automaticamente, os exaustores de fumaça ativam e as portas corta-fogo fecham — tudo em menos de 30 segundos, antes que a fumaça se espalhe pelo mall. Shoppings sem essa integração estão em não-conformidade formal com a IT 19/2025 e com a IT 15 (controle de fumaça).",
   },
   h2_riscos: {
     heading: "O que reprova o sistema de alarme de shopping na vistoria do CBPMESP",
@@ -34,7 +34,7 @@ const data: UniversalPageData = {
     itens: [
       {
         titulo: "Central convencional sem endereçamento por loja",
-        desc: "Sistema convencional indica apenas a zona em alarme — não a loja ou detector específico. Para shoppings com dezenas de lojas por ala, isso torna a localização do incêndio extremamente lenta. A IT 18/19 exige sistema endereçável para shoppings acima do porte mínimo.",
+        desc: "Sistema convencional indica apenas a zona em alarme — não a loja ou detector específico. Para shoppings com dezenas de lojas por ala, isso torna a localização do incêndio extremamente lenta. A IT 19/2025 exige sistema endereçável para shoppings acima do porte mínimo.",
       },
       {
         titulo: "Ausência de integração com controle de fumaça",
@@ -42,7 +42,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Sem anunciador de voz para evacuação escalonada",
-        desc: "A IT 18/19 exige anunciador de voz em shoppings de grande porte — sem ele, o único recurso é o alarme sonoro geral, que provoca evacuação simultânea de todo o shopping e risco de pânico.",
+        desc: "A IT 19/2025 exige anunciador de voz em shoppings de grande porte — sem ele, o único recurso é o alarme sonoro geral, que provoca evacuação simultânea de todo o shopping e risco de pânico.",
       },
       {
         titulo: "Detecção insuficiente em praça de alimentação",
@@ -50,11 +50,11 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Baterias sem autonomia para grande porte",
-        desc: "A IT 18/19 exige autonomia de 24 horas em standby e 30 minutos em alarme. Shoppings de grande porte têm consumo elevado de dispositivos — baterias subdimensionadas perdem a autonomia mínima em meses.",
+        desc: "A IT 19/2025 exige autonomia de 24 horas em standby e 30 minutos em alarme. Shoppings de grande porte têm consumo elevado de dispositivos — baterias subdimensionadas perdem a autonomia mínima em meses.",
       },
       {
         titulo: "Manutenção sem teste individual de detectores",
-        desc: "A IT 18/19 exige teste individual de cada detector durante a manutenção preventiva. Shoppings que realizam apenas teste de painel sem verificar cada detector individualmente estão em não-conformidade no registro de manutenção.",
+        desc: "A IT 19/2025 exige teste individual de cada detector durante a manutenção preventiva. Shoppings que realizam apenas teste de painel sem verificar cada detector individualmente estão em não-conformidade no registro de manutenção.",
       },
     ],
   },
@@ -94,9 +94,9 @@ const data: UniversalPageData = {
     ],
   },
   h2_detalhes: {
-    heading: "O que a IT 18/19 exige especificamente para alarme de shopping center",
+    heading: "O que a IT 19/2025 exige especificamente para alarme de shopping center",
     body1:
-      "Shopping centers são Grupo C-2 na IT 18/19 — com exigências de sistema endereçável, anunciador de voz, integração com controle de fumaça e plano de evacuação documentado como condições para o AVCB.",
+      "Shopping centers são Grupo C-2 na IT 19/2025 — com exigências de sistema endereçável, anunciador de voz, integração com controle de fumaça e plano de evacuação documentado como condições para o AVCB.",
     alerta:
       "Qualquer reforma de ala, expansão de praça ou mudança de layout exige atualização do projeto de alarme com nova ART — mesmo que o sistema já esteja aprovado.",
     itens: [
@@ -106,7 +106,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Integração obrigatória com controle de fumaça",
-        desc: "A IT 18/19 e a IT 15 exigem que o alarme acione automaticamente o sistema de controle de fumaça da ala afetada. A integração deve ser testada na manutenção semestral e documentada.",
+        desc: "A IT 19/2025 e a IT 15 exigem que o alarme acione automaticamente o sistema de controle de fumaça da ala afetada. A integração deve ser testada na manutenção semestral e documentada.",
       },
       {
         titulo: "Anunciador de voz para evacuação escalonada",
@@ -114,7 +114,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Plano de emergência integrado ao sistema",
-        desc: "A IT 18/19 exige que o plano de emergência do shopping esteja documentado e que o operador de segurança seja treinado para responder aos alertas da central endereçável. O treinamento é registrado e auditável.",
+        desc: "A IT 19/2025 exige que o plano de emergência do shopping esteja documentado e que o operador de segurança seja treinado para responder aos alertas da central endereçável. O treinamento é registrado e auditável.",
       },
     ],
     closing:
@@ -145,12 +145,12 @@ const data: UniversalPageData = {
     {
       question: "Shopping center precisa de central de alarme endereçável?",
       answer:
-        "Sim. Shoppings acima do porte mínimo da IT 18/19 são obrigados a ter sistema de alarme endereçável — não convencional. O sistema endereçável identifica o exato detector ou loja em alarme, permitindo localização e resposta rápida sem evacuação desnecessária do shopping inteiro.",
+        "Sim. Shoppings acima do porte mínimo da IT 19/2025 são obrigados a ter sistema de alarme endereçável — não convencional. O sistema endereçável identifica o exato detector ou loja em alarme, permitindo localização e resposta rápida sem evacuação desnecessária do shopping inteiro.",
     },
     {
       question: "O sistema de alarme do shopping precisa estar integrado ao controle de fumaça?",
       answer:
-        "Sim. A IT 18/19 e a IT 15 exigem que o alarme acione automaticamente os dampers de fumaça, exaustores e portas corta-fogo da ala afetada. A integração deve ser testada semestralmente e documentada no registro de manutenção.",
+        "Sim. A IT 19/2025 e a IT 15 exigem que o alarme acione automaticamente os dampers de fumaça, exaustores e portas corta-fogo da ala afetada. A integração deve ser testada semestralmente e documentada no registro de manutenção.",
     },
     {
       question: "Como funciona a evacuação escalonada em shopping center?",
@@ -160,7 +160,7 @@ const data: UniversalPageData = {
     {
       question: "Por que detectores comuns disparam alarme falso na praça de alimentação?",
       answer:
-        "A praça de alimentação tem alta produção de vapor, fumaça de cozinha e calor durante o funcionamento normal. Detectores de fumaça ótica convencionais interpretam isso como incêndio. A solução é usar detectores multissensoriais ou de temperatura linear, que a IT 18/19 permite para esse ambiente específico.",
+        "A praça de alimentação tem alta produção de vapor, fumaça de cozinha e calor durante o funcionamento normal. Detectores de fumaça ótica convencionais interpretam isso como incêndio. A solução é usar detectores multissensoriais ou de temperatura linear, que a IT 19/2025 permite para esse ambiente específico.",
     },
     {
       question: "Com que frequência o sistema de alarme do shopping deve ser revisado?",
@@ -177,7 +177,7 @@ const data: UniversalPageData = {
   ],
   ctaFinal: {
     heading: "ALARME PARA SHOPPING — ENDEREÇÁVEL + CONTROLE DE FUMAÇA + AVCB",
-    body: "Diagnóstico técnico gratuito. Integração completa com controle de fumaça e evacuação escalonada. Conforme IT 18/19.",
+    body: "Diagnóstico técnico gratuito. Integração completa com controle de fumaça e evacuação escalonada. Conforme IT 19/2025.",
     cta: "Solicitar Diagnóstico Técnico Gratuito",
   },
 };

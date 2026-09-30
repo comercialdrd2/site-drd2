@@ -81,7 +81,7 @@ export const avcbMotelContent = {
       },
       {
         nome: "Saídas de emergência",
-        desc: "dimensionamento das rotas de fuga em cada bloco conforme IT-08, com portas de saída desobstruídas e abertura no sentido correto do fluxo.",
+        desc: "dimensionamento das rotas de fuga em cada bloco conforme IT-11, com portas de saída desobstruídas e abertura no sentido correto do fluxo.",
       },
       {
         nome: "Compartimentação corta-fogo",

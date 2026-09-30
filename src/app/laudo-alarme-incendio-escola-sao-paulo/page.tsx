@@ -5,14 +5,14 @@ const data: UniversalPageData = {
   slug: "/laudo-alarme-incendio-escola-sao-paulo",
   meta: {
     title: "Laudo de Alarme de Incêndio para Escola em SP",
-    description: "Laudo técnico de alarme de incêndio para escolas e creches em São Paulo. IT 18/2019, integração com plano de abandono, cobertura de salas e ginásio. ART CREA-SP inclusa.",
+    description: "Laudo técnico de alarme de incêndio para escolas e creches em São Paulo. IT 19/2025, integração com plano de abandono, cobertura de salas e ginásio. ART CREA-SP inclusa.",
   },
-  eyebrow: "IT 18 — Alarme de Incêndio para Escola",
+  eyebrow: "IT 19 — Alarme de Incêndio para Escola",
   h1Line1: "Laudo de Alarme de Incêndio",
   h1Line2: "para Escola em São Paulo",
   heroBg: "/images/blog/blog_hero_avcb_creche.webp",
   introP1: "Escolas têm uma exigência que nenhuma outra ocupação tem: o sistema de alarme de incêndio precisa estar integrado ao plano de abandono. Não basta a sirene soar — o sinal precisa ser diferente do sinal de intervalo, os professores precisam saber como reagir a cada tipo de alarme e a brigada de incêndio escolar precisa estar treinada para conduzir a evacuação por rota de fuga validada.",
-  introP2: "A DRD2 emite o laudo técnico do alarme conforme a IT 18/2019, com vistoria em todas as salas de aula, laboratórios, ginásio, cantina e áreas administrativas. Validamos a integração do sistema com o plano de abandono e a compatibilidade com as exigências da IT 17 (brigada de incêndio) — os dois documentos caminham juntos no processo de AVCB da escola.",
+  introP2: "A DRD2 emite o laudo técnico do alarme conforme a IT 19/2025, com vistoria em todas as salas de aula, laboratórios, ginásio, cantina e áreas administrativas. Validamos a integração do sistema com o plano de abandono e a compatibilidade com as exigências da IT 17 (brigada de incêndio) — os dois documentos caminham juntos no processo de AVCB da escola.",
   breadcrumbs: [
     { label: "Home", href: "/" },
     { label: "Serviços", href: "/servicos" },
@@ -21,7 +21,7 @@ const data: UniversalPageData = {
   occupationType: "escola",
   h2_principal: {
     heading: "Por que o alarme em escolas tem exigências únicas",
-    body: "A IT 18/2019 classifica escolas no Grupo E (educacional). O sistema de alarme precisa cobrir todas as edificações do campus — não apenas o prédio principal. Ginásio, quadra coberta, cantina independente, secretaria e banheiros externos precisam de cobertura individual. Escolas com múltiplos blocos precisam de central com zonas separadas por bloco.",
+    body: "A IT 19/2025 classifica escolas no Grupo E (educacional). O sistema de alarme precisa cobrir todas as edificações do campus — não apenas o prédio principal. Ginásio, quadra coberta, cantina independente, secretaria e banheiros externos precisam de cobertura individual. Escolas com múltiplos blocos precisam de central com zonas separadas por bloco.",
     body2: "A principal particularidade é a integração com o plano de abandono: o sinal sonoro do alarme de incêndio deve ser diferente do sinal de aula e de intervalo. O CBPMESP verifica essa diferenciação na vistoria — e se o sinal for idêntico ao de aula, o processo é reprovado mesmo com o sistema fisicamente conforme.",
   },
   h2_riscos: {
@@ -89,7 +89,7 @@ const data: UniversalPageData = {
     body1: "O processo de AVCB de escolas no CBPMESP exige os seguintes documentos do sistema de alarme:",
     alerta: "Escola com processo de AVCB pendente não consegue renovar o alvará de funcionamento junto à Secretaria de Educação do Estado. O laudo de alarme é parte obrigatória desse processo.",
     itens: [
-      { titulo: "Laudo técnico IT 18/2019 com ART", desc: "Laudo assinado por engenheiro CREA-SP com declaração de conformidade do sistema por edificação e por zona." },
+      { titulo: "Laudo técnico IT 19/2025 com ART", desc: "Laudo assinado por engenheiro CREA-SP com declaração de conformidade do sistema por edificação e por zona." },
       { titulo: "Planta do campus com cobertura por zona", desc: "Planta de todas as edificações do campus com marcação de detectores, sirenes e acionadores — incluindo ginásio, cantina e áreas externas cobertas." },
       { titulo: "Documento de integração com plano de abandono", desc: "Declaração ou memorial descrevendo como o sinal de alarme dispara a evacuação, quais rotas correspondem a quais zonas e como a brigada é acionada." },
       { titulo: "Relatório de manutenção anual", desc: "Manutenção preventiva documentada dos últimos 12 meses com resultado de teste por dispositivo." },

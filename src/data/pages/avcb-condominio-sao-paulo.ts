@@ -73,7 +73,7 @@ export const avcbCondominioContent = {
       },
       {
         nome: "Saídas de emergência e escadas pressurizadas",
-        desc: "em edifícios com mais de quatro pavimentos, as escadas de emergência precisam atender às exigências de compartimentação e, em muitos casos, pressurização conforme IT-08 e IT-15. Esse é um dos pontos mais complexos e custosos na regularização de edifícios antigos.",
+        desc: "em edifícios com mais de quatro pavimentos, as escadas de emergência precisam atender às exigências de compartimentação e, em muitos casos, pressurização conforme IT-13 e IT-15. Esse é um dos pontos mais complexos e custosos na regularização de edifícios antigos.",
       },
       {
         nome: "Sistema de hidrantes e mangotinhos",

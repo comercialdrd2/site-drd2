@@ -4,15 +4,15 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sistema-alarme-incendio-industria-quimica-sp",
   meta: {
-    title: "Alarme de Incêndio para Indústria Química em SP — IT 18/19 e NR-20",
-    description: "A DRD2 projeta alarme de incêndio para indústria química em SP. Detectores de chama UV/IR para líquidos inflamáveis, ATEX para áreas classificadas, integração com sistema de shutdown. IT 18/19 e NR-20.",
+    title: "Alarme de Incêndio para Indústria Química em SP — IT 19/2025 e NR-20",
+    description: "A DRD2 projeta alarme de incêndio para indústria química em SP. Detectores de chama UV/IR para líquidos inflamáveis, ATEX para áreas classificadas, integração com sistema de shutdown. IT 19/2025 e NR-20.",
   },
-  eyebrow: "IT 18/19 e NR-20 — Indústrias Químicas e Petroquímicas em SP",
+  eyebrow: "IT 19/2025 e NR-20 — Indústrias Químicas e Petroquímicas em SP",
   h1Line1: "Alarme de Incêndio para Indústria Química",
   h1Line2: "em São Paulo — Detectores de Chama, ATEX e NR-20",
   heroBg: "/images/bg-galpao.jpg",
   introP1:
-    "Indústrias químicas e petroquímicas são o ambiente mais exigente para projeto de alarme de incêndio em SP. Detectores de fumaça ópticos convencionais são inutilizados pelos vapores de solvente em suspensão antes de qualquer incêndio. A maioria dos incêndios em indústrias químicas é de chama viva sem fumaça visível — líquido inflamável que pega fogo sem produzir a coluna de fumaça que detectores convencionais identificam. O detector correto para esse ambiente é o detector de chama com sensor UV/IR, capaz de identificar a radiação da chama em milissegundos, antes que o incêndio se propague para tanques ou linhas de processo. A DRD2 projeta alarme de incêndio para indústria química em SP conforme IT 18/19 e NR-20.",
+    "Indústrias químicas e petroquímicas são o ambiente mais exigente para projeto de alarme de incêndio em SP. Detectores de fumaça ópticos convencionais são inutilizados pelos vapores de solvente em suspensão antes de qualquer incêndio. A maioria dos incêndios em indústrias químicas é de chama viva sem fumaça visível — líquido inflamável que pega fogo sem produzir a coluna de fumaça que detectores convencionais identificam. O detector correto para esse ambiente é o detector de chama com sensor UV/IR, capaz de identificar a radiação da chama em milissegundos, antes que o incêndio se propague para tanques ou linhas de processo. A DRD2 projeta alarme de incêndio para indústria química em SP conforme IT 19/2025 e NR-20.",
   introP2:
     "Processo completo: classificação de áreas conforme NR-20 e ABNT NBR IEC 60079 (ATEX), seleção de detector por tipo de produto e área, projeto com equipamentos certificados para área classificada, integração com sistema de shutdown de emergência e laudo com ART para AVCB. Diagnóstico técnico gratuito.",
   breadcrumbs: [
@@ -23,7 +23,7 @@ const data: UniversalPageData = {
   occupationType: "industrial",
   h2_principal: {
     heading: "Por que indústrias químicas precisam de detectores completamente diferentes?",
-    body: "A IT 18/19 exige que o tipo de detector seja compatível com as características do risco e do ambiente. Em indústrias com solventes, álcoois, hidrocarbonetos e líquidos inflamáveis em geral, o risco primário não é incêndio com fumaça — é chama súbita de líquido derramado, flash fire de vapor acumulado ou explosão de mistura inflamável-ar. Nenhum desses eventos produz fumaça antes da ignição que um detector óptico possa captar. O detector de chama UV/IR responde à radiação emitida pela chama — identificando o incêndio em 2 a 5 segundos após a ignição, antes de qualquer propagação.",
+    body: "A IT 19/2025 exige que o tipo de detector seja compatível com as características do risco e do ambiente. Em indústrias com solventes, álcoois, hidrocarbonetos e líquidos inflamáveis em geral, o risco primário não é incêndio com fumaça — é chama súbita de líquido derramado, flash fire de vapor acumulado ou explosão de mistura inflamável-ar. Nenhum desses eventos produz fumaça antes da ignição que um detector óptico possa captar. O detector de chama UV/IR responde à radiação emitida pela chama — identificando o incêndio em 2 a 5 segundos após a ignição, antes de qualquer propagação.",
     body2:
       "O segundo desafio exclusivo de indústrias químicas é a classificação de áreas conforme NR-20 e ABNT NBR IEC 60079. Áreas Zona 0, Zona 1 e Zona 2 (ATEX) têm atmosfera potencialmente explosiva — qualquer equipamento elétrico instalado nelas, incluindo detectores de incêndio, deve ser certificado para operação em atmosfera explosiva. Um detector convencional instalado em área classificada é fonte de ignição e constitui risco adicional — além de não-conformidade legal com NR-20 e com as normas de segurança do trabalho.",
   },
@@ -34,7 +34,7 @@ const data: UniversalPageData = {
     itens: [
       {
         titulo: "Detector de fumaça em área com vapores de solvente",
-        desc: "Detectores ópticos em ambientes com vapores de solvente, tinta ou álcool entram em alarme falso constantemente — e são desligados pela operação para evitar interrupções. O resultado é uma planta sem detecção ativa. A IT 18/19 exige tipo de detector compatível com o ambiente real.",
+        desc: "Detectores ópticos em ambientes com vapores de solvente, tinta ou álcool entram em alarme falso constantemente — e são desligados pela operação para evitar interrupções. O resultado é uma planta sem detecção ativa. A IT 19/2025 exige tipo de detector compatível com o ambiente real.",
       },
       {
         titulo: "Equipamento não ATEX em área classificada",
@@ -50,7 +50,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Cobertura inadequada de tanques e bacias de contenção",
-        desc: "Tanques de produto inflamável e bacias de contenção são os pontos de maior risco de incêndio rápido. A IT 18/19 exige cobertura de 100% dessas áreas com detector adequado — mas frequentemente o projeto cobre apenas as áreas internas do galpão, deixando tanques descobertos.",
+        desc: "Tanques de produto inflamável e bacias de contenção são os pontos de maior risco de incêndio rápido. A IT 19/2025 exige cobertura de 100% dessas áreas com detector adequado — mas frequentemente o projeto cobre apenas as áreas internas do galpão, deixando tanques descobertos.",
       },
       {
         titulo: "Manutenção sem procedimento de segurança para trabalho em área classificada",
@@ -94,9 +94,9 @@ const data: UniversalPageData = {
     ],
   },
   h2_detalhes: {
-    heading: "O que a IT 18/19 e a NR-20 exigem para alarme em indústria química",
+    heading: "O que a IT 19/2025 e a NR-20 exigem para alarme em indústria química",
     body1:
-      "Indústrias químicas com produtos inflamáveis ou tóxicos são Grupo G-3 ou G-4 na IT 18/19 com exigências adicionais da NR-20 do MTE. O projeto deve contemplar a classificação de áreas ATEX, os tipos de detector por zona de risco e a integração com os sistemas de segurança de processo.",
+      "Indústrias químicas com produtos inflamáveis ou tóxicos são Grupo G-3 ou G-4 na IT 19/2025 com exigências adicionais da NR-20 do MTE. O projeto deve contemplar a classificação de áreas ATEX, os tipos de detector por zona de risco e a integração com os sistemas de segurança de processo.",
     alerta:
       "Qualquer alteração de processo que mude o tipo de produto, a quantidade armazenada ou o layout das áreas classificadas exige revisão do projeto de alarme com nova ART — antes da operação, não após a vistoria ou a fiscalização.",
     itens: [
@@ -114,7 +114,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Manutenção com procedimento de Permissão de Trabalho",
-        desc: "A IT 18/19 exige manutenção semestral documentada. Em indústrias químicas, essa manutenção deve ser realizada com PT emitida, análise de risco prévia e procedimento de segurança para trabalho em área com risco de explosão ou intoxicação.",
+        desc: "A IT 19/2025 exige manutenção semestral documentada. Em indústrias químicas, essa manutenção deve ser realizada com PT emitida, análise de risco prévia e procedimento de segurança para trabalho em área com risco de explosão ou intoxicação.",
       },
     ],
     closing:
@@ -123,7 +123,7 @@ const data: UniversalPageData = {
   h2_quando: {
     heading: "Quando revisar o alarme de incêndio da indústria química?",
     body1:
-      "A manutenção semestral é obrigatória conforme IT 18/19. Revisão imediata após qualquer alteração de processo que mude o tipo de produto, o volume armazenado ou o layout das áreas classificadas. Revisão após qualquer incidente que acione detectores ou o sistema de shutdown.",
+      "A manutenção semestral é obrigatória conforme IT 19/2025. Revisão imediata após qualquer alteração de processo que mude o tipo de produto, o volume armazenado ou o layout das áreas classificadas. Revisão após qualquer incidente que acione detectores ou o sistema de shutdown.",
     body2:
       "Situações de revisão imediata: autuação da Fiscalização do Trabalho por equipamento não ATEX em área classificada, Comunique-se do CBPMESP sobre o sistema de alarme, mudança de produto para classe de inflamabilidade superior, ou instalação de novo tanque ou área de processo.",
   },
@@ -160,12 +160,12 @@ const data: UniversalPageData = {
     {
       question: "Indústria química precisa de AVCB mesmo com NR-20?",
       answer:
-        "Sim. O AVCB e a conformidade com NR-20 são obrigações independentes — uma não substitui a outra. O AVCB é emitido pelo CBPMESP com base na IT 18/19 e demais ITs. A conformidade NR-20 é fiscalizada pelo MTE. Uma indústria pode ter AVCB em dia e ser autuada pela NR-20, e vice-versa.",
+        "Sim. O AVCB e a conformidade com NR-20 são obrigações independentes — uma não substitui a outra. O AVCB é emitido pelo CBPMESP com base na IT 19/2025 e demais ITs. A conformidade NR-20 é fiscalizada pelo MTE. Uma indústria pode ter AVCB em dia e ser autuada pela NR-20, e vice-versa.",
     },
     {
       question: "Com que frequência o alarme de indústria química deve ser revisado?",
       answer:
-        "Manutenção semestral obrigatória pela IT 18/19, com teste individual de cada detector conforme protocolo do fabricante. Para detectores de chama UV/IR, o teste deve ser feito com fonte de chama controlada — não apenas com fumaça ou calor. A documentação da manutenção deve estar disponível para a Fiscalização do Trabalho e para o CBPMESP.",
+        "Manutenção semestral obrigatória pela IT 19/2025, com teste individual de cada detector conforme protocolo do fabricante. Para detectores de chama UV/IR, o teste deve ser feito com fonte de chama controlada — não apenas com fumaça ou calor. A documentação da manutenção deve estar disponível para a Fiscalização do Trabalho e para o CBPMESP.",
     },
   ],
   linksInternos: [

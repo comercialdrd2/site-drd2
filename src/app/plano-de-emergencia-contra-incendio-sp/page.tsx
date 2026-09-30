@@ -19,7 +19,7 @@ const pageData: UniversalPageData = {
   h1Line1: "Plano de Emergência",
   h1Line2: "contra Incêndio SP",
   heroBg: "/images/blog/fire_safety_equipment_premium.webp",
-  introP1: "O Plano de Emergência é o documento técnico que define as ações a serem adotadas em caso de sinistro, garantindo a evacuação segura e o combate inicial às chamas conforme a IT-16 do Corpo de Bombeiros.",
+  introP1: "O Plano de Emergência é o documento técnico que define as ações a serem adotadas em caso de sinistro, garantindo a evacuação segura e o combate inicial às chamas conforme a IT-21 do Corpo de Bombeiros.",
   introP2: "Essencial para indústrias, galpões e edificações complexas, o plano é requisito obrigatório para a emissão e renovação do AVCB em São Paulo.",
   breadcrumbs: [
     { label: "Home", href: "/" },

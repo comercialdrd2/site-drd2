@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { generateBreadcrumbSchema, generateOrganizationSchema } from "@/components/JsonLD";
+import { generateBreadcrumbSchema } from "@/components/JsonLD";
 import { getLeadTrackingContext } from "@/lib/leadTracking";
 
 type FormState = {
@@ -73,7 +73,6 @@ export default function ContactForm() {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateOrganizationSchema()) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateBreadcrumbSchema([
         { name: "Home", item: "/" },
         { name: "Contato", item: "/contato" }

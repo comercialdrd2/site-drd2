@@ -4,15 +4,15 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/alarme-incendio-supermercado-avcb-sp",
   meta: {
-    title: "Alarme de Incêndio para Supermercado em SP — IT 18/19 por Setor",
+    title: "Alarme de Incêndio para Supermercado em SP — IT 19/2025 por Setor",
     description: "A DRD2 projeta e instala alarme de incêndio para supermercado em SP. Detectores específicos por setor: temperatura para padaria, câmara fria, depósito. Central endereçável e ART para AVCB. Diagnóstico gratuito.",
   },
-  eyebrow: "IT 18/19 — Supermercados e Hipermercados em SP",
+  eyebrow: "IT 19/2025 — Supermercados e Hipermercados em SP",
   h1Line1: "Alarme de Incêndio para Supermercado",
   h1Line2: "em São Paulo — Padaria, Câmara Fria e Depósito",
   heroBg: "/images/bg-supermercado.jpg",
   introP1:
-    "Supermercados têm o desafio mais complexo na seleção de detectores de incêndio: a padaria com forno e fritadeiras gera fumaça de cozimento que dispara alarmes falsos em detectores ópticos; a câmara de congelados a -18°C inativa detectores iônicos convencionais; o depósito de recebimento com pé-direito alto exige detectores com sensibilidade para grandes volumes; e a área de vendas com público em movimento exige anunciador de voz calibrado para evacuação sem pânico. A DRD2 projeta e instala alarme de incêndio para supermercado em SP conforme IT 18/19.",
+    "Supermercados têm o desafio mais complexo na seleção de detectores de incêndio: a padaria com forno e fritadeiras gera fumaça de cozimento que dispara alarmes falsos em detectores ópticos; a câmara de congelados a -18°C inativa detectores iônicos convencionais; o depósito de recebimento com pé-direito alto exige detectores com sensibilidade para grandes volumes; e a área de vendas com público em movimento exige anunciador de voz calibrado para evacuação sem pânico. A DRD2 projeta e instala alarme de incêndio para supermercado em SP conforme IT 19/2025.",
   introP2:
     "Processo completo: seleção de detector correto por setor, central endereçável com identificação por ponto, integração com sistema de sprinkler e hidrante, anunciador de voz para evacuação escalonada e laudo com ART para AVCB. Diagnóstico técnico gratuito.",
   breadcrumbs: [
@@ -23,9 +23,9 @@ const data: UniversalPageData = {
   occupationType: "comercial",
   h2_principal: {
     heading: "Por que supermercados precisam de detectores diferentes por setor?",
-    body: "A IT 18/19 exige que o tipo de detector seja selecionado conforme as características do ambiente — temperatura, umidade, presença de vapores e pé-direito. A padaria de supermercado tem temperatura de até 45°C próxima aos fornos e gordura em suspensão das fritadeiras: um detector óptico convencional entra em alarme falso a cada ciclo de fritura. O detector correto para padaria é o de temperatura fixa (termostático) com temperatura de ativação calibrada acima da temperatura máxima do ambiente de operação.",
+    body: "A IT 19/2025 exige que o tipo de detector seja selecionado conforme as características do ambiente — temperatura, umidade, presença de vapores e pé-direito. A padaria de supermercado tem temperatura de até 45°C próxima aos fornos e gordura em suspensão das fritadeiras: um detector óptico convencional entra em alarme falso a cada ciclo de fritura. O detector correto para padaria é o de temperatura fixa (termostático) com temperatura de ativação calibrada acima da temperatura máxima do ambiente de operação.",
     body2:
-      "A câmara de congelados apresenta o desafio oposto: temperatura de -18°C a -25°C inativa detectores com componentes não projetados para baixas temperaturas. O detector para câmara de congelados deve ser do tipo homologado para operação abaixo de zero — com invólucro e eletrônica certificados para essa faixa. O depósito de recebimento com pé-direito acima de 6 m exige detectores de teto posicionados para cobertura máxima conforme IT 18/19, com atenção ao ponto cego criado pela altura elevada e pela circulação de ar de ventilação industrial.",
+      "A câmara de congelados apresenta o desafio oposto: temperatura de -18°C a -25°C inativa detectores com componentes não projetados para baixas temperaturas. O detector para câmara de congelados deve ser do tipo homologado para operação abaixo de zero — com invólucro e eletrônica certificados para essa faixa. O depósito de recebimento com pé-direito acima de 6 m exige detectores de teto posicionados para cobertura máxima conforme IT 19/2025, com atenção ao ponto cego criado pela altura elevada e pela circulação de ar de ventilação industrial.",
   },
   h2_riscos: {
     heading: "O que reprova o alarme de incêndio de supermercado na vistoria do CBPMESP",
@@ -34,11 +34,11 @@ const data: UniversalPageData = {
     itens: [
       {
         titulo: "Detector óptico na padaria — alarmes falsos garantidos",
-        desc: "Detectores ópticos (fumaça) na padaria ativam com fumaça de fritura, farinha em suspensão e vapor do forno. O resultado são alarmes falsos frequentes que levam a equipe a desligar o sistema — deixando o supermercado sem proteção. A IT 18/19 exige seleção de detector compatível com o ambiente.",
+        desc: "Detectores ópticos (fumaça) na padaria ativam com fumaça de fritura, farinha em suspensão e vapor do forno. O resultado são alarmes falsos frequentes que levam a equipe a desligar o sistema — deixando o supermercado sem proteção. A IT 19/2025 exige seleção de detector compatível com o ambiente.",
       },
       {
         titulo: "Detector convencional em câmara de congelados",
-        desc: "Detectores não homologados para baixas temperaturas param de funcionar a -10°C. A câmara de congelados de supermercado opera entre -18°C e -25°C — faixa que inativa a eletrônica de detectores convencionais. A IT 18/19 exige dispositivos certificados para a temperatura real do ambiente.",
+        desc: "Detectores não homologados para baixas temperaturas param de funcionar a -10°C. A câmara de congelados de supermercado opera entre -18°C e -25°C — faixa que inativa a eletrônica de detectores convencionais. A IT 19/2025 exige dispositivos certificados para a temperatura real do ambiente.",
       },
       {
         titulo: "Central não endereçável — incêndio sem localização",
@@ -46,11 +46,11 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Depósito sem cobertura de detector no pé-direito alto",
-        desc: "Depósitos com pé-direito acima de 6 m têm zona morta de detecção quando os detectores são posicionados apenas no teto sem análise do cone de cobertura. A IT 18/19 exige cálculo de espaçamento máximo para a altura do pé-direito.",
+        desc: "Depósitos com pé-direito acima de 6 m têm zona morta de detecção quando os detectores são posicionados apenas no teto sem análise do cone de cobertura. A IT 19/2025 exige cálculo de espaçamento máximo para a altura do pé-direito.",
       },
       {
         titulo: "Alarme sem anunciador de voz para o público",
-        desc: "Sirenes de alta intensidade em supermercado lotado causam pânico e podem gerar mais vítimas do que o incêndio. A IT 18/19 exige anunciador de voz com mensagem gravada para evacuação ordeira — especialmente em ambientes com crianças e idosos.",
+        desc: "Sirenes de alta intensidade em supermercado lotado causam pânico e podem gerar mais vítimas do que o incêndio. A IT 19/2025 exige anunciador de voz com mensagem gravada para evacuação ordeira — especialmente em ambientes com crianças e idosos.",
       },
       {
         titulo: "Área de produtos de limpeza sem detector de fumaça especial",
@@ -74,7 +74,7 @@ const data: UniversalPageData = {
       {
         numero: "ETAPA 03",
         titulo: "Integração com sprinkler e hidrante",
-        desc: "O sistema de alarme é integrado ao sistema de sprinkler (sinal de disparo registrado na central) e ao sistema de hidrante (acionamento de bomba via pressostato com sinalização na central). Conformidade com IT 18/19 e IT 22/25.",
+        desc: "O sistema de alarme é integrado ao sistema de sprinkler (sinal de disparo registrado na central) e ao sistema de hidrante (acionamento de bomba via pressostato com sinalização na central). Conformidade com IT 19/2025 e IT 22/25.",
       },
       {
         numero: "ETAPA 04",
@@ -94,9 +94,9 @@ const data: UniversalPageData = {
     ],
   },
   h2_detalhes: {
-    heading: "O que a IT 18/19 exige para alarme em supermercados",
+    heading: "O que a IT 19/2025 exige para alarme em supermercados",
     body1:
-      "Supermercados são Grupo C-2 na IT 18/19. O projeto de alarme deve cobrir 100% da área — incluindo câmaras frigoríficas, depósito de recebimento, padaria e área de serviço — com tipo de detector adequado para cada ambiente.",
+      "Supermercados são Grupo C-2 na IT 19/2025. O projeto de alarme deve cobrir 100% da área — incluindo câmaras frigoríficas, depósito de recebimento, padaria e área de serviço — com tipo de detector adequado para cada ambiente.",
     alerta:
       "Reforma que instale nova câmara fria, amplie a padaria ou crie novo setor de produtos químicos exige atualização do projeto de alarme com nova ART antes do início das obras.",
     itens: [
@@ -106,7 +106,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Detector homologado para câmara de congelados",
-        desc: "Câmaras de congelados operam entre -18°C e -25°C. A IT 18/19 exige detector homologado para essa faixa de temperatura, com invólucro e bateria de backup certificados. Detector convencional nessa temperatura é Comunique-se automático na vistoria.",
+        desc: "Câmaras de congelados operam entre -18°C e -25°C. A IT 19/2025 exige detector homologado para essa faixa de temperatura, com invólucro e bateria de backup certificados. Detector convencional nessa temperatura é Comunique-se automático na vistoria.",
       },
       {
         titulo: "Anunciador de voz obrigatório para público",
@@ -114,7 +114,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Manutenção semestral documentada por detector",
-        desc: "A IT 18/19 exige manutenção semestral com teste individual de cada detector e registro em relatório. Supermercados com grande número de detectores que realizam apenas teste de central sem verificar cada ponto estão em não-conformidade.",
+        desc: "A IT 19/2025 exige manutenção semestral com teste individual de cada detector e registro em relatório. Supermercados com grande número de detectores que realizam apenas teste de central sem verificar cada ponto estão em não-conformidade.",
       },
     ],
     closing:
@@ -150,17 +150,17 @@ const data: UniversalPageData = {
     {
       question: "Que tipo de detector usar na câmara de congelados do supermercado?",
       answer:
-        "Detector homologado para baixas temperaturas, certificado para operar entre -18°C e -25°C. Detectores convencionais param de funcionar abaixo de -10°C — o que significa que a câmara de congelados fica sem proteção sem que ninguém perceba. A IT 18/19 exige o tipo correto de detector para cada temperatura de ambiente.",
+        "Detector homologado para baixas temperaturas, certificado para operar entre -18°C e -25°C. Detectores convencionais param de funcionar abaixo de -10°C — o que significa que a câmara de congelados fica sem proteção sem que ninguém perceba. A IT 19/2025 exige o tipo correto de detector para cada temperatura de ambiente.",
     },
     {
       question: "Supermercado precisa de anunciador de voz no sistema de alarme?",
       answer:
-        "Sim. A IT 18/19 exige anunciador de voz em edificações com ocupação pública. Em supermercados, a sirene convencional pode causar pânico — especialmente em ambientes com crianças e idosos. O anunciador de voz com mensagem gravada orienta a evacuação de forma ordeira por setor.",
+        "Sim. A IT 19/2025 exige anunciador de voz em edificações com ocupação pública. Em supermercados, a sirene convencional pode causar pânico — especialmente em ambientes com crianças e idosos. O anunciador de voz com mensagem gravada orienta a evacuação de forma ordeira por setor.",
     },
     {
       question: "O sistema de alarme do supermercado precisa ser integrado ao sprinkler?",
       answer:
-        "Sim. A IT 18/19 e a IT 23/25 exigem integração entre o sistema de alarme e o sistema de sprinkler — o acionamento de um bico deve ser registrado na central de alarme e pode acionar a bomba de sprinkler. Sistemas independentes sem comunicação são não-conformidade perante as duas normas.",
+        "Sim. A IT 19/2025 e a IT 23/25 exigem integração entre o sistema de alarme e o sistema de sprinkler — o acionamento de um bico deve ser registrado na central de alarme e pode acionar a bomba de sprinkler. Sistemas independentes sem comunicação são não-conformidade perante as duas normas.",
     },
     {
       question: "Com que frequência o alarme de incêndio do supermercado deve ser revisado?",

@@ -141,7 +141,7 @@ export default function Footer() {
                Operacional DRD2
             </h3>
             <ul className="space-y-3 text-[12px] font-bold text-slate-400 uppercase tracking-widest break-all">
-              <li className="text-white bg-white/5 p-2 rounded-lg border border-white/10 inline-block mb-2">Base: São Paulo Capital</li>
+              <li className="text-white bg-white/5 p-2 rounded-lg border border-white/10 inline-block mb-2">Rua Cel. José Eusébio, 95 — Casa 13, Higienópolis, São Paulo/SP — CEP 01239-030</li>
               <li>
                  <a href={`tel:+${process.env.NEXT_PUBLIC_WHATSAPP || "5511942232969"}`} className="hover:text-white transition-colors block py-1 border-b border-slate-800 text-primary">
                     (11) 94223-2969
@@ -172,8 +172,8 @@ export default function Footer() {
             <Link prefetch={false} href="/avcb-por-tipo-de-imovel" className="hover:text-white transition-colors">Tipos de imóvel</Link>
             <Link prefetch={false} href="/engenheiro-avcb-sao-paulo" className="hover:text-white transition-colors">Engenheiro de AVCB</Link>
             <Link prefetch={false} href="/avcb-urgente-sao-paulo" className="hover:text-white transition-colors">AVCB urgente</Link>
+            <Link prefetch={false} href="/ptotep" className="hover:text-white transition-colors">Eventos (PTOTEP)</Link>
             <Link prefetch={false} href="/plano-de-emergencia-contra-incendio-sp" className="hover:text-white transition-colors">Plano de emergência</Link>
-            <Link prefetch={false} href="/mapa-paginas" className="hover:text-white transition-colors">Mapa do Site</Link>
             <Link prefetch={false} href="/politica-de-privacidade" className="hover:text-white transition-colors">Privacidade</Link>
           </div>
         </div>

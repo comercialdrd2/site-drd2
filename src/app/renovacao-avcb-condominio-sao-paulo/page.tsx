@@ -13,6 +13,7 @@ import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import TrustBar from "@/components/TrustBar";
 import CtaWhatsApp from "@/components/CtaWhatsApp";
 import BreadcrumbNav from "@/components/BreadcrumbNav";
+import RichText from "@/components/RichText";
 import { renovacaoAvcbCondominioContent as c } from "@/data/pages/renovacao-avcb-condominio-sao-paulo";
 import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
@@ -115,14 +116,14 @@ export default function RenovacaoAVCBCondominioPage() {
               </h2>
               <div className="space-y-5 text-lg text-slate-700 leading-relaxed font-medium">
                 {c.h2_porqueVence.body.map((p, i) => (
-                  <p key={i}>{p}</p>
+                  <p key={i}><RichText value={p} /></p>
                 ))}
               </div>
               <ul className="mt-6 space-y-3">
                 {c.h2_porqueVence.motivos.map((motivo, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <AlertTriangle className="w-5 h-5 text-red-600 flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-medium leading-relaxed">{motivo}</span>
+                    <span className="text-slate-700 font-medium leading-relaxed"><RichText value={motivo} /></span>
                   </li>
                 ))}
               </ul>
@@ -159,8 +160,8 @@ export default function RenovacaoAVCBCondominioPage() {
                     <ShieldX className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <p className="text-white font-black text-lg mb-2">{item.titulo}</p>
-                    <p className="text-slate-400 font-medium leading-relaxed text-sm">{item.desc}</p>
+                    <p className="text-white font-black text-lg mb-2"><RichText value={item.titulo} /></p>
+                    <p className="text-slate-400 font-medium leading-relaxed text-sm"><RichText value={item.desc} /></p>
                   </div>
                 </div>
               </div>
@@ -202,8 +203,8 @@ export default function RenovacaoAVCBCondominioPage() {
                     <CheckCircle2 className="w-5 h-5 text-white" />
                   </div>
                   <div>
-                    <p className="text-slate-900 font-black text-base mb-2">{p.nome}</p>
-                    <p className="text-slate-600 font-medium leading-relaxed text-sm">{p.desc}</p>
+                    <p className="text-slate-900 font-black text-base mb-2"><RichText value={p.nome} /></p>
+                    <p className="text-slate-600 font-medium leading-relaxed text-sm"><RichText value={p.desc} /></p>
                   </div>
                 </div>
               </div>
@@ -229,8 +230,8 @@ export default function RenovacaoAVCBCondominioPage() {
                       <Wrench className="w-5 h-5 text-white" />
                     </div>
                     <div>
-                      <p className="text-slate-900 font-black mb-1">{tipo.titulo}</p>
-                      <p className="text-slate-600 font-medium leading-relaxed text-sm">{tipo.desc}</p>
+                      <p className="text-slate-900 font-black mb-1"><RichText value={tipo.titulo} /></p>
+                      <p className="text-slate-600 font-medium leading-relaxed text-sm"><RichText value={tipo.desc} /></p>
                     </div>
                   </div>
                 ))}
@@ -247,8 +248,8 @@ export default function RenovacaoAVCBCondominioPage() {
               </div>
               {c.h2_quando.cenarios.map((cenario, i) => (
                 <div key={i} className="mb-6 pb-6 border-b border-red-500 last:border-0 last:mb-0 last:pb-0">
-                  <p className="font-black text-white text-base mb-2">{cenario.titulo}</p>
-                  <p className="text-red-100 font-medium text-sm leading-relaxed">{cenario.desc}</p>
+                  <p className="font-black text-white text-base mb-2"><RichText value={cenario.titulo} /></p>
+                  <p className="text-red-100 font-medium text-sm leading-relaxed"><RichText value={cenario.desc} /></p>
                 </div>
               ))}
             </div>
@@ -270,7 +271,7 @@ export default function RenovacaoAVCBCondominioPage() {
                 {c.h2_assembleia.itens.map((item, i) => (
                   <li key={i} className="flex items-start gap-4 bg-white/5 p-5 rounded-2xl border border-white/10">
                     <FileText className="w-5 h-5 text-red-600 flex-shrink-0 mt-1" />
-                    <span className="text-slate-300 font-medium leading-relaxed text-sm">{item}</span>
+                    <span className="text-slate-300 font-medium leading-relaxed text-sm"><RichText value={item} /></span>
                   </li>
                 ))}
               </ul>
@@ -291,7 +292,7 @@ export default function RenovacaoAVCBCondominioPage() {
               ].map((item, i) => (
                 <div key={i} className="flex items-center gap-3 py-3 border-b border-white/10 last:border-0">
                   <CheckCircle2 className="w-5 h-5 text-red-600 flex-shrink-0" />
-                  <span className="text-slate-300 font-medium text-sm">{item}</span>
+                  <span className="text-slate-300 font-medium text-sm"><RichText value={item} /></span>
                 </div>
               ))}
             </div>
@@ -332,8 +333,8 @@ export default function RenovacaoAVCBCondominioPage() {
                   <span className={`inline-block ${colors[i]} text-white text-[10px] font-black px-3 py-1 rounded-full uppercase tracking-widest mb-5`}>
                     {labels[i]}
                   </span>
-                  <h3 className="text-xl font-black text-slate-900 mb-4 uppercase italic tracking-tight">{cenario.titulo}</h3>
-                  <p className="text-slate-600 font-medium leading-relaxed text-sm">{cenario.desc}</p>
+                  <h3 className="text-xl font-black text-slate-900 mb-4 uppercase italic tracking-tight"><RichText value={cenario.titulo} /></h3>
+                  <p className="text-slate-600 font-medium leading-relaxed text-sm"><RichText value={cenario.desc} /></p>
                 </div>
               );
             })}
@@ -376,7 +377,7 @@ export default function RenovacaoAVCBCondominioPage() {
                 ].map((reg, i) => (
                   <div key={i} className="flex items-center gap-3">
                     <CheckCircle2 className="w-5 h-5 text-red-600 flex-shrink-0" />
-                    <span className="text-gray-200 font-medium text-sm">{reg}</span>
+                    <span className="text-gray-200 font-medium text-sm"><RichText value={reg} /></span>
                   </div>
                 ))}
               </div>
@@ -402,11 +403,11 @@ export default function RenovacaoAVCBCondominioPage() {
                 className="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden cursor-pointer open:ring-4 open:ring-red-600/10 transition-all hover:bg-slate-50"
               >
                 <summary className="flex items-center justify-between p-7 font-black text-slate-900 text-lg select-none uppercase italic tracking-tight leading-tight">
-                  {faq.question}
+                  <RichText value={faq.question} />
                   <span className="text-red-600 text-2xl group-open:rotate-45 transition-transform duration-300 ml-4 flex-shrink-0">+</span>
                 </summary>
                 <div className="p-7 pt-0 text-slate-600 leading-relaxed text-base border-t border-slate-200 italic font-medium">
-                  {faq.answer}
+                  <RichText value={faq.answer} />
                 </div>
               </details>
             ))}
@@ -428,7 +429,7 @@ export default function RenovacaoAVCBCondominioPage() {
                 className="flex items-center gap-2 bg-slate-50 hover:bg-red-600 hover:text-white text-slate-700 font-bold px-6 py-3 rounded-2xl border border-slate-200 hover:border-red-600 transition-all text-sm"
               >
                 <ArrowRight className="w-4 h-4" />
-                {link.label}
+                <RichText value={link.label} />
               </Link>
             ))}
           </div>

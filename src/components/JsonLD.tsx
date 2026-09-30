@@ -9,7 +9,7 @@ export function JsonLD({ schema }: { schema: Record<string, any> }) {
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.drd2.com.br";
 const PHONE = process.env.NEXT_PUBLIC_WHATSAPP ? `+${process.env.NEXT_PUBLIC_WHATSAPP}` : "+5511942232969";
-const EMAIL = process.env.NEXT_PUBLIC_EMAIL || "comercial.drd2@gmail.com";
+const EMAIL = process.env.NEXT_PUBLIC_EMAIL || "comercial@drd2.com.br";
 const SAME_AS_URLS = (process.env.NEXT_PUBLIC_SAME_AS_URLS || "")
   .split(",")
   .map((url) => url.trim())
@@ -17,18 +17,13 @@ const SAME_AS_URLS = (process.env.NEXT_PUBLIC_SAME_AS_URLS || "")
 
 const address = {
   "@type": "PostalAddress",
-  "streetAddress": "Rua Vergueiro, 3185",
+  "streetAddress": "Rua Coronel José Eusébio, 95 — Casa 13, Higienópolis",
   "addressLocality": "São Paulo",
   "addressRegion": "SP",
-  "postalCode": "04101-300",
+  "postalCode": "01239-030",
   "addressCountry": "BR",
 };
 
-const geo = {
-  "@type": "GeoCoordinates",
-  "latitude": -23.5855,
-  "longitude": -46.6333,
-};
 
 const baseAreaServed = [
   { "@type": "City", "name": "São Paulo" },
@@ -111,7 +106,6 @@ function organizationNode() {
       "height": 60,
     },
     "address": address,
-    "geo": geo,
     "areaServed": baseAreaServed,
     "founder": { "@id": `${BASE_URL}/#samuel-costa` },
     "employee": { "@id": `${BASE_URL}/#samuel-costa` },
@@ -215,9 +209,9 @@ export const generateMasterSchema = ({
   const breadcrumbId = `${url}/#breadcrumb`;
   const faqId = `${url}/#faq`;
 
+  // Organização e engenheiro responsável já saem uma vez por página no layout
+  // (generateOrganizationSchema); aqui só são referenciados por @id.
   const graph: any[] = [
-    organizationNode(),
-    responsibleEngineerNode(),
     {
       "@type": "WebPage",
       "@id": `${url}/#webpage`,
@@ -285,9 +279,15 @@ export const generateMasterSchema = ({
   };
 };
 
+// A organização e o engenheiro já saem no layout; a página Sobre só os referencia.
 export const generateAboutPageSchema = () => ({
   "@context": "https://schema.org",
-  "@graph": [organizationNode(), responsibleEngineerNode()],
+  "@type": "AboutPage",
+  "@id": `${BASE_URL}/sobre/#webpage`,
+  "url": `${BASE_URL}/sobre`,
+  "about": { "@id": `${BASE_URL}/#organization` },
+  "mainEntity": { "@id": `${BASE_URL}/#organization` },
+  "isPartOf": { "@id": `${BASE_URL}/#website` },
 });
 
 export const generateWebSiteSchema = () => ({

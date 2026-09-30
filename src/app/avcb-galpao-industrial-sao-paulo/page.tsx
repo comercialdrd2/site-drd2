@@ -137,7 +137,7 @@ export default function AVCBGalpaoPage() {
                   </li>
                   <li className="flex items-start gap-3">
                     <ShieldX className="w-5 h-5 text-red-600 flex-shrink-0 mt-1" />
-                    <span><strong>Negativa de Seguradora:</strong> Em caso de sinistro, a ausência de AVCB leva à recusa do pagamento do prêmio pela seguradora patrimonial.</span>
+                    <span><strong>Negativa de Seguradora:</strong> Em caso de sinistro, a ausência de AVCB pode levar a seguradora a questionar a indenização, conforme as condições da apólice.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <ShieldX className="w-5 h-5 text-red-600 flex-shrink-0 mt-1" />

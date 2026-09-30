@@ -178,7 +178,7 @@ export default function ProjetosPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { icon: Layout, title: "Saídas e Escadas", desc: "Dimensionamento de rotas de fuga conforme IT-08." },
+              { icon: Layout, title: "Saídas e Escadas", desc: "Dimensionamento de rotas de fuga conforme IT-11." },
               { icon: Zap, title: "Iluminação de Emergência", desc: "Projetos em conformidade com IT-18 e NBR 10898." },
               { icon: Factory, title: "Sistema Hidráulico", desc: "Hidrantes, mangotinhos e sprinklers (IT-22 e IT-23)." },
               { icon: Zap, title: "SDAI — Detecção e Alarme", desc: "Sistemas inteligentes conforme IT-17 e NBR 17240." },
@@ -186,7 +186,7 @@ export default function ProjetosPage() {
               { icon: HardHat, title: "SPDA", desc: "Proteção contra descargas atmosféricas (IT-31)." },
               { icon: FileText, title: "Memorial Descritivo", desc: "Documentação técnica detalhada de todos os sistemas." },
               { icon: ClipboardCheck, title: "ART", desc: "Anotação de Responsabilidade Técnica de engenheiro habilitado." },
-              { icon: Users, title: "Brigada e Sinalização", desc: "Dimensionamento conforme IT-16 e IT-20." },
+              { icon: Users, title: "Brigada e Sinalização", desc: "Brigada conforme IT-17 e sinalização conforme IT-20." },
             ].map((item, i) => (
               <div key={i} className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-all group">
                 <div className="w-14 h-14 bg-red-50 rounded-2xl flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors">

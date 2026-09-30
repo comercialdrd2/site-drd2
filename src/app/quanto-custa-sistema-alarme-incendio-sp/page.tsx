@@ -12,7 +12,7 @@ const data: UniversalPageData = {
   h1Line2: "de Incêndio em SP? — Convencional vs. Endereçável",
   heroBg: "/images/banner-hero.webp",
   introP1:
-    "O custo de um sistema de alarme de incêndio em SP depende principalmente de um fator que muitos orçamentos omitem: central convencional ou central endereçável. A central convencional — que identifica apenas qual zona disparou — é adequada para edificações simples de até 3 zonas. A central endereçável — que identifica o detector exato — é exigida pela IT 18/19 para edificações complexas, com múltiplos andares, múltiplos inquilinos ou ambientes de risco diferenciado. A diferença de custo entre os dois sistemas é grande — mas é a diferença entre aprovação e reprovação na vistoria.",
+    "O custo de um sistema de alarme de incêndio em SP depende principalmente de um fator que muitos orçamentos omitem: central convencional ou central endereçável. A central convencional — que identifica apenas qual zona disparou — é adequada para edificações simples de até 3 zonas. A central endereçável — que identifica o detector exato — é exigida pela IT 19/2025 para edificações complexas, com múltiplos andares, múltiplos inquilinos ou ambientes de risco diferenciado. A diferença de custo entre os dois sistemas é grande — mas é a diferença entre aprovação e reprovação na vistoria.",
   introP2:
     "Esta página apresenta faixas de referência por porte e tipo de sistema, os principais fatores que encarecem o projeto e o que deve constar em qualquer orçamento completo para aprovação do AVCB. A DRD2 realiza diagnóstico técnico gratuito com escopo detalhado antes de qualquer proposta.",
   breadcrumbs: [
@@ -25,7 +25,7 @@ const data: UniversalPageData = {
     heading: "O que determina o custo de um alarme de incêndio em SP?",
     body: "Três variáveis principais definem o custo: (1) tipo de central — convencional (por zona) ou endereçável (por ponto); (2) número e tipo de detectores — ópticos de fumaça são os mais comuns e baratos, termostáticos para ambientes com calor, detectores de gás para cozinhas, detectores de feixe (beam) para grandes vãos; (3) periféricos — anunciador de voz, módulo de monitoramento remoto, botoeiras manuais, sirenes e integração com outros sistemas de proteção.",
     body2:
-      "O componente que mais surpreende em orçamentos é o anunciador de voz. A IT 18/19 exige anunciador de voz em edificações com ocupação pública — e um sistema de voz com amplificador, alto-falantes e mensagens gravadas por setor pesa bastante no total, dependendo da área e do número de pontos de anúncio. Orçamentos que não incluem anunciador de voz para edificações que o exigem serão reprovados na vistoria.",
+      "O componente que mais surpreende em orçamentos é o anunciador de voz. A IT 19/2025 exige anunciador de voz em edificações com ocupação pública — e um sistema de voz com amplificador, alto-falantes e mensagens gravadas por setor pesa bastante no total, dependendo da área e do número de pontos de anúncio. Orçamentos que não incluem anunciador de voz para edificações que o exigem serão reprovados na vistoria.",
   },
   h2_riscos: {
     heading: "O que faz o orçamento de alarme de incêndio encarecer além do esperado",
@@ -34,7 +34,7 @@ const data: UniversalPageData = {
     itens: [
       {
         titulo: "Central convencional trocada por endereçável na vistoria",
-        desc: "Edificação que recebe central convencional quando a IT 18/19 exige endereçável terá que trocar toda a central e recabear os detectores — custo de retrabalho pode exceder o custo de instalação correta na primeira vez.",
+        desc: "Edificação que recebe central convencional quando a IT 19/2025 exige endereçável terá que trocar toda a central e recabear os detectores — custo de retrabalho pode exceder o custo de instalação correta na primeira vez.",
       },
       {
         titulo: "Detectores especiais por setor não incluídos",
@@ -46,11 +46,11 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Monitoramento 24h não incluído",
-        desc: "A IT 18/19 exige que a central de alarme seja monitorada por empresa habilitada ou por bombeiro civil treinado em serviço. O contrato de monitoramento é custo recorrente mensal, que deve ser previsto no planejamento — não é opcional.",
+        desc: "A IT 19/2025 exige que a central de alarme seja monitorada por empresa habilitada ou por bombeiro civil treinado em serviço. O contrato de monitoramento é custo recorrente mensal, que deve ser previsto no planejamento — não é opcional.",
       },
       {
         titulo: "Integração com sistema de sprinkler ou hidrante",
-        desc: "Quando a edificação tem sprinkler ou hidrante, a IT 18/19 exige integração do alarme com esses sistemas. Módulos de integração e fiação adicional entre as centrais somam ao custo total.",
+        desc: "Quando a edificação tem sprinkler ou hidrante, a IT 19/2025 exige integração do alarme com esses sistemas. Módulos de integração e fiação adicional entre as centrais somam ao custo total.",
       },
       {
         titulo: "Retrofit com fiação embutida",
@@ -98,7 +98,7 @@ const data: UniversalPageData = {
     body1:
       "As faixas abaixo são referências para projetos completos (levantamento, projeto, ART, materiais, instalação, testes e laudo). Valores reais dependem das condições específicas de cada edificação e do tipo de central exigida.",
     alerta:
-      "Orçamentos sem ART de projeto e execução, sem laudo técnico ou com central de tipo inferior ao exigido pela IT 18/19 não habilitam a aprovação do AVCB — independentemente do preço.",
+      "Orçamentos sem ART de projeto e execução, sem laudo técnico ou com central de tipo inferior ao exigido pela IT 19/2025 não habilitam a aprovação do AVCB — independentemente do preço.",
     itens: [
       {
         titulo: "Pequeno porte — até 500 m² com central convencional",
@@ -145,7 +145,7 @@ const data: UniversalPageData = {
     {
       question: "Qual a diferença de custo entre alarme convencional e endereçável?",
       answer:
-        "A central endereçável custa bastante mais que a convencional só em equipamento. No entanto, a central endereçável identifica o detector exato que disparou — reduzindo o tempo de resposta e sendo exigida pela IT 18/19 para edificações complexas. Para a maioria dos edifícios comerciais e multifamiliares, o endereçável é o tipo correto.",
+        "A central endereçável custa bastante mais que a convencional só em equipamento. No entanto, a central endereçável identifica o detector exato que disparou — reduzindo o tempo de resposta e sendo exigida pela IT 19/2025 para edificações complexas. Para a maioria dos edifícios comerciais e multifamiliares, o endereçável é o tipo correto.",
     },
     {
       question: "Qual o custo médio de alarme para um pequeno comércio em SP?",
@@ -155,7 +155,7 @@ const data: UniversalPageData = {
     {
       question: "O monitoramento 24h está incluído no orçamento de alarme?",
       answer:
-        "Raramente. O monitoramento é um serviço recorrente, cobrado por mês por empresa habilitada, separado do custo de instalação. A IT 18/19 exige monitoramento — verifique se o orçamento inclui ao menos a previsão de integração com operadora de monitoramento.",
+        "Raramente. O monitoramento é um serviço recorrente, cobrado por mês por empresa habilitada, separado do custo de instalação. A IT 19/2025 exige monitoramento — verifique se o orçamento inclui ao menos a previsão de integração com operadora de monitoramento.",
     },
     {
       question: "O orçamento precisa incluir ART de engenheiro?",
@@ -165,7 +165,7 @@ const data: UniversalPageData = {
     {
       question: "Posso usar o mesmo orçamento de alarme para renovar o AVCB?",
       answer:
-        "Não diretamente. Para renovação do AVCB, é necessário laudo técnico atualizado com ART de manutenção ou de novo projeto — dependendo se o sistema existente ainda está em conformidade com a IT 18/19 vigente. A DRD2 avalia o sistema atual e define o que é necessário gratuitamente.",
+        "Não diretamente. Para renovação do AVCB, é necessário laudo técnico atualizado com ART de manutenção ou de novo projeto — dependendo se o sistema existente ainda está em conformidade com a IT 19/2025 vigente. A DRD2 avalia o sistema atual e define o que é necessário gratuitamente.",
     },
   ],
   linksInternos: [

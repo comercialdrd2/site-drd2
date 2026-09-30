@@ -12,6 +12,7 @@ import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import TrustBar from "@/components/TrustBar";
 import CtaWhatsApp from "@/components/CtaWhatsApp";
 import BreadcrumbNav from "@/components/BreadcrumbNav";
+import RichText from "@/components/RichText";
 import { renovacaoAvcbHostelContent as c } from "@/data/pages/renovacao-avcb-hostel-sao-paulo";
 import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
@@ -125,7 +126,7 @@ export default function RenovacaoAVCBHostelPage() {
               <div className="space-y-5 text-lg text-slate-700 leading-relaxed font-medium">
                 <p dangerouslySetInnerHTML={{ __html: c.h2_porqueVence.intro }} />
                 {c.h2_porqueVence.body.map((p, i) => (
-                  <p key={i}>{p}</p>
+                  <p key={i}><RichText value={p} /></p>
                 ))}
               </div>
               <p className="mt-6 font-bold text-slate-900">Situações que complicam a renovação de hostels:</p>
@@ -133,7 +134,7 @@ export default function RenovacaoAVCBHostelPage() {
                 {c.h2_porqueVence.complicadores.map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <AlertTriangle className="w-5 h-5 text-red-600 flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-medium leading-relaxed">{item}</span>
+                    <span className="text-slate-700 font-medium leading-relaxed"><RichText value={item} /></span>
                   </li>
                 ))}
               </ul>
@@ -168,8 +169,8 @@ export default function RenovacaoAVCBHostelPage() {
                     <ShieldX className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <p className="text-white font-black text-lg mb-2">{item.titulo}</p>
-                    <p className="text-slate-400 font-medium leading-relaxed text-sm">{item.desc}</p>
+                    <p className="text-white font-black text-lg mb-2"><RichText value={item.titulo} /></p>
+                    <p className="text-slate-400 font-medium leading-relaxed text-sm"><RichText value={item.desc} /></p>
                   </div>
                 </div>
               </div>
@@ -211,8 +212,8 @@ export default function RenovacaoAVCBHostelPage() {
                     <CheckCircle2 className="w-5 h-5 text-white" />
                   </div>
                   <div>
-                    <p className="text-slate-900 font-black text-base mb-2">{p.nome}</p>
-                    <p className="text-slate-600 font-medium leading-relaxed text-sm">{p.desc}</p>
+                    <p className="text-slate-900 font-black text-base mb-2"><RichText value={p.nome} /></p>
+                    <p className="text-slate-600 font-medium leading-relaxed text-sm"><RichText value={p.desc} /></p>
                   </div>
                 </div>
               </div>
@@ -238,8 +239,8 @@ export default function RenovacaoAVCBHostelPage() {
                       <Key className="w-5 h-5 text-white" />
                     </div>
                     <div>
-                      <p className="text-slate-900 font-black mb-1">{desafio.nome}</p>
-                      <p className="text-slate-600 font-medium leading-relaxed text-sm">{desafio.desc}</p>
+                      <p className="text-slate-900 font-black mb-1"><RichText value={desafio.nome} /></p>
+                      <p className="text-slate-600 font-medium leading-relaxed text-sm"><RichText value={desafio.desc} /></p>
                     </div>
                   </div>
                 ))}
@@ -264,7 +265,7 @@ export default function RenovacaoAVCBHostelPage() {
                 ].map((item, i) => (
                   <li key={i} className="flex items-center gap-3">
                     <CheckCircle2 className="w-5 h-5 text-red-600 flex-shrink-0" />
-                    <span className="text-slate-300 font-medium">{item}</span>
+                    <span className="text-slate-300 font-medium"><RichText value={item} /></span>
                   </li>
                 ))}
               </ul>
@@ -303,9 +304,9 @@ export default function RenovacaoAVCBHostelPage() {
                 <span className="text-7xl font-black text-red-600/10 absolute bottom-[-10px] right-[-10px] group-hover:text-red-600/20 transition-colors leading-none select-none pointer-events-none z-0 opacity-[0.12]">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <p className="relative z-10 text-[10px] font-black uppercase tracking-widest text-red-500 mb-3">{e.numero}</p>
-                <h3 className="relative z-10 text-xl font-black mb-4 uppercase italic tracking-tight">{e.titulo}</h3>
-                <p className="relative z-10 text-gray-400 leading-relaxed font-medium text-sm">{e.desc}</p>
+                <p className="relative z-10 text-[10px] font-black uppercase tracking-widest text-red-500 mb-3"><RichText value={e.numero} /></p>
+                <h3 className="relative z-10 text-xl font-black mb-4 uppercase italic tracking-tight"><RichText value={e.titulo} /></h3>
+                <p className="relative z-10 text-gray-400 leading-relaxed font-medium text-sm"><RichText value={e.desc} /></p>
               </div>
             ))}
           </div>
@@ -334,7 +335,7 @@ export default function RenovacaoAVCBHostelPage() {
                 {c.h2_cobertura.regioes.map((reg, i) => (
                   <div key={i} className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-red-600 flex-shrink-0 mt-1" />
-                    <span className="text-gray-200 font-medium text-sm leading-relaxed">{reg}</span>
+                    <span className="text-gray-200 font-medium text-sm leading-relaxed"><RichText value={reg} /></span>
                   </div>
                 ))}
               </div>
@@ -359,11 +360,11 @@ export default function RenovacaoAVCBHostelPage() {
                 className="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden cursor-pointer open:ring-4 open:ring-red-600/10 transition-all hover:bg-slate-50"
               >
                 <summary className="flex items-center justify-between p-7 font-black text-slate-900 text-lg select-none uppercase italic tracking-tight leading-tight">
-                  {faq.question}
+                  <RichText value={faq.question} />
                   <span className="text-red-600 text-2xl group-open:rotate-45 transition-transform duration-300 ml-4 flex-shrink-0">+</span>
                 </summary>
                 <div className="p-7 pt-0 text-slate-600 leading-relaxed text-base border-t border-slate-200 italic font-medium">
-                  {faq.answer}
+                  <RichText value={faq.answer} />
                 </div>
               </details>
             ))}
@@ -385,7 +386,7 @@ export default function RenovacaoAVCBHostelPage() {
                 className="flex items-center gap-2 bg-slate-50 hover:bg-red-600 hover:text-white text-slate-700 font-bold px-6 py-3 rounded-2xl border border-slate-200 hover:border-red-600 transition-all text-sm"
               >
                 <ArrowRight className="w-4 h-4" />
-                {link.label}
+                <RichText value={link.label} />
               </Link>
             ))}
           </div>

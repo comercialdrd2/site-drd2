@@ -5,13 +5,13 @@ const data: UniversalPageData = {
   slug: "/laudo-alarme-incendio-condominio-sao-paulo",
   meta: {
     title: "Laudo de Alarme de Incêndio para Condomínio em SP",
-    description: "Laudo técnico de alarme de incêndio para condomínios em São Paulo. IT 18/2019, cobertura por pavimento, detectores de garagem, ART CREA-SP inclusa. DRD2 Engenharia.",
+    description: "Laudo técnico de alarme de incêndio para condomínios em São Paulo. IT 19/2025, cobertura por pavimento, detectores de garagem, ART CREA-SP inclusa. DRD2 Engenharia.",
   },
-  eyebrow: "IT 18 — Alarme de Incêndio para Condomínio",
+  eyebrow: "IT 19 — Alarme de Incêndio para Condomínio",
   h1Line1: "Laudo de Alarme de Incêndio",
   h1Line2: "para Condomínio em São Paulo",
   heroBg: "/images/blog/blog_hero_avcb_condominio.webp",
-  introP1: "O alarme de incêndio em condomínios residenciais tem uma particularidade que a maioria dos síndicos desconhece: a garagem exige detector de monóxido de carbono (CO), não detector de fumaça. Condomínios que instalaram detectores de fumaça na garagem estão em não-conformidade com a IT 18/2019 e terão o AVCB reprovado na vistoria.",
+  introP1: "O alarme de incêndio em condomínios residenciais tem uma particularidade que a maioria dos síndicos desconhece: a garagem exige detector de monóxido de carbono (CO), não detector de fumaça. Condomínios que instalaram detectores de fumaça na garagem estão em não-conformidade com a IT 19/2025 e terão o AVCB reprovado na vistoria.",
   introP2: "A DRD2 emite laudo técnico do sistema de alarme de condomínios com ART CREA-SP, vistoria presencial em todos os pavimentos e checklist detalhado por zona — hall, garagem, casa de máquinas, salão de festas e áreas comuns. Para condomínios com AVCB vencendo, o laudo é parte obrigatória do processo de renovação.",
   breadcrumbs: [
     { label: "Home", href: "/" },
@@ -21,7 +21,7 @@ const data: UniversalPageData = {
   occupationType: "condomínio",
   h2_principal: {
     heading: "Exigências específicas do alarme em condomínios residenciais",
-    body: "A IT 18/2019 classifica condomínios residenciais no Grupo A. O sistema de alarme precisa cobrir todas as áreas comuns: halls de pavimento, corredores, garagem subterrânea, casa de máquinas, casa de gás, salão de festas, academia e guarita. As unidades privativas (apartamentos) não são obrigadas a ter detector individual, mas o sistema de alarme coletivo deve ser audível em toda a edificação.",
+    body: "A IT 19/2025 classifica condomínios residenciais no Grupo A. O sistema de alarme precisa cobrir todas as áreas comuns: halls de pavimento, corredores, garagem subterrânea, casa de máquinas, casa de gás, salão de festas, academia e guarita. As unidades privativas (apartamentos) não são obrigadas a ter detector individual, mas o sistema de alarme coletivo deve ser audível em toda a edificação.",
     body2: "Condomínios com mais de 10 andares precisam de sistema zonado — cada pavimento ou grupo de pavimentos em zona separada na central, permitindo identificar o andar de origem do alarme sem evacuar o prédio inteiro. A central deve ficar na portaria ou em local de acesso 24h, com sirene e painel indicador de zona.",
   },
   h2_riscos: {
@@ -89,7 +89,7 @@ const data: UniversalPageData = {
     body1: "O processo de AVCB ou renovação do condomínio exige os seguintes documentos relativos ao sistema de alarme de incêndio:",
     alerta: "A falta do laudo de alarme é uma das causas mais comuns de Comunique-se em processos de condomínio. Sem o laudo com ART, o CBPMESP não avança para a vistoria.",
     itens: [
-      { titulo: "Laudo técnico IT 18/2019 com ART", desc: "Documento que atesta que o sistema está instalado e funcionando conforme a norma. Assinado por engenheiro com ART CREA-SP recolhida." },
+      { titulo: "Laudo técnico IT 19/2025 com ART", desc: "Documento que atesta que o sistema está instalado e funcionando conforme a norma. Assinado por engenheiro com ART CREA-SP recolhida." },
       { titulo: "Planta por pavimento com marcação dos dispositivos", desc: "Planta baixa de cada pavimento com localização de detectores, sirenes, acionadores manuais e fiação — indispensável para análise documental no CBPMESP." },
       { titulo: "Relatório de manutenção anual", desc: "Comprovante de manutenção preventiva dos últimos 12 meses, com lista de dispositivos testados e resultado de cada teste. Emitido pela empresa de manutenção com ART ou RRT." },
       { titulo: "Ficha técnica da central de alarme", desc: "Especificação da central: número de zonas, autonomia de bateria, modelo e número de série — para verificação de compatibilidade com o tamanho da edificação." },
@@ -115,7 +115,7 @@ const data: UniversalPageData = {
   faqs: [
     {
       question: "Por que meu condomínio tem detector de fumaça na garagem se isso é errado?",
-      answer: "Porque muitos projetos antigos não seguiam a versão atual da IT 18/2019. Projetos aprovados antes de 2012 frequentemente têm detectores de fumaça na garagem. Na renovação atual do AVCB, o CBPMESP exige adequação para detector de CO — o que gera custo de substituição.",
+      answer: "Porque muitos projetos antigos não seguiam a versão atual da IT 19/2025. Projetos aprovados antes de 2012 frequentemente têm detectores de fumaça na garagem. Na renovação atual do AVCB, o CBPMESP exige adequação para detector de CO — o que gera custo de substituição.",
     },
     {
       question: "Quantos detectores o condomínio precisa por andar?",

@@ -56,7 +56,7 @@ export default function PoliticaPrivacidadePage() {
 
           <h2>1. Quem somos</h2>
           <p>
-            <strong>DRD2 Engenharia LTDA</strong> — CNPJ 51.774.619/0001-94 — é empresa especializada em engenharia de segurança contra incêndio, regularização de AVCB e CLCB em São Paulo. Para dúvidas sobre privacidade, entre em contato pelo e-mail: <a href="mailto:comercial.drd2@gmail.com">comercial.drd2@gmail.com</a>.
+            <strong>DRD2 Engenharia LTDA</strong> — CNPJ 51.774.619/0001-94 — é empresa especializada em engenharia de segurança contra incêndio, regularização de AVCB e CLCB em São Paulo. Para dúvidas sobre privacidade, entre em contato pelo e-mail: <a href="mailto:comercial@drd2.com.br">comercial@drd2.com.br</a>.
           </p>
 
           <h2>2. Dados que coletamos</h2>
@@ -106,7 +106,7 @@ export default function PoliticaPrivacidadePage() {
             <li>Revogar o consentimento a qualquer momento.</li>
             <li>Solicitar a portabilidade dos dados.</li>
           </ul>
-          <p>Para exercer qualquer direito, envie e-mail para <a href="mailto:comercial.drd2@gmail.com">comercial.drd2@gmail.com</a> com o assunto "LGPD – Meus Dados".</p>
+          <p>Para exercer qualquer direito, envie e-mail para <a href="mailto:comercial@drd2.com.br">comercial@drd2.com.br</a> com o assunto "LGPD – Meus Dados".</p>
 
           <h2>8. Retenção e segurança</h2>
           <p>
@@ -121,7 +121,7 @@ export default function PoliticaPrivacidadePage() {
           <h2>10. Contato</h2>
           <p>
             Para qualquer dúvida relacionada a esta política ou ao tratamento dos seus dados, entre em contato:<br />
-            <strong>E-mail:</strong> <a href="mailto:comercial.drd2@gmail.com">comercial.drd2@gmail.com</a><br />
+            <strong>E-mail:</strong> <a href="mailto:comercial@drd2.com.br">comercial@drd2.com.br</a><br />
             <strong>WhatsApp:</strong> <a href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`} target="_blank" rel="noopener noreferrer">Falar pelo WhatsApp</a>
           </p>
         </div>

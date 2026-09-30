@@ -246,7 +246,7 @@ const ptotepBlogPosts: BlogPost[] = [
   }
 ];
 
-export const blogPosts: BlogPost[] = [
+const allBlogPosts: BlogPost[] = [
   {
     slug: "avcb-mogi-das-cruzes-como-regularizar",
     title: "Como tirar ou renovar o AVCB em Mogi das Cruzes? (Indústrias e Galpões)",
@@ -363,7 +363,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
         <li><strong>Sistema de supressão automática na coifa</strong> — obrigatório em cozinhas com fritadeiras e fogões industriais, conforme ABNT NBR 14880.</li>
         <li><strong>Extintores de incêndio</strong> — incluindo obrigatoriamente o Classe K na área de cozinha, conforme IT-21 e ABNT NBR 12693.</li>
         <li><strong>Central de GLP regularizada</strong> — instalação, distâncias e laudo de estanqueidade conforme ABNT NBR 13523.</li>
-        <li><strong>Saídas de emergência e rotas de fuga</strong> — dimensionamento de portas, corredores e sinalização conforme IT-08 e IT-20.</li>
+        <li><strong>Saídas de emergência e rotas de fuga</strong> — dimensionamento de portas, corredores e sinalização conforme IT-11 e IT-20.</li>
         <li><strong>Iluminação de emergência</strong> — blocos autônomos com autonomia mínima de 1 hora conforme IT-18.</li>
         <li><strong>Sinalização de emergência</strong> — placas fotoluminescentes em rotas, saídas e equipamentos conforme IT-20.</li>
         <li><strong>Alarme de incêndio</strong> — quando exigido pela área e características da edificação conforme IT-19.</li>
@@ -447,7 +447,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
         <li>Grupo e classe de ocupação (IT-02/CBPMESP)</li>
         <li>Carga de incêndio específica (IT-14/CBPMESP) — fator crítico para galpões com estoque de materiais inflamáveis</li>
         <li>Sistemas de prevenção e combate existentes e sua conformidade</li>
-        <li>Saídas de emergência, sinalização e rota de fuga (IT-08/CBPMESP)</li>
+        <li>Saídas de emergência, sinalização e rota de fuga (IT-11/CBPMESP)</li>
         <li>Adequações necessárias antes do protocolo</li>
       </ul>
       <p>Sem esse diagnóstico, qualquer orçamento ou prazo informado é chute. A realidade técnica do galpão é que define o escopo do trabalho.</p>
@@ -553,7 +553,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>A classificação correta é o ponto de partida de qualquer processo de AVCB para serviços de saúde. Protocolá-lo com enquadramento errado é motivo certo de Comunique-se e retrabalho.</p>
 
       <h3>H-1 — Hospitais gerais e especializados</h3>
-      <p>Internação, UTI, centro cirúrgico, pronto-socorro com leitos. Exigência máxima de compartimentação (IT-17/CBPMESP), sistema de detecção e alarme conforme NBR 17240, sprinkler em áreas críticas (IT-23/CBPMESP), plano de emergência (IT-43/CBPMESP) e dimensionamento diferenciado de saídas (IT-08/CBPMESP) para evacuação assistida.</p>
+      <p>Internação, UTI, centro cirúrgico, pronto-socorro com leitos. Exigência máxima de compartimentação (IT-17/CBPMESP), sistema de detecção e alarme conforme NBR 17240, sprinkler em áreas críticas (IT-23/CBPMESP), plano de emergência (IT-16/CBPMESP) e dimensionamento diferenciado de saídas (IT-11/CBPMESP) para evacuação assistida.</p>
 
       <h3>H-2 — Unidades de longa permanência</h3>
       <p>Casas de repouso, clínicas psiquiátricas, hospices. Semelhante ao H-1 em termos de plano de abandono, com especificidades nos sistemas de contenção e na comunicação de emergência.</p>
@@ -579,10 +579,10 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>Em edificações com múltiplos pavimentos e setores (UTI, centro cirúrgico, enfermaria, área administrativa), a compartimentação é o principal mecanismo de contenção da propagação do incêndio. Ela define portas corta-fogo, selos corta-fogo em passagens de instalações e paredes com resistência ao fogo (TRRF) conforme a IT-17.</p>
       <p>A reforma de um hospital sem atualização de compartimentação é uma das situações de maior risco de indeferimento — e de maior risco real para os pacientes.</p>
 
-      <h3>Saídas de Emergência com Capacidade para Evacuação Assistida (IT-08/CBPMESP)</h3>
+      <h3>Saídas de Emergência com Capacidade para Evacuação Assistida (IT-11/CBPMESP)</h3>
       <p>Para subgrupos com internação e mobilidade reduzida de pacientes, o dimensionamento de saídas considera não apenas o fluxo de pessoas, mas a necessidade de evacuação em macas e cadeiras de rodas. Corredores, portas e escadas precisam atender a larguras mínimas específicas — e o projeto precisa demonstrar isso ao CBPMESP.</p>
 
-      <h3>Plano de Emergência (IT-43/CBPMESP)</h3>
+      <h3>Plano de Emergência (IT-16/CBPMESP)</h3>
       <p>Hospitais e unidades com internação são obrigados a ter um plano de emergência formal, com brigada treinada e procedimentos documentados de evacuação por setor. O plano é parte do processo de AVCB e precisa ser elaborado em conjunto com o projeto técnico — não é um documento separado ou opcional.</p>
 
       <h3>Hidrantes, Sprinkler e Iluminação de Emergência</h3>
@@ -617,7 +617,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>Na DRD2 Engenharia, o processo começa com uma vistoria técnica presencial, conduzida por engenheiro com domínio do Grupo H. A partir daí:</p>
       <ul>
         <li><strong>Etapa 1 — Classificação e diagnóstico:</strong> enquadramento correto do subgrupo H, análise dos sistemas existentes e mapeamento completo das adequações necessárias antes de qualquer protocolo.</li>
-        <li><strong>Etapa 2 — Projeto técnico:</strong> elaboração das plantas, memoriais e cálculos conforme as ITs aplicáveis, com atenção específica ao sistema de detecção (NBR 17240), compartimentação (IT-17) e plano de emergência (IT-43) quando exigido.</li>
+        <li><strong>Etapa 2 — Projeto técnico:</strong> elaboração das plantas, memoriais e cálculos conforme as ITs aplicáveis, com atenção específica ao sistema de detecção (NBR 17240), compartimentação (IT-17) e plano de emergência (IT-16) quando exigido.</li>
         <li><strong>Etapa 3 — ART:</strong> emissão da Anotação de Responsabilidade Técnica junto ao CREA-SP, com toda a responsabilidade técnica do processo formalizada.</li>
         <li><strong>Etapa 4 — Adequações físicas:</strong> execução dos sistemas e ajustes na edificação, com documentação rastreável de cada intervenção.</li>
         <li><strong>Etapa 5 — Protocolo e acompanhamento:</strong> instrução completa do processo junto ao CBPMESP, com resposta técnica a Comunique-se quando necessário, até a emissão do AVCB.</li>
@@ -627,8 +627,8 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     `,
     faqs: [
       { question: "Clínica médica e hospital são obrigados a ter AVCB em São Paulo?", answer: "Sim. A obrigatoriedade está estabelecida no Decreto Estadual nº 69.118/2024 e regulamentada pelas ITs do CBPMESP. Todos os estabelecimentos de saúde enquadrados no Grupo H da IT-02/CBPMESP — de consultórios simples (H-5) a hospitais gerais com internação (H-1) — estão sujeitos ao processo de AVCB ou CLCB, conforme o subgrupo e o porte da edificação. A fiscalização pode ocorrer de forma integrada entre CBPMESP e Vigilância Sanitária." },
-      { question: "O que é o Grupo H do CBPMESP e como isso afeta o projeto?", answer: "O Grupo H é a classificação do CBPMESP para edificações destinadas a serviços de saúde, conforme a IT-02/CBPMESP. É dividido em subgrupos: H-1 (hospitais com internação), H-2 (unidades de longa permanência), H-3 (laboratórios e diagnóstico), H-4 (clínicas e prontos-socorros sem internação) e H-5 (consultórios ambulatoriais). O subgrupo determina quais sistemas são obrigatórios — compartimentação (IT-17), detecção automática (IT-19/NBR 17240), plano de emergência (IT-43) e dimensionamento de saídas para evacuação assistida (IT-08). Protocolar com enquadramento errado gera Comunique-se e atraso." },
-      { question: "Qual a diferença entre o AVCB de uma clínica e o de um hospital?", answer: "A principal diferença está na complexidade dos sistemas exigidos e na necessidade de plano de abandono formal. Hospitais com internação (H-1) exigem sistema de detecção automática conforme NBR 17240, compartimentação rigorosa (IT-17), dimensionamento de saídas para evacuação de pacientes não ambulatoriais e plano de emergência (IT-43/CBPMESP). Clínicas ambulatoriais sem internação (H-4 ou H-5) têm exigências progressivamente menores, mas ainda requerem projeto técnico completo com ART." },
+      { question: "O que é o Grupo H do CBPMESP e como isso afeta o projeto?", answer: "O Grupo H é a classificação do CBPMESP para edificações destinadas a serviços de saúde, conforme a IT-02/CBPMESP. É dividido em subgrupos: H-1 (hospitais com internação), H-2 (unidades de longa permanência), H-3 (laboratórios e diagnóstico), H-4 (clínicas e prontos-socorros sem internação) e H-5 (consultórios ambulatoriais). O subgrupo determina quais sistemas são obrigatórios — compartimentação (IT-17), detecção automática (IT-19/NBR 17240), plano de emergência (IT-16) e dimensionamento de saídas para evacuação assistida (IT-11). Protocolar com enquadramento errado gera Comunique-se e atraso." },
+      { question: "Qual a diferença entre o AVCB de uma clínica e o de um hospital?", answer: "A principal diferença está na complexidade dos sistemas exigidos e na necessidade de plano de abandono formal. Hospitais com internação (H-1) exigem sistema de detecção automática conforme NBR 17240, compartimentação rigorosa (IT-09), dimensionamento de saídas para evacuação de pacientes não ambulatoriais e plano de emergência (IT-16/CBPMESP). Clínicas ambulatoriais sem internação (H-4 ou H-5) têm exigências progressivamente menores, mas ainda requerem projeto técnico completo com ART." },
       { question: "O AVCB está relacionado ao licenciamento da Vigilância Sanitária?", answer: "São documentos distintos emitidos por órgãos diferentes. Porém, na prática, a Vigilância Sanitária de muitos municípios paulistas condiciona a renovação da licença de funcionamento à apresentação do AVCB válido. Operadoras de planos de saúde também exigem AVCB atualizado em auditorias de credenciamento. O AVCB vencido pode impactar a renovação de múltiplas licenças e resultar em descredenciamento temporário, com impacto direto no faturamento." },
       { question: "O que acontece se o estabelecimento de saúde for fiscalizado sem AVCB?", answer: "A fiscalização pode resultar em auto de infração, notificação com prazo para regularização, interdição parcial ou total e comunicação à Vigilância Sanitária. Em caso de sinistro envolvendo pacientes internados, a ausência de AVCB e de sistemas de segurança adequados agrava gravemente a responsabilidade civil e criminal dos responsáveis legais. A vulnerabilidade dos pacientes coloca o Grupo H entre as ocupações com maior exposição a consequências jurídicas em situações de irregularidade." },
       { question: "Quanto tempo leva para tirar o AVCB de uma clínica ou hospital em SP?", answer: "O prazo depende do subgrupo H, da área da edificação, do estado atual dos sistemas instalados e da completude da instrução processual. Em clínicas ambulatoriais (H-4 ou H-5) com sistemas adequados, processos bem instruídos costumam ser aprovados entre 60 e 90 dias. Para hospitais (H-1) com maior complexidade documental e de sistemas, o prazo varia entre 90 e 180 dias. Processos mal instruídos, com Comunique-se mal respondidos, podem facilmente ultrapassar 12 meses." }
@@ -2672,7 +2672,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>Térreo + 1 andar costuma ser aceito. Térreo + 2 andares já precisa de análise. Acima de 3 pavimentos, AVCB é praticamente obrigatório.</p>
 
       <h2>4. Qual a lotação máxima esperada?</h2>
-      <p>Mesmo em áreas pequenas, lotação acima de <strong>100 pessoas</strong> tipicamente puxa o enquadramento para AVCB. O dimensionamento das saídas de emergência conforme IT-08 exige cálculo específico que o CLCB não realiza.</p>
+      <p>Mesmo em áreas pequenas, lotação acima de <strong>100 pessoas</strong> tipicamente puxa o enquadramento para AVCB. O dimensionamento das saídas de emergência conforme IT-11 exige cálculo específico que o CLCB não realiza.</p>
       <p>Restaurantes com salão para 80-100 pessoas, salões de festas pequenos e igrejas com público modesto costumam ainda caber em CLCB. Casas noturnas, bares com show e templos grandes vão direto para AVCB.</p>
 
       <h2>5. A edificação tem sistemas técnicos exigidos por norma?</h2>
@@ -2742,7 +2742,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <h2>Etapa 3: Adequar os itens auto-declarados</h2>
       <p>O CLCB é um processo de declaração. Você declara ao CBPMESP que os seguintes itens estão em conformidade. Por isso, eles precisam estar realmente conformes antes do protocolo:</p>
       <ul>
-        <li><strong>Extintores</strong>: dentro do prazo de recarga, distribuídos conforme IT-16, com sinalização visível</li>
+        <li><strong>Extintores</strong>: dentro do prazo de recarga, distribuídos conforme IT-21, com sinalização visível</li>
         <li><strong>Iluminação de emergência</strong>: blocos funcionando em todos os pontos críticos, baterias com carga</li>
         <li><strong>Sinalização de emergência</strong>: placas fotoluminescentes na rota de fuga, em bom estado</li>
         <li><strong>Saídas de emergência</strong>: desobstruídas, com largura mínima, portas abrindo no sentido de fuga</li>
@@ -2951,3 +2951,18 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
 
 ];
 
+// Posts cujo endereço /blog/... já redireciona para outra página (next.config.mjs).
+// Ficam fora das listas do blog, da home e dos posts relacionados, para que os
+// links internos apontem direto para páginas que respondem 200.
+const REDIRECTED_BLOG_SLUGS = new Set<string>([
+  "diferenca-entre-avcb-e-ptotep-eventos",
+  "alarme-incendio-galpao-industrial-obrigatorio-sp",
+  "como-regularizar-condominio-corpo-de-bombeiros",
+  "avcb-para-creche-sao-paulo",
+  "avcb-para-academia-sao-paulo",
+  "avcb-para-padaria-sao-paulo",
+  "avcb-para-igreja-sao-paulo",
+  "avcb-para-shopping-sao-paulo",
+]);
+
+export const blogPosts: BlogPost[] = allBlogPosts.filter((p) => !REDIRECTED_BLOG_SLUGS.has(p.slug));

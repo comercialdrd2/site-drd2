@@ -255,7 +255,7 @@ export default function AVCBPostoPage() {
                   { norm: "ABNT NBR 17505", desc: "Regula armazenamento de líquidos inflamáveis e instalações elétricas ATEX na pista." },
                   { norm: "ABNT NBR 13786", desc: "Define o laudo de estanqueidade obrigatório para tanques subterrâneos." },
                   { norm: "IT-21 / NBR 12693", desc: "Determina os tipos corretos de extintores — CO2 e PQS BC — para a área de bombas." },
-                  { norm: "IT-19 / NBR 5419", desc: "Regula o SPDA (para-raios) obrigatório em postos pela presença de vapores inflamáveis." },
+                  { norm: "NBR 5419", desc: "Regula o SPDA (para-raios) obrigatório em postos pela presença de vapores inflamáveis." },
                   { norm: "Resolução ANP nº 41/2013", desc: "Licenciamento da ANP, que passou a cruzar dados com o CBPMESP em 2026." },
                 ].map((item, i) => (
                   <li key={i} className="flex gap-3">

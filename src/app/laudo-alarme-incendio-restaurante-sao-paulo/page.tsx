@@ -5,14 +5,14 @@ const data: UniversalPageData = {
   slug: "/laudo-alarme-incendio-restaurante-sao-paulo",
   meta: {
     title: "Laudo de Alarme de Incêndio para Restaurante em SP",
-    description: "Laudo técnico do sistema de alarme de incêndio para restaurantes em São Paulo. IT 18/2019, detectores compatíveis com cozinha industrial, ART CREA-SP inclusa. DRD2 Engenharia.",
+    description: "Laudo técnico do sistema de alarme de incêndio para restaurantes em São Paulo. IT 19/2025, detectores compatíveis com cozinha industrial, ART CREA-SP inclusa. DRD2 Engenharia.",
   },
-  eyebrow: "IT 18 — Alarme de Incêndio para Restaurante",
+  eyebrow: "IT 19 — Alarme de Incêndio para Restaurante",
   h1Line1: "Laudo de Alarme de Incêndio",
   h1Line2: "para Restaurante em São Paulo",
   heroBg: "/images/blog/blog_hero_avcb_restaurante.webp",
   introP1: "O laudo de alarme de incêndio para restaurantes em São Paulo tem exigências técnicas diferentes das de um escritório ou condomínio. A cozinha industrial — com vapor, gordura e temperaturas elevadas — é o ponto crítico: detectores convencionais instalados próximos à coifa disparam falsos alarmes constantemente ou, pior, param de funcionar por acúmulo de gordura sem que o responsável perceba.",
-  introP2: "A DRD2 emite laudo técnico do sistema de alarme com ART CREA-SP, conforme a IT 18/2019 do CBPMESP, com vistoria presencial e checklist completo de conformidade. Para restaurantes, validamos o tipo de detector por ambiente (iônico, óptico ou termovelocimétrico), a cobertura da área de salão e cozinha e a integração com a central de alarme.",
+  introP2: "A DRD2 emite laudo técnico do sistema de alarme com ART CREA-SP, conforme a IT 19/2025 do CBPMESP, com vistoria presencial e checklist completo de conformidade. Para restaurantes, validamos o tipo de detector por ambiente (iônico, óptico ou termovelocimétrico), a cobertura da área de salão e cozinha e a integração com a central de alarme.",
   breadcrumbs: [
     { label: "Home", href: "/" },
     { label: "Serviços", href: "/servicos" },
@@ -21,7 +21,7 @@ const data: UniversalPageData = {
   occupationType: "restaurante",
   h2_principal: {
     heading: "Por que o alarme de incêndio em restaurante tem exigências específicas",
-    body: "A IT 18/2019 do CBPMESP classifica restaurantes no Grupo B (serviços) com carga de incêndio média a alta. A presença de cozinha industrial obriga o uso de detectores termovelocimétricos ou detectores de chama na área da coifa — detectores de fumaça convencionais são vedados nessa zona pela própria norma, pois o vapor saturado gera alarmes falsos contínuos que levam à desativação do sistema pelos funcionários.",
+    body: "A IT 19/2025 do CBPMESP classifica restaurantes no Grupo B (serviços) com carga de incêndio média a alta. A presença de cozinha industrial obriga o uso de detectores termovelocimétricos ou detectores de chama na área da coifa — detectores de fumaça convencionais são vedados nessa zona pela própria norma, pois o vapor saturado gera alarmes falsos contínuos que levam à desativação do sistema pelos funcionários.",
     body2: "Além da cozinha, o salão e os banheiros têm exigências de cobertura distintas. A central de alarme deve ter bateria de no mínimo 24h de autonomia, sirene audível em toda a área de atendimento e sinalização luminosa nas saídas de emergência integrada ao painel. O laudo técnico documenta cada um desses pontos — e é esse documento que o CBPMESP exige na vistoria do AVCB.",
   },
   h2_riscos: {
@@ -70,7 +70,7 @@ const data: UniversalPageData = {
       {
         numero: "03",
         titulo: "Verificação de compatibilidade com IT 18",
-        desc: "Conferimos tipo de detector por zona, área de cobertura, altura de instalação, tempo de resposta da central e autonomia de bateria conforme a IT 18/2019.",
+        desc: "Conferimos tipo de detector por zona, área de cobertura, altura de instalação, tempo de resposta da central e autonomia de bateria conforme a IT 19/2025.",
       },
       {
         numero: "04",
@@ -89,7 +89,7 @@ const data: UniversalPageData = {
     body1: "Para aprovação do AVCB, o processo do restaurante precisa incluir os seguintes documentos relativos ao sistema de alarme:",
     alerta: "Laudo sem ART de engenheiro registrado no CREA-SP é automaticamente indeferido pelo CBPMESP. Todo laudo emitido pela DRD2 inclui ART recolhida.",
     itens: [
-      { titulo: "Laudo técnico do sistema (IT 18/2019)", desc: "Documento principal com descrição do sistema, resultado dos testes, não-conformes encontrados e declaração de conformidade. Assinado por engenheiro com ART." },
+      { titulo: "Laudo técnico do sistema (IT 19/2025)", desc: "Documento principal com descrição do sistema, resultado dos testes, não-conformes encontrados e declaração de conformidade. Assinado por engenheiro com ART." },
       { titulo: "Planta de localização dos detectores", desc: "Planta baixa do restaurante com marcação de cada detector, sirene, acionador manual e central — conforme escala exigida pelo CBPMESP." },
       { titulo: "ART do responsável técnico (CREA-SP)", desc: "Anotação de Responsabilidade Técnica do engenheiro que assina o laudo, com código de recolhimento e declaração de responsabilidade." },
       { titulo: "Relatório de manutenção anual", desc: "Comprovante de manutenção preventiva do sistema dentro dos últimos 12 meses, com registro dos dispositivos testados e resultado." },
@@ -104,7 +104,7 @@ const data: UniversalPageData = {
   },
   h2_escolher: {
     heading: "Frequência de manutenção do alarme em restaurante",
-    body1: "A IT 18/2019 exige manutenção anual documentada do sistema de alarme. Para cozinhas industriais, a DRD2 recomenda inspeção semestral dos detectores próximos à coifa — o acúmulo de gordura nesses pontos específicos é mais rápido e pode comprometer o funcionamento antes da manutenção anual.",
+    body1: "A IT 19/2025 exige manutenção anual documentada do sistema de alarme. Para cozinhas industriais, a DRD2 recomenda inspeção semestral dos detectores próximos à coifa — o acúmulo de gordura nesses pontos específicos é mais rápido e pode comprometer o funcionamento antes da manutenção anual.",
     body2: "Restaurantes que trabalham com frituras pesadas ou churrasqueira a carvão devem considerar limpeza trimestral dos detectores da área de cozinha. O custo de uma limpeza preventiva é uma fração do custo de substituição de um detector danificado por saturação de gordura.",
   },
   h2_cobertura: {
@@ -115,7 +115,7 @@ const data: UniversalPageData = {
   faqs: [
     {
       question: "Que tipo de detector é obrigatório na cozinha do restaurante?",
-      answer: "Na área da coifa e próximo a equipamentos de cocção, a IT 18/2019 exige detector termovelocimétrico ou detector de chama — nunca detector de fumaça óptico ou iônico, que entram em falso alarme com vapor. No salão e banheiros, detectores ópticos são aceitos.",
+      answer: "Na área da coifa e próximo a equipamentos de cocção, a IT 19/2025 exige detector termovelocimétrico ou detector de chama — nunca detector de fumaça óptico ou iônico, que entram em falso alarme com vapor. No salão e banheiros, detectores ópticos são aceitos.",
     },
     {
       question: "O laudo de alarme precisa de ART?",

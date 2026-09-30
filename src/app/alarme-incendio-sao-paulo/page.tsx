@@ -19,12 +19,12 @@ import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import CtaWhatsApp from "@/components/CtaWhatsApp";
 
-const _pageTitle = "Alarme de Incêndio em São Paulo 2026 — IT 17/18";
-const _pageDesc = "Projeto, instalação e manutenção de sistemas de alarme de incêndio em São Paulo conforme IT 17/18 do CBPMESP e NBR 17240. DRD2 Engenharia. Laudo técnico com ART inclusa para o AVCB.";
+const _pageTitle = "Alarme de Incêndio em São Paulo 2026 — IT 19/2025";
+const _pageDesc = "Projeto, instalação e manutenção de sistemas de alarme de incêndio em São Paulo conforme IT 19/2025 do CBPMESP e NBR 17240. DRD2 Engenharia. Laudo técnico com ART inclusa para o AVCB.";
 
 export const metadata = {
-  title: "Alarme de Incêndio em São Paulo 2026 — IT 17/18",
-  description: "Projeto, instalação e manutenção de sistemas de alarme de incêndio em São Paulo conforme IT 17/18 do CBPMESP e NBR 17240. DRD2 Engenharia. Laudo técnico com ART inclusa para o AVCB.",
+  title: "Alarme de Incêndio em São Paulo 2026 — IT 19/2025",
+  description: "Projeto, instalação e manutenção de sistemas de alarme de incêndio em São Paulo conforme IT 19/2025 do CBPMESP e NBR 17240. DRD2 Engenharia. Laudo técnico com ART inclusa para o AVCB.",
   alternates: {
     canonical: "/alarme-incendio-sao-paulo",
   },
@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     q: "Que sistema de alarme o Corpo de Bombeiros exige para o AVCB?",
-    a: "O CBPMESP exige sistema de alarme dimensionado conforme a IT 18/2019. Para edificações de menor porte, um sistema convencional pode ser suficiente. Para edificações maiores ou de maior risco, o sistema endereçável (inteligente) é obrigatório, pois permite identificar com precisão o ponto de alarme. O laudo técnico com ART é obrigatório para aprovação.",
+    a: "O CBPMESP exige sistema de alarme dimensionado conforme a IT 19/2025. Para edificações de menor porte, um sistema convencional pode ser suficiente. Para edificações maiores ou de maior risco, o sistema endereçável (inteligente) é obrigatório, pois permite identificar com precisão o ponto de alarme. O laudo técnico com ART é obrigatório para aprovação.",
   },
   {
     q: "Com que frequência o sistema de alarme precisa de manutenção?",
@@ -126,7 +126,7 @@ export default function AlarmeIncendioSaoPauloPage() {
         <div className="relative z-10 container mx-auto px-4 max-w-6xl w-full">
           <div className="lg:w-3/5">
             <span className="inline-block bg-red-600 text-white text-[10px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest mb-3 shadow-lg shadow-red-900/20">
-              Proteção Ativa 24/7 — IT 17/18 — São Paulo 2026
+              Proteção Ativa 24/7 — IT 19/2025 — São Paulo 2026
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
               <span className="text-white">ALARME DE INCÊNDIO</span>
@@ -135,7 +135,7 @@ export default function AlarmeIncendioSaoPauloPage() {
               </span>
             </h1>
             <p className="text-base md:text-lg text-gray-200 mb-6 leading-relaxed font-medium max-w-2xl border-l-4 border-red-600 pl-6 py-1">
-              Projetamos e instalamos sistemas de detecção e alarme de incêndio conforme <strong>IT 18/2019 do CBPMESP</strong> e <strong>NBR 17240</strong> para aprovação no AVCB. Laudo técnico com ART inclusa.
+              Projetamos e instalamos sistemas de detecção e alarme de incêndio conforme <strong>IT 19/2025 do CBPMESP</strong> e <strong>NBR 17240</strong> para aprovação no AVCB. Laudo técnico com ART inclusa.
             </p>
             <a
               href={whatsappLink}
@@ -170,7 +170,7 @@ export default function AlarmeIncendioSaoPauloPage() {
               </h2>
               <div className="space-y-6 text-lg text-slate-700 leading-relaxed font-medium">
                 <p>
-                  O sistema de detecção e alarme de incêndio é uma das medidas de proteção ativa mais fiscalizadas pelo CBPMESP em vistorias. Em São Paulo, a <strong>IT 18/2019</strong> determina a obrigatoriedade do sistema para a maioria das edificações comerciais, industriais e residenciais de médio e grande porte — e o laudo de manutenção periódica é documento obrigatório na renovação do AVCB.
+                  O sistema de detecção e alarme de incêndio é uma das medidas de proteção ativa mais fiscalizadas pelo CBPMESP em vistorias. Em São Paulo, a <strong>IT 19/2025</strong> determina a obrigatoriedade do sistema para a maioria das edificações comerciais, industriais e residenciais de médio e grande porte — e o laudo de manutenção periódica é documento obrigatório na renovação do AVCB.
                 </p>
                 <p>
                   Alarmes sem laudo de manutenção atualizado, sistemas com detectores defeituosos ou centrais sem comunicação com a brigada de incêndio geram <strong>Comunique-se</strong> no processo do CBPMESP e paralisam a aprovação até a regularização completa.
@@ -300,7 +300,7 @@ export default function AlarmeIncendioSaoPauloPage() {
           </h2>
           <div className="space-y-3">
             {[
-              "Projeto de detecção conforme IT 18/2019 e NBR 17240",
+              "Projeto de detecção conforme IT 19/2025 e NBR 17240",
               "Instalação de central convencional ou endereçável",
               "Detectores de fumaça, temperatura e gás carbônico",
               "Botoeiras manuais, sirenes e sinalização integrada",
@@ -372,7 +372,7 @@ export default function AlarmeIncendioSaoPauloPage() {
             <WhatsAppIcon className="w-8 h-8 inline" /> CHAMAR AGORA NO WHATSAPP
           </a>
           <p className="mt-10 text-[10px] font-black uppercase tracking-[0.4em] text-red-200 opacity-60 italic">
-            DRD2 ENGENHARIA — SISTEMA DE ALARME DE INCÊNDIO EM SÃO PAULO — IT 18/2019
+            DRD2 ENGENHARIA — SISTEMA DE ALARME DE INCÊNDIO EM SÃO PAULO — IT 19/2025
           </p>
         </div>
       </section>

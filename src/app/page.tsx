@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import OccupancyAccordion from "@/components/OccupancyAccordion";
-import { JsonLD, generateOrganizationSchema, generateBreadcrumbSchema } from "@/components/JsonLD";
+import { JsonLD, generateBreadcrumbSchema } from "@/components/JsonLD";
 import { ShieldCheck, FileCheck, BookOpen, ArrowRight, MapPin, Bell, Droplets, Zap, Wrench, Users, Flame, Wind, Activity } from "lucide-react";
 import StatCounter from "@/components/StatCounter";
 import CtaWhatsApp from "@/components/CtaWhatsApp";
@@ -20,7 +20,6 @@ export const metadata = {
 };
 
 export default function HomePage() {
-  const orgSchema = generateOrganizationSchema();
   
   const faqSchema = {
     "@context": "https://schema.org",
@@ -56,7 +55,6 @@ export default function HomePage() {
 
   return (
     <>
-      <JsonLD schema={orgSchema} />
       <JsonLD schema={faqSchema} />
       <JsonLD schema={generateBreadcrumbSchema([{ name: "Home", item: "/" }])} />
 

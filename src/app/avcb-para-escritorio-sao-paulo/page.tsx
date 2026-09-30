@@ -225,7 +225,7 @@ export default function AVCBEscritorioMasterPage() {
                 d: "Define o enquadramento Grupo D, a carga de incêndio, a altura da edificação e a área total — parâmetros que determinam todo o conjunto de medidas de proteção obrigatórias para a unidade.",
               },
               {
-                t: "IT-08 — Saídas de Emergência",
+                t: "IT-11 — Saídas de Emergência",
                 d: "define a largura mínima de corredores e rotas de fuga, o número de saídas exigíveis calculado pela densidade de ocupação e as condições de descarga no logradouro. Escritórios com open space e alta densidade têm exigências específicas de dimensionamento que diferem de layouts tradicionais com salas fechadas.",
               },
               {
@@ -233,11 +233,11 @@ export default function AVCBEscritorioMasterPage() {
                 d: "obrigatória para escritórios com número de ocupantes acima do limite estabelecido pela IT-02. Empresas com 10 ou mais colaboradores tipicamente precisam de brigada formalmente constituída, com treinamento documentado e certificado com validade vigente.",
               },
               {
-                t: "IT-17 — Sistemas de Detecção e Alarme de Incêndio",
+                t: "IT-19 — Sistemas de Detecção e Alarme de Incêndio",
                 d: "obrigatório conforme área total e altura da edificação. Em lajes corporativas, o sistema de detecção da unidade deve ser integrado ao painel central do edifício — exigência frequentemente ignorada em reformas e causa comum de indeferimento em vistoria técnica.",
               },
               {
-                t: "IT-21 — Sistemas de Hidrantes e Mangotinhos",
+                t: "IT-22 — Sistemas de Hidrantes e Mangotinhos",
                 d: "exigível conforme parâmetros de área e ocupação, com laudo de teste de pressão e vazão obrigatório para o protocolo.",
               },
             ].map((it, i) => (
@@ -334,7 +334,7 @@ export default function AVCBEscritorioMasterPage() {
               },
               {
                 t: "Projeto atualizado de segurança contra incêndio",
-                d: "Elaboração ou atualização das plantas com todos os sistemas exigíveis conforme IT-02, IT-08, IT-17, IT-20 e IT-21 — dimensionamento correto para o layout atual do escritório.",
+                d: "Elaboração ou atualização das plantas com todos os sistemas exigíveis conforme as IT-11 (saídas), IT-19 (alarme), IT-20 (sinalização), IT-21 (extintores) e IT-22 (hidrantes) — dimensionamento correto para o layout atual do escritório.",
               },
               {
                 t: "Memorial descritivo técnico",

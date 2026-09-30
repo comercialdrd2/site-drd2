@@ -84,7 +84,7 @@ export const avcbCasaRepousoContent = {
       },
       {
         nome: "Saídas de emergência e rotas de fuga",
-        desc: "dimensionamento conforme IT-08, considerando a evacuação assistida de todos os residentes simultaneamente. Largura mínima aumentada para permitir passagem de macas e cadeiras de rodas. Rampas substituindo degraus em todos os pontos da rota de fuga.",
+        desc: "dimensionamento conforme IT-11, considerando a evacuação assistida de todos os residentes simultaneamente. Largura mínima aumentada para permitir passagem de macas e cadeiras de rodas. Rampas substituindo degraus em todos os pontos da rota de fuga.",
       },
       {
         nome: "Compartimentação corta-fogo",

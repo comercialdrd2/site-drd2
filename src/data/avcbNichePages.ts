@@ -85,12 +85,12 @@ export const avcbNichePages: AvcbNichePage[] = [
         desc: "Define se o caso entra como H-1, comercio simples, uso misto ou precisa de avaliacao complementar pelo uso real do imovel.",
       },
       {
-        it: "IT-08",
+        it: "IT-11",
         title: "Saidas de emergencia",
         desc: "Rotas precisam considerar recepcao, consultorios, banho e tosa, internacao, estoque e areas tecnicas sem bloqueio por gaiolas ou mobiliario.",
       },
       {
-        it: "IT-16 / IT-20",
+        it: "IT-21 / IT-20",
         title: "Extintores e sinalizacao",
         desc: "Distribuicao, classe, validade, placas e identificacao das rotas devem bater com o layout real da clinica.",
       },
@@ -204,12 +204,12 @@ export const avcbNichePages: AvcbNichePage[] = [
         desc: "Classifica garagem sem acesso de publico, garagem com acesso de publico e casos que deixam de ser estacionamento simples.",
       },
       {
-        it: "IT-08",
+        it: "IT-11",
         title: "Rotas de fuga",
         desc: "Pedestres precisam ter caminho claro, sinalizado e livre, sem depender da faixa de veiculos em pontos criticos.",
       },
       {
-        it: "IT-16 / IT-20",
+        it: "IT-21 / IT-20",
         title: "Extintores e sinalizacao",
         desc: "Equipamentos e placas devem ser posicionados conforme area, risco, distancia de caminhamento e layout real da garagem.",
       },
@@ -319,8 +319,8 @@ export const avcbNichePages: AvcbNichePage[] = [
     requirementsTitle: "Exigencias comuns no AVCB de pousada",
     requirements: [
       { it: "IT-02", title: "Enquadramento B-1", desc: "Confirma se o caso e CLCB, Projeto Simplificado ou AVCB com vistoria conforme area, altura e numero de quartos." },
-      { it: "IT-08", title: "Saidas de emergencia", desc: "Rotas dos quartos ate a rua, largura de corredores e escadas, e abertura das portas no sentido de fuga." },
-      { it: "IT-16 / IT-20", title: "Extintores e sinalizacao", desc: "Distribuicao por pavimento, classes corretas e placas fotoluminescentes nas rotas." },
+      { it: "IT-11", title: "Saidas de emergencia", desc: "Rotas dos quartos ate a rua, largura de corredores e escadas, e abertura das portas no sentido de fuga." },
+      { it: "IT-21 / IT-20", title: "Extintores e sinalizacao", desc: "Distribuicao por pavimento, classes corretas e placas fotoluminescentes nas rotas." },
       { it: "IT-18", title: "Iluminacao de emergencia", desc: "Autonomia minima nas rotas, escadas e areas comuns — critica para fuga noturna." },
       { it: "IT-28", title: "GLP", desc: "Central de gas, abrigo ventilado e teste de estanqueidade da linha da cozinha." },
       { it: "IT-19", title: "Deteccao e alarme", desc: "Conforme porte, deteccao de fumaca nos quartos e acionadores nas rotas." },
@@ -396,8 +396,8 @@ export const avcbNichePages: AvcbNichePage[] = [
     requirementsTitle: "Exigencias comuns no AVCB educacional",
     requirements: [
       { it: "IT-02", title: "Enquadramento Grupo E", desc: "Define o processo pela area, altura, lotacao e riscos especificos (labs, cozinha, auditorio)." },
-      { it: "IT-08", title: "Saidas de emergencia", desc: "Largura de corredores e escadas pela lotacao, portas no sentido de fuga e rotas ate area segura." },
-      { it: "IT-16 / IT-20", title: "Extintores e sinalizacao", desc: "Cobertura por pavimento e sinalizacao fotoluminescente completa das rotas." },
+      { it: "IT-11", title: "Saidas de emergencia", desc: "Largura de corredores e escadas pela lotacao, portas no sentido de fuga e rotas ate area segura." },
+      { it: "IT-21 / IT-20", title: "Extintores e sinalizacao", desc: "Cobertura por pavimento e sinalizacao fotoluminescente completa das rotas." },
       { it: "IT-18", title: "Iluminacao de emergencia", desc: "Corredores, escadas, salas de grande lotacao e auditorios com autonomia garantida." },
       { it: "IT-19", title: "Alarme de incendio", desc: "Acionadores e avisadores audiveis em todo o predio conforme o porte." },
       { it: "IT-17", title: "Brigada e plano", desc: "Brigada dimensionada, treinada e com exercicios de abandono documentados." },
@@ -478,12 +478,12 @@ export const avcbNichePages: AvcbNichePage[] = [
         desc: "Define se o imovel renova por CLCB, AVCB com vistoria ou precisa de novo Projeto Tecnico — errar aqui consome o prazo da apolice.",
       },
       {
-        it: "IT-08",
+        it: "IT-11",
         title: "Saidas de emergencia",
         desc: "Rotas, portas corta-fogo e escadas precisam corresponder a lotacao e ao layout real do imovel.",
       },
       {
-        it: "IT-16 / IT-20",
+        it: "IT-21 / IT-20",
         title: "Extintores e sinalizacao",
         desc: "Cargas, validades, alturas e placas conferidas antes da vistoria — item classico de reprovacao.",
       },

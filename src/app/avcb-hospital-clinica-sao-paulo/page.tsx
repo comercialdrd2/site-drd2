@@ -221,7 +221,7 @@ export default function AVCBHospitalMasterPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-10 rounded-[2.5rem] border border-slate-200 shadow-lg">
               <div className="w-12 h-12 bg-red-600 text-white flex items-center justify-center rounded-2xl font-black text-xl mb-6 shadow-lg shadow-red-600/20">01</div>
-              <h3 className="text-xl font-black text-slate-900 mb-4 uppercase italic">Saídas de Emergência (IT-08)</h3>
+              <h3 className="text-xl font-black text-slate-900 mb-4 uppercase italic">Saídas de Emergência (IT-11)</h3>
               <p className="text-slate-600 text-sm leading-relaxed font-medium">
                 Corredores e portas devem possuir dimensões que permitam a passagem de macas e cadeiras de rodas. Em hospitais (H-3), as larguras mínimas são ainda maiores.
               </p>
@@ -537,12 +537,12 @@ export default function AVCBHospitalMasterPage() {
               },
               {
                 title: "AVCB Vencido: O que fazer e como regularizar?",
-                slug: "avcb-vencido-o-que-fazer",
+                slug: "/avcb-vencido-o-que-fazer",
                 image: "/images/blog/blog_hero_avcb_vencido.webp",
                 desc: "Evite a interdição imediata pela Vigilância Sanitária em 2026."
               }
             ].map((post, i) => (
-              <Link prefetch={false} key={i} href={`/blog/${post.slug}`} className="group bg-white rounded-[3rem] overflow-hidden border border-slate-200 hover:shadow-2xl hover:border-red-600/20 transition-all flex flex-col h-full font-black italic">
+              <Link prefetch={false} key={i} href={post.slug.startsWith("/") ? post.slug : `/blog/${post.slug}`} className="group bg-white rounded-[3rem] overflow-hidden border border-slate-200 hover:shadow-2xl hover:border-red-600/20 transition-all flex flex-col h-full font-black italic">
                 <div className="relative h-64 overflow-hidden">
                   <Image 
                     src={post.image} 

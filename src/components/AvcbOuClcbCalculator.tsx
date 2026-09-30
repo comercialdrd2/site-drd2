@@ -92,7 +92,7 @@ function calculate(area: number, occupation: Occupation | null, floors: number, 
     return {
       type: "AVCB",
       title: "AVCB recomendado",
-      reason: `Lotação acima de 100 pessoas (você indicou ${capacity}) tipicamente exige AVCB pelo dimensionamento de saídas de emergência conforme IT-08, mesmo em áreas menores que 750 m².`,
+      reason: `Lotação acima de 100 pessoas (você indicou ${capacity}) tipicamente exige AVCB pelo dimensionamento de saídas de emergência conforme IT-11, mesmo em áreas menores que 750 m².`,
       ctaLabel: "Ver renovação de AVCB",
       ctaHref: "/renovacao-avcb",
     };

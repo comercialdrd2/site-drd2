@@ -93,7 +93,7 @@ export const avcbRestauranteContent = {
       },
       {
         nome: "Saídas de emergência",
-        desc: "dimensionamento correto do número e largura das saídas conforme IT-08, calculado sobre a lotação máxima do restaurante. Portas com abertura no sentido do fluxo de saída e, acima de determinada lotação, barras antipânico.",
+        desc: "dimensionamento correto do número e largura das saídas conforme IT-11, calculado sobre a lotação máxima do restaurante. Portas com abertura no sentido do fluxo de saída e, acima de determinada lotação, barras antipânico.",
       },
       {
         nome: "Compartimentação",

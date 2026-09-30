@@ -4,15 +4,15 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/sistema-alarme-incendio-hotel-avcb-sp",
   meta: {
-    title: "Sistema de Alarme de Incêndio para Hotel em SP — IT 18/19 e Monitoramento 24h",
-    description: "A DRD2 projeta e instala sistemas de alarme de incêndio para hotel em SP conforme IT 18/19. Detecção por UH, central endereçável, monitoramento 24h e laudo para AVCB hoteleiro. Diagnóstico gratuito.",
+    title: "Sistema de Alarme de Incêndio para Hotel em SP — IT 19/2025 e Monitoramento 24h",
+    description: "A DRD2 projeta e instala sistemas de alarme de incêndio para hotel em SP conforme IT 19/2025. Detecção por UH, central endereçável, monitoramento 24h e laudo para AVCB hoteleiro. Diagnóstico gratuito.",
   },
-  eyebrow: "IT 18/19 — Hotéis, Resorts e Flats em SP",
+  eyebrow: "IT 19/2025 — Hotéis, Resorts e Flats em SP",
   h1Line1: "Sistema de Alarme de Incêndio para Hotel",
-  h1Line2: "em São Paulo — IT 18/19, Central Endereçável e AVCB",
+  h1Line2: "em São Paulo — IT 19/2025, Central Endereçável e AVCB",
   heroBg: "/images/blog/blog_hero_casa_repouso_avcb.webp",
   introP1:
-    "Hóspedes dormindo não respondem a fumaça sem alarme sonoro no quarto. Hotéis precisam de detecção de incêndio em cada unidade habitacional, central endereçável que identifica o andar e quarto em chamas em segundos, e monitoramento 24 horas por operador treinado. A DRD2 projeta e instala sistemas de alarme de incêndio para hotel em SP conforme IT 18/19, com ART CREA-SP e laudo para AVCB hoteleiro.",
+    "Hóspedes dormindo não respondem a fumaça sem alarme sonoro no quarto. Hotéis precisam de detecção de incêndio em cada unidade habitacional, central endereçável que identifica o andar e quarto em chamas em segundos, e monitoramento 24 horas por operador treinado. A DRD2 projeta e instala sistemas de alarme de incêndio para hotel em SP conforme IT 19/2025, com ART CREA-SP e laudo para AVCB hoteleiro.",
   introP2:
     "Processo completo: projeto de sistema endereçável com loop por andar, detecção em UH e áreas comuns, anunciador de voz, monitoramento 24h e laudo para aprovação do AVCB. Diagnóstico técnico gratuito.",
   breadcrumbs: [
@@ -23,9 +23,9 @@ const data: UniversalPageData = {
   occupationType: "hotel",
   h2_principal: {
     heading: "Por que hotéis precisam de alarme endereçável e monitoramento 24 horas?",
-    body: "A IT 18/19 do CBPMESP classifica hotéis como ocupação de Grupo H-1 com exigência de sistema de alarme de incêndio endereçável — não convencional. A diferença é crítica: um sistema convencional indica apenas qual zona está em alarme (por exemplo, 'andar 7'); um sistema endereçável indica exatamente o dispositivo ativado ('detector fumaça quarto 712'). Em um hotel com 200 quartos, isso pode ser a diferença entre localizar o incêndio em 20 segundos ou em 5 minutos.",
+    body: "A IT 19/2025 do CBPMESP classifica hotéis como ocupação de Grupo H-1 com exigência de sistema de alarme de incêndio endereçável — não convencional. A diferença é crítica: um sistema convencional indica apenas qual zona está em alarme (por exemplo, 'andar 7'); um sistema endereçável indica exatamente o dispositivo ativado ('detector fumaça quarto 712'). Em um hotel com 200 quartos, isso pode ser a diferença entre localizar o incêndio em 20 segundos ou em 5 minutos.",
     body2:
-      "Para hotéis com mais de 100 unidades habitacionais, a IT 18/19 também exige monitoramento 24 horas por operador treinado na recepção — não apenas uma central de alarme desatendida. O operador deve saber como responder ao alarme, acionar a brigada e coordenar a evacuação parcial do andar afetado sem criar pânico nos demais hóspedes. Hotéis que operam sem essa estrutura estão em irregularidade formal perante o CBPMESP.",
+      "Para hotéis com mais de 100 unidades habitacionais, a IT 19/2025 também exige monitoramento 24 horas por operador treinado na recepção — não apenas uma central de alarme desatendida. O operador deve saber como responder ao alarme, acionar a brigada e coordenar a evacuação parcial do andar afetado sem criar pânico nos demais hóspedes. Hotéis que operam sem essa estrutura estão em irregularidade formal perante o CBPMESP.",
   },
   h2_riscos: {
     heading: "O que reprova o sistema de alarme de hotel na vistoria do CBPMESP",
@@ -34,11 +34,11 @@ const data: UniversalPageData = {
     itens: [
       {
         titulo: "Central convencional onde é exigida endereçável",
-        desc: "Hotéis acima do porte mínimo da IT 18/19 exigem central endereçável. Manter central convencional após a norma entrar em vigor é Comunique-se automático na primeira renovação de AVCB.",
+        desc: "Hotéis acima do porte mínimo da IT 19/2025 exigem central endereçável. Manter central convencional após a norma entrar em vigor é Comunique-se automático na primeira renovação de AVCB.",
       },
       {
         titulo: "Ausência de detector em unidade habitacional",
-        desc: "A IT 18/19 exige detector de fumaça em cada UH — não apenas em corredores. Hotéis que só possuem detectores nos corredores estão com cobertura insuficiente e serão autuados.",
+        desc: "A IT 19/2025 exige detector de fumaça em cada UH — não apenas em corredores. Hotéis que só possuem detectores nos corredores estão com cobertura insuficiente e serão autuados.",
       },
       {
         titulo: "Sem anunciador de voz para hotéis acima de porte",
@@ -46,7 +46,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Monitoramento 24h sem documentação formal",
-        desc: "A IT 18/19 exige que o monitoramento noturno seja feito por funcionário com treinamento documentado. Hotéis que alegam ter 'o porteiro monitorando' sem registro de treinamento formal são autuados.",
+        desc: "A IT 19/2025 exige que o monitoramento noturno seja feito por funcionário com treinamento documentado. Hotéis que alegam ter 'o porteiro monitorando' sem registro de treinamento formal são autuados.",
       },
       {
         titulo: "Baterias sem teste periódico documentado",
@@ -94,9 +94,9 @@ const data: UniversalPageData = {
     ],
   },
   h2_detalhes: {
-    heading: "O que a IT 18/19 exige especificamente para alarme de hotel",
+    heading: "O que a IT 19/2025 exige especificamente para alarme de hotel",
     body1:
-      "Hotéis são Grupo H-1 na IT 18/19 — ocupação residencial transitória com exigências reforçadas de detecção precoce, comunicação de emergência e monitoramento. A norma diferencia o porte do hotel para definir o tipo de sistema e os recursos obrigatórios.",
+      "Hotéis são Grupo H-1 na IT 19/2025 — ocupação residencial transitória com exigências reforçadas de detecção precoce, comunicação de emergência e monitoramento. A norma diferencia o porte do hotel para definir o tipo de sistema e os recursos obrigatórios.",
     alerta:
       "Reforma de UHs, expansão de andares ou adição de restaurante e salão de eventos exige atualização do projeto de alarme com nova ART.",
     itens: [
@@ -118,7 +118,7 @@ const data: UniversalPageData = {
       },
     ],
     closing:
-      "A DRD2 realiza levantamento técnico gratuito do sistema instalado no hotel, identifica todas as não-conformidades com IT 18/19 e apresenta proposta de adequação ou instalação com orçamento fechado.",
+      "A DRD2 realiza levantamento técnico gratuito do sistema instalado no hotel, identifica todas as não-conformidades com IT 19/2025 e apresenta proposta de adequação ou instalação com orçamento fechado.",
   },
   h2_quando: {
     heading: "Quando revisar o sistema de alarme de incêndio do hotel?",
@@ -145,12 +145,12 @@ const data: UniversalPageData = {
     {
       question: "Hotel é obrigado a ter sistema de alarme de incêndio endereçável em SP?",
       answer:
-        "Sim. Hotéis acima de determinado porte são obrigados a ter sistema de alarme endereçável conforme IT 18/19 do CBPMESP. A obrigatoriedade de sistema endereçável — versus convencional — depende do número de UHs e andares. A DRD2 faz o enquadramento correto gratuitamente.",
+        "Sim. Hotéis acima de determinado porte são obrigados a ter sistema de alarme endereçável conforme IT 19/2025 do CBPMESP. A obrigatoriedade de sistema endereçável — versus convencional — depende do número de UHs e andares. A DRD2 faz o enquadramento correto gratuitamente.",
     },
     {
       question: "O sistema de alarme do hotel precisa monitorar os quartos individualmente?",
       answer:
-        "Sim. A IT 18/19 exige detector de fumaça em cada unidade habitacional com endereço individual na central endereçável. Detectores apenas nos corredores não satisfazem a norma — o interior do quarto precisa de detecção própria.",
+        "Sim. A IT 19/2025 exige detector de fumaça em cada unidade habitacional com endereço individual na central endereçável. Detectores apenas nos corredores não satisfazem a norma — o interior do quarto precisa de detecção própria.",
     },
     {
       question: "O hotel precisa de funcionário monitorando o alarme 24 horas?",
@@ -160,7 +160,7 @@ const data: UniversalPageData = {
     {
       question: "O que é o anunciador de voz e quando o hotel precisa dele?",
       answer:
-        "O anunciador de voz é um equipamento integrado à central de alarme que transmite mensagens de emergência por alto-falantes nos corredores e áreas comuns. Permite evacuação ordenada de andares específicos sem disparar alarme geral — reduzindo pânico. É exigido para hotéis acima de determinado porte pela IT 18/19.",
+        "O anunciador de voz é um equipamento integrado à central de alarme que transmite mensagens de emergência por alto-falantes nos corredores e áreas comuns. Permite evacuação ordenada de andares específicos sem disparar alarme geral — reduzindo pânico. É exigido para hotéis acima de determinado porte pela IT 19/2025.",
     },
     {
       question: "A DRD2 faz projeto e instalação de alarme para hotéis em reforma?",
@@ -177,7 +177,7 @@ const data: UniversalPageData = {
   ],
   ctaFinal: {
     heading: "ALARME PARA HOTEL — ENDEREÇÁVEL + 24H + LAUDO AVCB",
-    body: "Diagnóstico técnico gratuito. Sistema endereçável com detecção por quarto. Processo completo conforme IT 18/19.",
+    body: "Diagnóstico técnico gratuito. Sistema endereçável com detecção por quarto. Processo completo conforme IT 19/2025.",
     cta: "Solicitar Diagnóstico Técnico Gratuito",
   },
 };

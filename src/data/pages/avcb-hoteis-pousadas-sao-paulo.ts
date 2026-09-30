@@ -83,7 +83,7 @@ export const avcbHotelContent = {
       },
       {
         nome: "Saídas de emergência",
-        desc: "dimensionamento correto de corredores, escadas de emergência e portas corta-fogo com abertura no sentido do fluxo de saída conforme IT-08.",
+        desc: "dimensionamento correto de corredores, escadas de emergência e portas corta-fogo com abertura no sentido do fluxo de saída conforme IT-11.",
       },
       {
         nome: "Controle de fumaça e pressurização",

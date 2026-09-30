@@ -4,17 +4,17 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/alarme-incendio-obrigatorio-avcb-sp",
   meta: {
-    title: "Alarme de Incêndio é Obrigatório em SP? — Quando Exigido pela IT 18/19 e AVCB",
-    description: "Descubra quando o alarme de incêndio é obrigatório em SP pela IT 18/19: ocupação, área e altura que determinam a exigência. O que acontece sem o sistema e como regularizar. Diagnóstico gratuito.",
+    title: "Alarme de Incêndio é Obrigatório em SP? — Quando Exigido pela IT 19/2025 e AVCB",
+    description: "Descubra quando o alarme de incêndio é obrigatório em SP pela IT 19/2025: ocupação, área e altura que determinam a exigência. O que acontece sem o sistema e como regularizar. Diagnóstico gratuito.",
   },
-  eyebrow: "IT 18/19 — Obrigatoriedade de Alarme de Incêndio em São Paulo",
+  eyebrow: "IT 19/2025 — Obrigatoriedade de Alarme de Incêndio em São Paulo",
   h1Line1: "Alarme de Incêndio é Obrigatório em SP?",
-  h1Line2: "Quando a IT 18/19 Exige o Sistema para o AVCB",
+  h1Line2: "Quando a IT 19/2025 Exige o Sistema para o AVCB",
   heroBg: "/images/banner-hero.webp",
   introP1:
-    "A obrigatoriedade do sistema de alarme de incêndio em São Paulo é definida pela IT 18/19 do CBPMESP com base no grupo de ocupação, na área total construída e na altura da edificação. O alarme de incêndio tem os menores limites de obrigatoriedade entre os três sistemas principais — o que significa que ele é exigido em um número maior de edificações do que o hidrante ou o sprinkler. Muitos proprietários de estabelecimentos de médio porte descobrem que o alarme é obrigatório apenas quando o CBPMESP emite o Comunique-se na vistoria do AVCB.",
+    "A obrigatoriedade do sistema de alarme de incêndio em São Paulo é definida pela IT 19/2025 do CBPMESP com base no grupo de ocupação, na área total construída e na altura da edificação. O alarme de incêndio tem os menores limites de obrigatoriedade entre os três sistemas principais — o que significa que ele é exigido em um número maior de edificações do que o hidrante ou o sprinkler. Muitos proprietários de estabelecimentos de médio porte descobrem que o alarme é obrigatório apenas quando o CBPMESP emite o Comunique-se na vistoria do AVCB.",
   introP2:
-    "A DRD2 realiza diagnóstico técnico gratuito que inclui o enquadramento correto da edificação na IT 18/19, a verificação de obrigatoriedade — incluindo o tipo de central exigido — e a apresentação de escopo e prazo para regularização com AVCB.",
+    "A DRD2 realiza diagnóstico técnico gratuito que inclui o enquadramento correto da edificação na IT 19/2025, a verificação de obrigatoriedade — incluindo o tipo de central exigido — e a apresentação de escopo e prazo para regularização com AVCB.",
   breadcrumbs: [
     { label: "Home", href: "/" },
     { label: "Alarme de Incêndio", href: "/alarme-incendio-sao-paulo" },
@@ -23,9 +23,9 @@ const data: UniversalPageData = {
   occupationType: "comercial",
   h2_principal: {
     heading: "Quais edificações são obrigadas a ter alarme de incêndio em SP?",
-    body: "A IT 18/19 define obrigatoriedade de alarme de incêndio para edificações que atendam a um ou mais dos seguintes critérios: (1) grupo de ocupação com risco elevado — saúde (H), educação (E), reunião de público (F), locais de reunião (F-5, F-6, F-7) são obrigados independentemente de área; (2) área total construída acima do limite mínimo para o grupo de ocupação — o alarme tem limites menores do que os do sprinkler, atingindo obrigatoriedade em edificações de médio porte; (3) altura da edificação acima do limite da IT 18/19 — edificações multifamiliares e comerciais de múltiplos andares frequentemente atingem esse critério.",
+    body: "A IT 19/2025 define obrigatoriedade de alarme de incêndio para edificações que atendam a um ou mais dos seguintes critérios: (1) grupo de ocupação com risco elevado — saúde (H), educação (E), reunião de público (F), locais de reunião (F-5, F-6, F-7) são obrigados independentemente de área; (2) área total construída acima do limite mínimo para o grupo de ocupação — o alarme tem limites menores do que os do sprinkler, atingindo obrigatoriedade em edificações de médio porte; (3) altura da edificação acima do limite da IT 19/2025 — edificações multifamiliares e comerciais de múltiplos andares frequentemente atingem esse critério.",
     body2:
-      "Uma diferença importante da IT 18/19 em relação às demais normas: ela especifica não apenas a obrigatoriedade do alarme, mas também o tipo de central exigido — convencional ou endereçável. Para edificações complexas, com múltiplos andares, múltiplos inquilinos ou ambientes de risco diferenciado, a central endereçável é exigida. Um projeto que instala central convencional quando a endereçável é exigida é reprovado na vistoria — mesmo com todos os demais itens corretos.",
+      "Uma diferença importante da IT 19/2025 em relação às demais normas: ela especifica não apenas a obrigatoriedade do alarme, mas também o tipo de central exigido — convencional ou endereçável. Para edificações complexas, com múltiplos andares, múltiplos inquilinos ou ambientes de risco diferenciado, a central endereçável é exigida. Um projeto que instala central convencional quando a endereçável é exigida é reprovado na vistoria — mesmo com todos os demais itens corretos.",
   },
   h2_riscos: {
     heading: "O que acontece quando o alarme de incêndio obrigatório não está instalado",
@@ -64,17 +64,17 @@ const data: UniversalPageData = {
       {
         numero: "ETAPA 01",
         titulo: "Identificação do grupo de ocupação e área",
-        desc: "O grupo de ocupação e a área total construída são os dois parâmetros que definem a obrigatoriedade na IT 18/19. Edificações com múltiplos usos têm o grupo definido pelo uso predominante ou pelo mais restritivo conforme a norma.",
+        desc: "O grupo de ocupação e a área total construída são os dois parâmetros que definem a obrigatoriedade na IT 19/2025. Edificações com múltiplos usos têm o grupo definido pelo uso predominante ou pelo mais restritivo conforme a norma.",
       },
       {
         numero: "ETAPA 02",
         titulo: "Definição do tipo de central exigida",
-        desc: "A IT 18/19 especifica o tipo de central (convencional ou endereçável) conforme a complexidade da edificação. Esse é o fator mais frequentemente equivocado em orçamentos sem diagnóstico técnico prévio.",
+        desc: "A IT 19/2025 especifica o tipo de central (convencional ou endereçável) conforme a complexidade da edificação. Esse é o fator mais frequentemente equivocado em orçamentos sem diagnóstico técnico prévio.",
       },
       {
         numero: "ETAPA 03",
         titulo: "Diagnóstico técnico gratuito",
-        desc: "A DRD2 realiza o enquadramento correto na IT 18/19, verifica a obrigatoriedade e o tipo de central, identifica sistema existente e verifica se está em conformidade com a norma vigente.",
+        desc: "A DRD2 realiza o enquadramento correto na IT 19/2025, verifica a obrigatoriedade e o tipo de central, identifica sistema existente e verifica se está em conformidade com a norma vigente.",
       },
       {
         numero: "ETAPA 04",
@@ -96,9 +96,9 @@ const data: UniversalPageData = {
   h2_detalhes: {
     heading: "Grupos de ocupação com maior frequência de obrigatoriedade de alarme em SP",
     body1:
-      "Os grupos abaixo são os que mais frequentemente atingem os critérios de obrigatoriedade de alarme de incêndio conforme a IT 18/19. O enquadramento correto depende da área, altura e características específicas de cada edificação.",
+      "Os grupos abaixo são os que mais frequentemente atingem os critérios de obrigatoriedade de alarme de incêndio conforme a IT 19/2025. O enquadramento correto depende da área, altura e características específicas de cada edificação.",
     alerta:
-      "A IT 18/19 exige que o alarme de incêndio seja mantido em pleno funcionamento com manutenção semestral documentada. Um sistema instalado e desligado por alarmes falsos frequentes — situação comum quando o tipo de detector foi mal selecionado — é tratado como sistema ausente na vistoria do CBPMESP.",
+      "A IT 19/2025 exige que o alarme de incêndio seja mantido em pleno funcionamento com manutenção semestral documentada. Um sistema instalado e desligado por alarmes falsos frequentes — situação comum quando o tipo de detector foi mal selecionado — é tratado como sistema ausente na vistoria do CBPMESP.",
     itens: [
       {
         titulo: "Grupo E — Educacional",
@@ -118,7 +118,7 @@ const data: UniversalPageData = {
       },
     ],
     closing:
-      "A DRD2 realiza o enquadramento correto da sua edificação na IT 18/19 gratuitamente, define o tipo de central correto e apresenta o caminho mais eficiente para regularização com AVCB.",
+      "A DRD2 realiza o enquadramento correto da sua edificação na IT 19/2025 gratuitamente, define o tipo de central correto e apresenta o caminho mais eficiente para regularização com AVCB.",
   },
   h2_quando: {
     heading: "Quando a obrigatoriedade de alarme deve ser verificada?",
@@ -145,27 +145,27 @@ const data: UniversalPageData = {
     {
       question: "Como saber se o meu estabelecimento é obrigado a ter alarme de incêndio?",
       answer:
-        "A obrigatoriedade é definida pelo grupo de ocupação, área total e altura da edificação conforme a IT 18/19. O diagnóstico técnico gratuito da DRD2 faz esse enquadramento correto — incluindo a definição do tipo de central (convencional ou endereçável) exigido para a sua edificação específica.",
+        "A obrigatoriedade é definida pelo grupo de ocupação, área total e altura da edificação conforme a IT 19/2025. O diagnóstico técnico gratuito da DRD2 faz esse enquadramento correto — incluindo a definição do tipo de central (convencional ou endereçável) exigido para a sua edificação específica.",
     },
     {
       question: "Qual a diferença entre alarme de incêndio obrigatório e recomendado?",
       answer:
-        "A IT 18/19 define quais edificações são obrigadas — para essas, a ausência do sistema impede a emissão do AVCB. Para edificações abaixo dos limites, o alarme é recomendado mas não obrigatório para o AVCB. No entanto, seguradoras frequentemente exigem o alarme independentemente da obrigatoriedade legal.",
+        "A IT 19/2025 define quais edificações são obrigadas — para essas, a ausência do sistema impede a emissão do AVCB. Para edificações abaixo dos limites, o alarme é recomendado mas não obrigatório para o AVCB. No entanto, seguradoras frequentemente exigem o alarme independentemente da obrigatoriedade legal.",
     },
     {
       question: "O alarme de incêndio de uma escola precisa de tipo especial?",
       answer:
-        "Sim. Escolas com múltiplos andares ou múltiplas salas precisam de central endereçável — que identifica a sala de origem do alarme imediatamente. Além disso, escolas com ocupação de crianças precisam de anunciador de voz com mensagem calibrada para evacuação infantil. A IT 18/19 trata escolas como grupo de atenção especial.",
+        "Sim. Escolas com múltiplos andares ou múltiplas salas precisam de central endereçável — que identifica a sala de origem do alarme imediatamente. Além disso, escolas com ocupação de crianças precisam de anunciador de voz com mensagem calibrada para evacuação infantil. A IT 19/2025 trata escolas como grupo de atenção especial.",
     },
     {
       question: "O alarme de incêndio existente precisa ser atualizado para renovar o AVCB?",
       answer:
-        "Depende. Se o sistema existente foi instalado conforme IT anterior e está em pleno funcionamento, a renovação pode ser feita com laudo de manutenção. Se o sistema tem não-conformidades com a IT 18/19 vigente — tipo errado de central, detectores incorretos por setor ou falta de anunciador de voz — a adequação é necessária antes da renovação.",
+        "Depende. Se o sistema existente foi instalado conforme IT anterior e está em pleno funcionamento, a renovação pode ser feita com laudo de manutenção. Se o sistema tem não-conformidades com a IT 19/2025 vigente — tipo errado de central, detectores incorretos por setor ou falta de anunciador de voz — a adequação é necessária antes da renovação.",
     },
     {
       question: "Posso instalar alarme de incêndio sem engenheiro?",
       answer:
-        "Não para fins de AVCB. A IT 18/19 exige projeto assinado por engenheiro com ART CREA-SP e laudo de execução também com ART. Instalação sem ART não é aceita pelo CBPMESP para emissão ou renovação do AVCB.",
+        "Não para fins de AVCB. A IT 19/2025 exige projeto assinado por engenheiro com ART CREA-SP e laudo de execução também com ART. Instalação sem ART não é aceita pelo CBPMESP para emissão ou renovação do AVCB.",
     },
   ],
   linksInternos: [
@@ -177,7 +177,7 @@ const data: UniversalPageData = {
   ],
   ctaFinal: {
     heading: "VERIFICAR SE ALARME É OBRIGATÓRIO — DIAGNÓSTICO GRATUITO",
-    body: "Enquadramento correto na IT 18/19 sem custo. Tipo de central correto. Escopo e prazo para regularização com AVCB.",
+    body: "Enquadramento correto na IT 19/2025 sem custo. Tipo de central correto. Escopo e prazo para regularização com AVCB.",
     cta: "Solicitar Diagnóstico Técnico Gratuito",
   },
 };

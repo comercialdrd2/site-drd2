@@ -202,7 +202,7 @@ export default function AVCBSupermercadoMasterPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
             {[
-              { t: "Saídas de Emergência", d: "Dimensionadas pela lotação máxima conforme IT-08.", i: <MapPin className="w-6 h-6"/> },
+              { t: "Saídas de Emergência", d: "Dimensionadas pela lotação máxima conforme IT-11.", i: <MapPin className="w-6 h-6"/> },
               { t: "Iluminação de Emergência", d: "Autonomia de 1h em todas as áreas de circulação.", i: <Lightbulb className="w-6 h-6"/> },
               { t: "Sinalização Fotoluminescente", d: "Indicação visível de rotas e equipamentos.", i: <BadgeInfo className="w-6 h-6"/> },
               { t: "Sistema de Hidrantes", d: "Obrigatório acima de determinada área construída.", i: <Building className="w-6 h-6"/> },

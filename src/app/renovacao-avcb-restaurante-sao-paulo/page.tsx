@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import Image from "next/image";
 import {
   Phone, CheckCircle2, ShieldAlert, ArrowRight, ShieldCheck,
@@ -13,6 +13,7 @@ import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import TrustBar from "@/components/TrustBar";
 import CtaWhatsApp from "@/components/CtaWhatsApp";
 import BreadcrumbNav from "@/components/BreadcrumbNav";
+import RichText from "@/components/RichText";
 import { renovacaoAvcbRestauranteContent as c } from "@/data/pages/renovacao-avcb-restaurante-sao-paulo";
 import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
@@ -107,14 +108,14 @@ export default function RenovacaoAVCBRestaurantePage() {
               </h2>
               <div className="space-y-5 text-lg text-slate-700 leading-relaxed font-medium">
                 {c.h2_porqueVence.body.map((p, i) => (
-                  <p key={i}>{p}</p>
+                  <p key={i}><RichText value={p} /></p>
                 ))}
               </div>
               <ul className="mt-6 space-y-3">
                 {c.h2_porqueVence.motivos.map((motivo, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <AlertTriangle className="w-5 h-5 text-red-600 flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-medium leading-relaxed">{motivo}</span>
+                    <span className="text-slate-700 font-medium leading-relaxed"><RichText value={motivo} /></span>
                   </li>
                 ))}
               </ul>
@@ -149,8 +150,8 @@ export default function RenovacaoAVCBRestaurantePage() {
                     <ShieldX className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <p className="text-white font-black text-lg mb-2">{item.titulo}</p>
-                    <p className="text-slate-400 font-medium leading-relaxed text-sm">{item.desc}</p>
+                    <p className="text-white font-black text-lg mb-2"><RichText value={item.titulo} /></p>
+                    <p className="text-slate-400 font-medium leading-relaxed text-sm"><RichText value={item.desc} /></p>
                   </div>
                 </div>
               </div>
@@ -192,8 +193,8 @@ export default function RenovacaoAVCBRestaurantePage() {
                     <CheckCircle2 className="w-5 h-5 text-white" />
                   </div>
                   <div>
-                    <p className="text-slate-900 font-black text-base mb-2">{p.nome}</p>
-                    <p className="text-slate-600 font-medium leading-relaxed text-sm">{p.desc}</p>
+                    <p className="text-slate-900 font-black text-base mb-2"><RichText value={p.nome} /></p>
+                    <p className="text-slate-600 font-medium leading-relaxed text-sm"><RichText value={p.desc} /></p>
                   </div>
                 </div>
               </div>
@@ -218,8 +219,8 @@ export default function RenovacaoAVCBRestaurantePage() {
                       <Clock className="w-5 h-5 text-white" />
                     </div>
                     <div>
-                      <p className="text-slate-900 font-black mb-1">{tipo.titulo}</p>
-                      <p className="text-slate-600 font-medium leading-relaxed text-sm">{tipo.desc}</p>
+                      <p className="text-slate-900 font-black mb-1"><RichText value={tipo.titulo} /></p>
+                      <p className="text-slate-600 font-medium leading-relaxed text-sm"><RichText value={tipo.desc} /></p>
                     </div>
                   </div>
                 ))}
@@ -234,8 +235,8 @@ export default function RenovacaoAVCBRestaurantePage() {
               <p className="text-slate-300 font-medium mb-8 leading-relaxed" dangerouslySetInnerHTML={{ __html: c.h2_shopping.intro }} />
               {c.h2_shopping.itens.map((cenario, i) => (
                 <div key={i} className="mb-6 pb-6 border-b border-white/10 last:border-0 last:mb-0 last:pb-0">
-                  <p className="font-black text-white text-base mb-2">{cenario.titulo}</p>
-                  <p className="text-slate-400 font-medium text-sm leading-relaxed">{cenario.desc}</p>
+                  <p className="font-black text-white text-base mb-2"><RichText value={cenario.titulo} /></p>
+                  <p className="text-slate-400 font-medium text-sm leading-relaxed"><RichText value={cenario.desc} /></p>
                 </div>
               ))}
             </div>
@@ -255,8 +256,8 @@ export default function RenovacaoAVCBRestaurantePage() {
             {c.h2_etapas.etapas.map((etapa, i) => (
               <div key={i} className="bg-slate-900 rounded-[2rem] p-8 border border-white/10 shadow-2xl hover:-translate-y-1 transition-transform">
                 <div className="text-red-500 font-black text-sm uppercase tracking-widest mb-4">Etapa {i + 1}</div>
-                <h3 className="text-white font-black text-xl mb-3 leading-tight">{etapa.nome.split("—")[1]?.trim() || etapa.nome}</h3>
-                <p className="text-slate-300 font-medium text-sm leading-relaxed">{etapa.desc}</p>
+                <h3 className="text-white font-black text-xl mb-3 leading-tight"><RichText value={etapa.nome.split("—")[1]?.trim() || etapa.nome} /></h3>
+                <p className="text-slate-300 font-medium text-sm leading-relaxed"><RichText value={etapa.desc} /></p>
               </div>
             ))}
           </div>
@@ -289,7 +290,7 @@ export default function RenovacaoAVCBRestaurantePage() {
               </h2>
               <div className="space-y-5 text-lg text-slate-700 leading-relaxed font-medium">
                 {c.h2_cobertura.body.map((p, i) => (
-                  <p key={i}>{p}</p>
+                  <p key={i}><RichText value={p} /></p>
                 ))}
               </div>
             </div>
@@ -313,7 +314,7 @@ export default function RenovacaoAVCBRestaurantePage() {
                 ].map((reg, i) => (
                   <div key={i} className="flex items-center gap-3">
                     <CheckCircle2 className="w-5 h-5 text-red-600 flex-shrink-0" />
-                    <span className="text-gray-200 font-medium text-sm">{reg}</span>
+                    <span className="text-gray-200 font-medium text-sm"><RichText value={reg} /></span>
                   </div>
                 ))}
               </div>
@@ -339,11 +340,11 @@ export default function RenovacaoAVCBRestaurantePage() {
                 className="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden cursor-pointer open:ring-4 open:ring-red-600/10 transition-all hover:bg-slate-50"
               >
                 <summary className="flex items-center justify-between p-7 font-black text-slate-900 text-lg select-none uppercase italic tracking-tight leading-tight">
-                  {faq.question}
+                  <RichText value={faq.question} />
                   <span className="text-red-600 text-2xl group-open:rotate-45 transition-transform duration-300 ml-4 flex-shrink-0">+</span>
                 </summary>
                 <div className="p-7 pt-0 text-slate-600 leading-relaxed text-base border-t border-slate-200 italic font-medium">
-                  {faq.answer}
+                  <RichText value={faq.answer} />
                 </div>
               </details>
             ))}
@@ -365,7 +366,7 @@ export default function RenovacaoAVCBRestaurantePage() {
                 className="flex items-center gap-2 bg-white hover:bg-red-600 hover:text-white text-slate-700 font-bold px-6 py-3 rounded-2xl border border-slate-200 hover:border-red-600 transition-all text-sm"
               >
                 <ArrowRight className="w-4 h-4" />
-                {link.label}
+                <RichText value={link.label} />
               </Link>
             ))}
           </div>

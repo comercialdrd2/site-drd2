@@ -118,7 +118,7 @@ export const avcbSaoPauloContent = {
       },
       {
         nome: "Saídas de emergência",
-        desc: "Dimensionamento correto de corredores, escadas e portas conforme IT-08.",
+        desc: "Dimensionamento correto de corredores, escadas e portas conforme IT-11.",
       },
       {
         nome: "Alarme e detecção automática",

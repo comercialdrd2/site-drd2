@@ -5,14 +5,14 @@ const data: UniversalPageData = {
   slug: "/laudo-alarme-incendio-hotel-sao-paulo",
   meta: {
     title: "Laudo de Alarme de Incêndio para Hotel em SP",
-    description: "Laudo técnico de alarme de incêndio para hotéis e pousadas em São Paulo. IT 18/2019, monitoramento 24h, cobertura por UH e áreas comuns. ART CREA-SP inclusa. DRD2 Engenharia.",
+    description: "Laudo técnico de alarme de incêndio para hotéis e pousadas em São Paulo. IT 19/2025, monitoramento 24h, cobertura por UH e áreas comuns. ART CREA-SP inclusa. DRD2 Engenharia.",
   },
-  eyebrow: "IT 18 — Alarme de Incêndio para Hotel",
+  eyebrow: "IT 19 — Alarme de Incêndio para Hotel",
   h1Line1: "Laudo de Alarme de Incêndio",
   h1Line2: "para Hotel e Pousada em São Paulo",
   heroBg: "/images/blog/blog_hero_casa_repouso_avcb.webp",
   introP1: "Hotéis têm a exigência mais rigorosa de todas as ocupações em relação ao alarme de incêndio: monitoramento 24 horas com operador capacitado para acionar a evacuação. O hóspede que dorme no quarto às 3h da manhã precisa ser alertado e evacuado em tempo hábil — o que exige que o sistema funcione continuamente, que a sinalização luminosa nas UHs esteja ativa e que alguém na recepção seja treinado para operar o painel.",
-  introP2: "A DRD2 emite laudo técnico do alarme para hotéis e pousadas conforme a IT 18/2019 (Grupo H-1 e H-3), com vistoria em todas as unidades habitacionais, corredores, recepção, restaurante interno e áreas de serviço. Verificamos o atestado de monitoramento e a capacitação do operador — dois pontos que o CBPMESP verifica na vistoria e que frequentemente causam reprovação.",
+  introP2: "A DRD2 emite laudo técnico do alarme para hotéis e pousadas conforme a IT 19/2025 (Grupo H-1 e H-3), com vistoria em todas as unidades habitacionais, corredores, recepção, restaurante interno e áreas de serviço. Verificamos o atestado de monitoramento e a capacitação do operador — dois pontos que o CBPMESP verifica na vistoria e que frequentemente causam reprovação.",
   breadcrumbs: [
     { label: "Home", href: "/" },
     { label: "Serviços", href: "/servicos" },
@@ -21,7 +21,7 @@ const data: UniversalPageData = {
   occupationType: "hotel",
   h2_principal: {
     heading: "Exigências do alarme de incêndio em hotéis pelo CBPMESP",
-    body: "Hotéis são classificados no Grupo H pelo Decreto 69.118/2024. A IT 18/2019 exige para esse grupo: detector em cada UH (quarto), nos corredores de acesso às UHs, no lobby, no restaurante interno, nas áreas de serviço e na lavanderia. A central de alarme deve ficar em local de monitoramento permanente — a recepção do hotel é o ponto aceito, desde que haja operador treinado 24h.",
+    body: "Hotéis são classificados no Grupo H pelo Decreto 69.118/2024. A IT 19/2025 exige para esse grupo: detector em cada UH (quarto), nos corredores de acesso às UHs, no lobby, no restaurante interno, nas áreas de serviço e na lavanderia. A central de alarme deve ficar em local de monitoramento permanente — a recepção do hotel é o ponto aceito, desde que haja operador treinado 24h.",
     body2: "Hotéis com mais de 4 andares precisam de sistema com enunciadores de voz (mensagem gravada de evacuação) além da sirene — para que hóspedes estrangeiros ou com deficiência auditiva parcial possam entender a instrução de abandono. Esse requisito é frequentemente ignorado em hotéis mais antigos e gera Comunique-se na renovação.",
   },
   h2_riscos: {
@@ -89,7 +89,7 @@ const data: UniversalPageData = {
     body1: "O processo de AVCB ou renovação de hotéis e pousadas exige os seguintes documentos do sistema de alarme:",
     alerta: "Hotel sem AVCB válido não consegue renovar cadastro no Ministério do Turismo nem manter categorização pela SBClass. O laudo de alarme é parte crítica desse processo.",
     itens: [
-      { titulo: "Laudo técnico IT 18/2019 com ART", desc: "Laudo por pavimento com declaração de conformidade das UHs, corredores, recepção e áreas de serviço. ART CREA-SP recolhida inclusa." },
+      { titulo: "Laudo técnico IT 19/2025 com ART", desc: "Laudo por pavimento com declaração de conformidade das UHs, corredores, recepção e áreas de serviço. ART CREA-SP recolhida inclusa." },
       { titulo: "Atestado de monitoramento 24h", desc: "Documento comprovando que há operador treinado nos três turnos com protocolo de acionamento de evacuação. Assinado pelo responsável do hotel e pelo operador de cada turno." },
       { titulo: "Planta por pavimento com localização dos dispositivos", desc: "Planta de cada andar com marcação das UHs visitoriadas, detectores, sirenes, enunciadores e acionadores manuais — incluindo corredores e escadas." },
       { titulo: "Relatório de manutenção anual", desc: "Manutenção preventiva dos últimos 12 meses com teste de todos os detectores, sirenes e da central — incluindo teste de bateria." },
@@ -115,7 +115,7 @@ const data: UniversalPageData = {
   faqs: [
     {
       question: "O hotel precisa de detector em cada quarto?",
-      answer: "Sim. A IT 18/2019 exige detector individual em cada UH (quarto, suíte ou apartamento). Detector apenas no corredor não atende a norma para ocupações do Grupo H.",
+      answer: "Sim. A IT 19/2025 exige detector individual em cada UH (quarto, suíte ou apartamento). Detector apenas no corredor não atende a norma para ocupações do Grupo H.",
     },
     {
       question: "O que é o enunciador de voz e quando é obrigatório?",

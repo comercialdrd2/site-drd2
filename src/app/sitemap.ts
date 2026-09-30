@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { blogPosts } from "@/data/blog";
+import { NOINDEX_BLOG_SLUGS } from "@/data/blogNoindex";
 import { servicesData } from "@/data/services";
 import type { MetadataRoute } from "next";
 // Data real da última alteração de cada página (gerada por scripts/gerar-lastmod.cjs).
@@ -190,10 +191,14 @@ function getAllRoutesWithMtime(): Map<string, string> {
   const map = new Map<string, string>();
   for (const e of discovered) map.set(e.route, e.mtime);
 
+  // Posts em noindex não entram no sitemap (sinal coerente para o Google)
+  NOINDEX_BLOG_SLUGS.forEach((slug) => map.delete(`/blog/${slug}`));
+
   // Adiciona blog posts da data file (cobre os que nao tem pasta estatica)
   for (const post of blogPosts) {
     const route = `/blog/${post.slug}`;
     if (REDIRECT_SOURCES.has(route)) continue;
+    if (NOINDEX_BLOG_SLUGS.has(post.slug)) continue;
     if (!map.has(route)) {
       map.set(route, new Date(post.date).toISOString());
     }
