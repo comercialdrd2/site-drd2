@@ -4,9 +4,12 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/quanto-custa-renovacao-avcb-sao-paulo",
   meta: {
-    title: "Quanto Custa Renovar o AVCB em SP? O Que Pesa no Preço",
-    description: "Quanto custa renovar o AVCB em SP em 2026: o que entra no preço, o que faz o valor variar e o risco de deixar vencer. Orçamento com engenheiro CREA-SP.",
+    title: "Quanto Custa a Renovação do AVCB em SP? Valor e Prazo 2026",
+    description: "Veja o que define o valor da renovação do AVCB em SP e o prazo real. Vistoria técnica gratuita e 1ª parcela só depois do AVCB aprovado.",
   },
+  heroCta: "Pedir orçamento da renovação",
+  heroNota: "Vistoria técnica gratuita · Correções do Bombeiro incluídas · 1ª parcela só depois do AVCB aprovado",
+  pagamento: "avcb",
   eyebrow: "Renovação de AVCB — Custo e Prazo em SP 2026",
   h1Line1: "Quanto Custa Renovar o AVCB",
   h1Line2: "em São Paulo? Preços e Prazos",

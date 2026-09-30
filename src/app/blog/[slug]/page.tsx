@@ -205,7 +205,37 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
             </div>
           )}
 
-          {/* Pulse CTA - Fast Track for interested leads */}
+          {post.cta ? (
+            /* Chamada de orçamento própria do artigo */
+            <div className="mb-12 bg-red-600 rounded-2xl p-6 md:p-7 text-white shadow-[0_0_20px_rgba(220,38,38,0.3)]">
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-5">
+                <div className="flex items-start gap-3">
+                  <div className="w-10 h-10 shrink-0 bg-white/20 rounded-full flex items-center justify-center">
+                    <Phone className="w-5 h-5 text-white" aria-hidden="true" />
+                  </div>
+                  <div>
+                    <p className="font-bold text-lg md:text-xl leading-snug">{post.cta.titulo}</p>
+                    <p className="text-red-50 text-sm md:text-base mt-1 leading-relaxed">{post.cta.texto}</p>
+                  </div>
+                </div>
+                <TrackedWhatsAppLink
+                  href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}?text=${encodeURIComponent(post.cta.mensagem)}`}
+                  source="hero_cta"
+                  className="bg-white text-red-600 font-extrabold px-6 py-3 rounded-xl hover:bg-gray-100 transition-all text-sm uppercase tracking-widest text-center md:whitespace-nowrap"
+                >
+                  {post.cta.botao}
+                </TrackedWhatsAppLink>
+              </div>
+              <Link
+                prefetch={false}
+                href={post.cta.servicoHref}
+                className="inline-block mt-4 text-sm font-semibold text-white underline underline-offset-4 decoration-white/60 hover:decoration-white"
+              >
+                {post.cta.servicoLabel} →
+              </Link>
+            </div>
+          ) : (
+            /* Pulse CTA - Fast Track for interested leads */
           <div className="mb-12 bg-red-600 rounded-2xl p-6 text-white flex flex-col md:flex-row items-center justify-between gap-4 shadow-[0_0_20px_rgba(220,38,38,0.3)] animate-pulse-subtle">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center animate-ping">
@@ -221,6 +251,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
               Falar com engenheiro especialista Agora
             </TrackedWhatsAppLink>
           </div>
+          )}
 
           {toc.length >= 3 && (
             <nav
@@ -287,18 +318,20 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
              <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
                 <div className="max-w-md">
                    <h3 className="text-2xl md:text-3xl font-black text-white mb-4 leading-tight">
-                      Regularização de AVCB com Respaldo de Engenharia
+                      {post.cta ? post.cta.titulo : "Regularização de AVCB com Respaldo de Engenharia"}
                    </h3>
                    <p className="text-red-200 text-lg font-medium">
-                      Evite exigências desnecessárias e multas do Corpo de Bombeiros. Conduzimos todo o processo para você ter 100% de tranquilidade.
+                      {post.cta
+                        ? post.cta.texto
+                        : "Evite exigências desnecessárias e multas do Corpo de Bombeiros. Conduzimos todo o processo para você ter 100% de tranquilidade."}
                    </p>
                 </div>
                 <TrackedWhatsAppLink
-                  href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`}
+                  href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}${post.cta ? `?text=${encodeURIComponent(post.cta.mensagem)}` : ""}`}
                   source="post_cta"
-                  className="bg-red-600 hover:bg-red-700 text-white font-black px-10 py-5 rounded-2xl text-lg shadow-lg hover:-translate-y-1 transition-all whitespace-nowrap"
+                  className="bg-red-600 hover:bg-red-700 text-white font-black px-10 py-5 rounded-2xl text-lg shadow-lg hover:-translate-y-1 transition-all md:whitespace-nowrap text-center"
                 >
-                   Falar com engenheiro especialista Agora
+                   {post.cta ? post.cta.botao : "Falar com engenheiro especialista Agora"}
                 </TrackedWhatsAppLink>
              </div>
           </div>

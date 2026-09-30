@@ -13,6 +13,15 @@ export interface BlogPost {
   content: string; // HTML ou Markdown simplificado
   faqs?: FAQ[];
   image?: string;
+  /** Chamada de orçamento própria do artigo (topo e fim). Sem ela, vale a chamada genérica. */
+  cta?: {
+    titulo: string;
+    texto: string;
+    botao: string;
+    mensagem: string;
+    servicoHref: string;
+    servicoLabel: string;
+  };
 }
 
 const ptotepBlogPosts: BlogPost[] = [
@@ -2244,12 +2253,20 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
   },
   {
     slug: "it-22-cbpmesp-quando-hidrante-e-obrigatorio",
-    title: "Meu Prédio Precisa de Hidrante? Veja a Regra por Metragem",
+    title: "IT-22 Corpo de Bombeiros SP: Quando o Hidrante É Obrigatório",
     date: "2026-05-08",
     category: "Normas Técnicas",
-    excerpt: "Entenda a IT-22 do CBPMESP: quando o sistema de hidrantes é obrigatório, como é dimensionado e o que acontece sem ele no processo de AVCB.",
+    excerpt: "Entenda a IT-22 do Corpo de Bombeiros de SP: quando o hidrante é obrigatório, como o sistema é dimensionado e o que acontece no AVCB sem ele.",
     relatedServiceSlug: "hidrantes",
     image: "/images/blog/fire_safety_equipment_premium.webp",
+    cta: {
+      titulo: "Seu imóvel precisa de hidrante?",
+      texto: "Um engenheiro da DRD2 faz o enquadramento na IT-22 e diz o que o seu AVCB vai exigir, antes de qualquer obra.",
+      botao: "Falar com um engenheiro",
+      mensagem: "Olá, li o artigo da IT-22 no site e quero saber se meu imóvel precisa de hidrante.",
+      servicoHref: "/hidrante-obrigatorio-avcb-sp",
+      servicoLabel: "Ver quando o hidrante é obrigatório no AVCB",
+    },
     content: `
       <p>A <strong>IT-22 do CBPMESP</strong> (Instrução Técnica nº 22 — Sistema de Hidrantes e Mangotinhos) é a norma que define quando o sistema de hidrantes é obrigatório em São Paulo, como deve ser dimensionado e quais são os requisitos mínimos de instalação. Entender a IT-22 é essencial para qualquer proprietário ou síndico que precisa regularizar o AVCB.</p>
 
@@ -2701,12 +2718,20 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
 
   {
     slug: "como-emitir-clcb-em-sao-paulo-passo-a-passo",
-    title: "CLCB em SP: Quem Pode Usar e Como Emitir (até 1.500 m²)",
+    title: "Como Emitir o CLCB em SP pelo Via Fácil: Passo a Passo 2026",
     date: "2026-05-13",
     category: "CLCB",
-    excerpt: "Guia técnico completo para emitir o CLCB em São Paulo em 2026. Documentos, prazos, plataforma Via Fácil Bombeiros e como evitar exigências do CBPMESP.",
+    excerpt: "Passo a passo para solicitar o CLCB no Via Fácil Bombeiros: quem pode usar (até 750 m², ou 1.500 m² com hidrantes), documentos, ART e erros que travam.",
     relatedServiceSlug: "clcb-sao-paulo",
     image: "/images/blog/fire_safety_equipment_premium.webp",
+    cta: {
+      titulo: "Quer emitir o CLCB sem risco de recusa?",
+      texto: "A DRD2 confere se o seu imóvel se enquadra, prepara a documentação e faz o protocolo no Via Fácil com ART de engenheiro.",
+      botao: "Pedir orçamento do CLCB",
+      mensagem: "Olá, li o passo a passo do CLCB no site e quero um orçamento para emitir o CLCB.",
+      servicoHref: "/clcb-sao-paulo",
+      servicoLabel: "Ver o serviço de CLCB em São Paulo",
+    },
     content: `
       <p>O <strong>CLCB</strong> (Certificado de Licença do Corpo de Bombeiros) é a versão simplificada da regularização junto ao CBPMESP para edificações de baixo risco com até 750 m², ou até 1.500 m² com sistema de hidrantes. O processo é mais rápido, mais barato e exige menos documentação que o AVCB — mas tem regras específicas que, se ignoradas, fazem o protocolo ser recusado.</p>
 
