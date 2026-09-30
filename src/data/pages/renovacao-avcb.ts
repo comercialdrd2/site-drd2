@@ -89,7 +89,6 @@ export const renovacaoAvcbContent = {
       { nome: "Renovação para Casa de Repouso", href: "/renovacao-avcb-casa-de-repouso-sao-paulo" },
       { nome: "Renovação para Hostel", href: "/renovacao-avcb-hostel-sao-paulo" },
       { nome: "Renovação para Motel", href: "/renovacao-avcb-motel-sao-paulo" },
-      { nome: "Renovação em Higienópolis", href: "/renovacao-avcb-higienopolis" }
     ]
   },
   h2_escolher: {
@@ -131,7 +130,6 @@ export const renovacaoAvcbContent = {
     { label: "AVCB para Restaurante em São Paulo", href: "/avcb-restaurante-sao-paulo" },
     { label: "AVCB para Hotel em São Paulo", href: "/avcb-hoteis-pousadas-sao-paulo" },
     { label: "Quanto Custa o AVCB em São Paulo?", href: "/quanto-custa-avcb-sao-paulo" },
-    { label: "Renovação de AVCB em Higienópolis", href: "/renovacao-avcb-higienopolis" }
   ],
   ctaFinal: {
     heading: "Seu AVCB está vencido ou próximo do vencimento?",

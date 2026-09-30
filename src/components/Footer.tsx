@@ -111,7 +111,6 @@ export default function Footer() {
               <li><Link prefetch={false} href="/avcb-vila-olimpia" className="hover:text-primary transition-colors flex items-center gap-2">▶ Vila Olímpia</Link></li>
               <li><Link prefetch={false} href="/avcb-zona-sul" className="hover:text-primary transition-colors flex items-center gap-2">▶ Zona Sul Startups</Link></li>
               <li><Link prefetch={false} href="/avcb-perdizes" className="hover:text-primary transition-colors flex items-center gap-2">▶ Perdizes</Link></li>
-              <li><Link prefetch={false} href="/renovacao-avcb-higienopolis" className="hover:text-primary transition-colors flex items-center gap-2">▶ Renovação AVCB Higienópolis</Link></li>
               <li><Link prefetch={false} href="/ptotep-sorocaba" className="hover:text-primary transition-colors flex items-center gap-2">▶ PTOTEP Sorocaba</Link></li>
               <li><Link prefetch={false} href="/ptotep-para-evento-universitario" className="hover:text-primary transition-colors flex items-center gap-2">▶ PTOTEP Evento Universitário</Link></li>
               <li><Link prefetch={false} href="/ptotep-para-evento-em-igreja" className="hover:text-primary transition-colors flex items-center gap-2">▶ PTOTEP Evento em Igreja</Link></li>
@@ -124,14 +123,16 @@ export default function Footer() {
           {/* Polos Históricos */}
           <div>
             <h3 className="text-slate-100 font-black mb-6 uppercase tracking-wides border-b border-white/10 pb-2 text-sm flex items-center gap-2 italic">
-               Misto & Hotelaria
+               Regiões atendidas
             </h3>
             <ul className="space-y-3 text-[13px] font-bold text-slate-400 uppercase tracking-tight">
-              <li><Link prefetch={false} href="/avcb-bela-vista" className="hover:text-red-500 transition-colors flex items-center gap-2">▶ Bela Vista (Bixiga)</Link></li>
-              <li><Link prefetch={false} href="/avcb-consolacao" className="hover:text-emerald-500 transition-colors flex items-center gap-2">▶ Consolação Paulista</Link></li>
-              <li><Link prefetch={false} href="/avcb-republica" className="hover:text-rose-500 transition-colors flex items-center gap-2">▶ República Turismo</Link></li>
-              <li><Link prefetch={false} href="/avcb-liberdade" className="hover:text-red-600 transition-colors flex items-center gap-2">▶ Liberdade Asiático</Link></li>
-              <li><Link prefetch={false} href="/avcb-se" className="hover:text-amber-500 transition-colors flex items-center gap-2">▶ Praça da Sé</Link></li>
+              <li><Link prefetch={false} href="/avcb-centro-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Centro de SP</Link></li>
+              <li><Link prefetch={false} href="/avcb-zona-norte-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Zona Norte</Link></li>
+              <li><Link prefetch={false} href="/avcb-zona-leste-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Zona Leste</Link></li>
+              <li><Link prefetch={false} href="/avcb-zona-oeste-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Zona Oeste</Link></li>
+              <li><Link prefetch={false} href="/avcb-santo-andre" className="hover:text-primary transition-colors flex items-center gap-2">▶ Grande ABC</Link></li>
+              <li><Link prefetch={false} href="/avcb-santos" className="hover:text-primary transition-colors flex items-center gap-2">▶ Baixada Santista</Link></li>
+              <li><Link prefetch={false} href="/avcb-campinas" className="hover:text-primary transition-colors flex items-center gap-2">▶ Campinas e interior</Link></li>
             </ul>
           </div>
 

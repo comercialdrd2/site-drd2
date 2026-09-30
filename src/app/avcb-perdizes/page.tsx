@@ -119,12 +119,12 @@ const data: UniversalPageData = {
   ],
   "linksInternos": [
     {
-      "href": "/renovacao-avcb-condominio-perdizes",
-      "label": "Renovação de AVCB de condomínio em Perdizes"
+      "href": "/renovacao-avcb-condominio-sao-paulo",
+      "label": "Renovação de AVCB de condomínio em São Paulo"
     },
     {
-      "href": "/renovacao-clcb-perdizes-sao-paulo",
-      "label": "Renovação de CLCB em Perdizes"
+      "href": "/renovacao-clcb-zona-oeste-sao-paulo",
+      "label": "Renovação de CLCB na Zona Oeste"
     },
     {
       "href": "/sistema-de-hidrantes-para-condominio-sao-paulo",

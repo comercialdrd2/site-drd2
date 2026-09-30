@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FC } from "react";
+import { foiReunida } from "@/lib/paginasReunidas";
 
 interface NeighborhoodSiloProps {
   currentSlug: string;
@@ -10,49 +11,24 @@ interface NeighborhoodSiloProps {
 const REGIONS = {
   "zona-sul": [
     { name: "Avcb Zona Sul", slug: "/avcb-zona-sul" },
-    { name: "Brooklin", slug: "/avcb-brooklin" },
-    { name: "Campo Belo", slug: "/avcb-campo-belo" },
     { name: "Itaim Bibi", slug: "/avcb-itaim-bibi" },
-    { name: "Jabaquara", slug: "/avcb-jabaquara" },
-    { name: "Moema", slug: "/avcb-moema" },
-    { name: "Morumbi", slug: "/avcb-morumbi" },
-    { name: "Sacomã", slug: "/avcb-sacoma" },
-    { name: "Santo Amaro", slug: "/avcb-santo-amaro" },
-    { name: "Saúde", slug: "/avcb-saude" },
-    { name: "Vila Mariana", slug: "/avcb-vila-mariana" },
     { name: "Vila Olímpia", slug: "/avcb-vila-olimpia" },
   ],
   "zona-leste": [
     { name: "Avcb Zona Leste", slug: "/avcb-zona-leste-sao-paulo" },
     { name: "Anália Franco", slug: "/avcb-analia-franco" },
-    { name: "Aricanduva", slug: "/avcb-aricanduva" },
-    { name: "Itaquera", slug: "/avcb-itaquera" },
-    { name: "Mooca", slug: "/avcb-mooca" },
-    { name: "Penha", slug: "/avcb-penha" },
-    { name: "Tatuapé", slug: "/avcb-tatuape" },
-    { name: "Vila Prudente", slug: "/avcb-vila-prudente" },
   ],
   "zona-norte": [
     { name: "Avcb Zona Norte", slug: "/avcb-zona-norte-sao-paulo" },
-    { name: "Casa Verde", slug: "/avcb-casa-verde" },
-    { name: "Jaçanã", slug: "/avcb-jacana" },
-    { name: "Limão", slug: "/avcb-limao" },
-    { name: "Santana", slug: "/avcb-santana" },
-    { name: "Tucuruvi", slug: "/avcb-tucuruvi" },
   ],
   "zona-oeste": [
     { name: "Avcb Zona Oeste", slug: "/avcb-zona-oeste-sao-paulo" },
     { name: "Butantã", slug: "/avcb-butanta" },
-    { name: "Lapa", slug: "/avcb-lapa" },
     { name: "Perdizes", slug: "/avcb-perdizes" },
     { name: "Pinheiros", slug: "/avcb-pinheiros" },
-    { name: "Vila Leopoldina", slug: "/avcb-vila-leopoldina" },
-    { name: "Vila Madalena", slug: "/avcb-vila-madalena" },
   ],
   "centro": [
     { name: "Centro SP", slug: "/avcb-centro-sao-paulo" },
-    { name: "Bela Vista", slug: "/avcb-centro-bela-vista" },
-    { name: "Ipiranga", slug: "/avcb-ipiranga" },
   ],
   "grande-sp": [
     { name: "Guarulhos", slug: "/avcb-guarulhos" },
@@ -176,7 +152,7 @@ function pickRelated(
   currentSlug: string,
   count = 12
 ): { name: string; slug: string }[] {
-  const filtered = list.filter((p) => p.slug !== currentSlug);
+  const filtered = list.filter((p) => p.slug !== currentSlug && !foiReunida(p.slug));
   const idx = list.findIndex((p) => p.slug === currentSlug);
   // rotate list so current page's neighbors come first — deterministic, SSR-safe
   const start = idx >= 0 ? idx % filtered.length : 0;
@@ -194,7 +170,7 @@ const NeighborhoodSilo: FC<NeighborhoodSiloProps> = ({ currentSlug }) => {
   if (isAlvara || isRenovacao) {
     const sourceList = isAlvara ? ALVARA_PAGES : RENOVACAO_PAGES;
     const related = pickRelated(sourceList, currentSlug, 12);
-    const crossLink = CROSS_LINK[currentSlug] ?? null;
+    const crossLink = CROSS_LINK[currentSlug] && !foiReunida(CROSS_LINK[currentSlug].slug) ? CROSS_LINK[currentSlug] : null;
     const sectionLabel = isAlvara
       ? "Álvará do Bombeiro para Outros Segmentos:"
       : "Renovação de AVCB para Outros Segmentos:";
@@ -241,7 +217,7 @@ const NeighborhoodSilo: FC<NeighborhoodSiloProps> = ({ currentSlug }) => {
 
   if (!activeRegion) return null;
 
-  const filteredLinks = REGIONS[activeRegion].filter((loc) => loc.slug !== currentSlug);
+  const filteredLinks = REGIONS[activeRegion].filter((loc) => loc.slug !== currentSlug && !foiReunida(loc.slug));
   const displayLinks = filteredLinks.slice(0, 12);
 
   if (displayLinks.length === 0) return null;

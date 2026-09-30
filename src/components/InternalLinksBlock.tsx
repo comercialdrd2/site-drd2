@@ -14,6 +14,7 @@
 
 import Link from "next/link";
 import linksData from "@/data/internalLinks.json";
+import { foiReunida } from "@/lib/paginasReunidas";
 import { MapPin, ArrowRight, Building2 } from "lucide-react";
 
 interface InternalLinksBlockProps {
@@ -36,7 +37,7 @@ export default function InternalLinksBlock({
     const data = (linksData.ocupacaoParaBairros as Record<string, any>)[currentSlug];
     if (!data) return null;
 
-    const links = data.links.slice(0, maxLinks);
+    const links = data.links.filter((l: any) => !foiReunida(l.bairroSlug)).slice(0, maxLinks);
     const tituloFinal = titulo ?? `Atendemos ${data.label} em toda São Paulo`;
 
     return (

@@ -292,15 +292,8 @@ export default function QuantocustaAVCBPost() {
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
               {[
                 { n: "Mooca", h: "/avcb-zona-leste-sao-paulo" },
-                { n: "Tatuapé", h: "/avcb-tatuape" },
                 { n: "Itaim Bibi", h: "/avcb-itaim-bibi" },
                 { n: "Vila Olímpia", h: "/avcb-vila-olimpia" },
-                { n: "Brooklin", h: "/avcb-brooklin" },
-                { n: "Santo Amaro", h: "/avcb-santo-amaro" },
-                { n: "Saúde", h: "/avcb-saude" },
-                { n: "Moema", h: "/avcb-moema" },
-                { n: "Campo Belo", h: "/avcb-campo-belo" },
-                { n: "Vila Mariana", h: "/avcb-vila-mariana" }
               ].map((loc, i) => (
                 <Link prefetch={false} key={i} href={loc.h} className="px-6 py-4 bg-slate-50 rounded-2xl text-[10px] font-black text-secondary border border-slate-200 uppercase tracking-widest hover:border-primary/30 transition-all hover:bg-white">
                    {loc.n}

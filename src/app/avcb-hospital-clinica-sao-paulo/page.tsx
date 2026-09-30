@@ -481,9 +481,6 @@ export default function AVCBHospitalMasterPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { t: "Hospitais na Consolação", u: "/avcb-centro-bela-vista", i: <Building className="w-4 h-4"/> },
-              { t: "Clínicas na Vila Mariana", u: "/avcb-vila-mariana", i: <Stethoscope className="w-4 h-4"/> },
-              { t: "Clínicas em Moema", u: "/avcb-moema", i: <Stethoscope className="w-4 h-4"/> },
               { t: "Preço para Hospitais", u: "/quanto-custa-avcb-sao-paulo", i: <Scale className="w-4 h-4"/> },
               { t: "Renovação de Saúde", u: "/renovacao-avcb", i: <ClipboardCheck className="w-4 h-4"/> },
               { t: "Quem é obrigado?", u: "/blog/quem-precisa-de-avcb", i: <FileCheck className="w-4 h-4"/> },

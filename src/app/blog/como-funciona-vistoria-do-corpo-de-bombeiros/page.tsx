@@ -77,14 +77,6 @@ export default function VistoriaBombeirosPost() {
   const subSectors = [
     { n: "Itaim Bibi", h: "/avcb-itaim-bibi" },
     { n: "Vila Olímpia", h: "/avcb-vila-olimpia" },
-    { n: "Brooklin", h: "/avcb-brooklin" },
-    { n: "Moema", h: "/avcb-moema" },
-    { n: "Tatuapé", h: "/avcb-tatuape" },
-    { n: "Santo Amaro", h: "/avcb-santo-amaro" },
-    { n: "Saúde", h: "/avcb-saude" },
-    { n: "Campo Belo", h: "/avcb-campo-belo" },
-    { n: "Vila Mariana", h: "/avcb-vila-mariana" },
-    { n: "Jabaquara", h: "/avcb-jabaquara" }
   ];
 
   return (

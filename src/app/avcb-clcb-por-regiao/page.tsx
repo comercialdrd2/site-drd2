@@ -3,7 +3,20 @@ import { MapPin } from "lucide-react";
 import type { Metadata } from "next";
 import BreadcrumbNav from "@/components/BreadcrumbNav";
 import CtaWhatsApp from "@/components/CtaWhatsApp";
-import { regioesAtendidas } from "@/data/hubRegioes";
+import { regioesAtendidas as regioesBase } from "@/data/hubRegioes";
+import { foiReunida } from "@/lib/paginasReunidas";
+
+// Tira os links das páginas de bairro reunidas (30/09/2026); o bairro continua
+// citado como atendido, sem link, dentro da região.
+const regioesAtendidas = regioesBase.map((g) => {
+  const locais = g.locais.map((l) => ({ ...l, links: l.links.filter((x) => !foiReunida(x.href)) }));
+  return {
+    ...g,
+    paginasDaRegiao: g.paginasDaRegiao.filter((p) => !foiReunida(p.href)),
+    locais: locais.filter((l) => l.links.length > 0),
+    semPagina: locais.filter((l) => l.links.length === 0).map((l) => l.nome),
+  };
+});
 
 const titulo = "AVCB e CLCB por região: bairros e cidades atendidos";
 const descricao =
@@ -17,7 +30,7 @@ export const metadata: Metadata = {
 };
 
 export default function AvcbPorRegiaoPage() {
-  const totalLocais = regioesAtendidas.reduce((n, g) => n + g.locais.length, 0);
+  const totalLocais = regioesAtendidas.reduce((n, g) => n + g.locais.length + g.semPagina.length, 0);
 
   return (
     <>
@@ -70,6 +83,11 @@ export default function AvcbPorRegiaoPage() {
                       </Link>
                     </span>
                   ))}
+                </p>
+              )}
+              {grupo.semPagina.length > 0 && (
+                <p className="text-slate-600 mb-6">
+                  Também atendemos: {grupo.semPagina.join(", ")}.
                 </p>
               )}
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">

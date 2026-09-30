@@ -34,8 +34,8 @@ const data: UniversalPageData = {
   },
   "linksInternos": [
     {
-      "href": "/avcb-santo-amaro",
-      "label": "AVCB em Santo Amaro"
+      "href": "/avcb-zona-sul",
+      "label": "AVCB na Zona Sul"
     },
     {
       "href": "/manutencao-porta-corta-fogo-zona-sul-sp",
