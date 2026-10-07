@@ -4,8 +4,8 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/quanto-custa-renovacao-avcb-sao-paulo",
   meta: {
-    title: "Quanto Custa a Renovação do AVCB em SP? Valor e Prazo 2026",
-    description: "Veja o que define o valor da renovação do AVCB em SP e o prazo real. Vistoria técnica gratuita e 1ª parcela só depois do AVCB aprovado.",
+    title: "Quanto Custa o AVCB em SP? Renovação a partir de R$ 2.500",
+    description: "Renovação de AVCB em SP a partir de R$ 2.500, conforme área e sistemas do imóvel. Veja o que muda o preço e o prazo. Vistoria técnica gratuita.",
   },
   heroCta: "Pedir orçamento da renovação",
   heroNota: "Vistoria técnica gratuita · Correções do Bombeiro incluídas · 1ª parcela só depois do AVCB aprovado",
@@ -14,7 +14,7 @@ const data: UniversalPageData = {
   h1Line1: "Quanto Custa Renovar o AVCB",
   h1Line2: "em São Paulo? Preços e Prazos",
   heroBg: "/images/blog/fire_safety_equipment_premium.webp",
-  introP1: "A renovação do AVCB em São Paulo custa bem menos que o processo inicial, porque os sistemas já estão instalados. O que define o valor é a área da edificação, quais sistemas existem e o estado de conservação dos equipamentos — por isso o orçamento sai depois da vistoria técnica, que é gratuita.",
+  introP1: "Referência de preço: a renovação de AVCB com a DRD2 começa em R$ 2.500, para imóveis de menor porte e com sistemas básicos. O valor sobe conforme a área e os sistemas existentes, e não inclui a taxa do Corpo de Bombeiros nem eventuais adequações. A renovação do AVCB em São Paulo custa bem menos que o processo inicial, porque os sistemas já estão instalados. O que define o valor é a área da edificação, quais sistemas existem e o estado de conservação dos equipamentos — por isso o orçamento sai depois da vistoria técnica, que é gratuita.",
   introP2: "Mas o custo real da renovação não é só o preço do serviço: é o custo de não renovar. AVCB vencido bloqueia renovação de alvará, trava credenciamento, impede venda do imóvel e expõe o responsável a multa e responsabilidade civil. A DRD2 faz o diagnóstico gratuito e informa o custo exato antes de qualquer compromisso.",
   breadcrumbs: [
     { label: "Home", href: "/" },
@@ -118,6 +118,10 @@ const data: UniversalPageData = {
   },
   faqs: [
     {
+      question: "Qual o valor da renovação do AVCB em São Paulo?",
+      answer: "Com a DRD2, a renovação de AVCB começa em R$ 2.500, para imóveis de menor porte e com sistemas básicos. Imóveis maiores ou com mais sistemas (hidrante, sprinkler, alarme, pressurização) têm valor maior. A taxa do Corpo de Bombeiros e eventuais adequações são à parte. O valor exato vem no orçamento, depois da vistoria técnica gratuita.",
+    },
+    {
       question: "Quanto custa a renovação do AVCB para um condomínio em SP?",
       answer: "O valor depende do número de torres, dos subsolos e dos sistemas instalados. Um condomínio com escada pressurizada ou sprinkler exige bem mais verificações que um de sistema básico, e isso se reflete no orçamento. O valor exato é definido após vistoria técnica gratuita.",
     },
@@ -131,7 +135,7 @@ const data: UniversalPageData = {
     },
     {
       question: "Preciso de ART para renovar o AVCB?",
-      answer: "Para edificações acima de 750m², a ART do engenheiro responsável é obrigatória. A DRD2 inclui a ART no serviço de renovação — não é custo adicional.",
+      answer: "Para edificações acima de 750m², a ART do engenheiro responsável é obrigatória. A DRD2 emite a ART como parte do serviço de renovação; a taxa da ART (CREA-SP) é paga à parte pelo cliente, e enviamos a guia para pagamento.",
     },
     {
       question: "O AVCB vencido impede a renovação do alvará municipal?",

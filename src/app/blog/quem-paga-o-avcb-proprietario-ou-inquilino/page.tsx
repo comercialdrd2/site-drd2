@@ -13,12 +13,12 @@ import CtaWhatsApp from "@/components/CtaWhatsApp";
 import BlogStrategicLinks from "@/components/BlogStrategicLinks";
 import BlogAuthorEvidence from "@/components/BlogAuthorEvidence";
 
-const _pageTitle = "Quem Paga o AVCB: Proprietário ou Inquilino? Entenda a Lei";
-const _pageDesc = "Descubra quem é responsável pelo AVCB em imóveis alugados — proprietário ou inquilino. Entenda o que diz a lei, o contrato de locação e as ITs do Bombeiro. DRD2 Engenharia.";
+const _pageTitle = "AVCB: Quem Paga, Proprietário ou Inquilino? Veja a Regra";
+const _pageDesc = "Imóvel alugado: quem paga o AVCB, o proprietário ou o inquilino? Veja o que diz a Lei do Inquilinato e o que o contrato de locação pode mudar.";
 
 export const metadata = {
-  title: "Quem Paga o AVCB: Proprietário ou Inquilino? Entenda a Lei",
-  description: "Descubra quem é responsável pelo AVCB em imóveis alugados — proprietário ou inquilino. Entenda o que diz a lei, o contrato de locação e as ITs do Bombeiro. DRD2 Engenharia.",
+  title: "AVCB: Quem Paga, Proprietário ou Inquilino? Veja a Regra",
+  description: "Imóvel alugado: quem paga o AVCB, o proprietário ou o inquilino? Veja o que diz a Lei do Inquilinato e o que o contrato de locação pode mudar.",
   alternates: {
     canonical: "/blog/quem-paga-o-avcb-proprietario-ou-inquilino",
   },

@@ -2855,10 +2855,10 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
 
   {
     slug: "como-emitir-clcb-em-sao-paulo-passo-a-passo",
-    title: "Como Emitir o CLCB em SP pelo Via Fácil: Passo a Passo 2026",
+    title: "CLCB Bombeiros SP: Como Emitir e Solicitar em 2026",
     date: "2026-05-13",
     category: "CLCB",
-    excerpt: "Passo a passo para solicitar o CLCB no Via Fácil Bombeiros: quem pode usar (até 750 m², ou 1.500 m² com hidrantes), documentos, ART e erros que travam.",
+    excerpt: "Guia do CLCB do Corpo de Bombeiros de SP: quem pode usar, documentos, ART e o passo a passo no Via Fácil. Veja os erros que fazem o pedido voltar.",
     relatedServiceSlug: "clcb-sao-paulo",
     image: "/images/blog/fire_safety_equipment_premium.webp",
     cta: {
