@@ -257,6 +257,143 @@ const ptotepBlogPosts: BlogPost[] = [
 
 const allBlogPosts: BlogPost[] = [
   {
+    slug: "avcb-clcb-para-abrir-empresa-sao-paulo",
+    title: "AVCB ou CLCB para abrir empresa em São Paulo: o que você precisa saber",
+    date: "2026-10-07",
+    category: "Regularização",
+    excerpt: "Vai abrir CNPJ ou mudar de endereço em SP? Veja quando a empresa precisa de AVCB ou CLCB e como regularizar o imóvel antes de funcionar.",
+    relatedServiceSlug: "avcb-sao-paulo",
+    image: "/images/blog/blog_hero_pinheiros_avcb.webp",
+    cta: {
+      titulo: "Vai abrir ou mudar sua empresa de endereço?",
+      texto: "A DRD2 verifica sem custo se o seu imóvel precisa de AVCB ou CLCB e cuida do processo até a emissão, com engenheiro CREA-SP e ART.",
+      botao: "Verificar meu imóvel",
+      mensagem: "Olá, li o artigo sobre abrir empresa no site e quero saber qual licença do Corpo de Bombeiros meu imóvel precisa.",
+      servicoHref: "/avcb-sao-paulo",
+      servicoLabel: "Ver o serviço de AVCB em São Paulo",
+    },
+    content: `
+      <p>Abrir o CNPJ é só uma parte. Para a empresa funcionar regularizada em São Paulo, o imóvel onde ela vai operar precisa estar em dia com o Corpo de Bombeiros, com <strong>AVCB</strong> ou <strong>CLCB</strong>. Veja quando cada um é exigido, onde a Redesim entra nessa história e como evitar atrasos na abertura.</p>
+
+      <h2>A licença do Corpo de Bombeiros é da empresa ou do imóvel?</h2>
+      <p>É do imóvel. O AVCB (Auto de Vistoria do Corpo de Bombeiros) e o CLCB (Certificado de Licença do Corpo de Bombeiros) comprovam que a edificação tem as medidas de segurança contra incêndio exigidas para o uso que ela tem. Na prática:</p>
+      <ul>
+        <li>se a empresa muda de endereço, o novo imóvel precisa estar regularizado;</li>
+        <li>se a atividade muda, a licença pode deixar de valer para o novo uso;</li>
+        <li>se o imóvel já tem AVCB, ele precisa estar válido e cobrir a atividade da sua empresa.</li>
+      </ul>
+
+      <h2>Onde entra a Redesim na abertura da empresa</h2>
+      <p>A Redesim é a rede do governo que integra os órgãos envolvidos na abertura de empresas. Em São Paulo, a abertura é feita pela Via Rápida Empresa, ligada à Junta Comercial (Jucesp). Durante o processo, o sistema cruza a atividade (CNAE) e o endereço e indica quais licenças a empresa precisa, entre elas a do Corpo de Bombeiros.</p>
+      <p><strong>Atenção:</strong> conseguir abrir o CNPJ não significa estar liberado pelo Corpo de Bombeiros. Se a empresa começa a funcionar sem AVCB ou CLCB válido, ela fica irregular, mesmo que a atividade seja de baixo risco.</p>
+
+      <h2>AVCB ou CLCB: qual é o caso da sua empresa</h2>
+      <ul>
+        <li><strong>CLCB:</strong> para imóveis de até 750 m² e de baixo risco, como lojas, escritórios, consultórios e pequenos comércios. É um processo mais simples, sem projeto técnico.</li>
+        <li><strong>AVCB:</strong> para imóveis maiores ou de risco mais alto, como indústrias, galpões, escolas e locais de reunião de público.</li>
+        <li><strong>Projeto técnico:</strong> exigido quando o imóvel tem mais de 1.500 m² <strong>ou</strong> mais de 9 metros de altura. Basta uma das duas condições: um prédio de 250 m² com mais de 9 m de altura também precisa de projeto.</li>
+      </ul>
+      <p>O enquadramento depende também da ocupação e da lotação. Se tiver dúvida, veja <a href="/avcb-ou-clcb-qual-preciso">AVCB ou CLCB: qual eu preciso?</a></p>
+
+      <h2>Imóvel alugado: quem cuida da licença?</h2>
+      <p>Antes de assinar o contrato, pergunte ao proprietário se o imóvel tem AVCB ou CLCB válido e para qual uso. Muitas empresas só descobrem depois da mudança que a licença venceu ou não cobre a nova atividade. Quem paga as adequações depende do contrato: veja <a href="/blog/quem-paga-o-avcb-proprietario-ou-inquilino">Quem paga o AVCB: proprietário ou inquilino?</a></p>
+
+      <div style="border:2px solid #16a34a;border-radius:12px;padding:20px;margin:28px 0;background:#f0fdf4">
+        <p style="margin:0 0 8px"><strong>Vai abrir ou mudar sua empresa de endereço?</strong> A DRD2 verifica sem custo se o seu imóvel precisa de AVCB ou CLCB e cuida do processo até a emissão, com engenheiro CREA-SP e ART.</p>
+        <p style="margin:0"><a href="https://wa.me/5511942232969?text=Ol%C3%A1%2C%20li%20o%20artigo%20sobre%20abrir%20empresa%20no%20site%20e%20quero%20saber%20qual%20licen%C3%A7a%20do%20Corpo%20de%20Bombeiros%20meu%20im%C3%B3vel%20precisa." style="display:inline-block;background:#16a34a;color:#fff;font-weight:700;padding:12px 20px;border-radius:8px;text-decoration:none">Verificar meu imóvel pelo WhatsApp</a> &nbsp;ou veja <a href="/avcb-sao-paulo">AVCB em São Paulo</a> e <a href="/clcb-sao-paulo">CLCB em São Paulo</a>.</p>
+      </div>
+
+      <h2>Passo a passo para regularizar antes de abrir as portas</h2>
+      <ol>
+        <li><strong>Confirme o enquadramento:</strong> área, altura, atividade e lotação definem se o caso é CLCB, AVCB ou projeto técnico.</li>
+        <li><strong>Verifique a situação do imóvel:</strong> se já existe licença, se está válida e para qual uso.</li>
+        <li><strong>Faça as adequações:</strong> extintores, iluminação de emergência, sinalização, saídas e, quando exigido, hidrantes, alarme e outros sistemas.</li>
+        <li><strong>Documentação e protocolo:</strong> o responsável técnico prepara a documentação com ART e protocola no Via Fácil Bombeiros.</li>
+        <li><strong>Acompanhe até a emissão:</strong> responda às exigências do Corpo de Bombeiros, se houver, e guarde o certificado.</li>
+      </ol>
+
+      <h2>Erros que atrasam a abertura</h2>
+      <ul>
+        <li>Alugar o imóvel sem verificar a licença dos Bombeiros.</li>
+        <li>Pedir CLCB quando o imóvel exige AVCB: o pedido volta e o tempo se perde.</li>
+        <li>Deixar a licença para depois e só descobrir na fiscalização.</li>
+        <li>Reformar ou mudar o layout sem atualizar a licença.</li>
+      </ul>
+      <p>A DRD2 Engenharia faz a análise do enquadramento sem custo em São Paulo e Grande SP. <a href="/avcb-sao-paulo">Veja como funciona o serviço de AVCB</a> ou fale direto pelo WhatsApp.</p>
+    `,
+    faqs: [
+      { question: "Preciso de AVCB para abrir o CNPJ?", answer: "O CNPJ pode ser registrado antes, mas a empresa só pode começar a funcionar com o imóvel regularizado, com AVCB ou CLCB válido. Funcionar sem a licença deixa a empresa irregular, mesmo em atividade de baixo risco." },
+      { question: "Mudei de endereço. Posso usar a licença do endereço antigo?", answer: "Não. A licença é do imóvel. O novo endereço precisa ter o próprio AVCB ou CLCB." },
+      { question: "Minha sala fica num prédio que já tem AVCB. Preciso de outro?", answer: "Em geral, não: a sala ou o escritório usa o AVCB do prédio. Peça ao condomínio ou à administração uma cópia do AVCB e confira se ele está dentro da validade." },
+      { question: "Quanto tempo leva para tirar o CLCB ou o AVCB?", answer: "Depende do enquadramento, das adequações necessárias e da análise do Corpo de Bombeiros. O CLCB costuma ser mais rápido que o AVCB com projeto técnico. O prazo estimado vem no orçamento." }
+    ]
+  },
+  {
+    slug: "via-facil-bombeiros-quando-chamar-engenheiro",
+    title: "Via Fácil Bombeiros: como funciona e quando chamar um engenheiro",
+    date: "2026-10-07",
+    category: "Documentação",
+    excerpt: "Entenda o Via Fácil Bombeiros, os erros que fazem o processo voltar com exigência e quando vale ter um engenheiro com ART cuidando do AVCB ou CLCB.",
+    relatedServiceSlug: "clcb-sao-paulo",
+    image: "/images/blog/blog_hero_avcb_preco.webp",
+    cta: {
+      titulo: "Travou no Via Fácil Bombeiros?",
+      texto: "Mande a exigência que recebeu ou conte em que etapa parou, e o engenheiro da DRD2 te diz o que fazer.",
+      botao: "Falar com o engenheiro",
+      mensagem: "Olá, li o artigo sobre o Via Fácil Bombeiros no site e travei no meu processo. Pode me ajudar?",
+      servicoHref: "/clcb-sao-paulo",
+      servicoLabel: "Ver o serviço de CLCB em São Paulo",
+    },
+    content: `
+      <p>O Via Fácil Bombeiros é o sistema online do Corpo de Bombeiros do Estado de São Paulo por onde passam os pedidos de CLCB, AVCB e projeto técnico. Muita gente começa o processo sozinha e trava no meio. Veja como o sistema funciona, onde estão os erros mais comuns e quando vale ter um engenheiro cuidando de tudo.</p>
+
+      <h2>O que é o Via Fácil Bombeiros</h2>
+      <p>É a plataforma digital do Corpo de Bombeiros paulista (CBPMESP), no endereço viafacilbombeiros.sp.gov.br. Por ela são feitos os protocolos de CLCB e de projeto técnico, o pedido de vistoria para o AVCB, o acompanhamento dos processos e as respostas às exigências.</p>
+      <p>Consultar a situação de um processo e acompanhar o andamento são tarefas simples, que qualquer pessoa consegue fazer. As dificuldades aparecem na hora de protocolar e de responder às exigências.</p>
+
+      <h2>Onde as pessoas mais travam</h2>
+      <ol>
+        <li><strong>Enquadramento errado:</strong> pedir CLCB quando o imóvel exige AVCB ou projeto técnico. O pedido volta e o tempo se perde.</li>
+        <li><strong>Área e planta que não batem:</strong> área declarada diferente da real ou da planta é um motivo comum de exigência.</li>
+        <li><strong>Responsável técnico e ART:</strong> o projeto técnico e vários documentos exigem engenheiro ou arquiteto habilitado, com ART.</li>
+        <li><strong>Equipamentos diferentes do declarado:</strong> extintor vencido, iluminação de emergência sem funcionar ou sinalização faltando.</li>
+        <li><strong>Exigência sem resposta:</strong> quando o Corpo de Bombeiros pede uma correção e ninguém responde dentro do prazo, o processo pode ser arquivado.</li>
+      </ol>
+
+      <h2>O que é o "Comunique-se"</h2>
+      <p>É o aviso que o Corpo de Bombeiros envia pelo sistema quando falta um documento, há uma inconsistência ou algo precisa ser corrigido. Ele diz o que deve ser ajustado e o prazo para responder. Uma resposta incompleta costuma gerar uma nova exigência e mais tempo de espera.</p>
+
+      <div style="border:2px solid #16a34a;border-radius:12px;padding:20px;margin:28px 0;background:#f0fdf4">
+        <p style="margin:0 0 8px"><strong>Travou no Via Fácil?</strong> Mande a exigência que recebeu ou conte em que etapa parou, e o engenheiro da DRD2 te diz o que fazer.</p>
+        <p style="margin:0"><a href="https://wa.me/5511942232969?text=Ol%C3%A1%2C%20li%20o%20artigo%20sobre%20o%20Via%20F%C3%A1cil%20Bombeiros%20no%20site%20e%20travei%20no%20meu%20processo.%20Pode%20me%20ajudar%3F" style="display:inline-block;background:#16a34a;color:#fff;font-weight:700;padding:12px 20px;border-radius:8px;text-decoration:none">Falar com o engenheiro pelo WhatsApp</a> &nbsp;ou veja <a href="/clcb-sao-paulo">CLCB em São Paulo</a> e <a href="/avcb-sao-paulo">AVCB em São Paulo</a>.</p>
+      </div>
+
+      <h2>Dá para fazer sozinho?</h2>
+      <ul>
+        <li><strong>CLCB simples,</strong> com o imóvel claramente enquadrado e os equipamentos em dia: muitas pessoas conseguem, seguindo o passo a passo. Veja o nosso guia <a href="/blog/como-emitir-clcb-em-sao-paulo-passo-a-passo">Como emitir o CLCB em SP pelo Via Fácil</a>. Lembre que o CLCB é uma declaração: quem declara responde por ela.</li>
+        <li><strong>AVCB com projeto técnico:</strong> exige responsável técnico habilitado, plantas, memorial e ART. Não é um processo para fazer sozinho.</li>
+      </ul>
+
+      <h2>Quando vale chamar um engenheiro</h2>
+      <ul>
+        <li>O imóvel tem mais de 750 m², mais de 1.500 m² ou mais de 9 metros de altura: pode precisar de AVCB e de projeto técnico.</li>
+        <li>O processo voltou com exigência e você não sabe como responder.</li>
+        <li>O pedido foi indeferido ou arquivado.</li>
+        <li>Há prazo correndo: alvará, contrato de locação, seguro, fiscalização ou vencimento da licença.</li>
+        <li>Houve reforma, ampliação ou mudança de atividade.</li>
+      </ul>
+
+      <h2>Como a DRD2 ajuda</h2>
+      <p>Verificamos o enquadramento sem custo, preparamos a documentação com ART, fazemos o protocolo no Via Fácil Bombeiros e acompanhamos até a emissão, respondendo às exigências que aparecerem. Veja o <a href="/clcb-sao-paulo">serviço de CLCB</a> e o <a href="/avcb-sao-paulo">serviço de AVCB</a>.</p>
+    `,
+    faqs: [
+      { question: "Recebi uma exigência (Comunique-se). E agora?", answer: "Leia com atenção o que foi pedido e o prazo. Se não tiver certeza de como corrigir, procure um engenheiro antes de responder: uma resposta incompleta gera nova exigência." },
+      { question: "Comecei o processo sozinho. Um engenheiro pode assumir?", answer: "Pode, mas não é automático: é preciso abrir um novo processo ou fazer uma procuração para transferir o processo já iniciado. O engenheiro analisa o que já foi feito e indica o melhor caminho." },
+      { question: "Quanto tempo o Corpo de Bombeiros leva para analisar?", answer: "Varia conforme o tipo de processo e a demanda do Corpo de Bombeiros. O prazo estimado vem no orçamento." },
+      { question: "Preciso de engenheiro para o CLCB?", answer: "Nem sempre, mas o CLCB é uma declaração de que o imóvel cumpre as exigências. Com um engenheiro e ART, você tem a segurança de que o que foi declarado está correto." }
+    ]
+  },
+  {
     slug: "avcb-mogi-das-cruzes-como-regularizar",
     title: "Como tirar ou renovar o AVCB em Mogi das Cruzes? (Indústrias e Galpões)",
     date: "2026-05-08",
