@@ -85,7 +85,7 @@ export default function PoliticaPrivacidadePage() {
 
           <h2>5. Cookies</h2>
           <p>
-            Utilizamos cookies essenciais para o funcionamento do site e cookies de análise de desempenho (Google Analytics). Você pode desativar cookies através das configurações do seu navegador a qualquer momento, sem prejuízo ao acesso ao conteúdo do site.
+            Utilizamos cookies essenciais para o funcionamento do site e cookies de análise de desempenho (Google Analytics e Microsoft Clarity, que registra de forma anônima cliques, rolagem e mapas de calor, sem gravar o que é digitado em formulários). Você pode desativar cookies através das configurações do seu navegador a qualquer momento, sem prejuízo ao acesso ao conteúdo do site.
           </p>
 
           <h2>6. Compartilhamento de dados</h2>
@@ -94,6 +94,7 @@ export default function PoliticaPrivacidadePage() {
           </p>
           <ul>
             <li><strong>Google LLC</strong> (Analytics e Google Business Profile) — para análise de acesso e otimização.</li>
+            <li><strong>Microsoft Corporation</strong> (Clarity) — para entender como as páginas são usadas e melhorar o site.</li>
             <li><strong>Meta Platforms</strong> — se você chegou ao site por anúncios, para fins de mensuração de campanhas.</li>
           </ul>
           <p>Esses parceiros possuem suas próprias políticas de privacidade e estão sujeitos às normas da LGPD e do GDPR.</p>
