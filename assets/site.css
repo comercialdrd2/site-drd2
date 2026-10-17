@@ -930,3 +930,4 @@ details.svc-all .svc-index { margin-bottom: 8px; }
 /* Botão flutuante do WhatsApp em verde */
 .wa-float { background: var(--cta); color: var(--cta-ink); box-shadow: 0 6px 20px rgba(0,0,0,.28); }
 .wa-float:hover { background: var(--cta-hover); color: var(--cta-ink); }
+.form-card textarea[name="mensagem"] { min-height: 92px; }
