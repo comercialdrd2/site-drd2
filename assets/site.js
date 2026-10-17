@@ -5,7 +5,7 @@
   "use strict";
   var CONFIG = {
     WHATSAPP: "5511942232969",   // WhatsApp comercial, só dígitos
-    FORM_ENDPOINT: "https://formsubmit.co/ajax/comercial@drd2.com.br", // e-mail que recebe os pedidos de orçamento
+    FORM_ENDPOINT: "https://formsubmit.co/ajax/26d351966dc6ca222149d3185598d261", // código do FormSubmit (entrega em comercial@drd2.com.br; esconde o e-mail de robôs)
     GTM_ID: "",                  // ID do Google Tag Manager, ex.: "GTM-ABC1234". Vazio = sem medição
     MAX_FOTOS: 10,
     MAX_MB: 10
