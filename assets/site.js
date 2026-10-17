@@ -92,7 +92,10 @@
   /* Máscara simples de telefone */
   document.querySelectorAll("input[type=tel]").forEach(function (inp) {
     inp.addEventListener("input", function () {
-      var d = inp.value.replace(/\D/g, "").slice(0, 11);
+      var d = inp.value.replace(/\D/g, "");
+      if (d.length > 11 && d.indexOf("55") === 0) d = d.slice(2); /* tira o +55 colado */
+      if (d.charAt(0) === "0") d = d.slice(1); /* tira o 0 de DDD (011) */
+      d = d.slice(0, 11);
       var out = d;
       if (d.length > 2) out = "(" + d.slice(0, 2) + ") " + d.slice(2);
       if (d.length > 7) out = "(" + d.slice(0, 2) + ") " + d.slice(2, d.length - 4) + "-" + d.slice(-4);
