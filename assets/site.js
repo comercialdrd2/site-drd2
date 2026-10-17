@@ -7,6 +7,8 @@
     WHATSAPP: "5511942232969",   // WhatsApp comercial, só dígitos
     FORM_ENDPOINT: "https://formsubmit.co/ajax/26d351966dc6ca222149d3185598d261", // código do FormSubmit (entrega em comercial@drd2.com.br; esconde o e-mail de robôs)
     GTM_ID: "",                  // ID do Google Tag Manager, ex.: "GTM-ABC1234". Vazio = sem medição
+    GA4_ID: "G-1E6SS63B7L",      // Google Analytics 4 (mesma propriedade do www.drd2.com.br)
+    CLARITY_ID: "yt7y99irfw",    // Microsoft Clarity: gravação de sessões e mapa de calor (mesmo projeto do avcb.drd2.com.br)
     MAX_FOTOS: 10,
     MAX_MB: 10
   };
@@ -19,10 +21,27 @@
     gtm.src = "https://www.googletagmanager.com/gtm.js?id=" + CONFIG.GTM_ID;
     document.head.appendChild(gtm);
   }
+  if (CONFIG.GA4_ID) {
+    window.gtag = function () { window.dataLayer.push(arguments); };
+    window.gtag("js", new Date());
+    window.gtag("config", CONFIG.GA4_ID);
+    var ga = document.createElement("script");
+    ga.async = true;
+    ga.src = "https://www.googletagmanager.com/gtag/js?id=" + CONFIG.GA4_ID;
+    document.head.appendChild(ga);
+  }
+  if (CONFIG.CLARITY_ID) {
+    (function (c, l, a, r, i, t, y) {
+      c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
+      t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+      y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+    })(window, document, "clarity", "script", CONFIG.CLARITY_ID);
+  }
   function track(name, params) {
     var ev = Object.assign({ event: name, page_path: location.pathname }, params || {});
     window.dataLayer.push(ev);
     if (typeof window.gtag === "function") window.gtag("event", name, params || {});
+    if (typeof window.clarity === "function") window.clarity("event", name);
   }
 
   function waMessage(servico, local) {
