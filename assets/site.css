@@ -926,3 +926,7 @@ details.svc-all .svc-index { margin-bottom: 8px; }
 
 #contato { scroll-margin-top: 72px; }
 .lead-sec .form-card { align-self: start; }
+
+/* Botão flutuante do WhatsApp em verde */
+.wa-float { background: var(--cta); color: var(--cta-ink); box-shadow: 0 6px 20px rgba(0,0,0,.28); }
+.wa-float:hover { background: var(--cta-hover); color: var(--cta-ink); }
