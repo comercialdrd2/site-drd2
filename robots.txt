@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fachadas.drd2.com.br/sitemap.xml
