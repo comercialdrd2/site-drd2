@@ -163,8 +163,6 @@
         if (v instanceof File) return;
         data[k] = data[k] ? data[k] + ", " + v : v;
       });
-      var drop = form.querySelector(".drop");
-      data.fotos = drop ? Number(drop.dataset.count || 0) : 0;
       try { sessionStorage.setItem("drd2_lead", JSON.stringify(data)); } catch (err) { /* sem armazenamento: segue sem resumo */ }
       track("generate_lead", { form_id: form.id, servico: data.servico || "", cidade: data.cidade || "" });
       var thanks = form.getAttribute("data-thanks") || "/obrigado/";
@@ -174,8 +172,7 @@
         _subject: "Pedido de orçamento de fachada: " + (data.nome || "") + " · " + (data.cidade || ""),
         _template: "table",
         _captcha: "false",
-        pagina: location.pathname,
-        fotos_selecionadas: data.fotos ? data.fotos + " (pedir pelo WhatsApp)" : "0"
+        pagina: location.pathname
       }, data);
       var done = false;
       function go() { if (done) return; done = true; location.href = thanks; }
@@ -196,7 +193,7 @@
   if (sumBox) {
     var d = null;
     try { d = JSON.parse(sessionStorage.getItem("drd2_lead") || "null"); } catch (err) { d = null; }
-    var labels = { nome: "Nome", telefone: "Telefone", email: "E-mail", empresa: "Condomínio ou empresa", cidade: "Cidade e bairro", imovel: "Tipo de imóvel", pavimentos: "Pavimentos", fachada: "Tipo de fachada", servico: "Serviço", problema: "Problema identificado", prazo: "Prazo pretendido", fotos: "Fotos anexadas" };
+    var labels = { nome: "Nome", telefone: "Telefone", email: "E-mail", empresa: "Condomínio ou empresa", cidade: "Cidade e bairro", imovel: "Tipo de imóvel", pavimentos: "Pavimentos", fachada: "Tipo de fachada", servico: "Serviço", problema: "Problema identificado", prazo: "Prazo pretendido", mensagem: "Mensagem" };
     var waBtn = document.getElementById("wa-thanks");
     if (d) {
       var dl = document.createElement("dl");

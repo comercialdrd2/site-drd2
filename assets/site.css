@@ -906,3 +906,20 @@ details.svc-all .svc-index { margin-bottom: 8px; }
 @media (max-width: 1000px) { .paint-steps { grid-template-columns: repeat(3, minmax(0, 1fr)); } .paint-sys { grid-template-columns: 1fr; } }
 @media (max-width: 640px) { .paint-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; } .paint-steps li:last-child { grid-column: 1 / -1; } .paint-steps li:last-child figure { aspect-ratio: 16 / 9; } }
 .paint-sys .mat > div:last-child:nth-child(odd) { grid-column: 1 / -1; }
+
+/* Perguntas com opções em botões (formulários de orçamento) */
+.opt-q { border: 0; padding: 0; margin: 0; min-width: 0; }
+.opt-q legend, .field.opt-q legend { font-size: var(--t-sm); font-weight: 600; margin-bottom: 8px; padding: 0; }
+.opts { display: flex; flex-wrap: wrap; gap: 8px; }
+.opt { position: relative; display: inline-flex; cursor: pointer; }
+.field .opt input, .opt input { position: absolute; opacity: 0; width: 1px; height: 1px; min-height: 0; padding: 0; border: 0; pointer-events: none; }
+.field .opt span, .opt span { display: inline-block; padding: 11px 15px; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--bg); color: var(--ink); font-size: var(--t-sm); font-weight: 500; line-height: 1.25; transition: border-color .15s, background .15s; }
+.opt span small { color: var(--muted); font-weight: 400; margin-left: 4px; }
+.opt:hover span { border-color: var(--cta, #15803D); }
+.opt input:focus-visible + span { outline: 2px solid var(--cta, #15803D); outline-offset: 2px; }
+.opt input:checked + span { border-color: var(--cta, #15803D); background: color-mix(in srgb, var(--cta, #15803D) 16%, var(--bg)); font-weight: 600; }
+.opt input:checked + span::before { content: "✓ "; color: var(--cta, #15803D); font-weight: 700; }
+.opt input:checked + span small { color: inherit; opacity: .8; }
+.form-legal { grid-column: 1 / -1; font-size: var(--t-xs); color: var(--muted); margin: 0; }
+.form-legal a { color: inherit; text-decoration: underline; }
+
