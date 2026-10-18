@@ -164,7 +164,7 @@ const data: UniversalPageData = {
       "label": "AVCB Vencido — O Que Fazer?"
     },
     {
-      "href": "/avcb-urgente-sao-paulo",
+      "href": "/avcb-sao-paulo#urgencia",
       "label": "AVCB Urgente em SP"
     },
     {

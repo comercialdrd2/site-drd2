@@ -388,7 +388,7 @@ export default function AVCBFarmaciaMasterPage() {
               { t: "Renovação de AVCB", u: "/renovacao-avcb", i: <ClipboardCheck className="w-4 h-4" /> },
               { t: "CLCB em São Paulo", u: "/clcb-sao-paulo", i: <FileCheck className="w-4 h-4" /> },
               { t: "Projetos de Incêndio", u: "/projetos-incendio", i: <LayoutGrid className="w-4 h-4" /> },
-              { t: "Empresa de AVCB SP", u: "/empresa-avcb-sao-paulo", i: <Building className="w-4 h-4" /> },
+              { t: "Empresa de AVCB SP", u: "/avcb-sao-paulo", i: <Building className="w-4 h-4" /> },
             ].map((link, i) => (
               <Link prefetch={false}
                 key={i}

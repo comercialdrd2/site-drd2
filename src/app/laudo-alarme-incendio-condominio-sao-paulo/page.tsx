@@ -140,7 +140,7 @@ const data: UniversalPageData = {
     { href: "/laudo-alarme-incendio-sao-paulo", label: "Laudo de Alarme de Incêndio SP" },
     { href: "/laudo-hidrante-condominio-sao-paulo", label: "Laudo de Hidrante — Condomínio" },
     { href: "/laudo-sprinkler-condominio-sao-paulo", label: "Laudo de Sprinkler — Condomínio" },
-    { href: "/empresa-avcb-sao-paulo", label: "Empresa de AVCB em SP" },
+    { href: "/avcb-sao-paulo", label: "Empresa de AVCB em SP" },
   ],
   ctaFinal: {
     heading: "Laudo de alarme para o seu condomínio — vistoria por pavimento",

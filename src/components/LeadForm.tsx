@@ -95,7 +95,7 @@ export default function LeadForm({
 
         // Prepara o link do Whatsapp, mas não abre na força
         const waNumber = process.env.NEXT_PUBLIC_WHATSAPP || "5511999999999";
-        const waText = buildWhatsAppMessage(`*[ORÇAMENTO PELO SITE]*\nOlá, acabei de enviar meus dados pelo site e gostaria de agilizar meu atendimento.\n\n*Nome:* ${data.Nome}\n*WhatsApp:* ${data.WhatsApp}\n*E-mail:* ${data.Email}\n*Tipo:* ${data.Tipo_Edificacao}\n*Mensagem:* ${data.Mensagem || "Não informado"}\n*Página:* ${data.URL_Atual}`);
+        const waText = buildWhatsAppMessage(`*[ORÇAMENTO PELO SITE]*\nOlá, acabei de enviar meus dados pelo site e gostaria de agilizar meu atendimento.\n\n*Nome:* ${data.Nome}\n*WhatsApp:* ${data.WhatsApp}\n*E-mail:* ${data.Email || "não informado"}\n*Tipo:* ${data.Tipo_Edificacao}\n*Mensagem:* ${data.Mensagem || "Não informado"}\n*Página:* ${data.URL_Atual}`);
         setWaLink(`https://wa.me/${waNumber}?text=${encodeURIComponent(waText)}`);
 
         setSubmitted(true);
@@ -194,14 +194,14 @@ export default function LeadForm({
                   {/* E-mail */}
                   <div>
                     <label className="text-[#1a1a1a] font-bold text-[13px] tracking-[0.5px] flex items-center gap-2 mb-2">
-                      <Mail className="w-4 h-4 text-[#CC0000]" /> E-mail Corporativo
+                      <Mail className="w-4 h-4 text-[#CC0000]" /> E-mail
+                      <span className="text-[11px] text-slate-600 font-medium normal-case tracking-normal ml-1">(opcional)</span>
                     </label>
                     <input
                       type="email"
                       name="email"
                       placeholder="contato@empresa.com.br"
                       className="w-full px-[16px] py-[14px] rounded-[6px] border-2 border-[#cccccc] bg-[#ffffff] text-[15px] text-[#1a1a1a] placeholder:text-[#999999] placeholder:text-[14px] focus:outline-none focus:border-[#CC0000] focus:ring-[3px] focus:ring-[rgba(204,0,0,0.1)] transition-all"
-                      required
                     />
                   </div>
 
@@ -235,7 +235,7 @@ export default function LeadForm({
                   </label>
                   <textarea
                     name="message"
-                    placeholder="Ex: AVCB vencido, preciso renovar urgente..."
+                    placeholder="Ex.: cidade, área aproximada e o que precisa (AVCB vencido, renovação...)"
                     rows={2}
                     className="w-full px-[16px] py-[14px] rounded-[6px] border-2 border-[#cccccc] bg-[#ffffff] text-[15px] text-[#1a1a1a] placeholder:text-[#999999] placeholder:text-[14px] focus:outline-none focus:border-[#CC0000] focus:ring-[3px] focus:ring-[rgba(204,0,0,0.1)] transition-all resize-none"
                   ></textarea>

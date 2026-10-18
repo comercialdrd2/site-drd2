@@ -138,7 +138,7 @@ const data: UniversalPageData = {
     { href: "/avcb-galpao-industrial-sao-paulo", label: "AVCB para Galpão Industrial SP" },
     { href: "/hidrantes", label: "Sistema de Hidrantes SP" },
     { href: "/laudo-sprinkler-galpao-sao-paulo", label: "Laudo de Sprinkler — Galpão" },
-    { href: "/empresa-avcb-sao-paulo", label: "Empresa de AVCB em SP" },
+    { href: "/avcb-sao-paulo", label: "Empresa de AVCB em SP" },
     { href: "/quanto-custa-avcb-sao-paulo", label: "Quanto Custa o AVCB em SP" },
     { href: "/renovacao-avcb", label: "Renovação de AVCB em SP" },
   ],

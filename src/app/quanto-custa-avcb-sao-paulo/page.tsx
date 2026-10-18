@@ -13,6 +13,33 @@ import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import TrustBar from "@/components/TrustBar";
 import CtaWhatsApp from "@/components/CtaWhatsApp";
 import BreadcrumbNav from "@/components/BreadcrumbNav";
+import MergedTopicSection from "@/components/MergedTopicSection";
+
+// 18/10/2026 — etapa 1 da fusão: o artigo /blog/quanto-custa-avcb-em-sao-paulo ("Como ler um
+// orçamento de AVCB") agora redireciona para esta página. Fica o roteiro para comparar propostas.
+const compararOrcamentos = {
+  id: "comparar-orcamentos",
+  eyebrow: "Antes de decidir",
+  heading: "Como comparar dois orçamentos de AVCB",
+  paragraphs: [
+    "Duas propostas para o mesmo imóvel podem chegar com valores muito diferentes. Quase sempre a diferença não está no preço da engenharia, e sim no que cada uma deixou de fora.",
+  ],
+  itemsTitle: "O que conferir em cada proposta",
+  items: [
+    { titulo: "Honorários de engenharia", desc: "Veja se incluem diagnóstico, projeto técnico, ART, protocolo, acompanhamento da análise e presença na vistoria." },
+    { titulo: "Taxa da ART", desc: "Taxa obrigatória paga ao CREA-SP para registrar a responsabilidade técnica do engenheiro." },
+    { titulo: "Taxas do Corpo de Bombeiros", desc: "Calculadas com base na área construída e no risco da ocupação. Confira se estão no valor ou à parte." },
+    { titulo: "Adequação dos sistemas", desc: "Hidrantes, sprinklers, alarme, iluminação, sinalização e extintores. É a parte que mais varia de um imóvel para outro." },
+  ],
+  bulletsTitle: "O que costuma aumentar o custo",
+  bullets: [
+    "Edificação antiga, sem os projetos originais",
+    "Sistemas que precisam ser instalados do zero",
+    "Processo parado por Comunique-se sem resposta",
+    "Edificação tombada, que exige soluções específicas",
+  ],
+  note: "Proposta muito abaixo do mercado costuma esconder a falta de ART, escopo incompleto ou pouca capacidade técnica para responder às exigências. O AVCB que não sai acaba custando duas vezes.",
+};
 import { quantoCustaAvcbContent as c } from "@/data/pages/quanto-custa-avcb-sao-paulo";
 
 export const metadata = {
@@ -224,6 +251,8 @@ export default function QuantoCustaAvcbPage() {
           </div>
         </div>
       </section>
+
+      <MergedTopicSection {...compararOrcamentos} tone="slate" />
 
       {/* ── H2 #4: COMO FUNCIONA O ORÇAMENTO ── */}
       <section className="py-24 bg-slate-900 text-white">

@@ -293,7 +293,7 @@ const allBlogPosts: BlogPost[] = [
         <li><strong>AVCB:</strong> para imóveis maiores ou de risco mais alto, como indústrias, galpões, escolas e locais de reunião de público.</li>
         <li><strong>Projeto técnico:</strong> exigido quando o imóvel tem mais de 1.500 m² <strong>ou</strong> mais de 9 metros de altura. Basta uma das duas condições: um prédio de 250 m² com mais de 9 m de altura também precisa de projeto.</li>
       </ul>
-      <p>O enquadramento depende também da ocupação e da lotação. Se tiver dúvida, veja <a href="/avcb-ou-clcb-qual-preciso">AVCB ou CLCB: qual eu preciso?</a></p>
+      <p>O enquadramento depende também da ocupação e da lotação. Se tiver dúvida, veja <a href="/blog/diferenca-entre-avcb-e-clcb">AVCB ou CLCB: qual eu preciso?</a></p>
 
       <h2>Imóvel alugado: quem cuida da licença?</h2>
       <p>Antes de assinar o contrato, pergunte ao proprietário se o imóvel tem AVCB ou CLCB válido e para qual uso. Muitas empresas só descobrem depois da mudança que a licença venceu ou não cobre a nova atividade. Quem paga as adequações depende do contrato: veja <a href="/blog/quem-paga-o-avcb-proprietario-ou-inquilino">Quem paga o AVCB: proprietário ou inquilino?</a></p>
@@ -1307,7 +1307,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>O papel do engenheiro é avaliar o imóvel, definir o enquadramento correto, orientar as adequações, emitir ART quando aplicável e conduzir o processo até a aprovação. Essa etapa evita protocolo errado, gastos desnecessários e retrabalho.</p>
 
       <h2>Quanto custa regularizar academia?</h2>
-      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/blog/quanto-custa-avcb-em-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
+      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/quanto-custa-avcb-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
 
       <h2>Como a DRD2 Engenharia ajuda</h2>
       <p>A <strong>DRD2 Engenharia</strong> realiza diagnóstico técnico, verifica pendências, orienta adequações e conduz o processo de AVCB ou CLCB com engenheiro responsável. O objetivo é regularizar o imóvel com segurança, clareza de prazo e foco na aprovação junto ao Corpo de Bombeiros.</p>
@@ -1367,7 +1367,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>O papel do engenheiro é avaliar o imóvel, definir o enquadramento correto, orientar as adequações, emitir ART quando aplicável e conduzir o processo até a aprovação. Essa etapa evita protocolo errado, gastos desnecessários e retrabalho.</p>
 
       <h2>Quanto custa regularizar farmácia e drogaria?</h2>
-      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/blog/quanto-custa-avcb-em-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
+      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/quanto-custa-avcb-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
 
       <h2>Como a DRD2 Engenharia ajuda</h2>
       <p>A <strong>DRD2 Engenharia</strong> realiza diagnóstico técnico, verifica pendências, orienta adequações e conduz o processo de AVCB ou CLCB com engenheiro responsável. O objetivo é regularizar o imóvel com segurança, clareza de prazo e foco na aprovação junto ao Corpo de Bombeiros.</p>
@@ -1427,7 +1427,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>O papel do engenheiro é avaliar o imóvel, definir o enquadramento correto, orientar as adequações, emitir ART quando aplicável e conduzir o processo até a aprovação. Essa etapa evita protocolo errado, gastos desnecessários e retrabalho.</p>
 
       <h2>Quanto custa regularizar padaria?</h2>
-      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/blog/quanto-custa-avcb-em-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
+      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/quanto-custa-avcb-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
 
       <h2>Como a DRD2 Engenharia ajuda</h2>
       <p>A <strong>DRD2 Engenharia</strong> realiza diagnóstico técnico, verifica pendências, orienta adequações e conduz o processo de AVCB ou CLCB com engenheiro responsável. O objetivo é regularizar o imóvel com segurança, clareza de prazo e foco na aprovação junto ao Corpo de Bombeiros.</p>
@@ -1487,7 +1487,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>O papel do engenheiro é avaliar o imóvel, definir o enquadramento correto, orientar as adequações, emitir ART quando aplicável e conduzir o processo até a aprovação. Essa etapa evita protocolo errado, gastos desnecessários e retrabalho.</p>
 
       <h2>Quanto custa regularizar supermercado?</h2>
-      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/blog/quanto-custa-avcb-em-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
+      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/quanto-custa-avcb-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
 
       <h2>Como a DRD2 Engenharia ajuda</h2>
       <p>A <strong>DRD2 Engenharia</strong> realiza diagnóstico técnico, verifica pendências, orienta adequações e conduz o processo de AVCB ou CLCB com engenheiro responsável. O objetivo é regularizar o imóvel com segurança, clareza de prazo e foco na aprovação junto ao Corpo de Bombeiros.</p>
@@ -1547,7 +1547,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>O papel do engenheiro é avaliar o imóvel, definir o enquadramento correto, orientar as adequações, emitir ART quando aplicável e conduzir o processo até a aprovação. Essa etapa evita protocolo errado, gastos desnecessários e retrabalho.</p>
 
       <h2>Quanto custa regularizar posto de combustível?</h2>
-      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/blog/quanto-custa-avcb-em-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
+      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/quanto-custa-avcb-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
 
       <h2>Como a DRD2 Engenharia ajuda</h2>
       <p>A <strong>DRD2 Engenharia</strong> realiza diagnóstico técnico, verifica pendências, orienta adequações e conduz o processo de AVCB ou CLCB com engenheiro responsável. O objetivo é regularizar o imóvel com segurança, clareza de prazo e foco na aprovação junto ao Corpo de Bombeiros.</p>
@@ -1607,7 +1607,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>O papel do engenheiro é avaliar o imóvel, definir o enquadramento correto, orientar as adequações, emitir ART quando aplicável e conduzir o processo até a aprovação. Essa etapa evita protocolo errado, gastos desnecessários e retrabalho.</p>
 
       <h2>Quanto custa regularizar igreja?</h2>
-      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/blog/quanto-custa-avcb-em-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
+      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/quanto-custa-avcb-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
 
       <h2>Como a DRD2 Engenharia ajuda</h2>
       <p>A <strong>DRD2 Engenharia</strong> realiza diagnóstico técnico, verifica pendências, orienta adequações e conduz o processo de AVCB ou CLCB com engenheiro responsável. O objetivo é regularizar o imóvel com segurança, clareza de prazo e foco na aprovação junto ao Corpo de Bombeiros.</p>
@@ -1667,7 +1667,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>O papel do engenheiro é avaliar o imóvel, definir o enquadramento correto, orientar as adequações, emitir ART quando aplicável e conduzir o processo até a aprovação. Essa etapa evita protocolo errado, gastos desnecessários e retrabalho.</p>
 
       <h2>Quanto custa regularizar hotel e pousada?</h2>
-      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/blog/quanto-custa-avcb-em-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
+      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/quanto-custa-avcb-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
 
       <h2>Como a DRD2 Engenharia ajuda</h2>
       <p>A <strong>DRD2 Engenharia</strong> realiza diagnóstico técnico, verifica pendências, orienta adequações e conduz o processo de AVCB ou CLCB com engenheiro responsável. O objetivo é regularizar o imóvel com segurança, clareza de prazo e foco na aprovação junto ao Corpo de Bombeiros.</p>
@@ -1727,7 +1727,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>O papel do engenheiro é avaliar o imóvel, definir o enquadramento correto, orientar as adequações, emitir ART quando aplicável e conduzir o processo até a aprovação. Essa etapa evita protocolo errado, gastos desnecessários e retrabalho.</p>
 
       <h2>Quanto custa regularizar casa noturna e boate?</h2>
-      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/blog/quanto-custa-avcb-em-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
+      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/quanto-custa-avcb-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
 
       <h2>Como a DRD2 Engenharia ajuda</h2>
       <p>A <strong>DRD2 Engenharia</strong> realiza diagnóstico técnico, verifica pendências, orienta adequações e conduz o processo de AVCB ou CLCB com engenheiro responsável. O objetivo é regularizar o imóvel com segurança, clareza de prazo e foco na aprovação junto ao Corpo de Bombeiros.</p>
@@ -1787,7 +1787,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>O papel do engenheiro é avaliar o imóvel, definir o enquadramento correto, orientar as adequações, emitir ART quando aplicável e conduzir o processo até a aprovação. Essa etapa evita protocolo errado, gastos desnecessários e retrabalho.</p>
 
       <h2>Quanto custa regularizar shopping?</h2>
-      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/blog/quanto-custa-avcb-em-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
+      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/quanto-custa-avcb-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
 
       <h2>Como a DRD2 Engenharia ajuda</h2>
       <p>A <strong>DRD2 Engenharia</strong> realiza diagnóstico técnico, verifica pendências, orienta adequações e conduz o processo de AVCB ou CLCB com engenheiro responsável. O objetivo é regularizar o imóvel com segurança, clareza de prazo e foco na aprovação junto ao Corpo de Bombeiros.</p>
@@ -1847,7 +1847,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>O papel do engenheiro é avaliar o imóvel, definir o enquadramento correto, orientar as adequações, emitir ART quando aplicável e conduzir o processo até a aprovação. Essa etapa evita protocolo errado, gastos desnecessários e retrabalho.</p>
 
       <h2>Quanto custa regularizar salão de festas?</h2>
-      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/blog/quanto-custa-avcb-em-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
+      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/quanto-custa-avcb-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
 
       <h2>Como a DRD2 Engenharia ajuda</h2>
       <p>A <strong>DRD2 Engenharia</strong> realiza diagnóstico técnico, verifica pendências, orienta adequações e conduz o processo de AVCB ou CLCB com engenheiro responsável. O objetivo é regularizar o imóvel com segurança, clareza de prazo e foco na aprovação junto ao Corpo de Bombeiros.</p>
@@ -1907,7 +1907,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>O papel do engenheiro é avaliar o imóvel, definir o enquadramento correto, orientar as adequações, emitir ART quando aplicável e conduzir o processo até a aprovação. Essa etapa evita protocolo errado, gastos desnecessários e retrabalho.</p>
 
       <h2>Quanto custa regularizar escritório e sala comercial?</h2>
-      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/blog/quanto-custa-avcb-em-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
+      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/quanto-custa-avcb-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
 
       <h2>Como a DRD2 Engenharia ajuda</h2>
       <p>A <strong>DRD2 Engenharia</strong> realiza diagnóstico técnico, verifica pendências, orienta adequações e conduz o processo de AVCB ou CLCB com engenheiro responsável. O objetivo é regularizar o imóvel com segurança, clareza de prazo e foco na aprovação junto ao Corpo de Bombeiros.</p>
@@ -1967,7 +1967,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>O papel do engenheiro é avaliar o imóvel, definir o enquadramento correto, orientar as adequações, emitir ART quando aplicável e conduzir o processo até a aprovação. Essa etapa evita protocolo errado, gastos desnecessários e retrabalho.</p>
 
       <h2>Quanto custa regularizar consultório médico e odontológico?</h2>
-      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/blog/quanto-custa-avcb-em-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
+      <p>O custo varia conforme área, complexidade, existência de projeto aprovado, necessidade de adequações físicas e quantidade de sistemas a revisar. Para entender os fatores de preço, veja também o guia <a href="/quanto-custa-avcb-sao-paulo" class="text-primary font-bold underline">quanto custa o AVCB em São Paulo</a>.</p>
 
       <h2>Como a DRD2 Engenharia ajuda</h2>
       <p>A <strong>DRD2 Engenharia</strong> realiza diagnóstico técnico, verifica pendências, orienta adequações e conduz o processo de AVCB ou CLCB com engenheiro responsável. O objetivo é regularizar o imóvel com segurança, clareza de prazo e foco na aprovação junto ao Corpo de Bombeiros.</p>
@@ -2843,7 +2843,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <h2>Conclusão prática</h2>
       <p>Se você respondeu "sim" à elegibilidade nas 5 perguntas (até 750 m², ou até 1.500 m² com sistema de hidrantes; grupo permitido; até 2 pavimentos; até 100 pessoas; sem sistemas complexos), seu caminho mais rápido e econômico é o <strong>CLCB</strong>. Em São Paulo, o processo leva de 15 a 45 dias, sem vistoria física obrigatória.</p>
       <p>Se algum dos critérios falhou, é AVCB — processo mais robusto, com projeto técnico, ART, vistoria física e prazo de 60 a 180 dias dependendo do porte.</p>
-      <p>A DRD2 Engenharia faz o diagnóstico definitivo gratuitamente para qualquer estabelecimento em São Paulo e Grande SP. <a href="/avcb-ou-clcb-qual-preciso" class="text-primary font-bold underline">Use nossa calculadora interativa</a> ou fale direto no WhatsApp.</p>
+      <p>A DRD2 Engenharia faz o diagnóstico definitivo gratuitamente para qualquer estabelecimento em São Paulo e Grande SP. <a href="/blog/diferenca-entre-avcb-e-clcb" class="text-primary font-bold underline">Use nossa calculadora interativa</a> ou fale direto no WhatsApp.</p>
     `,
     faqs: [
       { question: "Posso usar CLCB se minha edificação tem 800 m²?", answer: "Pode, desde que a edificação tenha sistema de hidrantes instalado, entre outras exigências. Sem hidrantes, o CLCB vale até 750 m². Acima de 1.500 m², o caminho é o AVCB. A DRD2 confirma a área no diagnóstico gratuito comparando IPTU e levantamento físico." },
@@ -3101,7 +3101,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
         <li>Processo mais rápido (custo de oportunidade menor)</li>
       </ul>
 
-      <p>Se sua edificação se enquadra no CLCB (baixo risco, até 750 m² ou até 1.500 m² com hidrantes), aproveite essa via simplificada. Para descobrir qual certificado se aplica ao seu caso, <a href="/avcb-ou-clcb-qual-preciso" class="text-primary font-bold underline">use nossa calculadora interativa</a> ou solicite diagnóstico gratuito da DRD2 pelo WhatsApp.</p>
+      <p>Se sua edificação se enquadra no CLCB (baixo risco, até 750 m² ou até 1.500 m² com hidrantes), aproveite essa via simplificada. Para descobrir qual certificado se aplica ao seu caso, <a href="/blog/diferenca-entre-avcb-e-clcb" class="text-primary font-bold underline">use nossa calculadora interativa</a> ou solicite diagnóstico gratuito da DRD2 pelo WhatsApp.</p>
     `,
     faqs: [
       { question: "Posso parcelar a taxa do CBPMESP?", answer: "Não. A taxa do Corpo de Bombeiros é paga à vista no momento do protocolo. Já os honorários da empresa contratada podem ser parcelados conforme negociação." },
@@ -3125,6 +3125,9 @@ const REDIRECTED_BLOG_SLUGS = new Set<string>([
   "avcb-para-padaria-sao-paulo",
   "avcb-para-igreja-sao-paulo",
   "avcb-para-shopping-sao-paulo",
+  // 18/10/2026 — etapa 1 da fusão: entram em /clcb-sao-paulo e em /blog/diferenca-entre-avcb-e-clcb
+  "quanto-custa-clcb-em-sao-paulo-2026",
+  "clcb-ou-avcb-como-decidir-em-5-perguntas",
 ]);
 
 export const blogPosts: BlogPost[] = allBlogPosts.filter((p) => !REDIRECTED_BLOG_SLUGS.has(p.slug));

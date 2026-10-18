@@ -15,6 +15,8 @@ import AvcbOuClcbCalculator from "@/components/AvcbOuClcbCalculator";
 import TrustBar from "@/components/TrustBar";
 import CtaWhatsApp from "@/components/CtaWhatsApp";
 import BreadcrumbNav from "@/components/BreadcrumbNav";
+import MergedTopicSection from "@/components/MergedTopicSection";
+import TrackedWhatsAppLink from "@/components/TrackedWhatsAppLink";
 import { avcbSaoPauloContent as c } from "@/data/pages/avcb-sao-paulo";
 
 export const metadata = {
@@ -76,21 +78,22 @@ export default function AVCBSaoPauloPage() {
               REGULARIZAÇÃO 2026 — Resposta a Comunique-se Incluída
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white">EMPRESA DE AVCB EM</span>{" "}
+              <span className="text-white">Empresa de AVCB em São Paulo,</span>{" "}
               <span className="text-red-600 not-italic text-3xl md:text-3xl lg:text-4xl mt-2 block drop-shadow-2xl">
-                SÃO PAULO 2026
+                do diagnóstico ao certificado
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 mb-4 leading-relaxed font-medium max-w-2xl" dangerouslySetInnerHTML={{ __html: c.intro[0] }} />
             <p className="text-lg text-gray-300 mb-0 leading-relaxed font-medium max-w-2xl" dangerouslySetInnerHTML={{ __html: c.intro[1] }} />
             <div className="mt-4 block">
-              <a
-                href={whatsappLink}
+              <TrackedWhatsAppLink
+                href={`${whatsappLink}?text=${encodeURIComponent("Olá! Quero orçamento de AVCB. Endereço, área e tipo do imóvel:")}`}
+                source="hero_cta"
                 className="cta-whatsapp flex sm:inline-flex items-center justify-center gap-3 w-full sm:w-auto transition-opacity"
               >
                 <Phone className="w-6 h-6 flex-shrink-0" />
                 <span className="text-center sm:whitespace-nowrap">FALAR COM ENGENHEIRO AGORA</span>
-              </a>
+              </TrackedWhatsAppLink>
             </div>
           </div>
         </div>
@@ -302,6 +305,8 @@ export default function AVCBSaoPauloPage() {
         </div>
       </section>
 
+      <MergedTopicSection {...c.fusao.recebe} tone="slate" />
+
       {/* ── CTA 2 ── */}
       <div className="py-16 bg-slate-950 border-y border-slate-800">
         <div className="container mx-auto px-4 max-w-4xl text-center">
@@ -316,6 +321,8 @@ export default function AVCBSaoPauloPage() {
           />
         </div>
       </div>
+
+      <MergedTopicSection {...c.fusao.urgencia} />
 
       {/* ── H2 #6: POR QUE A DRD2 ── */}
       <section className="py-24 bg-white border-b border-slate-100">
@@ -358,6 +365,9 @@ export default function AVCBSaoPauloPage() {
           </div>
         </div>
       </section>
+
+      <MergedTopicSection {...c.fusao.escolher} tone="slate" />
+      <MergedTopicSection {...c.fusao.preco} />
 
       {/* ── H2 #7: AVCB POR TIPO DE ESTABELECIMENTO ── */}
       <section className="py-24 bg-slate-50 border-b border-slate-200">

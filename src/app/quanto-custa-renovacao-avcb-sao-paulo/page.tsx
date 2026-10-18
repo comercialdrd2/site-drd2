@@ -146,7 +146,7 @@ const data: UniversalPageData = {
     { href: "/renovacao-avcb", label: "Renovação de AVCB em SP" },
     { href: "/quanto-custa-avcb-sao-paulo", label: "Quanto Custa o AVCB" },
     { href: "/avcb-vencido-o-que-fazer", label: "AVCB Vencido — O que Fazer" },
-    { href: "/avcb-urgente-sao-paulo", label: "AVCB Urgente em SP" },
+    { href: "/avcb-sao-paulo#urgencia", label: "AVCB Urgente em SP" },
     { href: "/renovacao-avcb-condominio-sao-paulo", label: "Renovação AVCB Condomínio" },
     { href: "/renovacao-avcb-restaurante-sao-paulo", label: "Renovação AVCB Restaurante" },
   ],

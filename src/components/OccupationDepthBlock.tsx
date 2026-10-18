@@ -131,7 +131,7 @@ const profiles: Record<string, DepthProfile> = {
     urgency: "CLCB vencido sujeita a interdição em fiscalização do CBPMESP, perda do alvará municipal e bloqueio de credenciamentos. Renovação com 60 dias de antecedência evita período irregular.",
     links: [
       { label: "renovação de CLCB", href: "/renovacao-clcb-sao-paulo" },
-      { label: "AVCB ou CLCB — qual preciso?", href: "/avcb-ou-clcb-qual-preciso" },
+      { label: "AVCB ou CLCB — qual preciso?", href: "/blog/diferenca-entre-avcb-e-clcb" },
       { label: "CLCB em São Paulo", href: "/clcb-sao-paulo" },
     ],
   },

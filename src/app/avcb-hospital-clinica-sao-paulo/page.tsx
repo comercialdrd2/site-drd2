@@ -528,7 +528,7 @@ export default function AVCBHospitalMasterPage() {
               },
               {
                 title: "Quanto Custa o AVCB em São Paulo em 2026?",
-                slug: "quanto-custa-avcb-em-sao-paulo",
+                slug: "/quanto-custa-avcb-sao-paulo",
                 image: "/images/blog/blog_hero_avcb_preco.webp",
                 desc: "Valores, taxas e honorários para regularização de clínicas e hospitais."
               },

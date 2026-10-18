@@ -89,7 +89,7 @@ const pageData: UniversalPageData = {
   ],
   linksInternos: [
     { href: "/avcb-sao-paulo", label: "AVCB São Paulo" },
-    { href: "/projeto-incendio-para-avcb-sp", label: "Projeto de Incêndio" },
+    { href: "/projetos-incendio", label: "Projeto de Incêndio" },
     { href: "/curso-brigada-incendio-avcb-sp", label: "Treinamento de Brigada" },
   ],
   ctaFinal: {

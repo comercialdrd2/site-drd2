@@ -139,7 +139,7 @@ const data: UniversalPageData = {
     { href: "/avcb-hospital-clinica-sao-paulo", label: "AVCB para Clínica e Hospital SP" },
     { href: "/sprinklers", label: "Sistema de Sprinklers SP" },
     { href: "/laudo-alarme-incendio-sao-paulo", label: "Laudo de Alarme de Incêndio SP" },
-    { href: "/empresa-avcb-sao-paulo", label: "Empresa de AVCB em SP" },
+    { href: "/avcb-sao-paulo", label: "Empresa de AVCB em SP" },
     { href: "/engenheiro-avcb-sao-paulo", label: "Engenheiro para AVCB em SP" },
     { href: "/renovacao-avcb", label: "Renovação de AVCB em SP" },
   ],

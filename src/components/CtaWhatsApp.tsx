@@ -79,6 +79,7 @@ export default function CtaWhatsApp({
         target="_blank"
         rel="noopener noreferrer"
         onClick={() => trackWhatsAppClick({ source: "service_cta" })}
+        data-wa-tracked="true"
         className={`
           inline-flex items-center gap-3 font-black uppercase tracking-tight rounded-2xl
           transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02]

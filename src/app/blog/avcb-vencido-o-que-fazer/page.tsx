@@ -285,7 +285,7 @@ export default function AVCBVencidoPost() {
                 <span className="text-red-600 text-lg font-black mt-0.5">→</span>
                 <span className="font-black text-slate-900 text-sm uppercase tracking-tight group-hover:text-red-600 transition-colors">Prazo para Emissão de AVCB</span>
               </a>
-              <a href="/blog/quanto-custa-avcb-em-sao-paulo" className="bg-slate-50 border border-slate-200 rounded-2xl p-6 flex items-start gap-4 hover:border-red-600/40 hover:bg-white transition-all group">
+              <a href="/quanto-custa-avcb-sao-paulo" className="bg-slate-50 border border-slate-200 rounded-2xl p-6 flex items-start gap-4 hover:border-red-600/40 hover:bg-white transition-all group">
                 <span className="text-red-600 text-lg font-black mt-0.5">→</span>
                 <span className="font-black text-slate-900 text-sm uppercase tracking-tight group-hover:text-red-600 transition-colors">Quanto Custa o AVCB em SP?</span>
               </a>

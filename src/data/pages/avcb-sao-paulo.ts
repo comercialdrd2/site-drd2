@@ -1,8 +1,8 @@
 export const avcbSaoPauloContent = {
   meta: {
-    title: "AVCB em São Paulo: emissão com engenheiro | DRD2",
+    title: "Empresa de AVCB em São Paulo: projeto, obra e vistoria",
     description:
-      "Primeiro AVCB do seu imóvel em São Paulo: enquadramento, projeto, adequações e vistoria do Corpo de Bombeiros, com ART. Peça orçamento.",
+      "Tiramos o AVCB do seu imóvel em São Paulo: enquadramento, projeto técnico com ART, adequações e vistoria do Corpo de Bombeiros. Peça orçamento.",
     canonical: "/avcb-sao-paulo",
   },
 
@@ -264,11 +264,84 @@ export const avcbSaoPauloContent = {
     ],
   },
 
+  // 18/10/2026 — etapa 1 da fusão: texto útil de /avcb-urgente-sao-paulo, /avcb-15-dias-sao-paulo,
+  // /avcb-30-dias-sao-paulo, /melhor-empresa-avcb-sao-paulo e /empresa-avcb-sao-paulo, que agora
+  // redirecionam para esta página. Sem prazos em dias nem percentuais que dependam de confirmação.
+  fusao: {
+    recebe: {
+      id: "o-que-voce-recebe",
+      eyebrow: "Entregas do processo",
+      heading: "O que você recebe ao tirar o AVCB com a DRD2",
+      paragraphs: [
+        "O serviço vai do diagnóstico ao certificado. Em cada etapa você recebe um documento e sabe o que está sendo feito no seu processo.",
+      ],
+      bullets: [
+        "Relatório técnico de adequações, com o que precisa ser feito e em que ordem",
+        "Projeto técnico com memorial descritivo e plantas",
+        "ART do engenheiro responsável pelo processo",
+        "Protocolo do processo no Corpo de Bombeiros",
+        "Respostas às exigências (Comunique-se) durante a análise",
+        "Preparação e acompanhamento da vistoria",
+        "O certificado (AVCB ou CLCB), com orientação sobre a validade e a próxima renovação",
+      ],
+    },
+    urgencia: {
+      id: "urgencia",
+      eyebrow: "Prazo apertado",
+      heading: "Precisa do AVCB com urgência?",
+      paragraphs: [
+        "Não existe AVCB expresso: o Corpo de Bombeiros não tem fila prioritária para particulares. O que encurta o caminho é chegar ao protocolo com a documentação completa e os sistemas em ordem, sem pendência que gere Comunique-se.",
+        "Os casos mais comuns são a venda de imóvel comercial em que o comprador exige AVCB válido, o credenciamento com prazo definido, a renovação de contrato de locação e o alvará de funcionamento com data marcada pela Prefeitura.",
+      ],
+      itemsTitle: "O que mais atrasa o AVCB",
+      items: [
+        { titulo: "Comunique-se em aberto", desc: "Pendência de um processo anterior sem resposta bloqueia o novo processo do mesmo endereço. Identificamos e respondemos antes de protocolar." },
+        { titulo: "Documentação incompleta", desc: "Planta desatualizada, IPTU com área diferente da real ou laudo elétrico sem ART travam a análise. Conferimos tudo antes do protocolo." },
+        { titulo: "Sistemas fora do padrão", desc: "Extintor vencido, mangueira sem teste ou detector de fumaça que não funciona reprovam na vistoria e geram nova exigência." },
+        { titulo: "Reforma não comunicada", desc: "Obra que mudou a área ou o uso deixa o projeto aprovado diferente do imóvel real, causa frequente de reprovação na vistoria." },
+        { titulo: "ART com escopo incompleto", desc: "ART com dados errados ou escopo insuficiente é rejeitada na análise e precisa ser refeita." },
+        { titulo: "Unidade dos Bombeiros errada", desc: "Cada endereço tem uma Unidade responsável. Protocolar na unidade errada faz o processo recomeçar." },
+      ],
+      note: "No diagnóstico, o engenheiro estima o prazo do seu caso, considerando os sistemas, a documentação e o histórico do endereço no Corpo de Bombeiros.",
+    },
+    escolher: {
+      id: "como-escolher",
+      eyebrow: "Antes de contratar",
+      heading: "Como escolher a empresa de AVCB",
+      paragraphs: [
+        "Uma empresa de AVCB séria tem engenheiro registrado no CREA-SP responsável pelo processo, e não apenas um despachante. É a ART que liga o engenheiro ao serviço e define quem responde tecnicamente por ele.",
+        "Veja também se a empresa já atendeu o seu tipo de imóvel: AVCB de restaurante é diferente de AVCB de hospital, e quem não conhece o segmento costuma gerar exigências que poderiam ser evitadas.",
+      ],
+      itemsTitle: "Sinais de alerta",
+      items: [
+        { titulo: "Preço muito abaixo do mercado", desc: "Costuma esconder processo sem ART, sem visita ao imóvel ou sem as respostas às exigências do Corpo de Bombeiros." },
+        { titulo: "Não emite ART", desc: "Sem ART, não há engenheiro habilitado assinando o processo." },
+        { titulo: "Cobra à parte cada Comunique-se", desc: "Empresa séria inclui no contrato as respostas às exigências feitas durante a análise." },
+        { titulo: "Orça sem visitar o imóvel", desc: "Orçamento sem visita é estimativa: as surpresas aparecem no meio do processo." },
+        { titulo: "Promete prazo impossível", desc: "O Corpo de Bombeiros tem fila de análise. Promessa de AVCB em poucos dias não se sustenta." },
+        { titulo: "Registro no CREA-SP que não se confirma", desc: "Todo engenheiro responsável por AVCB precisa de registro ativo no CREA-SP. Dá para conferir no site do conselho antes de fechar." },
+      ],
+      note: "Na DRD2, a visita técnica vem antes do orçamento e a resposta aos Comunique-se faz parte do serviço.",
+    },
+    preco: {
+      id: "quanto-custa",
+      eyebrow: "Investimento",
+      heading: "Quanto custa o AVCB",
+      paragraphs: [
+        "O valor depende da área, do tipo de ocupação, dos sistemas que o imóvel já tem e das adequações necessárias. Por isso o orçamento sai depois da visita técnica, com o escopo detalhado.",
+      ],
+      links: [
+        { label: "Veja o que entra no preço do AVCB", href: "/quanto-custa-avcb-sao-paulo" },
+        { label: "Prazo para emitir o AVCB", href: "/blog/prazo-para-emissao-de-avcb" },
+      ],
+    },
+  },
+
   linksInternos: [
     { label: "AVCB ou CLCB: Qual Certificado Seu Estabelecimento Precisa?", href: "/blog/diferenca-entre-avcb-e-clcb" },
     { label: "Renovação de AVCB para Condomínio em São Paulo", href: "/renovacao-avcb-condominio-sao-paulo" },
     { label: "3 Erros que Reprovam Condomínio na Vistoria do Corpo de Bombeiros", href: "/blog/como-funciona-vistoria-do-corpo-de-bombeiros" },
-    { label: "AVCB em 30 Dias em São Paulo — Quando é Possível?", href: "/avcb-30-dias-sao-paulo" },
+    { label: "Prazo para Emissão do AVCB em São Paulo", href: "/blog/prazo-para-emissao-de-avcb" },
   ],
 
   ctaFinal: {

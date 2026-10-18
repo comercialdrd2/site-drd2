@@ -62,7 +62,7 @@ const occupationProfiles: Record<string, {
     prazo: "15 a 45 dias para CLCB sem pendências; 45 a 90 dias quando ha adequação física antes do protocolo (extintores vencidos, sinalização, iluminação)",
     links: [
       { label: "renovação de CLCB", href: "/renovacao-clcb-sao-paulo" },
-      { label: "AVCB ou CLCB — qual preciso?", href: "/avcb-ou-clcb-qual-preciso" },
+      { label: "AVCB ou CLCB — qual preciso?", href: "/blog/diferenca-entre-avcb-e-clcb" },
       { label: "CLCB em São Paulo", href: "/clcb-sao-paulo" },
     ],
   },
@@ -75,7 +75,7 @@ const occupationProfiles: Record<string, {
     links: [
       { label: "renovação CLCB para restaurante", href: "/renovacao-clcb-restaurante-sao-paulo" },
       { label: "laudo de estanqueidade de gás", href: "/laudo-estanqueidade-gas-sao-paulo" },
-      { label: "AVCB ou CLCB — qual preciso?", href: "/avcb-ou-clcb-qual-preciso" },
+      { label: "AVCB ou CLCB — qual preciso?", href: "/blog/diferenca-entre-avcb-e-clcb" },
     ],
   },
   // CLCB Saúde — clínicas, consultórios, fisioterapia, odontologia

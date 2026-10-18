@@ -66,7 +66,7 @@ export const renovacaoClcbEscolaContent = {
   linksInternos: [
     { label: "Renovação de CLCB em São Paulo", href: "/renovacao-clcb-sao-paulo" },
     { label: "CLCB em São Paulo", href: "/clcb-sao-paulo" },
-    { label: "AVCB ou CLCB — Qual preciso?", href: "/avcb-ou-clcb-qual-preciso" },
+    { label: "AVCB ou CLCB — Qual preciso?", href: "/blog/diferenca-entre-avcb-e-clcb" },
     { label: "Renovação CLCB para Consultório e Clínica", href: "/renovacao-clcb-consultorio-clinica-sao-paulo" },
   ],
 };

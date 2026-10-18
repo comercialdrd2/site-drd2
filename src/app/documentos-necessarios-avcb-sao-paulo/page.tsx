@@ -160,20 +160,16 @@ const data: UniversalPageData = {
       "label": "AVCB Vencido — O Que Fazer?"
     },
     {
-      "href": "/prazo-renovacao-avcb-sao-paulo",
+      "href": "/renovacao-avcb#quanto-tempo-leva",
       "label": "Prazo de Renovação do AVCB"
     },
     {
-      "href": "/avcb-ou-clcb-qual-preciso",
+      "href": "/blog/diferenca-entre-avcb-e-clcb",
       "label": "AVCB ou CLCB — Qual Preciso?"
     },
     {
       "href": "/vistoria-corpo-de-bombeiros-o-que-esperar",
       "label": "Checklist da Vistoria"
-    },
-    {
-      "href": "/como-regularizar-avcb-vencido",
-      "label": "Como Regularizar AVCB Vencido"
     }
   ],
   "ctaFinal": {

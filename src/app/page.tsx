@@ -21,41 +21,11 @@ export const metadata = {
 
 export default function HomePage() {
   
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Por que preciso aprovar o AVCB ou CLCB em São Paulo?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "O AVCB/CLCB é o documento máximo de regularização da sua construção perante o Corpo de Bombeiros, exigido para alvarás empresariais e resguardo jurídico do responsável pela área do condomínio/empresa."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "A DRD2 Engenharia atende quais regiões?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Focamos nossa operação prioritariamente na região metropolitana englobando: São Paulo capital, Zona Sul, Centro, ABC Paulista, Guarulhos, Osasco e toda a Grande SP."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Vocês realizam a instalação de quais sistemas?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Dominamos de ponta a ponta a instalação pesada do sistema hidráulico (Hidrantes e Sprinklers), as malhas civis elétricas de Para-raios e a precisão técnica no Sistema de Detecção e Alarme."
-        }
-      }
-    ]
-  };
-
+  // 18/10/2026: saiu o FAQPage com 3 perguntas que não apareciam na página. O Google pede que
+  // os dados estruturados descrevam só o que o visitante vê.
 
   return (
     <>
-      <JsonLD schema={faqSchema} />
       <JsonLD schema={generateBreadcrumbSchema([{ name: "Home", item: "/" }])} />
 
       {/* Hero com Banner Real - ESTÉTICA PREMIUM NEON/GLASSMORPHISM */}

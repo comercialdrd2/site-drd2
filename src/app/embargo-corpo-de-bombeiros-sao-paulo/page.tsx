@@ -165,11 +165,7 @@ const data: UniversalPageData = {
       "label": "Multa do Corpo de Bombeiros"
     },
     {
-      "href": "/como-regularizar-avcb-vencido",
-      "label": "Como Regularizar AVCB Vencido"
-    },
-    {
-      "href": "/avcb-urgente-sao-paulo",
+      "href": "/avcb-sao-paulo#urgencia",
       "label": "AVCB Urgente em SP"
     },
     {

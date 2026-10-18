@@ -172,7 +172,7 @@ export default function Footer() {
             <Link prefetch={false} href="/avcb-clcb-por-regiao" className="hover:text-white transition-colors">Regiões atendidas</Link>
             <Link prefetch={false} href="/avcb-por-tipo-de-imovel" className="hover:text-white transition-colors">Tipos de imóvel</Link>
             <Link prefetch={false} href="/engenheiro-avcb-sao-paulo" className="hover:text-white transition-colors">Engenheiro de AVCB</Link>
-            <Link prefetch={false} href="/avcb-urgente-sao-paulo" className="hover:text-white transition-colors">AVCB urgente</Link>
+            <Link prefetch={false} href="/avcb-sao-paulo#urgencia" className="hover:text-white transition-colors">AVCB urgente</Link>
             <Link prefetch={false} href="/ptotep" className="hover:text-white transition-colors">Eventos (PTOTEP)</Link>
             <Link prefetch={false} href="/plano-de-emergencia-contra-incendio-sp" className="hover:text-white transition-colors">Plano de emergência</Link>
             <Link prefetch={false} href="/politica-de-privacidade" className="hover:text-white transition-colors">Privacidade</Link>
