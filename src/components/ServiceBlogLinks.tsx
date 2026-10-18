@@ -13,7 +13,7 @@ type BlogLink = {
 };
 
 const costLink: BlogLink = {
-  href: "/blog/quanto-custa-avcb-em-sao-paulo",
+  href: "/quanto-custa-avcb-sao-paulo",
   label: "Quanto custa o AVCB em São Paulo?",
   desc: "Veja preço, prazo, fatores técnicos e o que muda conforme área, risco e ocupação do imóvel.",
   kind: "custo",
@@ -233,9 +233,9 @@ const occupationLinks: Array<{ match: RegExp; link: BlogLink }> = [
   {
     match: /clcb/,
     link: {
-      href: "/blog/quanto-custa-clcb-em-sao-paulo-2026",
-      label: "Quanto custa o CLCB em 2026?",
-      desc: "Veja preço, prazo, diferença para AVCB e quando seu imóvel pode optar pelo certificado simplificado.",
+      href: "/blog/como-emitir-clcb-em-sao-paulo-passo-a-passo",
+      label: "Como emitir o CLCB em São Paulo",
+      desc: "Passo a passo do pedido, documentos e o que conferir antes, para não ter o processo devolvido.",
       kind: "custo",
     },
   },

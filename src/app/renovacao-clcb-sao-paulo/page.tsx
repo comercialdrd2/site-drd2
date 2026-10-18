@@ -12,6 +12,7 @@ import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import TrustBar from "@/components/TrustBar";
 import CtaWhatsApp from "@/components/CtaWhatsApp";
+import TrackedWhatsAppLink from "@/components/TrackedWhatsAppLink";
 import BreadcrumbNav from "@/components/BreadcrumbNav";
 import { renovacaoClcbContent as c } from "@/data/pages/renovacao-clcb-sao-paulo";
 
@@ -68,12 +69,12 @@ export default function RenovacaoCLCBPage() {
         <div className="relative z-10 container mx-auto px-4 max-w-6xl w-full">
           <div className="lg:w-3/5">
             <span className="inline-block bg-red-600 text-white text-[10px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest mb-3 shadow-lg shadow-red-900/20">
-              Certificado do Corpo de Bombeiros — São Paulo 2026
+              CLCB vencido ou perto de vencer
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
-              <span className="text-white">RENOVAÇÃO DE CLCB</span>{" "}
+              <span className="text-white">Renovação de CLCB</span>{" "}
               <span className="text-red-600 not-italic text-2xl md:text-3xl lg:text-4xl mt-2 block drop-shadow-2xl text-wrap">
-                EM SÃO PAULO — CLCB VENCIDO? EVITE INTERDIÇÃO E MULTA
+                em São Paulo
               </span>
             </h1>
             <p className="text-base md:text-lg text-gray-200 mb-4 leading-relaxed font-medium max-w-2xl">
@@ -83,12 +84,13 @@ export default function RenovacaoCLCBPage() {
               {c.intro[1]}
             </p>
             <div className="flex flex-col sm:flex-row gap-5">
-              <a
-                href={whatsappLink}
+              <TrackedWhatsAppLink
+                href={`${whatsappLink}?text=${encodeURIComponent("Olá! Quero renovar o CLCB. Vou enviar a foto do CLCB atual.")}`}
+                source="hero_cta"
                 className="bg-[#25D366] hover:bg-[#1EBE5A] text-white font-black px-8 py-3 rounded-2xl text-lg transition-all shadow-2xl flex items-center justify-center gap-3 border-2 border-[#25D366] w-full sm:w-auto"
               >
-                <Phone className="w-6 h-6" /> FALAR COM ENGENHEIRO
-              </a>
+                <Phone className="w-6 h-6" /> ENVIAR FOTO DO CLCB
+              </TrackedWhatsAppLink>
             </div>
           </div>
         </div>

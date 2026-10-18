@@ -9,13 +9,15 @@ import LeadForm from "@/components/LeadForm";
 import NeighborhoodSilo from "@/components/NeighborhoodSilo";
 import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
+import MergedTopicSection from "@/components/MergedTopicSection";
+import TrackedWhatsAppLink from "@/components/TrackedWhatsAppLink";
 
-const _pageTitle = "Projeto de Incêndio (PPCI) em São Paulo 2026";
-const _pageDesc = "A DRD2 Engenharia elabora Projetos de Incêndio (PPCI) em São Paulo conforme Decreto 69.118/2024. Aprovação ágil no CBPMESP, ART inclusa. Diagnóstico técnico gratuito.";
+const _pageTitle = "Projeto de combate a incêndio (PPCI) em SP | DRD2";
+const _pageDesc = "Projeto de incêndio para o Corpo de Bombeiros de SP: plantas, memorial, ART e protocolo. Envie a planta em PDF ou DWG e receba escopo, prazo e valor.";
 
 export const metadata = {
-  title: "Projeto de Incêndio (PPCI) em São Paulo 2026",
-  description: "A DRD2 Engenharia elabora Projetos de Incêndio (PPCI) em São Paulo conforme Decreto 69.118/2024. Aprovação ágil no CBPMESP, ART inclusa. Diagnóstico técnico gratuito.",
+  title: _pageTitle,
+  description: _pageDesc,
   alternates: {
     canonical: "/projetos-incendio",
   },
@@ -43,6 +45,75 @@ const faqs = [
     a: "Sim. A DRD2 Engenharia atende projetos de incêndio em toda a Grande São Paulo (ABC Paulista, Guarulhos, Osasco, Barueri, Mauá, Cotia, Diadema, São Caetano do Sul) e interior do Estado, incluindo Campinas, Ribeirão Preto, São José dos Campos, Sorocaba, Santos e demais regiões.",
   },
 ];
+
+// 18/10/2026 — etapa 1 da fusão: texto de /projeto-incendio-obrigatorio-sp, /projeto-incendio-para-avcb-sp
+// e /projeto-combate-incendio-corpo-bombeiros-sp, que agora redirecionam para esta página.
+const fusao = {
+  obrigatorio: {
+    id: "quando-e-obrigatorio",
+    eyebrow: "Obrigatoriedade",
+    heading: "Quando o projeto de incêndio é obrigatório",
+    paragraphs: [
+      "A obrigatoriedade do projeto de incêndio em São Paulo depende do enquadramento do imóvel no processo do Corpo de Bombeiros.",
+      "A dúvida costuma aparecer quando o imóvel mudou de uso, ampliou a área, passou a receber mais público, instalou estoque, reformou o layout ou tentou o CLCB quando precisava de AVCB.",
+      "A análise verifica área, altura, ocupação, população, carga de incêndio, sistemas existentes, riscos especiais e os documentos disponíveis.",
+    ],
+    bulletsTitle: "Erros que travam o processo",
+    bullets: [
+      "CLCB pedido quando o imóvel precisava de AVCB",
+      "Mudança de uso que não foi comunicada",
+      "Área real diferente da que está nos documentos",
+      "Projeto antigo que não corresponde ao imóvel de hoje",
+    ],
+    note: "Escolher o processo errado atrasa tudo e pode obrigar a refazer protocolo, plantas, ART e adequações.",
+  },
+  paraAvcb: {
+    id: "projeto-para-avcb",
+    eyebrow: "Projeto e AVCB",
+    heading: "Projeto de incêndio para tirar o AVCB",
+    paragraphs: [
+      "Em São Paulo, o projeto de incêndio para AVCB costuma ser exigido quando a edificação ultrapassa limites de área, altura, ocupação, risco ou complexidade que impedem um processo simplificado.",
+      "O maior risco é tentar regularizar o imóvel com documentação incompleta, plantas antigas ou sistemas que não correspondem ao uso real. Isso gera Comunique-se, retrabalho e atraso na emissão do AVCB.",
+      "A aprovação depende de plantas legíveis, memoriais técnicos, cálculos, ART, enquadramento correto, coerência com as Instruções Técnicas e aderência entre o projeto e a condição real do imóvel.",
+    ],
+    bulletsTitle: "Como a DRD2 conduz",
+    bullets: [
+      "Levantamento técnico do imóvel",
+      "Projeto conforme as Instruções Técnicas",
+      "Memorial descritivo e ART",
+      "Protocolo e acompanhamento",
+    ],
+  },
+  conteudo: {
+    id: "o-que-vai-no-projeto",
+    eyebrow: "Projeto de combate a incêndio",
+    heading: "O que vai no projeto de combate a incêndio",
+    paragraphs: [
+      "O erro mais comum é tratar o projeto como desenho burocrático. Na prática, ele define rotas de fuga, sistemas, pressão, vazão, sinalização, compartimentação e as condições de resposta em uma emergência.",
+      "A elaboração integra arquitetura, ocupação, lotação, extintores, hidrantes, sprinklers, alarme, iluminação, sinalização, controle de materiais e acesso de viaturas.",
+      "O Corpo de Bombeiros avalia a consistência técnica, os memoriais, os detalhes de cada sistema, a ART e a aderência ao decreto e às Instruções Técnicas vigentes.",
+    ],
+    bullets: [
+      "Análise de enquadramento",
+      "Compatibilização entre arquitetura e sistemas",
+      "ART do engenheiro responsável",
+      "Acompanhamento das exigências do Corpo de Bombeiros",
+    ],
+  },
+  preco: {
+    id: "quanto-custa",
+    eyebrow: "Investimento",
+    heading: "Quanto custa e qual a diferença entre PPCI e AVCB",
+    paragraphs: [
+      "O custo varia conforme a área, o número de pavimentos, o uso, os sistemas exigidos, a necessidade de levantamento em campo, a complexidade hidráulica e a quantidade de ajustes antes do protocolo.",
+      "Envie a planta em PDF ou DWG pelo WhatsApp: com ela, o engenheiro define o escopo e manda prazo e valor.",
+    ],
+    links: [
+      { label: "Quanto custa o projeto de incêndio", href: "/quanto-custa-projeto-incendio-sp" },
+      { label: "Qual a diferença entre PPCI e AVCB", href: "/blog/qual-diferenca-ppci-e-avcb" },
+    ],
+  },
+};
 
 const ocupacoes = [
   { grupo: "Grupo A", nome: "Residencial", exemplos: "Casas, apartamentos, condomínios residenciais" },
@@ -98,24 +169,23 @@ export default function ProjetosPage() {
             </span>
             <h1 className="font-extrabold mb-4 leading-tight tracking-tight uppercase text-white flex flex-col">
               <span className="text-base md:text-lg font-bold tracking-[0.18em] opacity-60 not-italic">
-                PROJETO DE INCÊNDIO (PPCI)
+                Projeto de combate a incêndio
               </span>{" "}
               <span className="text-2xl md:text-3xl lg:text-4xl italic text-red-500 mt-1 block leading-none">
-                EM SÃO PAULO — APROVAÇÃO NO CBPMESP
+                em São Paulo
               </span>
             </h1>
             <p className="text-base md:text-lg text-gray-200 mb-6 leading-relaxed font-medium max-w-2xl border-l-4 border-red-600 pl-6 py-1">
               Elaboramos projetos PPCI para todas as ocupações conforme as ITs 2025 e o Decreto Estadual nº 69.118/2024. Do diagnóstico ao deferimento, sem retrabalho.
             </p>
-            <a
-              href={whatsappLink}
-              target="_blank"
-              rel="noopener noreferrer"
+            <TrackedWhatsAppLink
+              href={`${whatsappLink}?text=${encodeURIComponent("Olá! Quero orçamento de projeto de incêndio. Vou enviar a planta (PDF ou DWG).")}`}
+              source="hero_cta"
               className="bg-[#25D366] hover:bg-[#1EBE5A] text-white font-black px-8 py-4 rounded-2xl shadow-2xl transition-all flex sm:inline-flex items-center justify-center gap-3 uppercase tracking-tighter text-base w-full sm:w-auto"
             >
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="fill-current w-5 h-5 flex-shrink-0" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" /></svg>
-              <span>SOLICITAR ORÇAMENTO GRATUITO</span>
-            </a>
+              <span>ENVIAR A PLANTA (PDF OU DWG)</span>
+            </TrackedWhatsAppLink>
           </div>
         </div>
       </section>
@@ -170,6 +240,9 @@ export default function ProjetosPage() {
         </div>
       </section>
 
+      <MergedTopicSection {...fusao.obrigatorio} tone="slate" />
+      <MergedTopicSection {...fusao.paraAvcb} />
+
       {/* ── O QUE ESTÁ INCLUÍDO ── */}
       <section className="py-20 bg-slate-50 border-y border-slate-200">
         <div className="container mx-auto px-4 max-w-6xl">
@@ -199,6 +272,8 @@ export default function ProjetosPage() {
           </div>
         </div>
       </section>
+
+      <MergedTopicSection {...fusao.conteudo} />
 
       {/* ── TIPOS DE EDIFICAÇÃO ── */}
       <section className="py-20 bg-white">
@@ -290,6 +365,8 @@ export default function ProjetosPage() {
           </div>
         </div>
       </section>
+
+      <MergedTopicSection {...fusao.preco} tone="slate" />
 
       {/* ── FAQ ── */}
       <section className="py-24 bg-white border-t border-slate-100">

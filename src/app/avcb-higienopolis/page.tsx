@@ -119,7 +119,7 @@ const data: UniversalPageData = {
   ],
   "linksInternos": [
     {
-      "href": "/prazo-renovacao-avcb-sao-paulo",
+      "href": "/renovacao-avcb#quanto-tempo-leva",
       "label": "De quanto em quanto tempo renovar o AVCB Residencial?"
     },
     {

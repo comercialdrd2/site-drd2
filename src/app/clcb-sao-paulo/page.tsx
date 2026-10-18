@@ -9,6 +9,28 @@ import NeighborhoodSilo from "@/components/NeighborhoodSilo";
 import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import AvcbOuClcbCalculator from "@/components/AvcbOuClcbCalculator";
+import MergedTopicSection from "@/components/MergedTopicSection";
+import TrackedWhatsAppLink from "@/components/TrackedWhatsAppLink";
+
+// 18/10/2026 — etapa 1 da fusão: o artigo /blog/quanto-custa-clcb-em-sao-paulo-2026 agora
+// redireciona para cá. Fica o que compõe o preço; sem valores nem prazos que dependam de confirmação.
+const precoClcb = {
+  id: "preco",
+  eyebrow: "Investimento",
+  heading: "Quanto custa o CLCB",
+  paragraphs: [
+    "O custo do CLCB tem três partes. Por ser um processo simplificado, costuma sair mais barato que o AVCB, mas o total depende do estado do imóvel.",
+  ],
+  items: [
+    { titulo: "Taxa do Corpo de Bombeiros", desc: "Definida em tabela oficial, pela área construída e pelo tipo de ocupação. Pode ser consultada no Via Fácil Bombeiros antes do protocolo." },
+    { titulo: "Honorários do engenheiro", desc: "Diagnóstico do imóvel, levantamento fotográfico, planta ou croqui técnico, ART, protocolo no Via Fácil e acompanhamento até o certificado, com as respostas aos Comunique-se." },
+    { titulo: "Adequações do imóvel", desc: "É a parte que mais varia: recarga ou troca de extintores, sinalização, iluminação de emergência e ajustes nas saídas." },
+  ],
+  note: "Mande a área e a atividade do imóvel: confirmamos se é CLCB e passamos o valor.",
+  links: [
+    { label: "AVCB ou CLCB: qual o seu imóvel precisa", href: "/blog/diferenca-entre-avcb-e-clcb" },
+  ],
+};
 
 const _pageTitle = "CLCB em São Paulo: emissão e renovação | DRD2";
 const _pageDesc = "Comércio, escritório ou clínica de baixo risco? Verificamos se o imóvel se enquadra no CLCB e cuidamos do protocolo no Via Fácil Bombeiros.";
@@ -80,24 +102,23 @@ export default function CLCBSaoPaulo() {
             </span>
             <h1 className="font-extrabold mb-4 leading-tight tracking-tight uppercase text-white flex flex-col">
               <span className="text-base md:text-lg font-bold tracking-[0.18em] opacity-60 not-italic">
-                CLCB — CERTIFICADO DO CORPO DE BOMBEIROS
+                CLCB em São Paulo:
               </span>{" "}
               <span className="text-2xl md:text-3xl lg:text-4xl italic text-red-500 mt-1 block leading-none">
-                EM SÃO PAULO 2026 — PROCESSO SIMPLIFICADO
+                emissão e renovação pelo Via Fácil
               </span>
             </h1>
             <p className="text-base md:text-lg text-gray-200 mb-6 leading-relaxed font-medium max-w-2xl border-l-4 border-red-600 pl-6 py-1">
-              A DRD2 Engenharia conduz todo o processo do CLCB em São Paulo com agilidade e conformidade total com o Decreto Estadual nº 69.118/2024. Diagnóstico técnico gratuito em até 2 horas.
+              A DRD2 Engenharia conduz todo o processo do CLCB em São Paulo com agilidade e conformidade total com o Decreto Estadual nº 69.118/2024. Diagnóstico técnico gratuito.
             </p>
-            <a
-              href={whatsappLink}
-              target="_blank"
-              rel="noopener noreferrer"
+            <TrackedWhatsAppLink
+              href={`${whatsappLink}?text=${encodeURIComponent("Olá! Quero saber se meu imóvel é CLCB. Área e atividade do imóvel:")}`}
+              source="hero_cta"
               className="bg-[#25D366] hover:bg-[#1EBE5A] text-white font-black px-8 py-4 rounded-2xl shadow-2xl transition-all flex sm:inline-flex items-center justify-center gap-3 uppercase tracking-tighter text-base w-full sm:w-auto"
             >
               <Phone className="w-5 h-5 flex-shrink-0" />
-              <span>QUERO MEU CLCB AGORA</span>
-            </a>
+              <span>VER SE MEU IMÓVEL É CLCB</span>
+            </TrackedWhatsAppLink>
           </div>
         </div>
       </section>
@@ -216,6 +237,13 @@ export default function CLCBSaoPaulo() {
               </tbody>
             </table>
           </div>
+          <p className="text-center text-slate-700 font-medium mt-8">
+            Ainda em dúvida?{" "}
+            <Link prefetch={false} href="/blog/diferenca-entre-avcb-e-clcb#como-decidir" className="text-red-700 font-bold underline">
+              Veja as 5 perguntas que definem AVCB ou CLCB
+            </Link>
+            .
+          </p>
         </div>
       </section>
 
@@ -242,6 +270,8 @@ export default function CLCBSaoPaulo() {
           </div>
         </div>
       </section>
+
+      <MergedTopicSection {...precoClcb} tone="slate" />
 
       {/* ── POR QUE ESCOLHER ── */}
       <section className="py-20 bg-white">
@@ -271,7 +301,7 @@ export default function CLCBSaoPaulo() {
               <h3 className="text-2xl font-black text-slate-900 mb-2 uppercase italic tracking-tight">
                 Diagnóstico <span className="text-primary">Gratuito</span>
               </h3>
-              <p className="text-slate-500 font-medium mb-8">Preencha e um engenheiro entra em contato em até 2 horas.</p>
+              <p className="text-slate-500 font-medium mb-8">Preencha e um engenheiro entra em contato.</p>
               <LeadForm variant="compact" />
             </div>
           </div>

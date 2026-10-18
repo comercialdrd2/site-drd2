@@ -11,10 +11,32 @@ import BreadcrumbNav from "@/components/BreadcrumbNav";
 import CtaWhatsApp from "@/components/CtaWhatsApp";
 import BlogStrategicLinks from "@/components/BlogStrategicLinks";
 import BlogAuthorEvidence from "@/components/BlogAuthorEvidence";
+import MergedTopicSection from "@/components/MergedTopicSection";
+import AvcbOuClcbCalculator from "@/components/AvcbOuClcbCalculator";
+
+// 18/10/2026 — etapa 1 da fusão: /avcb-ou-clcb-qual-preciso e /blog/clcb-ou-avcb-como-decidir-em-5-perguntas
+// agora redirecionam para esta página. Fica o roteiro de decisão; os limites exatos de área,
+// pavimentos e lotação são confirmados pelo engenheiro no diagnóstico.
+const comoDecidir = {
+  id: "como-decidir",
+  eyebrow: "Roteiro de decisão",
+  heading: "As 5 perguntas que definem AVCB ou CLCB",
+  paragraphs: [
+    "O enquadramento sai da combinação de cinco respostas. Nenhuma delas decide sozinha: um imóvel pequeno pode precisar de AVCB por causa do uso, da lotação ou dos sistemas exigidos.",
+  ],
+  items: [
+    { titulo: "1. Qual é a área construída total?", desc: "Conta a área total, não só a útil: escadas, depósitos, sanitários, áreas técnicas e coberturas entram no cálculo. O IPTU e a planta ajudam a confirmar." },
+    { titulo: "2. Qual é o grupo de ocupação?", desc: "A classificação do uso pesa tanto quanto a área. Alguns usos de maior risco levam ao AVCB mesmo em área pequena." },
+    { titulo: "3. Quantos pavimentos tem a edificação?", desc: "Rotas de fuga verticais pedem análise específica de escadas, saídas e sinalização." },
+    { titulo: "4. Quantas pessoas o local recebe?", desc: "Lotação alta muda o dimensionamento das saídas de emergência e pode levar ao AVCB." },
+    { titulo: "5. Que sistemas a norma exige?", desc: "Quando a ocupação exige sistemas mais complexos, como sprinklers, alarme com central ou escada pressurizada, o caminho costuma ser o AVCB." },
+  ],
+  note: "Use a calculadora abaixo para uma primeira orientação. O enquadramento definitivo é confirmado pelo engenheiro no diagnóstico do imóvel.",
+};
 
 export const metadata = {
-  title: "AVCB e CLCB: Dois Regimes Diferentes, Não Dois Tamanhos do Mesmo Documento",
-  description: "Por que o CLCB é declaratório e o AVCB depende de vistoria, o que isso muda na responsabilidade do proprietário e por que um certificado emitido no enquadramento errado não protege em fiscalização.",
+  title: "AVCB ou CLCB: qual seu imóvel precisa e qual a diferença",
+  description: "A diferença entre AVCB e CLCB, as 5 perguntas que definem o enquadramento e por que um certificado no regime errado não protege na fiscalização.",
   alternates: {
     canonical: "/blog/diferenca-entre-avcb-e-clcb",
   },
@@ -99,6 +121,7 @@ export default function DiferencaAVCBCLCBPost() {
             </nav>
             
             <h1 className="text-5xl md:text-8xl font-black mb-8 leading-[0.85] tracking-tighter uppercase italic text-white flex flex-col">
+              <span className="text-2xl md:text-4xl text-gray-300 not-italic tracking-tight mb-3">AVCB ou CLCB:</span>
               DOIS <span className="text-primary not-italic">REGIMES</span>
             </h1>
 
@@ -107,9 +130,9 @@ export default function DiferencaAVCBCLCBPost() {
             </p>
 
             <p className="text-base md:text-lg text-gray-400 mb-10 leading-relaxed max-w-3xl">
-              Já sabe que precisa de um dos dois e quer descobrir qual se aplica ao seu caso? Use a página de decisão:{" "}
-              <a href="/avcb-ou-clcb-qual-preciso" className="text-primary font-bold underline">
-                AVCB ou CLCB — qual preciso
+              Já sabe que precisa de um dos dois e quer descobrir qual se aplica ao seu caso? Veja{" "}
+              <a href="#como-decidir" className="text-primary font-bold underline">
+                as 5 perguntas que definem AVCB ou CLCB
               </a>
               .
             </p>
@@ -236,6 +259,9 @@ export default function DiferencaAVCBCLCBPost() {
         </div>
       </div>
 
+      <MergedTopicSection {...comoDecidir} tone="slate" />
+      <AvcbOuClcbCalculator />
+
       {/* FAQ Section */}
       <section className="py-24 bg-slate-50 border-t border-slate-200">
         <div className="container mx-auto px-4 max-w-4xl">
@@ -294,7 +320,7 @@ export default function DiferencaAVCBCLCBPost() {
                 <span className="text-red-600 text-lg font-black mt-0.5">→</span>
                 <span className="font-black text-slate-900 text-sm uppercase tracking-tight group-hover:text-red-600 transition-colors">Quem Precisa de AVCB?</span>
               </a>
-              <a href="/blog/quanto-custa-avcb-em-sao-paulo" className="bg-slate-50 border border-slate-200 rounded-2xl p-6 flex items-start gap-4 hover:border-red-600/40 hover:bg-white transition-all group">
+              <a href="/quanto-custa-avcb-sao-paulo" className="bg-slate-50 border border-slate-200 rounded-2xl p-6 flex items-start gap-4 hover:border-red-600/40 hover:bg-white transition-all group">
                 <span className="text-red-600 text-lg font-black mt-0.5">→</span>
                 <span className="font-black text-slate-900 text-sm uppercase tracking-tight group-hover:text-red-600 transition-colors">Quanto Custa o AVCB em SP?</span>
               </a>

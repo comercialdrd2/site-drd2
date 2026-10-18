@@ -160,15 +160,15 @@ const data: UniversalPageData = {
       "label": "Documentos para AVCB em SP"
     },
     {
-      "href": "/prazo-renovacao-avcb-sao-paulo",
+      "href": "/renovacao-avcb#quanto-tempo-leva",
       "label": "Prazo de Renovação do AVCB"
     },
     {
-      "href": "/como-regularizar-avcb-vencido",
+      "href": "/avcb-vencido-o-que-fazer",
       "label": "Como Regularizar AVCB Vencido"
     },
     {
-      "href": "/avcb-ou-clcb-qual-preciso",
+      "href": "/blog/diferenca-entre-avcb-e-clcb",
       "label": "AVCB ou CLCB — Qual Preciso?"
     }
   ],

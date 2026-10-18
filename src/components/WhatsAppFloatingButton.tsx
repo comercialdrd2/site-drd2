@@ -35,6 +35,7 @@ export default function WhatsAppFloatingButton() {
         target="_blank"
         rel="noopener noreferrer"
         onClick={handleClick}
+        data-wa-tracked="true"
         className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-[#128C4A] text-white py-4 px-6 flex items-center justify-center gap-3 shadow-[0_-4px_20px_rgba(18,140,74,0.35)] hover:bg-[#0f7a43] transition-colors"
         aria-label={`${ctaLabel} no WhatsApp`}
       >
@@ -48,6 +49,7 @@ export default function WhatsAppFloatingButton() {
         target="_blank"
         rel="noopener noreferrer"
         onClick={handleClick}
+        data-wa-tracked="true"
         className="hidden md:flex fixed bottom-6 right-6 z-50 bg-[#128C4A] text-white py-4 px-6 rounded-full shadow-[0_10px_40px_rgba(18,140,74,0.4)] hover:scale-105 hover:bg-[#0f7a43] transition-all items-center justify-center gap-3 animate-[pulse-whatsapp_2s_infinite]"
         aria-label={`${ctaLabel} no WhatsApp`}
       >

@@ -157,15 +157,11 @@ const data: UniversalPageData = {
   ],
   "linksInternos": [
     {
-      "href": "/como-regularizar-avcb-vencido",
-      "label": "Como Regularizar AVCB Vencido — Passo a Passo"
-    },
-    {
-      "href": "/avcb-urgente-sao-paulo",
+      "href": "/avcb-sao-paulo#urgencia",
       "label": "AVCB Urgente em SP"
     },
     {
-      "href": "/prazo-renovacao-avcb-sao-paulo",
+      "href": "/renovacao-avcb#quanto-tempo-leva",
       "label": "Prazo de Renovação do AVCB"
     },
     {

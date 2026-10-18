@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { buildStrategicWhatsAppIntent, buildWhatsAppMessage } from "@/lib/leadTracking";
+import { trackWhatsAppClick } from "@/lib/analytics";
 
 export default function WhatsAppAttributionEnhancer() {
   useEffect(() => {
@@ -33,7 +34,11 @@ export default function WhatsAppAttributionEnhancer() {
     function onClick(event: MouseEvent) {
       const target = event.target as HTMLElement | null;
       const link = target?.closest?.("a[href*='wa.me']") as HTMLAnchorElement | null;
-      if (link) enhanceLink(link);
+      if (!link) return;
+      enhanceLink(link);
+      // Links wa.me sem evento próprio (texto do post, páginas antigas, botões soltos) também
+      // passam a contar como whatsapp_click. Os que já disparam o evento têm data-wa-tracked.
+      if (!link.dataset.waTracked) trackWhatsAppClick({ source: "page_link" });
     }
 
     enhanceAllLinks();

@@ -426,12 +426,12 @@ export default function AVCBCrechePage() {
               },
               {
                 title: "Quanto Custa o AVCB em São Paulo em 2026?",
-                slug: "quanto-custa-avcb-em-sao-paulo",
+                slug: "/quanto-custa-avcb-sao-paulo",
                 image: "/images/blog/blog_hero_avcb_preco.webp",
                 desc: "Valores, taxas e honorários para regularização de estabelecimentos educacionais."
               }
             ].map((post, i) => (
-              <Link prefetch={false} key={i} href={`/blog/${post.slug}`} className="group bg-white rounded-[3rem] overflow-hidden border border-slate-200 hover:shadow-2xl hover:border-red-600/20 transition-all flex flex-col h-full font-black italic">
+              <Link prefetch={false} key={i} href={post.slug.startsWith("/") ? post.slug : `/blog/${post.slug}`} className="group bg-white rounded-[3rem] overflow-hidden border border-slate-200 hover:shadow-2xl hover:border-red-600/20 transition-all flex flex-col h-full font-black italic">
                 <div className="relative h-64 overflow-hidden">
                   <Image 
                     src={post.image} 

@@ -25,6 +25,7 @@ export default function TrackedWhatsAppLink({ href, source, className, children,
       target="_blank"
       rel="noopener noreferrer"
       onClick={() => trackWhatsAppClick({ source })}
+      data-wa-tracked="true"
       className={className}
       aria-label={ariaLabel}
     >

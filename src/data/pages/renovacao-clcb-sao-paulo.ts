@@ -1,7 +1,7 @@
 export const renovacaoClcbContent = {
   meta: {
-    title: "Renovação de CLCB em São Paulo 2026",
-    description: "A DRD2 Engenharia renova o CLCB em São Paulo com agilidade e conformidade com o Decreto 69.118/2024. CLCB vencido? Evite interdição e multa. Diagnóstico técnico gratuito.",
+    title: "Renovação de CLCB em SP: vencido ou vencendo | DRD2",
+    description: "CLCB vencido ou perto de vencer? Conferimos documentos e sistemas, fazemos o pedido no Via Fácil Bombeiros e acompanhamos até o novo CLCB. Fale pelo WhatsApp.",
     canonical: "/renovacao-clcb-sao-paulo",
   },
   intro: [
@@ -67,7 +67,7 @@ export const renovacaoClcbContent = {
     closing: "A DRD2 realiza vistoria técnica antes da renovação para identificar exatamente o que precisa ser atualizado — evitando exigências e retrabalho.",
   },
   h2_processo: {
-    heading: "Como Funciona a Renovação de CLCB com a DRD2",
+    heading: "Como Renovar o CLCB, Passo a Passo",
     etapas: [
       {
         numero: "Etapa 1",
@@ -151,10 +151,10 @@ export const renovacaoClcbContent = {
   },
   linksInternos: [
     { label: "CLCB em São Paulo", href: "/clcb-sao-paulo" },
-    { label: "AVCB ou CLCB: qual preciso?", href: "/avcb-ou-clcb-qual-preciso" },
+    { label: "AVCB ou CLCB: qual preciso?", href: "/blog/diferenca-entre-avcb-e-clcb" },
     { label: "Renovação de AVCB em São Paulo", href: "/renovacao-avcb" },
     { label: "Quanto Custa o AVCB em São Paulo?", href: "/quanto-custa-avcb-sao-paulo" },
-    { label: "Quanto custa o CLCB em São Paulo em 2026?", href: "/blog/quanto-custa-clcb-em-sao-paulo-2026" },
+    { label: "Quanto custa o CLCB em São Paulo em 2026?", href: "/clcb-sao-paulo#preco" },
   ],
   ctaFinal: {
     heading: "Seu CLCB está vencido ou próximo do vencimento?",

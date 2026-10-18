@@ -140,7 +140,7 @@ const data: UniversalPageData = {
     { href: "/sistema-de-hidrantes-para-restaurante-sao-paulo", label: "Sistema de Hidrantes para Restaurante" },
     { href: "/hidrantes", label: "Sistema de Hidrantes SP" },
     { href: "/renovacao-avcb-restaurante-sao-paulo", label: "Renovação AVCB Restaurante" },
-    { href: "/empresa-avcb-sao-paulo", label: "Empresa de AVCB em SP" },
+    { href: "/avcb-sao-paulo", label: "Empresa de AVCB em SP" },
   ],
   ctaFinal: {
     heading: "Laudo de hidrante para o seu restaurante — teste real antes da vistoria",

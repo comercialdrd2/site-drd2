@@ -140,7 +140,7 @@ const data: UniversalPageData = {
     { href: "/hidrantes", label: "Sistema de Hidrantes SP" },
     { href: "/laudo-alarme-incendio-condominio-sao-paulo", label: "Laudo de Alarme — Condomínio" },
     { href: "/laudo-sprinkler-condominio-sao-paulo", label: "Laudo de Sprinkler — Condomínio" },
-    { href: "/empresa-avcb-sao-paulo", label: "Empresa de AVCB em SP" },
+    { href: "/avcb-sao-paulo", label: "Empresa de AVCB em SP" },
   ],
   ctaFinal: {
     heading: "Laudo de hidrante para o seu condomínio — teste real de pressão",

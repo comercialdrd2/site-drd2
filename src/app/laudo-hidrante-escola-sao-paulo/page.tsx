@@ -139,7 +139,7 @@ const data: UniversalPageData = {
     { href: "/laudo-alarme-incendio-escola-sao-paulo", label: "Laudo de Alarme — Escola" },
     { href: "/hidrantes", label: "Sistema de Hidrantes SP" },
     { href: "/treinamento-brigada", label: "Treinamento de Brigada" },
-    { href: "/empresa-avcb-sao-paulo", label: "Empresa de AVCB em SP" },
+    { href: "/avcb-sao-paulo", label: "Empresa de AVCB em SP" },
   ],
   ctaFinal: {
     heading: "Laudo de hidrante para a sua escola — campus completo",

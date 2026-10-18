@@ -55,7 +55,7 @@ export function trackLeadSubmit(context: {
 }
 
 export function trackWhatsAppClick(context: {
-  source: "floating_button" | "hero_cta" | "post_cta" | "service_cta" | "footer_cta";
+  source: "floating_button" | "hero_cta" | "post_cta" | "service_cta" | "footer_cta" | "page_link";
   page_path?: string;
 }) {
   trackEvent("whatsapp_click", {

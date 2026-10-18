@@ -140,7 +140,7 @@ const data: UniversalPageData = {
     { href: "/laudo-alarme-incendio-sao-paulo", label: "Laudo de Alarme de Incêndio SP" },
     { href: "/laudo-hidrante-escola-sao-paulo", label: "Laudo de Hidrante — Escola" },
     { href: "/treinamento-brigada", label: "Treinamento de Brigada de Incêndio" },
-    { href: "/empresa-avcb-sao-paulo", label: "Empresa de AVCB em SP" },
+    { href: "/avcb-sao-paulo", label: "Empresa de AVCB em SP" },
   ],
   ctaFinal: {
     heading: "Laudo de alarme para a sua escola — vistoria no contraturno",

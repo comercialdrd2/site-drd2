@@ -59,12 +59,8 @@ const universalSeoPages = [
   { label: "AVCB Vencido — O Que Fazer?", href: "/avcb-vencido-o-que-fazer" },
   { label: "Embargo Corpo de Bombeiros SP", href: "/embargo-corpo-de-bombeiros-sao-paulo" },
   { label: "Multa Corpo de Bombeiros — Como Resolver", href: "/multa-corpo-de-bombeiros-como-resolver" },
-  { label: "AVCB Urgente em São Paulo", href: "/avcb-urgente-sao-paulo" },
-  { label: "AVCB ou CLCB — Qual Preciso?", href: "/avcb-ou-clcb-qual-preciso" },
   // P2 — Educacional
-  { label: "Como Regularizar AVCB Vencido", href: "/como-regularizar-avcb-vencido" },
   { label: "Documentos para AVCB em SP", href: "/documentos-necessarios-avcb-sao-paulo" },
-  { label: "Prazo de Renovação do AVCB em SP", href: "/prazo-renovacao-avcb-sao-paulo" },
   { label: "Vistoria do Corpo de Bombeiros — Checklist", href: "/vistoria-corpo-de-bombeiros-o-que-esperar" },
   // P3 — Localização
   { label: "AVCB em Jundiaí", href: "/avcb-jundiai" },
@@ -107,11 +103,8 @@ const servicos = [
   { label: "Manutenção Escada Pressurizada SP", href: "/manutencao-escada-pressurizada-sp" },
   { label: "Laudo Escada Pressurizada SP", href: "/laudo-escada-pressurizada-sp" },
   { label: "Regularização Escada de Incêndio", href: "/regularizacao-escada-incendio" },
-  { label: "Empresa Especializada em AVCB", href: "/empresa-avcb-sao-paulo" },
   { label: "Engenheiro para AVCB", href: "/engenheiro-avcb-sao-paulo" },
   { label: "Quanto Custa Renovar o AVCB", href: "/quanto-custa-renovacao-avcb-sao-paulo" },
-  { label: "Melhor Empresa de AVCB SP", href: "/melhor-empresa-avcb-sao-paulo" },
-  { label: "Prazo do AVCB em SP", href: "/prazo-avcb-sao-paulo" },
 ];
 
 const renovacoes = [
@@ -149,7 +142,6 @@ const renovacoes = [
 const clcbPrincipal = [
   { label: "CLCB em São Paulo (página pillar)", href: "/clcb-sao-paulo" },
   { label: "Renovação de CLCB em SP (pillar renovação)", href: "/renovacao-clcb-sao-paulo" },
-  { label: "AVCB ou CLCB — Qual preciso?", href: "/avcb-ou-clcb-qual-preciso" },
 ];
 
 const renovacaoClcbOcupacoes = [

@@ -1,7 +1,7 @@
 export const renovacaoAvcbContent = {
   meta: {
     title: "Renovação de AVCB em SP: vencido ou vencendo | DRD2",
-    description: "AVCB vencido ou perto de vencer? Conferimos documentos e sistemas, protocolamos e acompanhamos a vistoria até o novo AVCB. Fale pelo WhatsApp.",
+    description: "AVCB vencido ou perto de vencer? Renovação a partir de R$ 2.500, com vistoria prévia, protocolo no Via Fácil e resposta a Comunique-se. Fale no WhatsApp.",
     canonical: "/renovacao-avcb",
   },
   intro: [
@@ -124,6 +124,53 @@ export const renovacaoAvcbContent = {
         answer: "O custo varia conforme o tipo de estabelecimento, a área construída e as adequações necessárias. A DRD2 fornece o orçamento completo após a visita técnica gratuita — sem compromisso prévio e sem taxa de diagnóstico."
       }
     ]
+  },
+  // 18/10/2026 — etapa 1 da fusão: o texto útil de /prazo-renovacao-avcb-sao-paulo (que agora
+  // redireciona para cá) entra no trecho "Quanto tempo leva". Sem prazos em dias que dependam de confirmação.
+  // O preço de referência é o mesmo já publicado em /quanto-custa-renovacao-avcb-sao-paulo.
+  fusao: {
+    prazo: {
+      id: "quanto-tempo-leva",
+      eyebrow: "Prazo do processo",
+      heading: "Quanto tempo leva a renovação do AVCB",
+      paragraphs: [
+        "O prazo não é fixo. Ele depende do tipo e do risco da ocupação, da área, dos sistemas instalados, da qualidade da documentação e da demanda da Unidade do Corpo de Bombeiros no período.",
+        "O que mais pesa é o Comunique-se: cada pendência devolve o processo para correção. Por isso a DRD2 confere sistemas e documentos antes de protocolar.",
+      ],
+      itemsTitle: "O que mais atrasa a renovação",
+      items: [
+        { titulo: "Comunique-se em aberto", desc: "Pendência sem resposta de um processo anterior bloqueia o novo protocolo do mesmo endereço." },
+        { titulo: "Documentação incompleta", desc: "Laudo elétrico sem ART, planta desatualizada ou IPTU com área diferente geram exigência logo no início da análise." },
+        { titulo: "Sistemas fora do padrão na vistoria", desc: "Extintor vencido, mangueira sem teste ou hidrante sem pressão reprovam na vistoria e geram nova exigência." },
+        { titulo: "Reforma sem atualizar o projeto", desc: "Obra que mudou a área ou o uso deixa o projeto anterior inválido e pede um projeto atualizado." },
+        { titulo: "Protocolo na unidade errada", desc: "Cada endereço tem uma Unidade do Corpo de Bombeiros responsável. Errar a unidade faz o processo recomeçar." },
+      ],
+      note: "No diagnóstico, o engenheiro estima o prazo do seu imóvel. Se o AVCB já venceu, comece hoje: o imóvel fica irregular até sair o novo certificado.",
+    },
+    preco: {
+      id: "quanto-custa",
+      eyebrow: "Investimento",
+      heading: "Quanto custa renovar o AVCB",
+      paragraphs: [
+        "A renovação de AVCB com a DRD2 começa em R$ 2.500, para imóveis de menor porte e com sistemas básicos. O valor sobe conforme a área e os sistemas existentes, e não inclui a taxa do Corpo de Bombeiros nem eventuais adequações. O orçamento sai depois da vistoria técnica, que é gratuita.",
+      ],
+      links: [
+        { label: "Veja o que muda o preço da renovação", href: "/quanto-custa-renovacao-avcb-sao-paulo" },
+      ],
+    },
+    documentos: {
+      id: "documentos",
+      eyebrow: "Antes da vistoria",
+      heading: "Documentos, condomínio e AVCB vencido",
+      paragraphs: [
+        "Antes da vistoria, separe os documentos do imóvel: a lista completa está na página de documentos para o AVCB. Se o imóvel é um condomínio, a página de renovação para condomínios explica o processo para o síndico. E se o AVCB já venceu, veja o que fazer primeiro.",
+      ],
+      links: [
+        { label: "Documentos necessários para o AVCB", href: "/documentos-necessarios-avcb-sao-paulo" },
+        { label: "Renovação de AVCB em condomínio", href: "/renovacao-avcb-condominio-sao-paulo" },
+        { label: "AVCB vencido: o que fazer", href: "/avcb-vencido-o-que-fazer" },
+      ],
+    },
   },
   linksInternos: [
     { label: "AVCB para Condomínio em São Paulo", href: "/avcb-para-condominio-sao-paulo" },
