@@ -110,7 +110,7 @@ export default function AVCBCrechePage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "AVCB Creche" }]} dark />
+      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviços", href: "/servicos" }, { label: "AVCB Creche" }]} dark />
       <TrustBar pagamento="avcb" dark />
 
       {/* Introdução + Cards de Números */}
@@ -154,8 +154,6 @@ export default function AVCBCrechePage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "AVCB Creche" }]} dark />
-      <TrustBar pagamento="avcb" dark />
 
       {/* AVCB OU CLCB */}
       <section className="py-16 bg-slate-50">
@@ -168,8 +166,6 @@ export default function AVCBCrechePage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "AVCB Creche" }]} dark />
-      <TrustBar pagamento="avcb" dark />
 
       {/* PTS VS PT (Tabela Comparativa) */}
       <section className="py-20 bg-white">
@@ -222,8 +218,6 @@ export default function AVCBCrechePage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "AVCB Creche" }]} dark />
-      <TrustBar pagamento="avcb" dark />
 
       {/* ALERTA DE DIVERGÊNCIA */}
       <section className="py-12 bg-white">
@@ -245,8 +239,6 @@ export default function AVCBCrechePage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "AVCB Creche" }]} dark />
-      <TrustBar pagamento="avcb" dark />
 
       {/* MEDIDAS DE SEGURANÇA EXIGIDAS (ITs) */}
       <section className="py-20 bg-slate-900 text-white">
@@ -275,8 +267,6 @@ export default function AVCBCrechePage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "AVCB Creche" }]} dark />
-      <TrustBar pagamento="avcb" dark />
 
       {/* Metodologia DRD2 — O Caminho Sem Retrabalho para Escolas e Creches */}
       <section className="py-24 bg-slate-900 relative overflow-hidden">
@@ -359,8 +349,6 @@ export default function AVCBCrechePage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "AVCB Creche" }]} dark />
-      <TrustBar pagamento="avcb" dark />
 
       {/* COBERTURA & REFERÊNCIA */}
       <section className="py-20 bg-white">
@@ -392,8 +380,6 @@ export default function AVCBCrechePage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "AVCB Creche" }]} dark />
-      <TrustBar pagamento="avcb" dark />
 
       {/* -- LEITURA RECOMENDADA — INTERNAL LINKING MASTER -- */}
       <section className="py-24 bg-slate-50 border-t border-slate-200">
@@ -454,8 +440,6 @@ export default function AVCBCrechePage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "AVCB Creche" }]} dark />
-      <TrustBar pagamento="avcb" dark />
 
       {/* Creche Pulse CTA - Full Width Banner */}
       <section className="py-12 bg-white">
@@ -472,8 +456,6 @@ export default function AVCBCrechePage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "AVCB Creche" }]} dark />
-      <TrustBar pagamento="avcb" dark />
 
       {/* Lead Component Standalone */}
 {/* Documentacao Necessaria */}
@@ -564,8 +546,6 @@ export default function AVCBCrechePage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "AVCB Creche" }]} dark />
-      <TrustBar pagamento="avcb" dark />
 
     </>
   );

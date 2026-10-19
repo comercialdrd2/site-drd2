@@ -67,6 +67,8 @@ export interface UniversalPageData {
   ctaFinal: { heading: string; body: string; cta: string };
   /** Texto do botão principal do topo (padrão: "Falar com engenheiro especialista"). */
   heroCta?: string;
+  /** Mensagem já escrita no WhatsApp (botão do topo e chamada final). */
+  whatsappText?: string;
   /** Linha curta de garantias logo abaixo do botão do topo. */
   heroNota?: string;
   /** Regra de pagamento no selo de confiança (só use com a regra confirmada para o serviço). */
@@ -83,6 +85,7 @@ interface Props {
 
 export default function UniversalSeoPage({ data: d, beforeCta }: Props) {
   const whatsappLink = `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`;
+  const whatsappHref = d.whatsappText ? `${whatsappLink}?text=${encodeURIComponent(d.whatsappText)}` : whatsappLink;
 
   const schema = generateMasterSchema({
     slug: d.slug,
@@ -131,7 +134,7 @@ export default function UniversalSeoPage({ data: d, beforeCta }: Props) {
 
             {/* CTA PRINCIPAL */}
             <TrackedWhatsAppLink
-              href={whatsappLink}
+              href={whatsappHref}
               source="hero_cta"
               className={`group bg-[#25D366] hover:bg-[#1aad54] text-white font-black px-8 py-4 rounded-2xl text-lg transition-all duration-200 shadow-2xl shadow-green-900/50 flex items-center justify-center gap-3 w-full sm:w-auto sm:inline-flex hover:scale-[1.03] active:scale-95 border-2 border-[#25D366] hover:border-[#1aad54] ${d.heroNota ? "mb-3" : "mb-7"}`}
             >
@@ -457,7 +460,7 @@ export default function UniversalSeoPage({ data: d, beforeCta }: Props) {
           <p className="text-xl text-red-100 mb-12 max-w-2xl mx-auto font-medium leading-relaxed italic">
             {d.ctaFinal.body}
           </p>
-          <TrackedWhatsAppLink href={whatsappLink} source="service_cta"
+          <TrackedWhatsAppLink href={whatsappHref} source="service_cta"
             className="animate-alert-pulse bg-[#25D366] text-white font-black px-12 py-6 rounded-2xl text-2xl shadow-2xl hover:bg-slate-900 hover:text-white transition-all border-2 border-white min-h-[48px] inline-flex items-center justify-center gap-4 w-full sm:w-auto">
             <Phone className="w-8 h-8 inline" /> {d.ctaFinal.cta}
           </TrackedWhatsAppLink>

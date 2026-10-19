@@ -12,7 +12,7 @@ const data: UniversalPageData = {
   "h1Line2": "com ART em São Paulo — Para AVCB e Seguro",
   "heroBg": "/images/banner-hero.webp",
   "introP1": "Possui sistema de alarme de incêndio instalado e precisa do laudo técnico para renovar o AVCB, responder Comunique-se do Corpo de Bombeiros ou atender auditoria de seguradora? A DRD2 emite laudo técnico com ART CREA-SP em até 48h após a vistoria.",
-  "introP2": "O laudo de alarme não é manutenção — é a certificação técnica que comprova que o sistema está funcionando conforme a IT-17/CBPMESP e a NBR 17240. Documento exigido na renovação do AVCB e em auditorias de seguro patrimonial.",
+  "introP2": "O laudo de alarme não é manutenção — é a certificação técnica que comprova que o sistema está funcionando conforme a IT-19/CBPMESP e a NBR 17240. Documento exigido na renovação do AVCB e em auditorias de seguro patrimonial.",
   "breadcrumbs": [
     {
       "label": "Home",
@@ -73,7 +73,7 @@ const data: UniversalPageData = {
       },
       {
         "titulo": "Teste das sirenes e sinalizadores",
-        "desc": "Cada sirene e sinalizador visual é testado em modo de alarme geral, com medição do nível sonoro em dB nas áreas exigidas pela IT-17."
+        "desc": "Cada sirene e sinalizador visual é testado em modo de alarme geral, com medição do nível sonoro em dB nas áreas exigidas pela IT-19."
       },
       {
         "titulo": "Verificação de cobertura por área",
@@ -98,7 +98,7 @@ const data: UniversalPageData = {
       {
         "numero": "ETAPA 03",
         "titulo": "Análise de conformidade",
-        "desc": "Comparamos o sistema instalado com as exigências da IT-17/CBPMESP e NBR 17240 para o tipo de ocupação. Identificamos não-conformidades que precisam de correção."
+        "desc": "Comparamos o sistema instalado com as exigências da IT-19/CBPMESP e NBR 17240 para o tipo de ocupação. Identificamos não-conformidades que precisam de correção."
       },
       {
         "numero": "ETAPA 04",
@@ -119,7 +119,7 @@ const data: UniversalPageData = {
   },
   "h2_quando": {
     "heading": "Com que frequência o laudo de alarme deve ser emitido?",
-    "body1": "O laudo técnico de alarme deve ser emitido anualmente, conforme a IT-17/CBPMESP. Além da emissão anual, um novo laudo é necessário após qualquer intervenção no sistema: substituição de detectores, expansão do sistema para novas áreas, ou troca de central.",
+    "body1": "O laudo técnico de alarme deve ser emitido anualmente. Além da emissão anual, um novo laudo é necessário após qualquer intervenção no sistema: substituição de detectores, expansão do sistema para novas áreas, ou troca de central.",
     "body2": "Para renovação do AVCB, o laudo deve estar emitido nos últimos 12 meses. Um laudo com mais de 12 meses pode ser aceito, mas a tendência do CBPMESP em São Paulo é exigir laudo dentro da validade anual — especialmente em ocupações de alto risco."
   },
   "h2_escolher": {
@@ -135,7 +135,7 @@ const data: UniversalPageData = {
   "faqs": [
     {
       "question": "O laudo de alarme é o mesmo que o relatório de manutenção?",
-      "answer": "Não. O relatório de manutenção é emitido pela empresa de manutenção e documenta o serviço realizado. O laudo técnico é assinado por engenheiro com ART CREA-SP e certifica que o sistema está em conformidade com a IT-17/CBPMESP — é esse o documento exigido pelo Corpo de Bombeiros e pelas seguradoras."
+      "answer": "Não. O relatório de manutenção é emitido pela empresa de manutenção e documenta o serviço realizado. O laudo técnico é assinado por engenheiro com ART CREA-SP e certifica que o sistema está em conformidade com a IT-19/CBPMESP — é esse o documento exigido pelo Corpo de Bombeiros e pelas seguradoras."
     },
     {
       "question": "Prazo de emissão do laudo de alarme?",
@@ -147,7 +147,7 @@ const data: UniversalPageData = {
     },
     {
       "question": "O laudo precisa ser anual ou tem outra validade?",
-      "answer": "A IT-17/CBPMESP estabelece manutenção e certificação anual para sistemas de alarme. Na prática, o CBPMESP aceita laudos com até 12 meses de emissão. Laudos mais antigos podem ser questionados em ocupações de alto risco."
+      "answer": "Na prática, o CBPMESP aceita laudos com até 12 meses de emissão. Laudos mais antigos podem ser questionados em ocupações de alto risco."
     },
     {
       "question": "O laudo cobre o sistema inteiro ou preciso de um laudo por andar?",

@@ -236,7 +236,7 @@ export default function AVCBGalpaoPage() {
               <span className="text-7xl font-black text-red-600/10 absolute bottom-[-10px] right-[-10px] leading-none select-none">02</span>
               <p className="relative z-10 text-[10px] font-black uppercase tracking-widest text-red-500 mb-3">Projeto Técnico</p>
               <h3 className="relative z-10 text-xl font-black mb-4 uppercase italic">Elaboração e ART</h3>
-              <p className="relative z-10 text-gray-400 font-medium text-sm">Desenhamos a planta com memoriais de cálculo (Hidrantes via IT-22, Sprinklers via IT-23 e Alarme via IT-17). Todo o projeto recebe a Anotação de Responsabilidade Técnica (ART) do CREA-SP emitida pela DRD2.</p>
+              <p className="relative z-10 text-gray-400 font-medium text-sm">Desenhamos a planta com memoriais de cálculo (Hidrantes via IT-22, Sprinklers via IT-23 e Alarme via IT-19). Todo o projeto recebe a Anotação de Responsabilidade Técnica (ART) do CREA-SP emitida pela DRD2.</p>
             </div>
 
             <div className="group p-10 bg-white/5 rounded-[3rem] border border-white/10 hover:bg-white/10 transition-all relative overflow-hidden">
@@ -309,7 +309,7 @@ export default function AVCBGalpaoPage() {
               {[
                 "Sprinklers in-rack (Estocagem acima de 3,5m)",
                 "Hidrantes e Bombas de Recalque (IT-22)",
-                "Alarme de Incêndio Visual e Sonoro (IT-17/2025)",
+                "Alarme de Incêndio Visual e Sonoro (IT-19/2025)",
                 "Armazenamento de Gases Comprimidos e Inflamáveis",
                 "Compartimentação da Subestação Elétrica",
                 "Treinamento de Brigada de Incêndio Industrial",

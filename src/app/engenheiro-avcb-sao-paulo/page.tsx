@@ -1,39 +1,45 @@
 import Image from "next/image";
 import Link from "next/link";
 import { JsonLD, generateMasterSchema } from "@/components/JsonLD";
-import { HardHat, ShieldCheck, CheckCircle, Phone, ArrowRight, Award, FileText, Scale } from "lucide-react";
+import { HardHat, ShieldCheck, ArrowRight, Award, FileText, Scale } from "lucide-react";
 import LeadForm from "@/components/LeadForm";
 import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
+import TrackedWhatsAppLink from "@/components/TrackedWhatsAppLink";
 
-const _pageTitle = "Engenheiro de AVCB em São Paulo | ART e Responsabilidade Técnica";
-const _pageDesc = "Precisa de um engenheiro civil ou de segurança para seu AVCB em SP? Emissão de ART, projetos técnicos e acompanhamento direto. Evite multas com assessoria especializada.";
+const _pageTitle = "Engenheiro para AVCB em São Paulo: ART, projeto e vistoria";
+const _pageDesc = "Engenheiro responsável técnico para o AVCB em São Paulo: ART no CREA-SP, projeto, adequações e acompanhamento da vistoria do Corpo de Bombeiros. Fale pelo WhatsApp.";
 
 export const metadata = {
-  title: "Engenheiro de AVCB em São Paulo | ART e Responsabilidade Técnica",
-  description: "Precisa de um engenheiro civil ou de segurança para seu AVCB em SP? Emissão de ART, projetos técnicos e acompanhamento direto. Evite multas com assessoria especializada.",
+  title: _pageTitle,
+  description: _pageDesc,
   alternates: {
     canonical: "/engenheiro-avcb-sao-paulo",
   },
 };
 
+// Mensagem já escrita no WhatsApp: o engenheiro recebe o pedido com o que precisa para responder.
+const whatsappEngenheiro = `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}?text=${encodeURIComponent(
+  "Olá! Preciso de engenheiro responsável técnico (ART) para o AVCB. Tipo e endereço do imóvel:"
+)}`;
+
 export default function EngenheiroAVCBPage() {
   const faqs = [
     {
-      question: "Qual engenheiro pode assinar o AVCB em São Paulo?",
-      answer: "Engenheiros civis, mecânicos e de segurança do trabalho legalmente habilitados no CREA-SP podem emitir a ART (Anotação de Responsabilidade Técnica) para projetos de incêndio e renovação de AVCB, conforme suas atribuições profissionais."
+      question: "Quem pode ser o responsável técnico do AVCB: engenheiro ou arquiteto?",
+      answer: "O Decreto Estadual nº 69.118/2024 exige profissional habilitado pelo respectivo conselho de classe, com anotação ou registro de responsabilidade técnica. Na prática: engenheiro com ART no CREA-SP ou arquiteto com RRT no CAU, dentro das atribuições de cada um. Na DRD2, o responsável técnico é o Eng. Samuel Costa, CREA-SP 5070163570."
     },
     {
       question: "O que é a ART emitida pelo engenheiro no processo de AVCB?",
-      answer: "A ART é o documento legal que vincula o engenheiro ao projeto ou serviço prestado, garantindo que o profissional assume a responsabilidade técnica pela segurança dos sistemas de combate a incêndio instalados e verificados."
+      answer: "A ART (Anotação de Responsabilidade Técnica) é o documento que vincula o engenheiro ao projeto ou serviço prestado. Com ela, o profissional assume a responsabilidade técnica pelos sistemas de segurança contra incêndio que projetou, instalou ou verificou."
     },
     {
       question: "O engenheiro acompanha a vistoria do Corpo de Bombeiros?",
-      answer: "Sim, a presença ou o acompanhamento técnico do engenheiro é fundamental no dia da vistoria oficial para responder a questionamentos técnicos do Oficial e garantir que os sistemas sejam testados corretamente."
+      answer: "Sim. O acompanhamento técnico no dia da vistoria ajuda a responder às perguntas do vistoriador e a garantir que os sistemas sejam testados corretamente."
     },
     {
       question: "Como verificar se o engenheiro de AVCB é habilitado?",
-      answer: "Você pode solicitar o número do registro profissional e realizar uma consulta pública no site do CREA-SP. Todos os engenheiros da DRD2 são devidamente registrados e ativos."
+      answer: "Peça o número do registro profissional e faça a consulta pública no site do CREA-SP. O registro do Eng. Samuel Costa, responsável técnico da DRD2, é o CREA-SP 5070163570."
     }
   ];
 
@@ -56,11 +62,11 @@ export default function EngenheiroAVCBPage() {
 
       {/* Hero Authority - Professional Focus */}
       <section className="relative bg-slate-950 text-white pt-32 pb-24 overflow-hidden border-b-8 border-primary">
-        <Image src="/images/eng-samuel-oficial-v3.webp" alt="Engenheiro especialista em projetos de AVCB e segurança contra incêndio" fill className="object-cover object-top opacity-30 grayscale-[30%]" priority sizes="100vw" quality={65} />
+        <Image src="/images/eng-samuel-oficial-v3.webp" alt="Eng. Samuel Costa, responsável técnico da DRD2 Engenharia" fill className="object-cover object-top opacity-30 grayscale-[30%]" priority sizes="100vw" quality={65} />
 
         <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] bg-cover bg-center opacity-10 grayscale" />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent" />
-        
+
         <div className="relative z-10 container mx-auto px-4 max-w-6xl">
           <div className="flex flex-col lg:flex-row gap-16 items-center">
             <div className="lg:w-3/5">
@@ -69,42 +75,34 @@ export default function EngenheiroAVCBPage() {
                 Engenheiro de AVCB em <span className="text-primary italic text-5xl md:text-7xl">São Paulo</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-300 mb-10 leading-relaxed font-medium">
-                Se você busca por um <span className="text-white font-bold underline decoration-primary">Engenheiro AVCB SP</span>, sua busca termina aqui. Oferecemos assessoria técnica direta com emissão de **ART (CREA-SP)** e acompanhamento integral até a aprovação final.
+                Engenheiro responsável técnico para o seu AVCB: emitimos a <strong className="text-white">ART no CREA-SP</strong>, fazemos o projeto e as adequações e acompanhamos o processo no Corpo de Bombeiros até o certificado.
               </p>
-              
+
               <div className="flex flex-col sm:flex-row gap-5 mb-12">
-                <a 
-                  href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`}
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="bg-primary hover:bg-[#1EBE5A] hover:text-white hover:text-primary text-white font-black px-10 py-5 rounded-2xl text-xl transition-all shadow-2xl shadow-primary/30 flex items-center justify-center gap-3"
+                <TrackedWhatsAppLink
+                  href={whatsappEngenheiro}
+                  source="hero_cta"
+                  className="bg-primary hover:bg-[#1EBE5A] hover:text-white text-white font-black px-10 py-5 rounded-2xl text-xl transition-all shadow-2xl shadow-primary/30 flex items-center justify-center gap-3"
                 >
                   <HardHat className="w-6 h-6" /> Falar com o Engenheiro
-                </a>
+                </TrackedWhatsAppLink>
               </div>
 
-              <div className="flex items-center gap-8 border-t border-white/10 pt-8">
-                 <div className="flex -space-x-4">
-                    {[1,2,3,4].map(i => (
-                      <div key={i} className="w-12 h-12 rounded-full border-2 border-slate-950 bg-slate-800 flex items-center justify-center font-bold text-xs">RT</div>
-                    ))}
-                 </div>
-                 <p className="text-sm text-gray-400 font-medium">Equipe de engenheiros com +15 anos de atuação no CBPMESP.</p>
+              <div className="flex items-center gap-4 border-t border-white/10 pt-8">
+                 <ShieldCheck className="w-10 h-10 text-primary flex-shrink-0" />
+                 <p className="text-sm text-gray-300 font-medium">
+                   Responsável técnico: <strong className="text-white">Eng. Samuel Costa</strong>, CREA-SP 5070163570.
+                 </p>
               </div>
             </div>
-            
+
             <div className="lg:w-2/5">
                <div className="bg-white p-8 rounded-[3rem] shadow-3xl relative overflow-hidden">
                  <div className="absolute top-0 right-0 w-24 h-24 bg-primary/5 rounded-full -mr-12 -mt-12" />
                  <h3 className="text-2xl font-black text-secondary mb-6 flex items-center gap-3">
-                    Avaliação Técnica Hoje
+                    Peça uma avaliação técnica
                  </h3>
-           
-      <div className="container mx-auto px-4 max-w-4xl text-center py-4 opacity-50"><p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Conteúdo Técnico Atualizado em: Maio de 2026</p></div>
-      <ServiceClusterLinks currentSlug="/engenheiro-avcb-sao-paulo" />
-      <ServiceBlogLinks currentSlug="/engenheiro-avcb-sao-paulo" />
-
-      <LeadForm variant="compact" showWrapper={false} />
+                 <LeadForm variant="compact" showWrapper={false} />
                </div>
             </div>
           </div>
@@ -116,15 +114,15 @@ export default function EngenheiroAVCBPage() {
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
-              <h2 className="text-3xl md:text-5xl font-black text-secondary leading-tight tracking-tight uppercase">Por que a assinatura do <span className="text-primary">Engenheiro</span> é obrigatória?</h2>
+              <h2 className="text-3xl md:text-5xl font-black text-secondary leading-tight tracking-tight uppercase">Por que o <span className="text-primary">responsável técnico</span> é obrigatório?</h2>
               <p className="text-lg text-gray-600 font-medium leading-relaxed">
-                O Corpo de Bombeiros de São Paulo não aprova processos sem a **ART (Análise de Responsabilidade Técnica)**. Esse documento garante que um profissional legalmente habilitado validou os cálculos de hidrantes, a carga de incêndio e a segurança estrutural do seu imóvel.
+                O processo no Corpo de Bombeiros pede um profissional habilitado, com anotação ou registro de responsabilidade técnica: no caso do engenheiro, a <strong>ART (Anotação de Responsabilidade Técnica)</strong>. É ela que mostra quem responde pelo projeto e pelos sistemas de segurança do imóvel.
               </p>
-              
+
               <div className="space-y-4">
                 {[
-                  { title: "Segurança Jurídica", desc: "O engenheiro assume a responsabilidade civil e criminal pelo projeto, protegendo o síndico ou proprietário." },
-                  { title: "Conformidade Normativa", desc: "Domínio total das ITs vigentes e atualizações frequentes do CBPMESP." },
+                  { title: "Responsabilidade definida", desc: "O responsável técnico responde pelo projeto e pelos serviços que assina, e o proprietário ou síndico fica com a documentação em ordem." },
+                  { title: "Conformidade Normativa", desc: "Projeto feito pelas Instruções Técnicas vigentes do CBPMESP e pelo Decreto Estadual nº 69.118/2024." },
                   { title: "Precisão de Cálculos", desc: "Dimensionamento correto de bombas, mangueiras e reservatórios para evitar reprovações." }
                 ].map((item, i) => (
                   <div key={i} className="flex gap-4 p-6 bg-slate-50 border border-slate-100 rounded-2xl group hover:bg-white hover:shadow-xl transition-all">
@@ -137,7 +135,7 @@ export default function EngenheiroAVCBPage() {
                 ))}
               </div>
             </div>
-            
+
             <div className="relative">
               <div className="bg-secondary p-12 rounded-[4rem] text-white shadow-[0_50px_100px_-20px_rgba(13,18,31,0.5)]">
                 <h3 className="text-3xl font-black mb-10 flex items-center gap-4">
@@ -171,22 +169,21 @@ export default function EngenheiroAVCBPage() {
         <div className="container mx-auto px-4 max-w-6xl">
            <div className="bg-white p-12 md:p-20 rounded-[4rem] shadow-2xl border border-gray-100 relative overflow-hidden">
              <div className="absolute top-0 right-0 w-64 h-64 bg-red-500/5 rounded-full blur-3xl -mr-32 -mt-32" />
-             
+
              <div className="text-center max-w-3xl mx-auto space-y-8 relative z-10">
                <Scale className="w-16 h-16 text-primary mx-auto mb-6" />
-               <h2 className="text-3xl md:text-5xl font-black text-secondary leading-none uppercase tracking-tighter">O Risco de contratar sem Engenheiro</h2>
+               <h2 className="text-3xl md:text-5xl font-black text-secondary leading-none uppercase tracking-tighter">O risco de fazer sem responsável técnico</h2>
                <p className="text-xl text-gray-500 font-medium leading-relaxed italic">
-                 "Despachantes ou instaladores podem 'tentar' o protocolo, mas apenas o engenheiro garante a legalidade técnica que as Seguradoras e a Prefeitura exigem."
+                 Sem um profissional habilitado assinando, o processo não anda: o Corpo de Bombeiros pede a ART do engenheiro (ou o RRT do arquiteto) que responde pelo projeto e pelos sistemas.
                </p>
                <div className="pt-8">
-                  <a 
-                    href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`}
-                    target="_blank" 
-                    rel="noopener noreferrer" 
+                  <TrackedWhatsAppLink
+                    href={whatsappEngenheiro}
+                    source="service_cta"
                     className="inline-flex items-center gap-3 bg-secondary text-white font-black px-12 py-6 rounded-2xl text-xl hover:bg-primary transition shadow-xl"
                   >
                     Confirmar Responsável Técnico no WhatsApp
-                  </a>
+                  </TrackedWhatsAppLink>
                </div>
              </div>
            </div>
@@ -205,8 +202,8 @@ export default function EngenheiroAVCBPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             {[
-              { title: "Vistoria Prévia", desc: "Mapeamos falhas técnicas antes da auditoria oficial." },
-              { title: "Cálculo e Projeto", desc: "Dimensionamos os sistemas conforme a IT CBPMESP." },
+              { title: "Vistoria Prévia", desc: "Mapeamos falhas técnicas antes da vistoria oficial." },
+              { title: "Cálculo e Projeto", desc: "Dimensionamos os sistemas conforme as ITs do CBPMESP." },
               { title: "Emissão de ART", desc: "Formalizamos a responsabilidade no CREA-SP." },
               { title: "Protocolo e Acompanhamento", desc: "Assistência integral até a emissão do AVCB." }
             ].map((s, i) => (
@@ -220,22 +217,42 @@ export default function EngenheiroAVCBPage() {
         </div>
       </section>
 
+      {/* Perguntas frequentes (as mesmas do schema FAQPage) */}
+      <section className="py-24 bg-slate-50 border-y border-slate-100">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="text-3xl md:text-4xl font-black text-secondary mb-10 tracking-tighter uppercase text-center">Perguntas frequentes</h2>
+          <div className="space-y-4">
+            {faqs.map((faq, i) => (
+              <details key={i} className="group bg-white rounded-2xl border border-slate-200 overflow-hidden">
+                <summary className="flex items-center justify-between p-6 font-black text-secondary text-lg cursor-pointer select-none">
+                  {faq.question}
+                  <span className="text-primary text-2xl group-open:rotate-45 transition-transform ml-4 flex-shrink-0">+</span>
+                </summary>
+                <p className="px-6 pb-6 text-gray-600 leading-relaxed">{faq.answer}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <ServiceClusterLinks currentSlug="/engenheiro-avcb-sao-paulo" />
+      <ServiceBlogLinks currentSlug="/engenheiro-avcb-sao-paulo" />
+
       {/* Final Conversion - Professional Hub */}
       <section className="py-24 bg-primary text-white relative overflow-hidden">
         <div className="container mx-auto px-4 max-w-4xl text-center relative z-10">
           <h2 className="text-3xl md:text-6xl font-black mb-8 leading-[0.9] tracking-tighter uppercase">Sua empresa em <span className="text-secondary italic">Boas Mãos</span></h2>
           <p className="text-xl font-medium mb-12 text-white/90">
-            Fale diretamente com um engenheiro especialista e receba um diagnóstico técnico do seu imóvel em SP.
+            Fale diretamente com um engenheiro e receba um diagnóstico técnico do seu imóvel em SP.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`}
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <TrackedWhatsAppLink
+              href={whatsappEngenheiro}
+              source="service_cta"
               className="bg-white text-primary font-black px-12 py-5 rounded-2xl text-xl hover:bg-secondary hover:text-white transition shadow-2xl flex items-center justify-center gap-3"
             >
               <FileText className="w-6 h-6" /> Solicitar ART / Orçamento
-            </a>
+            </TrackedWhatsAppLink>
           </div>
         </div>
       </section>

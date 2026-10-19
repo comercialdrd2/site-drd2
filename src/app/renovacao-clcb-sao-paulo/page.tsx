@@ -37,6 +37,7 @@ const occupationIcons: Record<string, any> = {
 
 export default function RenovacaoCLCBPage() {
   const whatsappLink = `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`;
+  const whatsappRenovacao = `${whatsappLink}?text=${encodeURIComponent("Olá! Quero renovar o CLCB. Vou enviar a foto do CLCB atual.")}`;
 
   return (
     <>
@@ -85,12 +86,15 @@ export default function RenovacaoCLCBPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-5">
               <TrackedWhatsAppLink
-                href={`${whatsappLink}?text=${encodeURIComponent("Olá! Quero renovar o CLCB. Vou enviar a foto do CLCB atual.")}`}
+                href={whatsappRenovacao}
                 source="hero_cta"
                 className="bg-[#25D366] hover:bg-[#1EBE5A] text-white font-black px-8 py-3 rounded-2xl text-lg transition-all shadow-2xl flex items-center justify-center gap-3 border-2 border-[#25D366] w-full sm:w-auto"
               >
                 <Phone className="w-6 h-6" /> ENVIAR FOTO DO CLCB
               </TrackedWhatsAppLink>
+              <a href="#como-renovar" className="text-white/90 hover:text-white font-bold underline underline-offset-4 decoration-red-600 self-center">
+                Ver o passo a passo
+              </a>
             </div>
           </div>
         </div>
@@ -209,7 +213,7 @@ export default function RenovacaoCLCBPage() {
       </section>
 
       {/* ── H2 #4: COMO FUNCIONA ── */}
-      <section className="py-24 bg-slate-900 text-white">
+      <section id="como-renovar" className="py-24 bg-slate-900 text-white scroll-mt-28">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-black mb-6 tracking-tighter uppercase italic">
@@ -418,7 +422,7 @@ export default function RenovacaoCLCBPage() {
 
       <ServiceClusterLinks currentSlug="/renovacao-clcb-sao-paulo" />
       <ServiceBlogLinks currentSlug="/renovacao-clcb-sao-paulo" />
-      <div className="container mx-auto px-4 max-w-4xl text-center py-4 opacity-50"><p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Conteúdo Técnico Atualizado em: Maio de 2026</p></div>
+      <div className="container mx-auto px-4 max-w-4xl text-center py-4 opacity-50"><p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Conteúdo Técnico Atualizado em: Outubro de 2026</p></div>
       <NeighborhoodSilo currentSlug="/renovacao-clcb-sao-paulo" />
 
       {/* ── CTA FINAL ── */}
@@ -431,14 +435,13 @@ export default function RenovacaoCLCBPage() {
           <p className="text-xl text-red-100 mb-12 max-w-2xl mx-auto font-medium leading-relaxed italic">
             {c.ctaFinal.body}
           </p>
-          <a
-            href={whatsappLink}
-            target="_blank"
-            rel="noopener noreferrer"
+          <TrackedWhatsAppLink
+            href={whatsappRenovacao}
+            source="service_cta"
             className="animate-alert-pulse bg-[#25D366] text-white font-black px-12 py-6 rounded-2xl text-2xl shadow-2xl hover:bg-slate-900 hover:text-white transition-all border-2 border-white min-h-[48px] inline-flex items-center justify-center gap-4 w-full sm:w-auto"
           >
             <Phone className="w-8 h-8 inline" /> {c.ctaFinal.cta}
-          </a>
+          </TrackedWhatsAppLink>
           <p className="mt-8 text-xs font-black uppercase tracking-[0.3em] text-red-100 opacity-50">
             DRD2 Engenharia — Especialista em Renovação de CLCB — Decreto 69.118/2024
           </p>

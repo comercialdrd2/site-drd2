@@ -242,7 +242,7 @@ export default function AVCBClinicaOdontologicaPage() {
               { nome: "Autoclaves — laudo de pressão", desc: "Vasos de pressão exigem laudo de inspeção periódica e ART de responsabilidade técnica conforme NR-13.", icon: Thermometer },
               { nome: "ART de instalações elétricas", desc: "Laudo técnico com ART do engenheiro elétrico comprovando que a instalação suporta a carga dos equipamentos da clínica.", icon: ZapIcon },
               { nome: "Saídas de emergência", desc: "Dimensionamento conforme IT-11 para evacuação de pacientes em atendimento, incluindo largura adequada de portas e corredores.", icon: ArrowRight },
-              { nome: "Alarme de incêndio", desc: "Acionadores manuais e detectores automáticos com central monitorada conforme IT-17.", icon: AlertCircle },
+              { nome: "Alarme de incêndio", desc: "Acionadores manuais e detectores automáticos com central monitorada conforme IT-19.", icon: AlertCircle },
               { nome: "Brigada de incêndio", desc: "Equipe treinada conforme IT-17, com protocolo específico para evacuação de pacientes sedados ou com mobilidade reduzida.", icon: ShieldAlert },
             ].map((s, i) => (
               <div key={i} className="bg-white/5 p-8 rounded-[2.5rem] border border-white/10 hover:bg-white/10 hover:border-red-600/30 transition-all group">

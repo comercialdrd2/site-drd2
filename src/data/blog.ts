@@ -7,6 +7,8 @@ export interface BlogPost {
   slug: string;
   title: string;
   date: string;
+  /** Última revisão real do texto (AAAA-MM-DD). Sem ela, vale a data de publicação. */
+  updated?: string;
   category: string;
   excerpt: string;
   relatedServiceSlug?: string;
@@ -786,6 +788,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
 
     title: "Alarme de Incêndio em Escola e Faculdade: Obrigação Legal e o que a IT-19/2025 Exige em SP",
     date: "2026-04-09",
+    updated: "2026-10-19",
     category: "Educação Corporativa",
     excerpt: "Saiba quando o alarme de incêndio é obrigatório para escolas e faculdades em SP, as exigências específicas da IT-19/2025 para o Grupo E e como regularizar o AVCB.",
     image: "/images/blog/blog_hero_vila_mariana_escolas_avcb.webp",
@@ -812,7 +815,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <ol>
         <li><strong>Sirenes com potência falha:</strong> Vistoriador aperta a botoeira manual centralizada e vai parar na porta da Quadra Coberta: se não escutar fortemente durante a zoeira de acústica, recusa a homologação.</li>
         <li><strong>Laboratórios:</strong> A escola comprou o detector errado fotossensível clássico de "Fumaça" e botou em cima da bancada de ensaio reacional da aula de Química ou cozinha da merenda. Todo dia a placa avisa e toca alarme em vão acionando brigada. O bombeiro na vistoria manda trocar imediatamente para o padrão térmico fixo isento de partículas na leitura.</li>
-        <li><strong>INMETRO e Laudo Defasado:</strong> Ausência do comissionamento atestando todos esses testes por responsável civil/mecânico habilitado na área corporativa do colégio.</li>
+        <li><strong>Testes sem registro:</strong> falta do relatório de comissionamento e inspeção (a IT 19/2025 traz um modelo no Anexo A) atestando todos esses testes, com responsável técnico habilitado.</li>
       </ol>
 
       <h2>Tempo de liberação da engenharia na gestão escolar</h2>
@@ -828,6 +831,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     slug: "alarme-incendio-comercial-escritorio-obrigatorio-sp",
     title: "Alarme de Incêndio em Comércio e Escritório: Quando é Obrigatório e o que a IT-19/2025 Exige em SP",
     date: "2026-04-09",
+    updated: "2026-10-19",
     category: "Comércio e Escritório",
     excerpt: "Saiba quando o alarme de incêndio é obrigatório para comércio e escritórios em SP, o que mudou com a IT-19/2025 do CBPMESP e como regularizar o AVCB.",
     image: "/images/blog/blog_hero_lapa_avcb.webp",
@@ -854,13 +858,13 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
         <li><strong>Acessibilidade da central:</strong> instalada em local visível (portaria primária). Nada de esconder a caixa de LED vermelho do SDAI em baixo da escada nos depósitos.</li>
         <li><strong>Monitoramento remoto (Prédios de Fim de Semana):</strong> Recomendação expressa para lojas sem vigia 24h. O alarme sozinho no meio da madrugada num bairro de SP não evita propagação se ele não enviar dados para a central fora ou smartphone.</li>
         <li><strong>Baterias que não "viciam":</strong> obrigatório de novo o 24h + 15 min na bateria de bordo com laudo de teste.</li>
-        <li><strong>INMETRO e Relatórios de Comissionamento:</strong> assinatura civil da engenharia comprovando na vistoria. Sem laudo com CREA da empreiteira, sistema novo reprova igual.</li>
+        <li><strong>Relatório de comissionamento:</strong> registro dos testes do sistema (a IT 19/2025 traz um modelo no Anexo A), com responsável técnico. Sem esse registro, até sistema novo pode receber exigência.</li>
       </ul>
 
       <h2>Erros mortais que atrasam o lojista e a abertura da empresa</h2>
       <ol>
         <li>Central em quartinho de limpeza com acesso trancado.</li>
-        <li>Instalador sem CREA colocou central paralela ou contrabandeada sem INMETRO.</li>
+        <li>Instalador sem responsável técnico colocou uma central sem procedência nem documentação.</li>
         <li>Detectores sumiram atrás do gesso rebaixado ou da sanca projetada no teto do salão de vendas. O auditor enxerga isso em 1 minuto de vistoria.</li>
         <li>Laudo falho.</li>
       </ol>
@@ -879,6 +883,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     slug: "alarme-incendio-hospital-clinica-obrigatorio-sp",
     title: "Alarme de Incêndio em Hospital e Clínica: O que a IT-19/2025 Exige em SP",
     date: "2026-04-09",
+    updated: "2026-10-19",
     category: "Hospitais & Clínicas",
     excerpt: "Saiba o que a IT-19/2025 do CBPMESP exige do sistema de alarme de incêndio para hospitais e clínicas em SP, incluindo painel repetidor, tempo de resposta e AVCB.",
     image: "/images/blog/blog_hero_avcb_hospital.webp",
@@ -899,7 +904,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <ul>
         <li><strong>Painel repetidor por setor:</strong> a ativação de qualquer dispositivo de alarme deve disparar simultaneamente a sinalização visual e sonora na central de alarme e a sinalização visual no painel repetidor do setor atingido. Isso permite que a brigada identifique com precisão a zona de risco e acione o protocolo sem pânico generalizado na edificação inteira.</li>
         <li><strong>Tempo máximo de 30 segundos:</strong> se o evento não for reconhecido na central ou no painel repetidor por alguém da enfermagem ou apoio em até 30 segundos, o sistema dispara automaticamente o alarme geral de abandono.</li>
-        <li><strong>Certificação INMETRO:</strong> exigência expressa na IT-19/2025. Equipamentos sem certificação atestam a paralisação do AVCB.</li>
+        <li><strong>Duas fontes de alimentação:</strong> exigência expressa da IT-19/2025 (item 4.3): rede elétrica do prédio e fonte auxiliar, como bateria, nobreak ou gerador.</li>
         <li><strong>Autonomia de backup vital:</strong> baterias antigas reprovam sumariamente o sistema; a central de um EAS deve suportar cortes energéticos severos atestados no Comissionamento presencial.</li>
       </ul>
 
@@ -932,6 +937,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     slug: "alarme-incendio-galpao-industrial-obrigatorio-sp",
     title: "Alarme de Incêndio em Galpão Industrial: O que a IT-19/2025 Exige e Como Regularizar em SP",
     date: "2026-04-09",
+    updated: "2026-10-19",
     category: "Engenharia Industrial",
     excerpt: "Entenda o que a IT-19/2025 do CBPMESP exige do sistema de alarme de incêndio para galpões e indústrias em SP, como classificar o risco e regularizar o AVCB.",
     image: "/images/blog/blog_hero_avcb_galpao.webp",
@@ -953,7 +959,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>A IT-19/2025 trouxe alinhamento integral com a ABNT NBR 17240 e reforçou exigências específicas para ambientes industriais. Os pontos de maior impacto são:</p>
       <ul>
         <li><strong>Avisadores visuais obrigatórios em ambientes ruidosos:</strong> em galpões com operação acima de 105 dBA, a IT-19/2025 exige obrigatoriamente dispositivos de alarme visuais (strobes) em complemento às sirenes. Muitos sistemas antigos não possuem esse recurso e reprovam na vistoria.</li>
-        <li><strong>Certificação INMETRO da central é expressa:</strong> a central de alarme deve ter certificação INMETRO. Equipamentos sem certificação geram exigência automática.</li>
+        <li><strong>Duas fontes de alimentação:</strong> a IT-19/2025 (item 4.3) exige rede elétrica e fonte auxiliar (bateria, nobreak ou gerador) para o sistema.</li>
         <li><strong>Autonomia da fonte auxiliar:</strong> a bateria backup da central precisa ter autonomia mínima de 24h em supervisão e 15 min em alarme. Sistemas com baterias subdimensionadas não atendem esse critério atual.</li>
         <li><strong>Relatório de comissionamento:</strong> a vistoria agora exige formalmente o laudo de comissionamento — atestando teste funcional rigoroso com o engenheiro da obra sendo o avalista responsável em CREA ativo.</li>
       </ul>
@@ -961,7 +967,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <h2>Quais são os erros mais comuns que reprovam o alarme de galpão no CBPMESP?</h2>
       <ol>
         <li><strong>Dimensionamento incorreto:</strong> espaçamento errado entre detectores, sem observância da área de cobertura por tipo de detector e da carga de incêndio da ocupação.</li>
-        <li><strong>Central sem INMETRO:</strong> gera exigência automática, independentemente do "bom" funcionamento ou tempo de uso pacífico por anos do equipamento.</li>
+        <li><strong>Central sem fonte auxiliar ou sem testes registrados:</strong> gera exigência, mesmo que o equipamento pareça funcionar bem há anos.</li>
         <li><strong>Falta de strobes em zonas ruidosas:</strong> ausência de sinalizadores visuais vermelhos. O operador de empilhadeira precisa ver quando não conseguir ouvir por usar E.P.I.</li>
         <li><strong>Documentação incompleta:</strong> ausência do relatório exigido.</li>
         <li><strong>Projeto divergente:</strong> discrepâncias de layout físico contra o que foi anexado e lido no portal (e-Projeto) pelo Batalhão na auditoria.</li>
@@ -986,7 +992,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     `,
     faqs: [
       { question: "O alarme de incêndio é obrigatório para galpões industriais em São Paulo?", answer: "Sim. Para galpões classificados como Grupo I pelo Decreto Estadual nº 69.118/2024, o SDAI é exigido conforme a área e a carga de incêndio da edificação. Sua aprovação é condição obrigatória para a emissão do AVCB pelo CBPMESP." },
-      { question: "O que é a IT-19/2025 e como ela afeta galpões?", answer: "É a Instrução Técnica nº 19 do CBPMESP, atualizada em março de 2025. Para galpões, reforça a exigência de certificação INMETRO da central de alarme, obrigatoriedade de strobes em áreas ruidosas (>105 dBA) e laudo de comissionamento como documento obrigatório na vistoria." },
+      { question: "O que é a IT-19/2025 e como ela afeta galpões?", answer: "É a Instrução Técnica nº 19 do CBPMESP, atualizada pela Portaria CCB-003/800/25 (Diário Oficial de 20 de março de 2025). Para galpões, pesam as duas fontes de alimentação, os avisadores visuais em áreas com ruído acima de 105 dBA e o registro dos testes (modelo de relatório de comissionamento no Anexo A)." },
       { question: "Galpão com operação barulhenta precisa de dispositivo especial?", answer: "Sim. A IT-19/2025 exige que em locais com ruído acima de 105 dBA sejam instalados obrigatoriamente avisadores visuais (strobes) em complemento às sirenes, garantindo que o alarme seja percebido mesmo em ambientes com alto ruído operacional e uso de EPIs." },
       { question: "Qual a diferença do alarme para galpão I-1, I-2 e I-3?", answer: "A classificação define o risco: I-1 (até 300 MJ/m²) é risco baixo, I-2 (300 a 1.200 MJ/m²) é risco médio e I-3 (acima de 1.200 MJ/m²) é risco alto. Quanto maior o risco, mais rigoroso é o dimensionamento térmico e quantitativo do SDAI exigido pelo CBPMESP." },
       { question: "Quanto tempo leva para aprovar o alarme de incêndio de um galpão no CBPMESP?", answer: "O prazo médio é de 45 a 120 dias. Recomenda-se iniciar o processo com pelo menos 6 meses de antecedência do vencimento do AVCB para diluir os imprevistos estruturais que não condizem na validação técnica de engenharia." }
@@ -994,18 +1000,19 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
   },
   {
     slug: "alarme-de-incendio-condominio-it-19-2025-responsabilidade-sindico",
-    title: "Meu Condomínio Precisa de Alarme de Incêndio? IT-19/2025",
+    title: "Alarme de incêndio é obrigatório em condomínio? IT 19/2025 (SP)",
     date: "2026-04-09",
+    updated: "2026-10-19",
     category: "Condomínios",
-    excerpt: "Vamos abordar com objetividade o que a legislação vigente exige, o que mudou com a IT-19/2025 do CBPMESP, e os riscos reais que um sistema inadequado representa para o síndico.",
+    excerpt: "Quando o condomínio precisa de alarme de incêndio em SP, o que diz a IT 19/2025 (Portaria CCB-003/800/25) e o que o síndico deve conferir antes de renovar o AVCB.",
     image: "/images/blog/blog_hero_avcb_condominio.webp",
     relatedServiceSlug: "alarme-de-incendio-para-condominio-sao-paulo",
     content: `
       <p>Se você é síndico de um condomínio residencial em São Paulo e ainda não regularizou o sistema de alarme de incêndio, este artigo é para você. Vamos abordar com objetividade o que a legislação vigente exige, o que mudou com a IT-19/2025 do CBPMESP, e os riscos reais que um sistema inadequado — ou ausente — representa para o síndico e para o condomínio.</p>
 
       <h2>O sistema de alarme de incêndio é obrigatório para condomínios em SP?</h2>
-      <p>Sim, e sem exceções relevantes para edificações residenciais de médio e grande porte em São Paulo.</p>
-      <p>A obrigatoriedade decorre do cruzamento entre o Decreto Estadual nº 69.118/2024 (com atualizações do Decreto nº 69.118/2024) e as Instruções Técnicas do CBPMESP, que estabelecem quais medidas de segurança contra incêndio são exigidas conforme o grupo de ocupação, a área construída e a altura da edificação.</p>
+      <p><strong>Depende do tamanho e da altura do prédio.</strong> O regulamento estadual classifica o condomínio como habitação multifamiliar (divisão A-2) e tem uma tabela de exigências para edificações com até 750 m² e até 12 m de altura e outras para as maiores ou mais altas. A tabela que vale para o seu prédio diz se o alarme é exigido.</p>
+      <p>Esse regulamento é o Decreto Estadual nº 69.118/2024, que substituiu o Decreto nº 63.911/2018. As Instruções Técnicas do CBPMESP detalham como cada sistema deve ser feito; a do alarme é a IT 19/2025 (Sistema de detecção e alarme de incêndio).</p>
       <p>Para condomínios residenciais, o sistema de detecção e alarme de incêndio (SDAI) geralmente é exigido a partir de determinadas faixas de área ou número de pavimentos — e sua regularidade é condição obrigatória para a emissão e renovação do AVCB (Auto de Vistoria do Corpo de Bombeiros).</p>
 
       <div class="bg-red-50 border-l-4 border-red-500 p-6 my-8 text-red-900 font-bold rounded-r-lg text-xl">
@@ -1017,26 +1024,26 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
         <p style="margin:0"><a href="https://wa.me/5511942232969?text=Ol%C3%A1%2C%20sou%20s%C3%ADndico%20e%20li%20o%20artigo%20de%20alarme%20no%20site.%20Quero%20uma%20avalia%C3%A7%C3%A3o." style="display:inline-block;background:#16a34a;color:#fff;font-weight:700;padding:12px 20px;border-radius:8px;text-decoration:none">Falar com engenheiro pelo WhatsApp</a> &nbsp;ou veja <a href="/renovacao-avcb-condominio-sao-paulo">Renovação de AVCB para condomínio</a>.</p>
       </div>
 
-      <h2>O que mudou com a IT-19/2025?</h2>
-      <p>A Instrução Técnica nº 19 foi atualizada em março de 2025, por meio da Portaria CCB-003/800/25, e substituiu a versão de 2019. As principais mudanças trazem maior rigor técnico e ampliam a eficiência e confiabilidade dos sistemas exigidos, com destaque para:</p>
+      <h2>O que diz a IT 19/2025 e o que conferir no seu prédio</h2>
+      <p>A Instrução Técnica nº 19 foi atualizada pela Portaria CCB-003/800/25, publicada no Diário Oficial do Estado de 20 de março de 2025, e substituiu a versão de 2019. Pontos que o síndico deve conhecer:</p>
       <ul>
-        <li><strong>Alinhamento integral com a ABNT NBR 17240:</strong> todos os projetos devem seguir os critérios técnicos desta norma, sem exceções.</li>
-        <li><strong>Duas fontes de alimentação:</strong> obrigatórias para a central de alarme (rede elétrica principal e fonte auxiliar como bateria ou nobreak).</li>
-        <li><strong>Certificação INMETRO:</strong> a central de alarme passa a ter essa certificação como requisito expresso para aprovação do projeto.</li>
-        <li><strong>Relatório de comissionamento:</strong> documento obrigatório na vistoria onde o sistema precisa ser testado funcionalmente e o resultado documentado por responsável técnico habilitado.</li>
+        <li><strong>Norma técnica de referência:</strong> a IT 19/2025 remete à ABNT NBR 17240 em vários pontos, como eletrodutos, fiação e relatório de manutenção.</li>
+        <li><strong>Duas fontes de alimentação:</strong> "Todo sistema deve ter duas fontes de alimentação" (item 4.3): a rede elétrica do prédio e uma fonte auxiliar, como bateria, nobreak ou gerador.</li>
+        <li><strong>Condomínio com mais de uma torre:</strong> o item 4.21 trata da setorização do alarme e admite uma única central na portaria, com vigilância 24 horas, ligada a todas as torres e com fonte própria de pelo menos 60 minutos.</li>
+        <li><strong>Relatório de comissionamento:</strong> o Anexo A da IT traz um modelo de relatório de comissionamento e inspeção periódica do sistema, que registra os testes feitos.</li>
       </ul>
-      <p><em>Condomínios que instalaram sistemas antes de 2025 e irão renovar o AVCB precisam verificar se o equipamento atual atende à nova versão da IT-19 — especialmente quanto à certificação da central e à documentação de comissionamento.</em></p>
+      <p><em>Se o sistema do condomínio foi instalado antes de 2025, vale conferir antes da renovação do AVCB se ele atende à IT 19/2025, principalmente as duas fontes de alimentação e o registro dos testes.</em></p>
 
       <h2>Qual é a responsabilidade do síndico?</h2>
       <p>Essa é a pergunta que mais preocupa — e com razão.</p>
       <p>O síndico é o representante legal do condomínio e, como tal, responde pessoalmente pela regularidade dos sistemas de segurança contra incêndio. Isso significa que, em caso de sinistro com vítimas em um condomínio com sistema irregular ou vencido, o síndico pode responder civil e criminalmente pelo ocorrido.</p>
-      <p>Além disso, o condomínio sem AVCB está sujeito a multas que podem ultrapassar <strong>R$ 310 mil</strong>, calculadas com base na UFESP (Unidade Fiscal do Estado de São Paulo) e reajustadas anualmente.</p>
+      <p>Além disso, o condomínio sem AVCB fica sujeito às sanções da legislação estadual, como multa.</p>
       <p>O AVCB de condomínio residencial em São Paulo tem validade de 3 anos. Se o processo de renovação não for iniciado com antecedência, o condomínio pode ficar com o documento vencido — especialmente porque o prazo de aprovação junto ao CBPMESP varia.</p>
 
       <h2>O que compõe um sistema de alarme de incêndio adequado para condomínios?</h2>
       <p>Um sistema completo e aprovável pelo CBPMESP, conforme a IT-19/2025 e a NBR 17240, é composto por:</p>
       <ul>
-        <li><strong>Central de Alarme de Incêndio (CAI):</strong> equipamento com certificação INMETRO, que gerencia todos os dispositivos do sistema, com alimentação dupla.</li>
+        <li><strong>Central de Alarme de Incêndio (CAI):</strong> equipamento que gerencia todos os dispositivos do sistema, ligado às duas fontes de alimentação.</li>
         <li><strong>Detectores automáticos:</strong> de fumaça distribuídos por halls, corredores, salas de reunião, garagens e áreas comuns. O espaçamento é regulamentado pela NBR 17240.</li>
         <li><strong>Acionadores manuais (botoeiras):</strong> posicionados em rotas de fuga, próximos às escadas e em locais de fácil acesso.</li>
         <li><strong>Dispositivos de alarme:</strong> sirenes e sinalizadores visuais (strobes) em todas as áreas comuns, garantindo que o alerta seja percebido.</li>
@@ -1061,11 +1068,11 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <h2>Perguntas Frequentes (FAQ)</h2>
     `,
     faqs: [
-      { question: "O alarme de incêndio é obrigatório para condomínios residenciais em São Paulo?", answer: "Sim. Conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP, o sistema de detecção e alarme de incêndio é exigido para condomínios residenciais a partir de determinadas faixas de área e altura. Sua aprovação é condição obrigatória para emissão e renovação do AVCB." },
-      { question: "O que é a IT-19/2025 do CBPMESP?", answer: "A IT-19/2025 é a Instrução Técnica nº 19 do Corpo de Bombeiros de São Paulo, atualizada em março de 2025 (Portaria CCB-003/800/25). Ela define os requisitos mínimos para o dimensionamento, instalação e aprovação de sistemas de detecção e alarme de incêndio no Estado de São Paulo." },
-      { question: "O síndico pode ser multado por falta de alarme de incêndio no condomínio?", answer: "Sim. O síndico é o responsável legal pela regularidade do AVCB. Condomínios sem o documento em dia podem receber multas superiores a R$ 310 mil, além de o síndico responder civil e criminalmente por sinistros ocorridos em edificação irregular." },
+      { question: "O alarme de incêndio é obrigatório para condomínios residenciais em São Paulo?", answer: "Depende da área e da altura do prédio. O Decreto Estadual nº 69.118/2024 classifica o condomínio como habitação multifamiliar (A-2), e as tabelas do decreto dizem quando o alarme é exigido; a IT 19/2025 diz como o sistema deve ser feito. Quando exigido, ele precisa estar em dia para emitir e renovar o AVCB." },
+      { question: "O que é a IT-19/2025 do CBPMESP?", answer: "A IT-19/2025 é a Instrução Técnica nº 19 do Corpo de Bombeiros de São Paulo, atualizada pela Portaria CCB-003/800/25, publicada no Diário Oficial de 20 de março de 2025. Ela define os requisitos mínimos para o dimensionamento, instalação e aprovação de sistemas de detecção e alarme de incêndio no Estado de São Paulo." },
+      { question: "O síndico pode ser multado por falta de alarme de incêndio no condomínio?", answer: "Sim. O síndico é o responsável legal pela regularidade do AVCB. Condomínios sem o documento em dia ficam sujeitos às sanções da legislação estadual, como multa, além de o síndico poder responder civil e criminalmente por sinistros ocorridos em edificação irregular." },
       { question: "De quanto em quanto tempo o AVCB de condomínio residencial deve ser renovado em SP?", answer: "O AVCB de condomínio em São Paulo, residencial ou comercial, tem validade de 3 anos. A data de vencimento vem impressa no próprio certificado." },
-      { question: "Quanto tempo leva para aprovar o alarme de incêndio no Corpo de Corpo de Bombeiros de São Paulo?", answer: "O prazo varia conforme a complexidade da edificação e o volume de processos no CBPMESP. Em média, o processo pode levar de 30 a 120 dias. Recomenda-se iniciar o processo com pelo menos 6 meses de antecedência em relação ao vencimento do AVCB." }
+      { question: "Quanto tempo leva para aprovar o alarme de incêndio no Corpo de Bombeiros de São Paulo?", answer: "O prazo varia conforme a complexidade da edificação e o volume de processos no CBPMESP. Em média, o processo pode levar de 30 a 120 dias. Recomenda-se iniciar o processo com pelo menos 6 meses de antecedência em relação ao vencimento do AVCB." }
     ]
   },
   {

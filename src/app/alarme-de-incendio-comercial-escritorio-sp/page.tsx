@@ -88,7 +88,7 @@ export default function AlarmeComercialPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Comercial" }]} dark />
+      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviços", href: "/servicos" }, { label: "Alarme Comercial" }]} dark />
       <TrustBar dark />
 
       {/* Alerta Legal Massivo - Exclusivo para Comercial */}
@@ -127,15 +127,13 @@ export default function AlarmeComercialPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Comercial" }]} dark />
-      <TrustBar dark />
 
       {/* Solução & Por que Fazer */}
       <section className="py-24 bg-white border-b border-gray-200">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center max-w-3xl mx-auto mb-16">
              <h2 className="text-3xl md:text-4xl font-black text-secondary leading-tight mb-6">
-                SDAI para o Comércio: A Diretriz Oculta na IT-17/2025
+                SDAI para o Comércio: A Diretriz Oculta na IT-19/2025
              </h2>
              <p className="text-xl text-gray-600">
                O Bombeiro não aceita "gambiarra" no teto rebaixado da sua loja. Exterminamos o risco com adequações absolutas.
@@ -161,8 +159,6 @@ export default function AlarmeComercialPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Comercial" }]} dark />
-      <TrustBar dark />
 
 
       <div className="container mx-auto px-4 max-w-4xl text-center py-4 opacity-50"><p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Conteúdo Técnico Atualizado em: Maio de 2026</p></div>
@@ -202,8 +198,6 @@ export default function AlarmeComercialPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Comercial" }]} dark />
-      <TrustBar dark />
 
       {/* FAQ Com Schema.org */}
       <section className="py-24 bg-gray-50 border-t border-gray-200">
@@ -229,8 +223,6 @@ export default function AlarmeComercialPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Comercial" }]} dark />
-      <TrustBar dark />
 
       {/* Mega CTA Final */}
       <section className="py-24 bg-secondary text-center relative overflow-hidden text-white border-t-8 border-primary">

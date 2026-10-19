@@ -1,15 +1,15 @@
 export const renovacaoAvcbCondominioContent = {
   meta: {
-    title: "Renovação de AVCB de condomínio em SP | DRD2",
+    title: "Renovação de AVCB de condomínio em SP: vencido ou vencendo",
     description:
-      "AVCB do condomínio vencendo? Revisamos hidrantes, alarme, iluminação e portas corta-fogo antes da vistoria. Proposta pronta para a assembleia.",
+      "AVCB do condomínio vencido ou vencendo? Revisamos hidrantes, alarme, iluminação e portas corta-fogo antes da vistoria e mandamos a proposta pronta para a assembleia.",
     canonical: "/renovacao-avcb-condominio-sao-paulo",
   },
 
-  h1: "Renovação de AVCB para Condomínio em São Paulo — O Síndico Não Pode Esperar",
+  h1: "Renovação de AVCB para condomínio em São Paulo",
 
   intro: [
-    "<strong>AVCB do condomínio vencido?</strong> A ausência do certificado trava o seguro predial e transfere a responsabilidade criminal de qualquer sinistro direto para o síndico.<br/><br/>A DRD2 assume toda a burocracia técnica para aprovar seu documento com agilidade e respaldo jurídico completo.",
+    "<strong>AVCB do condomínio vencido ou perto de vencer?</strong> A DRD2 confere os sistemas do prédio, cuida do processo no Corpo de Bombeiros e acompanha até o novo certificado.<br/><br/><strong>Envie o AVCB atual e o número de torres</strong>: mandamos a proposta pronta para a assembleia.",
     "A <strong>DRD2 Engenharia</strong> é especializada em renovação de AVCB para condomínios em São Paulo, com processo conduzido do <strong>diagnóstico técnico</strong> até a retirada do novo certificado — com relatório pronto para apresentação em assembleia e zero surpresas no meio do caminho.",
   ],
 

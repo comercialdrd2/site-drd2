@@ -254,7 +254,7 @@ export default function ProjetosPage() {
               { icon: Layout, title: "Saídas e Escadas", desc: "Dimensionamento de rotas de fuga conforme IT-11." },
               { icon: Zap, title: "Iluminação de Emergência", desc: "Projetos em conformidade com IT-18 e NBR 10898." },
               { icon: Factory, title: "Sistema Hidráulico", desc: "Hidrantes, mangotinhos e sprinklers (IT-22 e IT-23)." },
-              { icon: Zap, title: "SDAI — Detecção e Alarme", desc: "Sistemas inteligentes conforme IT-17 e NBR 17240." },
+              { icon: Zap, title: "SDAI — Detecção e Alarme", desc: "Sistemas inteligentes conforme IT-19 e NBR 17240." },
               { icon: ShieldCheck, title: "Extintores", desc: "Cálculo de carga de incêndio e distribuição (IT-21)." },
               { icon: HardHat, title: "SPDA", desc: "Proteção contra descargas atmosféricas (IT-31)." },
               { icon: FileText, title: "Memorial Descritivo", desc: "Documentação técnica detalhada de todos os sistemas." },

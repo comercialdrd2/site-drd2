@@ -55,7 +55,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
       description: post.excerpt,
       siteName: "DRD2 Engenharia",
       publishedTime: post.date,
-      modifiedTime: post.date,
+      modifiedTime: post.updated ?? post.date,
       authors: ["Samuel Costa"],
       images: [
         {
@@ -99,7 +99,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     "headline": post.title,
     "description": post.excerpt,
     "datePublished": post.date,
-    "dateModified": post.date,
+    "dateModified": post.updated ?? post.date,
     "articleSection": post.category,
     "inLanguage": "pt-BR",
     "wordCount": wordCount,
@@ -181,7 +181,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
             <p className="text-xl text-gray-500 italic pb-8 border-b border-gray-100">
               {post.excerpt}
             </p>
-            <BlogAuthorEvidence variant="byline" published={post.date} updated={post.date} />
+            <BlogAuthorEvidence variant="byline" published={post.date} updated={post.updated ?? post.date} />
           </header>
 
           {post.image ? (
