@@ -20,6 +20,7 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
+import FusaoEtapa2Trecho from "@/components/FusaoEtapa2Trecho";
 const _pageTitle = "AVCB para Shopping em São Paulo";
 const _pageDesc = "A DRD2 Engenharia é especialista em AVCB para shoppings e centros comerciais em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com segurança normativa. Diagnóstico técnico gratuito.";
 
@@ -345,6 +346,7 @@ export default function AVCBShoppingPage() {
         currentSlug="/avcb-para-shopping-sao-paulo"
       />
 
+      <FusaoEtapa2Trecho slug="/avcb-para-shopping-sao-paulo" />
 
 
       <OccupationDepthBlock

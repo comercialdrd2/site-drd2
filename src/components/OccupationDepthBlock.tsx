@@ -160,8 +160,7 @@ const profiles: Record<string, DepthProfile> = {
     cost: "Restaurante/bar/padaria CLCB costuma ter custo entre baixo e médio — o GLP é o item mais caro quando precisa adequação. Coifa, extintores e sinalização são adequações mais baratas. Diagnóstico gratuito antecipa o orçamento real.",
     urgency: "CLCB vencido em estabelecimento de alimentação é interdição quase certa em vistoria — o CBPMESP fiscaliza com rigor maior por causa do GLP e da chama aberta na cozinha.",
     links: [
-      { label: "renovação CLCB para restaurante", href: "/renovacao-clcb-restaurante-sao-paulo" },
-      { label: "renovação CLCB para padaria", href: "/renovacao-clcb-padaria-sao-paulo" },
+      { label: "renovação de CLCB", href: "/renovacao-clcb-sao-paulo" },
       { label: "laudo de estanqueidade de gás", href: "/laudo-estanqueidade-gas-sao-paulo" },
     ],
   },
@@ -192,7 +191,7 @@ const profiles: Record<string, DepthProfile> = {
     links: [
       { label: "renovação CLCB para clínica médica", href: "/renovacao-clcb-clinica-sao-paulo" },
       { label: "renovação CLCB para odontológica", href: "/renovacao-clcb-odontologica-sao-paulo" },
-      { label: "renovação CLCB para fisioterapia", href: "/renovacao-clcb-fisioterapia-sao-paulo" },
+      { label: "renovação de CLCB", href: "/renovacao-clcb-sao-paulo" },
     ],
   },
   // AVCB Hotel
@@ -250,7 +249,7 @@ const profiles: Record<string, DepthProfile> = {
     cost: "Hospitais têm o custo mais elevado entre estabelecimentos de saúde pela combinação de sistemas redundantes obrigatórios, brigada 24h hospitalar e exigências específicas de gases medicinais. O retrofit de compartimentação é o item de maior impacto.",
     urgency: "AVCB vencido em hospital é interdição com pacientes internados — situação que precisa de plano de transferência emergencial. Risco civil e criminal direto da direção técnica em caso de sinistro.",
     links: [
-      { label: "renovação AVCB para hospital", href: "/renovacao-avcb-hospital-clinica-sao-paulo" },
+      { label: "renovação de AVCB", href: "/renovacao-avcb" },
       { label: "alarme para hospital", href: "/alarme-de-incendio-hospital-clinica-sp" },
       { label: "sprinkler para hospital", href: "/sistema-sprinkler-hospital-avcb-sp" },
     ],
@@ -310,7 +309,7 @@ const profiles: Record<string, DepthProfile> = {
     cost: "Postos de combustível têm o custo entre os mais altos do AVCB pela combinação de SPDA reforçado, inspeção de tanques, brigada NR-20 e exigências da Anvisa/IBAMA quando aplicável. Substituição de tanque é o item de maior impacto.",
     urgency: "AVCB vencido em posto é interdição imediata pelo risco de explosão. Além disso, a ANP (Agência Nacional do Petróleo) também pode aplicar sanções por irregularidade documental.",
     links: [
-      { label: "renovação AVCB para posto", href: "/renovacao-avcb-posto-combustivel-sao-paulo" },
+      { label: "renovação de AVCB", href: "/renovacao-avcb" },
       { label: "SPDA", href: "/spda" },
       { label: "AVCB para posto", href: "/avcb-posto-combustivel-sao-paulo" },
     ],
@@ -370,7 +369,7 @@ const profiles: Record<string, DepthProfile> = {
     cost: "Escritórios têm custo intermediário, com forte variação por tamanho. Coworkings e andares corporativos com múltiplas empresas têm orçamento maior pela complexidade de coordenação de brigada.",
     urgency: "AVCB vencido em prédio comercial pode resultar em embargo pela administração predial ou pela síndica, e auditoria de inquilinos corporativos pode quebrar contratos.",
     links: [
-      { label: "renovação AVCB para escritório", href: "/renovacao-avcb-escritorio-sao-paulo" },
+      { label: "renovação de AVCB", href: "/renovacao-avcb" },
       { label: "alarme para comercial/escritório", href: "/alarme-de-incendio-comercial-escritorio-sp" },
       { label: "AVCB para escritório", href: "/avcb-para-escritorio-sao-paulo" },
     ],

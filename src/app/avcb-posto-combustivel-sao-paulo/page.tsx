@@ -18,6 +18,7 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
+import FusaoEtapa2Trecho from "@/components/FusaoEtapa2Trecho";
 const _pageTitle = "AVCB para Posto de Combustível em São Paulo 2026";
 const _pageDesc = "A DRD2 Engenharia é especialista em AVCB para postos de combustível em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com segurança normativa e agilidade. Diagnóstico técnico gratuito.";
 
@@ -426,6 +427,7 @@ export default function AVCBPostoPage() {
         currentSlug="/avcb-posto-combustivel-sao-paulo"
       />
 
+      <FusaoEtapa2Trecho slug="/avcb-posto-combustivel-sao-paulo" />
 
 
       <OccupationDepthBlock

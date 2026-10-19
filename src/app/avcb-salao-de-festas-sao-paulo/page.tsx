@@ -20,6 +20,7 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
+import FusaoEtapa2Trecho from "@/components/FusaoEtapa2Trecho";
 const _pageTitle = "AVCB para Salão de Festas em São Paulo 2026";
 const _pageDesc = "Salão de festas sem AVCB em SP arrisca interdição durante o evento com convidados dentro. Grupo F-4, supressão em coifa, lotação e brigada. DRD2 Engenharia regulariza.";
 
@@ -466,6 +467,7 @@ export default function AVCBSalaoFestasPage() {
         currentSlug="/avcb-salao-de-festas-sao-paulo"
       />
 
+      <FusaoEtapa2Trecho slug="/avcb-salao-de-festas-sao-paulo" />
 
 
       <OccupationDepthBlock

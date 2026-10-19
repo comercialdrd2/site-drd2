@@ -20,6 +20,7 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
+import FusaoEtapa2Trecho from "@/components/FusaoEtapa2Trecho";
 export const metadata = {
   title: servicesData["avcb-casas-noturnas-boates-sao-paulo"].metaTitle,
   description: servicesData["avcb-casas-noturnas-boates-sao-paulo"].metaDescription,
@@ -528,6 +529,7 @@ export default function AVCBBoateMasterPage() {
         currentSlug="/avcb-casas-noturnas-boates-sao-paulo"
       />
 
+      <FusaoEtapa2Trecho slug="/avcb-casas-noturnas-boates-sao-paulo" />
 
 
       <OccupationDepthBlock

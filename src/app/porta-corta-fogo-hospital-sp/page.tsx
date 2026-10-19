@@ -34,7 +34,7 @@ const data: UniversalPageData = {
   },
   "linksInternos": [
     {
-      "href": "/renovacao-avcb-hospital-clinica-sao-paulo",
+      "href": "/avcb-hospital-clinica-sao-paulo",
       "label": "AVCB Hospitalar"
     },
     {

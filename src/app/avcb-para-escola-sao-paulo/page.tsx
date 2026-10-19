@@ -19,6 +19,7 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
+import FusaoEtapa2Trecho from "@/components/FusaoEtapa2Trecho";
 const _pageTitle = "AVCB para Escola em São Paulo";
 const _pageDesc = "Escola sem AVCB em São Paulo arrisca embargo, multa e bloqueio do credenciamento no MEC. Grupo E, evacuação de crianças, brigada e saídas dimensionadas. DRD2 Engenharia regulariza.";
 
@@ -444,6 +445,7 @@ export default function AVCBEscolaMasterPage() {
         currentSlug="/avcb-para-escola-sao-paulo"
       />
 
+      <FusaoEtapa2Trecho slug="/avcb-para-escola-sao-paulo" />
 
 
       <OccupationDepthBlock

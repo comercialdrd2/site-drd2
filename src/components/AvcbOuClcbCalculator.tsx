@@ -101,13 +101,7 @@ function calculate(area: number, occupation: Occupation | null, floors: number, 
   // CLCB elegivel — direciona para a pagina especifica se houver
   const slugMap: Record<string, string> = {
     comercio: "/renovacao-clcb-comercio-sao-paulo",
-    escritorio: "/renovacao-clcb-escritorio-sao-paulo",
     clinica: "/renovacao-clcb-clinica-sao-paulo",
-    restaurante: "/renovacao-clcb-restaurante-sao-paulo",
-    academia: "/renovacao-clcb-academia-sao-paulo",
-    escola: "/renovacao-clcb-escola-sao-paulo",
-    salao: "/renovacao-clcb-salao-festas-sao-paulo",
-    igreja: "/renovacao-clcb-igreja-sao-paulo",
     comercio_baixo_risco: "/renovacao-clcb-farmacia-sao-paulo",
   };
 

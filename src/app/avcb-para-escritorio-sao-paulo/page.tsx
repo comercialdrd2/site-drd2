@@ -18,6 +18,7 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
+import FusaoEtapa2Trecho from "@/components/FusaoEtapa2Trecho";
 const _pageTitle = "AVCB para Escritório em São Paulo";
 const _pageDesc = "Escritório em São Paulo sem AVCB válido perde o alvará de funcionamento. Grupo D, brigada, detecção e saídas de emergência. DRD2 Engenharia regulariza.";
 
@@ -473,6 +474,7 @@ export default function AVCBEscritorioMasterPage() {
         currentSlug="/avcb-para-escritorio-sao-paulo"
       />
 
+      <FusaoEtapa2Trecho slug="/avcb-para-escritorio-sao-paulo" />
 
 
       <OccupationDepthBlock

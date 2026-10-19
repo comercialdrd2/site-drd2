@@ -8,6 +8,12 @@ export type LocalNeighborhoodSeoPage = {
   risks: string[];
   urgency: string;
   nearby: string[];
+  /**
+   * Página regional (etapa 2 da fusão, 19/10/2026): a página desta cidade passa a
+   * atender também as cidades vizinhas que entraram nela. `titulo` completa
+   * "AVCB em ..."; `cidades` lista as que a página atende além dela.
+   */
+  regiao?: { titulo: string; lista: string; cidades: string[]; paginasProprias?: { label: string; href: string }[] };
 };
 
 export const localNeighborhoods: LocalNeighborhoodSeoPage[] = [
@@ -2494,6 +2500,7 @@ export const localNeighborhoods: LocalNeighborhoodSeoPage[] = [
   {
       "slug": "santo-andre",
       "name": "Santo André",
+      "regiao": { "titulo": "Santo André e no ABC", "lista": "Santo André, São Bernardo do Campo, São Caetano do Sul, Diadema e Mauá", "cidades": ["São Bernardo do Campo", "São Caetano do Sul", "Diadema", "Mauá"] },
       "zone": "Grande ABC",
       "localRefs": [
           "Av. Industrial",
@@ -2884,6 +2891,7 @@ export const localNeighborhoods: LocalNeighborhoodSeoPage[] = [
   {
       "slug": "santos",
       "name": "Santos",
+      "regiao": { "titulo": "Santos e na Baixada Santista", "lista": "Santos, São Vicente, Praia Grande, Guarujá e Itanhaém", "cidades": ["São Vicente", "Praia Grande", "Guarujá", "Itanhaém"], "paginasProprias": [{ "label": "AVCB em Cubatão", "href": "/avcb-cubatao" }, { "label": "AVCB em Bertioga", "href": "/avcb-bertioga" }] },
       "zone": "Baixada Santista",
       "localRefs": [
           "Av. Ana Costa",
@@ -3305,6 +3313,7 @@ export const localNeighborhoods: LocalNeighborhoodSeoPage[] = [
   {
       "slug": "alphaville-barueri",
       "name": "Alphaville (Barueri)",
+      "regiao": { "titulo": "Barueri, Alphaville e Osasco", "lista": "Barueri, Alphaville, Osasco e Carapicuíba", "cidades": ["Osasco", "Carapicuíba"] },
       "zone": "Grande São Paulo",
       "localRefs": [
           "Alameda Rio Negro",

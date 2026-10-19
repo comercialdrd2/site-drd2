@@ -289,18 +289,31 @@ export default function RenovacaoCLCBPage() {
             {c.h2_tipos.intro}
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {c.h2_tipos.tipos.map((tipo, i) => {
+            {c.h2_tipos.tipos.map((tipo: { nome: string; href?: string }, i) => {
               const Icon = occupationIcons[tipo.nome] || Building2;
+              const conteudo = (
+                <>
+                  <div className="w-10 h-10 bg-slate-50 group-hover:bg-red-600 transition-colors rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Icon className="w-5 h-5 text-slate-400 group-hover:text-white transition-colors" />
+                  </div>
+                  <span className="text-slate-900 font-black uppercase italic tracking-tight text-sm text-left">{tipo.nome}</span>
+                </>
+              );
+              // Tipos sem página própria (entraram nesta página em 19/10/2026) aparecem sem link.
+              if (!tipo.href) {
+                return (
+                  <div key={i} className="bg-white p-6 rounded-2xl border border-slate-200 flex items-center gap-4 group">
+                    {conteudo}
+                  </div>
+                );
+              }
               return (
                 <Link prefetch={false}
                   key={i}
                   href={tipo.href}
                   className="bg-white p-6 rounded-2xl border border-slate-200 hover:border-red-600 hover:shadow-xl transition-all flex items-center gap-4 group"
                 >
-                  <div className="w-10 h-10 bg-slate-50 group-hover:bg-red-600 transition-colors rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Icon className="w-5 h-5 text-slate-400 group-hover:text-white transition-colors" />
-                  </div>
-                  <span className="text-slate-900 font-black uppercase italic tracking-tight text-sm text-left">{tipo.nome}</span>
+                  {conteudo}
                 </Link>
               );
             })}
