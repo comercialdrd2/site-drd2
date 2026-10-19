@@ -22,7 +22,7 @@ const baseRelated = [
   { label: "SPDA: guia completo", href: "/spda" },
   { label: "AVCB São Paulo", href: "/avcb-sao-paulo" },
   { label: "Projetos de incêndio", href: "/projetos-incendio" },
-  { label: "Laudo Bombeiro", href: "/laudo-bombeiro-escritorio-sao-paulo" },
+  { label: "Documentos do AVCB", href: "/documentos-necessarios-avcb-sao-paulo" },
 ];
 
 export const spdaSeoPages: Record<string, SpdaSeoPage> = {

@@ -436,7 +436,7 @@ Nossa sede atende a Grande São Paulo e o Alto Tietê (Mogi, Suzano, Poá e Itaq
 
 Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos engenheiros hoje e solicite uma visita técnica gratuita para o diagnóstico real do seu imóvel.
     `,
-    relatedServiceSlug: "/avcb-mogi-das-cruzes",
+    relatedServiceSlug: "/avcb-sao-paulo",
   },
   ...ptotepBlogPosts,
   {

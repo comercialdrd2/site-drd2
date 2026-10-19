@@ -87,8 +87,8 @@ export const renovacaoAvcbContent = {
       { nome: "Renovação para Igreja", href: "/renovacao-avcb-igreja-sao-paulo" },
       { nome: "Renovação para Galpão Industrial", href: "/renovacao-avcb-galpao-industrial-sao-paulo" },
       { nome: "Renovação para Casa de Repouso", href: "/renovacao-avcb-casa-de-repouso-sao-paulo" },
-      { nome: "Renovação para Hostel", href: "/renovacao-avcb-hostel-sao-paulo" },
-      { nome: "Renovação para Motel", href: "/renovacao-avcb-motel-sao-paulo" },
+      { nome: "Renovação para Hostel", href: "/avcb-hostel-sao-paulo#alvara-laudos-renovacao" },
+      { nome: "Renovação para Motel", href: "/avcb-motel-sao-paulo#alvara-laudos-renovacao" },
     ]
   },
   h2_escolher: {

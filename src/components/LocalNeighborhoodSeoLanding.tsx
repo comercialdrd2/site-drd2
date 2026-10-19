@@ -23,6 +23,12 @@ import NeighborhoodSilo from "@/components/NeighborhoodSilo";
 import { bairrosCondominio } from "@/data/bairros-renovacao";
 import { cidadesExpansao } from "@/data/expansao-cidades";
 import { getLocalNeighborhoodDeepDive } from "@/data/localNeighborhoodDeepDive";
+import { foiReunida } from "@/lib/paginasReunidas";
+
+// "Diadema e Mauá", "Osasco, Barueri e Carapicuíba"
+function listaComE(itens: string[]) {
+  return itens.length < 2 ? itens.join("") : `${itens.slice(0, -1).join(", ")} e ${itens[itens.length - 1]}`;
+}
 
 // "na Zona Leste", "no Centro", "no Centro Expandido"
 function zoneWithArticle(zone: string) {
@@ -82,6 +88,21 @@ function pageCopy(neighborhood: LocalNeighborhoodSeoPage, mode: Mode) {
         pillarLabel: "AVCB para Condomínio",
       };
     default:
+      // Página regional (etapa 2 da fusão): atende também as cidades vizinhas que entraram nela.
+      if (n.regiao) {
+        return {
+          isRenewal: false,
+          docName: "AVCB",
+          slug: `/avcb-${n.slug}`,
+          title: `AVCB em ${n.regiao.titulo} | Regularização Bombeiros`,
+          description: `AVCB e CLCB em ${n.regiao.lista}: diagnóstico, projeto, laudos com ART e acompanhamento no Corpo de Bombeiros.`,
+          h1: `AVCB em ${n.regiao.titulo}: regularização com engenheiro`,
+          serviceName: `AVCB em ${n.regiao.titulo}`,
+          hero: `Regularização de AVCB e CLCB em ${n.regiao.lista}, com diagnóstico técnico, projeto, laudos, ARTs e acompanhamento junto ao Corpo de Bombeiros.`,
+          pillarHref: "/avcb-sao-paulo",
+          pillarLabel: "AVCB São Paulo",
+        };
+      }
       return {
         isRenewal: false,
         docName: "AVCB",
@@ -276,11 +297,46 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
         </div>
       </section>
 
+      {mode === "avcb" && neighborhood.regiao && (
+        <section id="cidades-atendidas" className="scroll-mt-28 py-16 bg-white border-t border-slate-100">
+          <div className="container mx-auto px-4 max-w-6xl">
+            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-6 border-l-4 border-red-600 pl-6 uppercase italic tracking-tight leading-none">
+              Cidades atendidas nesta página
+            </h2>
+            <p className="text-lg text-slate-700 leading-relaxed font-medium max-w-3xl mb-6">
+              Esta página reúne o atendimento de {neighborhood.name} e das cidades vizinhas: {listaComE(neighborhood.regiao.cidades)}. O caminho no Corpo de Bombeiros é o mesmo em todas: enquadramento do imóvel, projeto quando necessário, laudos com ART e acompanhamento até a vistoria.
+            </p>
+            <ul className="flex flex-wrap gap-3">
+              {[neighborhood.name, ...neighborhood.regiao.cidades].map((cidade) => (
+                <li key={cidade} className="inline-flex items-center gap-2 bg-slate-50 border border-slate-200 px-4 py-2 rounded-xl font-bold text-slate-800">
+                  <MapPin className="w-4 h-4 text-red-600" aria-hidden="true" /> {cidade}
+                </li>
+              ))}
+            </ul>
+            {(neighborhood.regiao.paginasProprias ?? []).filter((p) => !foiReunida(p.href)).length > 0 && (
+              <p className="mt-6 text-slate-700 font-medium">
+                Também têm página própria:{" "}
+                {(neighborhood.regiao.paginasProprias ?? [])
+                  .filter((p) => !foiReunida(p.href))
+                  .map((p, i, arr) => (
+                    <React.Fragment key={p.href}>
+                      <Link prefetch={false} href={p.href} className="text-red-700 font-black underline">
+                        {p.label}
+                      </Link>
+                      {i < arr.length - 1 ? " e " : "."}
+                    </React.Fragment>
+                  ))}
+              </p>
+            )}
+          </div>
+        </section>
+      )}
+
       <section className="py-20 bg-slate-50 border-y border-slate-200">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center mb-14">
             <h2 className="text-3xl md:text-5xl font-black text-slate-900 uppercase italic tracking-tighter">
-              Tipos de imóvel mais comuns no bairro
+              Tipos de imóvel mais comuns {neighborhood.regiao ? "na região" : "no bairro"}
             </h2>
             <p className="text-lg text-slate-600 font-medium max-w-3xl mx-auto mt-4">
               Cada tipo de ocupação muda o enquadramento, os laudos e o prazo. Por isso analisamos cada imóvel individualmente antes de protocolar no Corpo de Bombeiros.
@@ -512,7 +568,7 @@ export default function LocalNeighborhoodSeoLanding({ neighborhood, mode, useRic
                   { label: "AVCB São Paulo", href: "/avcb-sao-paulo" },
                   { label: "Renovação AVCB", href: "/renovacao-avcb" },
                   { label: "Projeto de incêndio", href: "/projetos-incendio" },
-                  { label: "Laudo Bombeiro", href: "/laudo-bombeiro-escritorio-sao-paulo" },
+                  { label: "Documentos do AVCB", href: "/documentos-necessarios-avcb-sao-paulo" },
                   { label: "Alarme de incêndio", href: "/alarme-incendio-sao-paulo" },
                   { label: "SPDA", href: "/spda" },
                   { label: "Hidrantes", href: "/hidrantes" },

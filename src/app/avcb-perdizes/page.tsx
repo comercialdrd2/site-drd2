@@ -123,7 +123,7 @@ const data: UniversalPageData = {
       "label": "Renovação de AVCB de condomínio em São Paulo"
     },
     {
-      "href": "/renovacao-clcb-zona-oeste-sao-paulo",
+      "href": "/renovacao-clcb-sao-paulo",
       "label": "Renovação de CLCB na Zona Oeste"
     },
     {

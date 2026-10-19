@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { tiposDeImovel } from "@/data/hubImoveis";
+import { foiReunida } from "@/lib/paginasReunidas";
 
 // Liga entre si todas as páginas do mesmo tipo de imóvel (AVCB, renovação,
 // laudo, alvará, projeto, sistemas...). Sem isso, páginas como "renovação de
@@ -37,7 +38,8 @@ export default function OcupacaoServicosLinks({ currentSlug }: { currentSlug: st
   const slug = currentSlug.replace(/\/$/, "");
   const grupo = tiposDeImovel.find((g) => g.links.some((l) => l.href === slug));
   if (!grupo) return null;
-  const outros = grupo.links.filter((l) => l.href !== slug);
+  // Páginas que entraram em outra (fusão) não aparecem na lista.
+  const outros = grupo.links.filter((l) => l.href !== slug && !foiReunida(l.href));
   if (outros.length === 0) return null;
 
   return (

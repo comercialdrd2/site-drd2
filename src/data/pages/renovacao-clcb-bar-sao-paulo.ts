@@ -66,7 +66,7 @@ export const renovacaoClcbBarContent = {
   linksInternos: [
     { label: "Renovação de CLCB em São Paulo", href: "/renovacao-clcb-sao-paulo" },
     { label: "CLCB em São Paulo", href: "/clcb-sao-paulo" },
-    { label: "Renovação CLCB para Restaurante", href: "/renovacao-clcb-restaurante-sao-paulo" },
+    { label: "AVCB para restaurante", href: "/avcb-restaurante-sao-paulo" },
     { label: "Renovação CLCB para Salão de Beleza", href: "/renovacao-clcb-salao-beleza-sao-paulo" },
   ],
 };

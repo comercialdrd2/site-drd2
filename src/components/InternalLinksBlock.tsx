@@ -101,7 +101,7 @@ export default function InternalLinksBlock({
     const data = (linksData.bairroParaOcupacoes as Record<string, any>)[currentSlug];
     if (!data) return null;
 
-    const ocupacoes = data.ocupacoes.slice(0, maxLinks);
+    const ocupacoes = data.ocupacoes.filter((o: any) => !foiReunida(o.ocupacaoSlug)).slice(0, maxLinks);
     const tituloFinal = titulo ?? `Serviços de AVCB em ${data.label}`;
 
     return (

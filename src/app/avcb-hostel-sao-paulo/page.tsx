@@ -18,6 +18,7 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
+import FusaoEtapa2Trecho from "@/components/FusaoEtapa2Trecho";
 export const metadata = {
   title: c.meta.title,
   description: c.meta.description,
@@ -418,6 +419,7 @@ export default function AVCBHostelPage() {
         currentSlug="/avcb-hostel-sao-paulo"
       />
 
+      <FusaoEtapa2Trecho slug="/avcb-hostel-sao-paulo" />
 
 
       <OccupationDepthBlock

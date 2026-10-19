@@ -18,6 +18,7 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
+import FusaoEtapa2Trecho from "@/components/FusaoEtapa2Trecho";
 const _pageTitle = "AVCB para Farmácias e Drogarias em São Paulo";
 const _pageDesc = "Farmácia sem AVCB válido trava a renovação do CMVS na Vigilância Sanitária. Grupo C-2, laudo de exaustão e extintores. DRD2 Engenharia regulariza.";
 
@@ -494,6 +495,7 @@ export default function AVCBFarmaciaMasterPage() {
         currentSlug="/avcb-farmacia-drogaria-sao-paulo"
       />
 
+      <FusaoEtapa2Trecho slug="/avcb-farmacia-drogaria-sao-paulo" />
 
 
       <OccupationDepthBlock

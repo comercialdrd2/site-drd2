@@ -19,6 +19,7 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
+import FusaoEtapa2Trecho from "@/components/FusaoEtapa2Trecho";
 export const metadata = {
   title: servicesData["avcb-para-creche-sao-paulo"].metaTitle,
   description: servicesData["avcb-para-creche-sao-paulo"].metaDescription,
@@ -500,6 +501,7 @@ export default function AVCBCrechePage() {
       <ServiceClusterLinks currentSlug="/avcb-para-creche-sao-paulo" />
       <ServiceBlogLinks currentSlug="/avcb-para-creche-sao-paulo" />
 
+      <FusaoEtapa2Trecho slug="/avcb-para-creche-sao-paulo" />
 
       <OccupationDepthBlock
         occupation="Creche"

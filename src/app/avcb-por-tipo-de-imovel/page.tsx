@@ -3,7 +3,13 @@ import { Building2 } from "lucide-react";
 import type { Metadata } from "next";
 import BreadcrumbNav from "@/components/BreadcrumbNav";
 import CtaWhatsApp from "@/components/CtaWhatsApp";
-import { tiposDeImovel } from "@/data/hubImoveis";
+import { tiposDeImovel as tiposBase } from "@/data/hubImoveis";
+import { foiReunida } from "@/lib/paginasReunidas";
+
+// Tira os links das páginas que entraram em outra (etapa 2 da fusão, 19/10/2026).
+const tiposDeImovel = tiposBase
+  .map((g) => ({ ...g, links: g.links.filter((l) => !foiReunida(l.href)) }))
+  .filter((g) => g.links.length > 0);
 
 const titulo = "AVCB por tipo de imóvel: exigências para cada ocupação";
 const descricao =

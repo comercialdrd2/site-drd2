@@ -13,6 +13,7 @@ import { avcbNicheMapLinks } from "@/data/avcbNichePages";
 import { blogPosts } from "@/data/blog";
 
 import type { Metadata } from "next";
+import { foiReunida } from "@/lib/paginasReunidas";
 
 export const metadata: Metadata = {
   title: "Mapa de Páginas",
@@ -455,7 +456,9 @@ const clusterPortaCortaFogo = [
   { label: "Troca de Mola Hidráulica Porta Corta-Fogo SP", href: "/troca-mola-hidraulica-porta-corta-fogo-sp" },
 ];
 
-function Section({ title, color, items }: { title: string; color: string; items: { label: string; href: string }[] }) {
+function Section({ title, color, items: todos }: { title: string; color: string; items: { label: string; href: string }[] }) {
+  // Páginas que entraram em outra não aparecem no mapa.
+  const items = todos.filter((item) => !foiReunida(item.href));
   return (
     <div className="mb-10">
       <h2 className={`text-xs font-black uppercase tracking-[0.2em] mb-4 px-4 py-2 rounded-full inline-block ${color}`}>

@@ -73,7 +73,7 @@ const occupationProfiles: Record<string, {
     systems: ["IT-11: saídas e lotação", "IT-21: extintor classe K para cozinha", "IT-20: sinalização", "IT-28: GLP com ART", "IT-25: combustíveis líquidos quando houver"],
     prazo: "20 a 45 dias para CLCB sem pendências; 45 a 90 dias com adequação de gás, coifa ou extintor",
     links: [
-      { label: "renovação CLCB para restaurante", href: "/renovacao-clcb-restaurante-sao-paulo" },
+      { label: "renovação de CLCB", href: "/renovacao-clcb-sao-paulo" },
       { label: "laudo de estanqueidade de gás", href: "/laudo-estanqueidade-gas-sao-paulo" },
       { label: "AVCB ou CLCB — qual preciso?", href: "/blog/diferenca-entre-avcb-e-clcb" },
     ],
@@ -87,7 +87,7 @@ const occupationProfiles: Record<string, {
     links: [
       { label: "renovação CLCB para clínica médica", href: "/renovacao-clcb-clinica-sao-paulo" },
       { label: "renovação CLCB para odontológica", href: "/renovacao-clcb-odontologica-sao-paulo" },
-      { label: "renovação CLCB para fisioterapia", href: "/renovacao-clcb-fisioterapia-sao-paulo" },
+      { label: "renovação de CLCB", href: "/renovacao-clcb-sao-paulo" },
     ],
   },
   // AVCB Hotel/Pousada/Motel/Hostel — grupo B
@@ -109,7 +109,7 @@ const occupationProfiles: Record<string, {
     systems: ["IT-11: rotas com largura compatível com macas", "IT-22: hidrantes em todos os andares", "IT-19: alarme com detecção precoce em quartos", "IT-23: sprinkler obrigatório", "IT-17: brigada 24h treinada", "IT-29: gases medicinais com ART"],
     prazo: "90 a 180 dias para hospitais com projeto atualizado; 180 a 365 dias quando há ampliação ou compartimentação nova",
     links: [
-      { label: "renovação AVCB para hospital", href: "/renovacao-avcb-hospital-clinica-sao-paulo" },
+      { label: "renovação de AVCB", href: "/renovacao-avcb" },
       { label: "sistema de alarme para hospital", href: "/alarme-de-incendio-hospital-clinica-sp" },
       { label: "sprinkler para hospital", href: "/sistema-sprinkler-hospital-avcb-sp" },
     ],
@@ -133,7 +133,7 @@ const occupationProfiles: Record<string, {
     systems: ["IT-25: armazenagem de combustivel", "NBR 5419: SPDA reforçado", "IT-22: hidrantes com vazão majorada", "IT-21: extintores em todas as bombas + conveniência", "IT-17: brigada treinada para combustivel"],
     prazo: "90 a 180 dias para postos com projeto recente; 180 a 365 dias quando há substituição de tanque ou ampliação",
     links: [
-      { label: "renovação AVCB para posto", href: "/renovacao-avcb-posto-combustivel-sao-paulo" },
+      { label: "renovação de AVCB", href: "/renovacao-avcb" },
       { label: "SPDA", href: "/spda" },
       { label: "AVCB para posto de combustivel", href: "/avcb-posto-combustivel-sao-paulo" },
     ],
@@ -157,7 +157,7 @@ const occupationProfiles: Record<string, {
     systems: ["IT-11: saidas dimensionadas para lotação", "IT-22: hidrantes em prédios acima de determinada altura", "IT-19: alarme com cobertura por andar", "IT-21: extintores distribuidos por sala", "IT-18: iluminação de emergência em corredores"],
     prazo: "45 a 90 dias para escritórios com projeto existente; 90 a 180 dias com reforma interna ou troca de cabeamento",
     links: [
-      { label: "renovação AVCB para escritório", href: "/renovacao-avcb-escritorio-sao-paulo" },
+      { label: "renovação de AVCB", href: "/renovacao-avcb" },
       { label: "alarme para comercial/escritório", href: "/alarme-de-incendio-comercial-escritorio-sp" },
       { label: "AVCB para escritório", href: "/avcb-para-escritorio-sao-paulo" },
     ],

@@ -90,8 +90,6 @@ export default function Footer() {
               <li><Link prefetch={false} href="/avcb-estacionamento-garagem-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Estacionamentos</Link></li>
               <li><Link prefetch={false} href="/renovacao-avcb-restaurante-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Renovação AVCB Restaurante</Link></li>
               <li><Link prefetch={false} href="/renovacao-avcb-pousada-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Renovação AVCB Pousada</Link></li>
-              <li><Link prefetch={false} href="/renovacao-avcb-shopping-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Renovação AVCB Shopping</Link></li>
-              <li><Link prefetch={false} href="/renovacao-avcb-casa-noturna-boate-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Renovação AVCB Casa Noturna</Link></li>
               <li><Link prefetch={false} href="/laudo-sprinkler-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Laudo de Sprinkler SP</Link></li>
               <li><Link prefetch={false} href="/porta-corta-fogo-condominio-sp" className="hover:text-primary transition-colors flex items-center gap-2">▶ Porta Corta-Fogo Condomínio</Link></li>
               <li><Link prefetch={false} href="/sistema-de-hidrantes-para-restaurante-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Hidrante para Restaurante</Link></li>

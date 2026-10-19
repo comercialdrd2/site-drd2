@@ -18,6 +18,7 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
+import FusaoEtapa2Trecho from "@/components/FusaoEtapa2Trecho";
 const _pageTitle = "AVCB para Padaria em São Paulo";
 const _pageDesc = "AVCB para padaria em São Paulo: Grupo F-3, IT-11, supressão em coifa, central de GLP e Extintor Classe K. Resposta a Comunique-se incluída. DRD2 — do projeto à instalação.";
 
@@ -480,6 +481,7 @@ export default function AVCBPadariaMasterPage() {
         currentSlug="/avcb-para-padaria-sao-paulo"
       />
 
+      <FusaoEtapa2Trecho slug="/avcb-para-padaria-sao-paulo" />
 
 
       <OccupationDepthBlock

@@ -21,6 +21,7 @@ import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
+import FusaoEtapa2Trecho from "@/components/FusaoEtapa2Trecho";
 const _pageTitle = "AVCB para Hospital e Clínica em SP";
 const _pageDesc = "AVCB para hospitais, clínicas e consultórios em São Paulo. Regularização conforme ITs do CBPMESP e VISA. Aprovação garantida. Diagnóstico técnico gratuito. DRD2 Engenharia.";
 
@@ -621,6 +622,7 @@ export default function AVCBHospitalMasterPage() {
         currentSlug="/avcb-hospital-clinica-sao-paulo"
       />
 
+      <FusaoEtapa2Trecho slug="/avcb-hospital-clinica-sao-paulo" />
 
 
       <OccupationDepthBlock
