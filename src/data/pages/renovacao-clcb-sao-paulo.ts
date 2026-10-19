@@ -1,12 +1,12 @@
 export const renovacaoClcbContent = {
   meta: {
-    title: "Renovação de CLCB em SP: vencido ou vencendo | DRD2",
+    title: "Como renovar o CLCB em SP (vencido ou vencendo) | DRD2",
     description: "CLCB vencido ou perto de vencer? Conferimos documentos e sistemas, fazemos o pedido no Via Fácil Bombeiros e acompanhamos até o novo CLCB. Fale pelo WhatsApp.",
     canonical: "/renovacao-clcb-sao-paulo",
   },
   intro: [
-    "O CLCB tem prazo de validade definido pelo CBPMESP e, quando vence, o estabelecimento fica irregular — sujeito a autuação, multa e interdição imediata em qualquer fiscalização. Renovar o CLCB dentro do prazo é obrigação legal e a única forma de manter seu alvará de funcionamento ativo e sua operação protegida.",
-    "A DRD2 Engenharia é especializada em renovação de CLCB em São Paulo, com processo simplificado desde o diagnóstico técnico até a retirada do novo certificado — sem burocracia e sem surpresas.",
+    "Para renovar o CLCB: confira se o uso e a área do imóvel continuam os mesmos, deixe extintores, sinalização e iluminação de emergência em dia, faça o pedido no Via Fácil Bombeiros e acompanhe até o novo certificado. A DRD2 cuida de cada etapa com você.",
+    "Se o CLCB já venceu, a renovação segue o mesmo caminho: quanto antes começar, menos tempo o imóvel fica irregular. Envie a foto do CLCB atual pelo WhatsApp e dizemos o que precisa.",
   ],
   h2_prazo: {
     heading: "Qual é o Prazo de Validade do CLCB em São Paulo?",
@@ -14,19 +14,19 @@ export const renovacaoClcbContent = {
   },
   h2_acontece: {
     heading: "O que Acontece com CLCB Vencido em São Paulo?",
-    intro: "CLCB vencido tem o mesmo efeito legal de CLCB inexistente para fins de fiscalização. As consequências são imediatas:",
+    intro: "Para a fiscalização, CLCB vencido equivale a não ter CLCB. O que pode acontecer:",
     itens: [
       {
         titulo: "Interdição do estabelecimento",
-        desc: "O Corpo de Bombeiros pode interditar o local em qualquer vistoria de rotina ou motivada por denúncia, sem aviso prévio.",
+        desc: "O Corpo de Bombeiros pode interditar o local se encontrar risco em uma fiscalização, de rotina ou por denúncia.",
       },
       {
         titulo: "Multa administrativa",
-        desc: "Autuação com multa proporcional ao tempo de irregularidade e ao porte do estabelecimento.",
+        desc: "Autuação com multa, conforme a legislação estadual.",
       },
       {
-        titulo: "Cancelamento do alvará de funcionamento",
-        desc: "A Prefeitura de São Paulo pode cancelar o alvará de funcionamento de estabelecimentos com CLCB vencido mediante comunicação do Corpo de Bombeiros.",
+        titulo: "Problemas com o alvará de funcionamento",
+        desc: "Pedidos e renovações que dependem da licença do Corpo de Bombeiros podem travar enquanto o CLCB estiver vencido.",
       },
       {
         titulo: "Impedimento de renovação de licenças",
@@ -117,7 +117,7 @@ export const renovacaoClcbContent = {
   },
   h2_escolher: {
     heading: "Por que Escolher a DRD2 para Renovar seu CLCB em SP",
-    body1: "A DRD2 Engenharia tem histórico comprovado de aprovação junto ao CBPMESP, com processos conduzidos sem exigências desnecessárias e com total acompanhamento técnico do início ao fim. Nossa equipe conhece as exigências do processo simplificado de CLCB e antecipa os pontos críticos antes do protocolo.",
+    body1: "A DRD2 Engenharia conduz a renovação com engenheiro responsável do início ao fim e confere os pontos que mais geram exigência antes do pedido no Via Fácil Bombeiros.",
     body2: "Atendemos São Paulo capital e toda a Grande SP, com engenheiros disponíveis para visita técnica gratuita em qualquer região.",
   },
   h2_cobertura: {
@@ -151,6 +151,7 @@ export const renovacaoClcbContent = {
   },
   linksInternos: [
     { label: "CLCB em São Paulo", href: "/clcb-sao-paulo" },
+    { label: "Como emitir o CLCB em São Paulo, passo a passo", href: "/blog/como-emitir-clcb-em-sao-paulo-passo-a-passo" },
     { label: "AVCB ou CLCB: qual preciso?", href: "/blog/diferenca-entre-avcb-e-clcb" },
     { label: "Renovação de AVCB em São Paulo", href: "/renovacao-avcb" },
     { label: "Quanto Custa o AVCB em São Paulo?", href: "/quanto-custa-avcb-sao-paulo" },

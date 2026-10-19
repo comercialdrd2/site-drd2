@@ -12,6 +12,7 @@ import ServiceClusterLinks from "@/components/ServiceClusterLinks";
 import ServiceBlogLinks from "@/components/ServiceBlogLinks";
 import TrustBar from "@/components/TrustBar";
 import CtaWhatsApp from "@/components/CtaWhatsApp";
+import TrackedWhatsAppLink from "@/components/TrackedWhatsAppLink";
 import BreadcrumbNav from "@/components/BreadcrumbNav";
 import RichText from "@/components/RichText";
 import { renovacaoAvcbCondominioContent as c } from "@/data/pages/renovacao-avcb-condominio-sao-paulo";
@@ -39,6 +40,7 @@ const verificadoIcons: Record<string, React.ReactNode> = {
 
 export default function RenovacaoAVCBCondominioPage() {
   const whatsappLink = `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}`;
+  const whatsappCondominio = `${whatsappLink}?text=${encodeURIComponent("Olá! Quero renovar o AVCB do condomínio. Vou enviar o AVCB atual e o número de torres.")}`;
 
   return (
     <>
@@ -77,18 +79,19 @@ export default function RenovacaoAVCBCondominioPage() {
               
               <span className="text-white">RENOVAÇÃO DE AVCB</span>{" "}
               <span className="text-red-600 not-italic text-2xl md:text-3xl lg:text-3xl mt-2 block drop-shadow-2xl">
-                PARA CONDOMÍNIO EM SP
+                PARA CONDOMÍNIO EM SÃO PAULO
               </span>
             
             </h1>
             <p className="text-base md:text-lg lg:text-xl text-gray-200 mb-4 leading-relaxed font-medium max-w-2xl" dangerouslySetInnerHTML={{ __html: c.intro[0] }} />
             <div className="flex flex-col sm:flex-row gap-5">
-              <a 
-                href={whatsappLink} 
+              <TrackedWhatsAppLink
+                href={whatsappCondominio}
+                source="hero_cta"
                 className="bg-[#25D366] hover:bg-[#1EBE5A] hover:text-white text-white font-black px-8 py-3 rounded-2xl text-lg transition-all shadow-2xl flex items-center justify-center gap-3 border-2 border-[#25D366] w-full sm:w-auto"
               >
-                <Phone className="w-6 h-6" /> QUERO RENOVAR DO MEU CONDOMÍNIO
-              </a>
+                <Phone className="w-6 h-6" /> ENVIAR O AVCB ATUAL
+              </TrackedWhatsAppLink>
             </div>
           </div>
         </div>
@@ -440,7 +443,7 @@ export default function RenovacaoAVCBCondominioPage() {
       <section className="py-24 bg-slate-900 text-center border-y border-slate-800">
         <div className="container mx-auto px-4 max-w-4xl text-white">
           <p className="text-2xl md:text-4xl font-black uppercase italic tracking-tight mb-6">
-            Já renovamos centenas de AVCBs de condomínios em São Paulo.
+            Renovação do AVCB do condomínio, do diagnóstico ao novo certificado.
           </p>
           <p className="text-xl text-slate-300 font-medium mb-10 italic">
             Fale com um engenheiro e receba seu diagnóstico de renovação gratuito.
@@ -478,7 +481,7 @@ export default function RenovacaoAVCBCondominioPage() {
       <ServiceClusterLinks currentSlug="/renovacao-avcb-condominio-sao-paulo" />
       <ServiceBlogLinks currentSlug="/renovacao-avcb-condominio-sao-paulo" />
 
-      <div className="container mx-auto px-4 max-w-4xl text-center py-4 opacity-50"><p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Conteúdo Técnico Atualizado em: Maio de 2026</p></div>
+      <div className="container mx-auto px-4 max-w-4xl text-center py-4 opacity-50"><p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Conteúdo Técnico Atualizado em: Outubro de 2026</p></div>
       <NeighborhoodSilo currentSlug="/renovacao-avcb-condominio-sao-paulo" />
 
       {/* ── CTA FINAL ── */}
@@ -487,14 +490,13 @@ export default function RenovacaoAVCBCondominioPage() {
         <div className="container mx-auto px-4 max-w-4xl relative z-10">
           <h2 className="text-4xl md:text-5xl font-black text-white mb-8 tracking-tighter uppercase italic leading-[0.9]" dangerouslySetInnerHTML={{ __html: c.ctaFinal.heading }} />
           <p className="text-xl text-red-100 mb-12 max-w-2xl mx-auto font-medium leading-relaxed italic" dangerouslySetInnerHTML={{ __html: c.ctaFinal.body }} />
-          <a
-            href={whatsappLink}
-            target="_blank"
-            rel="noopener noreferrer"
+          <TrackedWhatsAppLink
+            href={whatsappCondominio}
+            source="service_cta"
             className="animate-alert-pulse bg-[#25D366] text-white font-black px-8 py-4 rounded-2xl text-xl shadow-2xl hover:bg-slate-900 hover:text-white transition-all border-2 border-white min-h-[48px] inline-flex items-center justify-center gap-4 w-full sm:w-auto"
           >
             <Phone className="w-8 h-8 inline" /> {c.ctaFinal.cta.replace("📲 ", "")}
-          </a>
+          </TrackedWhatsAppLink>
           <p className="mt-8 text-xs font-black uppercase tracking-[0.3em] text-red-100 opacity-50">
             DRD2 Engenharia — Renovação de AVCB para Condomínios em São Paulo — Decreto 69.118/2024
           </p>

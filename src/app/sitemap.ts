@@ -200,7 +200,7 @@ function getAllRoutesWithMtime(): Map<string, string> {
     if (REDIRECT_SOURCES.has(route)) continue;
     if (NOINDEX_BLOG_SLUGS.has(post.slug)) continue;
     if (!map.has(route)) {
-      map.set(route, new Date(post.date).toISOString());
+      map.set(route, new Date(post.updated ?? post.date).toISOString());
     }
   }
 

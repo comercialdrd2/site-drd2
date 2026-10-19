@@ -4,17 +4,19 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/hidrante-obrigatorio-avcb-sp",
   meta: {
-    title: "Hidrante é Obrigatório em SP? Quando a IT 22/25 Exige",
-    description: "Descubra quando o sistema de hidrante é obrigatório em SP pela IT 22/25: ocupação, área e altura que determinam a exigência. O que acontece sem o sistema e como regularizar. Diagnóstico gratuito.",
+    title: "Hidrante é obrigatório no meu imóvel? Como saber em SP",
+    description: "Hidrante é obrigatório no seu imóvel? Em SP depende do uso, da área e da altura (Decreto 69.118/2024). Veja como saber e envie a planta para conferirmos.",
   },
   eyebrow: "IT 22/25 — Obrigatoriedade de Hidrante em São Paulo",
   h1Line1: "Hidrante é Obrigatório em SP?",
-  h1Line2: "Quando a IT 22/25 Exige o Sistema para o AVCB",
+  h1Line2: "Como Saber se o Seu Imóvel Precisa para o AVCB",
+  heroCta: "Ver se o hidrante é obrigatório",
+  whatsappText: "Olá! Quero saber se o hidrante é obrigatório no meu imóvel. Uso, área e altura (ou a planta):",
   heroBg: "/images/banner-hero.webp",
   introP1:
-    "A obrigatoriedade do sistema de hidrante em São Paulo é definida pela IT 22/25 do CBPMESP com base em três critérios combinados: o grupo de ocupação da edificação (tipo de uso), a área total construída e a altura da edificação. A maioria dos proprietários e responsáveis técnicos descobre que o hidrante é obrigatório somente quando recebe um Comunique-se do Corpo de Bombeiros — quando o custo de regularização é maior do que o de instalação preventiva. Esta página explica os critérios que determinam a obrigatoriedade para os grupos de ocupação mais comuns em SP.",
+    "Depende de três coisas: o uso do imóvel (grupo de ocupação), a área construída e a altura. Em SP, quem define é o Decreto Estadual nº 69.118/2024: ele tem uma tabela de exigências para edificações com até 750 m² e até 12 m de altura e outras tabelas para as maiores ou mais altas. Quando o hidrante entra na lista, a IT 22/2025 diz como o sistema deve ser projetado e instalado.",
   introP2:
-    "A DRD2 realiza diagnóstico técnico gratuito que inclui o enquadramento correto da edificação na IT 22/25, a verificação de obrigatoriedade e a apresentação de escopo e prazo para regularização com AVCB.",
+    "Envie a planta, ou a área, a altura e o uso do imóvel, pelo WhatsApp: a DRD2 faz o enquadramento sem custo e diz se o hidrante é obrigatório no seu caso, com escopo e prazo para regularizar.",
   breadcrumbs: [
     { label: "Home", href: "/" },
     { label: "Hidrantes", href: "/hidrantes" },
@@ -23,9 +25,9 @@ const data: UniversalPageData = {
   occupationType: "comercial",
   h2_principal: {
     heading: "Quais edificações são obrigadas a ter sistema de hidrante em SP?",
-    body: "A IT 22/25 classifica as edificações em grupos de ocupação (A a M) e define, para cada grupo, os limites de área e altura que tornam o sistema de hidrante obrigatório. Como regra geral: edificações comerciais (Grupo C), industriais (Grupo G), de serviços (Grupo D), de saúde (Grupo H) e garagens (Grupo I) são as que mais frequentemente atingem os limites que tornam o hidrante obrigatório. Edificações residenciais multifamiliares (Grupo A-2) também atingem esses limites a partir de determinado número de pavimentos.",
+    body: "O Decreto Estadual nº 69.118/2024 classifica as edificações em grupos de ocupação, de A (residencial) a M (especial), e as tabelas do decreto dizem quais medidas de segurança cada uma precisa, conforme a área e a altura. A IT 22/2025 (Sistemas de hidrantes e de mangotinhos para combate a incêndio) traz as regras técnicas do sistema.",
     body2:
-      "Duas situações tornam o hidrante obrigatório independentemente da área: (1) edificações com risco especial de incêndio — como postos de combustível (Grupo J), indústrias com produtos inflamáveis (Grupo G-3/G-4) e depósitos de gás (Grupo M); (2) edificações de uso público com grande concentração de pessoas — como shoppings, teatros, estádios e hospitais, que são obrigados independentemente de atingirem o limite mínimo de área. Para esses grupos, o sistema de hidrante é condição sine qua non para o AVCB.",
+      "Não dá para responder só pelo tipo de negócio: dois imóveis com o mesmo uso podem ter exigências diferentes por causa da área, da altura e da carga de incêndio. Por isso o enquadramento é feito com a planta e os dados do imóvel.",
   },
   h2_riscos: {
     heading: "O que acontece quando o sistema de hidrante obrigatório não está instalado",
@@ -42,7 +44,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Interdição do estabelecimento",
-        desc: "O CBPMESP tem poder para interditar estabelecimentos que representem risco iminente — situação que inclui edificações com grande ocupação pública sem sistema de hidrante instalado. A interdição é imediata e publicada.",
+        desc: "O CBPMESP tem poder para interditar estabelecimentos que representem risco iminente — situação que inclui edificações com grande ocupação pública sem sistema de hidrante instalado.",
       },
       {
         titulo: "Responsabilidade civil do proprietário em caso de sinistro",
@@ -64,17 +66,17 @@ const data: UniversalPageData = {
       {
         numero: "ETAPA 01",
         titulo: "Identificação do grupo de ocupação",
-        desc: "O grupo de ocupação é definido pelo uso principal da edificação: comércio varejista (C), indústria (G), serviços (D), saúde (H), residencial (A), etc. Edificações com usos mistos têm o grupo definido pelo uso predominante ou pelo mais restritivo.",
+        desc: "O grupo de ocupação é definido pelo uso principal da edificação: comércio (C), indústria (I), serviço profissional (D), saúde (H), residencial (A), etc. Edificações com usos mistos têm o grupo definido pelo uso predominante ou pelo mais restritivo.",
       },
       {
         numero: "ETAPA 02",
         titulo: "Verificação de área e altura",
-        desc: "A área total construída e a altura da edificação determinam se os limites da IT 22/25 para o grupo de ocupação são atingidos. A área é calculada pela soma de todos os pavimentos — não apenas o pavimento maior.",
+        desc: "A área total construída e a altura da edificação dizem qual tabela do decreto vale e se o hidrante é exigido para o grupo de ocupação. A área é calculada pela soma de todos os pavimentos — não apenas o pavimento maior.",
       },
       {
         numero: "ETAPA 03",
         titulo: "Diagnóstico técnico gratuito",
-        desc: "A DRD2 realiza o enquadramento correto na IT 22/25, verifica a obrigatoriedade do sistema de hidrante e identifica se há sistema existente e se ele ainda está em conformidade.",
+        desc: "A DRD2 faz o enquadramento pelo Decreto 69.118/2024, verifica se o hidrante é obrigatório e confere se o sistema existente ainda está em conformidade com a IT 22/2025.",
       },
       {
         numero: "ETAPA 04",
@@ -94,36 +96,44 @@ const data: UniversalPageData = {
     ],
   },
   h2_detalhes: {
-    heading: "Grupos de ocupação com maior frequência de obrigatoriedade de hidrante em SP",
+    heading: "Como o decreto classifica os imóveis mais comuns",
     body1:
-      "Os grupos de ocupação listados abaixo são os que mais frequentemente atingem os critérios de obrigatoriedade de sistema de hidrante conforme a IT 22/25. O enquadramento correto depende da área, altura e características específicas de cada edificação.",
+      "Veja como o Decreto Estadual nº 69.118/2024 classifica alguns dos imóveis mais comuns. O enquadramento é o primeiro passo para saber se o hidrante é exigido: depois entram a área, a altura e as características de cada edificação.",
     alerta:
       "Reforma, ampliação ou mudança de uso que altere o grupo de ocupação ou a área total da edificação pode tornar o sistema de hidrante obrigatório mesmo que não fosse antes — ou exigir adequação do sistema existente ao novo porte.",
     itens: [
       {
-        titulo: "Grupo C — Comércio varejista e atacadista",
-        desc: "Supermercados, lojas de departamento, shoppings, atacadistas e hipermercados. Grupo C-2 (grande porte) é obrigado a ter sistema de hidrante independentemente de outros critérios. Grupo C-1 (pequeno porte) atinge a obrigatoriedade a partir de determinada área total.",
+        titulo: "Grupo A — Residencial",
+        desc: "A-2 (habitação multifamiliar): edifícios de apartamento em geral, como os condomínios verticais. A área e a altura do prédio definem se o hidrante entra.",
       },
       {
-        titulo: "Grupo G — Industrial",
-        desc: "Indústrias, galpões de produção e centros de distribuição. Grupos G-3 e G-4 (com produtos inflamáveis e explosivos) são obrigados independentemente de área. G-1 e G-2 atingem a obrigatoriedade a partir dos limites de área da IT 22/25.",
+        titulo: "Grupo C — Comercial",
+        desc: "C-1 (comércio com baixa carga de incêndio), C-2 (média e alta carga, como supermercados, lojas de departamento e galerias) e C-3 (shopping center).",
       },
       {
-        titulo: "Grupo H — Saúde e internação",
-        desc: "Hospitais, clínicas com internação, casas de repouso e estabelecimentos similares. O Grupo H exige sistema de hidrante para praticamente todas as edificações do grupo em SP — com requisitos adicionais pela ANVISA RDC 50.",
+        titulo: "Grupo I — Indústria",
+        desc: "I-1, I-2 e I-3, conforme a carga de incêndio: até 300 MJ/m², de 300 a 1.200 MJ/m² e acima de 1.200 MJ/m².",
       },
       {
-        titulo: "Grupo I — Garagens e estacionamentos",
-        desc: "Estacionamentos cobertos, garagens comerciais e subsolos de qualquer edificação com veículos. Garagens cobertas acima da área mínima da IT 22/25 são obrigadas independentemente do uso das demais áreas da edificação.",
+        titulo: "Grupo G — Serviço automotivo",
+        desc: "G-1 e G-2 (garagens sem e com acesso de público, sem abastecimento) e G-3 (locais com abastecimento de combustível, como postos).",
+      },
+      {
+        titulo: "Grupo H — Saúde e institucional",
+        desc: "H-3 (hospitais e clínicas com internação) e H-6 (clínicas e consultórios), entre outras divisões.",
+      },
+      {
+        titulo: "Grupo J — Depósito",
+        desc: "J-1 a J-4, do depósito de material incombustível ao depósito com alta carga de incêndio.",
       },
     ],
     closing:
-      "A DRD2 realiza o enquadramento correto da sua edificação na IT 22/25 gratuitamente, verifica a obrigatoriedade e apresenta o caminho mais eficiente para regularização com AVCB.",
+      "A DRD2 faz o enquadramento correto da sua edificação sem custo, verifica a obrigatoriedade e apresenta o caminho mais eficiente para regularização com AVCB.",
   },
   h2_quando: {
     heading: "Quando a obrigatoriedade de hidrante deve ser verificada?",
     body1:
-      "A obrigatoriedade deve ser verificada antes do início de qualquer atividade em edificação nova ou em processo de reforma. Também deve ser verificada após qualquer ampliação de área que possa ultrapassar os limites da IT 22/25 ou após mudança de uso que altere o grupo de ocupação.",
+      "A obrigatoriedade deve ser verificada antes do início de qualquer atividade em edificação nova ou em processo de reforma. Também deve ser verificada após qualquer ampliação de área ou de altura que mude a tabela do decreto aplicável ou após mudança de uso que altere o grupo de ocupação.",
     body2:
       "Ao receber qualquer Comunique-se do CBPMESP sobre sistemas de incêndio, a edificação tem prazo determinado para regularização. Depois do prazo, a autuação pode resultar em interdição imediata. A DRD2 atua com urgência em casos de Comunique-se com prazo próximo ao vencimento.",
   },
@@ -145,7 +155,7 @@ const data: UniversalPageData = {
     {
       question: "Como saber se o meu estabelecimento é obrigado a ter sistema de hidrante?",
       answer:
-        "A obrigatoriedade é definida pela IT 22/25 com base no grupo de ocupação (tipo de uso), na área total construída e na altura da edificação. A forma mais rápida de saber é solicitar o diagnóstico técnico gratuito da DRD2 — o enquadramento correto é feito com base na planta e no uso da edificação.",
+        "A obrigatoriedade sai das tabelas do Decreto Estadual nº 69.118/2024, com base no grupo de ocupação (tipo de uso), na área total construída e na altura da edificação. A forma mais rápida de saber é solicitar o diagnóstico técnico gratuito da DRD2 — o enquadramento correto é feito com base na planta e no uso da edificação.",
     },
     {
       question: "Posso abrir o estabelecimento sem o sistema de hidrante instalado?",
@@ -165,11 +175,12 @@ const data: UniversalPageData = {
     {
       question: "Com que frequência o sistema de hidrante precisa ser renovado para o AVCB?",
       answer:
-        "O AVCB tem validade de 3 anos. Para a renovação, é necessário laudo técnico com ART de manutenção atestando que o sistema está em conformidade com a IT 22/25. A manutenção semestral do sistema é obrigatória e deve ser documentada para compor o laudo de renovação.",
+        "O AVCB tem validade de 3 anos. Para a renovação, é necessário laudo técnico com ART de manutenção atestando que o sistema está em conformidade com a IT 22/25. A manutenção do sistema deve estar em dia e documentada para compor o laudo de renovação.",
     },
   ],
   linksInternos: [
     { href: "/hidrantes", label: "Sistema de Hidrantes em SP" },
+    { href: "/blog/it-22-cbpmesp-quando-hidrante-e-obrigatorio", label: "IT-22: o que diz a norma de hidrantes em SP" },
     { href: "/avcb-sao-paulo", label: "AVCB em São Paulo" },
     { href: "/quanto-custa-sistema-hidrante-sp", label: "Quanto Custa Sistema de Hidrante" },
     { href: "/alarme-incendio-obrigatorio-avcb-sp", label: "Alarme de Incêndio Obrigatório SP" },
@@ -177,7 +188,7 @@ const data: UniversalPageData = {
   ],
   ctaFinal: {
     heading: "VERIFICAR SE HIDRANTE É OBRIGATÓRIO — DIAGNÓSTICO GRATUITO",
-    body: "Enquadramento correto na IT 22/25 sem custo. Escopo, prazo e orçamento para regularização com AVCB.",
+    body: "Enquadramento correto sem custo. Escopo, prazo e orçamento para regularização com AVCB.",
     cta: "Solicitar Diagnóstico Técnico Gratuito",
   },
 };

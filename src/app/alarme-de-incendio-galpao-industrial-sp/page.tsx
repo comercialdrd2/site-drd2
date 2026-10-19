@@ -62,7 +62,7 @@ export default function AlarmeIndustrialPage() {
             <div className="mb-10">
               <ul className="space-y-4 inline-flex flex-col text-left">
                 {[
-                  "Conformidade técnica integral (IT-17/2025)",
+                  "Conformidade técnica integral (IT-19/2025)",
                   "Projetos focados em Indústrias Carga Alta",
                   "Documentação acompanhada até Vistoria Final CBPMESP"
                 ].map((item, id) => (
@@ -88,7 +88,7 @@ export default function AlarmeIndustrialPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Industrial" }]} dark />
+      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviços", href: "/servicos" }, { label: "Alarme Industrial" }]} dark />
       <TrustBar dark />
 
       {/* Alerta Legal Massivo - Exclusivo para Galpões */}
@@ -127,15 +127,13 @@ export default function AlarmeIndustrialPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Industrial" }]} dark />
-      <TrustBar dark />
 
       {/* Solução & Por que Fazer */}
       <section className="py-24 bg-white border-b border-gray-200">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center max-w-3xl mx-auto mb-16">
              <h2 className="text-3xl md:text-4xl font-black text-secondary leading-tight mb-6">
-                O que a IT-17/2025 exige para a aprovação do seu Galpão?
+                O que a IT-19/2025 exige para a aprovação do seu Galpão?
              </h2>
              <p className="text-xl text-gray-600">
                Galpões logísticos, armazéns de produtos inflamáveis ou fábricas têm critérios técnicos específicos pesados. Entregamos além da simples instalação: entregamos a sua Liberação.
@@ -144,7 +142,7 @@ export default function AlarmeIndustrialPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: "Central INMETRO com Backup 24h", desc: "Rede elétrica protegida + bateria com total de 24h de supervisão e 15 min de autonomia em alarme de campo.", Icon: Zap },
+              { title: "Central com Duas Fontes de Alimentação", desc: "Rede elétrica protegida + bateria com total de 24h de supervisão e 15 min de autonomia em alarme de campo.", Icon: Zap },
               { title: "Detecção NBR 17240 Específica", desc: "Instalação dimensionada calculando de ponta a ponta a área de cobertura vs carga de incêndio estática.", Icon: FileCheck },
               { title: "Strobes para Zonas Acima de 105 dBA", desc: "Avisadores VISUAIS vermelhos/brancos imponentes onde a sirene morre no meio dos geradores, obrigatórios na IT-19.", Icon: Siren },
               { title: "Comissionamento Técnico Formal", desc: "Elaboramos todo o relatório atestando funcionamento integral pós-teste com ART, exigido em vistoria presencial.", Icon: HardHat },
@@ -161,8 +159,6 @@ export default function AlarmeIndustrialPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviços", href: "/servicos" }, { label: "Alarme Industrial" }]} dark />
-      <TrustBar dark />
 
       {/* Bloco técnico exclusivo desta página: separa galpão de PRODUÇÃO (risco do processo)
           do centro de distribuição (risco da armazenagem), que tem página própria. */}
@@ -257,8 +253,6 @@ export default function AlarmeIndustrialPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Industrial" }]} dark />
-      <TrustBar dark />
 
       {/* FAQ Com Schema.org */}
       <section className="py-24 bg-gray-50 border-t border-gray-200">
@@ -284,8 +278,6 @@ export default function AlarmeIndustrialPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Industrial" }]} dark />
-      <TrustBar dark />
 
       {/* Mega CTA Final */}
       <section className="py-24 bg-gray-900 text-center relative overflow-hidden text-white border-t-8 border-yellow-500">
@@ -295,7 +287,7 @@ export default function AlarmeIndustrialPage() {
               A Operação do Seu Galpão Não Pode Parar.
             </h2>
             <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-              Solicite nosso Engenheiro e impeça interdições da fiscalização com adequações assertivas na IT-17/2025 de SP. Resolva rapidamente a proteção.
+              Solicite nosso Engenheiro e impeça interdições da fiscalização com adequações assertivas na IT-19/2025 de SP. Resolva rapidamente a proteção.
             </p>
             <a 
               href={whatsappLink}

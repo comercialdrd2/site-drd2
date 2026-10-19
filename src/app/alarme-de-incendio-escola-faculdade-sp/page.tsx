@@ -88,7 +88,7 @@ export default function AlarmeEscolaPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Escola" }]} dark />
+      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviços", href: "/servicos" }, { label: "Alarme Escola" }]} dark />
       <TrustBar dark />
 
       {/* Alerta Legal Massivo - Exclusivo para Escolas */}
@@ -127,8 +127,6 @@ export default function AlarmeEscolaPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Escola" }]} dark />
-      <TrustBar dark />
 
       {/* Solução & Por que Fazer */}
       <section className="py-24 bg-white border-b border-gray-200">
@@ -161,8 +159,6 @@ export default function AlarmeEscolaPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Escola" }]} dark />
-      <TrustBar dark />
 
 
       <div className="container mx-auto px-4 max-w-4xl text-center py-4 opacity-50"><p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Conteúdo Técnico Atualizado em: Maio de 2026</p></div>
@@ -202,8 +198,6 @@ export default function AlarmeEscolaPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Escola" }]} dark />
-      <TrustBar dark />
 
       {/* FAQ Com Schema.org */}
       <section className="py-24 bg-slate-50 border-t border-slate-200">
@@ -229,8 +223,6 @@ export default function AlarmeEscolaPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Escola" }]} dark />
-      <TrustBar dark />
 
       {/* Mega CTA Final */}
       <section className="py-24 bg-slate-900 text-center relative overflow-hidden text-white border-t-8 border-orange-500">

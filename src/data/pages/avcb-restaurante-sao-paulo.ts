@@ -101,7 +101,7 @@ export const avcbRestauranteContent = {
       },
       {
         nome: "Alarme de incêndio",
-        desc: "exigido em restaurantes acima de determinada área, com acionadores manuais e detectores de fumaça conforme IT-17. Detectores específicos para cozinha (resistentes à fumaça de gordura) são exigidos para evitar falsos alarmes.",
+        desc: "exigido em restaurantes acima de determinada área, com acionadores manuais e detectores de fumaça conforme IT-19. Detectores específicos para cozinha (resistentes à fumaça de gordura) são exigidos para evitar falsos alarmes.",
       },
       {
         nome: "Sistema de hidrantes ou mangotinhos",

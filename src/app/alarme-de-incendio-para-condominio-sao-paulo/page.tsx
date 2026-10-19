@@ -56,14 +56,14 @@ export default function AlarmeCondominioPage() {
               {service.h1}: Regularize Antes que o CBPMESP Chegue Primeiro
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed font-medium">
-              A ausência ou irregularidade no sistema de alarme de incêndio bloqueia seu AVCB e pode resultar em <strong className="text-white bg-red-600/30 px-2">multa de até R$ 310 mil</strong>, além de responsabilidade civil pessoal (síndico).
+              A ausência ou irregularidade no sistema de alarme de incêndio bloqueia seu AVCB e pode resultar em <strong className="text-white bg-red-600/30 px-2">multa</strong>, além de responsabilidade civil pessoal (síndico).
             </p>
             
             <div className="mb-10">
               <ul className="space-y-4 inline-flex flex-col text-left">
                 {[
-                  "Projetos adequados à exigência da IT-17/2025",
-                  "Material INMETRO e Atestado de Comissionamento",
+                  "Projetos adequados à exigência da IT-19/2025",
+                  "Duas fontes de alimentação e relatório de comissionamento",
                   "Aprovação ágil para Condomínios Residenciais"
                 ].map((item, id) => (
                   <li key={id} className="flex items-center text-lg text-gray-100 font-medium">
@@ -88,7 +88,7 @@ export default function AlarmeCondominioPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Condomï¿½nio" }]} dark />
+      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviços", href: "/servicos" }, { label: "Alarme Condomínio" }]} dark />
       <TrustBar dark />
 
       {/* Alerta Legal Massivo - Exclusivo para Síndicos */}
@@ -105,12 +105,12 @@ export default function AlarmeCondominioPage() {
                      Atenção Síndico: Risco Jurídico Iminente
                    </h2>
                    <p className="text-xl text-gray-800 font-bold mb-6 leading-relaxed">
-                     Manter o condomínio com o sistema de Alarme de Incêndio irregular ou desatualizado frente à IT-17/2025 acarreta penalidades severas:
+                     Manter o condomínio com o sistema de Alarme de Incêndio irregular ou desatualizado frente à IT-19/2025 acarreta penalidades severas:
                    </p>
                    <ul className="space-y-4">
                      <li className="flex items-center gap-4 text-lg text-gray-700 font-medium">
                        <div className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-red-600 font-bold shrink-0">1</div>
-                       Multa do CBPMESP que pode chegar a <strong>R$ 310.000,00</strong>.
+                       <strong>Multa</strong> aplicada pelo CBPMESP, conforme a legislação estadual.
                      </li>
                      <li className="flex items-center gap-4 text-lg text-gray-700 font-medium">
                        <div className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-red-600 font-bold shrink-0">2</div>
@@ -127,15 +127,13 @@ export default function AlarmeCondominioPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Condomï¿½nio" }]} dark />
-      <TrustBar dark />
 
       {/* Solução & Por que Fazer */}
       <section className="py-24 bg-white border-b border-gray-200">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center max-w-3xl mx-auto mb-16">
              <h2 className="text-3xl md:text-4xl font-black text-secondary leading-tight mb-6">
-                O que a IT-17/2025 exige para a aprovação do seu AVCB?
+                O que a IT-19/2025 exige para a aprovação do seu AVCB?
              </h2>
              <p className="text-xl text-gray-600">
                O Corpo de Bombeiros não aprova mais sistemas obsoletos. Veja a matriz normativa que implementamos para garantir sua regularização.
@@ -144,7 +142,7 @@ export default function AlarmeCondominioPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: "Central CAI Aprovada", desc: "Fornecimento de Central de Alarme (CAI) certificada pelo INMETRO com alimentação dupla (Rede + Bateria Nobreak).", Icon: Zap },
+              { title: "Central CAI Aprovada", desc: "Central de Alarme (CAI) com duas fontes de alimentação: rede elétrica do prédio e bateria ou nobreak.", Icon: Zap },
               { title: "Detecção Normatizada", desc: "Instalação de detectores de fumaça respeitando milimetricamente o raio de cobertura da NBR 17240.", Icon: FileCheck },
               { title: "Sinalização de Rota", desc: "Sirenes e strobes (alertas visuais e sonoros) rigorosamente posicionados nas escadas e rotas de fuga.", Icon: BellRing },
               { title: "Laudo & Comissionamento", desc: "Elaboramos todo o relatório funcional com ART de engenheiro para ateste e aprovação imediata do Bombeiro.", Icon: Building },
@@ -161,8 +159,6 @@ export default function AlarmeCondominioPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Condomï¿½nio" }]} dark />
-      <TrustBar dark />
 
 
       <div className="container mx-auto px-4 max-w-4xl text-center py-4 opacity-50"><p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Conteúdo Técnico Atualizado em: Maio de 2026</p></div>
@@ -180,7 +176,7 @@ export default function AlarmeCondominioPage() {
             <div className="text-left grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
                <div className="flex gap-4">
                   <CheckCircle2 className="w-6 h-6 text-green-500 shrink-0" />
-                  <p className="text-gray-700"><strong>Diagnóstico técnico gratuito:</strong> verificamos se o seu sistema atual está em conformidade com a IT-17/2025.</p>
+                  <p className="text-gray-700"><strong>Diagnóstico técnico gratuito:</strong> verificamos se o seu sistema atual está em conformidade com a IT-19/2025.</p>
                </div>
                <div className="flex gap-4">
                   <CheckCircle2 className="w-6 h-6 text-green-500 shrink-0" />
@@ -198,8 +194,6 @@ export default function AlarmeCondominioPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Condomï¿½nio" }]} dark />
-      <TrustBar dark />
 
       {/* FAQ Com Schema.org */}
       <section className="py-24 bg-gray-50 border-t border-gray-200">
@@ -225,8 +219,6 @@ export default function AlarmeCondominioPage() {
         </div>
       </section>
 
-      <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Serviï¿½os", href: "/servicos" }, { label: "Alarme Condomï¿½nio" }]} dark />
-      <TrustBar dark />
 
       {/* Mega CTA Final */}
       <section className="py-24 bg-secondary text-center relative overflow-hidden">

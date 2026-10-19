@@ -32,7 +32,7 @@ export const renovacaoAvcbFarmaciaContent = {
       content: [
         "<strong>IT-02/2019</strong>: Enquadramento Grupo C-2, carga de incêndio e parâmetros que determinam o conjunto de medidas exigíveis para a renovação.",
         "<strong>IT-17 — Brigada de Incêndio</strong>: documentação de treinamento atualizada obrigatória no processo de renovação.",
-        "<strong>IT-20 — Detecção e Alarme</strong>: laudo de manutenção do sistema dentro do prazo, quando o sistema for exigível para o porte do estabelecimento.",
+        "<strong>IT-19 — Detecção e Alarme</strong>: laudo de manutenção do sistema dentro do prazo, quando o sistema for exigível para o porte do estabelecimento.",
         "<strong>IT-21 — Hidrantes e Mangotinhos</strong>: laudo de teste de pressão e vazão obrigatório quando o sistema for instalado.",
         "<strong>IT-29 — Produtos Perigosos</strong>: aplicável quando há armazenagem de álcool, aerossóis ou produtos com classificação de risco. Memorial descritivo específico obrigatório — ausência é a causa mais frequente de Comunique-se em farmácias."
       ]

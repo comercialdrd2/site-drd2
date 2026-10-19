@@ -36,7 +36,7 @@ export const renovacaoAvcbCasaNoturnaContent = {
         "<strong>IT-11 — Saídas de Emergência</strong>: Dimensionamento das rotas de fuga pela capacidade máxima de público, número mínimo de saídas, largura de corredores e condições de descarga. É a IT mais frequentemente descumprida em casas noturnas que cresceram sem adequação técnica.",
         "<strong>IT-15 — Controle de Fumaça</strong>: Obrigatório em estabelecimentos F-3 que atendem aos parâmetros de área definidos pela norma. Laudo de manutenção periódica obrigatório para o processo de renovação.",
         "<strong>IT-17 — Brigada de Incêndio</strong>: Dimensionamento pela capacidade máxima do estabelecimento, com treinamento documentado e certificado válido para todos os brigadistas.",
-        "<strong>IT-20 — Detecção e Alarme de Incendio</strong>: Sistema integrado obrigatório, com laudo de manutenção dentro do prazo.",
+        "<strong>IT-19 — Detecção e Alarme de Incêndio</strong>: Sistema integrado obrigatório, com laudo de manutenção dentro do prazo.",
         "<strong>IT-21 — Hidrantes e Mangotinhos</strong>: Laudo de teste de pressão e vazão obrigatório quando o sistema for instalado."
       ]
     },
