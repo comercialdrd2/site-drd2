@@ -19,6 +19,7 @@ type PageData = {
 export const dynamicParams = false;
 
 const ENTRIES = index as Entry[];
+const OG_IMAGE = "/images/licenca-sanitaria/og-licenca-sanitaria.png";
 
 function find(slug?: string[]): Entry | undefined {
   const s = (slug ?? []).join("/");
@@ -42,7 +43,16 @@ export function generateMetadata({ params }: { params: { slug?: string[] } }): M
     title: p.title,
     description: p.description,
     alternates: { canonical: p.path },
-    openGraph: { title: p.title, description: p.description, url: p.path, type: p.type, locale: "pt_BR", siteName: "DRD2 Engenharia" },
+    openGraph: {
+      title: p.title,
+      description: p.description,
+      url: p.path,
+      type: p.type,
+      locale: "pt_BR",
+      siteName: "DRD2 Engenharia",
+      images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: "DRD2 Licença Sanitária em São Paulo" }],
+    },
+    twitter: { card: "summary_large_image", title: p.title, description: p.description, images: [OG_IMAGE] },
   };
 }
 

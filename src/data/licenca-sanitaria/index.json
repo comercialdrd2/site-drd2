@@ -446,13 +446,6 @@
 ]
 },
 {
-"path": "/licenca-sanitaria/risco-medio-x-risco-alto-licenca-sanitaria",
-"key": "licenca-sanitaria__risco-medio-x-risco-alto-licenca-sanitaria",
-"segments": [
-"risco-medio-x-risco-alto-licenca-sanitaria"
-]
-},
-{
 "path": "/licenca-sanitaria/prazo-licenca-sanitaria",
 "key": "licenca-sanitaria__prazo-licenca-sanitaria",
 "segments": [
@@ -471,14 +464,6 @@
 "key": "licenca-sanitaria__por-atividade",
 "segments": [
 "por-atividade"
-]
-},
-{
-"path": "/licenca-sanitaria/blog/licenca-sanitaria-vencida",
-"key": "licenca-sanitaria__blog__licenca-sanitaria-vencida",
-"segments": [
-"blog",
-"licenca-sanitaria-vencida"
 ]
 },
 {
@@ -530,83 +515,11 @@
 ]
 },
 {
-"path": "/licenca-sanitaria/blog/consultorio-medico-licenca-automatica-cli",
-"key": "licenca-sanitaria__blog__consultorio-medico-licenca-automatica-cli",
-"segments": [
-"blog",
-"consultorio-medico-licenca-automatica-cli"
-]
-},
-{
-"path": "/licenca-sanitaria/blog/por-que-o-cli-nao-saiu",
-"key": "licenca-sanitaria__blog__por-que-o-cli-nao-saiu",
-"segments": [
-"blog",
-"por-que-o-cli-nao-saiu"
-]
-},
-{
-"path": "/licenca-sanitaria/blog/mudanca-de-endereco-clinica-licenca-sanitaria",
-"key": "licenca-sanitaria__blog__mudanca-de-endereco-clinica-licenca-sanitaria",
-"segments": [
-"blog",
-"mudanca-de-endereco-clinica-licenca-sanitaria"
-]
-},
-{
-"path": "/licenca-sanitaria/blog/ampliacao-de-atividades-nova-dcff",
-"key": "licenca-sanitaria__blog__ampliacao-de-atividades-nova-dcff",
-"segments": [
-"blog",
-"ampliacao-de-atividades-nova-dcff"
-]
-},
-{
-"path": "/licenca-sanitaria/blog/troca-de-responsavel-tecnico-vigilancia",
-"key": "licenca-sanitaria__blog__troca-de-responsavel-tecnico-vigilancia",
-"segments": [
-"blog",
-"troca-de-responsavel-tecnico-vigilancia"
-]
-},
-{
-"path": "/licenca-sanitaria/blog/drogaria-ou-farmacia-de-manipulacao",
-"key": "licenca-sanitaria__blog__drogaria-ou-farmacia-de-manipulacao",
-"segments": [
-"blog",
-"drogaria-ou-farmacia-de-manipulacao"
-]
-},
-{
-"path": "/licenca-sanitaria/blog/restaurante-precisa-de-licenca-sanitaria",
-"key": "licenca-sanitaria__blog__restaurante-precisa-de-licenca-sanitaria",
-"segments": [
-"blog",
-"restaurante-precisa-de-licenca-sanitaria"
-]
-},
-{
-"path": "/licenca-sanitaria/blog/dark-kitchen-licenca-sanitaria",
-"key": "licenca-sanitaria__blog__dark-kitchen-licenca-sanitaria",
-"segments": [
-"blog",
-"dark-kitchen-licenca-sanitaria"
-]
-},
-{
 "path": "/licenca-sanitaria/blog/como-abrir-casa-de-repouso-sp",
 "key": "licenca-sanitaria__blog__como-abrir-casa-de-repouso-sp",
 "segments": [
 "blog",
 "como-abrir-casa-de-repouso-sp"
-]
-},
-{
-"path": "/licenca-sanitaria/blog/distribuidora-licenca-municipal-e-afe",
-"key": "licenca-sanitaria__blog__distribuidora-licenca-municipal-e-afe",
-"segments": [
-"blog",
-"distribuidora-licenca-municipal-e-afe"
 ]
 },
 {
@@ -623,38 +536,6 @@
 "segments": [
 "blog",
 "cnae-muda-risco-licenca-sanitaria"
-]
-},
-{
-"path": "/licenca-sanitaria/blog/prefeitura-ou-cevs-quem-licencia-hospital",
-"key": "licenca-sanitaria__blog__prefeitura-ou-cevs-quem-licencia-hospital",
-"segments": [
-"blog",
-"prefeitura-ou-cevs-quem-licencia-hospital"
-]
-},
-{
-"path": "/licenca-sanitaria/blog/raio-x-no-consultorio-odontologico",
-"key": "licenca-sanitaria__blog__raio-x-no-consultorio-odontologico",
-"segments": [
-"blog",
-"raio-x-no-consultorio-odontologico"
-]
-},
-{
-"path": "/licenca-sanitaria/blog/validade-da-licenca-sanitaria",
-"key": "licenca-sanitaria__blog__validade-da-licenca-sanitaria",
-"segments": [
-"blog",
-"validade-da-licenca-sanitaria"
-]
-},
-{
-"path": "/licenca-sanitaria/blog/lta-na-grande-sao-paulo",
-"key": "licenca-sanitaria__blog__lta-na-grande-sao-paulo",
-"segments": [
-"blog",
-"lta-na-grande-sao-paulo"
 ]
 },
 {
