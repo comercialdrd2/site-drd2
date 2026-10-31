@@ -1,0 +1,688 @@
+[
+{
+"path": "/licenca-sanitaria",
+"key": "licenca-sanitaria",
+"segments": []
+},
+{
+"path": "/licenca-sanitaria/como-tirar-licenca-sanitaria-sao-paulo",
+"key": "licenca-sanitaria__como-tirar-licenca-sanitaria-sao-paulo",
+"segments": [
+"como-tirar-licenca-sanitaria-sao-paulo"
+]
+},
+{
+"path": "/licenca-sanitaria/dcff-declaracao-conformidade-fisico-funcional",
+"key": "licenca-sanitaria__dcff-declaracao-conformidade-fisico-funcional",
+"segments": [
+"dcff-declaracao-conformidade-fisico-funcional"
+]
+},
+{
+"path": "/licenca-sanitaria/regularizacao-vigilancia-sanitaria",
+"key": "licenca-sanitaria__regularizacao-vigilancia-sanitaria",
+"segments": [
+"regularizacao-vigilancia-sanitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/lta-virou-dcff",
+"key": "licenca-sanitaria__lta-virou-dcff",
+"segments": [
+"lta-virou-dcff"
+]
+},
+{
+"path": "/licenca-sanitaria/portaria-sms-266-2025",
+"key": "licenca-sanitaria__portaria-sms-266-2025",
+"segments": [
+"portaria-sms-266-2025"
+]
+},
+{
+"path": "/licenca-sanitaria/avcb-e-licenca-sanitaria",
+"key": "licenca-sanitaria__avcb-e-licenca-sanitaria",
+"segments": [
+"avcb-e-licenca-sanitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/clinica-odontologica",
+"key": "licenca-sanitaria__clinica-odontologica",
+"segments": [
+"clinica-odontologica"
+]
+},
+{
+"path": "/licenca-sanitaria/clinica-estetica",
+"key": "licenca-sanitaria__clinica-estetica",
+"segments": [
+"clinica-estetica"
+]
+},
+{
+"path": "/licenca-sanitaria/clinica-medica",
+"key": "licenca-sanitaria__clinica-medica",
+"segments": [
+"clinica-medica"
+]
+},
+{
+"path": "/licenca-sanitaria/farmacia-drogaria",
+"key": "licenca-sanitaria__farmacia-drogaria",
+"segments": [
+"farmacia-drogaria"
+]
+},
+{
+"path": "/licenca-sanitaria/laboratorio-clinico",
+"key": "licenca-sanitaria__laboratorio-clinico",
+"segments": [
+"laboratorio-clinico"
+]
+},
+{
+"path": "/licenca-sanitaria/posto-de-coleta",
+"key": "licenca-sanitaria__posto-de-coleta",
+"segments": [
+"posto-de-coleta"
+]
+},
+{
+"path": "/licenca-sanitaria/clinica-de-raio-x",
+"key": "licenca-sanitaria__clinica-de-raio-x",
+"segments": [
+"clinica-de-raio-x"
+]
+},
+{
+"path": "/licenca-sanitaria/tomografia-ressonancia",
+"key": "licenca-sanitaria__tomografia-ressonancia",
+"segments": [
+"tomografia-ressonancia"
+]
+},
+{
+"path": "/licenca-sanitaria/clinica-ultrassom",
+"key": "licenca-sanitaria__clinica-ultrassom",
+"segments": [
+"clinica-ultrassom"
+]
+},
+{
+"path": "/licenca-sanitaria/clinica-endoscopia",
+"key": "licenca-sanitaria__clinica-endoscopia",
+"segments": [
+"clinica-endoscopia"
+]
+},
+{
+"path": "/licenca-sanitaria/hospital-dia-ambulatorio",
+"key": "licenca-sanitaria__hospital-dia-ambulatorio",
+"segments": [
+"hospital-dia-ambulatorio"
+]
+},
+{
+"path": "/licenca-sanitaria/pronto-atendimento",
+"key": "licenca-sanitaria__pronto-atendimento",
+"segments": [
+"pronto-atendimento"
+]
+},
+{
+"path": "/licenca-sanitaria/hemodialise",
+"key": "licenca-sanitaria__hemodialise",
+"segments": [
+"hemodialise"
+]
+},
+{
+"path": "/licenca-sanitaria/clinica-de-vacinacao",
+"key": "licenca-sanitaria__clinica-de-vacinacao",
+"segments": [
+"clinica-de-vacinacao"
+]
+},
+{
+"path": "/licenca-sanitaria/clinica-fisioterapia",
+"key": "licenca-sanitaria__clinica-fisioterapia",
+"segments": [
+"clinica-fisioterapia"
+]
+},
+{
+"path": "/licenca-sanitaria/home-care",
+"key": "licenca-sanitaria__home-care",
+"segments": [
+"home-care"
+]
+},
+{
+"path": "/licenca-sanitaria/restaurante",
+"key": "licenca-sanitaria__restaurante",
+"segments": [
+"restaurante"
+]
+},
+{
+"path": "/licenca-sanitaria/delivery-dark-kitchen",
+"key": "licenca-sanitaria__delivery-dark-kitchen",
+"segments": [
+"delivery-dark-kitchen"
+]
+},
+{
+"path": "/licenca-sanitaria/cozinha-industrial",
+"key": "licenca-sanitaria__cozinha-industrial",
+"segments": [
+"cozinha-industrial"
+]
+},
+{
+"path": "/licenca-sanitaria/padaria-confeitaria",
+"key": "licenca-sanitaria__padaria-confeitaria",
+"segments": [
+"padaria-confeitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/mercado-acougue",
+"key": "licenca-sanitaria__mercado-acougue",
+"segments": [
+"mercado-acougue"
+]
+},
+{
+"path": "/licenca-sanitaria/industria-alimentos",
+"key": "licenca-sanitaria__industria-alimentos",
+"segments": [
+"industria-alimentos"
+]
+},
+{
+"path": "/licenca-sanitaria/fabrica-suplementos",
+"key": "licenca-sanitaria__fabrica-suplementos",
+"segments": [
+"fabrica-suplementos"
+]
+},
+{
+"path": "/licenca-sanitaria/fabrica-cosmeticos",
+"key": "licenca-sanitaria__fabrica-cosmeticos",
+"segments": [
+"fabrica-cosmeticos"
+]
+},
+{
+"path": "/licenca-sanitaria/distribuidora-medicamentos",
+"key": "licenca-sanitaria__distribuidora-medicamentos",
+"segments": [
+"distribuidora-medicamentos"
+]
+},
+{
+"path": "/licenca-sanitaria/distribuidora-produtos-hospitalares",
+"key": "licenca-sanitaria__distribuidora-produtos-hospitalares",
+"segments": [
+"distribuidora-produtos-hospitalares"
+]
+},
+{
+"path": "/licenca-sanitaria/distribuidora-cosmeticos-saneantes",
+"key": "licenca-sanitaria__distribuidora-cosmeticos-saneantes",
+"segments": [
+"distribuidora-cosmeticos-saneantes"
+]
+},
+{
+"path": "/licenca-sanitaria/armazem-deposito",
+"key": "licenca-sanitaria__armazem-deposito",
+"segments": [
+"armazem-deposito"
+]
+},
+{
+"path": "/licenca-sanitaria/transportadora-medicamentos",
+"key": "licenca-sanitaria__transportadora-medicamentos",
+"segments": [
+"transportadora-medicamentos"
+]
+},
+{
+"path": "/licenca-sanitaria/laboratorio-analises-agua-alimentos",
+"key": "licenca-sanitaria__laboratorio-analises-agua-alimentos",
+"segments": [
+"laboratorio-analises-agua-alimentos"
+]
+},
+{
+"path": "/licenca-sanitaria/tabacaria-narguile",
+"key": "licenca-sanitaria__tabacaria-narguile",
+"segments": [
+"tabacaria-narguile"
+]
+},
+{
+"path": "/licenca-sanitaria/academia-piscina",
+"key": "licenca-sanitaria__academia-piscina",
+"segments": [
+"academia-piscina"
+]
+},
+{
+"path": "/licenca-sanitaria/casa-de-repouso",
+"key": "licenca-sanitaria__casa-de-repouso",
+"segments": [
+"casa-de-repouso"
+]
+},
+{
+"path": "/licenca-sanitaria/comunidade-terapeutica",
+"key": "licenca-sanitaria__comunidade-terapeutica",
+"segments": [
+"comunidade-terapeutica"
+]
+},
+{
+"path": "/licenca-sanitaria/creche",
+"key": "licenca-sanitaria__creche",
+"segments": [
+"creche"
+]
+},
+{
+"path": "/licenca-sanitaria/estudio-tatuagem",
+"key": "licenca-sanitaria__estudio-tatuagem",
+"segments": [
+"estudio-tatuagem"
+]
+},
+{
+"path": "/licenca-sanitaria/salao-de-beleza",
+"key": "licenca-sanitaria__salao-de-beleza",
+"segments": [
+"salao-de-beleza"
+]
+},
+{
+"path": "/licenca-sanitaria/clinica-veterinaria",
+"key": "licenca-sanitaria__clinica-veterinaria",
+"segments": [
+"clinica-veterinaria"
+]
+},
+{
+"path": "/licenca-sanitaria/reproducao-assistida",
+"key": "licenca-sanitaria__reproducao-assistida",
+"segments": [
+"reproducao-assistida"
+]
+},
+{
+"path": "/licenca-sanitaria/ambulancia-uti-movel",
+"key": "licenca-sanitaria__ambulancia-uti-movel",
+"segments": [
+"ambulancia-uti-movel"
+]
+},
+{
+"path": "/licenca-sanitaria/fabrica-medicamentos",
+"key": "licenca-sanitaria__fabrica-medicamentos",
+"segments": [
+"fabrica-medicamentos"
+]
+},
+{
+"path": "/licenca-sanitaria/hemoterapia-banco-de-sangue",
+"key": "licenca-sanitaria__hemoterapia-banco-de-sangue",
+"segments": [
+"hemoterapia-banco-de-sangue"
+]
+},
+{
+"path": "/licenca-sanitaria/fabrica-embalagens-alimentos",
+"key": "licenca-sanitaria__fabrica-embalagens-alimentos",
+"segments": [
+"fabrica-embalagens-alimentos"
+]
+},
+{
+"path": "/licenca-sanitaria/agua-mineral-envasada",
+"key": "licenca-sanitaria__agua-mineral-envasada",
+"segments": [
+"agua-mineral-envasada"
+]
+},
+{
+"path": "/licenca-sanitaria/funeraria-tanatopraxia",
+"key": "licenca-sanitaria__funeraria-tanatopraxia",
+"segments": [
+"funeraria-tanatopraxia"
+]
+},
+{
+"path": "/licenca-sanitaria/minha-atividade-precisa-licenca-sanitaria",
+"key": "licenca-sanitaria__minha-atividade-precisa-licenca-sanitaria",
+"segments": [
+"minha-atividade-precisa-licenca-sanitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/afe-anvisa-medicamentos-insumos",
+"key": "licenca-sanitaria__afe-anvisa-medicamentos-insumos",
+"segments": [
+"afe-anvisa-medicamentos-insumos"
+]
+},
+{
+"path": "/licenca-sanitaria/afe-farmacia-drogaria",
+"key": "licenca-sanitaria__afe-farmacia-drogaria",
+"segments": [
+"afe-farmacia-drogaria"
+]
+},
+{
+"path": "/licenca-sanitaria/dca-declaracao-conformidade-atividade",
+"key": "licenca-sanitaria__dca-declaracao-conformidade-atividade",
+"segments": [
+"dca-declaracao-conformidade-atividade"
+]
+},
+{
+"path": "/licenca-sanitaria/cli-licenca-sanitaria-risco-medio",
+"key": "licenca-sanitaria__cli-licenca-sanitaria-risco-medio",
+"segments": [
+"cli-licenca-sanitaria-risco-medio"
+]
+},
+{
+"path": "/licenca-sanitaria/renovacao-licenca-sanitaria",
+"key": "licenca-sanitaria__renovacao-licenca-sanitaria",
+"segments": [
+"renovacao-licenca-sanitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/alteracao-licenca-sanitaria",
+"key": "licenca-sanitaria__alteracao-licenca-sanitaria",
+"segments": [
+"alteracao-licenca-sanitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/pessoa-fisica",
+"key": "licenca-sanitaria__pessoa-fisica",
+"segments": [
+"pessoa-fisica"
+]
+},
+{
+"path": "/licenca-sanitaria/adequacao-fisica-inspecao-sanitaria",
+"key": "licenca-sanitaria__adequacao-fisica-inspecao-sanitaria",
+"segments": [
+"adequacao-fisica-inspecao-sanitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/cevs-cadastro-estadual-vigilancia-sanitaria",
+"key": "licenca-sanitaria__cevs-cadastro-estadual-vigilancia-sanitaria",
+"segments": [
+"cevs-cadastro-estadual-vigilancia-sanitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/quanto-custa-licenca-sanitaria",
+"key": "licenca-sanitaria__quanto-custa-licenca-sanitaria",
+"segments": [
+"quanto-custa-licenca-sanitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/documentos-licenca-sanitaria",
+"key": "licenca-sanitaria__documentos-licenca-sanitaria",
+"segments": [
+"documentos-licenca-sanitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/risco-medio-x-risco-alto-licenca-sanitaria",
+"key": "licenca-sanitaria__risco-medio-x-risco-alto-licenca-sanitaria",
+"segments": [
+"risco-medio-x-risco-alto-licenca-sanitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/prazo-licenca-sanitaria",
+"key": "licenca-sanitaria__prazo-licenca-sanitaria",
+"segments": [
+"prazo-licenca-sanitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/grande-sao-paulo",
+"key": "licenca-sanitaria__grande-sao-paulo",
+"segments": [
+"grande-sao-paulo"
+]
+},
+{
+"path": "/licenca-sanitaria/por-atividade",
+"key": "licenca-sanitaria__por-atividade",
+"segments": [
+"por-atividade"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/licenca-sanitaria-vencida",
+"key": "licenca-sanitaria__blog__licenca-sanitaria-vencida",
+"segments": [
+"blog",
+"licenca-sanitaria-vencida"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/memorial-descritivo-de-atividades",
+"key": "licenca-sanitaria__blog__memorial-descritivo-de-atividades",
+"segments": [
+"blog",
+"memorial-descritivo-de-atividades"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/quem-pode-assinar-art-dcff",
+"key": "licenca-sanitaria__blog__quem-pode-assinar-art-dcff",
+"segments": [
+"blog",
+"quem-pode-assinar-art-dcff"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/checklist-dca-clinica-odontologica",
+"key": "licenca-sanitaria__blog__checklist-dca-clinica-odontologica",
+"segments": [
+"blog",
+"checklist-dca-clinica-odontologica"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/ordem-licenca-sanitaria-avcb-alvara",
+"key": "licenca-sanitaria__blog__ordem-licenca-sanitaria-avcb-alvara",
+"segments": [
+"blog",
+"ordem-licenca-sanitaria-avcb-alvara"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/o-que-a-vigilancia-verifica-na-inspecao-de-clinica",
+"key": "licenca-sanitaria__blog__o-que-a-vigilancia-verifica-na-inspecao-de-clinica",
+"segments": [
+"blog",
+"o-que-a-vigilancia-verifica-na-inspecao-de-clinica"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/micropigmentacao-precisa-de-licenca-sanitaria",
+"key": "licenca-sanitaria__blog__micropigmentacao-precisa-de-licenca-sanitaria",
+"segments": [
+"blog",
+"micropigmentacao-precisa-de-licenca-sanitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/consultorio-medico-licenca-automatica-cli",
+"key": "licenca-sanitaria__blog__consultorio-medico-licenca-automatica-cli",
+"segments": [
+"blog",
+"consultorio-medico-licenca-automatica-cli"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/por-que-o-cli-nao-saiu",
+"key": "licenca-sanitaria__blog__por-que-o-cli-nao-saiu",
+"segments": [
+"blog",
+"por-que-o-cli-nao-saiu"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/mudanca-de-endereco-clinica-licenca-sanitaria",
+"key": "licenca-sanitaria__blog__mudanca-de-endereco-clinica-licenca-sanitaria",
+"segments": [
+"blog",
+"mudanca-de-endereco-clinica-licenca-sanitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/ampliacao-de-atividades-nova-dcff",
+"key": "licenca-sanitaria__blog__ampliacao-de-atividades-nova-dcff",
+"segments": [
+"blog",
+"ampliacao-de-atividades-nova-dcff"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/troca-de-responsavel-tecnico-vigilancia",
+"key": "licenca-sanitaria__blog__troca-de-responsavel-tecnico-vigilancia",
+"segments": [
+"blog",
+"troca-de-responsavel-tecnico-vigilancia"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/drogaria-ou-farmacia-de-manipulacao",
+"key": "licenca-sanitaria__blog__drogaria-ou-farmacia-de-manipulacao",
+"segments": [
+"blog",
+"drogaria-ou-farmacia-de-manipulacao"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/restaurante-precisa-de-licenca-sanitaria",
+"key": "licenca-sanitaria__blog__restaurante-precisa-de-licenca-sanitaria",
+"segments": [
+"blog",
+"restaurante-precisa-de-licenca-sanitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/dark-kitchen-licenca-sanitaria",
+"key": "licenca-sanitaria__blog__dark-kitchen-licenca-sanitaria",
+"segments": [
+"blog",
+"dark-kitchen-licenca-sanitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/como-abrir-casa-de-repouso-sp",
+"key": "licenca-sanitaria__blog__como-abrir-casa-de-repouso-sp",
+"segments": [
+"blog",
+"como-abrir-casa-de-repouso-sp"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/distribuidora-licenca-municipal-e-afe",
+"key": "licenca-sanitaria__blog__distribuidora-licenca-municipal-e-afe",
+"segments": [
+"blog",
+"distribuidora-licenca-municipal-e-afe"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/atividade-nao-esta-no-anexo-i",
+"key": "licenca-sanitaria__blog__atividade-nao-esta-no-anexo-i",
+"segments": [
+"blog",
+"atividade-nao-esta-no-anexo-i"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/cnae-muda-risco-licenca-sanitaria",
+"key": "licenca-sanitaria__blog__cnae-muda-risco-licenca-sanitaria",
+"segments": [
+"blog",
+"cnae-muda-risco-licenca-sanitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/prefeitura-ou-cevs-quem-licencia-hospital",
+"key": "licenca-sanitaria__blog__prefeitura-ou-cevs-quem-licencia-hospital",
+"segments": [
+"blog",
+"prefeitura-ou-cevs-quem-licencia-hospital"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/raio-x-no-consultorio-odontologico",
+"key": "licenca-sanitaria__blog__raio-x-no-consultorio-odontologico",
+"segments": [
+"blog",
+"raio-x-no-consultorio-odontologico"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/validade-da-licenca-sanitaria",
+"key": "licenca-sanitaria__blog__validade-da-licenca-sanitaria",
+"segments": [
+"blog",
+"validade-da-licenca-sanitaria"
+]
+},
+{
+"path": "/licenca-sanitaria/blog/lta-na-grande-sao-paulo",
+"key": "licenca-sanitaria__blog__lta-na-grande-sao-paulo",
+"segments": [
+"blog",
+"lta-na-grande-sao-paulo"
+]
+},
+{
+"path": "/licenca-sanitaria/blog",
+"key": "licenca-sanitaria__blog",
+"segments": [
+"blog"
+]
+},
+{
+"path": "/licenca-sanitaria/sobre",
+"key": "licenca-sanitaria__sobre",
+"segments": [
+"sobre"
+]
+},
+{
+"path": "/licenca-sanitaria/contato",
+"key": "licenca-sanitaria__contato",
+"segments": [
+"contato"
+]
+},
+{
+"path": "/licenca-sanitaria/politica-de-privacidade",
+"key": "licenca-sanitaria__politica-de-privacidade",
+"segments": [
+"politica-de-privacidade"
+]
+}
+]
