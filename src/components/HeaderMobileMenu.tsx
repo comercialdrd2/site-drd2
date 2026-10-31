@@ -12,7 +12,7 @@ const services = [
   { name: "Renovação de AVCB", href: "/renovacao-avcb" },
   { name: "Renovação de CLCB", href: "/renovacao-clcb-sao-paulo" },
   { name: "PTOTEP (Eventos)", href: "/ptotep" },
-  { name: "Licença Sanitária", href: "/licenca-sanitaria" },
+  { name: "Licença Sanitária", href: "https://licencasanitaria.drd2.com.br" },
   { name: "Projeto de Incêndio", href: "/projetos-incendio" },
   { name: "Sprinklers", href: "/sprinklers" },
   { name: "Alarme de Incêndio", href: "/alarme-incendio-sao-paulo" },

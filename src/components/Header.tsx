@@ -24,7 +24,7 @@ const services = [
   { name: "Renovação de AVCB", href: "/renovacao-avcb", icon: FileCheck },
   { name: "Renovação de CLCB", href: "/renovacao-clcb-sao-paulo", icon: Award },
   { name: "PTOTEP (Eventos)", href: "/ptotep", icon: PartyPopper },
-  { name: "Licença Sanitária", href: "/licenca-sanitaria", icon: FileCheck },
+  { name: "Licença Sanitária", href: "https://licencasanitaria.drd2.com.br", icon: FileCheck },
   { name: "Projeto de Incêndio", href: "/projetos-incendio", icon: Flame },
   { name: "Sprinklers", href: "/sprinklers", icon: Droplets },
   { name: "Alarme de Incêndio", href: "/alarme-incendio-sao-paulo", icon: Bell },

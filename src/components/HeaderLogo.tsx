@@ -3,18 +3,20 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { isLsHostClient } from "@/lib/licencaSanitariaHost";
 
-// Logo do cabeçalho. Nas páginas de /licenca-sanitaria mostra a marca
-// "DRD2 Licença Sanitária"; no resto do site, a marca DRD2 Engenharia e Serviços.
+// Logo do cabeçalho. Nas páginas de licença sanitária (subdomínio licencasanitaria.drd2.com.br,
+// geradas em /licenca-sanitaria) mostra a marca "DRD2 Licença Sanitária"; no resto do site,
+// a marca DRD2 Engenharia e Serviços.
 export default function HeaderLogo() {
   const pathname = usePathname() || "";
-  const isLicenca = pathname === "/licenca-sanitaria" || pathname.startsWith("/licenca-sanitaria/");
+  const isLicenca = isLsHostClient() || pathname === "/licenca-sanitaria" || pathname.startsWith("/licenca-sanitaria/");
 
   if (isLicenca) {
     return (
       <Link
         prefetch={false}
-        href="/licenca-sanitaria"
+        href="/"
         className="flex items-center gap-3 shrink-0"
         aria-label="DRD2 Licença Sanitária – início"
       >

@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import LsScript from "../LsScript";
 import index from "@/data/licenca-sanitaria/index.json";
+import { LS_ORIGIN, lsPublicPath } from "@/lib/licencaSanitariaHost";
 
 type Entry = { path: string; key: string; segments: string[] };
 type PageData = {
@@ -39,14 +40,15 @@ export function generateMetadata({ params }: { params: { slug?: string[] } }): M
   const entry = find(params.slug);
   if (!entry) return {};
   const p = load(entry);
+  const url = LS_ORIGIN + lsPublicPath(p.path);
   return {
     title: p.title,
     description: p.description,
-    alternates: { canonical: p.path },
+    alternates: { canonical: url },
     openGraph: {
       title: p.title,
       description: p.description,
-      url: p.path,
+      url,
       type: p.type,
       locale: "pt_BR",
       siteName: "DRD2 Engenharia",
