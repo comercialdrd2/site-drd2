@@ -19,6 +19,7 @@ import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/componen
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
 import FusaoEtapa2Trecho from "@/components/FusaoEtapa2Trecho";
+import LicencaSanitariaCrossLink from "@/components/LicencaSanitariaCrossLink";
 export const metadata = {
   title: c.meta.title,
   description: c.meta.description,
@@ -504,6 +505,7 @@ export default function AVCBAcademiaPage() {
       </section>
 
       <LeadForm />
+      <LicencaSanitariaCrossLink route="/avcb-para-academia-sao-paulo" />
     </>
   );
 }

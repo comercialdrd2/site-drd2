@@ -22,6 +22,7 @@ import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/componen
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
 import FusaoEtapa2Trecho from "@/components/FusaoEtapa2Trecho";
+import LicencaSanitariaCrossLink from "@/components/LicencaSanitariaCrossLink";
 const _pageTitle = "AVCB para Supermercado em São Paulo";
 const _pageDesc = "A DRD2 Engenharia é especialista em AVCB para supermercados em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com agilidade e segurança normativa. Diagnóstico técnico gratuito.";
 
@@ -487,6 +488,7 @@ export default function AVCBSupermercadoMasterPage() {
           <p className="mt-8 text-xs font-black uppercase tracking-[0.3em] text-red-600 opacity-80">Especialista em Regularização Comercial | Grande São Paulo</p>
         </div>
       </section>
+      <LicencaSanitariaCrossLink route="/avcb-supermercado-sao-paulo" />
     </>
   );
 }

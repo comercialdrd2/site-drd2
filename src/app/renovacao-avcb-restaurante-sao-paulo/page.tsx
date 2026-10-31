@@ -18,6 +18,7 @@ import { renovacaoAvcbRestauranteContent as c } from "@/data/pages/renovacao-avc
 import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
+import LicencaSanitariaCrossLink from "@/components/LicencaSanitariaCrossLink";
 
 export const metadata = {
   title: c.meta.title,
@@ -437,6 +438,8 @@ export default function RenovacaoAVCBRestaurantePage() {
           </p>
         </div>
       </section>
+
+      <LicencaSanitariaCrossLink route="/renovacao-avcb-restaurante-sao-paulo" />
 
     </>
   );

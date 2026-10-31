@@ -18,6 +18,7 @@ import BreadcrumbNav from "@/components/BreadcrumbNav";
 import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
+import LicencaSanitariaCrossLink from "@/components/LicencaSanitariaCrossLink";
 
 // 1 & 5. SEO TÉCNICO E MAXIMIZAÇÃO DE CTR: Metadados Magnéticos B2B
 export const metadata: Metadata = {
@@ -475,6 +476,7 @@ export default function AVCBGalpaoPage() {
 
       {/* Formulário pré-preenchido para o nicho de Galpão */}
       <LeadForm predefinedPropertyType="Galpão / Indústria" />
+      <LicencaSanitariaCrossLink route="/avcb-galpao-industrial-sao-paulo" />
     </>
   );
 }

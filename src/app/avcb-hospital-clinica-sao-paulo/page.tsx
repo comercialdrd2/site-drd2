@@ -22,6 +22,7 @@ import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/componen
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 
 import FusaoEtapa2Trecho from "@/components/FusaoEtapa2Trecho";
+import LicencaSanitariaCrossLink from "@/components/LicencaSanitariaCrossLink";
 const _pageTitle = "AVCB para Hospital e Clínica em SP";
 const _pageDesc = "AVCB para hospitais, clínicas e consultórios em São Paulo. Regularização conforme ITs do CBPMESP e VISA. Aprovação garantida. Diagnóstico técnico gratuito. DRD2 Engenharia.";
 
@@ -663,6 +664,7 @@ export default function AVCBHospitalMasterPage() {
           <p className="mt-8 text-xs font-black uppercase tracking-[0.3em] text-red-100 opacity-50">Expertise Técnica em Normas da Vigilância Sanitária | Vigilância Sanitária de São Paulo</p>
         </div>
       </section>
+      <LicencaSanitariaCrossLink route="/avcb-hospital-clinica-sao-paulo" />
     </>
   );
 }

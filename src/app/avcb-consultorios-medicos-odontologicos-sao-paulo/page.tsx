@@ -18,6 +18,7 @@ import LeadForm from "@/components/LeadForm";
 import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
+import LicencaSanitariaCrossLink from "@/components/LicencaSanitariaCrossLink";
 
 const _pageTitle = "AVCB para Clínica Odontológica em São Paulo 2026";
 const _pageDesc = "Clínica odontológica sem AVCB em SP arrisca bloqueio do CMVS e interdição pela Vigilância Sanitária. Grupo I, gases medicinais, autoclaves e CLCB ou AVCB completo. DRD2 Engenharia regulariza.";
@@ -518,6 +519,7 @@ export default function AVCBClinicaOdontologicaPage() {
           </p>
         </div>
       </section>
+      <LicencaSanitariaCrossLink route="/avcb-consultorios-medicos-odontologicos-sao-paulo" />
     </>
   );
 }
