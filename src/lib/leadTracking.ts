@@ -119,6 +119,13 @@ export function getLeadTrackingContext(): LeadTrackingContext {
  */
 function inferSubject(pathname: string): string {
   const p = pathname.toLowerCase();
+  // Seção DRD2 Licença Sanitária: o assunto é a vigilância sanitária, não o AVCB
+  if (p.startsWith("/licenca-sanitaria")) {
+    if (p.includes("afe")) return "AFE na Anvisa";
+    if (p.includes("dcff")) return "DCFF com ART";
+    if (p.includes("avcb")) return "licença sanitária e AVCB";
+    return "licença sanitária";
+  }
   if (p.includes("renovacao-clcb") || (p.includes("clcb") && !p.includes("avcb"))) return "CLCB";
   if (p.includes("ptotep") || p.includes("evento")) return "PTOTEP (projeto para evento)";
   if (p.includes("sprinkler")) return "sistema de sprinklers";
@@ -147,6 +154,18 @@ export function buildStrategicWhatsAppIntent(fallbackSubject = "regularização 
  */
 export function getIntentCtaLabel(pathname?: string) {
   const path = (pathname || (typeof window !== "undefined" ? window.location.pathname : "")).toLowerCase();
+
+  // 0) SEÇÃO LICENÇA SANITÁRIA — antes das regras de AVCB, que usam as mesmas palavras
+  if (path.startsWith("/licenca-sanitaria")) {
+    if (path.includes("regularizacao") || path.includes("vencida")) return "Regularizar licença sanitária";
+    if (path.includes("renovacao")) return "Renovar licença sanitária";
+    if (path.includes("quanto-custa")) return "Ver custo da licença";
+    if (path.includes("afe")) return "Solicitar AFE";
+    if (path.includes("dcff")) return "Solicitar DCFF";
+    if (path.includes("minha-atividade")) return "Confirmar meu CNAE";
+    if (path.includes("/blog")) return "Tirar dúvida com engenheiro";
+    return "Tirar licença sanitária";
+  }
 
   // 1) URGENCIA — situacoes de risco imediato
   if (path.includes("vencido") || path.includes("multa") || path.includes("interdicao") || path.includes("interdição") || path.includes("embargo") || path.includes("urgente")) {
