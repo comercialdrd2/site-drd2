@@ -47,6 +47,9 @@ const knowsAbout = [
   "SPDA",
   "laudo de estanqueidade de gás",
   "brigada de incêndio",
+  "licença sanitária",
+  "DCFF (Declaração de Conformidade Físico-Funcional)",
+  "regularização na vigilância sanitária",
 ];
 
 function pageUrl(slug: string) {

@@ -17,6 +17,7 @@ import { renovacaoAvcbFarmaciaContent as c } from "@/data/pages/renovacao-avcb-f
 import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
+import LicencaSanitariaCrossLink from "@/components/LicencaSanitariaCrossLink";
 
 export const metadata = {
   title: c.meta.title,
@@ -398,6 +399,8 @@ export default function RenovacaoAVCBFarmaciaPage() {
           </p>
         </div>
       </section>
+
+      <LicencaSanitariaCrossLink route="/renovacao-avcb-farmacia-drogaria-sao-paulo" />
 
     </>
   );

@@ -17,6 +17,7 @@ import { renovacaoAvcbAcademiaContent as c } from "@/data/pages/renovacao-avcb-a
 import InternalLinksBlock from "@/components/InternalLinksBlock";
 import { OccupationAuthorityBlock, NeighborhoodAuthorityBlock } from "@/components/SeoAuthorityBlocks";
 import OccupationDepthBlock from "@/components/OccupationDepthBlock";
+import LicencaSanitariaCrossLink from "@/components/LicencaSanitariaCrossLink";
 
 export const metadata = {
   title: c.meta.title,
@@ -438,6 +439,8 @@ export default function RenovacaoAVCBAcademiaPage() {
           </p>
         </div>
       </section>
+
+      <LicencaSanitariaCrossLink route="/renovacao-avcb-academia-sao-paulo" />
 
     </>
   );

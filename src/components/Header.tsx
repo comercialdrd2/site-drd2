@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import {
   Award,
   Bell,
@@ -15,6 +14,7 @@ import {
   Zap,
 } from "lucide-react";
 import HeaderMobileMenu from "@/components/HeaderMobileMenu";
+import HeaderLogo from "@/components/HeaderLogo";
 
 // Serviços principais — mostrados no dropdown único do menu.
 // Lista enxuta dos serviços de maior tráfego/conversão.
@@ -24,6 +24,7 @@ const services = [
   { name: "Renovação de AVCB", href: "/renovacao-avcb", icon: FileCheck },
   { name: "Renovação de CLCB", href: "/renovacao-clcb-sao-paulo", icon: Award },
   { name: "PTOTEP (Eventos)", href: "/ptotep", icon: PartyPopper },
+  { name: "Licença Sanitária", href: "/licenca-sanitaria", icon: FileCheck },
   { name: "Projeto de Incêndio", href: "/projetos-incendio", icon: Flame },
   { name: "Sprinklers", href: "/sprinklers", icon: Droplets },
   { name: "Alarme de Incêndio", href: "/alarme-incendio-sao-paulo", icon: Bell },
@@ -40,17 +41,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-[100] w-full border-b border-white/5 bg-[#0D121F] shadow-xl">
       <div className="container mx-auto px-4 h-20 grid grid-cols-[auto_1fr_auto] items-center gap-4">
-        <Link prefetch={false} href="/" className="flex items-center shrink-0">
-          <Image
-            src="/images/logo-white.png"
-            alt="DRD2 Engenharia e Serviços"
-            width={180}
-            height={60}
-            priority
-            sizes="180px"
-            className="h-10 md:h-12 w-auto object-contain"
-          />
-        </Link>
+        <HeaderLogo />
 
         <nav className="hidden lg:flex items-center justify-center gap-8" aria-label="Menu principal">
           <Link prefetch={false} href="/" className={navLinkClass}>

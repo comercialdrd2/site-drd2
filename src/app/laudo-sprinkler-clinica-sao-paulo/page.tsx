@@ -1,5 +1,6 @@
 import UniversalSeoPage from "@/components/UniversalSeoPage";
 import type { UniversalPageData } from "@/components/UniversalSeoPage";
+import LicencaSanitariaCrossLink from "@/components/LicencaSanitariaCrossLink";
 
 const data: UniversalPageData = {
   slug: "/laudo-sprinkler-clinica-sao-paulo",
@@ -157,5 +158,10 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <UniversalSeoPage data={data} />;
+  return (
+    <>
+      <UniversalSeoPage data={data} />
+      <LicencaSanitariaCrossLink route="/laudo-sprinkler-clinica-sao-paulo" />
+    </>
+  );
 }
