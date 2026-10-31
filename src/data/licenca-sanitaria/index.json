@@ -665,24 +665,10 @@
 ]
 },
 {
-"path": "/licenca-sanitaria/sobre",
-"key": "licenca-sanitaria__sobre",
-"segments": [
-"sobre"
-]
-},
-{
 "path": "/licenca-sanitaria/contato",
 "key": "licenca-sanitaria__contato",
 "segments": [
 "contato"
-]
-},
-{
-"path": "/licenca-sanitaria/politica-de-privacidade",
-"key": "licenca-sanitaria__politica-de-privacidade",
-"segments": [
-"politica-de-privacidade"
 ]
 }
 ]
