@@ -117,8 +117,16 @@ export function getLeadTrackingContext(): LeadTrackingContext {
  * Detecta o "assunto" da pagina pra montar mensagem coerente no WhatsApp.
  * Retorna AVCB, CLCB, PTOTEP, etc baseado na URL.
  */
+// No subdomínio licencasanitaria.drd2.com.br o caminho vem sem o prefixo /licenca-sanitaria.
+function withLicencaPrefix(pathname: string): string {
+  if (typeof window !== "undefined" && window.location.hostname === "licencasanitaria.drd2.com.br" && !pathname.startsWith("/licenca-sanitaria")) {
+    return "/licenca-sanitaria" + (pathname === "/" ? "" : pathname);
+  }
+  return pathname;
+}
+
 function inferSubject(pathname: string): string {
-  const p = pathname.toLowerCase();
+  const p = withLicencaPrefix(pathname).toLowerCase();
   // Seção DRD2 Licença Sanitária: o assunto é a vigilância sanitária, não o AVCB
   if (p.startsWith("/licenca-sanitaria")) {
     if (p.includes("afe")) return "AFE na Anvisa";
@@ -153,7 +161,7 @@ export function buildStrategicWhatsAppIntent(fallbackSubject = "regularização 
  * generico em paginas de CLCB, sprinkler, hidrante, etc.
  */
 export function getIntentCtaLabel(pathname?: string) {
-  const path = (pathname || (typeof window !== "undefined" ? window.location.pathname : "")).toLowerCase();
+  const path = withLicencaPrefix(pathname || (typeof window !== "undefined" ? window.location.pathname : "")).toLowerCase();
 
   // 0) SEÇÃO LICENÇA SANITÁRIA — antes das regras de AVCB, que usam as mesmas palavras
   if (path.startsWith("/licenca-sanitaria")) {

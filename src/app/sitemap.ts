@@ -7,8 +7,6 @@ import type { MetadataRoute } from "next";
 // Data real da última alteração de cada página (gerada por scripts/gerar-lastmod.cjs).
 import lastmodPorRota from "@/data/lastmod.json";
 // Seção DRD2 Licença Sanitária (rotas geradas a partir de um único [[...slug]])
-import licencaSanitariaIndex from "@/data/licenca-sanitaria/index.json";
-const LICENCA_SANITARIA_LASTMOD = new Date("2026-10-30").toISOString();
 
 // ============================================================================
 // SITEMAP SEGMENTADO — Next 14 generateSitemaps
@@ -31,6 +29,8 @@ const MAIN_LAST_MOD = new Date("2026-05-14").toISOString();
 
 const EXCLUDED_SEGMENTS = new Set([
   "__test__",
+  // Licença sanitária tem sitemap próprio no subdomínio licencasanitaria.drd2.com.br
+  "licenca-sanitaria",
   "api",
   "icons_preview.html",
   // Páginas noindex (internas/pós-conversão) — fora do sitemap por coerência
@@ -214,11 +214,6 @@ function getAllRoutesWithMtime(): Map<string, string> {
     if (!map.has(route)) {
       map.set(route, MAIN_LAST_MOD);
     }
-  }
-
-  // Seção de licença sanitária: uma rota dinâmica que gera todas as páginas
-  for (const entry of licencaSanitariaIndex as { path: string }[]) {
-    if (!map.has(entry.path)) map.set(entry.path, LICENCA_SANITARIA_LASTMOD);
   }
 
   return map;

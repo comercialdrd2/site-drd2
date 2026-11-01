@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import MainNavLink from "@/components/MainNavLink";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -12,7 +12,7 @@ const services = [
   { name: "Renovação de AVCB", href: "/renovacao-avcb" },
   { name: "Renovação de CLCB", href: "/renovacao-clcb-sao-paulo" },
   { name: "PTOTEP (Eventos)", href: "/ptotep" },
-  { name: "Licença Sanitária", href: "/licenca-sanitaria" },
+  { name: "Licença Sanitária", href: "https://licencasanitaria.drd2.com.br" },
   { name: "Projeto de Incêndio", href: "/projetos-incendio" },
   { name: "Sprinklers", href: "/sprinklers" },
   { name: "Alarme de Incêndio", href: "/alarme-incendio-sao-paulo" },
@@ -40,13 +40,13 @@ export default function HeaderMobileMenu() {
       {isOpen && (
         <div className="fixed inset-0 top-20 z-[90] bg-[#0D121F] p-6 animate-in fade-in slide-in-from-right-full duration-300 overflow-y-auto">
           <div className="space-y-4">
-            <Link prefetch={false}
+            <MainNavLink
               onClick={close}
               href="/"
               className="block py-4 border-b border-white/5 text-xl font-black text-white uppercase italic tracking-tighter hover:text-red-500 transition-colors"
             >
               Home
-            </Link>
+            </MainNavLink>
 
             <div className="py-4 border-b border-white/5">
               <p className="text-[12px] font-black text-red-500 uppercase tracking-widest mb-4">
@@ -54,53 +54,53 @@ export default function HeaderMobileMenu() {
               </p>
               <div className="grid grid-cols-1 gap-2">
                 {services.map(({ href, name }) => (
-                  <Link prefetch={false}
+                  <MainNavLink
                     key={href}
                     onClick={close}
                     href={href}
                     className="block py-2 text-gray-300 font-bold hover:text-white"
                   >
                     <span className="uppercase text-xs tracking-tight">{name}</span>
-                  </Link>
+                  </MainNavLink>
                 ))}
-                <Link prefetch={false}
+                <MainNavLink
                   onClick={close}
                   href="/quanto-custa-avcb-sao-paulo"
                   className="block py-2 mt-2 text-red-400 font-black hover:text-red-300 border-t border-white/10 pt-3"
                 >
                   <span className="uppercase text-xs tracking-tight">💰 Quanto Custa o AVCB</span>
-                </Link>
-                <Link prefetch={false}
+                </MainNavLink>
+                <MainNavLink
                   onClick={close}
                   href="/servicos"
                   className="block py-2 text-slate-400 font-bold hover:text-white"
                 >
                   <span className="uppercase text-[10px] tracking-widest">→ Ver todos os serviços</span>
-                </Link>
+                </MainNavLink>
               </div>
             </div>
 
-            <Link prefetch={false}
+            <MainNavLink
               onClick={close}
               href="/blog"
               className="block py-4 border-b border-white/5 text-xl font-black text-white uppercase italic tracking-tighter hover:text-red-500 transition-colors"
             >
               Blog
-            </Link>
-            <Link prefetch={false}
+            </MainNavLink>
+            <MainNavLink
               onClick={close}
               href="/sobre"
               className="block py-4 border-b border-white/5 text-xl font-black text-white uppercase italic tracking-tighter hover:text-red-500 transition-colors"
             >
               Sobre
-            </Link>
-            <Link prefetch={false}
+            </MainNavLink>
+            <MainNavLink
               onClick={close}
               href="/contato"
               className="block py-4 border-b border-white/5 text-xl font-black text-white uppercase italic tracking-tighter hover:text-red-500 transition-colors"
             >
               Contato
-            </Link>
+            </MainNavLink>
           </div>
         </div>
       )}

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import MainNavLink from "@/components/MainNavLink";
 import {
   Award,
   Bell,
@@ -24,7 +24,7 @@ const services = [
   { name: "Renovação de AVCB", href: "/renovacao-avcb", icon: FileCheck },
   { name: "Renovação de CLCB", href: "/renovacao-clcb-sao-paulo", icon: Award },
   { name: "PTOTEP (Eventos)", href: "/ptotep", icon: PartyPopper },
-  { name: "Licença Sanitária", href: "/licenca-sanitaria", icon: FileCheck },
+  { name: "Licença Sanitária", href: "https://licencasanitaria.drd2.com.br", icon: FileCheck },
   { name: "Projeto de Incêndio", href: "/projetos-incendio", icon: Flame },
   { name: "Sprinklers", href: "/sprinklers", icon: Droplets },
   { name: "Alarme de Incêndio", href: "/alarme-incendio-sao-paulo", icon: Bell },
@@ -44,9 +44,9 @@ export default function Header() {
         <HeaderLogo />
 
         <nav className="hidden lg:flex items-center justify-center gap-8" aria-label="Menu principal">
-          <Link prefetch={false} href="/" className={navLinkClass}>
+          <MainNavLink href="/" className={navLinkClass}>
             Home
-          </Link>
+          </MainNavLink>
 
           {/* Dropdown único: Servicos (engloba AVCB, CLCB, Renovacao e demais) */}
           <div className="relative group py-4">
@@ -60,7 +60,7 @@ export default function Header() {
               </p>
               <div className="flex flex-col gap-2">
                 {services.map(({ href, name, icon: Icon }) => (
-                  <Link prefetch={false}
+                  <MainNavLink
                     key={href}
                     href={href}
                     className="flex items-center gap-3 p-3 text-[12px] font-bold text-gray-300 hover:text-white hover:bg-red-600/20 rounded-xl transition-all border border-transparent hover:border-white/5"
@@ -69,11 +69,11 @@ export default function Header() {
                       <Icon className="w-4 h-4 text-red-500" />
                     </div>
                     <span className="uppercase tracking-tight">{name}</span>
-                  </Link>
+                  </MainNavLink>
                 ))}
               </div>
               <div className="border-t border-white/10 mt-3 pt-3 flex flex-col gap-2">
-                <Link prefetch={false}
+                <MainNavLink
                   href="/quanto-custa-avcb-sao-paulo"
                   className="flex items-center gap-3 p-3 text-[12px] font-black text-red-400 hover:text-white bg-red-600/10 hover:bg-red-600 rounded-xl transition-all border border-red-600/30 hover:border-red-600"
                 >
@@ -81,20 +81,20 @@ export default function Header() {
                     <DollarSign className="w-4 h-4 text-red-400" />
                   </div>
                   <span className="uppercase tracking-tight">Quanto Custa o AVCB</span>
-                </Link>
-                <Link prefetch={false}
+                </MainNavLink>
+                <MainNavLink
                   href="/servicos"
                   className="text-center text-[11px] font-black uppercase tracking-widest text-slate-400 hover:text-white py-2 transition-colors"
                 >
                   Ver todos os serviços →
-                </Link>
+                </MainNavLink>
               </div>
             </div>
           </div>
 
-          <Link prefetch={false} href="/blog" className={navLinkClass}>Blog</Link>
-          <Link prefetch={false} href="/sobre" className={navLinkClass}>Sobre</Link>
-          <Link prefetch={false} href="/contato" className={navLinkClass}>Contato</Link>
+          <MainNavLink href="/blog" className={navLinkClass}>Blog</MainNavLink>
+          <MainNavLink href="/sobre" className={navLinkClass}>Sobre</MainNavLink>
+          <MainNavLink href="/contato" className={navLinkClass}>Contato</MainNavLink>
         </nav>
 
         <HeaderMobileMenu />
