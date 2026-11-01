@@ -1,4 +1,4 @@
-import Link from "next/link";
+import MainNavLink from "@/components/MainNavLink";
 import Image from "next/image";
 import { Zap, ShieldCheck } from "lucide-react";
 
@@ -72,28 +72,28 @@ export default function Footer() {
                <Zap className="w-4 h-4 text-primary" /> Ocupações Especiais
             </h3>
             <ul className="space-y-3 text-[13px] font-bold text-slate-400 uppercase tracking-tight">
-              <li><Link prefetch={false} href="/renovacao-avcb-condominio-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2 text-white">▶ Renovação de AVCB</Link></li>
-              <li><Link prefetch={false} href="/avcb-galpao-industrial-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Galpões Industriais</Link></li>
-              <li><Link prefetch={false} href="/avcb-restaurante-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Alta Gastronomia</Link></li>
-              <li><Link prefetch={false} href="/avcb-hospital-clinica-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Hospitais & Clínicas</Link></li>
-              <li><Link prefetch={false} href="/avcb-para-condominio-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Condomínios Residenciais</Link></li>
-              <li><Link prefetch={false} href="/avcb-para-escola-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Escolas Infantis</Link></li>
-              <li><Link prefetch={false} href="/avcb-para-academia-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Academias & Fitness</Link></li>
-              <li><Link prefetch={false} href="/avcb-para-igreja-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Igrejas & Templos</Link></li>
-              <li><Link prefetch={false} href="/ptotep" className="hover:text-primary transition-colors flex items-center gap-2 text-red-400 font-black">▶ PTOTEP Eventos</Link></li>
-              <li><Link prefetch={false} href="/avcb-salao-de-festas-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2 text-red-500 font-black">▶ Salão de Festas</Link></li>
-              <li><Link prefetch={false} href="/avcb-consultorios-medicos-odontologicos-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Clínica Odontológica</Link></li>
-              <li><Link prefetch={false} href="/avcb-clinica-hospital-veterinario-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Clinica Veterinaria</Link></li>
-              <li><Link prefetch={false} href="/avcb-para-escritorio-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Escritórios Corporativos</Link></li>
-              <li><Link prefetch={false} href="/avcb-para-shopping-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Shoppings & Centros Comerciais</Link></li>
-              <li><Link prefetch={false} href="/avcb-posto-combustivel-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Postos de Combustível</Link></li>
-              <li><Link prefetch={false} href="/avcb-estacionamento-garagem-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Estacionamentos</Link></li>
-              <li><Link prefetch={false} href="/renovacao-avcb-restaurante-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Renovação AVCB Restaurante</Link></li>
-              <li><Link prefetch={false} href="/renovacao-avcb-pousada-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Renovação AVCB Pousada</Link></li>
-              <li><Link prefetch={false} href="/laudo-sprinkler-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Laudo de Sprinkler SP</Link></li>
-              <li><Link prefetch={false} href="/porta-corta-fogo-condominio-sp" className="hover:text-primary transition-colors flex items-center gap-2">▶ Porta Corta-Fogo Condomínio</Link></li>
-              <li><Link prefetch={false} href="/sistema-de-hidrantes-para-restaurante-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Hidrante para Restaurante</Link></li>
-              <li><Link prefetch={false} href="/avcb-por-tipo-de-imovel" className="hover:text-primary transition-colors flex items-center gap-2 text-white font-black">▶ Ver todos os tipos de imóvel</Link></li>
+              <li><MainNavLink href="/renovacao-avcb-condominio-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2 text-white">▶ Renovação de AVCB</MainNavLink></li>
+              <li><MainNavLink href="/avcb-galpao-industrial-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Galpões Industriais</MainNavLink></li>
+              <li><MainNavLink href="/avcb-restaurante-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Alta Gastronomia</MainNavLink></li>
+              <li><MainNavLink href="/avcb-hospital-clinica-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Hospitais & Clínicas</MainNavLink></li>
+              <li><MainNavLink href="/avcb-para-condominio-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Condomínios Residenciais</MainNavLink></li>
+              <li><MainNavLink href="/avcb-para-escola-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Escolas Infantis</MainNavLink></li>
+              <li><MainNavLink href="/avcb-para-academia-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Academias & Fitness</MainNavLink></li>
+              <li><MainNavLink href="/avcb-para-igreja-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Igrejas & Templos</MainNavLink></li>
+              <li><MainNavLink href="/ptotep" className="hover:text-primary transition-colors flex items-center gap-2 text-red-400 font-black">▶ PTOTEP Eventos</MainNavLink></li>
+              <li><MainNavLink href="/avcb-salao-de-festas-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2 text-red-500 font-black">▶ Salão de Festas</MainNavLink></li>
+              <li><MainNavLink href="/avcb-consultorios-medicos-odontologicos-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Clínica Odontológica</MainNavLink></li>
+              <li><MainNavLink href="/avcb-clinica-hospital-veterinario-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Clinica Veterinaria</MainNavLink></li>
+              <li><MainNavLink href="/avcb-para-escritorio-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Escritórios Corporativos</MainNavLink></li>
+              <li><MainNavLink href="/avcb-para-shopping-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Shoppings & Centros Comerciais</MainNavLink></li>
+              <li><MainNavLink href="/avcb-posto-combustivel-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Postos de Combustível</MainNavLink></li>
+              <li><MainNavLink href="/avcb-estacionamento-garagem-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Estacionamentos</MainNavLink></li>
+              <li><MainNavLink href="/renovacao-avcb-restaurante-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Renovação AVCB Restaurante</MainNavLink></li>
+              <li><MainNavLink href="/renovacao-avcb-pousada-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Renovação AVCB Pousada</MainNavLink></li>
+              <li><MainNavLink href="/laudo-sprinkler-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Laudo de Sprinkler SP</MainNavLink></li>
+              <li><MainNavLink href="/porta-corta-fogo-condominio-sp" className="hover:text-primary transition-colors flex items-center gap-2">▶ Porta Corta-Fogo Condomínio</MainNavLink></li>
+              <li><MainNavLink href="/sistema-de-hidrantes-para-restaurante-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Hidrante para Restaurante</MainNavLink></li>
+              <li><MainNavLink href="/avcb-por-tipo-de-imovel" className="hover:text-primary transition-colors flex items-center gap-2 text-white font-black">▶ Ver todos os tipos de imóvel</MainNavLink></li>
             </ul>
           </div>
 
@@ -103,18 +103,18 @@ export default function Footer() {
                Eixos Corporativos
             </h3>
             <ul className="space-y-3 text-[13px] font-bold text-slate-400 uppercase tracking-tight">
-              <li><Link prefetch={false} href="/avcb-itaim-bibi" className="hover:text-stone-400 transition-colors flex items-center gap-2">▶ Itaim Bibi & JK</Link></li>
-              <li><Link prefetch={false} href="/avcb-alphaville-barueri" className="hover:text-yellow-500 transition-colors flex items-center gap-2">▶ Alphaville Logística</Link></li>
-              <li><Link prefetch={false} href="/avcb-pinheiros" className="hover:text-primary transition-colors flex items-center gap-2">▶ Polo Pinheiros</Link></li>
-              <li><Link prefetch={false} href="/avcb-vila-olimpia" className="hover:text-primary transition-colors flex items-center gap-2">▶ Vila Olímpia</Link></li>
-              <li><Link prefetch={false} href="/avcb-zona-sul" className="hover:text-primary transition-colors flex items-center gap-2">▶ Zona Sul Startups</Link></li>
-              <li><Link prefetch={false} href="/avcb-perdizes" className="hover:text-primary transition-colors flex items-center gap-2">▶ Perdizes</Link></li>
-              <li><Link prefetch={false} href="/ptotep-sorocaba" className="hover:text-primary transition-colors flex items-center gap-2">▶ PTOTEP Sorocaba</Link></li>
-              <li><Link prefetch={false} href="/ptotep-para-evento-universitario" className="hover:text-primary transition-colors flex items-center gap-2">▶ PTOTEP Evento Universitário</Link></li>
-              <li><Link prefetch={false} href="/ptotep-para-evento-em-igreja" className="hover:text-primary transition-colors flex items-center gap-2">▶ PTOTEP Evento em Igreja</Link></li>
-              <li><Link prefetch={false} href="/vga-galpao-industrial-sp" className="hover:text-primary transition-colors flex items-center gap-2">▶ VGA Galpão Industrial</Link></li>
-              <li><Link prefetch={false} href="/vga-hotel-sp" className="hover:text-primary transition-colors flex items-center gap-2">▶ VGA Hotel SP</Link></li>
-              <li><Link prefetch={false} href="/avcb-clcb-por-regiao" className="hover:text-primary transition-colors flex items-center gap-2 text-white font-black">▶ Ver todos os bairros e cidades</Link></li>
+              <li><MainNavLink href="/avcb-itaim-bibi" className="hover:text-stone-400 transition-colors flex items-center gap-2">▶ Itaim Bibi & JK</MainNavLink></li>
+              <li><MainNavLink href="/avcb-alphaville-barueri" className="hover:text-yellow-500 transition-colors flex items-center gap-2">▶ Alphaville Logística</MainNavLink></li>
+              <li><MainNavLink href="/avcb-pinheiros" className="hover:text-primary transition-colors flex items-center gap-2">▶ Polo Pinheiros</MainNavLink></li>
+              <li><MainNavLink href="/avcb-vila-olimpia" className="hover:text-primary transition-colors flex items-center gap-2">▶ Vila Olímpia</MainNavLink></li>
+              <li><MainNavLink href="/avcb-zona-sul" className="hover:text-primary transition-colors flex items-center gap-2">▶ Zona Sul Startups</MainNavLink></li>
+              <li><MainNavLink href="/avcb-perdizes" className="hover:text-primary transition-colors flex items-center gap-2">▶ Perdizes</MainNavLink></li>
+              <li><MainNavLink href="/ptotep-sorocaba" className="hover:text-primary transition-colors flex items-center gap-2">▶ PTOTEP Sorocaba</MainNavLink></li>
+              <li><MainNavLink href="/ptotep-para-evento-universitario" className="hover:text-primary transition-colors flex items-center gap-2">▶ PTOTEP Evento Universitário</MainNavLink></li>
+              <li><MainNavLink href="/ptotep-para-evento-em-igreja" className="hover:text-primary transition-colors flex items-center gap-2">▶ PTOTEP Evento em Igreja</MainNavLink></li>
+              <li><MainNavLink href="/vga-galpao-industrial-sp" className="hover:text-primary transition-colors flex items-center gap-2">▶ VGA Galpão Industrial</MainNavLink></li>
+              <li><MainNavLink href="/vga-hotel-sp" className="hover:text-primary transition-colors flex items-center gap-2">▶ VGA Hotel SP</MainNavLink></li>
+              <li><MainNavLink href="/avcb-clcb-por-regiao" className="hover:text-primary transition-colors flex items-center gap-2 text-white font-black">▶ Ver todos os bairros e cidades</MainNavLink></li>
             </ul>
           </div>
 
@@ -124,13 +124,13 @@ export default function Footer() {
                Regiões atendidas
             </h3>
             <ul className="space-y-3 text-[13px] font-bold text-slate-400 uppercase tracking-tight">
-              <li><Link prefetch={false} href="/avcb-centro-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Centro de SP</Link></li>
-              <li><Link prefetch={false} href="/avcb-zona-norte-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Zona Norte</Link></li>
-              <li><Link prefetch={false} href="/avcb-zona-leste-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Zona Leste</Link></li>
-              <li><Link prefetch={false} href="/avcb-zona-oeste-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Zona Oeste</Link></li>
-              <li><Link prefetch={false} href="/avcb-santo-andre" className="hover:text-primary transition-colors flex items-center gap-2">▶ Grande ABC</Link></li>
-              <li><Link prefetch={false} href="/avcb-santos" className="hover:text-primary transition-colors flex items-center gap-2">▶ Baixada Santista</Link></li>
-              <li><Link prefetch={false} href="/avcb-campinas" className="hover:text-primary transition-colors flex items-center gap-2">▶ Campinas e interior</Link></li>
+              <li><MainNavLink href="/avcb-centro-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Centro de SP</MainNavLink></li>
+              <li><MainNavLink href="/avcb-zona-norte-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Zona Norte</MainNavLink></li>
+              <li><MainNavLink href="/avcb-zona-leste-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Zona Leste</MainNavLink></li>
+              <li><MainNavLink href="/avcb-zona-oeste-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Zona Oeste</MainNavLink></li>
+              <li><MainNavLink href="/avcb-santo-andre" className="hover:text-primary transition-colors flex items-center gap-2">▶ Grande ABC</MainNavLink></li>
+              <li><MainNavLink href="/avcb-santos" className="hover:text-primary transition-colors flex items-center gap-2">▶ Baixada Santista</MainNavLink></li>
+              <li><MainNavLink href="/avcb-campinas" className="hover:text-primary transition-colors flex items-center gap-2">▶ Campinas e interior</MainNavLink></li>
             </ul>
           </div>
 
@@ -164,16 +164,16 @@ export default function Footer() {
         <div className="mt-16 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center text-[10px] font-black uppercase tracking-[0.2em] text-slate-600">
           <p>© {new Date().getFullYear()} DRD2 ENGENHARIA LTDA. TODOS OS DIREITOS RESERVADOS.</p>
           <div className="mt-4 md:mt-0 flex flex-wrap justify-center md:justify-end gap-x-6 gap-y-2">
-            <Link prefetch={false} href="/clcb-sao-paulo" className="hover:text-white transition-colors">CLCB Rápido</Link>
-            <Link prefetch={false} href="/renovacao-avcb-condominio-sao-paulo" className="hover:text-white transition-colors">Renovação</Link>
-            <Link prefetch={false} href="/blog" className="hover:text-white transition-colors">Dossiês DRD2</Link>
-            <Link prefetch={false} href="/avcb-clcb-por-regiao" className="hover:text-white transition-colors">Regiões atendidas</Link>
-            <Link prefetch={false} href="/avcb-por-tipo-de-imovel" className="hover:text-white transition-colors">Tipos de imóvel</Link>
-            <Link prefetch={false} href="/engenheiro-avcb-sao-paulo" className="hover:text-white transition-colors">Engenheiro de AVCB</Link>
-            <Link prefetch={false} href="/avcb-sao-paulo#urgencia" className="hover:text-white transition-colors">AVCB urgente</Link>
-            <Link prefetch={false} href="/ptotep" className="hover:text-white transition-colors">Eventos (PTOTEP)</Link>
-            <Link prefetch={false} href="/plano-de-emergencia-contra-incendio-sp" className="hover:text-white transition-colors">Plano de emergência</Link>
-            <Link prefetch={false} href="/politica-de-privacidade" className="hover:text-white transition-colors">Privacidade</Link>
+            <MainNavLink href="/clcb-sao-paulo" className="hover:text-white transition-colors">CLCB Rápido</MainNavLink>
+            <MainNavLink href="/renovacao-avcb-condominio-sao-paulo" className="hover:text-white transition-colors">Renovação</MainNavLink>
+            <MainNavLink href="/blog" className="hover:text-white transition-colors">Dossiês DRD2</MainNavLink>
+            <MainNavLink href="/avcb-clcb-por-regiao" className="hover:text-white transition-colors">Regiões atendidas</MainNavLink>
+            <MainNavLink href="/avcb-por-tipo-de-imovel" className="hover:text-white transition-colors">Tipos de imóvel</MainNavLink>
+            <MainNavLink href="/engenheiro-avcb-sao-paulo" className="hover:text-white transition-colors">Engenheiro de AVCB</MainNavLink>
+            <MainNavLink href="/avcb-sao-paulo#urgencia" className="hover:text-white transition-colors">AVCB urgente</MainNavLink>
+            <MainNavLink href="/ptotep" className="hover:text-white transition-colors">Eventos (PTOTEP)</MainNavLink>
+            <MainNavLink href="/plano-de-emergencia-contra-incendio-sp" className="hover:text-white transition-colors">Plano de emergência</MainNavLink>
+            <MainNavLink href="/politica-de-privacidade" className="hover:text-white transition-colors">Privacidade</MainNavLink>
           </div>
         </div>
       </div>
