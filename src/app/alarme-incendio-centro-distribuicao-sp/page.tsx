@@ -50,11 +50,11 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Integração inexistente com o sistema de sprinkler",
-        desc: "A IT 19/2025 exige que o alarme de incêndio seja integrado ao sinal de fluxo do sprinkler. Quando um bico aciona, a central deve indicar o setor. CDs sem essa integração têm sistema de alarme parcialmente inoperante.",
+        desc: "A IT 23/2025 (item 5.1) exige que o fluxo de água do sprinkler acione o alarme e seja identificado na central. Quando um bico aciona, a central deve indicar o setor. CDs sem essa integração têm sistema de alarme parcialmente inoperante.",
       },
       {
         titulo: "Baterias sem autonomia para CDs de grande porte",
-        desc: "A IT 19/2025 exige 24h em standby e 30 min em alarme. CDs grandes têm alta quantidade de dispositivos — baterias subdimensionadas perdem a autonomia mínima exigida antes do vencimento programado.",
+        desc: "A IT 19/2025 (item 4.3) exige 24h em supervisão e 15 min em alarme. CDs grandes têm alta quantidade de dispositivos — baterias subdimensionadas perdem a autonomia mínima exigida antes do vencimento programado.",
       },
     ],
   },
@@ -114,7 +114,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Integração obrigatória com sprinkler",
-        desc: "A IT 19/2025 exige integração do sinal de fluxo do sprinkler à central de alarme. Qualquer acionamento de bico deve gerar alerta imediato na central com identificação do setor.",
+        desc: "A IT 23/2025 (item 5.1) exige que o fluxo de água do sprinkler acione o alarme e seja identificado na central. Qualquer acionamento de bico deve gerar alerta imediato na central com identificação do setor.",
       },
     ],
     closing:
@@ -160,7 +160,7 @@ const data: UniversalPageData = {
     {
       question: "O sistema de alarme do CD deve ser integrado ao sprinkler?",
       answer:
-        "Sim. A IT 19/2025 exige que o sinal de fluxo do sistema de sprinkler seja integrado à central de alarme de incêndio. Qualquer acionamento de bico gera alerta imediato na central com identificação do setor — permitindo resposta rápida antes que a água cause dano patrimonial.",
+        "Sim. A IT 23/2025 (item 5.1) exige que o fluxo de água do sprinkler acione o alarme e seja identificado na central de alarme. Qualquer acionamento de bico gera alerta imediato na central com identificação do setor — permitindo resposta rápida antes que a água cause dano patrimonial.",
     },
     {
       question: "CD que opera 24h precisa de monitoramento noturno da central de alarme?",

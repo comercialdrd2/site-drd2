@@ -1,7 +1,7 @@
 export const renovacaoAvcbFarmaciaContent = {
   meta: {
     title: "Renovação de AVCB para Farmácia e Drogaria em São Paulo",
-    description: "Farmácia ou drogaria com AVCB vencido em São Paulo perde o alvará sanitário. Grupo C-2, IT-29, produtos inflamáveis. DRD2 Engenharia renova com agilidade.",
+    description: "Farmácia ou drogaria com AVCB vencido em São Paulo perde o alvará sanitário. Grupo C-2, produtos inflamáveis. DRD2 Engenharia renova com agilidade.",
     canonical: "/renovacao-avcb-farmacia-drogaria-sao-paulo",
   },
   badge: "GRUPO C-2 — COMÉRCIO VAREJISTA — RENOVAÇÃO 2026",
@@ -30,11 +30,11 @@ export const renovacaoAvcbFarmaciaContent = {
     {
       title: "Instruções Técnicas aplicáveis à renovação",
       content: [
-        "<strong>IT-02/2019</strong>: Enquadramento Grupo C-2, carga de incêndio e parâmetros que determinam o conjunto de medidas exigíveis para a renovação.",
+        "<strong>Decreto 69.118/2024</strong>: Enquadramento Grupo C-2, carga de incêndio e parâmetros que determinam o conjunto de medidas exigíveis para a renovação.",
         "<strong>IT-17 — Brigada de Incêndio</strong>: documentação de treinamento atualizada obrigatória no processo de renovação.",
         "<strong>IT-19 — Detecção e Alarme</strong>: laudo de manutenção do sistema dentro do prazo, quando o sistema for exigível para o porte do estabelecimento.",
-        "<strong>IT-21 — Hidrantes e Mangotinhos</strong>: laudo de teste de pressão e vazão obrigatório quando o sistema for instalado.",
-        "<strong>IT-29 — Produtos Perigosos</strong>: aplicável quando há armazenagem de álcool, aerossóis ou produtos com classificação de risco. Memorial descritivo específico obrigatório — ausência é a causa mais frequente de Comunique-se em farmácias."
+        "<strong>IT-22 — Hidrantes e Mangotinhos</strong>: laudo de teste de pressão e vazão obrigatório quando o sistema for instalado.",
+        "<strong>IT-32 — Produtos Perigosos</strong>: aplicável quando há armazenagem de álcool, aerossóis ou produtos com classificação de risco. Memorial descritivo específico obrigatório — ausência é a causa mais frequente de Comunique-se em farmácias."
       ]
     },
     {
@@ -48,7 +48,7 @@ export const renovacaoAvcbFarmaciaContent = {
       title: "O que a DRD2 Engenharia entrega na renovação",
       content: [
         "<strong>Vistoria técnica presencial</strong>: Levantamento in loco do estado atual da farmácia, sistemas de proteção instalados, layout, área de estoque de produtos inflamáveis e conformidade com o projeto aprovado.",
-        "<strong>Atualização das plantas e memorial descritivo</strong>: Revisão completa da documentação técnica, incluindo o memorial de armazenagem de produtos inflamáveis exigido pela IT-29 — eliminando os Comunique-se mais comuns antes do protocolo.",
+        "<strong>Atualização das plantas e memorial descritivo</strong>: Revisão completa da documentação técnica, incluindo o memorial de armazenagem de produtos inflamáveis — eliminando os Comunique-se mais comuns antes do protocolo.",
         "<strong>Verificação e coordenação dos laudos</strong>: Identificação dos laudos vencidos e coordenação com as empresas prestadoras para regularização dentro do prazo do processo — sem atraso no cronograma de aprovação.",
         "<strong>Protocolo e aprovação no CBPMESP</strong>: Entrada do processo no sistema digital do Corpo de Bombeiros e acompanhamento até a emissão do AVCB, com resposta incluída a qualquer Comunique-se, sem custo adicional."
       ]

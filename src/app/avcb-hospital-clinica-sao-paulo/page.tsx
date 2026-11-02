@@ -444,11 +444,11 @@ export default function AVCBHospitalMasterPage() {
               },
               {
                 question: "Qual a diferença entre AVCB e CLCB para clínicas?",
-                answer: "O CLCB é para clínicas de baixo risco com até 750 m², ou até 1.500 m² com sistema de hidrantes. O AVCB é para hospitais e clínicas maiores ou com alto risco (presença de internação, centros cirúrgicos, etc.)."
+                answer: "O CLCB é para clínicas de baixo risco com até 750 m² e até 3 pavimentos. O AVCB é para hospitais e clínicas maiores ou com alto risco (presença de internação, centros cirúrgicos, etc.)."
               },
               {
                 question: "O que é o enquadramento no Grupo H?",
-                answer: "O Grupo H da IT-02 define as regras para serviços de saúde. Ele garante que as exigências sejam proporcionais ao risco, como a necessidade de corredores mais largos para macas em hospitais."
+                answer: "O Grupo H do Decreto 69.118/2024 reúne os serviços de saúde. Ele garante que as exigências sejam proporcionais ao risco, como a necessidade de corredores mais largos para macas em hospitais."
               },
               {
                 question: "Quanto tempo leva para tirar o AVCB de uma clínica?",

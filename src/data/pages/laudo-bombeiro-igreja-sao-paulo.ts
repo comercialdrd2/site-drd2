@@ -64,7 +64,7 @@ export const laudoBombeiroContent = {
       content: [
         "Igrejas têm o conjunto de laudos variável conforme os sistemas instalados e o porte do templo. Igrejas menores têm principalmente extintores anuais e iluminação de emergência. Igrejas de maior porte com SPDA, sistema de alarme e cozinha de apoio têm calendário mais completo.",
         "<strong>Anual (a cada 12 meses)</strong>: Laudo de manutenção de todos os extintores com verificação de acessibilidade. Inspeção do SPDA (quando presente) conforme NBR 5419. Laudo de teste do sistema de detecção (quando presente). Laudo de teste da iluminação de emergência com verificação de autonomia de baterias.",
-        "<strong>Semestral (quando houver)</strong>: Laudo de limpeza de coifa (IT-23) para igrejas com cozinha de apoio que opera fogão industrial em eventos.",
+        "<strong>Semestral (quando houver)</strong>: Laudo de limpeza de coifa para igrejas com cozinha de apoio que opera fogão industrial em eventos.",
         "O <strong>AVCB de igreja tem validade de 3 anos</strong>. O PSIU não aguarda o prazo — opera em qualquer domingo ou data de evento especial. A DRD2 mantém os laudos em dia para que a congregação nunca seja surpreendida por uma interdição no momento mais importante da semana.",
       ],
     },

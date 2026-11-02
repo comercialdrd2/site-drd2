@@ -262,6 +262,7 @@ const allBlogPosts: BlogPost[] = [
     slug: "avcb-clcb-para-abrir-empresa-sao-paulo",
     title: "AVCB ou CLCB para abrir empresa em São Paulo: o que você precisa saber",
     date: "2026-10-07",
+    updated: "2026-11-02",
     category: "Regularização",
     excerpt: "Vai abrir CNPJ ou mudar de endereço em SP? Veja quando a empresa precisa de AVCB ou CLCB e como regularizar o imóvel antes de funcionar.",
     relatedServiceSlug: "avcb-sao-paulo",
@@ -293,7 +294,7 @@ const allBlogPosts: BlogPost[] = [
       <ul>
         <li><strong>CLCB:</strong> para imóveis de até 750 m² e de baixo risco, como lojas, escritórios, consultórios e pequenos comércios. É um processo mais simples, sem projeto técnico.</li>
         <li><strong>AVCB:</strong> para imóveis maiores ou de risco mais alto, como indústrias, galpões, escolas e locais de reunião de público.</li>
-        <li><strong>Projeto técnico:</strong> exigido quando o imóvel tem mais de 1.500 m² <strong>ou</strong> mais de 9 metros de altura. Basta uma das duas condições: um prédio de 250 m² com mais de 9 m de altura também precisa de projeto.</li>
+        <li><strong>Projeto técnico:</strong> exigido quando o imóvel não se enquadra no projeto simplificado da IT 42/2025 — por exemplo, acima de 1.500 m², ou quando precisa de chuveiros automáticos, detecção de incêndio, controle de fumaça ou escada de segurança (item 5.2.1.3).</li>
       </ul>
       <p>O enquadramento depende também da ocupação e da lotação. Se tiver dúvida, veja <a href="/blog/diferenca-entre-avcb-e-clcb">AVCB ou CLCB: qual eu preciso?</a></p>
 
@@ -334,6 +335,7 @@ const allBlogPosts: BlogPost[] = [
     slug: "via-facil-bombeiros-quando-chamar-engenheiro",
     title: "Via Fácil Bombeiros: como funciona e quando chamar um engenheiro",
     date: "2026-10-07",
+    updated: "2026-11-02",
     category: "Documentação",
     excerpt: "Entenda o Via Fácil Bombeiros, os erros que fazem o processo voltar com exigência e quando vale ter um engenheiro com ART cuidando do AVCB ou CLCB.",
     relatedServiceSlug: "clcb-sao-paulo",
@@ -378,7 +380,7 @@ const allBlogPosts: BlogPost[] = [
 
       <h2>Quando vale chamar um engenheiro</h2>
       <ul>
-        <li>O imóvel tem mais de 750 m², mais de 1.500 m² ou mais de 9 metros de altura: pode precisar de AVCB e de projeto técnico.</li>
+        <li>O imóvel tem mais de 750 m² ou mais de 3 pavimentos: a licença é o AVCB; acima de 1.500 m², com projeto técnico.</li>
         <li>O processo voltou com exigência e você não sabe como responder.</li>
         <li>O pedido foi indeferido ou arquivado.</li>
         <li>Há prazo correndo: alvará, contrato de locação, seguro, fiscalização ou vencimento da licença.</li>
@@ -475,6 +477,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     slug: "avcb-para-restaurante-em-sp-como-regularizar-em-2026",
     title: "AVCB para Restaurante em SP: Como Regularizar em 2026",
     date: "2026-04-18",
+    updated: "2026-11-02",
     category: "Gastronomia & VISA",
     excerpt: "Guia técnico completo sobre AVCB para restaurantes em São Paulo em 2026. Novas exigências do CBPMESP e VISA, os 3 erros que reprovam na vistoria e como regularizar sem interdição.",
     relatedServiceSlug: "avcb-restaurante-sao-paulo",
@@ -488,7 +491,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>Além disso, 2026 trouxe cruzamento de dados entre CBPMESP e Vigilância Sanitária (VISA). Estabelecimentos sem protocolo ativo de renovação do AVCB estão sendo bloqueados na renovação do CMVS — o que na prática significa impossibilidade de operar legalmente.</p>
 
       <h2>Enquadramento normativo do restaurante no CBPMESP</h2>
-      <p>Restaurantes são enquadrados pela IT-02 do CBPMESP no Grupo B — Serviços Profissionais, Pessoais e Técnicos, subdivisão B-2, quando predominantemente comerciais. Estabelecimentos com cozinha industrial de grande porte ou produção em escala podem ter enquadramento complementar exigindo sistemas adicionais.</p>
+      <p>Restaurantes são enquadrados pelo Decreto Estadual nº 69.118/2024 no Grupo B — Serviços Profissionais, Pessoais e Técnicos, subdivisão B-2, quando predominantemente comerciais. Estabelecimentos com cozinha industrial de grande porte ou produção em escala podem ter enquadramento complementar exigindo sistemas adicionais.</p>
       <p>O tipo de certificado — AVCB ou CLCB — depende da área total construída e das características da edificação. Restaurantes menores com até determinada metragem e sem uso de GLP acima do limite simplificado podem se enquadrar no CLCB. Acima disso, o AVCB com Projeto Técnico Completo é obrigatório.</p>
 
       <h2>Os 3 erros que reprovam restaurantes na vistoria do Corpo de Bombeiros</h2>
@@ -567,6 +570,8 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     title: "Como Tirar o AVCB para Galpão Industrial: Processo, Documentos e Prazos em SP",
 
     date: "2026-04-10",
+
+    updated: "2026-11-02",
     category: "Engenharia Industrial",
     excerpt: "Operar um galpão industrial em São Paulo sem AVCB é operar com risco real de embargo, multa e responsabilidade civil. Um engenheiro especialista explica o processo completo — do diagnóstico técnico à retirada do documento.",
     relatedServiceSlug: "avcb-galpao-industrial-sao-paulo",
@@ -577,14 +582,14 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <h2>O que é o AVCB e por que ele é obrigatório para galpões industriais</h2>
       <p>O Auto de Vistoria do Corpo de Bombeiros, o AVCB, é o documento emitido pelo CBPMESP que atesta que uma edificação atende às condições mínimas de segurança contra incêndio e pânico exigidas pela legislação estadual.</p>
       <p>Para galpões industriais e depósitos, a obrigatoriedade está estabelecida no Decreto Estadual nº 69.118/2024 e regulamentada pelas Instruções Técnicas do Corpo de Bombeiros da Polícia Militar do Estado de São Paulo — as ITs do CBPMESP. Não há exceção por porte da empresa: o que determina a obrigatoriedade é a área construída, o grupo e a classe de ocupação da edificação, não quem a ocupa.</p>
-      <p>Galpões enquadrados no Grupo I (Depósitos) e no Grupo J (Industrial), conforme a IT-02/CBPMESP, estão entre as ocupações com fiscalização mais ativa no estado — exatamente porque concentram cargas de incêndio elevadas, produtos inflamáveis e processos com risco significativo de propagação de fogo.</p>
+      <p>Galpões enquadrados no Grupo I (Indústria) e no Grupo J (Depósito), conforme o Decreto Estadual nº 69.118/2024, estão entre as ocupações com fiscalização mais ativa no estado — exatamente porque concentram cargas de incêndio elevadas, produtos inflamáveis e processos com risco significativo de propagação de fogo.</p>
       <p>Operar sem AVCB nessas condições não é apenas uma irregularidade administrativa. É um passivo real: embargo de atividade, auto de infração, suspensão de licenças e, em caso de sinistro, negativa de cobertura pela seguradora.</p>
 
       <h2>AVCB ou CLCB — qual se aplica ao seu galpão?</h2>
       <p>Antes de iniciar qualquer processo, é necessário entender qual documento se aplica à sua situação. Muita empresa contrata errado e perde tempo.</p>
       <p><strong>AVCB (Auto de Vistoria do Corpo de Bombeiros):</strong> é o documento completo, exigido para edificações que requerem análise de projeto técnico, vistoria presencial e aprovação formal pelo CBPMESP. Aplicável à maioria dos galpões industriais com área relevante, carga de incêndio média a alta ou sistemas de combate a incêndio instalados.</p>
       <p><strong>CLCB (Certificado de Licença do Corpo de Bombeiros):</strong> modalidade simplificada, aplicável a ocupações de menor risco e porte reduzido, com processo administrativo menos complexo e sem necessidade de projeto completo em todos os casos.</p>
-      <p>A IT-01/CBPMESP define os critérios de enquadramento. Na prática, a maioria dos galpões industriais em São Paulo — especialmente os que operam acima de 1.500 m² ou com carga de incêndio elevada — exige AVCB completo. Entre 751 e 1.500 m², o CLCB só é possível com sistema de hidrantes, entre outras exigências. Qualquer afirmação diferente sem análise técnica prévia é irresponsável.</p>
+      <p>A IT-01/CBPMESP define os critérios de enquadramento. Na prática, a maioria dos galpões industriais em São Paulo exige AVCB. O CLCB só vale até 750 m² e até 3 pavimentos (IT 42/2025); acima disso, a licença é o AVCB. Qualquer afirmação diferente sem análise técnica prévia é irresponsável.</p>
       <p>Se você não sabe qual se aplica ao seu galpão, o caminho correto é uma vistoria técnica prévia com engenheiro registrado no CREA-SP.</p>
 
       <h2>Como tirar o AVCB para galpão industrial — o processo real, etapa por etapa</h2>
@@ -593,7 +598,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <h3>Etapa 1 — Diagnóstico técnico e classificação da edificação</h3>
       <p>O primeiro passo é a vistoria técnica do galpão por um engenheiro de segurança contra incêndio. Nessa etapa são identificados:</p>
       <ul>
-        <li>Grupo e classe de ocupação (IT-02/CBPMESP)</li>
+        <li>Grupo e divisão de ocupação (Decreto 69.118/2024, Tabela 1)</li>
         <li>Carga de incêndio específica (IT-14/CBPMESP) — fator crítico para galpões com estoque de materiais inflamáveis</li>
         <li>Sistemas de prevenção e combate existentes e sua conformidade</li>
         <li>Saídas de emergência, sinalização e rota de fuga (IT-11/CBPMESP)</li>
@@ -672,10 +677,10 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p><strong>Atendimento direto com engenheiro especialista em AVCB para galpão industrial em São Paulo.</strong></p>
     `,
     faqs: [
-      { question: "Galpão industrial é obrigado a ter AVCB em São Paulo?", answer: "Sim. A obrigatoriedade está estabelecida no Decreto Estadual nº 69.118/2024 e regulamentada pelas Instruções Técnicas do CBPMESP. Galpões enquadrados nos Grupos I (Depósitos) e J (Industrial), conforme a IT-02/CBPMESP, estão sujeitos à obrigatoriedade independentemente do porte da empresa que o ocupa. O que determina a exigência é a classificação da edificação, não a atividade do locatário." },
+      { question: "Galpão industrial é obrigado a ter AVCB em São Paulo?", answer: "Sim. A obrigatoriedade está estabelecida no Decreto Estadual nº 69.118/2024 e regulamentada pelas Instruções Técnicas do CBPMESP. Galpões enquadrados nos Grupos I (Indústria) e J (Depósito), conforme o Decreto Estadual nº 69.118/2024, estão sujeitos à obrigatoriedade independentemente do porte da empresa que o ocupa. O que determina a exigência é a classificação da edificação, não a atividade do locatário." },
       { question: "O que acontece se o galpão for fiscalizado sem AVCB?", answer: "A fiscalização do CBPMESP pode resultar em auto de infração, notificação para regularização com prazo determinado, interdição parcial ou total da atividade e comunicação ao órgão municipal responsável pelo alvará de funcionamento. Em caso de sinistro com vítimas ou danos a terceiros, a ausência de AVCB agrava significativamente a responsabilidade civil e criminal do proprietário e do responsável legal pela operação." },
       { question: "Qual o prazo real para aprovação do AVCB no CBPMESP?", answer: "Em processos bem instruídos — projeto completo, ART emitida, adequações executadas antes do protocolo — o prazo costuma variar entre 60 e 120 dias. Processos com documentação incompleta ou projetos com inconsistências técnicas podem ultrapassar 8 a 12 meses devido a Comunique-se e reprotocolos. A qualidade técnica da instrução processual é o principal fator de controle de prazo." },
-      { question: "Qual a diferença entre AVCB e CLCB para galpões?", answer: "O AVCB é o documento completo, exigido para edificações com maior complexidade, área ou risco. O CLCB é a modalidade simplificada, aplicável a ocupações de menor risco e porte reduzido. Para a maioria dos galpões industriais em São Paulo — especialmente acima de 1.500 m² ou com carga de incêndio elevada — o AVCB completo é o documento aplicável. Entre 751 e 1.500 m², o CLCB só é possível com sistema de hidrantes, entre outras exigências. O enquadramento correto depende de análise técnica prévia conforme a IT-01 e IT-02/CBPMESP." },
+      { question: "Qual a diferença entre AVCB e CLCB para galpões?", answer: "O AVCB é o documento completo, exigido para edificações com maior complexidade, área ou risco. O CLCB é a modalidade simplificada, aplicável a ocupações de menor risco e porte reduzido. Para a maioria dos galpões industriais em São Paulo, o AVCB é o documento aplicável. O CLCB só vale até 750 m² e até 3 pavimentos (IT 42/2025); acima disso, a licença é o AVCB. O enquadramento correto depende de análise técnica prévia conforme a IT 42/2025 e o Decreto 69.118/2024." },
       { question: "Quem pode assinar o projeto de segurança contra incêndio?", answer: "O projeto deve ser elaborado e assinado por engenheiro registrado no CREA-SP, com emissão de ART (Anotação de Responsabilidade Técnica). O CBPMESP não aceita projetos sem ART. Despachantes, técnicos de segurança e empresas de instalação não têm habilitação legal para assinar projetos — apenas engenheiros com registro ativo no conselho regional." },
       { question: "Quanto custa tirar ou renovar o AVCB de um galpão industrial em SP?", answer: "O custo varia conforme a área do galpão, o grupo de ocupação, o estado atual dos sistemas de prevenção e o escopo de adequações necessárias. Projetos para galpões menores e já adequados têm custo significativamente diferente de processos que exigem instalação de sistemas completos de hidrante, sprinkler e controle de fumaça. Qualquer orçamento sério depende de diagnóstico técnico prévio. Desconfie de valores fechados passados sem vistoria." }
     ]
@@ -722,8 +727,8 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>Para hospitais e clínicas com internação, o sistema de detecção automática é praticamente mandatório. A NBR 17240 define os critérios de projeto, especificação e instalação dos detectores, acionadores manuais, central de alarme e sirenes. Em ambientes hospitalares, a norma exige atenção especial a áreas com pacientes que não podem ser assustados abruptamente — o que impacta o tipo e a programação dos dispositivos de alarme.</p>
       <p>Projetos que ignoram essa especificidade recebem exigência na análise do CBPMESP.</p>
 
-      <h3>Compartimentação Horizontal e Vertical (IT-17/CBPMESP)</h3>
-      <p>Em edificações com múltiplos pavimentos e setores (UTI, centro cirúrgico, enfermaria, área administrativa), a compartimentação é o principal mecanismo de contenção da propagação do incêndio. Ela define portas corta-fogo, selos corta-fogo em passagens de instalações e paredes com resistência ao fogo (TRRF) conforme a IT-17.</p>
+      <h3>Compartimentação Horizontal e Vertical (IT-09/CBPMESP)</h3>
+      <p>Em edificações com múltiplos pavimentos e setores (UTI, centro cirúrgico, enfermaria, área administrativa), a compartimentação é o principal mecanismo de contenção da propagação do incêndio. Ela define portas corta-fogo, selos corta-fogo em passagens de instalações e paredes com resistência ao fogo (TRRF) conforme a IT-08.</p>
       <p>A reforma de um hospital sem atualização de compartimentação é uma das situações de maior risco de indeferimento — e de maior risco real para os pacientes.</p>
 
       <h3>Saídas de Emergência com Capacidade para Evacuação Assistida (IT-11/CBPMESP)</h3>
@@ -2311,6 +2316,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     slug: "sprinkler-obrigatorio-para-quem-e-quando",
     title: "Sprinkler é Obrigatório? Para Quem e Quando é Exigido em SP",
     date: "2026-05-08",
+    updated: "2026-11-02",
     category: "Sistemas de Incêndio",
     excerpt: "Descubra quando o sistema de sprinkler é obrigatório em São Paulo, quais edificações precisam e o que acontece sem a instalação. Guia técnico completo.",
     relatedServiceSlug: "sprinklers",
@@ -2319,7 +2325,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>O <strong>sistema de sprinkler</strong> (chuveiro automático de incêndio) é obrigatório para determinados tipos e portes de edificação em São Paulo, conforme a IT-23/CBPMESP e a NBR 10897. A dúvida mais comum é: <em>o meu imóvel precisa de sprinkler?</em> A resposta depende da área, da altura da edificação e do tipo de ocupação.</p>
 
       <h2>Quando o sprinkler é obrigatório em São Paulo?</h2>
-      <p>O sprinkler é exigido principalmente para: edificações residenciais com altura acima de 30 metros (aproximadamente 10 andares), edificações comerciais e de serviços acima de determinadas áreas e alturas conforme o grupo de ocupação, hotéis e pousadas de médio e grande porte (Grupo H), hospitais e clínicas com internação (Grupo I), centros de compras e shoppings (Grupo C), indústrias e depósitos com alta carga de incêndio (Grupos I e J), e edificações com grande capacidade de público simultâneo.</p>
+      <p>O sprinkler é exigido principalmente para: edificações residenciais com altura acima de 30 metros (aproximadamente 10 andares), edificações comerciais e de serviços acima de determinadas áreas e alturas conforme o grupo de ocupação, hotéis e pousadas de médio e grande porte (Grupo B), hospitais e clínicas com internação (Grupo H), centros de compras e shoppings (Grupo C), indústrias e depósitos com alta carga de incêndio (Grupos I e J), e edificações com grande capacidade de público simultâneo.</p>
 
       <h2>Qual IT rege o sprinkler em SP?</h2>
       <p>A IT-23/CBPMESP define quando o sprinkler é obrigatório, qual o tipo de sistema exigido (pipe schedule ou por cálculo hidráulico), a densidade de descarga mínima por grupo de ocupação e os critérios de dimensionamento do reservatório e bomba. A NBR 10897 complementa com as especificações técnicas de instalação.</p>
@@ -2471,6 +2477,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     slug: "laudo-tecnico-x-relatorio-manutencao-qual-cbpmesp-aceita",
     title: "Laudo Técnico x Relatório de Manutenção: Qual o CBPMESP Aceita?",
     date: "2026-05-08",
+    updated: "2026-11-02",
     category: "Documentação Técnica",
     excerpt: "Qual documento o Corpo de Bombeiros aceita para sistemas de incêndio: laudo técnico de engenheiro ou relatório de manutenção? Entenda a diferença e evite rejeição no protocolo.",
     relatedServiceSlug: "laudo-sistema-hidrantes-sao-paulo",
@@ -2482,7 +2489,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>O relatório de manutenção é emitido pela empresa que realiza a manutenção periódica dos sistemas — limpeza, recarga de extintores, verificação de mangueiras, teste de detectores. É um documento operacional que comprova que o serviço foi realizado, assinado pelo técnico ou responsável da empresa de manutenção. É importante para a gestão do imóvel, mas não substitui o laudo técnico de engenheiro perante o CBPMESP.</p>
 
       <h2>O que é o laudo técnico de engenheiro?</h2>
-      <p>O laudo técnico é emitido por engenheiro habilitado com <strong>ART CREA-SP recolhida especificamente para o laudo</strong>. Ele certifica que o sistema de incêndio está em conformidade com a Instrução Técnica aplicável (IT-22 para hidrantes, IT-17 para alarme, IT-23 para sprinkler) e apresenta os valores medidos nos testes realizados — pressão, vazão, tempo de resposta, cobertura. É esse documento que o CBPMESP exige para processos de AVCB e para resposta a Comunique-ses sobre sistemas.</p>
+      <p>O laudo técnico é emitido por engenheiro habilitado com <strong>ART CREA-SP recolhida especificamente para o laudo</strong>. Ele certifica que o sistema de incêndio está em conformidade com a Instrução Técnica aplicável (IT-22 para hidrantes, IT-19 para alarme, IT-23 para sprinkler) e apresenta os valores medidos nos testes realizados — pressão, vazão, tempo de resposta, cobertura. É esse documento que o CBPMESP exige para processos de AVCB e para resposta a Comunique-ses sobre sistemas.</p>
 
       <h2>Quando cada documento é usado?</h2>
       <p><strong>Relatório de manutenção:</strong> gestão interna do imóvel, comprovação para seguradoras de que a manutenção está em dia, base para o engenheiro emitir o laudo. <strong>Laudo técnico com ART:</strong> protocolo no processo de AVCB, resposta a Comunique-se do CBPMESP sobre sistemas, auditoria de seguradora que exige certificação técnica, e vistoria do imóvel.</p>
@@ -2813,51 +2820,50 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     content: `
       <p>A diferença entre <strong>CLCB</strong> e <strong>AVCB</strong> não é só de nome — são processos completamente distintos com regras, prazos e custos diferentes. Errar o enquadramento custa caro: protocolo recusado, retrabalho técnico e atraso de meses na regularização.</p>
 
-      <p>Este guia técnico apresenta as 5 perguntas oficiais do CBPMESP que definem qual certificado se aplica à sua edificação, baseadas na Instrução Técnica IT-01 e no Decreto 69.118/2024 atualizado em 2025/2026.</p>
+      <p>Este guia apresenta as 5 perguntas que definem qual certificado se aplica à sua edificação, com base na IT 42/2025 (Projeto Técnico Simplificado) e no Decreto Estadual nº 69.118/2024.</p>
 
       <h2>1. Qual a área construída total da edificação?</h2>
-      <p>Essa é a primeira e mais decisiva pergunta. O <strong>CLCB</strong> (Certificado de Licença do Corpo de Bombeiros) vale para edificações com até <strong>750 m² de área construída total</strong> sem sistema de hidrantes, ou até <strong>1.500 m²</strong> com sistema de hidrantes instalado, entre outras exigências. Acima de 1.500 m², o caminho é o AVCB.</p>
-      <p>Importante: o cálculo considera a área construída total, não só a área útil. Isso inclui escadas, depósitos, sanitários, áreas técnicas e qualquer cobertura. Use o IPTU ou a planta arquitetônica para confirmar.</p>
-      <p>Edificações em prédios comerciais devem considerar apenas a unidade individual — não a soma do prédio inteiro. Cada unidade com alvará próprio tem enquadramento independente.</p>
+      <p>Essa é a primeira e mais decisiva pergunta. O <strong>CLCB</strong> (Certificado de Licença do Corpo de Bombeiros) só vale para edificações com até <strong>750 m² de área construída</strong> (IT 42/2025, item 4.2.1). Acima disso, a licença é o AVCB.</p>
+      <p>Importante: o cálculo considera a área construída total, não só a área útil. Use o IPTU ou a planta arquitetônica para confirmar. A IT 42/2025 permite descontar alguns itens, como coberturas de bombas de combustível, piscinas e a área de residência unifamiliar com acesso independente.</p>
+      <p>Imóveis muito pequenos podem nem precisar de licença: atividade em imóvel de até 100 m², térreo, com saída direta para a rua e sem portas ou janelas para os vizinhos dispensa a licença do Corpo de Bombeiros, exceto em locais de reunião de público e acima dos limites de gás e de líquidos inflamáveis (IT 42/2025, itens 6.3.3 e 6.3.5).</p>
 
-      <h2>2. Qual o grupo de ocupação conforme a IT-02?</h2>
-      <p>A IT-02 classifica todas as edificações em grupos de risco. Alguns grupos <strong>nunca</strong> se enquadram em CLCB, mesmo em área pequena:</p>
+      <h2>2. Qual o tipo de ocupação?</h2>
+      <p>A ocupação é classificada pela Tabela 1 do Decreto Estadual nº 69.118/2024. A IT 42/2025 (item 4.2.3) lista as que <strong>não</strong> podem ter CLCB, mesmo em área pequena. Entre elas:</p>
       <ul>
-        <li><strong>Grupo H-3 (hospitais)</strong>: AVCB obrigatório por causa de pacientes acamados</li>
-        <li><strong>Grupo B (hotéis, motéis, pensões)</strong>: AVCB obrigatório por causa de hóspedes dormindo</li>
-        <li><strong>Grupo I (industrial)</strong>: AVCB obrigatório por carga de incêndio</li>
-        <li><strong>Grupo F-5 (locais para refeições)</strong> com alta lotação: avaliar caso a caso</li>
+        <li><strong>Salões de festas, clubes sociais e assemelhados (F-6)</strong> e <strong>casas noturnas (F-11)</strong></li>
+        <li><strong>Teatros, cinemas e auditórios (F-5)</strong> e <strong>arenas e ginásios com arquibancada (F-3)</strong></li>
+        <li><strong>Creches e escolas de ensino infantil (E-5 e E-6)</strong></li>
+        <li><strong>Asilos e abrigos geriátricos (H-2)</strong> e <strong>hospitais e clínicas com internação (H-3)</strong></li>
+        <li><strong>Hotéis, motéis e pousadas (B-1) com mais de 40 leitos</strong></li>
+        <li><strong>Revenda de GLP</strong>, imóveis com mais de 190 kg de GLP, com produtos perigosos ou com processo de líquidos inflamáveis acima de 250 L</li>
       </ul>
-      <p>Já estes grupos costumam aceitar CLCB se a área for compatível: C (comércio), D (serviços), F-8 (alimentação pequena), E (educação infantil pequena), H-6 (clínicas e consultórios sem internação).</p>
+      <p>Comércio (C), serviços e escritórios (D), restaurantes (F-8), igrejas (F-2), academias (E-3) e clínicas sem internação (H-6) podem ter CLCB, se cumprirem os outros critérios.</p>
 
-      <h2>3. Qual a altura ou número de pavimentos?</h2>
-      <p>Edificações com mais de 2 pavimentos tipicamente saem do CLCB simplificado. O motivo é técnico: rotas verticais de fuga exigem análise específica (largura de escada, dimensionamento, sinalização) que o CLCB não cobre.</p>
-      <p>Térreo + 1 andar costuma ser aceito. Térreo + 2 andares já precisa de análise. Acima de 3 pavimentos, AVCB é praticamente obrigatório.</p>
+      <h2>3. Quantos pavimentos?</h2>
+      <p>O CLCB vale para edificações com <strong>até 3 pavimentos</strong>, sem contar subsolos e pavimentos inferiores destinados a estacionamento (IT 42/2025, item 4.2.2). Com 4 pavimentos ou mais, a licença é o AVCB, mesmo que a área seja pequena.</p>
 
       <h2>4. Qual a lotação máxima esperada?</h2>
-      <p>Mesmo em áreas pequenas, lotação acima de <strong>100 pessoas</strong> tipicamente puxa o enquadramento para AVCB. O dimensionamento das saídas de emergência conforme IT-11 exige cálculo específico que o CLCB não realiza.</p>
-      <p>Restaurantes com salão para 80-100 pessoas, salões de festas pequenos e igrejas com público modesto costumam ainda caber em CLCB. Casas noturnas, bares com show e templos grandes vão direto para AVCB.</p>
+      <p>Em locais de reunião de público (Grupo F), como restaurantes e igrejas, o CLCB só vale até <strong>250 pessoas</strong> (IT 42/2025, itens 4.1.4 e 4.2.3). Para escritórios com central de atendimento (call center), o limite é de 250 funcionários.</p>
 
-      <h2>5. A edificação tem sistemas técnicos exigidos por norma?</h2>
-      <p>Algumas exigências puxam para AVCB porque o CLCB não cobre sistemas técnicos complexos. O sistema de hidrantes é a exceção: com ele instalado, o CLCB vale até 1.500 m².</p>
+      <h2>5. A edificação precisa de sistemas que exigem projeto técnico?</h2>
+      <p>Se a edificação precisa de algum destes sistemas, a IT 42/2025 (item 5.2.1.3) exige projeto técnico, e o caminho é o AVCB:</p>
       <ul>
-        <li>Área acima de 1.500 m², ou carga de incêndio alta</li>
-        <li>Sprinkler (chuveiro automático) — exigência específica por área/altura</li>
-        <li>Sistema de detecção e alarme com central — alguns casos exigem</li>
-        <li>Escada pressurizada ou enclausurada</li>
-        <li>Brigada de incêndio obrigatória</li>
+        <li>Chuveiros automáticos (sprinkler)</li>
+        <li>Detecção de incêndio</li>
+        <li>Controle de fumaça</li>
+        <li>Sistema de espuma e resfriamento</li>
+        <li>Escadas de segurança dos tipos EP, PF, PFP ou AE</li>
       </ul>
-      <p>Se a edificação tem qualquer um desses sistemas instalados ou exigidos por norma, o caminho correto é AVCB — o CLCB não documenta esses sistemas.</p>
 
       <h2>Conclusão prática</h2>
-      <p>Se você respondeu "sim" à elegibilidade nas 5 perguntas (até 750 m², ou até 1.500 m² com sistema de hidrantes; grupo permitido; até 2 pavimentos; até 100 pessoas; sem sistemas complexos), seu caminho mais rápido e econômico é o <strong>CLCB</strong>. Em São Paulo, o processo leva de 15 a 45 dias, sem vistoria física obrigatória.</p>
-      <p>Se algum dos critérios falhou, é AVCB — processo mais robusto, com projeto técnico, ART, vistoria física e prazo de 60 a 180 dias dependendo do porte.</p>
-      <p>A DRD2 Engenharia faz o diagnóstico definitivo gratuitamente para qualquer estabelecimento em São Paulo e Grande SP. <a href="/blog/diferenca-entre-avcb-e-clcb" class="text-primary font-bold underline">Use nossa calculadora interativa</a> ou fale direto no WhatsApp.</p>
+      <p>Se a sua edificação tem até 750 m², até 3 pavimentos, uma ocupação permitida, até 250 pessoas (no Grupo F) e não precisa desses sistemas, o caminho mais rápido e econômico é o <strong>CLCB</strong>. Em São Paulo, o processo costuma levar de 15 a 45 dias, sem análise de projeto.</p>
+      <p>Se algum dos critérios falhou, é AVCB — processo mais robusto, com projeto técnico quando exigido, ART, vistoria e prazo de 60 a 180 dias dependendo do porte.</p>
+      <p>A DRD2 Engenharia faz o diagnóstico gratuitamente para qualquer estabelecimento em São Paulo e Grande SP. <a href="/blog/diferenca-entre-avcb-e-clcb" class="text-primary font-bold underline">Use nossa calculadora interativa</a> ou fale direto no WhatsApp.</p>
     `,
     faqs: [
-      { question: "Posso usar CLCB se minha edificação tem 800 m²?", answer: "Pode, desde que a edificação tenha sistema de hidrantes instalado, entre outras exigências. Sem hidrantes, o CLCB vale até 750 m². Acima de 1.500 m², o caminho é o AVCB. A DRD2 confirma a área no diagnóstico gratuito comparando IPTU e levantamento físico." },
-      { question: "Hotel de 200 m² pode CLCB?", answer: "Não. Hotéis, pousadas, motéis e hostels são grupo B na IT-02 e exigem AVCB independente da área, por causa de hóspedes dormindo (risco elevado em incêndio noturno)." },
-      { question: "Restaurante com 60 lugares precisa de AVCB ou CLCB?", answer: "Depende da área. Com lotação até ~100 pessoas, o CLCB se aplica até 750 m², ou até 1.500 m² com sistema de hidrantes. Fora disso, AVCB. A central de GLP e a cozinha exigem atenção específica em qualquer caso." },
+      { question: "Posso usar CLCB se minha edificação tem 800 m²?", answer: "Não. O CLCB só vale até 750 m² de área construída (IT 42/2025, item 4.2.1). Com 800 m², a licença é o AVCB. A DRD2 confirma a área no diagnóstico gratuito comparando IPTU e levantamento físico, porque alguns itens podem ser descontados." },
+      { question: "Hotel de 200 m² pode CLCB?", answer: "Pode, se tiver até 40 leitos, até 3 pavimentos e cumprir os outros critérios. A IT 42/2025 (item 4.2.3) só tira do CLCB os hotéis, motéis e pousadas com mais de 40 leitos." },
+      { question: "Restaurante com 60 lugares precisa de AVCB ou CLCB?", answer: "Pode ser CLCB, se o imóvel tiver até 750 m², até 3 pavimentos e lotação de até 250 pessoas. Atenção ao gás: com mais de 190 kg de GLP, o CLCB não vale (IT 42/2025, item 4.2.3)." },
       { question: "Posso emitir CLCB sem engenheiro?", answer: "Sim, o CLCB é por declaração — o proprietário pode protocolar diretamente. Mas a recomendação técnica é contar com engenheiro para garantir que a declaração esteja correta (extintores no prazo, sinalização adequada, rotas de fuga). Declaração falsa gera responsabilidade civil e criminal." }
     ]
   },
@@ -2866,6 +2872,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     slug: "como-emitir-clcb-em-sao-paulo-passo-a-passo",
     title: "CLCB Bombeiros SP: Como Emitir e Solicitar em 2026",
     date: "2026-05-13",
+    updated: "2026-11-02",
     category: "CLCB",
     excerpt: "Guia do CLCB do Corpo de Bombeiros de SP: quem pode usar, documentos, ART e o passo a passo no Via Fácil. Veja os erros que fazem o pedido voltar.",
     relatedServiceSlug: "clcb-sao-paulo",
@@ -2879,18 +2886,18 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       servicoLabel: "Ver o serviço de CLCB em São Paulo",
     },
     content: `
-      <p>O <strong>CLCB</strong> (Certificado de Licença do Corpo de Bombeiros) é a versão simplificada da regularização junto ao CBPMESP para edificações de baixo risco com até 750 m², ou até 1.500 m² com sistema de hidrantes. O processo é mais rápido, mais barato e exige menos documentação que o AVCB — mas tem regras específicas que, se ignoradas, fazem o protocolo ser recusado.</p>
+      <p>O <strong>CLCB</strong> (Certificado de Licença do Corpo de Bombeiros) é a versão simplificada da regularização junto ao CBPMESP para edificações de baixo risco com até 750 m² e até 3 pavimentos. O processo é mais rápido, mais barato e exige menos documentação que o AVCB — mas tem regras específicas que, se ignoradas, fazem o protocolo ser recusado.</p>
 
       <p>Este guia detalha o passo a passo oficial do CLCB em 2026 conforme as Instruções Técnicas IT-01 e o Decreto 69.118/2024 atualizado.</p>
 
       <h2>Etapa 1: Confirmar enquadramento</h2>
-      <p>Antes de qualquer documento, confirme que sua edificação realmente se enquadra no CLCB. Os critérios são cumulativos:</p>
+      <p>Antes de qualquer documento, confirme que sua edificação realmente se enquadra no CLCB. Pela IT 42/2025 (itens 4.1, 4.2 e 5.2.1.3), os critérios são cumulativos:</p>
       <ul>
-        <li>Área construída total até 750 m², ou até 1.500 m² com sistema de hidrantes instalado</li>
-        <li>Grupo de ocupação compatível (não pode ser hospital, hotel, indústria)</li>
-        <li>Até 2 pavimentos</li>
-        <li>Lotação até ~100 pessoas</li>
-        <li>Sem exigência de sistemas técnicos complexos (hidrante, sprinkler, alarme central)</li>
+        <li>Área construída de até 750 m² (item 4.2.1)</li>
+        <li>Até 3 pavimentos, sem contar subsolos e pavimentos inferiores de estacionamento (item 4.2.2)</li>
+        <li>Ocupação permitida: o CLCB não vale para salões de festas, casas noturnas, creches e escolas infantis, teatros e auditórios, asilos, hospitais e clínicas com internação, hotéis e pousadas com mais de 40 leitos, revenda de GLP e outros casos listados no item 4.2.3</li>
+        <li>Em locais de reunião de público (Grupo F), lotação de até 250 pessoas (itens 4.1.4 e 4.2.3)</li>
+        <li>Sem exigência de chuveiros automáticos (sprinkler), detecção de incêndio, controle de fumaça, espuma ou escada de segurança — nesses casos é obrigatório o projeto técnico (item 5.2.1.3)</li>
       </ul>
       <p>Se algum critério falhar, é AVCB — não CLCB. Protocolar CLCB para edificação que exige AVCB resulta em recusa automática.</p>
 
@@ -3030,6 +3037,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     slug: "quanto-custa-clcb-em-sao-paulo-2026",
     title: "Quanto custa o CLCB em São Paulo? O que pesa no preço por ocupação",
     date: "2026-05-13",
+    updated: "2026-11-02",
     category: "CLCB",
     excerpt: "Custo real do CLCB em São Paulo em 2026: taxa do CBPMESP, honorários técnicos e adequações por tipo de estabelecimento. Sem surpresas no orçamento.",
     relatedServiceSlug: "clcb-sao-paulo",
@@ -3110,7 +3118,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
         <li>Processo mais rápido (custo de oportunidade menor)</li>
       </ul>
 
-      <p>Se sua edificação se enquadra no CLCB (baixo risco, até 750 m² ou até 1.500 m² com hidrantes), aproveite essa via simplificada. Para descobrir qual certificado se aplica ao seu caso, <a href="/blog/diferenca-entre-avcb-e-clcb" class="text-primary font-bold underline">use nossa calculadora interativa</a> ou solicite diagnóstico gratuito da DRD2 pelo WhatsApp.</p>
+      <p>Se sua edificação se enquadra no CLCB (baixo risco, até 750 m² e até 3 pavimentos), aproveite essa via simplificada. Para descobrir qual certificado se aplica ao seu caso, <a href="/blog/diferenca-entre-avcb-e-clcb" class="text-primary font-bold underline">use nossa calculadora interativa</a> ou solicite diagnóstico gratuito da DRD2 pelo WhatsApp.</p>
     `,
     faqs: [
       { question: "Posso parcelar a taxa do CBPMESP?", answer: "Não. A taxa do Corpo de Bombeiros é paga à vista no momento do protocolo. Já os honorários da empresa contratada podem ser parcelados conforme negociação." },

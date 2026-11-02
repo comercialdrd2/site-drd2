@@ -89,7 +89,7 @@ export default function DiferencaAVCBCLCBPost() {
     },
     {
       question: "Condomínio residencial pode ter CLCB ao invés de AVCB?",
-      answer: "Sim, para condomínios que se enquadrem nos critérios de área (até 750 m² sem hidrantes, ou até 1.500 m² com sistema de hidrantes) e baixo risco definidos pelas Instruções Técnicas do CBPMESP. Condomínios maiores, com mais de 4 pavimentos ou sistemas complexos, em geral exigem AVCB completo com vistoria presencial."
+      answer: "Sim, para condomínios que se enquadrem nos critérios de área (até 750 m² e até 3 pavimentos) e baixo risco definidos pelas Instruções Técnicas do CBPMESP. Condomínios maiores, com mais de 4 pavimentos ou sistemas complexos, em geral exigem AVCB completo com vistoria presencial."
     },
     {
       question: "Qual é mais barato: AVCB ou CLCB?",

@@ -70,7 +70,7 @@ export default function AVCBCasaRepousoPage() {
         <div className="relative z-10 container mx-auto px-4 max-w-6xl w-full">
           <div className="lg:w-3/5">
             <span className="inline-block bg-red-600 text-white text-[10px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest mb-3 shadow-lg shadow-red-900/20">
-              Grupo I — Serviços de Saúde — Exigências Máximas 2026
+              Divisão H-2 — Asilos e Abrigos Geriátricos — 2026
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
               <span className="text-white">AVCB PARA</span>{" "}
@@ -261,7 +261,7 @@ export default function AVCBCasaRepousoPage() {
       <section className="py-24 bg-slate-900 text-white">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center mb-20">
-            <span className="text-red-500 font-black uppercase tracking-widest text-xs">Grupo I — Processo Especializado</span>
+            <span className="text-red-500 font-black uppercase tracking-widest text-xs">Divisão H-2 — Processo Especializado</span>
             <h2 className="text-3xl md:text-5xl font-black mb-6 tracking-tighter leading-none uppercase italic mt-4">
               Como a DRD2 Conduz o{" "}
               <span className="text-red-600 not-italic">AVCB para Casa de Repouso em SP</span>

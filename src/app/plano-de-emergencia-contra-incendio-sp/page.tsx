@@ -68,7 +68,7 @@ const pageData: UniversalPageData = {
   },
   h2_quando: {
     heading: "Quando o Plano de Emergência é Obrigatório?",
-    body1: "O Plano é obrigatório para edificações com área construída superior a 1.500m² ou que possuam riscos específicos (IT-16). Locais de reunião de público, indústrias e hospitais sempre devem possuir o plano atualizado.",
+    body1: "O Plano de Emergência segue a IT-16 e é exigido conforme a ocupação, a área e a altura do imóvel, nas tabelas do Decreto Estadual nº 69.118/2024. A DRD2 confere se o seu imóvel precisa dele.",
     body2: "Se sua edificação teve alteração de layout, mudança de atividade ou troca da equipe da brigada, o plano de emergência deve ser revisado imediatamente para manter a validade do AVCB.",
   },
   h2_escolher: {

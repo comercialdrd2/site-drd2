@@ -46,7 +46,7 @@ export default function MoemaLandingPage() {
     },
     {
       question: "Meu imóvel em Moema precisa de AVCB completo ou CLCB simplificado?",
-      answer: "Depende da área e do uso. Imóveis acima de 1.500 m² ou com uso de alto risco exigem AVCB completo. Até 750 m², pode ser CLCB; de 751 a 1.500 m², também, desde que o imóvel tenha sistema de hidrantes, entre outras exigências. A DRD2 avalia o enquadramento correto gratuitamente."
+      answer: "Depende da área e do uso. Imóveis acima de 1.500 m² ou com uso de alto risco exigem AVCB completo. Até 750 m² e até 3 pavimentos, pode ser CLCB; acima disso, a licença é o AVCB. A DRD2 avalia o enquadramento correto gratuitamente."
     },
     {
       question: "O AVCB vencido impede a renovacao do alvará de funcionamento em Moema?",

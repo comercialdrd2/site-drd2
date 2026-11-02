@@ -37,7 +37,7 @@ export const quantoCustaAvcbContent = {
       {
         h3: "2. Tipo de Ocupação e Grupo de Risco",
         body: [
-          "A IT-02 do CBPMESP classifica cada edificação em um grupo de ocupação que define as exigências obrigatórias de segurança. Ocupações de maior risco — como postos de combustível, hospitais, boates e casas de repouso — têm exigências mais rigorosas e, consequentemente, processos mais complexos e custosos do que escritórios ou pequenos comércios.",
+          "O Decreto Estadual nº 69.118/2024 classifica cada edificação em um grupo de ocupação que define as exigências obrigatórias de segurança. Ocupações de maior risco — como postos de combustível, hospitais, boates e casas de repouso — têm exigências mais rigorosas e, consequentemente, processos mais complexos e custosos do que escritórios ou pequenos comércios.",
         ],
       },
       {

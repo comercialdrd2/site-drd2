@@ -51,7 +51,7 @@ export const laudoBombeiroContent = {
     {
       title: "O que a DRD2 Engenharia entrega para postos de combustível",
       content: [
-        "<strong>Inspeção do SPDA em área classificada por empresa habilitada</strong>: Coordenamos a inspeção anual do sistema completo de SPDA por empresa credenciada com experiência em instalações com risco de explosão — incluindo medição de aterramento na área classificada, verificação de bonding dos tanques e atestado de conformidade com IT-34 e ABNT NBR 5419.",
+        "<strong>Inspeção do SPDA em área classificada por empresa habilitada</strong>: Coordenamos a inspeção anual do sistema completo de SPDA por empresa credenciada com experiência em instalações com risco de explosão — incluindo medição de aterramento na área classificada, verificação de bonding dos tanques e atestado de conformidade com a ABNT NBR 5419.",
         "<strong>Laudo de manutenção da CSAO</strong>: Coordenamos a limpeza e inspeção da caixa separadora por empresa habilitada, com laudo técnico que atende as exigências do CBPMESP e orienta sobre destinação dos resíduos.",
         "<strong>Laudo de medição de aterramento das bombas</strong>: Coordenamos a medição de resistência de cada bomba de abastecimento com laudo no formato exigido pelo CBPMESP.",
         "<strong>Verificação dos extintores Classe B nas ilhas</strong>: Confirmamos classificação, posicionamento e estado da manutenção de cada extintor nas ilhas e na área de armazenamento.",

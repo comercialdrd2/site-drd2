@@ -18,7 +18,7 @@ export const avcbCasaRepousoContent = {
   h2_precisaDeAvcb: {
     heading: "Casa de Repouso Precisa de AVCB em São Paulo?",
     body: [
-      "Sim — e com exigências significativamente mais rígidas do que estabelecimentos comerciais convencionais. Casas de repouso são enquadradas como Grupo I — Serviços de Saúde, subdivisão I-3, pela IT-02 do CBPMESP, que contempla hospitais, clínicas de internação, asilos, casas de repouso e ILPIs.",
+      "Sim — e com exigências significativamente mais rígidas do que estabelecimentos comerciais convencionais. Casas de repouso são enquadradas como Grupo H, divisão H-2 (asilos e abrigos geriátricos), pelo Decreto Estadual nº 69.118/2024. Pela IT 42/2025, essa divisão não pode ser licenciada por CLCB.",
       "O Decreto Estadual nº 69.118/2024 reforça a obrigatoriedade e estabelece prazos para regularização. Operar uma casa de repouso sem AVCB vigente expõe o responsável a:",
     ],
     riscos_lista: [

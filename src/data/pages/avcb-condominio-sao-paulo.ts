@@ -19,7 +19,7 @@ export const avcbCondominioContent = {
   h2_precisaDeAvcb: {
     heading: "Condomínio Precisa de AVCB em São Paulo?",
     body: [
-      "Sim. Condomínios residenciais são enquadrados como Grupo A — Residencial, subdivisão A-2 (edifício residencial multifamiliar), pela IT-02 do CBPMESP. Condomínios comerciais seguem o enquadramento conforme o uso predominante das unidades — escritórios, consultórios, salas comerciais.",
+      "Sim. Condomínios residenciais são enquadrados como Grupo A — Residencial, subdivisão A-2 (edifício residencial multifamiliar), pelo Decreto Estadual nº 69.118/2024. Condomínios comerciais seguem o enquadramento conforme o uso predominante das unidades — escritórios, consultórios, salas comerciais.",
       "O Decreto Estadual nº 69.118/2024 estabelece a obrigatoriedade do AVCB ou CLCB para todas as edificações enquadradas nas categorias de risco previstas na legislação vigente. Condomínios sem o certificado regular estão sujeitos a:",
     ],
     riscos_lista: [
@@ -93,7 +93,7 @@ export const avcbCondominioContent = {
       },
       {
         nome: "Para-raios",
-        desc: "sistema de proteção contra descargas atmosféricas conforme IT-19, obrigatório em edificações acima de determinada altura.",
+        desc: "sistema de proteção contra descargas atmosféricas conforme ABNT NBR 5419, obrigatório em edificações acima de determinada altura.",
       },
       {
         nome: "Plano de emergência",
@@ -111,7 +111,7 @@ export const avcbCondominioContent = {
     itens: [
       {
         titulo: "Escadas sem pressurização:",
-        desc: "em alguns casos, é possível adotar soluções alternativas como escadas com ventilação natural conforme IT-08, evitando a instalação de sistemas de pressurização que exigem obras significativas.",
+        desc: "em alguns casos, é possível adotar soluções alternativas como escadas com ventilação natural conforme IT-11, evitando a instalação de sistemas de pressurização que exigem obras significativas.",
       },
       {
         titulo: "Detalhes construtivos existentes:",

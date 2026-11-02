@@ -14,7 +14,7 @@ import { trackEvent } from "@/lib/analytics";
  * - Altura (n° de andares)
  * - Lotação aproximada
  *
- * Fonte: IT-01 e IT-02 do CBPMESP — Decreto 69.118/2024 + atualizacoes 2025/2026.
+ * Fonte: IT 42/2025 (itens 4.1, 4.2 e 5.2.1.3) e Tabela 1 do Decreto 69.118/2024, conferidos em 02/11/2026.
  *
  * Disclaimer: heuristica para orientação inicial — diagnostico definitivo
  * exige engenheiro avaliando o projeto especifico.
@@ -23,9 +23,10 @@ import { trackEvent } from "@/lib/analytics";
 type Occupation = {
   id: string;
   label: string;
-  group: string; // grupo conforme IT-02
+  group: string; // divisão conforme a Tabela 1 do Decreto Estadual nº 69.118/2024
   riskClass: "baixo" | "medio" | "alto";
   examples: string;
+  semClcb?: string; // ocupação que a IT 42/2025 (item 4.2.3) não deixa licenciar por CLCB
 };
 
 const OCCUPATIONS: Occupation[] = [
@@ -33,14 +34,15 @@ const OCCUPATIONS: Occupation[] = [
   { id: "escritorio", label: "Escritório / Sala comercial", group: "D-1, D-2", riskClass: "baixo", examples: "consultório, escritório de advocacia, contábil, coworking pequeno" },
   { id: "clinica", label: "Clínica médica / Consultório", group: "H-6", riskClass: "baixo", examples: "clínica geral, odontológica, fisioterapia, salão de beleza" },
   { id: "restaurante", label: "Restaurante / Bar / Padaria", group: "F-8", riskClass: "medio", examples: "restaurante, lanchonete, bar, padaria, cafeteria com cozinha" },
-  { id: "academia", label: "Academia / Estúdio", group: "F-3", riskClass: "medio", examples: "academia, pilates, crossfit, estúdio de dança" },
-  { id: "escola", label: "Escola / Creche", group: "E-1, E-2", riskClass: "medio", examples: "creche, escola infantil, curso livre, faculdade pequena" },
-  { id: "salao", label: "Salão de festas / Eventos", group: "F-6", riskClass: "medio", examples: "salão de festas, espaço de eventos pequeno" },
-  { id: "igreja", label: "Igreja / Templo", group: "F-4", riskClass: "medio", examples: "igreja, templo religioso de pequeno porte" },
+  { id: "academia", label: "Academia / Estúdio", group: "E-3", riskClass: "medio", examples: "academia, pilates, crossfit, estúdio de dança" },
+  { id: "escola", label: "Escola / Curso", group: "E-1, E-4", riskClass: "medio", examples: "escola, curso livre, centro de treinamento, faculdade pequena" },
+  { id: "creche", label: "Creche / Escola infantil", group: "E-5", riskClass: "medio", examples: "creche, berçário, pré-escola", semClcb: "creches e escolas de ensino infantil (divisão E-5)" },
+  { id: "salao", label: "Salão de festas / Eventos", group: "F-6", riskClass: "medio", examples: "salão de festas, espaço de eventos pequeno", semClcb: "salões de festas, clubes sociais e assemelhados (divisão F-6)" },
+  { id: "igreja", label: "Igreja / Templo", group: "F-2", riskClass: "medio", examples: "igreja, templo religioso de pequeno porte" },
   { id: "comercio_baixo_risco", label: "Farmácia / Mercado pequeno", group: "C-1", riskClass: "baixo", examples: "farmácia, mini-mercado, hortifruti, pet shop" },
   { id: "industrial", label: "Galpão / Indústria", group: "I-1, I-2, I-3", riskClass: "alto", examples: "galpão logístico, indústria leve, oficina" },
   { id: "hotel", label: "Hotel / Hospedagem", group: "B-1, B-2", riskClass: "alto", examples: "hotel, pousada, hostel" },
-  { id: "hospital", label: "Hospital", group: "H-3", riskClass: "alto", examples: "hospital, pronto-socorro, clínica com internação" },
+  { id: "hospital", label: "Hospital", group: "H-3", riskClass: "alto", examples: "hospital, pronto-socorro, clínica com internação", semClcb: "hospitais e clínicas com internação (divisão H-3)" },
 ];
 
 type Recommendation = {
@@ -54,45 +56,56 @@ type Recommendation = {
 function calculate(area: number, occupation: Occupation | null, floors: number, capacity: number): Recommendation | null {
   if (!occupation || area <= 0) return null;
 
-  // Regra 1: alto risco SEMPRE exige AVCB, independente da area
-  if (occupation.riskClass === "alto") {
+  // Regra 1: ocupação que a IT 42/2025 (item 4.2.3) não deixa licenciar por CLCB
+  if (occupation.semClcb) {
     return {
       type: "AVCB_OBRIGATORIO",
       title: "AVCB obrigatório",
-      reason: `Sua ocupação (${occupation.label}, grupo ${occupation.group}) é classificada como alto risco pelo CBPMESP. Independente da área, exige AVCB completo com vistoria física, projeto técnico e ART.`,
+      reason: `A IT 42/2025 (item 4.2.3) não permite CLCB para ${occupation.semClcb}, qualquer que seja a área. O caminho é o AVCB, com vistoria e ART do engenheiro responsável.`,
       ctaLabel: "Ver páginas de AVCB",
       ctaHref: "/avcb-sao-paulo",
     };
   }
 
-  // Regra 2: area > 1.500 m² ja exige AVCB (de 751 a 1.500 m², o CLCB exige sistema de hidrantes)
-  if (area > 1500) {
+  // Regra 2: ocupações em que, na prática, o caminho costuma ser o AVCB
+  if (occupation.riskClass === "alto") {
+    return {
+      type: "AVCB_OBRIGATORIO",
+      title: "AVCB recomendado",
+      reason: `Para ${occupation.label.toLowerCase()} (${occupation.group}), o caminho costuma ser o AVCB: a IT 42/2025 tira do CLCB, por exemplo, hotéis com mais de 40 leitos, hospitais com internação e imóveis com líquidos inflamáveis ou produtos perigosos. O engenheiro confirma o seu caso no diagnóstico.`,
+      ctaLabel: "Ver páginas de AVCB",
+      ctaHref: "/avcb-sao-paulo",
+    };
+  }
+
+  // Regra 3: CLCB só até 750 m² (IT 42/2025, item 4.2.1)
+  if (area > 750) {
     return {
       type: "AVCB",
-      title: "AVCB recomendado",
-      reason: `Edificações acima de 1.500 m² (sua área: ${area} m²) saem do enquadramento CLCB e exigem AVCB com Projeto Técnico, vistoria física e ART do engenheiro responsável.`,
+      title: "AVCB",
+      reason: `O CLCB só vale para imóveis com até 750 m² (IT 42/2025, item 4.2.1). Com ${area} m², a licença é o AVCB, com vistoria e ART do engenheiro responsável.`,
       ctaLabel: "Ver renovação de AVCB",
       ctaHref: "/renovacao-avcb",
     };
   }
 
-  // Regra 3: mais de 2 andares (subsolo + terreo + 1 andar OK; mais que isso vai pra AVCB)
-  if (floors > 2) {
+  // Regra 4: CLCB só até 3 pavimentos, sem contar subsolos de estacionamento (IT 42/2025, item 4.2.2)
+  if (floors > 3) {
     return {
       type: "AVCB",
-      title: "AVCB recomendado",
-      reason: `Edificações com mais de 2 pavimentos (você indicou ${floors}) tipicamente saem do CLCB simplificado e migram para AVCB com avaliação de rota vertical de fuga.`,
+      title: "AVCB",
+      reason: `O CLCB só vale para imóveis com até 3 pavimentos, sem contar subsolos de estacionamento (IT 42/2025, item 4.2.2). Você indicou ${floors}, então a licença é o AVCB.`,
       ctaLabel: "Ver renovação de AVCB",
       ctaHref: "/renovacao-avcb",
     };
   }
 
-  // Regra 4: lotacao alta puxa pra AVCB mesmo em área pequena
-  if (capacity > 100) {
+  // Regra 5: locais de reunião de público (Grupo F) só até 250 pessoas (IT 42/2025, itens 4.1.4 e 4.2.3 j)
+  if (occupation.group.startsWith("F") && capacity > 250) {
     return {
       type: "AVCB",
-      title: "AVCB recomendado",
-      reason: `Lotação acima de 100 pessoas (você indicou ${capacity}) tipicamente exige AVCB pelo dimensionamento de saídas de emergência conforme IT-11, mesmo em áreas pequenas.`,
+      title: "AVCB",
+      reason: `Em locais de reunião de público, o CLCB só vale até 250 pessoas (IT 42/2025, itens 4.1.4 e 4.2.3). Você indicou ${capacity}, então a licença é o AVCB.`,
       ctaLabel: "Ver renovação de AVCB",
       ctaHref: "/renovacao-avcb",
     };
@@ -108,7 +121,7 @@ function calculate(area: number, occupation: Occupation | null, floors: number, 
   return {
     type: "CLCB",
     title: "CLCB é a opção mais ágil para você",
-    reason: `Com ${area} m², ${floors} pavimento(s) e lotação até ${capacity} pessoas em uma ocupação de baixo/médio risco (${occupation.label}), você se enquadra no CLCB — processo simplificado, sem vistoria física obrigatória, prazo de 15 a 45 dias.${area > 750 ? " Como a área passa de 750 m², a edificação precisa ter sistema de hidrantes, entre outras exigências." : ""}`,
+    reason: `Com ${area} m², ${floors} pavimento(s) e lotação até ${capacity} pessoas em uma ocupação de baixo/médio risco (${occupation.label}), você pode se enquadrar no CLCB — processo simplificado, sem análise de projeto, prazo de 15 a 45 dias. Antes, confira se o imóvel não precisa de chuveiros automáticos, detecção de incêndio, controle de fumaça ou escada de segurança: nesses casos, a IT 42/2025 (item 5.2.1.3) exige projeto técnico e AVCB.`,
     ctaLabel: `Ver renovação CLCB para ${occupation.label.toLowerCase()}`,
     ctaHref: slugMap[occupation.id] || "/renovacao-clcb-sao-paulo",
   };
@@ -156,7 +169,7 @@ export default function AvcbOuClcbCalculator() {
 
         <p className="text-slate-600 mb-8 font-medium leading-relaxed">
           Responda 4 perguntas e veja qual certificado do Corpo de Bombeiros sua edificação precisa.
-          Baseado nas IT-01 e IT-02 do CBPMESP (Decreto 69.118).
+          Baseado na IT 42/2025 e no Decreto 69.118/2024.
         </p>
 
         <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-5 bg-slate-50 p-6 md:p-8 rounded-3xl border border-slate-200">

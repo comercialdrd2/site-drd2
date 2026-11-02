@@ -5,14 +5,14 @@ const data: UniversalPageData = {
   "slug": "/sistema-de-sprinkler-para-hospital-sao-paulo",
   "meta": {
     "title": "Sistema de Sprinkler para Hospital em SP — Projeto e Instalação | DRD2",
-    "description": "Projeto, instalação e laudo de sprinkler para hospitais e clínicas em São Paulo. IT-23 e NBR 10897 para Grupo I. ART CREA-SP. Diagnóstico gratuito em 24h."
+    "description": "Projeto, instalação e laudo de sprinkler para hospitais e clínicas em São Paulo. IT-23 e NBR 10897 para Grupo H. ART CREA-SP. Diagnóstico gratuito em 24h."
   },
-  "eyebrow": "IT-23/CBPMESP + NBR 10897 — Hospitais e Clínicas SP (Grupo I)",
+  "eyebrow": "IT-23/CBPMESP + NBR 10897 — Hospitais e Clínicas SP (Grupo H)",
   "h1Line1": "Sistema de Sprinkler para Hospital",
   "h1Line2": "em São Paulo — Projeto, Instalação e Laudo com ART",
   "heroBg": "/images/banner-hero.webp",
-  "introP1": "Hospitais, clínicas com internação e unidades de saúde de grande porte em São Paulo exigem sistema de sprinkler automático dimensionado para Grupo I conforme a IT-23/CBPMESP e NBR 10897. O ambiente hospitalar impõe requisitos específicos de supressão automática que diferem significativamente de imóveis comerciais convencionais.",
-  "introP2": "A DRD2 projeta, instala e emite laudo técnico com ART CREA-SP de sistemas de sprinkler para hospitais em SP — com experiência em todos os tipos de ocupação hospitalar e nos requisitos do CBPMESP para Grupo I.",
+  "introP1": "Hospitais, clínicas com internação e unidades de saúde de grande porte em São Paulo exigem sistema de sprinkler automático dimensionado para Grupo H conforme a IT-23/CBPMESP e NBR 10897. O ambiente hospitalar impõe requisitos específicos de supressão automática que diferem significativamente de imóveis comerciais convencionais.",
+  "introP2": "A DRD2 projeta, instala e emite laudo técnico com ART CREA-SP de sistemas de sprinkler para hospitais em SP — com experiência em todos os tipos de ocupação hospitalar e nos requisitos do CBPMESP para Grupo H.",
   "breadcrumbs": [
     {
       "label": "Home",
@@ -29,20 +29,20 @@ const data: UniversalPageData = {
   "occupationType": "hospital e clínica",
   "h2_principal": {
     "heading": "Quando o sprinkler é obrigatório em hospitais em SP?",
-    "body": "Em São Paulo, o sistema de sprinkler automático é obrigatório para hospitais e clínicas com internação acima de determinadas áreas e para edificações hospitalares de múltiplos pavimentos, conforme a IT-23/CBPMESP combinada com o Decreto Estadual 69.118/2024. O dimensionamento para Grupo I (saúde) exige densidade de descarga específica para ambientes hospitalares, seleção de bicos compatíveis com o ambiente clínico — evitando acionamentos acidentais por vapor de autoclave ou calor de equipamentos —, e integração com o sistema de alarme para evacuação seletiva por setor sem interrupção do atendimento a pacientes críticos.",
+    "body": "Em São Paulo, o sistema de sprinkler automático é obrigatório para hospitais e clínicas com internação acima de determinadas áreas e para edificações hospitalares de múltiplos pavimentos, conforme a IT-23/CBPMESP combinada com o Decreto Estadual 69.118/2024. O dimensionamento para Grupo H (saúde) exige densidade de descarga específica para ambientes hospitalares, seleção de bicos compatíveis com o ambiente clínico — evitando acionamentos acidentais por vapor de autoclave ou calor de equipamentos —, e integração com o sistema de alarme para evacuação seletiva por setor sem interrupção do atendimento a pacientes críticos.",
     "body2": "A instalação de sprinkler em hospital exige planejamento técnico avançado: bicos em áreas cirúrgicas, UTIs e salas de equipamentos têm especificações diferentes dos bicos em corredores e áreas administrativas. Projetos genéricos que não consideram essas diferenciações geram Comunique-se do CBPMESP e obrigam a refazer partes do sistema com custo e prazo adicionais."
   },
   "h2_riscos": {
     "heading": "Riscos do sistema de sprinkler incorreto em hospital",
-    "intro": "Esses 6 problemas são frequentes em hospitais com sprinkler instalado sem projeto específico para Grupo I.",
+    "intro": "Esses 6 problemas são frequentes em hospitais com sprinkler instalado sem projeto específico para Grupo H.",
     "itens": [
       {
         "titulo": "Bicos inadequados em áreas críticas",
         "desc": "Bicos de resposta padrão em salas cirúrgicas ou UTIs podem acionar acidentalmente por vapor de esterilização ou calor de equipamentos. Bicos de resposta especial (ESFR ou alta temperatura) são exigidos nessas áreas."
       },
       {
-        "titulo": "Densidade de descarga insuficiente para Grupo I",
-        "desc": "O dimensionamento para hospital exige densidade mínima maior que para imóveis comerciais. Projeto subdimensionado não atinge a cobertura exigida pela NBR 10897 para Grupo I e gera Comunique-se."
+        "titulo": "Densidade de descarga insuficiente para Grupo H",
+        "desc": "O dimensionamento para hospital exige densidade mínima maior que para imóveis comerciais. Projeto subdimensionado não atinge a cobertura exigida pela NBR 10897 para Grupo H e gera Comunique-se."
       },
       {
         "titulo": "Sistema sem integração com alarme hospitalar",
@@ -69,7 +69,7 @@ const data: UniversalPageData = {
     "itens": [
       {
         "titulo": "Dimensionamento por tipo de área hospitalar",
-        "desc": "Cálculo de densidade de descarga e área de operação conforme NBR 10897 para Grupo I, diferenciando áreas cirúrgicas, UTIs, internação, corredores e áreas administrativas."
+        "desc": "Cálculo de densidade de descarga e área de operação conforme NBR 10897 para Grupo H, diferenciando áreas cirúrgicas, UTIs, internação, corredores e áreas administrativas."
       },
       {
         "titulo": "Seleção de bicos por ambiente",
@@ -77,7 +77,7 @@ const data: UniversalPageData = {
       },
       {
         "titulo": "Projeto aprovado no CBPMESP",
-        "desc": "Memorial descritivo, plantas hidráulicas, cálculos e especificação de materiais no formato exigido para Grupo I, com ART CREA-SP antes do protocolo."
+        "desc": "Memorial descritivo, plantas hidráulicas, cálculos e especificação de materiais no formato exigido para Grupo H, com ART CREA-SP antes do protocolo."
       },
       {
         "titulo": "Laudo técnico com valores medidos",
@@ -102,7 +102,7 @@ const data: UniversalPageData = {
       {
         "numero": "ETAPA 03",
         "titulo": "Aprovação no CBPMESP",
-        "desc": "Protocolo com documentação completa para Grupo I. Com projeto correto, o processo entra sem pendências na análise do CBPMESP."
+        "desc": "Protocolo com documentação completa para Grupo H. Com projeto correto, o processo entra sem pendências na análise do CBPMESP."
       },
       {
         "numero": "ETAPA 04",
@@ -128,7 +128,7 @@ const data: UniversalPageData = {
   },
   "h2_escolher": {
     "heading": "Por que a DRD2 para sprinkler em hospital?",
-    "body1": "A DRD2 tem experiência específica em sistemas de supressão automática para Grupo I, com projetos aprovados em hospitais, clínicas com internação e prontos-socorros em toda a Grande SP.",
+    "body1": "A DRD2 tem experiência específica em sistemas de supressão automática para Grupo H, com projetos aprovados em hospitais, clínicas com internação e prontos-socorros em toda a Grande SP.",
     "body2": "Diagnóstico gratuito, projeto com ART CREA-SP, execução própria por fases e laudo técnico em 48h. Sem terceiros no processo."
   },
   "h2_cobertura": {
@@ -174,7 +174,7 @@ const data: UniversalPageData = {
   ],
   "ctaFinal": {
     "heading": "SPRINKLER PARA HOSPITAL COM PROJETO E ART",
-    "body": "Especialistas em Grupo I. Execução por fases sem paralisar o hospital. Laudo em 48h.",
+    "body": "Especialistas em Grupo H. Execução por fases sem paralisar o hospital. Laudo em 48h.",
     "cta": "Solicitar Diagnóstico Gratuito"
   }
 };

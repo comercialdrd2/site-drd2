@@ -114,7 +114,7 @@ export default function AVCBShoppingPage() {
             </div>
             <div className="bg-slate-900 p-12 rounded-[3.5rem] text-white shadow-2xl relative overflow-hidden">
                <div className="absolute top-0 right-0 w-32 h-32 bg-primary/20 rounded-full -translate-y-16 translate-x-16 blur-3xl"></div>
-               <h3 className="text-2xl font-black mb-8 uppercase tracking-tight italic">Edificações Obrigadas (IT-02)</h3>
+               <h3 className="text-2xl font-black mb-8 uppercase tracking-tight italic">Edificações Obrigadas (Decreto 69.118/2024)</h3>
                <p className="text-gray-400 mb-8 font-medium">Conforme o Decreto Estadual nº 69.118/2024, estão obrigadas a obter AVCB:</p>
                <ul className="grid grid-cols-1 gap-4 font-bold text-sm">
                   {[
@@ -131,7 +131,7 @@ export default function AVCBShoppingPage() {
                   ))}
                </ul>
                <div className="mt-10 pt-6 border-t border-white/10 text-xs text-gray-500 font-medium">
-                  Classificação: Grupo C (Varejista) ou Grupo F (Reunião de Público) conforme IT-02.
+                  Classificação: Grupo C (Varejista) ou Grupo F (Reunião de Público) conforme o Decreto 69.118/2024.
                </div>
             </div>
           </div>
@@ -271,7 +271,7 @@ export default function AVCBShoppingPage() {
           </h2>
           <div className="space-y-4">
             {[
-              { q: "Shopping precisa de AVCB em São Paulo?", a: "Sim. Todo shopping center, galeria comercial e centro de compras no Estado de São Paulo está obrigado a obter AVCB conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP." },
+              { q: "Shopping precisa de AVCB em São Paulo?", a: "Sim. Todo shopping center, galeria comercial e centro de compras no Estado de São Paulo está obrigado a obter AVCB conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP." },
               { q: "O AVCB do shopping cobre as lojas individuais?", a: "Não. O AVCB do condomínio cobre as áreas comuns. Cada lojista precisa obter seu próprio AVCB ou CLCB individual. A DRD2 atende tanto a administração quanto lojistas individuais." },
               { q: "Loja em galeria comercial precisa de AVCB próprio?", a: "Sim. Lojas em galerias precisam de certificado individual para abertura e renovação do alvará, independentemente do AVCB da galeria." },
               { q: "Quais sistemas são mais exigidos em shoppings?", a: "Sprinklers, alarme e detecção, controle de fumaça, compartimentação, saídas de emergência e brigada treinada são os pontos de maior atenção nas vistorias." },
@@ -296,7 +296,7 @@ export default function AVCBShoppingPage() {
               Excelência <span className="text-slate-950 not-italic">Técnica</span> em Grandes Centros
             </h2>
             <p className="text-xl md:text-3xl mb-12 font-bold opacity-95 max-w-4xl mx-auto border-b border-white/20 pb-10">
-              Shoppings e galerias comerciais exigem o mais alto nível de especialização técnica. Regularize seu empreendimento com quem domina a IT-02 e o Decreto 69.118/2024.
+              Shoppings e galerias comerciais exigem o mais alto nível de especialização técnica. Regularize seu empreendimento com quem domina o Decreto 69.118/2024 e as ITs do CBPMESP.
             </p>
             <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
               <Link prefetch={false} 

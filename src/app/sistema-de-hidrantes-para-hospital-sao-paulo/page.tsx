@@ -11,7 +11,7 @@ const data: UniversalPageData = {
   "h1Line1": "Sistema de Hidrantes para Hospital",
   "h1Line2": "em São Paulo — Projeto, Instalação e Laudo com ART",
   "heroBg": "/images/banner-hero.webp",
-  "introP1": "Hospitais, clínicas, prontos-socorros e unidades de saúde em São Paulo precisam de sistema de hidrantes dimensionado para Grupo I (saúde) conforme a IT-22/CBPMESP e NBR 13714. O sistema de combate a incêndio em ambientes hospitalares tem exigências específicas que diferem de imóveis comerciais convencionais.",
+  "introP1": "Hospitais, clínicas, prontos-socorros e unidades de saúde em São Paulo precisam de sistema de hidrantes dimensionado para Grupo H (saúde) conforme a IT-22/CBPMESP e NBR 13714. O sistema de combate a incêndio em ambientes hospitalares tem exigências específicas que diferem de imóveis comerciais convencionais.",
   "introP2": "A DRD2 projeta, instala e emite laudo técnico com ART CREA-SP do sistema de hidrantes para hospitais em SP. Diagnóstico gratuito, projeto aprovado no CBPMESP e equipe técnica própria para execução.",
   "breadcrumbs": [
     {
@@ -29,12 +29,12 @@ const data: UniversalPageData = {
   "occupationType": "hospital e clínica",
   "h2_principal": {
     "heading": "Quais são as exigências de hidrante para hospitais em SP?",
-    "body": "Hospitais, clínicas com internação, prontos-socorros e unidades de saúde de médio e grande porte são classificados como Grupo I pelo Decreto Estadual 69.118/2024 e exigem sistema de hidrantes com reserva técnica de incêndio (RTI) dimensionada para autonomia mínima de 30 minutos no setor de maior consumo, bomba principal e reserva testadas mensalmente, hidrantes em todos os pavimentos dentro do raio de alcance da mangueira e pressão mínima de 10 mca no hidrante mais desfavorável com mangueira de 30m esticada e esguicho regulável aberto. Além disso, o ambiente hospitalar impõe restrições operacionais: a instalação deve ser feita de forma a não interromper o atendimento e os materiais devem ser adequados ao ambiente úmido e ao uso de produtos de limpeza agressivos.",
-    "body2": "O dimensionamento correto para hospital exige conhecimento das ITs específicas para Grupo I e da NBR 13714. Erros de dimensionamento — como reservatório subdimensionado ou pressão insuficiente nos andares superiores — geram Comunique-se do CBPMESP e obrigam a refazer parte do sistema, com custo e prazo adicionais."
+    "body": "Hospitais, clínicas com internação, prontos-socorros e unidades de saúde de médio e grande porte são classificados como Grupo H pelo Decreto Estadual 69.118/2024 e exigem sistema de hidrantes com reserva técnica de incêndio (RTI) dimensionada para autonomia mínima de 30 minutos no setor de maior consumo, bomba principal e reserva testadas mensalmente, hidrantes em todos os pavimentos dentro do raio de alcance da mangueira e pressão mínima de 10 mca no hidrante mais desfavorável com mangueira de 30m esticada e esguicho regulável aberto. Além disso, o ambiente hospitalar impõe restrições operacionais: a instalação deve ser feita de forma a não interromper o atendimento e os materiais devem ser adequados ao ambiente úmido e ao uso de produtos de limpeza agressivos.",
+    "body2": "O dimensionamento correto para hospital exige conhecimento das ITs específicas para Grupo H e da NBR 13714. Erros de dimensionamento — como reservatório subdimensionado ou pressão insuficiente nos andares superiores — geram Comunique-se do CBPMESP e obrigam a refazer parte do sistema, com custo e prazo adicionais."
   },
   "h2_riscos": {
     "heading": "Riscos do sistema de hidrantes incorreto em hospital",
-    "intro": "Esses 6 problemas são frequentes em hospitais que instalaram sistema de hidrantes sem projeto de engenheiro especializado em Grupo I.",
+    "intro": "Esses 6 problemas são frequentes em hospitais que instalaram sistema de hidrantes sem projeto de engenheiro especializado em Grupo H.",
     "itens": [
       {
         "titulo": "Reservatório subdimensionado para a área hospitalar",
@@ -64,11 +64,11 @@ const data: UniversalPageData = {
   },
   "h2_detalhes": {
     "heading": "O que inclui o projeto de hidrantes para hospital da DRD2",
-    "body1": "O projeto da DRD2 para sistema de hidrantes em hospital cobre todos os itens exigidos pelo CBPMESP para Grupo I, incluindo dimensionamento específico para a carga de incêndio e o perfil de uso hospitalar.",
-    "alerta": "Sistema de hidrantes em hospital exige dimensionamento específico para Grupo I — não é o mesmo que um sistema comercial padrão.",
+    "body1": "O projeto da DRD2 para sistema de hidrantes em hospital cobre todos os itens exigidos pelo CBPMESP para Grupo H, incluindo dimensionamento específico para a carga de incêndio e o perfil de uso hospitalar.",
+    "alerta": "Sistema de hidrantes em hospital exige dimensionamento específico para Grupo H — não é o mesmo que um sistema comercial padrão.",
     "itens": [
       {
-        "titulo": "Cálculo hidráulico para Grupo I",
+        "titulo": "Cálculo hidráulico para Grupo H",
         "desc": "Dimensionamento da RTI, da bomba principal e reserva, da rede de tubulação e da pressão por pavimento conforme IT-22 para ocupação hospitalar. O cálculo é específico para a área, altura e leiaute de cada hospital."
       },
       {
@@ -96,7 +96,7 @@ const data: UniversalPageData = {
       },
       {
         "numero": "ETAPA 02",
-        "titulo": "Projeto hidráulico para Grupo I",
+        "titulo": "Projeto hidráulico para Grupo H",
         "desc": "Elaboração do projeto completo: cálculo da RTI, dimensionamento da bomba, rede de tubulação, localização dos abrigos e especificação dos materiais. ART CREA-SP recolhida antes do protocolo."
       },
       {
@@ -128,7 +128,7 @@ const data: UniversalPageData = {
   },
   "h2_escolher": {
     "heading": "Por que a DRD2 para hidrantes em hospital?",
-    "body1": "A DRD2 tem experiência específica em sistemas de combate a incêndio para Grupo I (saúde), com projetos aprovados em hospitais, clínicas com internação, prontos-socorros e unidades de diagnóstico em toda a Grande SP.",
+    "body1": "A DRD2 tem experiência específica em sistemas de combate a incêndio para Grupo H (saúde), com projetos aprovados em hospitais, clínicas com internação, prontos-socorros e unidades de diagnóstico em toda a Grande SP.",
     "body2": "Diagnóstico gratuito, projeto com ART CREA-SP, execução com equipe própria e laudo técnico final. Tudo sem terceiros, do projeto ao certificado do Corpo de Bombeiros."
   },
   "h2_cobertura": {
@@ -139,7 +139,7 @@ const data: UniversalPageData = {
   "faqs": [
     {
       "question": "Sistema de hidrantes para hospital é diferente do sistema comercial?",
-      "answer": "Sim. Hospitais são classificados como Grupo I (saúde) e têm exigências específicas na IT-22: RTI dimensionada para a área de maior risco, bomba principal e reserva testadas mensalmente, integração com o sistema de alarme e materiais compatíveis com ambiente hospitalar. O cálculo hidráulico é mais rigoroso do que para imóveis comerciais convencionais."
+      "answer": "Sim. Hospitais são classificados como Grupo H (saúde) e têm exigências específicas na IT-22: RTI dimensionada para a área de maior risco, bomba principal e reserva testadas mensalmente, integração com o sistema de alarme e materiais compatíveis com ambiente hospitalar. O cálculo hidráulico é mais rigoroso do que para imóveis comerciais convencionais."
     },
     {
       "question": "Qual a validade do laudo técnico de hidrantes para hospital?",
@@ -174,7 +174,7 @@ const data: UniversalPageData = {
   ],
   "ctaFinal": {
     "heading": "HIDRANTES PARA HOSPITAL COM PROJETO E ART",
-    "body": "Especialistas em Grupo I. Projeto aprovado no CBPMESP, execução com equipe própria e laudo técnico em 48h.",
+    "body": "Especialistas em Grupo H. Projeto aprovado no CBPMESP, execução com equipe própria e laudo técnico em 48h.",
     "cta": "Solicitar Diagnóstico Gratuito"
   }
 };

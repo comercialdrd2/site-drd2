@@ -14,12 +14,12 @@ type Cell = { value: string; tone?: "good" | "bad" | "warn" | "neutral" };
 const ROWS: Array<{ label: string; clcb: Cell; avcb: Cell }> = [
   {
     label: "Área limite",
-    clcb: { value: "Até 750 m² sem hidrantes; até 1.500 m² com hidrantes", tone: "good" },
+    clcb: { value: "Até 750 m² e até 3 pavimentos", tone: "good" },
     avcb: { value: "Sem limite", tone: "neutral" },
   },
   {
     label: "Grupos de ocupação",
-    clcb: { value: "Apenas baixo risco (C, D, F-8, H-6 pequeno)", tone: "warn" },
+    clcb: { value: "Apenas baixo risco (C, D, F-8, H-6 pequeno; sem salão de festas, boate, creche, asilo ou hospital)", tone: "warn" },
     avcb: { value: "Todos os grupos", tone: "neutral" },
   },
   {
@@ -29,7 +29,7 @@ const ROWS: Array<{ label: string; clcb: Cell; avcb: Cell }> = [
   },
   {
     label: "Lotação típica",
-    clcb: { value: "Até ~100 pessoas", tone: "good" },
+    clcb: { value: "Grupo F: até 250 pessoas", tone: "good" },
     avcb: { value: "Qualquer", tone: "neutral" },
   },
   {
