@@ -23,7 +23,7 @@ const data: UniversalPageData = {
   occupationType: "hotel",
   h2_principal: {
     heading: "Por que hotéis precisam de alarme endereçável e monitoramento 24 horas?",
-    body: "A IT 19/2025 do CBPMESP classifica hotéis como ocupação de Grupo H-1 com exigência de sistema de alarme de incêndio endereçável — não convencional. A diferença é crítica: um sistema convencional indica apenas qual zona está em alarme (por exemplo, 'andar 7'); um sistema endereçável indica exatamente o dispositivo ativado ('detector fumaça quarto 712'). Em um hotel com 200 quartos, isso pode ser a diferença entre localizar o incêndio em 20 segundos ou em 5 minutos.",
+    body: "Hotéis são do Grupo B (divisão B-1) no Decreto Estadual nº 69.118/2024, com exigência de sistema de alarme de incêndio endereçável — não convencional. A diferença é crítica: um sistema convencional indica apenas qual zona está em alarme (por exemplo, 'andar 7'); um sistema endereçável indica exatamente o dispositivo ativado ('detector fumaça quarto 712'). Em um hotel com 200 quartos, isso pode ser a diferença entre localizar o incêndio em 20 segundos ou em 5 minutos.",
     body2:
       "Para hotéis com mais de 100 unidades habitacionais, a IT 19/2025 também exige monitoramento 24 horas por operador treinado na recepção — não apenas uma central de alarme desatendida. O operador deve saber como responder ao alarme, acionar a brigada e coordenar a evacuação parcial do andar afetado sem criar pânico nos demais hóspedes. Hotéis que operam sem essa estrutura estão em irregularidade formal perante o CBPMESP.",
   },
@@ -96,7 +96,7 @@ const data: UniversalPageData = {
   h2_detalhes: {
     heading: "O que a IT 19/2025 exige especificamente para alarme de hotel",
     body1:
-      "Hotéis são Grupo H-1 na IT 19/2025 — ocupação residencial transitória com exigências reforçadas de detecção precoce, comunicação de emergência e monitoramento. A norma diferencia o porte do hotel para definir o tipo de sistema e os recursos obrigatórios.",
+      "Hotéis são Grupo B (divisão B-1) no decreto estadual — ocupação de hospedagem com exigências reforçadas de detecção precoce, comunicação de emergência e monitoramento. A norma diferencia o porte do hotel para definir o tipo de sistema e os recursos obrigatórios.",
     alerta:
       "Reforma de UHs, expansão de andares ou adição de restaurante e salão de eventos exige atualização do projeto de alarme com nova ART.",
     itens: [

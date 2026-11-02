@@ -30,7 +30,7 @@ export const avcbHostelContent = {
       "Hostels operados por plataformas como Hostelworld ou Booking",
     ],
     closing:
-      "O enquadramento é feito como Grupo B — Serviços de Hospedagem, subdivisão H-2, pela IT-02 do CBPMESP, com exigências proporcionais à área, número de leitos e sistemas instalados.",
+      "O enquadramento é feito como Grupo B — Serviço de Hospedagem, divisão B-1, pelo Decreto Estadual nº 69.118/2024, com exigências proporcionais à área, número de leitos e sistemas instalados.",
   },
 
   h2_particularidades: {

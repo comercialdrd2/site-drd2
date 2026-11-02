@@ -12,7 +12,7 @@ const data: UniversalPageData = {
   h1Line2: "para Hotel e Pousada em São Paulo",
   heroBg: "/images/blog/blog_hero_casa_repouso_avcb.webp",
   introP1: "Hotéis têm a exigência mais rigorosa de todas as ocupações em relação ao alarme de incêndio: monitoramento 24 horas com operador capacitado para acionar a evacuação. O hóspede que dorme no quarto às 3h da manhã precisa ser alertado e evacuado em tempo hábil — o que exige que o sistema funcione continuamente, que a sinalização luminosa nas UHs esteja ativa e que alguém na recepção seja treinado para operar o painel.",
-  introP2: "A DRD2 emite laudo técnico do alarme para hotéis e pousadas conforme a IT 19/2025 (Grupo H-1 e H-3), com vistoria em todas as unidades habitacionais, corredores, recepção, restaurante interno e áreas de serviço. Verificamos o atestado de monitoramento e a capacitação do operador — dois pontos que o CBPMESP verifica na vistoria e que frequentemente causam reprovação.",
+  introP2: "A DRD2 emite laudo técnico do alarme para hotéis e pousadas conforme a IT 19/2025 (Grupo B, hospedagem), com vistoria em todas as unidades habitacionais, corredores, recepção, restaurante interno e áreas de serviço. Verificamos o atestado de monitoramento e a capacitação do operador — dois pontos que o CBPMESP verifica na vistoria e que frequentemente causam reprovação.",
   breadcrumbs: [
     { label: "Home", href: "/" },
     { label: "Serviços", href: "/servicos" },

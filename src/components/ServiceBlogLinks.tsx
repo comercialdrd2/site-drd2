@@ -136,7 +136,7 @@ const occupationLinks: Array<{ match: RegExp; link: BlogLink }> = [
     link: {
       href: "/blog/avcb-para-casa-de-repouso-sao-paulo",
       label: "AVCB para casa de repouso",
-      desc: "Ocupação H-3, idosos, evacuação assistida, gerenciamento de risco e Vigilância Sanitária.",
+      desc: "Ocupação H-2, idosos, evacuação assistida, gerenciamento de risco e Vigilância Sanitária.",
       kind: "ocupacao",
     },
   },

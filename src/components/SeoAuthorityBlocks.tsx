@@ -80,7 +80,7 @@ const occupationProfiles: Record<string, {
   },
   // CLCB Saúde — clínicas, consultórios, fisioterapia, odontologia
   clcbSaude: {
-    group: "H-2 (atendimento à saúde) até 750 m², ou até 1.500 m² com hidrantes — clínica, consultório, fisioterapia, odontologia",
+    group: "H-6 (clínica e consultório sem internação) até 750 m², ou até 1.500 m² com hidrantes — clínica, consultório, fisioterapia, odontologia",
     risk: "acessibilidade nas rotas (cadeirantes, macas), oxigênio medicinal, equipamentos elétricos sensíveis e exigências de planos de saúde",
     systems: ["IT-11: rotas com largura para macas/cadeira de rodas", "IT-21: extintor CO₂ para sala de raio-X/equipamentos", "IT-20: sinalização visível", "IT-18: iluminação de emergência em áreas críticas"],
     prazo: "15 a 45 dias para CLCB sem pendências; 30 a 60 dias com adequação de extintor por tipo de sala ou sinalização",
@@ -104,7 +104,7 @@ const occupationProfiles: Record<string, {
   },
   // AVCB Hospital/Clinica grande — grupo H-3
   hospital: {
-    group: "H-3 (hospital, casa de repouso, pronto-socorro) — pacientes acamados ou com mobilidade reduzida",
+    group: "H-3 (hospital, pronto-socorro, clínica com internação) — pacientes acamados ou com mobilidade reduzida",
     risk: "evacuação assistida (paciente em maca, idoso, cadeirante), gases medicinais com risco de explosão, equipamentos elétricos em CTI/UTI, brigada com treinamento hospitalar especifico, compartimentação entre alas",
     systems: ["IT-11: rotas com largura compatível com macas", "IT-22: hidrantes em todos os andares", "IT-19: alarme com detecção precoce em quartos", "IT-23: sprinkler obrigatório", "IT-17: brigada 24h treinada", "IT-29: gases medicinais com ART"],
     prazo: "90 a 180 dias para hospitais com projeto atualizado; 180 a 365 dias quando há ampliação ou compartimentação nova",

@@ -120,12 +120,12 @@ export const servicesData: Record<string, ServiceData> = {
       "O laudo exige ART exclusiva; realizamos toda regularização do painel ao projeto perante a junta técnica de Saúde."
     ],
     faqs: [
-      { question: "Clínica médica e hospital são obrigados a ter AVCB em São Paulo?", answer: "Sim. A obrigatoriedade está estabelecida no Decreto Estadual nº 69.118/2024 e regulamentada pelas Instruções Técnicas do CBPMESP. Todos os estabelecimentos de saúde enquadrados no Grupo H da IT-02/CBPMESP — de consultórios simples (H-5) a hospitais gerais com internação (H-1) — estão sujeitos ao processo de AVCB ou CLCB, conforme o subgrupo e o porte da edificação. A fiscalização pode ocorrer de forma integrada entre CBPMESP e Vigilância Sanitária." },
-      { question: "O que é o Grupo H do CBPMESP e como isso afeta o projeto?", answer: "O Grupo H é a classificação do CBPMESP para edificações destinadas a serviços de saúde, conforme a IT-02/CBPMESP. É dividido em subgrupos: H-1 (hospitais com internação), H-2 (unidades de longa permanência), H-3 (laboratórios e diagnóstico), H-4 (clínicas e prontos-socorros sem internação) e H-5 (consultórios ambulatoriais). O subgrupo determina os sistemas obrigatórios: compartimentação (IT-17), detecção automática (IT-19/NBR 17240), plano de emergência (IT-16) e dimensionamento de saídas para evacuação assistida (IT-11). Protocolar com enquadramento errado gera Comunique-se e atraso." },
-      { question: "Qual a diferença entre o AVCB de uma clínica e o de um hospital?", answer: "A principal diferença está na complexidade dos sistemas exigidos e na necessidade de plano de abandono formal. Hospitais com internação (H-1) exigem sistema de detecção automática conforme NBR 17240, compartimentação rigorosa (IT-09), dimensionamento de saídas para evacuação de pacientes não ambulatoriais e plano de emergência (IT-16/CBPMESP). Clínicas ambulatoriais sem internação (H-4 ou H-5) têm exigências progressivamente menores, mas ainda requerem projeto técnico completo com ART." },
+      { question: "Clínica médica e hospital são obrigados a ter AVCB em São Paulo?", answer: "Sim. A obrigatoriedade está estabelecida no Decreto Estadual nº 69.118/2024 e regulamentada pelas Instruções Técnicas do CBPMESP. Todos os estabelecimentos de saúde do Grupo H do Decreto Estadual nº 69.118/2024 — de consultórios e clínicas sem internação (H-6) a hospitais com internação (H-3) — estão sujeitos ao processo de AVCB ou CLCB, conforme o subgrupo e o porte da edificação. A fiscalização pode ocorrer de forma integrada entre CBPMESP e Vigilância Sanitária." },
+      { question: "O que é o Grupo H do CBPMESP e como isso afeta o projeto?", answer: "O Grupo H é a classificação do CBPMESP para edificações destinadas a serviços de saúde, conforme a Tabela 1 do Decreto Estadual nº 69.118/2024. As divisões são: H-1 (hospital e clínica veterinária), H-2 (asilos e abrigos geriátricos), H-3 (hospitais e clínicas com internação), H-4 (repartições públicas e quartéis), H-5 (locais com restrição de liberdade) e H-6 (clínicas e consultórios sem internação). A divisão determina os sistemas obrigatórios: compartimentação (IT-09), detecção automática (IT-19/NBR 17240), plano de emergência (IT-16) e dimensionamento de saídas para evacuação assistida (IT-11). Protocolar com enquadramento errado gera Comunique-se e atraso." },
+      { question: "Qual a diferença entre o AVCB de uma clínica e o de um hospital?", answer: "A principal diferença está na complexidade dos sistemas exigidos e na necessidade de plano de abandono formal. Hospitais com internação (H-3) exigem sistema de detecção automática conforme NBR 17240, compartimentação rigorosa (IT-09), dimensionamento de saídas para evacuação de pacientes não ambulatoriais e plano de emergência (IT-16/CBPMESP). Clínicas sem internação (H-6) têm exigências progressivamente menores, mas ainda requerem projeto técnico completo com ART." },
       { question: "O AVCB está relacionado ao licenciamento da Vigilância Sanitária?", answer: "São documentos distintos emitidos por órgãos diferentes, mas relacionados operacionalmente. A Vigilância Sanitária de muitos municípios paulistas condiciona a renovação da licença de funcionamento à apresentação do AVCB válido. Operadoras de planos de saúde exigem AVCB atualizado em auditorias de credenciamento. O AVCB vencido pode impactar a renovação de múltiplas licenças e resultar em descredenciamento temporário, com impacto direto no faturamento." },
       { question: "O que acontece se o estabelecimento de saúde for fiscalizado sem AVCB?", answer: "A fiscalização pode resultar em auto de infração, notificação com prazo para regularização, interdição parcial ou total do estabelecimento e comunicação à Vigilância Sanitária. Em caso de sinistro envolvendo pacientes internados, a ausência de AVCB e de sistemas de segurança adequados agrava gravemente a responsabilidade civil e criminal dos responsáveis legais. A vulnerabilidade dos pacientes coloca o Grupo H entre as ocupações com maior exposição a consequências jurídicas em situações de irregularidade." },
-      { question: "Quanto tempo leva para tirar o AVCB de uma clínica ou hospital em SP?", answer: "O prazo depende do subgrupo H, da área construída, do estado atual dos sistemas instalados e da completude da instrução processual. Para clínicas ambulatoriais (H-4 ou H-5) com sistemas adequados, processos bem instruídos costumam ser aprovados entre 60 e 90 dias. Para hospitais (H-1), com maior volume documental e complexidade de sistemas, o prazo varia entre 90 e 180 dias. Processos mal instruídos, com Comunique-se mal respondidos, podem facilmente ultrapassar 12 meses." }
+      { question: "Quanto tempo leva para tirar o AVCB de uma clínica ou hospital em SP?", answer: "O prazo depende do subgrupo H, da área construída, do estado atual dos sistemas instalados e da completude da instrução processual. Para clínicas sem internação (H-6) com sistemas adequados, processos bem instruídos costumam ser aprovados entre 60 e 90 dias. Para hospitais (H-3), com maior volume documental e complexidade de sistemas, o prazo varia entre 90 e 180 dias. Processos mal instruídos, com Comunique-se mal respondidos, podem facilmente ultrapassar 12 meses." }
     ],
     icon: "/images/services/avcb.svg"
   },
@@ -638,21 +638,21 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "avcb-para-casa-de-repouso-sao-paulo",
     title: "AVCB (Casa de Repouso / Lar de Idosos)",
     category: "Aprovação",
-    shortDescription: "Regularização de ocupação H-3 (Saúde). Proteção total para residentes com mobilidade reduzida.",
+    shortDescription: "Regularização de ocupação H-2 (asilos e abrigos geriátricos). Proteção total para residentes com mobilidade reduzida.",
     h1: "AVCB para Casa de Repouso em São Paulo",
     metaTitle: "AVCB para Casa de Repouso em São Paulo — Diagnóstico técnico gratuito",
     metaDescription: "Casa de repouso exige AVCB, brigada de incêndio e gerenciamento de risco — independentemente do tamanho. DRD2 Engenharia regulariza seu estabelecimento com segurança técnica. Diagnóstico técnico gratuito em até 24h.",
     pas: {
       problem: "Um incêndio em uma casa de repouso pode ser uma tragédia irreversível.",
       agitation: "Ocupantes com mobilidade reduzida ou acamados dependem integralmente da sua regularização. Sem AVCB, o risco é de interdição, perda de alvará e responsabilização criminal dos proprietários.",
-      solution: "A DRD2 Engenharia é especialista em ocupação H-3. Gerenciamos seu AVCB, treinamos sua brigada e elaboramos seu plano de gerenciamento de risco com 15 anos de expertise técnica."
+      solution: "A DRD2 Engenharia é especialista em ocupação H-2. Gerenciamos seu AVCB, treinamos sua brigada e elaboramos seu plano de gerenciamento de risco com 15 anos de expertise técnica."
     },
     content: [
-      "No Estado de São Paulo, casas de repouso são classificadas como Ocupação H-3 — Serviços de Saúde e Institucional. Essa classificação exige Projeto Técnico completo independentemente da área construída.",
+      "No Estado de São Paulo, casas de repouso costumam ser classificadas como Ocupação H-2 — asilos e abrigos geriátricos, no Decreto Estadual nº 69.118/2024. Essa classificação exige Projeto Técnico completo independentemente da área construída.",
       "A vulnerabilidade dos ocupantes é o fator determinante. A DRD2 identifica divergências de área e adequa sua brigada conforme a IT-17 para garantir a aprovação sem atrasos."
     ],
     faqs: [
-      { question: "Casa de repouso pequena precisa de AVCB?", answer: "Sim. Casas de repouso são classificadas como Ocupação H-3 e exigem AVCB independentemente do tamanho da edificação. A vulnerabilidade dos residentes é fator de agravamento de risco que torna o AVCB obrigatório em qualquer situação." },
+      { question: "Casa de repouso pequena precisa de AVCB?", answer: "Sim. Casas de repouso costumam ser classificadas como Ocupação H-2 e exigem AVCB independentemente do tamanho da edificação. A vulnerabilidade dos residentes é fator de agravamento de risco que torna o AVCB obrigatório em qualquer situação." },
       { question: "O treinamento de brigada é realmente obrigatório?", answer: "Sim. A brigada de incêndio é exigência da IT nº 17 do CBPMESP para casas de repouso. Sem brigada formada e documentada, o estabelecimento é reprovado na vistoria do Corpo de Bombeiros, independentemente de todas as outras medidas estarem corretas." },
       { question: "O que é gerenciamento de risco e quando é exigido?", answer: "Gerenciamento de risco é o conjunto de procedimentos que identifica, mapeia e estabelece planos de ação para os riscos de incêndio presentes na edificação. Para casas de repouso, é uma exigência que varia conforme o porte e as características do estabelecimento. A DRD2 avalia a necessidade no diagnóstico inicial." },
       { question: "Minha casa de repouso funciona em uma casa adaptada. Isso é problema?", answer: "Pode ser. Edificações adaptadas frequentemente apresentam divergências de área, ausência de projeto aprovado para uso institucional e inadequações nas saídas de emergência. Essas situações precisam ser identificadas e tratadas antes do protocolo no CBPMESP." },
@@ -741,15 +741,15 @@ export const servicesData: Record<string, ServiceData> = {
     pas: {
       problem: "Seu motel possui AVCB válido para operar com segurança?",
       agitation: "Motéis possuem público anônimo e rotativo em ambiente de repouso, o que aumenta drasticamente o risco em caso de sinistro. A falta de AVCB expõe o proprietário a interdições e graves responsabilidades civis.",
-      solution: "A DRD2 Engenharia domina as exigências da Divisão H-2 (Hotéis e Assemelhados). Regularizamos seu estabelecimento com total discrição, do diagnóstico gratuito à emissão do certificado."
+      solution: "A DRD2 Engenharia domina as exigências da Divisão B-1 (hotel e assemelhado). Regularizamos seu estabelecimento com total discrição, do diagnóstico gratuito à emissão do certificado."
     },
     content: [
-      "Motéis são classificados como Divisão H-2 pela IT-02 do CBPMESP.",
+      "Motéis são classificados como Divisão B-1 (hotel e assemelhado) pelo Decreto Estadual nº 69.118/2024.",
       "Foco em sinalização de suítes, alarme de incêndio precoce e rotas de fuga desobstruídas para garantir a segurança no uso noturno."
     ],
     faqs: [
       { question: "Motel precisa de AVCB em São Paulo?", answer: "Sim. Todo estabelecimento de hospedagem, incluindo motéis, está obrigado a obter AVCB ou CLCB junto ao Corpo de Bombeiros do Estado de São Paulo, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP." },
-      { question: "Qual o enquadramento do motel nas normas do Corpo de Bombeiros?", answer: "Motéis são enquadrados na Divisão H-2 da IT-02 do CBPMESP — Hotéis e Assemelhados. Os sistemas obrigatórios são definidos conforme a área total construída, altura da edificação e número de unidades habitacionais." },
+      { question: "Qual o enquadramento do motel nas normas do Corpo de Bombeiros?", answer: "Motéis são enquadrados na Divisão B-1 do Decreto Estadual nº 69.118/2024 — hotel e assemelhado. Os sistemas obrigatórios são definidos conforme a área total construída, altura da edificação e número de unidades habitacionais." },
       { question: "Motel pequeno pode usar CLCB em vez de AVCB?", answer: "Sim. Motéis de menor porte e baixo risco podem se enquadrar no CLCB, modalidade simplificada do Corpo de Bombeiros. A DRD2 realiza o enquadramento correto sem custo adicional." },
       { question: "O Corpo de Bombeiros faz fiscalização surpresa em motéis?", answer: "Sim. O CBPMESP realiza vistorias periódicas e fiscalizações não programadas em estabelecimentos de hospedagem, com poder de autuar e interditar imediatamente em caso de irregularidade." },
       { question: "Quanto tempo leva para regularizar o AVCB de um motel?", answer: "Em média, o processo leva de 60 a 150 dias a partir do protocolo, dependendo do estágio de adequação do estabelecimento e da demanda do CBPMESP." }
@@ -848,7 +848,7 @@ export const servicesData: Record<string, ServiceData> = {
       solution: "A DRD2 Engenharia conhece as ITs para hostels e albergues. Regularizamos seu estabelecimento com diagnóstico gratuito e garantia de conformidade plena para você crescer com segurança."
     },
     content: [
-      "Hostels são enquadrados como Divisão H-2 (Hotéis e Assemelhados) pela IT-02 do CBPMESP.",
+      "Hostels são enquadrados como Divisão B-1 (hotel e assemelhado) pelo Decreto Estadual nº 69.118/2024.",
       "Focamos em sinalização visual acessível, detecção automática em dormitórios e rotas de fuga para beliches, garantindo proteção total."
     ],
     faqs: [

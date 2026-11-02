@@ -96,7 +96,7 @@ const data: UniversalPageData = {
   h2_detalhes: {
     heading: "O que a IT 23/25 exige especificamente para sprinkler em hotéis",
     body1:
-      "Hotéis são Grupo H-1 — uso residencial transitório — e têm mix de ocupação que exige análise setor a setor. A IT 23/25 e a NBR 10897 determinam densidade de descarga, tipo de bico e espaçamento conforme as características físicas e de risco de cada ambiente.",
+      "Hotéis são Grupo B (divisão B-1, hotel e assemelhado) — e têm mix de ocupação que exige análise setor a setor. A IT 23/25 e a NBR 10897 determinam densidade de descarga, tipo de bico e espaçamento conforme as características físicas e de risco de cada ambiente.",
     alerta:
       "Qualquer reforma de UH, adição de spa, expansão de restaurante ou remodelação de lobby exige atualização do projeto de sprinkler com nova ART antes do início das obras.",
     itens: [

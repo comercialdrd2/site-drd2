@@ -46,7 +46,7 @@ const data: UniversalPageData = {
       },
       {
         "titulo": "Multa por sistema não certificado",
-        "desc": "O CBPMESP pode autuar estabelecimentos com sistema de alarme instalado mas sem certificação técnica anual, com multa de R$ 500 a R$ 50.000 conforme a Tabela."
+        "desc": "O CBPMESP pode autuar estabelecimentos com sistema de alarme instalado mas sem certificação técnica anual, com multa prevista no Decreto Estadual nº 69.118/2024."
       },
       {
         "titulo": "Comunique-se específico de alarme",

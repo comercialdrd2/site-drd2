@@ -52,10 +52,10 @@ const categories: Category[] = [
     title: "Saúde, Educação e Bem-Estar",
     icon: Hospital,
     items: [
-      { code: "H-2 / H-3", name: "Hospitais e Clínicas Médicas", href: "/avcb-hospital-clinica-sao-paulo" },
+      { code: "H-3 / H-6", name: "Hospitais e Clínicas Médicas", href: "/avcb-hospital-clinica-sao-paulo" },
       { code: "Grupo I", name: "Clínicas Odontológicas e Dentistas", href: "/avcb-consultorios-medicos-odontologicos-sao-paulo" },
       { code: "E-1 a E-6", name: "Escolas, Faculdades e Creches", href: "/avcb-para-escola-sao-paulo" },
-      { code: "H-5", name: "Casas de Repouso e Asilos", href: "/avcb-para-casa-de-repouso-sao-paulo" },
+      { code: "H-2", name: "Casas de Repouso e Asilos", href: "/avcb-para-casa-de-repouso-sao-paulo" },
       { code: "H-1", name: "Pet Shops e Clinicas Veterinarias", href: "/avcb-clinica-hospital-veterinario-sao-paulo" }
     ]
   },
@@ -76,7 +76,7 @@ const categories: Category[] = [
       { code: "F-3", name: "Academia, Clubes e Centros Esportivos", href: "/avcb-para-academia-sao-paulo" },
       { code: "F-5 / F-6", name: "Teatros, Cinemas e Casas de Show" },
       { code: "F-2", name: "Espaços de Eventos, Buffets e Salões", href: "/avcb-salao-de-festas-sao-paulo" },
-      { code: "H-1 / H-6", name: "Clínicas de Estética e Laboratórios" },
+      { code: "H-6", name: "Clínicas de Estética e Laboratórios" },
       { code: "F-3 / F-4", name: "Piscinas Públicas e Quadras Cobertas" },
       { code: "D-3", name: "Data Centers e Centros de Tecnologia" }
     ]
