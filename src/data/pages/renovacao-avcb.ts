@@ -10,7 +10,7 @@ export const renovacaoAvcbContent = {
   ],
   h2_prazo: {
     heading: "Qual é o Prazo de Validade do AVCB em São Paulo?",
-    body: "O prazo de validade do AVCB é de 3 anos, conforme estabelecido pelo CBPMESP no momento da emissão do certificado. O prazo exato consta no próprio certificado emitido pelo Corpo de Bombeiros. A DRD2 orienta sobre o prazo aplicável ao seu tipo de edificação já na visita técnica gratuita."
+    body: "Para a maioria dos imóveis, o AVCB vale 3 anos: condomínios, comércios, escritórios, escolas, indústrias, depósitos, hotéis e clínicas. A IT 01/2025 (Anexo K) define o prazo pela ocupação predominante do imóvel (item 6.6.2) e traz prazos menores para alguns locais de reunião de público, como mostra a tabela abaixo. O prazo exato vem impresso no próprio certificado, e a DRD2 confirma o prazo do seu imóvel na visita técnica gratuita."
   },
   h2_acontece: {
     heading: "O que Acontece com AVCB Vencido em São Paulo?",
