@@ -127,7 +127,7 @@ const data: UniversalPageData = {
     },
     {
       question: "O laudo de sprinkler substitui o laudo de alarme para o AVCB do hotel?",
-      answer: "Não. São sistemas independentes com laudos separados. O CBPMESP exige laudo de alarme (IT 18) e laudo de sprinkler (IT 23) separadamente para hotéis que têm os dois sistemas instalados.",
+      answer: "Não. São sistemas independentes com laudos separados. O CBPMESP exige laudo de alarme (IT 19/2025) e laudo de sprinkler (IT 23) separadamente para hotéis que têm os dois sistemas instalados.",
     },
     {
       question: "Com que frequência as cabeças de sprinkler do hotel precisam ser inspecionadas?",

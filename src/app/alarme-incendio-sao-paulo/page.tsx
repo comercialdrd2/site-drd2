@@ -33,7 +33,7 @@ export const metadata = {
 const faqs = [
   {
     q: "Alarme de incêndio é obrigatório em São Paulo?",
-    a: "Sim. Conforme a IT 18 do CBPMESP, o sistema de detecção e alarme de incêndio é exigido para a maioria dos estabelecimentos comerciais, industriais e residenciais de médio e grande porte em São Paulo. A obrigatoriedade e o tipo de sistema dependem do Grupo de ocupação, altura e área da edificação.",
+    a: "Sim. Pelo Decreto Estadual nº 69.118/2024, o sistema de detecção e alarme de incêndio é exigido para a maioria dos estabelecimentos comerciais, industriais e residenciais de médio e grande porte em São Paulo. A obrigatoriedade e o tipo de sistema dependem do Grupo de ocupação, altura e área da edificação.",
   },
   {
     q: "Qual a diferença entre detector de fumaça e central de alarme?",
@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     q: "Com que frequência o sistema de alarme precisa de manutenção?",
-    a: "A IT 18 exige manutenção preventiva semestral com emissão de laudo técnico. O laudo de manutenção é documento obrigatório no processo de renovação do AVCB — alarmes sem laudo atualizado geram Comunique-se e paralisam o processo de renovação.",
+    a: "O sistema precisa de manutenção preventiva periódica, com laudo técnico. O laudo de manutenção é documento obrigatório no processo de renovação do AVCB — alarmes sem laudo atualizado geram Comunique-se e paralisam o processo de renovação.",
   },
   {
     q: "A DRD2 faz integração do alarme com sprinklers e hidrantes?",
@@ -62,7 +62,7 @@ const segmentos = [
     nome: "Condomínios",
     href: "/alarme-de-incendio-para-condominio-sao-paulo",
     icon: Building2,
-    desc: "Torre residencial, condomínio horizontal, galpão de condomínio. IT 18 + NBR 17240 por número de pavimentos.",
+    desc: "Torre residencial, condomínio horizontal, galpão de condomínio. IT 19/2025 + NBR 17240 por número de pavimentos.",
   },
   {
     nome: "Galpão Industrial",
@@ -200,9 +200,9 @@ export default function AlarmeIncendioSaoPauloPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { icon: Activity, title: "Sistema Convencional", desc: "Indicado para edificações menores. Detectores por zona, central e sirenes conforme IT 18." },
+              { icon: Activity, title: "Sistema Convencional", desc: "Indicado para edificações menores. Detectores por zona, central e sirenes conforme IT 19/2025." },
               { icon: Zap, title: "Sistema Endereçável", desc: "Cada detector tem endereço único. Identifica o ponto exato do sinistro. Obrigatório em edificações de maior porte." },
-              { icon: Bell, title: "Manutenção Preventiva", desc: "Semestral conforme IT 18. Laudo técnico com ART inclusa para renovação do AVCB." },
+              { icon: Bell, title: "Manutenção Preventiva", desc: "Periódica, com laudo técnico e ART inclusa para renovação do AVCB." },
               { icon: FileText, title: "Laudo e ART para AVCB", desc: "Documentação técnica completa assinada por engenheiro para aprovação no CBPMESP." },
             ].map((item, i) => (
               <div key={i} className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-all group">
@@ -240,7 +240,7 @@ export default function AlarmeIncendioSaoPauloPage() {
               Alarme de Incêndio por <span className="text-red-600 not-italic">Tipo de Edificação</span>
             </h2>
             <p className="text-lg text-slate-600 font-medium max-w-2xl mx-auto">
-              Cada segmento tem exigências específicas da IT 18. Consulte a página do seu tipo de edificação.
+              Cada segmento tem exigências específicas da IT 19/2025. Consulte a página do seu tipo de edificação.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -276,7 +276,7 @@ export default function AlarmeIncendioSaoPauloPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { id: "01", t: "Diagnóstico Técnico", d: "Vistoria presencial para identificar o Grupo de ocupação, área, altura e sistema de alarme adequado conforme IT 18." },
+              { id: "01", t: "Diagnóstico Técnico", d: "Vistoria presencial para identificar o Grupo de ocupação, área, altura e sistema de alarme adequado conforme IT 19/2025." },
               { id: "02", t: "Projeto de Detecção", d: "Posicionamento de detectores de fumaça, temperatura e CIPA conforme layout real da edificação e norma NBR 17240." },
               { id: "03", t: "Instalação da Central", d: "Instalação de central de alarme convencional ou endereçável, painel de força, sirenes e botoeiras manuais." },
               { id: "04", t: "Teste e Comissionamento", d: "Teste de todos os detectores e acionadores, verificação de comunicação com a central e programação de zonas." },
