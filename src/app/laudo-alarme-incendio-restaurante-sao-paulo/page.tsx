@@ -38,11 +38,11 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Central sem bateria reserva testada",
-        desc: "A IT 18 exige 24h de autonomia em bateria. Centrais antigas perdem capacidade de bateria sem aviso. Sem teste documentado, o laudo não pode ser emitido.",
+        desc: "A central precisa manter a autonomia de bateria definida no projeto. Centrais antigas perdem capacidade de bateria sem aviso. Sem teste documentado, o laudo não pode ser emitido.",
       },
       {
         titulo: "Cobertura insuficiente no salão",
-        desc: "Restaurantes que fizeram reformas sem atualizar o projeto do alarme frequentemente têm áreas descobertas. A IT 18 define área máxima por detector — áreas descobertas geram exigência de novos pontos.",
+        desc: "Restaurantes que fizeram reformas sem atualizar o projeto do alarme frequentemente têm áreas descobertas. Cada detector cobre uma área máxima — áreas descobertas geram exigência de novos pontos.",
       },
       {
         titulo: "Sirene com volume insuficiente para cozinha ruidosa",
@@ -69,7 +69,7 @@ const data: UniversalPageData = {
       },
       {
         numero: "03",
-        titulo: "Verificação de compatibilidade com IT 18",
+        titulo: "Verificação de compatibilidade com IT 19/2025",
         desc: "Conferimos tipo de detector por zona, área de cobertura, altura de instalação, tempo de resposta da central e autonomia de bateria conforme a IT 19/2025.",
       },
       {

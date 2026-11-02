@@ -30,7 +30,7 @@ const data: UniversalPageData = {
     itens: [
       {
         titulo: "Detector de fumaça na garagem",
-        desc: "Garagens ventiladas com veículos a combustão produzem CO, não fumaça visível. Detector de fumaça na garagem não detecta o perigo real e gera falso alarme com poeira. IT 18 exige detector de CO nesse ambiente.",
+        desc: "Garagens ventiladas com veículos a combustão produzem CO, não fumaça visível. Detector de fumaça na garagem não detecta o perigo real e gera falso alarme com poeira. O tipo de detector da garagem precisa ser definido no projeto.",
       },
       {
         titulo: "Central sem capacidade para todos os pavimentos",
@@ -38,7 +38,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Bateria sem teste documentado",
-        desc: "A IT 18 exige 24h de autonomia. Baterias de centrais com mais de 3 anos perdem capacidade. Sem teste de descarga documentado, o laudo não pode atestar a conformidade.",
+        desc: "A central precisa manter a autonomia de bateria definida no projeto. Baterias de centrais com mais de 3 anos perdem capacidade. Sem teste de descarga documentado, o laudo não pode atestar a conformidade.",
       },
       {
         titulo: "Sistema não audível em todos os apartamentos",
@@ -50,7 +50,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Detectores sem manutenção há mais de 12 meses",
-        desc: "A IT 18 exige manutenção anual. Detectores fotoeléctricos acumulam poeira nos orifícios e passam a não detectar corretamente. Sem manutenção documentada, o laudo técnico não pode ser emitido.",
+        desc: "A manutenção precisa ser periódica. Detectores fotoeléctricos acumulam poeira nos orifícios e passam a não detectar corretamente. Sem manutenção documentada, o laudo técnico não pode ser emitido.",
       },
     ],
   },
@@ -119,7 +119,7 @@ const data: UniversalPageData = {
     },
     {
       question: "Quantos detectores o condomínio precisa por andar?",
-      answer: "A IT 18 define área máxima de cobertura por detector — em geral 30m² para detector pontual em pé-direito até 3m. A quantidade por andar depende da área e da geometria do corredor. A DRD2 calcula isso na vistoria gratuita.",
+      answer: "Cada detector cobre uma área máxima, que depende do tipo de detector e da altura do teto. A quantidade por andar depende da área e da geometria do corredor. A DRD2 calcula isso na vistoria gratuita.",
     },
     {
       question: "O laudo de alarme tem validade?",
@@ -127,7 +127,7 @@ const data: UniversalPageData = {
     },
     {
       question: "O condomínio precisa de monitoramento 24h do alarme?",
-      answer: "A IT 18 não exige monitoramento remoto 24h para condomínios residenciais — exige que a central fique em local de acesso permanente (portaria ou zelador 24h). Para condomínios comerciais de grande porte, monitoramento remoto pode ser exigido dependendo da classificação.",
+      answer: "Em condomínio residencial, o ponto principal é a central ficar em local de acesso permanente (portaria ou zelador 24h). Para condomínios comerciais de grande porte, monitoramento remoto pode ser exigido dependendo da classificação.",
     },
     {
       question: "Quanto custa o laudo de alarme para condomínio?",

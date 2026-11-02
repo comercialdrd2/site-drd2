@@ -123,11 +123,11 @@ const data: UniversalPageData = {
     },
     {
       question: "A creche tem as mesmas exigências de alarme que a escola?",
-      answer: "As exigências técnicas são similares (IT 18, Grupo E), mas creches têm exigências adicionais por atender crianças menores — a brigada de incêndio precisa de treinamento específico para evacuação de bebês e crianças não ambulantes, o que influencia o dimensionamento do sistema de acionamento.",
+      answer: "As exigências técnicas são similares (IT 19/2025, Grupo E), mas creches têm exigências adicionais por atender crianças menores — a brigada de incêndio precisa de treinamento específico para evacuação de bebês e crianças não ambulantes, o que influencia o dimensionamento do sistema de acionamento.",
     },
     {
       question: "Com que frequência a escola precisa fazer manutenção do alarme?",
-      answer: "A IT 18 exige manutenção anual. A DRD2 recomenda inspeção semestral para escolas com cantina industrial — a gordura afeta os detectores da área de cocção mais rapidamente.",
+      answer: "A manutenção precisa ser periódica. A DRD2 recomenda inspeção semestral para escolas com cantina industrial — a gordura afeta os detectores da área de cocção mais rapidamente.",
     },
     {
       question: "O laudo de alarme serve para o credenciamento junto à Secretaria de Educação?",

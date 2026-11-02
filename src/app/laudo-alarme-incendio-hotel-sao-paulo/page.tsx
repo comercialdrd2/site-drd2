@@ -50,7 +50,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "Central sem autonomia de 24h para hotel",
-        desc: "A IT 18 exige 24h de autonomia para ocupações do Grupo H. Hotéis com falta de energia frequente precisam verificar regularmente a capacidade real das baterias da central.",
+        desc: "A central precisa manter a autonomia de bateria definida no projeto. Hotéis com falta de energia frequente precisam verificar regularmente a capacidade real das baterias da central.",
       },
     ],
   },
