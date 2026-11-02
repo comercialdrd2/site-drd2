@@ -187,7 +187,7 @@ export default function AVCBGalpaoPage() {
                 <div>
                   <p className="text-slate-900 font-black text-xl mb-2">CLCB (Processo Simplificado)</p>
                   <p className="text-slate-600 leading-relaxed font-medium">
-                    Aplicável a galpões de menor risco, com <strong>área construída de até 750 m²</strong> sem sistema de hidrantes, ou <strong>até 1.500 m²</strong> com sistema de hidrantes instalado, entre outras exigências. É um licenciamento ágil, muitas vezes emitido por amostragem sem necessidade de vistoria prévia presencial do Bombeiro, se os laudos ART forem bem elaborados.
+                    Aplicável a galpões de menor risco, com <strong>área construída de até 750 m²</strong> e até 3 pavimentos, sem as situações que a IT 42/2025 exclui (como processo com mais de 250 L de líquidos inflamáveis ou produtos perigosos). É um licenciamento ágil, sem análise de projeto, mas o Corpo de Bombeiros pode fiscalizar a qualquer tempo.
                   </p>
                 </div>
               </div>
@@ -204,7 +204,7 @@ export default function AVCBGalpaoPage() {
                 <div>
                   <p className="text-slate-900 font-black text-xl mb-2">AVCB (Projeto Técnico Completo)</p>
                   <p className="text-slate-600 leading-relaxed font-medium">
-                    Exigido para galpões <strong>acima de 1.500 m²</strong>, galpões acima de 750 m² sem os sistemas exigidos para o CLCB, ou operações com carga de incêndio elevada. Exige aprovação de plantas arquitetônicas, memoriais de cálculo hidráulico, instalação de sistemas complexos (hidrantes/sprinklers) e a obrigatoriedade da vistoria física do Oficial do CBPMESP.
+                    Exigido para galpões <strong>acima de 750 m²</strong> ou com mais de 3 pavimentos, ou com sistemas como chuveiros automáticos e detecção. Exige aprovação de plantas arquitetônicas, memoriais de cálculo hidráulico, instalação de sistemas complexos (hidrantes/sprinklers) e a obrigatoriedade da vistoria física do Oficial do CBPMESP.
                   </p>
                 </div>
               </div>
@@ -346,7 +346,7 @@ export default function AVCBGalpaoPage() {
               },
               {
                 question: "Qual a diferença entre AVCB e CLCB para galpões logísticos?",
-                answer: "O CLCB é modalidade simplificada, aplicada a depósitos de baixo risco com até 750 m², ou até 1.500 m² quando há sistema de hidrantes instalado, entre outras exigências. Para a maioria dos galpões acima dessa metragem, ou com pé-direito elevado e uso de inflamáveis, o AVCB Completo é exigido."
+                answer: "O CLCB é modalidade simplificada, aplicada a depósitos de baixo risco com até 750 m² e até 3 pavimentos, entre outras exigências. Para a maioria dos galpões acima dessa metragem, ou com pé-direito elevado e uso de inflamáveis, o AVCB Completo é exigido."
               },
               {
                 question: "Galpão alugado: quem paga o AVCB, o dono do imóvel ou a indústria?",

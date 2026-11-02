@@ -123,7 +123,7 @@ const data: UniversalPageData = {
     },
     {
       question: "A pousada pequena (até 10 quartos) tem as mesmas exigências?",
-      answer: "Pousadas menores podem se enquadrar no CLCB em vez do AVCB, dependendo da área e do número de pavimentos. Para CLCB, as exigências de alarme são simplificadas. A DRD2 define o enquadramento correto na vistoria gratuita.",
+      answer: "Pousadas com até 40 leitos, até 750 m² e até 3 pavimentos podem se enquadrar no CLCB em vez do AVCB. Para CLCB, as exigências de alarme são simplificadas. A DRD2 define o enquadramento correto na vistoria gratuita.",
     },
     {
       question: "Como comprovar o monitoramento 24h para o CBPMESP?",

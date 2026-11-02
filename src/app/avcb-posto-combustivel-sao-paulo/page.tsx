@@ -69,7 +69,7 @@ export default function AVCBPostoPage() {
         <div className="relative z-10 container mx-auto px-4 py-20 max-w-6xl">
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-primary/20 backdrop-blur-md border border-primary/30 text-white px-4 py-2 rounded-full text-xs font-black uppercase tracking-widest mb-4">
-              <Fuel className="w-4 h-4" /> Risco de Explosão — Grupo M (Especiais)
+              <Fuel className="w-4 h-4" /> Risco de Explosão — Divisão G-3
             </div>
             <h1 className="text-3xl md:text-6xl font-black mb-4 leading-[1.1] tracking-tighter uppercase italic">
               AVCB para <span className="text-primary not-italic">Posto de Combustível</span> em São Paulo
@@ -114,14 +114,14 @@ export default function AVCBPostoPage() {
                 O Auto de Vistoria do Corpo de Bombeiros (AVCB) é o documento oficial que comprova que o estabelecimento atende a todas as exigências de segurança contra incêndio e pânico do Estado de São Paulo, conforme o Decreto Estadual nº 69.118/2024.
               </p>
               <div className="bg-red-50 p-8 rounded-3xl border border-red-100 italic shadow-sm mb-6">
-                <p className="text-red-900 font-bold">Postos de combustível não se enquadram no CLCB — pelo nível de risco e pelas características específicas da atividade, o <strong>AVCB com Projeto Técnico Completo</strong> é obrigatório para todos os estabelecimentos desse tipo.</p>
+                <p className="text-red-900 font-bold">O CLCB só vale para o posto que tiver até 750 m² e até 3 pavimentos e não cair nas exclusões da IT 42/2025 (a cobertura das bombas não entra no cálculo da área, item 4.2.1). Fora disso, o caminho é o <strong>AVCB</strong>. A DRD2 confere o enquadramento do seu posto.</p>
               </div>
               <p className="text-slate-600">
                 A ausência do AVCB sujeita o estabelecimento a interdição imediata, multas progressivas e responsabilidade civil e criminal do proprietário em caso de sinistro. Em 2026, a ANP passou a cruzar dados com o CBPMESP, tornando a regularização ainda mais urgente.
               </p>
             </div>
             <div className="bg-slate-900 p-10 rounded-[3rem] text-white shadow-2xl">
-              <h3 className="text-2xl font-black mb-8 uppercase tracking-tight italic border-b border-white/10 pb-4">Obrigatoriedade (Grupo M)</h3>
+              <h3 className="text-2xl font-black mb-8 uppercase tracking-tight italic border-b border-white/10 pb-4">Obrigatoriedade (Divisão G-3)</h3>
               <ul className="space-y-4">
                 {[
                   "Postos de gasolina e etanol",
@@ -236,9 +236,9 @@ export default function AVCBPostoPage() {
 
           <div className="prose prose-lg prose-slate max-w-none space-y-8 font-medium">
             <div>
-              <h3 className="text-xl font-black text-slate-900 uppercase tracking-tight italic mb-4">Por que postos de combustível são Grupo M — Especiais?</h3>
+              <h3 className="text-xl font-black text-slate-900 uppercase tracking-tight italic mb-4">Por que postos de combustível têm exigências próprias?</h3>
               <p className="text-slate-600 leading-relaxed">
-                O Corpo de Bombeiros do Estado de São Paulo (CBPMESP) classifica postos de combustível no <strong>Grupo M — Ocupações Especiais</strong>, a categoria de maior nível de risco da IT-02. O motivo é direto: armazenamento subterrâneo de combustíveis líquidos inflamáveis (gasolina, etanol, diesel) combinado com vapores que se acumulam na pista cria um potencial explosivo que não existe em nenhuma outra ocupação comercial urbana.
+                O Corpo de Bombeiros do Estado de São Paulo (CBPMESP) classifica postos de combustível na <strong>divisão G-3 — local dotado de abastecimento de combustível</strong>, pelo Decreto Estadual nº 69.118/2024. O motivo é direto: armazenamento subterrâneo de combustíveis líquidos inflamáveis (gasolina, etanol, diesel) combinado com vapores que se acumulam na pista cria um potencial explosivo que não existe em nenhuma outra ocupação comercial urbana.
               </p>
               <p className="text-slate-600 leading-relaxed mt-4">
                 Diferentemente de um restaurante ou escritório — que podem, dependendo do porte, se enquadrar no CLCB simplificado — <strong>todo posto de combustível em São Paulo precisa de AVCB com Projeto Técnico Completo (PPCI)</strong>, sem exceção. Isso significa plantas baixas, memoriais descritivos, ART do engenheiro responsável e aprovação presencial do CBPMESP.
@@ -252,7 +252,7 @@ export default function AVCBPostoPage() {
               </p>
               <ul className="mt-4 space-y-3 text-slate-600">
                 {[
-                  { norm: "IT-02 / Decreto 69.118/2024", desc: "Classifica o posto como Grupo M e define os sistemas obrigatórios." },
+                  { norm: "Decreto 69.118/2024", desc: "Classifica o posto como divisão G-3 e define os sistemas obrigatórios." },
                   { norm: "ABNT NBR 17505", desc: "Regula armazenamento de líquidos inflamáveis e instalações elétricas ATEX na pista." },
                   { norm: "ABNT NBR 13786", desc: "Define o laudo de estanqueidade obrigatório para tanques subterrâneos." },
                   { norm: "IT-21 / NBR 12693", desc: "Determina os tipos corretos de extintores — CO2 e PQS BC — para a área de bombas." },
@@ -407,7 +407,7 @@ export default function AVCBPostoPage() {
             Não Arrisque a <span className="text-slate-950 not-italic">Interdição do seu Posto</span>
           </h2>
           <p className="text-xl md:text-3xl mb-12 font-bold opacity-95 max-w-4xl mx-auto border-b border-white/20 pb-10 italic leading-relaxed">
-            Posto sem AVCB é risco de interdição, multa e tragédia. Regularizamos com precisão normativa perante a IT-02 e Decreto 69.118/2024.
+            Posto sem AVCB é risco de interdição, multa e tragédia. Regularizamos com precisão normativa perante o Decreto 69.118/2024 e as ITs do CBPMESP.
           </p>
           <a
             href={whatsappLink}

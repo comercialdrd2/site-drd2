@@ -21,11 +21,11 @@ import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 import FusaoEtapa2Trecho from "@/components/FusaoEtapa2Trecho";
 import LicencaSanitariaCrossLink from "@/components/LicencaSanitariaCrossLink";
 const _pageTitle = "AVCB para Padaria em São Paulo";
-const _pageDesc = "AVCB para padaria em São Paulo: Grupo F-3, IT-11, supressão em coifa, central de GLP e Extintor Classe K. Resposta a Comunique-se incluída. DRD2 — do projeto à instalação.";
+const _pageDesc = "AVCB para padaria em São Paulo: Grupo F-8, IT-11, supressão em coifa, central de GLP e Extintor Classe K. Resposta a Comunique-se incluída. DRD2 — do projeto à instalação.";
 
 export const metadata = {
   title: "AVCB para Padaria em São Paulo",
-  description: "AVCB para padaria em São Paulo: Grupo F-3, IT-11, supressão em coifa, central de GLP e Extintor Classe K. Resposta a Comunique-se incluída. DRD2 — do projeto à instalação.",
+  description: "AVCB para padaria em São Paulo: Grupo F-8, IT-11, supressão em coifa, central de GLP e Extintor Classe K. Resposta a Comunique-se incluída. DRD2 — do projeto à instalação.",
   alternates: {
     canonical: "/avcb-para-padaria-sao-paulo",
   },
@@ -40,8 +40,8 @@ export default function AVCBPadariaMasterPage() {
       answer: "Sim. A obrigatoriedade independe do porte. Qualquer padaria que opere com forno, GLP, frituras ou área de consumo está sujeita às exigências do CBPMESP. O conjunto de medidas varia conforme a área e o enquadramento, mas a regularização é obrigatória para funcionamento legal em São Paulo."
     },
     {
-      question: "Por que padaria é enquadrada como F-3 e não como comércio?",
-      answer: "Padarias com área de consumo — mesas, balcão de café ou lanchonete integrada — são classificadas como F-3 (Local de Reunião de Público com Refeição) pela IT-02/2019 do CBPMESP. Esse enquadramento aplica a IT-11 e exige rotas de fuga e saídas de emergência dimensionadas para a capacidade de público — mais rígido do que o comércio varejista comum."
+      question: "Por que padaria é enquadrada como F-8 e não como comércio?",
+      answer: "Padarias com área de consumo — mesas, balcão de café ou lanchonete integrada — são classificadas como F-8 (local para refeição) pelo Decreto Estadual nº 69.118/2024. Esse enquadramento aplica a IT-11 e exige rotas de fuga e saídas de emergência dimensionadas para a capacidade de público — mais rígido do que o comércio varejista comum."
     },
     {
       question: "A supressão na coifa é obrigatória em todas as padarias?",
@@ -67,10 +67,10 @@ export default function AVCBPadariaMasterPage() {
       },
       {
         "@type": "Question",
-        "name": "Por que padaria é enquadrada como F-3 e não como comércio?",
+        "name": "Por que padaria é enquadrada como F-8 e não como comércio?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Padarias com área de consumo são classificadas como F-3 (Local de Reunião de Público com Refeição) pela IT-02/2019 do CBPMESP. Esse enquadramento aplica a IT-11 com exigências mais rígidas de saídas de emergência e rotas de fuga do que o comércio varejista comum."
+          "text": "Padarias com área de consumo são classificadas como F-8 (local para refeição) pelo Decreto Estadual nº 69.118/2024. Esse enquadramento aplica a IT-11 com exigências mais rígidas de saídas de emergência e rotas de fuga do que o comércio varejista comum."
         }
       },
       {
@@ -126,13 +126,13 @@ export default function AVCBPadariaMasterPage() {
         <div className="relative z-10 container mx-auto px-4 max-w-6xl py-8">
           <div className="lg:w-3/5">
             <span className="inline-block bg-red-600 text-white text-[10px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest mb-3 shadow-lg shadow-red-900/20">
-              GRUPO F-3 — LOCAIS DE REUNIÃO DE PÚBLICO — REGULARIZAÇÃO 2026
+              GRUPO F-8 — LOCAIS DE REUNIÃO DE PÚBLICO — REGULARIZAÇÃO 2026
             </span>
             <h1 className="text-3xl md:text-4xl lg:text-4xl font-black mb-4 lg:mb-5 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col drop-shadow-2xl">
               AVCB para Padaria<br/>em São Paulo
             </h1>
             <p className="text-base md:text-lg text-gray-200 mb-2 lg:mb-3 leading-relaxed font-medium max-w-2xl">
-              Padaria com área de consumo é enquadrada como Grupo F-3 pelo CBPMESP — classificação mais exigente que o comércio comum. Coifa sem supressão, GLP irregular ou rota de fuga fora da norma são os motivos mais frequentes de embargo, interdição e lacre em padarias em São Paulo.
+              Padaria com área de consumo é enquadrada como Grupo F-8 pelo CBPMESP — classificação mais exigente que o comércio comum. Coifa sem supressão, GLP irregular ou rota de fuga fora da norma são os motivos mais frequentes de embargo, interdição e lacre em padarias em São Paulo.
             </p>
             <p className="text-base md:text-lg text-gray-300 mb-3 lg:mb-5 leading-relaxed font-medium max-w-2xl">
               A DRD2 Engenharia executa o processo completo do projeto à instalação: enquadramento correto, adequação dos sistemas, elaboração do memorial e aprovação junto ao Corpo de Bombeiros — com resposta incluída a qualquer Comunique-se, sem custo adicional.
@@ -164,20 +164,20 @@ export default function AVCBPadariaMasterPage() {
       <section className="py-24 bg-white">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-8 leading-tight uppercase tracking-tighter italic">
-            Enquadramento técnico de padarias no CBPMESP — Grupo F-3
+            Enquadramento técnico de padarias no CBPMESP — Grupo F-8
           </h2>
           <div className="space-y-5 text-lg text-slate-600 leading-relaxed font-medium">
             <p>
-              Padarias com área de consumo — mesas, balcão de café, lanchonete integrada ou espaço de refeição — são classificadas sob o Grupo F-3 — Locais de Reunião de Público com Refeição, conforme a IT-02/2019 do CBPMESP.
+              Padarias com área de consumo — mesas, balcão de café, lanchonete integrada ou espaço de refeição — são classificadas sob o Grupo F-8 — Locais de Reunião de Público com Refeição, conforme o Decreto Estadual nº 69.118/2024.
             </p>
             <p>
               Esse enquadramento é mais exigente do que o Grupo C (Comércio Varejista) e determina um conjunto maior de medidas de proteção obrigatórias. A IT-11 passa a ser aplicável integralmente, com exigências específicas de largura mínima de rotas de fuga, número de saídas de emergência calculado pela densidade de ocupação e descarga direta no logradouro público.
             </p>
             <p>
-              Padarias exclusivamente de venda no balcão, sem nenhuma área de consumo, podem ser enquadradas como C-2. Porém, a esmagadora maioria das padarias em São Paulo possui mesas, banquetas ou balcão de café — o que determina o F-3 como classificação correta e obrigatória.
+              Padarias exclusivamente de venda no balcão, sem nenhuma área de consumo, podem ser enquadradas como C-2. Porém, a esmagadora maioria das padarias em São Paulo possui mesas, banquetas ou balcão de café — o que determina o F-8 como classificação correta e obrigatória.
             </p>
             <p>
-              O enquadramento errado é um dos maiores geradores de Comunique-se no CBPMESP: projetos protocolados como C-2 para estabelecimentos que funcionam como F-3 são devolvidos com exigência de revisão completa. A DRD2 Engenharia define o enquadramento correto na vistoria inicial, antes do protocolo.
+              O enquadramento errado é um dos maiores geradores de Comunique-se no CBPMESP: projetos protocolados como C-2 para estabelecimentos que funcionam como F-8 são devolvidos com exigência de revisão completa. A DRD2 Engenharia define o enquadramento correto na vistoria inicial, antes do protocolo.
             </p>
           </div>
         </div>
@@ -218,13 +218,13 @@ export default function AVCBPadariaMasterPage() {
             Instruções Técnicas e normas aplicáveis ao AVCB de padaria
           </h2>
           <p className="text-lg text-slate-600 mb-10 font-medium">
-            O processo de aprovação do AVCB para padaria em São Paulo — enquadrada como F-3 — envolve o cumprimento de um conjunto mais amplo de Instruções Técnicas do CBPMESP do que o comércio varejista comum:
+            O processo de aprovação do AVCB para padaria em São Paulo — enquadrada como F-8 — envolve o cumprimento de um conjunto mais amplo de Instruções Técnicas do CBPMESP do que o comércio varejista comum:
           </p>
           <div className="space-y-6">
             {[
               {
-                t: "IT-02/2019",
-                d: "Classifica a ocupação como Grupo F-3, define a carga de incêndio, a densidade de ocupação e a altura da edificação — parâmetros que determinam todo o conjunto de medidas exigíveis.",
+                t: "Decreto 69.118/2024",
+                d: "Classifica a ocupação como Grupo F-8, define a carga de incêndio, a densidade de ocupação e a altura da edificação — parâmetros que determinam todo o conjunto de medidas exigíveis.",
               },
               {
                 t: "IT-11 — Saídas de Emergência",
@@ -236,7 +236,7 @@ export default function AVCBPadariaMasterPage() {
               },
               {
                 t: "IT-19 — Sistemas de Detecção e Alarme de Incêndio",
-                d: "obrigatório dependendo da área total e da carga de incêndio, com exigência reforçada para F-3 em comparação ao comércio varejista.",
+                d: "obrigatório dependendo da área total e da carga de incêndio, com exigência reforçada para F-8 em comparação ao comércio varejista.",
               },
               {
                 t: "IT-22 — Sistemas de Hidrantes e Mangotinhos",
@@ -288,7 +288,7 @@ export default function AVCBPadariaMasterPage() {
             {[
               {
                 t: "1. Rota de fuga fora da norma IT-11",
-                d: "Com o enquadramento F-3, as saídas de emergência da padaria precisam atender a parâmetros mais rígidos do que o comércio comum. Largura insuficiente, porta abrindo para dentro, corredor bloqueado ou ausência de descarga direta no logradouro são não-conformidades que geram embargo imediato em vistoria do CBPMESP.",
+                d: "Com o enquadramento F-8, as saídas de emergência da padaria precisam atender a parâmetros mais rígidos do que o comércio comum. Largura insuficiente, porta abrindo para dentro, corredor bloqueado ou ausência de descarga direta no logradouro são não-conformidades que geram embargo imediato em vistoria do CBPMESP.",
               },
               {
                 t: "2. Supressão da coifa ausente ou com laudo vencido",
@@ -334,15 +334,15 @@ export default function AVCBPadariaMasterPage() {
               },
               {
                 t: "Definição correta do enquadramento",
-                d: "F-3 ou C-2 — a DRD2 define na vistoria inicial qual é o enquadramento correto para a sua padaria, evitando rejeição do protocolo por classificação equivocada.",
+                d: "F-8 ou C-2 — a DRD2 define na vistoria inicial qual é o enquadramento correto para a sua padaria, evitando rejeição do protocolo por classificação equivocada.",
               },
               {
                 t: "Projeto completo de segurança contra incêndio",
-                d: "Elaboração das plantas baixas com indicação de todos os sistemas exigíveis conforme as IT-11 (saídas), IT-19 (alarme), IT-20 (sinalização), IT-21 (extintores) e IT-22 (hidrantes) — saídas de emergência dimensionadas para F-3, extintores por classe de incêndio, hidrantes, detectores e sinalização.",
+                d: "Elaboração das plantas baixas com indicação de todos os sistemas exigíveis conforme as IT-11 (saídas), IT-19 (alarme), IT-20 (sinalização), IT-21 (extintores) e IT-22 (hidrantes) — saídas de emergência dimensionadas para F-8, extintores por classe de incêndio, hidrantes, detectores e sinalização.",
               },
               {
                 t: "Memorial descritivo técnico",
-                d: "Documento que fundamenta o enquadramento F-3, descreve os sistemas instalados, justifica as soluções adotadas conforme as ITs vigentes e elimina os principais motivos de Comunique-se antes do protocolo.",
+                d: "Documento que fundamenta o enquadramento F-8, descreve os sistemas instalados, justifica as soluções adotadas conforme as ITs vigentes e elimina os principais motivos de Comunique-se antes do protocolo.",
               },
               {
                 t: "Instalação dos sistemas",

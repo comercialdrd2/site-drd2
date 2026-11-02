@@ -18,7 +18,7 @@ export const avcbHostelContent = {
   h2_precisaDeAvcb: {
     heading: "Hostel Precisa de AVCB em São Paulo?",
     body: [
-      "Sim — sem exceção. Conforme a IT-02 do CBPMESP e o Decreto Estadual nº 69.118/2024, todo estabelecimento de hospedagem no Estado de São Paulo está obrigado a obter AVCB ou CLCB, independentemente do número de leitos, formato de operação ou categoria.",
+      "Sim — sem exceção. Conforme o Decreto Estadual nº 69.118/2024, todo estabelecimento de hospedagem no Estado de São Paulo está obrigado a obter AVCB ou CLCB, independentemente do número de leitos, formato de operação ou categoria.",
     ],
     intro_lista: "Estão obrigados a regularizar:",
     tipos: [

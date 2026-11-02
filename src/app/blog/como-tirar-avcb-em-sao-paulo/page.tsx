@@ -187,12 +187,12 @@ export default function ComoTirarAVCBPost() {
                   <tbody className="bg-white text-slate-700">
                     <tr className="border-b border-slate-100 italic">
                       <td className="p-6 font-bold uppercase text-xs">CLCB (Simplificado)</td>
-                      <td className="p-6 font-bold">Até 750 m² (até 1.500 m² com hidrantes)</td>
+                      <td className="p-6 font-bold">Até 750 m² e até 3 pavimentos</td>
                       <td className="p-6 text-xs font-black text-primary">30 a 60 Dias</td>
                     </tr>
                     <tr className="border-b border-slate-100 italic">
                       <td className="p-6 font-bold uppercase text-xs">AVCB Médio</td>
-                      <td className="p-6 font-bold">Até 1.500 m², quando não cabe no CLCB</td>
+                      <td className="p-6 font-bold">751 a 1.500 m², quando não cabe no CLCB</td>
                       <td className="p-6 text-xs font-black text-primary">60 a 120 Dias</td>
                     </tr>
                     <tr className="italic">

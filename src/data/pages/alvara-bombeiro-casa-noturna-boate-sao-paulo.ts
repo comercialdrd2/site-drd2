@@ -32,7 +32,7 @@ export const alvaraBombeiroContent = {
     {
       title: "Instruções Técnicas do CBPMESP aplicáveis a Casas Noturnas e Boates",
       content: [
-        "<strong>IT-02/2019 — Classificação e Enquadramento</strong>: Define o grupo de ocupação e as medidas exigíveis conforme uso, área e nível de risco.",
+        "<strong>Decreto 69.118/2024 (Tabela 1) — Classificação e Enquadramento</strong>: Define o grupo de ocupação e as medidas exigíveis conforme uso, área e nível de risco.",
         "<strong>IT-11/2025 — Saídas de Emergência</strong>: Dimensionamento de escadas, corredores e portas de saída conforme a lotação máxima aprovada.",
         "<strong>IT-14/2019 — Carga de Incêndio</strong>: Cálculo da carga específica — determina tipo e quantidade de extintores necessários.",
         "<strong>IT-17/2025 — Brigada de Incêndio</strong>: Equipe de emergência treinada anualmente, quando exigível pelo porte.",
@@ -62,7 +62,7 @@ export const alvaraBombeiroContent = {
     {
       title: "Validade e renovação do alvará do Corpo de Bombeiros",
       content: [
-        "O AVCB para Casas Noturnas e Boates em São Paulo tem <strong>validade de 3 anos</strong> — a data de vencimento vem impressa no próprio certificado. Após o vencimento, a irregularidade é imediata — não existe período de carência.",
+        "O AVCB para Casas Noturnas e Boates em São Paulo tem <strong>validade de 1 ano</strong> (divisão F-11, Anexo K da IT 01/2025) — a data de vencimento vem impressa no próprio certificado. Após o vencimento, a irregularidade é imediata — não existe período de carência.",
         "Com AVCB vencido, o estabelecimento está impedido de renovar o alvará de funcionamento e sujeito a interdição em qualquer fiscalização. Inicie a renovação com <strong>60 a 90 dias de antecedência</strong> para garantir continuidade operacional sem riscos.",
       ],
     },

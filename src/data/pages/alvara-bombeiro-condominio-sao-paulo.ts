@@ -33,7 +33,7 @@ export const alvaraBombeiroContent = {
     {
       title: "Instruções Técnicas do CBPMESP aplicáveis a Condomínios",
       content: [
-        "<strong>IT-02/2019 — Classificação e Enquadramento</strong>: Define o grupo de ocupação e as medidas exigíveis conforme uso, área e nível de risco.",
+        "<strong>Decreto 69.118/2024 (Tabela 1) — Classificação e Enquadramento</strong>: Define o grupo de ocupação e as medidas exigíveis conforme uso, área e nível de risco.",
         "<strong>IT-11/2025 — Saídas de Emergência</strong>: Dimensionamento de escadas, corredores e portas de saída conforme a lotação máxima aprovada.",
         "<strong>IT-14/2019 — Carga de Incêndio</strong>: Cálculo da carga específica — determina tipo e quantidade de extintores necessários.",
         "<strong>IT-17/2025 — Brigada de Incêndio</strong>: Equipe de emergência treinada anualmente, quando exigível pelo porte.",

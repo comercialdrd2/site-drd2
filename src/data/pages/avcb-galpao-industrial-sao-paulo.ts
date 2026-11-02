@@ -19,7 +19,7 @@ export const avcbGalpaoContent = {
   h2_precisaDeAvcb: {
     heading: "Galpão Industrial Precisa de AVCB em São Paulo?",
     body: [
-      "Sim. Galpões industriais são enquadrados como Grupo G — Serviços Industriais, subdivisões G-2 (Indústria em geral) ou G-3 (Depósito industrial), conforme a atividade predominante, pela IT-02 do CBPMESP. Galpões logísticos e centros de distribuição seguem enquadramento como Grupo J — Depósitos, dependendo do uso específico.",
+      "Sim. Galpões são enquadrados no Grupo I (indústria, por carga de incêndio) ou no Grupo J (depósito), conforme a atividade predominante, pelo Decreto Estadual nº 69.118/2024. Galpões logísticos e centros de distribuição seguem enquadramento como Grupo J — Depósitos, dependendo do uso específico.",
       "O Decreto Estadual nº 69.118/2024 reforça a obrigatoriedade para todas as edificações industriais e de armazenagem no Estado de São Paulo. Operar sem AVCB vigente expõe o responsável a:",
     ],
     riscos_lista: [
@@ -112,7 +112,7 @@ export const avcbGalpaoContent = {
       },
       {
         nome: "Para-raios",
-        desc: "proteção contra descargas atmosféricas conforme IT-19, especialmente relevante em galpões metálicos isolados em áreas industriais.",
+        desc: "proteção contra descargas atmosféricas conforme ABNT NBR 5419, especialmente relevante em galpões metálicos isolados em áreas industriais.",
       },
       {
         nome: "Proteção da estrutura metálica",

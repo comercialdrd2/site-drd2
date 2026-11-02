@@ -154,7 +154,7 @@ export default function AVCBSupermercadoMasterPage() {
              <h2 className="text-3xl md:text-5xl font-black mb-6 tracking-tighter uppercase italic">
                Estão Obrigados ao <span className="text-red-600 not-italic">AVCB ou CLCB:</span>
              </h2>
-             <p className="text-xl text-slate-400 max-w-2xl mx-auto">Conforme a IT-02 do CBPMESP e o Decreto Estadual nº 69.118/2024.</p>
+             <p className="text-xl text-slate-400 max-w-2xl mx-auto">Conforme o Decreto Estadual nº 69.118/2024.</p>
            </div>
            <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
               {[

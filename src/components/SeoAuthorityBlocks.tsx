@@ -54,11 +54,11 @@ const occupationProfiles: Record<string, {
       { label: "renovacao para restaurante", href: "/renovacao-avcb-restaurante-sao-paulo" },
     ],
   },
-  // CLCB: edificações de baixo risco até 750 m² sem hidrantes, ou até 1.500 m² com sistema de hidrantes — processo simplificado, sem vistoria física obrigatória
+  // CLCB: até 750 m² e até 3 pavimentos (IT 42/2025, itens 4.2.1 e 4.2.2) — processo simplificado
   clcbDefault: {
-    group: "edificação de baixo risco de incêndio (carga até 300 MJ/m²) com até 750 m², ou até 1.500 m² com sistema de hidrantes, enquadrada na IT-01 e IT-02 do CBPMESP",
+    group: "edificação de baixo risco de incêndio (carga até 300 MJ/m²) com até 750 m² e até 3 pavimentos, fora das ocupações que a IT 42/2025 exclui do CLCB",
     risk: "extintores no prazo, sinalização visível, iluminação de emergência e rotas de fuga desobstruídas — itens auto-declarados na vertente CLCB",
-    systems: ["IT-01: procedimentos para CLCB", "IT-02: classificação da ocupação", "IT-11: saídas de emergência", "IT-21: extintores", "IT-18: iluminação de emergência", "IT-20: sinalização"],
+    systems: ["IT-01: procedimentos para CLCB", "Decreto 69.118/2024: classificação da ocupação", "IT-11: saídas de emergência", "IT-21: extintores", "IT-18: iluminação de emergência", "IT-20: sinalização"],
     prazo: "15 a 45 dias para CLCB sem pendências; 45 a 90 dias quando ha adequação física antes do protocolo (extintores vencidos, sinalização, iluminação)",
     links: [
       { label: "renovação de CLCB", href: "/renovacao-clcb-sao-paulo" },
@@ -68,7 +68,7 @@ const occupationProfiles: Record<string, {
   },
   // CLCB Alimentação — restaurante, bar, padaria de pequeno porte
   clcbAlimentacao: {
-    group: "F-8/F-2 (alimentação) com até 750 m² (ou até 1.500 m² com hidrantes) e capacidade média — atende CLCB se a carga de incêndio for compatível",
+    group: "F-8 (local para refeição) com até 750 m², até 3 pavimentos e até 250 pessoas — atende CLCB pela IT 42/2025",
     risk: "central de GLP, coifa de cozinha, extintor classe K, rota de fuga até a calçada e lotação real verificada",
     systems: ["IT-11: saídas e lotação", "IT-21: extintor classe K para cozinha", "IT-20: sinalização", "IT-28: GLP com ART", "IT-25: combustíveis líquidos quando houver"],
     prazo: "20 a 45 dias para CLCB sem pendências; 45 a 90 dias com adequação de gás, coifa ou extintor",
@@ -80,7 +80,7 @@ const occupationProfiles: Record<string, {
   },
   // CLCB Saúde — clínicas, consultórios, fisioterapia, odontologia
   clcbSaude: {
-    group: "H-6 (clínica e consultório sem internação) até 750 m², ou até 1.500 m² com hidrantes — clínica, consultório, fisioterapia, odontologia",
+    group: "H-6 (clínica e consultório sem internação) até 750 m² e até 3 pavimentos — clínica, consultório, fisioterapia, odontologia",
     risk: "acessibilidade nas rotas (cadeirantes, macas), oxigênio medicinal, equipamentos elétricos sensíveis e exigências de planos de saúde",
     systems: ["IT-11: rotas com largura para macas/cadeira de rodas", "IT-21: extintor CO₂ para sala de raio-X/equipamentos", "IT-20: sinalização visível", "IT-18: iluminação de emergência em áreas críticas"],
     prazo: "15 a 45 dias para CLCB sem pendências; 30 a 60 dias com adequação de extintor por tipo de sala ou sinalização",
@@ -106,7 +106,7 @@ const occupationProfiles: Record<string, {
   hospital: {
     group: "H-3 (hospital, pronto-socorro, clínica com internação) — pacientes acamados ou com mobilidade reduzida",
     risk: "evacuação assistida (paciente em maca, idoso, cadeirante), gases medicinais com risco de explosão, equipamentos elétricos em CTI/UTI, brigada com treinamento hospitalar especifico, compartimentação entre alas",
-    systems: ["IT-11: rotas com largura compatível com macas", "IT-22: hidrantes em todos os andares", "IT-19: alarme com detecção precoce em quartos", "IT-23: sprinkler obrigatório", "IT-17: brigada 24h treinada", "IT-29: gases medicinais com ART"],
+    systems: ["IT-11: rotas com largura compatível com macas", "IT-22: hidrantes em todos os andares", "IT-19: alarme com detecção precoce em quartos", "IT-23: sprinkler obrigatório", "IT-17: brigada 24h treinada"],
     prazo: "90 a 180 dias para hospitais com projeto atualizado; 180 a 365 dias quando há ampliação ou compartimentação nova",
     links: [
       { label: "renovação de AVCB", href: "/renovacao-avcb" },
@@ -163,9 +163,9 @@ const occupationProfiles: Record<string, {
     ],
   },
   default: {
-    group: "classificacao definida pela IT-02 conforme uso, área e altura da edificação",
+    group: "classificacao definida pelo Decreto Estadual nº 69.118/2024 conforme uso, área e altura da edificação",
     risk: "lotação, carga de incêndio, rotas de fuga, sistemas existentes e documentação técnica",
-    systems: ["IT-01: procedimentos administrativos", "IT-02: classificacao da ocupação", "IT-11: saidas de emergência", "IT-21: extintores", "IT-20: sinalização"],
+    systems: ["IT-01: procedimentos administrativos", "Decreto 69.118/2024: classificação da ocupação", "IT-11: saidas de emergência", "IT-21: extintores", "IT-20: sinalização"],
     prazo: "30 a 60 dias para processos simples; 60 a 120 dias quando ha projeto técnico, vistoria fisica ou Comunique-se",
     links: [
       { label: "projeto de incêndio", href: "/projetos-incendio" },
@@ -273,9 +273,9 @@ export function OccupationAuthorityBlock({ occupation, currentSlug }: Occupation
             <h3 className="text-xl font-black uppercase italic mb-6">Tabela rapida por metragem</h3>
             <div className="space-y-4">
               {[
-                ["Até 750 m²", "Pode enquadrar como CLCB sem sistema de hidrantes, se não houver alto risco, subsolo complexo ou público elevado."],
-                ["751 a 1.500 m²", "Ainda pode ser CLCB, desde que a edificação tenha sistema de hidrantes, entre outras exigências. Sem isso, vai para AVCB."],
-                ["Acima de 1.500 m²", "Sai do CLCB e normalmente exige projeto completo, ARTs, memoriais, vistoria e acompanhamento técnico."],
+                ["Até 750 m²", "Pode ser CLCB com até 3 pavimentos, se a ocupação não estiver entre as que a IT 42/2025 exclui (salão de festas, boate, creche, asilo, hospital, entre outras)."],
+                ["751 a 1.500 m²", "Não cabe no CLCB (IT 42/2025, item 4.2.1): a licença é o AVCB."],
+                ["Acima de 1.500 m²", "Exige projeto técnico completo, ARTs, memoriais, vistoria e acompanhamento técnico."],
                 ["Acima de 2.500 m2", "Avaliar hidrantes, alarme setorizado, controle de fumaca, sprinklers e brigada."],
               ].map(([area, desc]) => (
                 <div key={area} className="flex gap-4 border border-white/10 rounded-2xl p-4 bg-white/5">

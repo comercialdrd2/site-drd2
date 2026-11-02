@@ -162,7 +162,7 @@ export default function AVCBCrechePage() {
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="text-3xl font-black text-slate-900 mb-6">AVCB OU CLCB: O Que Sua Creche Precisa?</h2>
           <p className="text-lg text-slate-700 leading-relaxed mb-6">
-            Muitos proprietários de creche chegam até nós acreditando que vão fazer um CLCB (Certificado de Licença) porque a escola é "pequena". A grande maioria sai com um processo de AVCB, que é mais robusto e exigente. A definição depende do tipo de processo: PTS ou Projeto Técnico Completo. E é aqui que mora o erro mais comum.
+            Muitos proprietários de creche chegam até nós acreditando que vão fazer um CLCB (Certificado de Licença) porque a escola é "pequena". Mas a IT 42/2025 (item 4.2.3) não permite CLCB para creches e escolas de ensino infantil, qualquer que seja o tamanho: a licença é sempre o AVCB. O que muda com o porte é o tipo de processo, PTS ou Projeto Técnico Completo. E é aqui que mora o erro mais comum.
           </p>
           <Link prefetch={false} href="/clcb-sao-paulo" className="text-blue-700 font-bold hover:underline">Entenda a diferença técnica entre AVCB e CLCB &rarr;</Link>
         </div>

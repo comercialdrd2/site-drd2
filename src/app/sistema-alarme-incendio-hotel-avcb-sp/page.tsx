@@ -25,7 +25,7 @@ const data: UniversalPageData = {
     heading: "Por que hotéis precisam de alarme endereçável e monitoramento 24 horas?",
     body: "Hotéis são do Grupo B (divisão B-1) no Decreto Estadual nº 69.118/2024, com exigência de sistema de alarme de incêndio endereçável — não convencional. A diferença é crítica: um sistema convencional indica apenas qual zona está em alarme (por exemplo, 'andar 7'); um sistema endereçável indica exatamente o dispositivo ativado ('detector fumaça quarto 712'). Em um hotel com 200 quartos, isso pode ser a diferença entre localizar o incêndio em 20 segundos ou em 5 minutos.",
     body2:
-      "Para hotéis com mais de 100 unidades habitacionais, a IT 19/2025 também exige monitoramento 24 horas por operador treinado na recepção — não apenas uma central de alarme desatendida. O operador deve saber como responder ao alarme, acionar a brigada e coordenar a evacuação parcial do andar afetado sem criar pânico nos demais hóspedes. Hotéis que operam sem essa estrutura estão em irregularidade formal perante o CBPMESP.",
+      "A IT 19/2025 (item 4.5) exige que a central fique em local com vigilância humana constante e de fácil visualização, como a recepção. Na prática, quem está na recepção precisa saber responder ao alarme, acionar a brigada e coordenar a evacuação do andar afetado sem criar pânico nos demais hóspedes.",
   },
   h2_riscos: {
     heading: "O que reprova o sistema de alarme de hotel na vistoria do CBPMESP",
@@ -114,7 +114,7 @@ const data: UniversalPageData = {
       },
       {
         titulo: "No-break com autonomia de 24 horas",
-        desc: "A central de alarme deve ter bateria com autonomia mínima de 24 horas em modo de standby e 30 minutos em modo de alarme. As baterias devem ser testadas semestralmente com resultado registrado em livro de manutenção.",
+        desc: "A central de alarme deve ter bateria com autonomia mínima de 24 horas em supervisão e 15 minutos em alarme (IT 19/2025, item 4.3). As baterias devem ser testadas semestralmente com resultado registrado em livro de manutenção.",
       },
     ],
     closing:

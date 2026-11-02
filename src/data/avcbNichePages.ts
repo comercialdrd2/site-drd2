@@ -80,7 +80,7 @@ export const avcbNichePages: AvcbNichePage[] = [
     requirementsTitle: "Exigencias comuns no AVCB veterinario",
     requirements: [
       {
-        it: "IT-02",
+        it: "Decreto 69.118/2024",
         title: "Classificacao correta",
         desc: "Define se o caso entra como H-1, comercio simples, uso misto ou precisa de avaliacao complementar pelo uso real do imovel.",
       },
@@ -199,7 +199,7 @@ export const avcbNichePages: AvcbNichePage[] = [
     requirementsTitle: "Exigencias comuns no AVCB de garagem",
     requirements: [
       {
-        it: "IT-02",
+        it: "Decreto 69.118/2024",
         title: "Grupo G",
         desc: "Classifica garagem sem acesso de publico, garagem com acesso de publico e casos que deixam de ser estacionamento simples.",
       },
@@ -318,7 +318,7 @@ export const avcbNichePages: AvcbNichePage[] = [
     ],
     requirementsTitle: "Exigencias comuns no AVCB de pousada",
     requirements: [
-      { it: "IT-02", title: "Enquadramento B-1", desc: "Confirma se o caso e CLCB, Projeto Simplificado ou AVCB com vistoria conforme area, altura e numero de quartos." },
+      { it: "Decreto 69.118/2024", title: "Enquadramento B-1", desc: "Confirma se o caso e CLCB, Projeto Simplificado ou AVCB com vistoria conforme area, altura e numero de quartos." },
       { it: "IT-11", title: "Saidas de emergencia", desc: "Rotas dos quartos ate a rua, largura de corredores e escadas, e abertura das portas no sentido de fuga." },
       { it: "IT-21 / IT-20", title: "Extintores e sinalizacao", desc: "Distribuicao por pavimento, classes corretas e placas fotoluminescentes nas rotas." },
       { it: "IT-18", title: "Iluminacao de emergencia", desc: "Autonomia minima nas rotas, escadas e areas comuns — critica para fuga noturna." },
@@ -395,7 +395,7 @@ export const avcbNichePages: AvcbNichePage[] = [
     ],
     requirementsTitle: "Exigencias comuns no AVCB educacional",
     requirements: [
-      { it: "IT-02", title: "Enquadramento Grupo E", desc: "Define o processo pela area, altura, lotacao e riscos especificos (labs, cozinha, auditorio)." },
+      { it: "Decreto 69.118/2024", title: "Enquadramento Grupo E", desc: "Define o processo pela area, altura, lotacao e riscos especificos (labs, cozinha, auditorio)." },
       { it: "IT-11", title: "Saidas de emergencia", desc: "Largura de corredores e escadas pela lotacao, portas no sentido de fuga e rotas ate area segura." },
       { it: "IT-21 / IT-20", title: "Extintores e sinalizacao", desc: "Cobertura por pavimento e sinalizacao fotoluminescente completa das rotas." },
       { it: "IT-18", title: "Iluminacao de emergencia", desc: "Corredores, escadas, salas de grande lotacao e auditorios com autonomia garantida." },
@@ -473,7 +473,7 @@ export const avcbNichePages: AvcbNichePage[] = [
     requirementsTitle: "O que o processo exige",
     requirements: [
       {
-        it: "IT-02",
+        it: "Decreto 69.118/2024",
         title: "Enquadramento correto",
         desc: "Define se o imovel renova por CLCB, AVCB com vistoria ou precisa de novo Projeto Tecnico — errar aqui consome o prazo da apolice.",
       },

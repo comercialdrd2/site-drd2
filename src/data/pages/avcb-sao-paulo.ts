@@ -35,7 +35,7 @@ export const avcbSaoPauloContent = {
   h2_quemPrecisa: {
     heading: "Quem Precisa de AVCB em São Paulo?",
     intro: [
-      "Conforme a IT-02 do CBPMESP e o Decreto Estadual nº 69.118/2024, estão obrigadas a obter AVCB ou CLCB todas as edificações no Estado de São Paulo a partir de determinada área construída, independentemente do tipo de uso.",
+      "Conforme o Decreto Estadual nº 69.118/2024, estão obrigadas a obter AVCB ou CLCB todas as edificações no Estado de São Paulo a partir de determinada área construída, independentemente do tipo de uso.",
       "Na prática, praticamente todo estabelecimento comercial, industrial ou de serviços em São Paulo precisa do certificado. Os principais tipos de ocupação atendidos pela DRD2 são:",
     ],
     grupos: [
@@ -85,7 +85,7 @@ export const avcbSaoPauloContent = {
       "Essa é a dúvida mais comum entre proprietários e gestores em São Paulo. A resposta depende da área construída, altura da edificação e tipo de ocupação.",
     clcb: {
       titulo: "CLCB — Certificado de Licença do Corpo de Bombeiros",
-      desc: "Destinado a edificações de menor porte e risco reduzido. Processo mais simples, menos sistemas exigidos e aprovação mais rápida. Indicado para pequenos comércios, consultórios simples e estabelecimentos abaixo dos limites da IT-02.",
+      desc: "Destinado a edificações de menor porte e risco reduzido. Processo mais simples, menos sistemas exigidos e aprovação mais rápida. Indicado para pequenos comércios, consultórios simples e estabelecimentos dentro dos limites da IT 42/2025 (até 750 m² e até 3 pavimentos).",
     },
     avcb: {
       titulo: "AVCB — Auto de Vistoria do Corpo de Bombeiros",
@@ -239,7 +239,7 @@ export const avcbSaoPauloContent = {
       {
         question: "Todo estabelecimento em São Paulo precisa de AVCB?",
         answer:
-          "Praticamente todos os estabelecimentos comerciais, industriais e de serviços no Estado de São Paulo precisam de AVCB ou CLCB, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP. O tipo de certificado e as exigências específicas dependem da área, altura e tipo de ocupação. A DRD2 define o enquadramento correto na visita técnica gratuita.",
+          "Praticamente todos os estabelecimentos comerciais, industriais e de serviços no Estado de São Paulo precisam de AVCB ou CLCB, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP. O tipo de certificado e as exigências específicas dependem da área, altura e tipo de ocupação. A DRD2 define o enquadramento correto na visita técnica gratuita.",
       },
       {
         question: "Qual é o prazo para tirar o AVCB em São Paulo?",
@@ -259,7 +259,7 @@ export const avcbSaoPauloContent = {
       {
         question: "A DRD2 atende qualquer tipo de estabelecimento em SP?",
         answer:
-          "Sim. A DRD2 Engenharia atende todos os tipos de ocupação previstos na IT-02 do CBPMESP — de pequenos escritórios e salões de beleza a shoppings, hospitais, galpões industriais e postos de combustível — em toda a cidade de São Paulo e Grande SP.",
+          "Sim. A DRD2 Engenharia atende todos os tipos de ocupação previstos no Decreto Estadual nº 69.118/2024 — de pequenos escritórios e salões de beleza a shoppings, hospitais, galpões industriais e postos de combustível — em toda a cidade de São Paulo e Grande SP.",
       },
     ],
   },

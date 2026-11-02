@@ -63,7 +63,7 @@ export const laudoBombeiroContent = {
       title: "Periodicidade e validade dos laudos bombeiros para escolas em São Paulo",
       content: [
         "Escolas de ensino básico têm conjunto de laudos que varia conforme a infraestrutura. Escola sem refeitório, sem laboratório e sem SPDA tem laudos simples. Escola com refeitório, laboratório, SPDA e quadra coberta metálica tem calendário completo.",
-        "<strong>Semestral (quando houver refeitório com fogão industrial)</strong>: Laudo de limpeza de coifa (IT-23). Para escolas com cozinha que prepara almoço em grande quantidade, o acúmulo de gordura é intenso.",
+        "<strong>Semestral (quando houver refeitório com fogão industrial)</strong>: Laudo de limpeza de coifa. Para escolas com cozinha que prepara almoço em grande quantidade, o acúmulo de gordura é intenso.",
         "<strong>Anual (a cada 12 meses)</strong>: Inspeção do SPDA conforme NBR 5419 (quando presente). Laudo de manutenção de todos os extintores com verificação de tipo por ambiente. Laudo de teste do sistema de detecção (quando presente). Laudo de teste da iluminação de emergência com verificação de autonomia. ART vigente do GLP do refeitório.",
         "O <strong>AVCB de escola tem validade de 3 anos</strong>. A SEE-SP pode verificar a regularidade em visitas de supervisão que ocorrem a qualquer momento dentro do ciclo. A conformidade de laudos precisa ser permanente — não apenas na data de renovação do AVCB.",
       ],

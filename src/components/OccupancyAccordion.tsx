@@ -73,7 +73,7 @@ const categories: Category[] = [
     icon: GraduationCap,
     items: [
       { code: "F-1 a F-7", name: "Igrejas, Templos e Centros Religiosos", href: "/avcb-para-igreja-sao-paulo" },
-      { code: "F-3", name: "Academia, Clubes e Centros Esportivos", href: "/avcb-para-academia-sao-paulo" },
+      { code: "E-3 / F-3", name: "Academia, Clubes e Centros Esportivos", href: "/avcb-para-academia-sao-paulo" },
       { code: "F-5 / F-6", name: "Teatros, Cinemas e Casas de Show" },
       { code: "F-2", name: "Espaços de Eventos, Buffets e Salões", href: "/avcb-salao-de-festas-sao-paulo" },
       { code: "H-6", name: "Clínicas de Estética e Laboratórios" },

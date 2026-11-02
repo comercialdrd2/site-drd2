@@ -63,7 +63,7 @@ export const laudoBombeiroContent = {
       title: "Periodicidade e validade dos laudos bombeiros para casas de repouso em São Paulo",
       content: [
         "ILPIs têm o conjunto de laudos mais completo entre estabelecimentos de saúde residencial — a combinação de cozinha industrial, dormitórios com detectores individuais, gerador de emergência e eventual sprinkler cria um calendário de manutenção com múltiplas frequências.",
-        "<strong>Semestral (quando houver)</strong>: Laudo de limpeza de coifa da cozinha (IT-23) para ILPIs que preparam refeições com fogão industrial. Laudo de manutenção do sistema de sprinkler (IT-22) quando instalado.",
+        "<strong>Semestral (quando houver)</strong>: Laudo de limpeza de coifa da cozinha para ILPIs que preparam refeições com fogão industrial. Laudo de manutenção do sistema de sprinkler (IT-22) quando instalado.",
         "<strong>Anual (a cada 12 meses)</strong>: Laudo de manutenção de todos os extintores por área. Laudo de manutenção do sistema de detecção com teste por detector e por quarto. Laudo de manutenção do gerador de emergência (quando presente). Laudo de teste da iluminação de emergência com verificação de autonomia de baterias. ART vigente do GLP da cozinha.",
         "O <strong>AVCB de ILPI tem validade de 3 anos</strong>. A ANVISA e a Vigilância Sanitária Municipal não respeitam o prazo do AVCB — verificam a regularidade nas inspeções de rotina em qualquer data. A conformidade de laudos precisa ser permanente. A DRD2 mantém calendário centralizado com alerta de vencimento 60 dias antes de cada laudo.",
       ],

@@ -173,7 +173,7 @@ export const servicesData: Record<string, ServiceData> = {
       "Evite paralisações estourando na metade letiva de seu negócio com Engenharia DRD2 nas aprovações de vistorias técnicas finais e despachos em SP."
     ],
     faqs: [
-      { question: "Toda escola precisa de AVCB em São Paulo?", answer: "Sim. Toda edificação de uso educacional no Estado de São Paulo está obrigada a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP. O tipo de certificado depende da área e das características da edificação." },
+      { question: "Toda escola precisa de AVCB em São Paulo?", answer: "Sim. Toda edificação de uso educacional no Estado de São Paulo está obrigada a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP. O tipo de certificado depende da área e das características da edificação." },
       { question: "Qual a diferença entre AVCB e CLCB para escolas?", answer: "O AVCB é exigido para edificações de maior porte ou risco elevado, enquanto o CLCB é uma modalidade simplificada destinada a edificações menores e de baixo risco. A DRD2 faz o enquadramento correto sem custo adicional." },
       { question: "Quanto tempo leva para tirar o AVCB de uma escola?", answer: "O prazo varia conforme o estágio de adequação da edificação e a demanda do CBPMESP. Em média, o processo leva de 60 a 180 dias a partir do protocolo. Escolas com pendências de adequação podem levar mais tempo — por isso o diagnóstico prévio é fundamental." },
       { question: "O que acontece se a escola for vistoriada sem AVCB?", answer: "A escola pode ser autuada, multada e interditada pelo Corpo de Bombeiros ou pela Vigilância Sanitária. Além disso, a falta do AVCB pode invalidar o alvará de funcionamento e gerar responsabilidade civil e criminal ao proprietário em caso de sinistro." },
@@ -195,7 +195,7 @@ export const servicesData: Record<string, ServiceData> = {
       solution: "A DRD2 enquadra corretamente o seu imóvel e realiza o processo simplificado do CLCB, assegurando a documentação regular de forma rápida e sem burocracias desnecessárias."
     },
     content: [
-      "O CLCB (Certificado de Licença do Corpo de Bombeiros) é o licenciamento rápido para imóveis de baixo risco de incêndio, com até 3 pavimentos, que tenham até 750 m², ou até 1.500 m² com sistema de hidrantes instalado, entre outras exigências.",
+      "O CLCB (Certificado de Licença do Corpo de Bombeiros) é o licenciamento rápido para imóveis de baixo risco de incêndio, com até 3 pavimentos, que tenham até 750 m² e até 3 pavimentos, entre outras exigências.",
       "É importante frisar que o CLCB tem a mesma força legal do AVCB em termos de comprovação de regularidade. Porém, um enquadramento equivocado por profissionais inexperientes pode fazer seu imóvel cair em exigências desnecessárias.",
       "A DRD2 coleta os atestados exigidos (ARTs, recibos de extintores), preenche as declarações no sistema Via Fácil Bombeiros e agiliza a liberação da licença com precisão técnica."
     ],
@@ -627,7 +627,7 @@ export const servicesData: Record<string, ServiceData> = {
       { question: "Creche com menos de 750 m² precisa de Projeto Técnico completo?", answer: "Não necessariamente. Creches com área real de até 750 m² e sem fatores agravantes podem ser enquadradas em PTS — processo simplificado, sem exigência de cortes e fachadas. Acima de 750 m², o Projeto Técnico completo é obrigatório. A área considerada é a área real da edificação, não a do IPTU." },
       { question: "A área da minha creche no IPTU é menor do que a real. Isso é problema?", answer: "Sim, é um ponto crítico. Essa divergência precisa ser identificada e tratada antes do protocolo. Dependendo do impacto, pode alterar o tipo de processo exigido e gerar Comunique-se ou indeferimento. A DRD2 identifica esse problema no diagnóstico inicial — sem custo para o cliente." },
       { question: "O que é Comunique-se no processo do Corpo de Bombeiros?", answer: "É uma exigência formal emitida pelo CBPMESP durante a análise do processo, solicitando complementação de documentação ou adequação técnica. Precisa ser respondida dentro do prazo. A DRD2 Engenharia analisa e responde Comunique-se para creches." },
-      { question: "Creche pequena pode fazer CLCB em vez de AVCB?", answer: "Depende da análise técnica do caso concreto. O enquadramento correto é uma conclusão técnica baseada nas características da edificação — não uma escolha do proprietário. A DRD2 faz essa avaliação gratuitamente no diagnóstico inicial." },
+      { question: "Creche pequena pode fazer CLCB em vez de AVCB?", answer: "Não. A IT 42/2025 (item 4.2.3) não permite CLCB para creches e escolas de ensino infantil (divisão E-5), qualquer que seja o tamanho. O caminho é o AVCB. A DRD2 avalia gratuitamente, no diagnóstico inicial, quais medidas o seu imóvel precisa." },
       { question: "AVCB de creche tem prazo de validade?", answer: "Sim. O AVCB tem validade de 3 anos, com a data de vencimento impressa no próprio certificado. A renovação deve ser iniciada antes do vencimento." },
       { question: "O Corpo de Bombeiros pode interditar minha creche sem aviso?", answer: "Sim. O CBPMESP e as prefeituras têm poder de polícia para interditar edificações em situação irregular, sem necessidade de notificação prévia." },
       { question: "A DRD2 atende minha creche fora de São Paulo capital?", answer: "Sim. Atendemos todo o Estado de São Paulo, incluindo Grande SP, ABC Paulista, Campinas, Sorocaba, Santos, São José dos Campos, Ribeirão Preto e demais municípios." }
@@ -677,13 +677,13 @@ export const servicesData: Record<string, ServiceData> = {
       solution: "A DRD2 Engenharia conhece as exigências específicas para o Grupo E-6. Regularizamos sua academia do projeto à vistoria final, garantindo sua licença sem dor de cabeça."
     },
     content: [
-      "Academias de ginástica, musculação, crossfit e lutas são classificados pela IT-02 como Grupo E — Educacional e Cultura Física (E-6).",
+      "Academias de ginástica, musculação, crossfit e lutas são classificados pelo Decreto Estadual nº 69.118/2024 como Grupo E — Educacional e Cultura Física (E-6).",
       "Focamos no dimensionamento de saídas para horários de pico e no treinamento da equipe de instrutores (brigada) para garantir a aprovação célere no CBPMESP."
     ],
     faqs: [
       {
         question: "Toda academia precisa de AVCB em São Paulo?",
-        answer: "Sim. Toda academia de ginástica, musculação, artes marciais ou atividade física no Estado de São Paulo está obrigada a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP."
+        answer: "Sim. Toda academia de ginástica, musculação, artes marciais ou atividade física no Estado de São Paulo está obrigada a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP."
       },
       {
         question: "Academia pequena pode usar CLCB em vez de AVCB?",
@@ -718,12 +718,12 @@ export const servicesData: Record<string, ServiceData> = {
       solution: "A DRD2 Engenharia domina as Instruções Técnicas para o Grupo B. Regularizamos seu estabelecimento do projeto à vistoria, garantindo segurança jurídica e proteção aos hóspedes."
     },
     content: [
-      "Hotéis, motéis e pousadas são classificados como Grupo B (Serviço de Hospedagem) pela IT-02 do CBPMESP.",
+      "Hotéis, motéis e pousadas são classificados como Grupo B (Serviço de Hospedagem) pelo Decreto Estadual nº 69.118/2024.",
       "Exigimos atenção redobrada em iluminação de emergência, sinalização de rotas e compartimentação de fumaça, pontos críticos em vistorias de ocupação noturna."
     ],
     faqs: [
-      { question: "Todo hotel precisa de AVCB em São Paulo?", answer: "Sim. Todo estabelecimento de hospedagem no Estado de São Paulo está obrigado a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP." },
-      { question: "Pousada pequena também precisa de AVCB?", answer: "Sim. Pousadas menores podem se enquadrar no CLCB, modalidade simplificada para edificações de menor porte e risco. A DRD2 identifica o enquadramento correto sem custo adicional." },
+      { question: "Todo hotel precisa de AVCB em São Paulo?", answer: "Sim. Todo estabelecimento de hospedagem no Estado de São Paulo está obrigado a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP." },
+      { question: "Pousada pequena também precisa de AVCB?", answer: "Sim. Pousadas com até 40 leitos, até 750 m² e até 3 pavimentos podem se enquadrar no CLCB, modalidade simplificada para edificações de menor porte e risco. A DRD2 identifica o enquadramento correto sem custo adicional." },
       { question: "O AVCB é exigido para renovar o alvará do hotel?", answer: "Sim. O AVCB é documento obrigatório para obtenção e renovação do alvará de funcionamento de estabelecimentos hoteleiros em São Paulo." },
       { question: "Plataformas como Booking e Airbnb exigem AVCB?", answer: "Sim. Operadoras de turismo, agências e plataformas de reserva frequentemente exigem o AVCB como documento comprobatório de segurança. Seguradoras também podem negar cobertura sem o certificado válido." },
       { question: "Quanto tempo leva para regularizar o AVCB de um hotel?", answer: "Em média, o processo leva de 90 a 180 dias a partir do protocolo. Hotéis com múltiplos sistemas a adequar podem demandar prazo adicional — por isso o diagnóstico prévio é essencial para planejamento." }
@@ -748,7 +748,7 @@ export const servicesData: Record<string, ServiceData> = {
       "Foco em sinalização de suítes, alarme de incêndio precoce e rotas de fuga desobstruídas para garantir a segurança no uso noturno."
     ],
     faqs: [
-      { question: "Motel precisa de AVCB em São Paulo?", answer: "Sim. Todo estabelecimento de hospedagem, incluindo motéis, está obrigado a obter AVCB ou CLCB junto ao Corpo de Bombeiros do Estado de São Paulo, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP." },
+      { question: "Motel precisa de AVCB em São Paulo?", answer: "Sim. Todo estabelecimento de hospedagem, incluindo motéis, está obrigado a obter AVCB ou CLCB junto ao Corpo de Bombeiros do Estado de São Paulo, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP." },
       { question: "Qual o enquadramento do motel nas normas do Corpo de Bombeiros?", answer: "Motéis são enquadrados na Divisão B-1 do Decreto Estadual nº 69.118/2024 — hotel e assemelhado. Os sistemas obrigatórios são definidos conforme a área total construída, altura da edificação e número de unidades habitacionais." },
       { question: "Motel pequeno pode usar CLCB em vez de AVCB?", answer: "Sim. Motéis de menor porte e baixo risco podem se enquadrar no CLCB, modalidade simplificada do Corpo de Bombeiros. A DRD2 realiza o enquadramento correto sem custo adicional." },
       { question: "O Corpo de Bombeiros faz fiscalização surpresa em motéis?", answer: "Sim. O CBPMESP realiza vistorias periódicas e fiscalizações não programadas em estabelecimentos de hospedagem, com poder de autuar e interditar imediatamente em caso de irregularidade." },
@@ -767,14 +767,14 @@ export const servicesData: Record<string, ServiceData> = {
     pas: {
       problem: "Sua pousada está perdendo reservas por falta de segurança legal?",
       agitation: "Plataformas como Booking exigem o AVCB, e a falta dele bloqueia seu alvará. Além disso, pousadas familiares sem prevenção são armadilhas letais em caso de sinistro.",
-      solution: "Encontramos o caminho mais econômico para sua pousada, priorizando o CLCB quando possível e garantindo total conformidade com a IT-02 (Grupo B)."
+      solution: "Encontramos o caminho mais econômico para sua pousada, priorizando o CLCB quando possível e garantindo total conformidade com as exigências do Grupo B."
     },
     content: [
-      "Pousadas menores frequentemente se enquadram no licenciamento simplificado (CLCB).",
+      "Pousadas com até 40 leitos, até 750 m² e até 3 pavimentos podem se enquadrar no licenciamento simplificado (CLCB).",
       "Garantimos que a sinalização fotoluminescente e os extintores estejam corretos, protegendo seus hóspedes com o menor investimento possível."
     ],
     faqs: [
-      { question: "Pousada pequena precisa de AVCB em São Paulo?", answer: "Sim. Toda pousada no Estado de São Paulo está obrigada a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024. Pousadas menores geralmente se enquadram no CLCB, que é um processo mais simples e econômico." },
+      { question: "Pousada pequena precisa de AVCB em São Paulo?", answer: "Sim. Toda pousada no Estado de São Paulo está obrigada a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024. Pousadas com até 40 leitos, até 750 m² e até 3 pavimentos podem se enquadrar no CLCB, que é um processo mais simples e econômico." },
       { question: "Qual a diferença entre AVCB e CLCB para pousada?", answer: "O AVCB é exigido para edificações de maior porte ou risco elevado. O CLCB é a modalidade simplificada para edificações menores e de baixo risco — processo mais rápido e mais barato." },
       { question: "Airbnb e Booking exigem AVCB de pousada?", answer: "Sim. Plataformas de hospedagem e operadoras de turismo frequentemente exigem comprovação de regularidade junto ao Corpo de Bombeiros." },
       { question: "Pousada pode ser interditada sem AVCB?", answer: "Sim. O Corpo de Bombeiros e a Vigilância Sanitária têm poder de interditar estabelecimentos de hospedagem sem AVCB ou CLCB válido." },
@@ -793,14 +793,14 @@ export const servicesData: Record<string, ServiceData> = {
     pas: {
       problem: "Sua igreja corre o risco de interdição durante o culto?",
       agitation: "Igrejas têm grande concentração de público diverso. Sem AVCB, você arrisca a segurança dos fiéis, o alvará de funcionamento e responde criminalmente por qualquer incidente.",
-      solution: "A DRD2 Engenharia é especialista na IT-02 (Grupo F-6). Regularizamos seu templo com agilidade, do diagnóstico gratuito à vistoria final, sem interrupções nos seus serviços."
+      solution: "A DRD2 Engenharia é especialista em locais religiosos (divisão F-2). Regularizamos seu templo com agilidade, do diagnóstico gratuito à vistoria final, sem interrupções nos seus serviços."
     },
     content: [
       "Igrejas são enquadrados pelo CBPMESP no Grupo F - Locais de Reunião de Público (Divisão F-6).",
       "Trabalhamos com foco total no dimensionamento de saídas e treinamento de brigada para grandes públicos atendendo ao Decreto 69.118/2024."
     ],
     faqs: [
-      { question: "Toda igreja precisa de AVCB em São Paulo?", answer: "Sim. Toda edificação religiosa com uso coletivo no Estado de São Paulo está obrigada a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP. Templos de menor porte podem se enquadrar no CLCB — processo mais simples e econômico." },
+      { question: "Toda igreja precisa de AVCB em São Paulo?", answer: "Sim. Toda edificação religiosa com uso coletivo no Estado de São Paulo está obrigada a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP. Templos de menor porte podem se enquadrar no CLCB — processo mais simples e econômico." },
       { question: "Igreja pequena pode usar CLCB em vez de AVCB?", answer: "Sim. Igrejas de menor porte e com baixa capacidade de lotação geralmente se enquadram no CLCB. A DRD2 faz o enquadramento correto gratuitamente antes de iniciar qualquer trabalho, garantindo o caminho mais rápido e econômico para cada caso." },
       { question: "Igreja em imóvel alugado precisa de AVCB?", answer: "Sim. A responsabilidade pela regularização recai sobre o uso da edificação — não sobre a propriedade do imóvel. Igrejas em imóveis alugados precisam de AVCB ou CLCB, e a liderança religiosa responde civil e criminalmente em caso de sinistro com fiéis, independentemente de quem é o proprietário." },
       { question: "O Corpo de Bombeiros pode interditar uma igreja durante o culto?", answer: "Sim. O CBPMESP tem poder de interditar edificações sem certificado válido a qualquer momento, inclusive durante eventos com grande público. A fiscalização não é agendada — e uma interdição durante um culto gera impacto jurídico, financeiro e reputacional grave para a liderança." },
@@ -819,14 +819,14 @@ export const servicesData: Record<string, ServiceData> = {
     pas: {
       problem: "Sua escola está operando com o AVCB vencido ou inexistente?",
       agitation: "Escolas têm público vulnerável e grande concentração de pessoas. Sem AVCB, você arrisca a segurança de alunos e funcionários, o alvará de funcionamento e responde juridicamente por qualquer sinistro.",
-      solution: "A DRD2 Engenharia domina a IT-02 (Grupo E). Regularizamos sua unidade de ensino com diagnóstico gratuito, projeto técnico completo e garantia de aprovação sem travar suas aulas."
+      solution: "A DRD2 Engenharia domina as exigências do Grupo E. Regularizamos sua unidade de ensino com diagnóstico gratuito, projeto técnico completo e garantia de aprovação sem travar suas aulas."
     },
     content: [
       "Escolas são classificadas pelo CBPMESP no Grupo E - Educacional e Cultura Física.",
       "Atendemos desde educação infantil até universidades, garantindo conformidade com o Decreto 69.118/2024 e foco em rotas de fuga."
     ],
     faqs: [
-      { question: "Toda escola precisa de AVCB em São Paulo?", answer: "Sim. Toda edificação de uso educacional no Estado de São Paulo está obrigada a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP. O tipo de certificado depende da área e das características da edificação." },
+      { question: "Toda escola precisa de AVCB em São Paulo?", answer: "Sim. Toda edificação de uso educacional no Estado de São Paulo está obrigada a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP. O tipo de certificado depende da área e das características da edificação." },
       { question: "Qual a diferença entre AVCB e CLCB para escolas?", answer: "O AVCB é exigido para edificações de maior porte ou risco elevado, enquanto o CLCB é uma modalidade simplificada destinada a edificações menores e de baixo risco. A DRD2 faz o enquadramento correto sem custo adicional." },
       { question: "Quanto tempo leva para tirar o AVCB de uma escola?", answer: "O prazo varia conforme o estágio de adequação da edificação e a demanda do CBPMESP. Em média, o processo leva de 60 a 180 dias a partir do protocolo. Escolas com pendências de adequação podem levar mais tempo — por isso o diagnóstico prévio é fundamental." },
       { question: "O que acontece se a escola for vistoriada sem AVCB?", answer: "A escola pode ser autuada, multada e interditada pelo Corpo de Bombeiros ou pela Vigilância Sanitária. Além disso, a falta do AVCB pode invalidar o alvará de funcionamento e gerar responsabilidade civil e criminal ao proprietário em caso de sinistro." },
@@ -852,7 +852,7 @@ export const servicesData: Record<string, ServiceData> = {
       "Focamos em sinalização visual acessível, detecção automática em dormitórios e rotas de fuga para beliches, garantindo proteção total."
     ],
     faqs: [
-      { question: "Hostel precisa de AVCB em São Paulo?", answer: "Sim. Todo estabelecimento de hospedagem, incluindo hostels e albergues, está obrigado a obter AVCB ou CLCB junto ao Corpo de Bombeiros do Estado de São Paulo, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP." },
+      { question: "Hostel precisa de AVCB em São Paulo?", answer: "Sim. Todo estabelecimento de hospedagem, incluindo hostels e albergues, está obrigado a obter AVCB ou CLCB junto ao Corpo de Bombeiros do Estado de São Paulo, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP." },
       { question: "Hostel pequeno pode usar CLCB em vez de AVCB?", answer: "Sim. Hostels de menor porte e baixo risco podem se enquadrar no CLCB — processo mais simples, rápido e econômico. A DRD2 realiza o enquadramento correto gratuitamente." },
       { question: "Booking e Hostelworld exigem AVCB do hostel?", answer: "Sim. Plataformas internacionais de reserva frequentemente exigem comprovação de regularidade. Hostels sem AVCB válido correm risco de suspensão de conta e perda imediata de receita." },
       { question: "Hostel em imóvel histórico ou tombado pode tirar AVCB?", answer: "Sim, mas exige projeto técnico especializado que considere as restrições patrimoniais. A DRD2 tem experiência em regularizar edificações com características especiais sem descaracterizá-las." },
@@ -871,14 +871,14 @@ export const servicesData: Record<string, ServiceData> = {
     pas: {
       problem: "Seu supermercado está operando sem o AVCB válido?",
       agitation: "Supermercados têm alto fluxo de público, carga combustível elevada e sistemas complexos. Sem AVCB, o estabelecimento está sujeito a interdição imediata, multas pesadas e perda de licença de funcionamento.",
-      solution: "A DRD2 Engenharia domina as exigências da IT-02 para supermercados. Regularizamos sua unidade com precisão normativa, do diagnóstico gratuito à vistoria final."
+      solution: "A DRD2 Engenharia domina as exigências do Corpo de Bombeiros para supermercados. Regularizamos sua unidade com precisão normativa, do diagnóstico gratuito à vistoria final."
     },
     content: [
       "Supermercados, mercados e minimercados são enquadrados pelo CBPMESP nos Grupos C (Comercial Varejista) ou D (Serviços Profissionais).",
       "Conhecemos cada detalhe das exigências para áreas de vendas, depósitos, padarias e sistemas elétricos intensivos, garantindo a aprovação ágil."
     ],
     faqs: [
-      { question: "Todo supermercado precisa de AVCB em São Paulo?", answer: "Sim. Todo supermercado, mercado ou minimercado no Estado de São Paulo está obrigado a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP. O tipo de certificado depende da área total e das características da edificação." },
+      { question: "Todo supermercado precisa de AVCB em São Paulo?", answer: "Sim. Todo supermercado, mercado ou minimercado no Estado de São Paulo está obrigado a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP. O tipo de certificado depende da área total e das características da edificação." },
       { question: "Minimercado de bairro precisa de AVCB ou CLCB?", answer: "Depende da área total do estabelecimento. Minimercados menores geralmente se enquadram no CLCB — processo mais simples, rápido e econômico. Acima de determinada metragem ou com uso de GLP, o AVCB com projeto técnico completo é obrigatório. A DRD2 faz o enquadramento correto gratuitamente." },
       { question: "Supermercado com padaria precisa de extintor Classe K?", answer: "Sim. A área de padaria com fritadeiras e fornos industriais exige obrigatóriamente extintor Classe K com agente saponificante úmido, conforme IT-21 e ABNT NBR 12693. O uso de extintor PQS ou água em fogo de óleo provoca explosão do líquido quente — risco gravíssimo para funcionários e clientes." },
       { question: "A VISA pode interditar supermercado por falta de AVCB?", answer: "Sim. Em 2026 a Vigilância Sanitária passou a cruzar dados com o CBPMESP e está bloqueando a renovação do CMVS de supermercados sem protocolo ativo de AVCB ou CLCB. Sem o CMVS, o supermercado não pode operar legalmente." },
@@ -904,10 +904,10 @@ export const servicesData: Record<string, ServiceData> = {
       "Focamos em compartimentação de estoque de inflamáveis, dimensionamento de saídas para lotação máxima e controle de materiais de acabamento conforme IT-10."
     ],
     faqs: [
-      { question: "Todo bar precisa de AVCB em São Paulo?", answer: "Sim. Todo bar, pub ou adega com público presente no Estado de São Paulo está obrigado a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP. A ausência do certificado sujeita o estabelecimento a multa e interdição imediata." },
+      { question: "Todo bar precisa de AVCB em São Paulo?", answer: "Sim. Todo bar, pub ou adega com público presente no Estado de São Paulo está obrigado a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP. A ausência do certificado sujeita o estabelecimento a multa e interdição imediata." },
       { question: "Bar pequeno pode usar CLCB em vez de AVCB?", answer: "Sim. Bares de menor porte e baixa lotação podem se enquadrar no CLCB — processo mais simples, rápido e econômico. Bares com música ao vivo ou capacidade acima do limite simplificado exigem AVCB. A DRD2 faz o enquadramento correto gratuitamente." },
       { question: "Adega sem espaço para clientes precisa de AVCB?", answer: "Depende da área e do tipo de operação. Adegas que funcionam exclusivamente como loja podem se enquadrar no CLCB. Adegas com espaço de degustação ou eventos periódicos têm enquadramento diferente. A DRD2 analisa o caso completo no diagnóstico gratuito." },
-      { question: "Bar com música ao vivo tem exigências diferentes?", answer: "Sim. Bares com música ao vivo, shows ou DJ sets são enquadrados como Locais de Reunião de Público — Grupo F da IT-02 — com exigências mais rigorosas de saídas de emergência, controle de lotação e brigada treinada. A DRD2 identifica esse enquadramento antes de iniciar o processo." },
+      { question: "Bar com música ao vivo tem exigências diferentes?", answer: "Sim. Bares com música ao vivo, shows ou DJ sets são enquadrados como Locais de Reunião de Público — Grupo F do Decreto Estadual nº 69.118/2024 — com exigências mais rigorosas de saídas de emergência, controle de lotação e brigada treinada. A DRD2 identifica esse enquadramento antes de iniciar o processo." },
       { question: "O Corpo de Bombeiros pode interditar bar durante evento com público?", answer: "Sim. O CBPMESP tem poder de interditar estabelecimentos sem AVCB válido a qualquer momento — inclusive durante eventos com público presente. Uma interdição em noite de show gera prejuízo financeiro imediato, dano à reputação e responsabilidade civil do proprietário perante os clientes presentes." }
     ],
     icon: "/images/services/avcb.svg"
@@ -931,7 +931,7 @@ export const servicesData: Record<string, ServiceData> = {
       "A DRD2 Engenharia executa do projeto à instalação dos sistemas, acompanha o protocolo no CBPMESP e responde a Comunique-se sem cobrar adicional."
     ],
     faqs: [
-      { question: "Padaria pequena de bairro precisa de AVCB em São Paulo?", answer: "Toda padaria ou panificadora no Estado de São Paulo está obrigada a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP. Estabelecimentos menores geralmente se enquadram no CLCB — processo mais simples e econômico. A DRD2 identifica o enquadramento correto gratuitamente na vistoria inicial." },
+      { question: "Padaria pequena de bairro precisa de AVCB em São Paulo?", answer: "Toda padaria ou panificadora no Estado de São Paulo está obrigada a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP. Estabelecimentos menores geralmente se enquadram no CLCB — processo mais simples e econômico. A DRD2 identifica o enquadramento correto gratuitamente na vistoria inicial." },
       { question: "A supressão na coifa é obrigatória em toda padaria?", answer: "É obrigatória em padarias com fritadeiras industriais, fornos e equipamentos que geram risco de fogo em gordura, conforme a ABNT NBR 14.880. Padarias que utilizam apenas fornos elétricos sem produção de gordura têm análise diferenciada. A DRD2 verifica a obrigatoriedade na vistoria presencial antes de qualquer investimento." },
       { question: "Qual extintor é obrigatório na área de produção da padaria?", answer: "O Extintor Classe K — com agente saponificante úmido — é obrigatório na área de cocção com fritadeiras industriais, conforme IT-21 e ABNT NBR 12693. O uso de PQS ou água em fogo de óleo quente provoca explosão do líquido, colocando em risco funcionários e clientes." },
       { question: "Quanto tempo leva para regularizar o AVCB de uma padaria em São Paulo?", answer: "Em média entre 45 e 120 dias a partir do protocolo no CBPMESP, dependendo do estágio de adequação dos sistemas e da demanda do Corpo de Bombeiros. Padarias que precisam instalar supressão na coifa ou regularizar a central de GLP devem considerar prazo adicional para as obras. O diagnóstico gratuito da DRD2 estima o prazo real antes de iniciar o processo." },
@@ -955,10 +955,10 @@ export const servicesData: Record<string, ServiceData> = {
     content: [
       "Farmácias e drogarias são estabelecimentos com grande volume de produtos químicos, medicamentos inflamáveis e aerossóis pressurizados em áreas compactas.",
       "O Auto de Vistoria do Corpo de Bombeiros (AVCB) é requisito obrigatório para a renovação do alvará e da licença sanitária (CMVS) em 2026.",
-      "Trabalhamos com o enquadramento IT-02 (Grupo C ou D), garantindo o caminho mais rápido para a aprovação."
+      "Trabalhamos com o enquadramento no Grupo C ou D do Decreto 69.118/2024, garantindo o caminho mais rápido para a aprovação."
     ],
     faqs: [
-      { question: "Toda farmácia precisa de AVCB em São Paulo?", answer: "Sim. Toda farmácia e drogaria no Estado de São Paulo está obrigada a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP. A ausência do certificado sujeita o estabelecimento a multa, interdição e bloqueio do CMVS pela Vigilância Sanitária." },
+      { question: "Toda farmácia precisa de AVCB em São Paulo?", answer: "Sim. Toda farmácia e drogaria no Estado de São Paulo está obrigada a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP. A ausência do certificado sujeita o estabelecimento a multa, interdição e bloqueio do CMVS pela Vigilância Sanitária." },
       { question: "Farmácia pequena pode usar CLCB em vez de AVCB?", answer: "Sim. Farmácias de menor porte e baixo volume de produtos inflamáveis podem se enquadrar no CLCB. Farmácias de manipulação geralmente exigem AVCB em razão do uso de solventes e equipamentos de produção. A DRD2 faz o enquadramento correto gratuitamente." },
       { question: "Farmácia de manipulação tem exigências especiais?", answer: "Sim. O uso de solventes orgânicos, álcool em grande volume e equipamentos de aquecimento eleva o enquadramento de risco e exige sistemas adicionais específicos como compartimentação e ventilação forçada." },
       { question: "A VISA pode bloquear a farmácia por falta de AVCB?", answer: "Sim. Em 2026 a Vigilância Sanitária passou a cruzar dados com o CBPMESP e está bloqueando a renovação do CMVS de farmácias sem protocolo ativo de AVCB ou CLCB." },
@@ -982,10 +982,10 @@ export const servicesData: Record<string, ServiceData> = {
     content: [
       "Drogarias são estabelecimentos com grande volume de produtos cosméticos, aerossóis pressurizados e embalagens inflamáveis em prateleiras abertas.",
       "Em 2026, com o cruzamento de dados entre CBPMESP e Vigilância Sanitária, drogarias sem AVCB estão sendo bloqueadas na renovação do CMVS.",
-      "Trabalhamos com o enquadramento IT-02 (Grupo C), garantindo conformidade plena para redes e unidades individuais."
+      "Trabalhamos com o enquadramento no Grupo C do Decreto 69.118/2024, garantindo conformidade plena para redes e unidades individuais."
     ],
     faqs: [
-      { question: "Toda drogaria precisa de AVCB em São Paulo?", answer: "Sim. Toda drogaria no Estado de São Paulo está obrigada a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP. A ausência do certificado sujeita o estabelecimento a multa, interdição e bloqueio do CMVS pela Vigilância Sanitária." },
+      { question: "Toda drogaria precisa de AVCB em São Paulo?", answer: "Sim. Toda drogaria no Estado de São Paulo está obrigada a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP. A ausência do certificado sujeita o estabelecimento a multa, interdição e bloqueio do CMVS pela Vigilância Sanitária." },
       { question: "Drogaria pequena pode usar CLCB em vez de AVCB?", answer: "Sim. Drogarias de menor porte e baixo volume de produtos inflamáveis geralmente se enquadram no CLCB — processo mais simples, rápido e econômico. A DRD2 faz o enquadramento correto gratuitamente antes de iniciar qualquer trabalho." },
       { question: "Qual a diferença entre AVCB para farmácia e AVCB para drogaria?", answer: "Farmácias — especialmente as de manipulação — têm risco elevado por usar solventes e equipamentos de produção. Drogarias têm risco específico pelo volume de aerossóis pressurizados e produtos cosméticos inflamáveis. O enquadramento é definido conforme o uso real." },
       { question: "A VISA pode bloquear a drogaria por falta de AVCB?", answer: "Sim. Em 2026 a Vigilância Sanitária passou a cruzar dados com o CBPMESP e está bloqueando a renovação do CMVS de drogarias sem protocolo ativo de AVCB ou CLCB." },
@@ -1000,19 +1000,19 @@ export const servicesData: Record<string, ServiceData> = {
     shortDescription: "Regularização de boates e casas noturnas em SP. Rigor máximo em saídas e acústica.",
     h1: "AVCB para Boate e Casa Noturna em São Paulo — Regularização Completa",
     metaTitle: "AVCB para Boate e Casa Noturna em São Paulo",
-    metaDescription: "AVCB para boate e casa noturna em SP — Grupo F-6, saídas de emergência, acústica certificada e operações surpresa do Bombeiro. Diagnóstico técnico gratuito.",
+    metaDescription: "AVCB para boate e casa noturna em SP — Grupo F-11, saídas de emergência, acústica certificada e operações surpresa do Bombeiro. Diagnóstico técnico gratuito.",
     pas: {
       problem: "Sua boate está operando com riscos de tragédias e interdição imediata?",
       agitation: "Lotação máxima, ambientes fechados e materiais inflamáveis fazem das boates locais de altíssimo risco. Sem AVCB válido, você arrisca vidas, seu patrimônio e sua liberdade.",
       solution: "A DRD2 Engenharia domina as ITs rigorosas para o Grupo F-6. Regularizamos sua casa com precisão normativa, focando em saídas de emergência e revestimentos seguros."
     },
     content: [
-      "Boates são estabelecimentos de reunião noturna com as características de maior risco para o Corpo de Bombeiros, exigindo o enquadramento F-6.",
+      "Boates são estabelecimentos de reunião noturna com as características de maior risco para o Corpo de Bombeiros, exigindo o enquadramento F-11 (boate).",
       "Após a tragédia da Boate Kiss, o rigor técnico em saídas de emergência e materiais de acabamento tornou-se o padrão absoluto.",
       "Entregamos o Projeto Técnico Completo, obrigatório para praticamente todos os estabelecimentos desse tipo."
     ],
     faqs: [
-      { question: "Toda boate precisa de AVCB em São Paulo?", answer: "Sim. Toda boate e casa noturna no Estado de São Paulo está obrigada a obter AVCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP. Boates não se enquadram no CLCB — o AVCB com Projeto Técnico Completo é obrigatório." },
+      { question: "Toda boate precisa de AVCB em São Paulo?", answer: "Sim. Toda boate e casa noturna no Estado de São Paulo está obrigada a obter AVCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP. Boates não se enquadram no CLCB — o AVCB com Projeto Técnico Completo é obrigatório." },
       { question: "O Corpo de Bombeiros pode interditar uma boate durante o funcionamento?", answer: "Sim. O CBPMESP realiza operações surpresa em boates — inclusive durante o funcionamento com público presente. Uma interdição em noite de operação gera prejuízo imediato e dano à reputação." },
       { question: "Espuma acústica em boate é permitida?", answer: "Somente se tiver certificação de reação ao fogo conforme IT-10. Espumas sem certificação são reprovação imediata e precisam ser substituídas." },
       { question: "Boate precisa de sprinklers?", answer: "Sim, em boates acima de determinada área conforme IT-23. O sistema de sprinklers é um dos principais itens exigidos e verificados com rigor." },
@@ -1039,7 +1039,7 @@ export const servicesData: Record<string, ServiceData> = {
       "Entregamos o Projeto Técnico Completo, obrigatório para praticamente todos os estabelecimentos do Grupo F-6 em razão da lotação e do nível de risco."
     ],
     faqs: [
-      { question: "Toda casa noturna precisa de AVCB em São Paulo?", answer: "Sim. Toda casa noturna no Estado de São Paulo está obrigada a obter AVCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP. O nível de risco dessas ocupações impede o enquadramento no CLCB — o AVCB com Projeto Técnico Completo é obrigatório." },
+      { question: "Toda casa noturna precisa de AVCB em São Paulo?", answer: "Sim. Toda casa noturna no Estado de São Paulo está obrigada a obter AVCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP. O nível de risco dessas ocupações impede o enquadramento no CLCB — o AVCB com Projeto Técnico Completo é obrigatório." },
       { question: "O Corpo de Bombeiros pode interditar casa noturna durante o funcionamento?", answer: "Sim. O CBPMESP realiza operações surpresa em casas noturnas durante o funcionamento — inclusive na madrugada. Uma interdição com público presente gera prejuízo imediato, dano à reputação e responsabilidade civil do proprietário." },
       { question: "Casa noturna com múltiplos ambientes precisa de projeto específico para cada área?", answer: "Sim. O projeto técnico precisa contemplar todos os ambientes do complexo — pista, VIP, camarotes, bar, banheiros e depósitos. Cada ambiente tem exigências específicas de saídas, sinalização e compartimentação." },
       { question: "Qual a lotação máxima permitida para uma casa noturna?", answer: "A lotação máxima é definida pelo dimensionamento das saídas de emergência conforme IT-11 e consta expressamente no AVCB emitido pelo CBPMESP. Operar acima dessa lotação é infração grave sujeita a interdição imediata." },
@@ -1066,8 +1066,8 @@ export const servicesData: Record<string, ServiceData> = {
       "Regularizamos bares culturais, pubs e casas de show com foco em segurança normativa e continuidade da operação."
     ],
     faqs: [
-      { question: "Bar com show ao vivo tem exigências diferentes de um bar comum?", answer: "Sim. Bares com apresentações regulares são enquadrados no Grupo F — Locais de Reunião de Público pela IT-02 do CBPMESP, com exigências mais rigorosas de saídas de emergência, sistema de alarme, controle de lotação e brigada treinada." },
-      { question: "Bar que faz show apenas nos fins de semana também precisa de AVCB diferente?", answer: "Sim. O enquadramento é definido pelo uso máximo possível do espaço — não pela frequência dos eventos. Mesmo bares que realizam shows eventualmente são enquadrados como locais de reunião de público e precisam atender às exigências do Grupo F da IT-02." },
+      { question: "Bar com show ao vivo tem exigências diferentes de um bar comum?", answer: "Sim. Bares com apresentações regulares são enquadrados no Grupo F — Locais de Reunião de Público pelo Decreto Estadual nº 69.118/2024, com exigências mais rigorosas de saídas de emergência, sistema de alarme, controle de lotação e brigada treinada." },
+      { question: "Bar que faz show apenas nos fins de semana também precisa de AVCB diferente?", answer: "Sim. O enquadramento é definido pelo uso máximo possível do espaço — não pela frequência dos eventos. Mesmo bares que realizam shows eventualmente são enquadrados como locais de reunião de público e precisam atender às exigências do Grupo F do Decreto Estadual nº 69.118/2024." },
       { question: "Máquina de fumaça pode ser usada em bar com show?", answer: "Sim, mas precisa de aprovação específica no projeto de segurança contra incêndio. Máquinas de fumaça ativam detectores de incêndio convencionais — o projeto precisa prever detectores compatíveis ou zonas de exclusão específicas para evitar falsos alarmes." },
       { question: "O Corpo de Bombeiros pode interditar o bar durante um show?", answer: "Sim. O CBPMESP realiza operações surpresa em bares com show — inclusive durante apresentações com público presente. Uma interdição durante show gera prejuízo imediato e responsabilidade civil." },
       { question: "Quanto tempo leva para regularizar o AVCB de um bar com show?", answer: "Em média de 60 a 150 dias a partir do protocolo, dependendo do estágio de adequação e das obras necessárias. O diagnóstico técnico gratuito da DRD2 estima o prazo real." }
@@ -1088,7 +1088,7 @@ export const servicesData: Record<string, ServiceData> = {
       solution: "A DRD2 Engenharia é especializada em renovação e regularização de AVCB para condomínios em São Paulo. Atuamos com vistoria prévia e diagnóstico técnico completo."
     },
     content: [
-      "O AVCB para condomínio em São Paulo tem validade de 3 anos, conforme enquadramento na IT-02 do CBPMESP. Após esse prazo, o condomínio fica irregular.",
+      "O AVCB para condomínio em São Paulo tem validade de 3 anos, conforme o Anexo K da IT 01/2025. Após esse prazo, o condomínio fica irregular.",
       "Atuamos com vistoria prévia, diagnóstico técnico completo e aprovação junto ao CBPMESP — sem burocracia e com acompanhamento integral.",
       "Nosso foco é garantir que o síndico tenha segurança jurídica total, eliminando riscos civis e criminais por negligência na segurança contra incêndio."
     ],
@@ -1116,12 +1116,12 @@ export const servicesData: Record<string, ServiceData> = {
     },
     content: [
       "Salões de festas e espaços de eventos são locais de reunião de público (Grupo F-4) com características específicas de risco.",
-      "A IT-02 do CBPMESP e o Decreto Estadual nº 69.118/2024 tornam o AVCB obrigatório para funcionamento legal e locação do espaço.",
+      "O Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP tornam o AVCB obrigatório para funcionamento legal e locação do espaço.",
       "Focamos em controle de materiais de acabamento (IT-10), dimensionamento de saídas para lotação máxima e sistemas de supressão em coifas de buffet."
     ],
     faqs: [
-      { question: "Todo salão de festas precisa de AVCB em São Paulo?", answer: "Sim. Todo salão de festas e espaço de eventos no Estado de São Paulo está obrigado a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP." },
-      { question: "Salão de festas pequeno pode usar CLCB?", answer: "Sim. Salões de menor porte e lotação reduzida podem se enquadrar no CLCB — processo mais simples e econômico. A DRD2 faz o enquadramento correto gratuitamente antes de iniciar qualquer trabalho." },
+      { question: "Todo salão de festas precisa de AVCB em São Paulo?", answer: "Sim. Todo salão de festas e espaço de eventos no Estado de São Paulo está obrigado a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP." },
+      { question: "Salão de festas pequeno pode usar CLCB?", answer: "Não. A IT 42/2025 (item 4.2.3) não permite CLCB para salões de festas, clubes sociais e assemelhados (divisão F-6), qualquer que seja o tamanho. O caminho é o AVCB. A DRD2 faz o enquadramento gratuitamente antes de iniciar qualquer trabalho." },
       { question: "Salão de festas em condomínio precisa de AVCB próprio?", answer: "Sim, especialmente quando disponibilizado para locação externa. O AVCB do condomínio cobre as áreas comuns — o salão de festas com uso intenso e lotação elevada frequentemente exige certificado individual. A DRD2 analisa o caso completo no diagnóstico gratuito." },
       { question: "O Corpo de Bombeiros pode interditar um evento durante a festa?", answer: "Sim. O CBPMESP realiza fiscalização surpresa em eventos de grande porte — inclusive durante casamentos e formaturas. Uma interdição durante o evento gera prejuízo imediato e responsabilidade civil do proprietário do salão." },
       { question: "Quanto tempo leva para regularizar o AVCB de um salão de festas?", answer: "Em média de 45 a 120 dias a partir do protocolo, dependendo do estágio de adequação e da demanda do CBPMESP. O diagnóstico técnico gratuito da DRD2 estima o prazo real antes de iniciar o processo." }
@@ -1147,7 +1147,7 @@ export const servicesData: Record<string, ServiceData> = {
       "Focamos em adequação de cilindros (NBR 12188), laudos de autoclaves e dimensionamento de rotas de fuga para pacientes em atendimento."
     ],
     faqs: [
-      { question: "Toda clínica odontológica precisa de AVCB em São Paulo?", answer: "Sim. Toda clínica odontológica e consultório dentário no Estado de São Paulo está obrigado a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP." },
+      { question: "Toda clínica odontológica precisa de AVCB em São Paulo?", answer: "Sim. Toda clínica odontológica e consultório dentário no Estado de São Paulo está obrigado a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP." },
       { question: "Consultório odontológico pequeno pode usar CLCB?", answer: "Sim. Consultórios de menor porte sem rede de gases medicinais complexa podem se enquadrar no CLCB — processo mais simples e econômico. A DRD2 faz o enquadramento correto gratuitamente." },
       { question: "A Vigilância Sanitária (VISA) exige o AVCB?", answer: "Sim. Em 2026, a Vigilância Sanitária passou a cruzar dados com o Bombeiro e está bloqueando a renovação do CMVS de clínicas sem protocolo ativo de AVCB ou CLCB." },
       { question: "Quais os principais itens verificados em clínicas dentárias?", answer: "Os fiscais focam no armazenamento externo de cilindros de gases, sinalização de emergência, extintores específicos para eletrônicos e validade dos laudos de vasos de pressão (autoclaves)." },
@@ -1174,7 +1174,7 @@ export const servicesData: Record<string, ServiceData> = {
       "Focamos em laudos elétricos para salas de servidores, dimensionamento de rotas de fuga e treinamento de brigada corporativa."
     ],
     faqs: [
-      { question: "Todo escritório precisa de AVCB em São Paulo?", answer: "Sim. Todo escritório comercial no Estado de São Paulo está obrigado a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP." },
+      { question: "Todo escritório precisa de AVCB em São Paulo?", answer: "Sim. Todo escritório comercial no Estado de São Paulo está obrigado a obter AVCB ou CLCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP." },
       { question: "Escritório em edifício comercial precisa de AVCB próprio?", answer: "Sim. O AVCB do condomínio cobre apenas as áreas comuns. Cada empresa que ocupa uma sala ou laje precisa do seu próprio certificado individual." },
       { question: "Coworking precisa de AVCB?", answer: "Sim. Espaços de coworking são ocupações com público rotativo e exigem regularização completa, incluindo brigada de incêndio treinada." },
       { question: "Quais os principais erros que reprovam escritórios?", answer: "Os principais erros são sobrecarga em réguas elétricas de TI, obstrução de corredores por mobiliário extra e extintores com manutenção vencida." },
@@ -1201,7 +1201,7 @@ export const servicesData: Record<string, ServiceData> = {
       "Focamos em chuveiros automáticos (sprinklers), detecção centralizada, sinalização de grande porte e fluxos de abandono de pânico."
     ],
     faqs: [
-      { question: "Shopping Center precisa de AVCB em São Paulo?", answer: "Sim. Todo shopping center, galeria comercial e centro de compras no Estado de São Paulo está obrigado a obter AVCB conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP." },
+      { question: "Shopping Center precisa de AVCB em São Paulo?", answer: "Sim. Todo shopping center, galeria comercial e centro de compras no Estado de São Paulo está obrigado a obter AVCB conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP." },
       { question: "O AVCB do shopping cobre as lojas individuais?", answer: "Não. O AVCB do condomínio cobre as áreas comuns. Cada lojista precisa obter seu próprio AVCB ou CLCB individual junto ao Corpo de Bombeiros." },
       { question: "Quais os sistemas mais exigidos em shoppings?", answer: "Os pontos de maior atenção são Sprinklers, detecção automática, controle de fumaça, compartimentação corta-fogo entre lojas e brigada de incêndio treinada." },
       { question: "A DRD2 atende lojistas individuais dentro do shopping?", answer: "Sim. Atendemos tanto a administração do shopping para o AVCB geral quanto lojistas que precisam regularizar sua unidade específica para abertura ou renovação de alvará." },
@@ -1219,16 +1219,16 @@ export const servicesData: Record<string, ServiceData> = {
     metaDescription: "A DRD2 Engenharia é especialista em AVCB para postos de combustível em São Paulo. Projeto, adequação e aprovação no Corpo de Bombeiros com segurança normativa e agilidade. Diagnóstico técnico gratuito.",
     pas: {
       problem: "O risco de interdição e explosão em postos sem AVCB é crítico?",
-      agitation: "Postos de combustível são classificados como Grupo M — Especiais. Armazenamento subterrâneo e vapores inflamáveis exigem aterramento ATEX e laudos de estanqueidade rigorosos. A ausência do AVCB gera multas pesadas e o risco de fechamento imediato pela ANP ou Bombeiros.",
+      agitation: "Postos de combustível são classificados na divisão G-3 (local dotado de abastecimento de combustível) do Decreto Estadual nº 69.118/2024. Armazenamento subterrâneo e vapores inflamáveis exigem aterramento ATEX e laudos de estanqueidade rigorosos. A ausência do AVCB gera multas pesadas e o risco de fechamento imediato pela ANP ou Bombeiros.",
       solution: "A DRD2 Engenharia domina as normas ABNT NBR 17505 e 13786. Entregamos a regularização completa, incluindo SPDA específico, instalações elétricas blindadas e treinamento de brigada para frentistas."
     },
     content: [
-      "Postos de combustível exigem AVCB com Projeto Técnico Completo; não se enquadram no CLCB devido ao alto risco de explosão.",
+      "Postos de combustível só podem ter CLCB com até 750 m² e até 3 pavimentos, fora das exclusões da IT 42/2025; nos demais casos, exigem AVCB.",
       "A proteção elétrica à prova de explosão (ATEX) na área de pista e bombas é o ponto principal de reprovação nas vistorias.",
       "Tanques subterrâneos devem possuir laudo de estanqueidade atualizado para aprovação do licenciamento ambiental e do AVCB."
     ],
     faqs: [
-      { question: "Todo posto de combustível precisa de AVCB em São Paulo?", answer: "Sim. Todo posto de combustível no Estado de São Paulo está obrigado a obter AVCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP. Postos de combustível não se enquadram no CLCB — o AVCB com Projeto Técnico Completo é obrigatório para todos os estabelecimentos desse tipo." },
+      { question: "Todo posto de combustível precisa de AVCB em São Paulo?", answer: "Sim. Todo posto de combustível no Estado de São Paulo está obrigado a obter AVCB junto ao Corpo de Bombeiros, conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP. Postos de combustível só podem ter CLCB com até 750 m² e até 3 pavimentos, fora das exclusões da IT 42/2025 (a cobertura das bombas não entra no cálculo da área); nos demais casos, o AVCB é obrigatório." },
       { question: "Posto de combustível pode ser interditado sem AVCB?", answer: "Sim. O CBPMESP tem poder de interditar postos de combustível sem AVCB válido a qualquer momento — e a ANP pode cassar a autorização de funcionamento. Uma interdição em posto de alto movimento gera prejuízo financeiro imediato e dano à reputação irreversível." },
       { question: "Laudo de estanqueidade dos tanques é obrigatório para o AVCB?", answer: "Sim. O laudo de estanqueidade dos tanques subterrâneos é documento obrigatório no processo de AVCB de postos de combustível. O laudo precisa estar dentro do prazo de validade no dia da vistoria — laudos vencidos resultam em reprovação imediata." },
       { question: "Posto com GNV tem exigências adicionais além do AVCB comum?", answer: "Sim. Postos com GNV precisam de projeto específico para a área de gás comprimido, com válvulas de segurança, sistema de detecção de gás e distâncias de segurança específicas. A DRD2 projeta e regulariza postos com GNV considerando todas as exigências complementares." },

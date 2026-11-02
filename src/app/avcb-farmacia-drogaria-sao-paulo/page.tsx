@@ -37,7 +37,7 @@ export default function AVCBFarmaciaMasterPage() {
   const faqs = [
     {
       question: "Minha farmácia é pequena e de bairro. Precisa de AVCB?",
-      answer: "Todo comércio precisa de regularização. Para farmácias sem manipulação de risco com até 750 m² (ou até 1.500 m² com sistema de hidrantes), o processo geralmente é simplificado através do CLCB, que é mais rápido e barato, mas igualmente obrigatório."
+      answer: "Todo comércio precisa de regularização. Para farmácias sem manipulação de risco com até 750 m² (e até 3 pavimentos), o processo geralmente é simplificado através do CLCB, que é mais rápido e barato, mas igualmente obrigatório."
     },
     {
       question: "Estou com o CMVS travado por falta de AVCB. O protocolo serve?",
@@ -145,7 +145,7 @@ export default function AVCBFarmaciaMasterPage() {
           </h2>
           <div className="space-y-5 text-lg text-slate-600 leading-relaxed font-medium">
             <p>
-              Drogarias, farmácias comerciais e de manipulação são classificadas sob o Grupo C-2 — Comércio Varejista, conforme a Instrução Técnica IT-02/2019 do CBPMESP. O enquadramento determina o conjunto de medidas exigíveis — e o rigor na fiscalização aumenta substancialmente se o local possuir laboratório de manipulação com armazenamento de produtos inflamáveis.
+              Drogarias, farmácias comerciais e de manipulação são classificadas sob o Grupo C-2 — Comércio Varejista, conforme o Decreto Estadual nº 69.118/2024. O enquadramento determina o conjunto de medidas exigíveis — e o rigor na fiscalização aumenta substancialmente se o local possuir laboratório de manipulação com armazenamento de produtos inflamáveis.
             </p>
             <h3 className="text-xl font-black text-slate-900 uppercase tracking-tight italic mt-8 mb-3 underline decoration-red-600 decoration-4 underline-offset-4">
               Farmácia de Manipulação: regras específicas do CBPMESP
@@ -197,7 +197,7 @@ export default function AVCBFarmaciaMasterPage() {
           <div className="space-y-6">
             {[
               {
-                t: "IT-02/2019",
+                t: "Decreto 69.118/2024",
                 d: "Define o enquadramento C-2 e a carga de incêndio. Para farmácias de manipulação, a carga de produtos inflamáveis pode alterar o risco.",
               },
               {

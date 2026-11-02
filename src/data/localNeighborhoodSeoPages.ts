@@ -950,7 +950,7 @@ export const localNeighborhoods: LocalNeighborhoodSeoPage[] = [
           "Brigada de incêndio escolar/hospitalar falha",
           "Falta de iluminação tátil"
       ],
-      "urgency": "Em faculdades e hospitais do Boqueirão, o Plano de Abandono (IT-17) é o documento mais cobrado. Não basta ter o equipamento; a equipe deve estar treinada para evacuar prédios complexos em menos de 5 minutos.",
+      "urgency": "Em faculdades e hospitais do Boqueirão, o Plano de Emergência (IT-16) é o documento mais cobrado. Não basta ter o equipamento; a equipe deve estar treinada para evacuar prédios complexos em menos de 5 minutos.",
       "nearby": [
           "Gonzaga",
           "Embaré",

@@ -21,12 +21,12 @@ import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 import LicencaSanitariaCrossLink from "@/components/LicencaSanitariaCrossLink";
 
 const _pageTitle = "AVCB para Clínica Odontológica em São Paulo 2026";
-const _pageDesc = "Clínica odontológica sem AVCB em SP arrisca bloqueio do CMVS e interdição pela Vigilância Sanitária. Grupo I, gases medicinais, autoclaves e CLCB ou AVCB completo. DRD2 Engenharia regulariza.";
+const _pageDesc = "Clínica odontológica sem AVCB em SP arrisca bloqueio do CMVS e interdição pela Vigilância Sanitária. Grupo H, gases medicinais, autoclaves e CLCB ou AVCB completo. DRD2 Engenharia regulariza.";
 
 export const metadata = {
   title: "AVCB para Clínica Odontológica em São Paulo 2026",
   description:
-    "Clínica odontológica sem AVCB em SP arrisca bloqueio do CMVS e interdição pela Vigilância Sanitária. Grupo I, gases medicinais, autoclaves e CLCB ou AVCB completo. DRD2 Engenharia regulariza.",
+    "Clínica odontológica sem AVCB em SP arrisca bloqueio do CMVS e interdição pela Vigilância Sanitária. Grupo H, gases medicinais, autoclaves e CLCB ou AVCB completo. DRD2 Engenharia regulariza.",
   alternates: {
     canonical: "/avcb-consultorios-medicos-odontologicos-sao-paulo",
   },
@@ -74,7 +74,7 @@ export default function AVCBClinicaOdontologicaPage() {
         <div className="relative z-10 container mx-auto px-4 max-w-6xl w-full">
           <div className="lg:w-3/5">
             <span className="inline-block bg-red-600 text-white text-[10px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest mb-3 shadow-lg shadow-red-900/20">
-              Grupo I — Serviços de Saúde — Regularização 2026
+              Grupo H — Serviço de Saúde — Regularização 2026
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
               <span className="text-white">AVCB PARA</span>{" "}
@@ -87,7 +87,7 @@ export default function AVCBClinicaOdontologicaPage() {
               Em 2026, o cruzamento de dados entre Bombeiros e VISA está impedindo renovações de alvará sanitário em clínicas sem certificado ativo.
             </p>
             <p className="text-lg text-gray-300 mb-0 leading-relaxed font-medium max-w-2xl">
-              A DRD2 Engenharia é especializada em regularização de clínicas odontológicas em São Paulo, com domínio das exigências do CBPMESP para Grupo I e experiência específica em gases medicinais, autoclaves e CMVS.
+              A DRD2 Engenharia é especializada em regularização de clínicas odontológicas em São Paulo, com domínio das exigências do CBPMESP para Grupo H e experiência específica em gases medicinais, autoclaves e CMVS.
             </p>
             <div className="mt-4 block">
               <a
@@ -126,7 +126,7 @@ export default function AVCBClinicaOdontologicaPage() {
               </h2>
               <div className="space-y-5 text-lg text-slate-700 leading-relaxed font-medium">
                 <p>
-                  Sim — e com exigências específicas para o Grupo I — Serviços de Saúde. Clínicas odontológicas são enquadradas pela IT-02 do CBPMESP no mesmo grupo que hospitais e clínicas médicas, pelo perfil de risco elevado: gases medicinais pressurizados, autoclaves, equipamentos de alta tecnologia e pacientes em posição vulnerável durante atendimento.
+                  Sim — e com exigências específicas para o Grupo H — Serviço de Saúde. Clínicas odontológicas são enquadradas pelo Decreto Estadual nº 69.118/2024 no mesmo grupo que hospitais e clínicas médicas, pelo perfil de risco elevado: gases medicinais pressurizados, autoclaves, equipamentos de alta tecnologia e pacientes em posição vulnerável durante atendimento.
                 </p>
                 <p>
                   O Decreto Estadual nº 69.118/2024 reforça a obrigatoriedade e o cruzamento de dados com a Vigilância Sanitária tornou o AVCB condição direta para renovação do <strong>CMVS (Cadastro Municipal de Vigilância Sanitária)</strong>. Operar sem certificado vigente expõe o responsável a:
@@ -170,7 +170,7 @@ export default function AVCBClinicaOdontologicaPage() {
               </ul>
               <div className="mt-8 p-5 bg-white/5 rounded-2xl border border-white/10 text-xs italic text-gray-400">
                 <span className="text-red-500 font-black uppercase block mb-2 tracking-widest not-italic">Enquadramento normativo:</span>
-                Grupo I — Serviços de Saúde (IT-02). Atenção especial à IT-21 (armazenamento de gases medicinais) e IT-11 (rotas de fuga para pacientes em atendimento).
+                Grupo H — Serviço de saúde, divisão H-6 (clínica e consultório sem internação). Atenção especial à IT-11 (rotas de fuga para pacientes em atendimento).
               </div>
             </div>
           </div>
@@ -206,7 +206,7 @@ export default function AVCBClinicaOdontologicaPage() {
               {
                 num: "03",
                 titulo: "Saídas de Emergência Subdimensionadas",
-                desc: "Portas e corredores que não permitem a saída rápida de pacientes reclinados na cadeira ou com mobilidade reduzida. As rotas de fuga para Grupo I têm dimensionamento específico na IT-11.",
+                desc: "Portas e corredores que não permitem a saída rápida de pacientes reclinados na cadeira ou com mobilidade reduzida. As rotas de fuga para Grupo H têm dimensionamento específico na IT-11.",
                 tag: "Erro frequente na IT-11",
               },
             ].map((item, i) => (
@@ -277,7 +277,7 @@ export default function AVCBClinicaOdontologicaPage() {
       <section className="py-24 bg-white">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center mb-20">
-            <span className="text-red-600 font-black uppercase tracking-widest text-xs">Grupo I — Processo Especializado</span>
+            <span className="text-red-600 font-black uppercase tracking-widest text-xs">Grupo H — Processo Especializado</span>
             <h2 className="text-3xl md:text-5xl font-black text-slate-900 mb-6 tracking-tighter leading-none uppercase italic mt-4">
               Como a DRD2 Conduz o{" "}
               <span className="text-red-600 not-italic">AVCB para Clínica Odontológica em SP</span>

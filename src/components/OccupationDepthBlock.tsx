@@ -105,13 +105,13 @@ const profiles: Record<string, DepthProfile> = {
       { label: "projeto de incêndio", href: "/projetos-incendio" },
     ],
   },
-  // CLCB Default — baixo risco, até 750 m² sem hidrantes ou até 1.500 m² com hidrantes
+  // CLCB Default — até 750 m² e até 3 pavimentos (IT 42/2025, itens 4.2.1 e 4.2.2)
   clcbDefault: {
     title: "processo simplificado, documentação enxuta e prazo curto",
     risk: "extintores no prazo, sinalização visível, iluminação de emergência funcional e rotas de fuga desobstruídas — itens auto-declarados sem vistoria física obrigatória do CBPMESP.",
     documents: [
       "IPTU e CNPJ/CPF do responsável",
-      "planta ou croqui simples da edificação (até 1.500 m²)",
+      "planta ou croqui simples da edificação (até 750 m²)",
       "ART do engenheiro responsável pela vistoria CLCB",
       "fotos dos extintores, sinalização, iluminação de emergência e saídas de emergência",
     ],

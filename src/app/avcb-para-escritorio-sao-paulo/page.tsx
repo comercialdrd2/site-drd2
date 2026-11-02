@@ -167,7 +167,7 @@ export default function AVCBEscritorioMasterPage() {
           </h2>
           <div className="space-y-5 text-lg text-slate-600 leading-relaxed font-medium">
             <p>
-              Escritórios, consultórios e lajes corporativas são classificados sob o Grupo D — Serviços Profissionais, Pessoais e Técnicos, conforme a IT-02/2019 do CBPMESP. O enquadramento correto define o conjunto exato de medidas de proteção exigíveis — e erros de classificação são a principal causa de rejeição de protocolo no sistema digital do Corpo de Bombeiros.
+              Escritórios, consultórios e lajes corporativas são classificados sob o Grupo D — Serviços Profissionais, Pessoais e Técnicos, conforme o Decreto Estadual nº 69.118/2024. O enquadramento correto define o conjunto exato de medidas de proteção exigíveis — e erros de classificação são a principal causa de rejeição de protocolo no sistema digital do Corpo de Bombeiros.
             </p>
             <p>
               Escritórios em edifícios comerciais de múltiplos andares têm uma particularidade técnica importante: o AVCB do edifício e o AVCB da unidade são processos distintos. A responsabilidade do empresário inquilino recai sobre as adequações internas da sua unidade. A ausência de conformidade na unidade pode comprometer o AVCB do edifício inteiro — gerando conflito com o condomínio e risco para todos os ocupantes.
@@ -222,7 +222,7 @@ export default function AVCBEscritorioMasterPage() {
           <div className="space-y-6">
             {[
               {
-                t: "IT-02/2019",
+                t: "Decreto 69.118/2024",
                 d: "Define o enquadramento Grupo D, a carga de incêndio, a altura da edificação e a área total — parâmetros que determinam todo o conjunto de medidas de proteção obrigatórias para a unidade.",
               },
               {
@@ -231,7 +231,7 @@ export default function AVCBEscritorioMasterPage() {
               },
               {
                 t: "IT-17 — Brigada de Incêndio",
-                d: "obrigatória para escritórios com número de ocupantes acima do limite estabelecido pela IT-02. Empresas com 10 ou mais colaboradores tipicamente precisam de brigada formalmente constituída, com treinamento documentado e certificado com validade vigente.",
+                d: "obrigatória quando as tabelas do Decreto Estadual nº 69.118/2024 exigem para a área e a altura do imóvel; a composição da brigada segue a IT-17, com treinamento documentado e certificado com validade vigente.",
               },
               {
                 t: "IT-19 — Sistemas de Detecção e Alarme de Incêndio",

@@ -22,7 +22,7 @@ const data: UniversalPageData = {
   occupationType: "clínica e centro de diagnóstico",
   h2_principal: {
     heading: "Por que o sprinkler de clínica exige projeto específico",
-    body: "Estabelecimentos de saúde são classificados no Grupo I pelo Decreto 69.118/2024 — a classificação de maior exigência do CBPMESP. Além da IT 23, clínicas com mais de certo porte precisam seguir a ABNT NBR 12693 (Sistemas de proteção por extinção de incêndio em estabelecimentos assistenciais de saúde). As duas normas se complementam e às vezes divergem — o engenheiro precisa aplicar a mais restritiva em cada caso.",
+    body: "Estabelecimentos de saúde são classificados no Grupo H pelo Decreto 69.118/2024. Além da IT 23, clínicas com mais de certo porte precisam seguir a ABNT NBR 12693 (Sistemas de proteção por extinção de incêndio em estabelecimentos assistenciais de saúde). As duas normas se complementam e às vezes divergem — o engenheiro precisa aplicar a mais restritiva em cada caso.",
     body2: "A presença de gases medicinais (O2, N2O) é o fator crítico: o oxigênio acelera drasticamente a combustão de qualquer material. Salas com ponto de oxigênio têm carga de incêndio efetiva muito maior que salas sem gases. O sistema de sprinkler precisa ser dimensionado para essa realidade — e o armazenamento de cilindros de O2 precisa de proteção específica.",
   },
   h2_riscos: {
@@ -105,7 +105,7 @@ const data: UniversalPageData = {
   },
   h2_escolher: {
     heading: "Consultorios odontológicos e veterinários: as exigências são as mesmas?",
-    body1: "Consultórios odontológicos e clínicas veterinárias seguem a mesma classificação (Grupo I) com algumas diferenças de risco. Consultórios odontológicos com RX e equipamentos de alto calor têm carga de incêndio maior que consultórios simples. Clínicas veterinárias com sala cirúrgica têm as mesmas exigências de salas cirúrgicas humanas.",
+    body1: "Consultórios odontológicos e clínicas veterinárias seguem a mesma classificação (Grupo H) com algumas diferenças de risco. Consultórios odontológicos com RX e equipamentos de alto calor têm carga de incêndio maior que consultórios simples. Clínicas veterinárias com sala cirúrgica têm as mesmas exigências de salas cirúrgicas humanas.",
     body2: "A DRD2 tem experiência em laudos para todos os tipos de estabelecimento de saúde — de consultório simples a hospital de grande porte. O enquadramento correto na vistoria gratuita garante que o sistema exigido seja o adequado para cada caso.",
   },
   h2_cobertura: {

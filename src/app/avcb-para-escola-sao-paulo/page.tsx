@@ -136,13 +136,13 @@ export default function AVCBEscolaMasterPage() {
           </h2>
           <div className="space-y-5 text-lg text-slate-600 leading-relaxed font-medium">
             <p>
-              Escolas, faculdades, creches, cursos livres e centros de treinamento são classificados no <strong>Grupo E — Educacional</strong>, conforme a IT-02/2019 do CBPMESP. O enquadramento é mais exigente do que o comércio varejista justamente porque o público é majoritariamente vulnerável — crianças e jovens que precisam ser guiados em situações de emergência.
+              Escolas, faculdades, creches, cursos livres e centros de treinamento são classificados no <strong>Grupo E — Educacional</strong>, conforme o Decreto Estadual nº 69.118/2024. O enquadramento é mais exigente do que o comércio varejista justamente porque o público é majoritariamente vulnerável — crianças e jovens que precisam ser guiados em situações de emergência.
             </p>
             <p>
               A <strong>IT-11 do CBPMESP</strong> é a instrução técnica específica para edificações educacionais e define critérios exclusivos: largura mínima de corredores calculada por densidade de alunos, distância máxima percorrida até a saída de emergência reduzida em relação a outros grupos, e exigência de rota de fuga sinalizada com contraste visual adequado para crianças.
             </p>
             <p>
-              Escolas com área total abaixo do limite definido pela IT-02 podem obter o CLCB — processo simplificado com menos exigências e prazo mais curto. A DRD2 define na vistoria inicial qual dos dois processos se aplica, evitando que sua escola protocole como AVCB o que poderia ser aprovado como CLCB — pagando mais caro e esperando mais tempo sem necessidade.
+              Escolas com área total abaixo do limite definido pelo Decreto Estadual nº 69.118/2024 podem obter o CLCB — processo simplificado com menos exigências e prazo mais curto. A DRD2 define na vistoria inicial qual dos dois processos se aplica, evitando que sua escola protocole como AVCB o que poderia ser aprovado como CLCB — pagando mais caro e esperando mais tempo sem necessidade.
             </p>
           </div>
         </div>
@@ -155,7 +155,7 @@ export default function AVCBEscolaMasterPage() {
             <h2 className="text-3xl md:text-5xl font-black mb-6 tracking-tighter uppercase italic">
               Quais escolas precisam de <span className="text-red-600 not-italic">AVCB em São Paulo</span>
             </h2>
-            <p className="text-xl text-slate-400 max-w-3xl mx-auto">De acordo com a IT-02 do CBPMESP e o Decreto nº 69.118/2024, são obrigadas a obter AVCB ou CLCB:</p>
+            <p className="text-xl text-slate-400 max-w-3xl mx-auto">De acordo com o Decreto Estadual nº 69.118/2024, são obrigadas a obter AVCB ou CLCB:</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[

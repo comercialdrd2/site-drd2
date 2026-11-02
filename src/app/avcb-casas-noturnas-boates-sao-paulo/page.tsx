@@ -66,7 +66,7 @@ export default function AVCBBoateMasterPage() {
         <div className="relative z-10 container mx-auto px-4 max-w-6xl py-8">
           <div className="lg:w-3/5">
             <span className="inline-block bg-red-600 text-white text-[10px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest mb-3 shadow-lg shadow-red-900/20">
-              Grupo F-6 — Locais de Reunião Noturna — Regularização 2026
+              Grupo F-11 — Boate — Regularização 2026
             </span>
             <h1 className="text-3xl md:text-3xl lg:text-4xl font-black mb-2 leading-[0.9] tracking-tighter uppercase italic text-white flex flex-col">
               <span className="text-white">AVCB PARA</span>{" "}
@@ -78,7 +78,7 @@ export default function AVCBBoateMasterPage() {
               Sua boate, bar ou casa noturna opera com lotação máxima nos fins de semana? O Corpo de Bombeiros realiza <strong className="text-red-400">operações surpresa</strong> aos sábados e domingos — e uma <strong className="text-red-400">interdição</strong> com público presente fecha tudo na hora, sem negociação.
             </p>
             <p className="text-base md:text-lg text-gray-300 mb-5 leading-relaxed font-medium max-w-2xl">
-              Desde a tragédia da Boate Kiss em 2013, o CBPMESP aplica o Grupo F-6 com rigor absoluto. A DRD2 Engenharia atua <strong className="text-white">do projeto à instalação</strong>, com resposta a Comunique-se incluída sem custo adicional.
+              Desde a tragédia da Boate Kiss em 2013, o CBPMESP aplica o Grupo F-11 com rigor absoluto. A DRD2 Engenharia atua <strong className="text-white">do projeto à instalação</strong>, com resposta a Comunique-se incluída sem custo adicional.
             </p>
             <div className="flex flex-col sm:flex-row gap-5">
               <a
@@ -117,7 +117,7 @@ export default function AVCBBoateMasterPage() {
                   Boates, bares com pista e casas noturnas são os estabelecimentos com maior nível de exigência do CBPMESP. Lotação máxima, iluminação reduzida, som de alta potência que mascara alarmes e revestimentos acústicos inflamáveis formam uma combinação de risco que o Bombeiro trata com rigor absoluto.
                 </p>
                 <p>
-                  Após a tragédia da Boate Kiss em 2013, o CBPMESP aplica o padrão <strong className="text-slate-900">IT-02 Grupo F-6</strong> sem exceção. Saídas insuficientes ou materiais sem certificação não são apenas erros técnicos — são causas diretas de interdição imediata e responsabilidade civil do proprietário.
+                  Após a tragédia da Boate Kiss em 2013, o CBPMESP aplica o padrão <strong className="text-slate-900">Grupo F-11 (boate)</strong> sem exceção. Saídas insuficientes ou materiais sem certificação não são apenas erros técnicos — são causas diretas de interdição imediata e responsabilidade civil do proprietário.
                 </p>
                 <p className="text-slate-900 font-bold border-l-4 border-red-600 pl-6 italic">
                   A DRD2 Engenharia domina cada exigência normativa dessa ocupação — do projeto técnico à instalação física dos sistemas, com acompanhamento até a emissão do AVCB.
@@ -126,7 +126,7 @@ export default function AVCBBoateMasterPage() {
             </div>
             <div className="md:col-span-4 bg-red-50 p-8 rounded-[2.5rem] border border-red-100 shadow-xl">
               <h4 className="text-red-600 font-black text-xs uppercase tracking-widest mb-5 italic text-center">
-                Nível de Risco F-6:
+                Nível de Risco F-11:
               </h4>
               <ul className="space-y-6">
                 {[
@@ -151,10 +151,10 @@ export default function AVCBBoateMasterPage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-black mb-6 tracking-tighter uppercase italic">
               Estão Obrigados ao{" "}
-              <span className="text-red-600 not-italic">AVCB Grupo F-6:</span>
+              <span className="text-red-600 not-italic">AVCB Grupo F-11:</span>
             </h2>
             <p className="text-xl text-slate-400 max-w-2xl mx-auto">
-              Conforme a IT-02 do CBPMESP e o Decreto Estadual nº 69.118/2024.
+              Conforme o Decreto Estadual nº 69.118/2024.
             </p>
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
@@ -227,7 +227,7 @@ export default function AVCBBoateMasterPage() {
               <span className="text-red-600 not-italic">Obrigatórios em Boates e Bares</span>
             </h2>
             <p className="text-slate-500 font-bold uppercase tracking-widest text-xs italic">
-              Ocupação de Reunião de Público — Grupo F-6
+              Ocupação de Reunião de Público — Grupo F-11
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -323,7 +323,7 @@ export default function AVCBBoateMasterPage() {
               <div className="space-y-6">
                 {[
                   { t: "Diagnóstico Técnico Gratuito", d: "Auditoria preventiva de todos os materiais acústicos, saídas e sistemas existentes." },
-                  { t: "Projeto PPCI Grupo F-6", d: "Projeto técnico detalhado para grandes lotações, com ART assinada por engenheiro habilitado." },
+                  { t: "Projeto PPCI Grupo F-11", d: "Projeto técnico detalhado para grandes lotações, com ART assinada por engenheiro habilitado." },
                   { t: "Instalação dos Sistemas", d: "A DRD2 executa a instalação das saídas de pânico, hidrantes e acústica certificada." },
                   { t: "Protocolo e Resposta a Comunique-se", d: "Acompanhamos a análise no CBPMESP e respondemos exigências sem cobrar adicional." },
                 ].map((step, i) => (

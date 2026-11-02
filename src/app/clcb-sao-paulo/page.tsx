@@ -161,7 +161,7 @@ export default function CLCBSaoPaulo() {
             <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4 uppercase italic tracking-tight">
               Quem precisa de CLCB em São Paulo?
             </h2>
-            <p className="text-lg text-slate-600 font-medium">O CLCB é indicado para edificações de baixo risco de incêndio com até 750 m², ou até 1.500 m² quando há sistema de hidrantes instalado, entre outras exigências.</p>
+            <p className="text-lg text-slate-600 font-medium">O CLCB é indicado para edificações de baixo risco de incêndio com até 750 m² e até 3 pavimentos, entre outras exigências.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-16">
@@ -222,7 +222,7 @@ export default function CLCBSaoPaulo() {
               </thead>
               <tbody className="divide-y divide-slate-100">
                 {[
-                  { c: "Área", cl: "Até 750 m² sem hidrantes; até 1.500 m² com sistema de hidrantes", av: "Acima de 1.500 m² ou risco elevado" },
+                  { c: "Área", cl: "Até 750 m² e até 3 pavimentos", av: "Acima de 750 m², mais de 3 pavimentos ou ocupação excluída pela IT 42/2025" },
                   { c: "Projeto técnico", cl: "Não exigido", av: "Obrigatório" },
                   { c: "Processo", cl: "Simplificado", av: "Completo" },
                   { c: "Prazo médio", cl: "Mais ágil", av: "Maior" },

@@ -18,7 +18,7 @@ export const avcbAcademiaContent = {
   h2_precisaDeAvcb: {
     heading: "Academia Precisa de AVCB em São Paulo?",
     body: [
-      "Sim. Academias são enquadradas como Grupo F — Locais de Reunião de Público, subdivisão F-8, pela IT-02 do CBPMESP, com exigência de AVCB ou CLCB independentemente do porte, da modalidade oferecida ou se o imóvel é próprio ou alugado.",
+      "Sim. Academias são enquadradas como Grupo E — Educacional e Cultura Física, divisão E-3 (espaço para cultura física), pelo Decreto Estadual nº 69.118/2024, com exigência de AVCB ou CLCB independentemente do porte, da modalidade oferecida ou se o imóvel é próprio ou alugado.",
       "O Decreto Estadual nº 69.118/2024 reforça a obrigatoriedade e estabelece os prazos para regularização de edificações que ainda não possuem o certificado vigente. Operar sem AVCB expõe o proprietário a:",
     ],
     riscos_lista: [

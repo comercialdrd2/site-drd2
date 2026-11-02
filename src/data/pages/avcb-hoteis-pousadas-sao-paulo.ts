@@ -18,7 +18,7 @@ export const avcbHotelContent = {
   h2_quemPrecisa: {
     heading: "Quais Hotéis e Pousadas Precisam de AVCB em São Paulo?",
     body: [
-      "Conforme a IT-02 do CBPMESP e o Decreto Estadual nº 69.118/2024, estão obrigados a obter AVCB todos os estabelecimentos de hospedagem no Estado de São Paulo, independentemente do porte ou categoria.",
+      "Conforme o Decreto Estadual nº 69.118/2024, estão obrigados a obter AVCB todos os estabelecimentos de hospedagem no Estado de São Paulo, independentemente do porte ou categoria.",
     ],
     intro_lista: "Estão obrigados a regularizar:",
     tipos: [
@@ -180,7 +180,7 @@ export const avcbHotelContent = {
       {
         question: "Todo hotel ou pousada em São Paulo precisa de AVCB?",
         answer:
-          "Sim. Todo estabelecimento de hospedagem no Estado de São Paulo — hotel, pousada, flat ou similar, independentemente do porte, categoria ou número de leitos — está obrigado a obter AVCB ou CLCB conforme o Decreto Estadual nº 69.118/2024 e a IT-02 do CBPMESP.",
+          "Sim. Todo estabelecimento de hospedagem no Estado de São Paulo — hotel, pousada, flat ou similar, independentemente do porte, categoria ou número de leitos — está obrigado a obter AVCB ou CLCB conforme o Decreto Estadual nº 69.118/2024 e as Instruções Técnicas do CBPMESP.",
       },
       {
         question: "Qual é o prazo de validade do AVCB para hotel?",
@@ -195,7 +195,7 @@ export const avcbHotelContent = {
       {
         question: "Hotel ou pousada pequena com poucos quartos precisa de AVCB?",
         answer:
-          "Depende da área construída e do enquadramento na IT-02. Hotéis e pousadas menores podem se enquadrar no CLCB, que tem processo mais simples. A DRD2 define o enquadramento correto na visita técnica gratuita.",
+          "Depende da área construída, dos pavimentos e do número de leitos. Pela IT 42/2025, hotéis e pousadas com até 40 leitos, até 750 m² e até 3 pavimentos podem se enquadrar no CLCB, que tem processo mais simples. A DRD2 define o enquadramento correto na visita técnica gratuita.",
       },
       {
         question: "A DRD2 atende hotéis em obras ou reforma?",
