@@ -4,7 +4,7 @@ export const laudoBombeiroContent = {
     description: "Condomínio em SP com laudo de sprinkler ou hidrante vencido bloqueia o AVCB e expõe o síndico a responsabilidade civil. DRD2 gerencia todos os laudos obrigatórios. Consulta gratuita.",
     canonical: "/laudo-bombeiro-condominio-sao-paulo",
   },
-  badge: "LAUDOS DE MANUTENÇÃO — GRUPO H-2 — CONDOMÍNIOS — CBPMESP 2026",
+  badge: "LAUDOS DE MANUTENÇÃO — GRUPO A-2 — CONDOMÍNIOS — CBPMESP 2026",
   intro: [
     "O <strong>laudo do Corpo de Bombeiros para condomínio em São Paulo</strong> é, na prática, um conjunto de pelo menos cinco documentos distintos com frequências distintas, emitidos por empresas distintas — e o síndico precisa manter todos vigentes ao mesmo tempo. <strong>Sprinkler, hidrante, SPDA (para-raios), pressurização de escadas e extintores</strong>: cada sistema tem seu laudo, sua periodicidade e seu responsável técnico. Quando qualquer laudo vence, o condomínio vai para a renovação do AVCB com pendência — e o CBPMESP emite Comunique-se que paralisa o processo por semanas. Enquanto isso, o AVCB fica vencido, o alvará do condomínio fica bloqueado, e o síndico fica exposto: a responsabilidade civil pelo estado dos sistemas de segurança predial é pessoal e intransferível.",
     "A <strong>DRD2 Engenharia</strong> gerencia o calendário completo de laudos de manutenção obrigatórios do Corpo de Bombeiros para condomínios residenciais e comerciais em São Paulo e Grande SP. Mapeamos cada sistema, cada prazo e cada empresa responsável — entregando ao síndico um dossiê sempre atualizado e alertas antecipados para cada renovação. <a href='/contato' class='text-red-600 font-bold underline'>Consulte nosso engenheiro gratuitamente.</a>",

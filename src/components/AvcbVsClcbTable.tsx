@@ -19,7 +19,7 @@ const ROWS: Array<{ label: string; clcb: Cell; avcb: Cell }> = [
   },
   {
     label: "Grupos de ocupação",
-    clcb: { value: "Apenas baixo risco (C, D, F-8, H-2 pequeno)", tone: "warn" },
+    clcb: { value: "Apenas baixo risco (C, D, F-8, H-6 pequeno)", tone: "warn" },
     avcb: { value: "Todos os grupos", tone: "neutral" },
   },
   {

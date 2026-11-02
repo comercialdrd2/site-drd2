@@ -443,8 +443,9 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     slug: "avcb-para-casa-de-repouso-sao-paulo",
     title: "AVCB para Casa de Repouso em São Paulo: O Guia Técnico Completo",
     date: "2026-04-18",
+    updated: "2026-11-02",
     category: "Casas de Repouso & ILPIs",
-    excerpt: "Entenda a Ocupação H-3, a obrigatoriedade da brigada, o gerenciamento de risco e como garantir a proteção dos idosos e a regularidade total da sua instituição perante a Vigilância Sanitária.",
+    excerpt: "Entenda a Ocupação H-2, a obrigatoriedade da brigada, o gerenciamento de risco e como garantir a proteção dos idosos e a regularidade total da sua instituição perante a Vigilância Sanitária.",
     relatedServiceSlug: "avcb-para-casa-de-repouso-sao-paulo",
     image: "/images/hero-casa-repouso.webp",
     content: `
@@ -457,7 +458,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <h2>A Interligação: AVCB + VISA (Vigilância Sanitária)</h2>
       <p>No momento que o selo dos bombeiros vence, a Vigilância Sanitária e o Ministério Público podem agir. O credenciamento de repasse público costuma ser congelado e multas altíssimas são aplicadas em caso de irregularidade grave.</p>
 
-      <h2>Checklist de Proteção H-3:</h2>
+      <h2>Checklist de Proteção H-2:</h2>
       <ul>
         <li><strong>Rotas Assistidas:</strong> Corredores para trânsito de macas.</li>
         <li><strong>Detecção e Alarme:</strong> Sistema integrado (IT-19).</li>
@@ -684,6 +685,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     slug: "requisitos-avcb-clinica-medica-sao-paulo",
     title: "Requisitos para AVCB de Clínica Médica em São Paulo: O que Todo Gestor Precisa Saber",
     date: "2026-04-10",
+    updated: "2026-11-02",
     category: "Saúde e Clínicas",
     excerpt: "Estabelecimentos de saúde são o Grupo H — a ocupação com maior complexidade normativa do CBPMESP. Clínicas, consultórios, hospitais e centros de diagnóstico têm exigências técnicas que vão além do projeto padrão de incêndio.",
     relatedServiceSlug: "avcb-hospital-clinica-sao-paulo",
@@ -694,27 +696,24 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <h2>Por que estabelecimentos de saúde têm exigências diferentes?</h2>
       <p>A resposta é direta: pacientes em situação de vulnerabilidade não evacuam por conta própria.</p>
       <p>Um paciente internado, sedado, em pós-operatório ou conectado a equipamentos não consegue sair do edifício sem assistência. Isso muda completamente a lógica de um projeto de segurança contra incêndio. A evacuação não pode ser rápida — ela precisa ser gerenciada, planejada e documentada.</p>
-      <p>É por isso que o CBPMESP classifica estabelecimentos de saúde no Grupo H da IT-02/CBPMESP, com subgrupos que variam de H-1 (hospitais gerais e especializados com internação) até H-5 (consultórios e clínicas ambulatoriais sem internação). Cada subgrupo tem exigências técnicas específicas — e confundir a classificação na hora de protocolar o processo é um dos erros mais comuns, e mais caros.</p>
+      <p>É por isso que o CBPMESP classifica estabelecimentos de saúde no Grupo H do Decreto Estadual nº 69.118/2024: H-3 para hospitais e clínicas com internação, H-6 para clínicas e consultórios sem internação, entre outras divisões. Cada subgrupo tem exigências técnicas específicas — e confundir a classificação na hora de protocolar o processo é um dos erros mais comuns, e mais caros.</p>
       <p>Além disso, o Grupo H está sujeito a fiscalização cruzada: CBPMESP, Vigilância Sanitária Municipal e Estadual e, em alguns casos, a ANS para estabelecimentos credenciados por operadoras. A irregularidade no AVCB não afeta apenas a relação com os Bombeiros — ela pode comprometer toda a cadeia de licenciamento operacional.</p>
 
       <h2>Os subgrupos do Grupo H — entenda onde sua clínica se enquadra</h2>
       <p>A classificação correta é o ponto de partida de qualquer processo de AVCB para serviços de saúde. Protocolá-lo com enquadramento errado é motivo certo de Comunique-se e retrabalho.</p>
 
-      <h3>H-1 — Hospitais gerais e especializados</h3>
-      <p>Internação, UTI, centro cirúrgico, pronto-socorro com leitos. Exigência máxima de compartimentação (IT-17/CBPMESP), sistema de detecção e alarme conforme NBR 17240, sprinkler em áreas críticas (IT-23/CBPMESP), plano de emergência (IT-16/CBPMESP) e dimensionamento diferenciado de saídas (IT-11/CBPMESP) para evacuação assistida.</p>
+      <h3>H-3 — Hospitais e clínicas com internação</h3>
+      <p>Internação, UTI, centro cirúrgico, pronto-socorro com leitos. Exigência máxima de compartimentação (IT-09/CBPMESP), sistema de detecção e alarme conforme NBR 17240, sprinkler em áreas críticas (IT-23/CBPMESP), plano de emergência (IT-16/CBPMESP) e dimensionamento diferenciado de saídas (IT-11/CBPMESP) para evacuação assistida.</p>
 
-      <h3>H-2 — Unidades de longa permanência</h3>
-      <p>Casas de repouso, clínicas psiquiátricas, hospices. Semelhante ao H-1 em termos de plano de abandono, com especificidades nos sistemas de contenção e na comunicação de emergência.</p>
+      <h3>H-2 — Asilos, abrigos geriátricos e cuidados especiais</h3>
+      <p>Asilos, abrigos geriátricos, casas de repouso e tratamento de dependentes, sem celas. Semelhante ao H-3 em termos de plano de abandono, com especificidades nos sistemas de contenção e na comunicação de emergência.</p>
 
-      <h3>H-3 — Laboratórios e serviços de diagnóstico</h3>
-      <p>Com ou sem coleta e processamento de materiais biológicos. A presença de produtos químicos e materiais inflamáveis pode elevar a classe de risco e alterar os sistemas exigidos.</p>
+      <h3>H-6 — Clínicas e consultórios sem internação</h3>
+      <p>Clínicas médicas e odontológicas, consultórios, unidades de hemodiálise e ambulatórios, todos sem internação. Sujeito ao processo de AVCB ou CLCB conforme área, altura e risco. Laboratórios com produtos químicos ou inflamáveis podem ter exigências maiores.</p>
 
-      <h3>H-4 — Clínicas e prontos-socorros sem internação</h3>
-      <p>Urgência, emergência e atendimento ambulatorial de maior complexidade. Exige projeto de incêndio completo, mas com menor grau de exigência em compartimentação e plano de emergência que o H-1.</p>
-
-      <h3>H-5 — Consultórios e clínicas ambulatoriais simples</h3>
-      <p>Menor complexidade normativa, mas ainda sujeito ao processo de AVCB ou CLCB conforme área e risco.</p>
-      <p>O enquadramento correto depende de análise técnica presencial. Classificar como H-5 uma unidade que opera como H-4 é um erro que o CBPMESP identifica na análise documental e que pode paralisar o processo por meses.</p>
+      <h3>H-1 — Hospital e clínica veterinária</h3>
+      <p>Hospitais, clínicas e consultórios veterinários e assemelhados.</p>
+      <p>O enquadramento correto depende de análise técnica presencial. Classificar como H-6 (sem internação) uma unidade que tem internação (H-3) é um erro que o CBPMESP identifica na análise documental e que pode paralisar o processo por meses.</p>
 
       <h2>Quais sistemas são exigidos para o AVCB de clínica e hospital em SP</h2>
       <p>Esta é a seção onde os processos mal preparados quebram. Os sistemas exigidos variam com o subgrupo de ocupação, a área construída e o número de pavimentos — mas os principais para o Grupo H são:</p>
@@ -765,7 +764,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>Na DRD2 Engenharia, o processo começa com uma vistoria técnica presencial, conduzida por engenheiro com domínio do Grupo H. A partir daí:</p>
       <ul>
         <li><strong>Etapa 1 — Classificação e diagnóstico:</strong> enquadramento correto do subgrupo H, análise dos sistemas existentes e mapeamento completo das adequações necessárias antes de qualquer protocolo.</li>
-        <li><strong>Etapa 2 — Projeto técnico:</strong> elaboração das plantas, memoriais e cálculos conforme as ITs aplicáveis, com atenção específica ao sistema de detecção (NBR 17240), compartimentação (IT-17) e plano de emergência (IT-16) quando exigido.</li>
+        <li><strong>Etapa 2 — Projeto técnico:</strong> elaboração das plantas, memoriais e cálculos conforme as ITs aplicáveis, com atenção específica ao sistema de detecção (NBR 17240), compartimentação (IT-09) e plano de emergência (IT-16) quando exigido.</li>
         <li><strong>Etapa 3 — ART:</strong> emissão da Anotação de Responsabilidade Técnica junto ao CREA-SP, com toda a responsabilidade técnica do processo formalizada.</li>
         <li><strong>Etapa 4 — Adequações físicas:</strong> execução dos sistemas e ajustes na edificação, com documentação rastreável de cada intervenção.</li>
         <li><strong>Etapa 5 — Protocolo e acompanhamento:</strong> instrução completa do processo junto ao CBPMESP, com resposta técnica a Comunique-se quando necessário, até a emissão do AVCB.</li>
@@ -774,12 +773,12 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p><a href="/avcb-hospital-clinica-sao-paulo" style="color: #0891b2; font-weight: bold;">Veja o processo completo de AVCB para estabelecimentos de saúde em SP →</a></p>
     `,
     faqs: [
-      { question: "Clínica médica e hospital são obrigados a ter AVCB em São Paulo?", answer: "Sim. A obrigatoriedade está estabelecida no Decreto Estadual nº 69.118/2024 e regulamentada pelas ITs do CBPMESP. Todos os estabelecimentos de saúde enquadrados no Grupo H da IT-02/CBPMESP — de consultórios simples (H-5) a hospitais gerais com internação (H-1) — estão sujeitos ao processo de AVCB ou CLCB, conforme o subgrupo e o porte da edificação. A fiscalização pode ocorrer de forma integrada entre CBPMESP e Vigilância Sanitária." },
-      { question: "O que é o Grupo H do CBPMESP e como isso afeta o projeto?", answer: "O Grupo H é a classificação do CBPMESP para edificações destinadas a serviços de saúde, conforme a IT-02/CBPMESP. É dividido em subgrupos: H-1 (hospitais com internação), H-2 (unidades de longa permanência), H-3 (laboratórios e diagnóstico), H-4 (clínicas e prontos-socorros sem internação) e H-5 (consultórios ambulatoriais). O subgrupo determina quais sistemas são obrigatórios — compartimentação (IT-17), detecção automática (IT-19/NBR 17240), plano de emergência (IT-16) e dimensionamento de saídas para evacuação assistida (IT-11). Protocolar com enquadramento errado gera Comunique-se e atraso." },
-      { question: "Qual a diferença entre o AVCB de uma clínica e o de um hospital?", answer: "A principal diferença está na complexidade dos sistemas exigidos e na necessidade de plano de abandono formal. Hospitais com internação (H-1) exigem sistema de detecção automática conforme NBR 17240, compartimentação rigorosa (IT-09), dimensionamento de saídas para evacuação de pacientes não ambulatoriais e plano de emergência (IT-16/CBPMESP). Clínicas ambulatoriais sem internação (H-4 ou H-5) têm exigências progressivamente menores, mas ainda requerem projeto técnico completo com ART." },
+      { question: "Clínica médica e hospital são obrigados a ter AVCB em São Paulo?", answer: "Sim. A obrigatoriedade está estabelecida no Decreto Estadual nº 69.118/2024 e regulamentada pelas ITs do CBPMESP. Todos os estabelecimentos de saúde do Grupo H do Decreto Estadual nº 69.118/2024 — de consultórios e clínicas sem internação (H-6) a hospitais com internação (H-3) — estão sujeitos ao processo de AVCB ou CLCB, conforme o subgrupo e o porte da edificação. A fiscalização pode ocorrer de forma integrada entre CBPMESP e Vigilância Sanitária." },
+      { question: "O que é o Grupo H do CBPMESP e como isso afeta o projeto?", answer: "O Grupo H é a classificação do CBPMESP para edificações destinadas a serviços de saúde, conforme a Tabela 1 do Decreto Estadual nº 69.118/2024. As divisões são: H-1 (hospital e clínica veterinária), H-2 (asilos e abrigos geriátricos), H-3 (hospitais e clínicas com internação), H-4 (repartições públicas e quartéis), H-5 (locais com restrição de liberdade) e H-6 (clínicas e consultórios sem internação). A divisão determina quais sistemas são obrigatórios — compartimentação (IT-09), detecção automática (IT-19/NBR 17240), plano de emergência (IT-16) e dimensionamento de saídas para evacuação assistida (IT-11). Protocolar com enquadramento errado gera Comunique-se e atraso." },
+      { question: "Qual a diferença entre o AVCB de uma clínica e o de um hospital?", answer: "A principal diferença está na complexidade dos sistemas exigidos e na necessidade de plano de abandono formal. Hospitais com internação (H-3) exigem sistema de detecção automática conforme NBR 17240, compartimentação rigorosa (IT-09), dimensionamento de saídas para evacuação de pacientes não ambulatoriais e plano de emergência (IT-16/CBPMESP). Clínicas sem internação (H-6) têm exigências progressivamente menores, mas ainda requerem projeto técnico completo com ART." },
       { question: "O AVCB está relacionado ao licenciamento da Vigilância Sanitária?", answer: "São documentos distintos emitidos por órgãos diferentes. Porém, na prática, a Vigilância Sanitária de muitos municípios paulistas condiciona a renovação da licença de funcionamento à apresentação do AVCB válido. Operadoras de planos de saúde também exigem AVCB atualizado em auditorias de credenciamento. O AVCB vencido pode impactar a renovação de múltiplas licenças e resultar em descredenciamento temporário, com impacto direto no faturamento." },
       { question: "O que acontece se o estabelecimento de saúde for fiscalizado sem AVCB?", answer: "A fiscalização pode resultar em auto de infração, notificação com prazo para regularização, interdição parcial ou total e comunicação à Vigilância Sanitária. Em caso de sinistro envolvendo pacientes internados, a ausência de AVCB e de sistemas de segurança adequados agrava gravemente a responsabilidade civil e criminal dos responsáveis legais. A vulnerabilidade dos pacientes coloca o Grupo H entre as ocupações com maior exposição a consequências jurídicas em situações de irregularidade." },
-      { question: "Quanto tempo leva para tirar o AVCB de uma clínica ou hospital em SP?", answer: "O prazo depende do subgrupo H, da área da edificação, do estado atual dos sistemas instalados e da completude da instrução processual. Em clínicas ambulatoriais (H-4 ou H-5) com sistemas adequados, processos bem instruídos costumam ser aprovados entre 60 e 90 dias. Para hospitais (H-1) com maior complexidade documental e de sistemas, o prazo varia entre 90 e 180 dias. Processos mal instruídos, com Comunique-se mal respondidos, podem facilmente ultrapassar 12 meses." }
+      { question: "Quanto tempo leva para tirar o AVCB de uma clínica ou hospital em SP?", answer: "O prazo depende do subgrupo H, da área da edificação, do estado atual dos sistemas instalados e da completude da instrução processual. Em clínicas sem internação (H-6) com sistemas adequados, processos bem instruídos costumam ser aprovados entre 60 e 90 dias. Para hospitais (H-3) com maior complexidade documental e de sistemas, o prazo varia entre 90 e 180 dias. Processos mal instruídos, com Comunique-se mal respondidos, podem facilmente ultrapassar 12 meses." }
     ]
   },
 
@@ -2370,12 +2369,13 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     slug: "avcb-para-pousada-exigencias-e-como-regularizar",
     title: "AVCB para Pousada: Exigências e Como Regularizar em SP",
     date: "2026-05-08",
+    updated: "2026-11-02",
     category: "Hospedagem",
     excerpt: "Pousada precisa de AVCB independente do tamanho. Entenda as exigências específicas para hospedagem, os sistemas obrigatórios e como regularizar em SP.",
     relatedServiceSlug: "avcb-hoteis-pousadas-sao-paulo",
     image: "/images/blog/blog_hero_casa_repouso_avcb.webp",
     content: `
-      <p>Pousadas são classificadas como <strong>Grupo H (hospedagem)</strong> pelo Corpo de Bombeiros de São Paulo — e isso tem uma consequência direta: a obrigatoriedade de AVCB existe <em>independente da área</em> da pousada. Ao contrário de estabelecimentos comerciais que têm limite de área para exigência, pousadas precisam de certificação de incêndio mesmo sendo pequenas.</p>
+      <p>Pousadas são classificadas como <strong>Grupo B (hospedagem)</strong> pelo Corpo de Bombeiros de São Paulo — e isso tem uma consequência direta: a obrigatoriedade de AVCB existe <em>independente da área</em> da pousada. Ao contrário de estabelecimentos comerciais que têm limite de área para exigência, pousadas precisam de certificação de incêndio mesmo sendo pequenas.</p>
 
       <h2>Por que pousadas têm exigências especiais?</h2>
       <p>A lógica do CBPMESP para o Grupo H é simples: hóspedes dormem no local. Diferente de um restaurante ou loja, onde todos os ocupantes estão acordados e conscientes, uma pousada às 3h da manhã tem hóspedes em sono profundo, em ambiente desconhecido, que podem não saber onde ficam as saídas de emergência. Esse cenário exige sistemas de detecção precoce e alertas sonoros em todos os quartos.</p>
@@ -2399,6 +2399,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     slug: "it-22-cbpmesp-quando-hidrante-e-obrigatorio",
     title: "IT-22 Corpo de Bombeiros SP: Quando o Hidrante É Obrigatório",
     date: "2026-05-08",
+    updated: "2026-11-02",
     category: "Normas Técnicas",
     excerpt: "Entenda a IT-22 do Corpo de Bombeiros de SP: quando o hidrante é obrigatório, como o sistema é dimensionado e o que acontece no AVCB sem ele.",
     relatedServiceSlug: "hidrantes",
@@ -2415,7 +2416,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
       <p>A <strong>IT-22 do CBPMESP</strong> (Instrução Técnica nº 22 — Sistema de Hidrantes e Mangotinhos) é a norma que define quando o sistema de hidrantes é obrigatório em São Paulo, como deve ser dimensionado e quais são os requisitos mínimos de instalação. Entender a IT-22 é essencial para qualquer proprietário ou síndico que precisa regularizar o AVCB.</p>
 
       <h2>Quando o hidrante é obrigatório pela IT-22?</h2>
-      <p>O sistema de hidrantes é exigido pela IT-22 com base na combinação de área total, altura da edificação e grupo de ocupação. De forma geral: edificações residenciais acima de determinada área e pavimentos, edificações comerciais e de serviços de médio e grande porte, indústrias e depósitos acima de 750m², hotéis e hospitais de médio porte, e edificações com alta carga de incêndio independente da área.</p>
+      <p>O sistema de hidrantes é exigido pela IT-22 com base na combinação de área total, altura da edificação e grupo de ocupação. De forma geral: edificações residenciais acima de determinada área e pavimentos, edificações comerciais e de serviços de médio e grande porte, indústrias e depósitos acima de 750m², hotéis e hospitais de médio porte. Imóveis com até 750 m² e até 12 m de altura seguem a tabela própria do decreto, com menos exigências.</p>
 
       <div style="border:2px solid #16a34a;border-radius:12px;padding:20px;margin:28px 0;background:#f0fdf4">
         <p style="margin:0 0 8px"><strong>Não sabe se o seu imóvel precisa de hidrante?</strong> Um engenheiro da DRD2 faz o enquadramento na IT-22 e cuida do AVCB do início ao fim.</p>
@@ -2804,6 +2805,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
     slug: "clcb-ou-avcb-como-decidir-em-5-perguntas",
     title: "CLCB ou AVCB: 5 perguntas para decidir qual sua edificação precisa",
     date: "2026-05-12",
+    updated: "2026-11-02",
     category: "CLCB e AVCB",
     excerpt: "5 perguntas técnicas que definem se sua edificação se enquadra no CLCB simplificado ou exige AVCB completo em São Paulo. Critérios oficiais do CBPMESP em 2026.",
     relatedServiceSlug: "avcb-ou-clcb-qual-preciso",
@@ -2826,7 +2828,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
         <li><strong>Grupo I (industrial)</strong>: AVCB obrigatório por carga de incêndio</li>
         <li><strong>Grupo F-5 (locais para refeições)</strong> com alta lotação: avaliar caso a caso</li>
       </ul>
-      <p>Já estes grupos costumam aceitar CLCB se a área for compatível: C (comércio), D (serviços), F-8 (alimentação pequena), E (educação infantil pequena), H-2 (atendimento ambulatorial).</p>
+      <p>Já estes grupos costumam aceitar CLCB se a área for compatível: C (comércio), D (serviços), F-8 (alimentação pequena), E (educação infantil pequena), H-6 (clínicas e consultórios sem internação).</p>
 
       <h2>3. Qual a altura ou número de pavimentos?</h2>
       <p>Edificações com mais de 2 pavimentos tipicamente saem do CLCB simplificado. O motivo é técnico: rotas verticais de fuga exigem análise específica (largura de escada, dimensionamento, sinalização) que o CLCB não cobre.</p>

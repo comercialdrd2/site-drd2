@@ -23,7 +23,7 @@ const data: UniversalPageData = {
   occupationType: "hotel",
   h2_principal: {
     heading: "Por que hotéis têm exigências específicas para o sistema de hidrantes?",
-    body: "A IT 22/25 classifica hotéis como Grupo H-1 (hotelaria com quartos de dormir) — uma das categorias de maior exigência. O fundamento é simples: hóspedes dormindo não conhecem as rotas de fuga, não sabem onde ficam os extintores e dependem 100% do sistema de proteção instalado para sobreviver nos primeiros minutos de um incêndio. O sistema de hidrantes precisa ser acionável por qualquer brigadista no corredor sem depender de energia normal.",
+    body: "O Decreto Estadual nº 69.118/2024 classifica hotéis no Grupo B (divisão B-1, hotel e assemelhado) — uma das categorias de maior exigência. O fundamento é simples: hóspedes dormindo não conhecem as rotas de fuga, não sabem onde ficam os extintores e dependem 100% do sistema de proteção instalado para sobreviver nos primeiros minutos de um incêndio. O sistema de hidrantes precisa ser acionável por qualquer brigadista no corredor sem depender de energia normal.",
     body2:
       "Para hotéis acima de 4 andares, a pressão no andar mais alto é o parâmetro crítico do projeto. Diferente de edifícios comerciais onde o pico de ocupação é diurno, hotéis têm risco máximo à noite — quando a pressão da rede pública frequentemente cai. A bomba de incêndio com sistema de acionamento automático por pressostato é obrigatória para garantir pressão constante no topo do edifício independentemente da hora.",
   },
@@ -96,7 +96,7 @@ const data: UniversalPageData = {
   h2_detalhes: {
     heading: "O que a IT 22/25 exige para o sistema de hidrantes de hotel",
     body1:
-      "Hotéis são classificados como Grupo H-1 — uso misto residencial transitório com serviços. As exigências da IT 22/25 são mais rigorosas do que para edifícios comerciais no mesmo número de andares, especialmente quanto à pressão noturna e à cobertura dos corredores de UH.",
+      "Hotéis são classificados no Grupo B (divisão B-1, hotel e assemelhado). As exigências da IT 22/25 são mais rigorosas do que para edifícios comerciais no mesmo número de andares, especialmente quanto à pressão noturna e à cobertura dos corredores de UH.",
     alerta:
       "Reforma ou ampliação do hotel — incluindo abertura de novos andares, salão de eventos ou restaurante — exige atualização do projeto de hidrantes com nova ART.",
     itens: [
@@ -145,7 +145,7 @@ const data: UniversalPageData = {
     {
       question: "Hotel é obrigado a ter sistema de hidrantes em SP?",
       answer:
-        "Sim. Hotéis são classificados como Grupo H-1 pela IT 22/25 do CBPMESP — uso residencial transitório com serviços. O sistema de hidrantes é obrigatório para qualquer hotel com mais de um andar ou área acima do limite mínimo da norma, sendo pré-requisito para o AVCB hoteleiro.",
+        "Sim. Hotéis são classificados no Grupo B (divisão B-1) pelo Decreto Estadual nº 69.118/2024. O sistema de hidrantes é obrigatório para qualquer hotel com mais de um andar ou área acima do limite mínimo da norma, sendo pré-requisito para o AVCB hoteleiro.",
     },
     {
       question: "Com que frequência o sistema de hidrantes do hotel deve ser revisado?",

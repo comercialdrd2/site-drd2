@@ -165,7 +165,7 @@ export default function AVCBHospitalMasterPage() {
 
                 <h3 className="text-2xl font-black text-slate-900 mt-12 mb-4 uppercase italic tracking-tighter text-sm">Ocupação da Área da Saúde (Grupo H)</h3>
                 <p>
-                  As clínicas e estabelecimentos de saúde são enquadrados no <strong>Grupo H — Serviço de Saúde e Institucional</strong>, de acordo com a IT-02/CBPMESP. Dentro deste grupo, existem subdivisões específicas:
+                  As clínicas e estabelecimentos de saúde são enquadrados no <strong>Grupo H — Serviço de Saúde e Institucional</strong>, de acordo com a Tabela 1 do Decreto Estadual nº 69.118/2024. Dentro deste grupo, existem subdivisões específicas:
                 </p>
                 <ul className="space-y-4 ml-6">
                   <li className="flex gap-2 items-start">
@@ -174,7 +174,7 @@ export default function AVCBHospitalMasterPage() {
                   </li>
                   <li className="flex gap-2 items-start">
                     <span className="text-red-600 font-black">•</span>
-                    <span><strong>H-2:</strong> Locais onde pessoas recebem cuidados de saúde, podendo ou não estar acamadas (clínicas, prontos-socorros, ambulatórios).</span>
+                    <span><strong>H-2:</strong> Locais onde pessoas requerem cuidados especiais (asilos, orfanatos, abrigos geriátricos), sem celas.</span>
                   </li>
                   <li className="flex gap-2 items-start">
                     <span className="text-red-600 font-black">•</span>
@@ -182,11 +182,15 @@ export default function AVCBHospitalMasterPage() {
                   </li>
                   <li className="flex gap-2 items-start">
                     <span className="text-red-600 font-black">•</span>
-                    <span><strong>H-4:</strong> Repartições públicas, asilos, orfanatos.</span>
+                    <span><strong>H-4:</strong> Repartições públicas, edificações das forças armadas e policiais.</span>
                   </li>
                   <li className="flex gap-2 items-start">
                     <span className="text-red-600 font-black">•</span>
-                    <span><strong>H-5:</strong> Locais onde a liberdade é restrita (presídios, refeitórios e áreas de saúde em centros de detenção).</span>
+                    <span><strong>H-5:</strong> Locais onde a liberdade das pessoas sofre restrições (presídios e assemelhados), com celas.</span>
+                  </li>
+                  <li className="flex gap-2 items-start">
+                    <span className="text-red-600 font-black">•</span>
+                    <span><strong>H-6:</strong> Clínicas e consultórios médicos e odontológicos, sem internação.</span>
                   </li>
                 </ul>
                 <p className="mt-6">

@@ -31,7 +31,7 @@ type Occupation = {
 const OCCUPATIONS: Occupation[] = [
   { id: "comercio", label: "Comércio / Loja", group: "C-1, C-2", riskClass: "baixo", examples: "loja de roupas, papelaria, livraria, óticas" },
   { id: "escritorio", label: "Escritório / Sala comercial", group: "D-1, D-2", riskClass: "baixo", examples: "consultório, escritório de advocacia, contábil, coworking pequeno" },
-  { id: "clinica", label: "Clínica médica / Consultório", group: "H-2", riskClass: "baixo", examples: "clínica geral, odontológica, fisioterapia, salão de beleza" },
+  { id: "clinica", label: "Clínica médica / Consultório", group: "H-6", riskClass: "baixo", examples: "clínica geral, odontológica, fisioterapia, salão de beleza" },
   { id: "restaurante", label: "Restaurante / Bar / Padaria", group: "F-8", riskClass: "medio", examples: "restaurante, lanchonete, bar, padaria, cafeteria com cozinha" },
   { id: "academia", label: "Academia / Estúdio", group: "F-3", riskClass: "medio", examples: "academia, pilates, crossfit, estúdio de dança" },
   { id: "escola", label: "Escola / Creche", group: "E-1, E-2", riskClass: "medio", examples: "creche, escola infantil, curso livre, faculdade pequena" },
@@ -40,7 +40,7 @@ const OCCUPATIONS: Occupation[] = [
   { id: "comercio_baixo_risco", label: "Farmácia / Mercado pequeno", group: "C-1", riskClass: "baixo", examples: "farmácia, mini-mercado, hortifruti, pet shop" },
   { id: "industrial", label: "Galpão / Indústria", group: "I-1, I-2, I-3", riskClass: "alto", examples: "galpão logístico, indústria leve, oficina" },
   { id: "hotel", label: "Hotel / Hospedagem", group: "B-1, B-2", riskClass: "alto", examples: "hotel, pousada, hostel" },
-  { id: "hospital", label: "Hospital", group: "H-3", riskClass: "alto", examples: "hospital, casa de repouso, pronto-socorro" },
+  { id: "hospital", label: "Hospital", group: "H-3", riskClass: "alto", examples: "hospital, pronto-socorro, clínica com internação" },
 ];
 
 type Recommendation = {

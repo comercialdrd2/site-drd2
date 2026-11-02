@@ -34,7 +34,7 @@ const data: UniversalPageData = {
     itens: [
       {
         titulo: "Tipo de sistema errado — troca obrigatória na vistoria",
-        desc: "Câmara de congelados que recebe wet pipe terá a tubulação bloqueada por gelo. Sala de servidor que recebe wet pipe expõe equipamentos de R$ 2 milhões a descarga acidental. Identificar o tipo correto antes de instalar evita troca completa do sistema — custo de retrabalho maior do que o de instalação.",
+        desc: "Câmara de congelados que recebe wet pipe terá a tubulação bloqueada por gelo. Sala de servidor que recebe wet pipe expõe equipamentos caros a uma descarga acidental, com prejuízos materiais e perda de dados. Identificar o tipo correto antes de instalar evita troca completa do sistema — custo de retrabalho maior do que o de instalação.",
       },
       {
         titulo: "Classificação de risco subestimada",

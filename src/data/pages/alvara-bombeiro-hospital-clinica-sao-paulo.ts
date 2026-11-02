@@ -6,14 +6,14 @@ export const alvaraBombeiroContent = {
   },
   badge: "HOSPITAIS E CLÍNICAS — AVCB/CLCB 2026",
   intro: [
-    "<strong>Alvará do Corpo de Bombeiros para Hospitais e Clínicas</strong> em São Paulo é obrigatório — sua ausência expõe o estabelecimento a interdição e bloqueio do alvará municipal. O <strong>Grupo H-1</strong> pelo CBPMESP define as medidas de segurança exigíveis conforme área, uso e risco específico da ocupação.",
+    "<strong>Alvará do Corpo de Bombeiros para Hospitais e Clínicas</strong> em São Paulo é obrigatório — sua ausência expõe o estabelecimento a interdição e bloqueio do alvará municipal. O <strong>Grupo H (H-3 hospitais, H-6 clínicas)</strong> do decreto estadual define as medidas de segurança exigíveis conforme área, uso e risco específico da ocupação.",
     "A <strong>DRD2 Engenharia</strong> é especializada na regularização de Hospitais e Clínicas junto ao CBPMESP — do diagnóstico técnico gratuito até a retirada do AVCB ou CLCB, com 98% de aprovação na 1ª análise e resposta a Comunique-se sem custo adicional.",
   ],
   sections: [
     {
       title: "Enquadramento técnico e obrigatoriedade para Hospitais e Clínicas",
       content: [
-        "Hospitais e Clínicas em São Paulo são enquadrados no <strong>Grupo H-1</strong> pelo CBPMESP, com exigências determinadas pela área total, número de pavimentos, lotação e características das instalações. O <strong>Decreto Estadual nº 69.118/2024</strong> regulamenta os critérios para emissão e renovação do AVCB e CLCB.",
+        "Hospitais e Clínicas em São Paulo são enquadrados no <strong>Grupo H (H-3 hospitais, H-6 clínicas)</strong> do decreto estadual, com exigências determinadas pela área total, número de pavimentos, lotação e características das instalações. O <strong>Decreto Estadual nº 69.118/2024</strong> regulamenta os critérios para emissão e renovação do AVCB e CLCB.",
         "Operar sem alvará do Corpo de Bombeiros válido expõe o estabelecimento a autuação, embargo e interdição em qualquer fiscalização de rotina. O AVCB vencido também bloqueia automaticamente a renovação do alvará de funcionamento junto à Prefeitura de São Paulo.",
         "A DRD2 define gratuitamente na vistoria técnica se o enquadramento correto é AVCB ou CLCB — e o conjunto exato de medidas exigíveis para a situação específica do estabelecimento.",
       ],

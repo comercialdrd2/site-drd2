@@ -4,7 +4,7 @@ export const renovacaoAvcbContent = {
     description: "Consultórios e clínicas dependem da aprovação da Vigilância Sanitária (LTA/CMVS), que exige AVCB ativo. Oxigênio e equipamentos de risco devem constar... DRD2 Engenharia renova com agilidade.",
     canonical: "/renovacao-avcb-consultorio-medico-sao-paulo",
   },
-  badge: "GRUPO H-2 — ASILOS E CLÍNICAS — RENOVAÇÃO 2026",
+  badge: "GRUPO H-6 — CLÍNICAS E CONSULTÓRIOS — RENOVAÇÃO 2026",
   h1: "Renovação de AVCB para Consultórios Médicos em São Paulo",
   intro: [
     "<strong>Consultórios Médicos com AVCB vencido em São Paulo</strong> correm sérios riscos. Consultórios e clínicas dependem da aprovação da Vigilância Sanitária (LTA/CMVS), que exige AVCB ativo. Oxigênio e equipamentos de risco devem constar em projeto atualizado.<br/><br/>📲 <strong>Evite multas e interdições.</strong> Fale agora com um engenheiro: <a href='https://wa.me/5511942232969' class='text-green-600 font-bold underline'>Chamar no WhatsApp</a>",
