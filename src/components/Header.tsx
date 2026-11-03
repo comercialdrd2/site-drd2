@@ -1,38 +1,11 @@
 import MainNavLink from "@/components/MainNavLink";
-import {
-  Award,
-  Bell,
-  ChevronDown,
-  DollarSign,
-  Droplets,
-  FileCheck,
-  Flame,
-  PartyPopper,
-  Users,
-  Wind,
-  Wrench,
-  Zap,
-} from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import HeaderMobileMenu from "@/components/HeaderMobileMenu";
 import HeaderLogo from "@/components/HeaderLogo";
+import HeaderServicesDropdown from "@/components/HeaderServicesDropdown";
+import HeaderNavLinks from "@/components/HeaderNavLinks";
 
-// Serviços principais — mostrados no dropdown único do menu.
-// Lista enxuta dos serviços de maior tráfego/conversão.
-const services = [
-  { name: "AVCB em São Paulo", href: "/avcb-sao-paulo", icon: FileCheck },
-  { name: "CLCB em São Paulo", href: "/clcb-sao-paulo", icon: Award },
-  { name: "Renovação de AVCB", href: "/renovacao-avcb", icon: FileCheck },
-  { name: "Renovação de CLCB", href: "/renovacao-clcb-sao-paulo", icon: Award },
-  { name: "PTOTEP (Eventos)", href: "/ptotep", icon: PartyPopper },
-  { name: "Licença Sanitária", href: "https://licencasanitaria.drd2.com.br", icon: FileCheck },
-  { name: "Projeto de Incêndio", href: "/projetos-incendio", icon: Flame },
-  { name: "Sprinklers", href: "/sprinklers", icon: Droplets },
-  { name: "Alarme de Incêndio", href: "/alarme-incendio-sao-paulo", icon: Bell },
-  { name: "Rede de Hidrantes", href: "/hidrantes", icon: Wind },
-  { name: "SPDA (Para-raios)", href: "/spda", icon: Zap },
-  { name: "Manutenção de Sistemas", href: "/manutencao", icon: Wrench },
-  { name: "Treinamento de Brigada", href: "/treinamento-brigada", icon: Users },
-];
+// A lista de serviços do menu fica em HeaderServicesDropdown (AVCB no www, vigilância sanitária no subdomínio).
 
 const navLinkClass =
   "text-sm font-bold tracking-wide text-white hover:text-red-500 transition-colors uppercase";
@@ -55,46 +28,11 @@ export default function Header() {
               <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180 text-red-500" />
             </button>
             <div className="absolute left-1/2 -translate-x-1/2 top-full hidden group-hover:block w-[320px] bg-[#1A1F2E] border border-white/10 rounded-[2rem] shadow-2xl p-6">
-              <p className="text-[10px] font-black text-red-500 uppercase tracking-[0.2em] mb-4 border-b border-white/5 pb-2">
-                Serviços Técnicos
-              </p>
-              <div className="flex flex-col gap-2">
-                {services.map(({ href, name, icon: Icon }) => (
-                  <MainNavLink
-                    key={href}
-                    href={href}
-                    className="flex items-center gap-3 p-3 text-[12px] font-bold text-gray-300 hover:text-white hover:bg-red-600/20 rounded-xl transition-all border border-transparent hover:border-white/5"
-                  >
-                    <div className="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center">
-                      <Icon className="w-4 h-4 text-red-500" />
-                    </div>
-                    <span className="uppercase tracking-tight">{name}</span>
-                  </MainNavLink>
-                ))}
-              </div>
-              <div className="border-t border-white/10 mt-3 pt-3 flex flex-col gap-2">
-                <MainNavLink
-                  href="/quanto-custa-avcb-sao-paulo"
-                  className="flex items-center gap-3 p-3 text-[12px] font-black text-red-400 hover:text-white bg-red-600/10 hover:bg-red-600 rounded-xl transition-all border border-red-600/30 hover:border-red-600"
-                >
-                  <div className="w-8 h-8 rounded-lg bg-red-600/20 flex items-center justify-center">
-                    <DollarSign className="w-4 h-4 text-red-400" />
-                  </div>
-                  <span className="uppercase tracking-tight">Quanto Custa o AVCB</span>
-                </MainNavLink>
-                <MainNavLink
-                  href="/servicos"
-                  className="text-center text-[11px] font-black uppercase tracking-widest text-slate-400 hover:text-white py-2 transition-colors"
-                >
-                  Ver todos os serviços →
-                </MainNavLink>
-              </div>
+              <HeaderServicesDropdown />
             </div>
           </div>
 
-          <MainNavLink href="/blog" className={navLinkClass}>Blog</MainNavLink>
-          <MainNavLink href="/sobre" className={navLinkClass}>Sobre</MainNavLink>
-          <MainNavLink href="/contato" className={navLinkClass}>Contato</MainNavLink>
+          <HeaderNavLinks className={navLinkClass} />
         </nav>
 
         <HeaderMobileMenu />
