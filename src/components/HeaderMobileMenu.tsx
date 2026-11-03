@@ -1,30 +1,20 @@
 "use client";
 
-import MainNavLink from "@/components/MainNavLink";
+import MainNavLink, { useIsLicencaSection } from "@/components/MainNavLink";
+import { AVCB_SERVICES, LICENCA_SERVICES } from "@/components/HeaderServicesDropdown";
+import { LS_ORIGIN } from "@/lib/licencaSanitariaHost";
+import { LICENCA_NAV, MAIN_NAV } from "@/components/HeaderNavLinks";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
-// Menu mobile alinhado com o desktop — apenas Servicos como dropdown.
-// Renovacoes e Solucoes por Segmento ficam acessiveis via cluster interno e /mapa-paginas.
-const services = [
-  { name: "AVCB em São Paulo", href: "/avcb-sao-paulo" },
-  { name: "CLCB em São Paulo", href: "/clcb-sao-paulo" },
-  { name: "Renovação de AVCB", href: "/renovacao-avcb" },
-  { name: "Renovação de CLCB", href: "/renovacao-clcb-sao-paulo" },
-  { name: "PTOTEP (Eventos)", href: "/ptotep" },
-  { name: "Licença Sanitária", href: "https://licencasanitaria.drd2.com.br" },
-  { name: "Projeto de Incêndio", href: "/projetos-incendio" },
-  { name: "Sprinklers", href: "/sprinklers" },
-  { name: "Alarme de Incêndio", href: "/alarme-incendio-sao-paulo" },
-  { name: "Rede de Hidrantes", href: "/hidrantes" },
-  { name: "SPDA (Para-raios)", href: "/spda" },
-  { name: "Manutenção", href: "/manutencao" },
-  { name: "Treinamento de Brigada", href: "/treinamento-brigada" },
-];
+// Menu mobile alinhado com o desktop. A lista de serviços vem de HeaderServicesDropdown:
+// AVCB no www, vigilância sanitária no site de licença sanitária.
 
 export default function HeaderMobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
   const close = () => setIsOpen(false);
+  const isLicenca = useIsLicencaSection();
+  const services = isLicenca ? LICENCA_SERVICES : AVCB_SERVICES;
 
   return (
     <div className="lg:hidden">
@@ -50,7 +40,7 @@ export default function HeaderMobileMenu() {
 
             <div className="py-4 border-b border-white/5">
               <p className="text-[12px] font-black text-red-500 uppercase tracking-widest mb-4">
-                Serviços
+                {isLicenca ? "Vigilância Sanitária" : "Serviços"}
               </p>
               <div className="grid grid-cols-1 gap-2">
                 {services.map(({ href, name }) => (
@@ -65,42 +55,31 @@ export default function HeaderMobileMenu() {
                 ))}
                 <MainNavLink
                   onClick={close}
-                  href="/quanto-custa-avcb-sao-paulo"
+                  href={isLicenca ? `${LS_ORIGIN}/quanto-custa-licenca-sanitaria` : "/quanto-custa-avcb-sao-paulo"}
                   className="block py-2 mt-2 text-red-400 font-black hover:text-red-300 border-t border-white/10 pt-3"
                 >
-                  <span className="uppercase text-xs tracking-tight">💰 Quanto Custa o AVCB</span>
+                  <span className="uppercase text-xs tracking-tight">{isLicenca ? "💰 Quanto Custa a Licença" : "💰 Quanto Custa o AVCB"}</span>
                 </MainNavLink>
                 <MainNavLink
                   onClick={close}
-                  href="/servicos"
+                  href={isLicenca ? `${LS_ORIGIN}/por-atividade` : "/servicos"}
                   className="block py-2 text-slate-400 font-bold hover:text-white"
                 >
-                  <span className="uppercase text-[10px] tracking-widest">→ Ver todos os serviços</span>
+                  <span className="uppercase text-[10px] tracking-widest">{isLicenca ? "→ Licença por atividade" : "→ Ver todos os serviços"}</span>
                 </MainNavLink>
               </div>
             </div>
 
-            <MainNavLink
-              onClick={close}
-              href="/blog"
-              className="block py-4 border-b border-white/5 text-xl font-black text-white uppercase italic tracking-tighter hover:text-red-500 transition-colors"
-            >
-              Blog
-            </MainNavLink>
-            <MainNavLink
-              onClick={close}
-              href="/sobre"
-              className="block py-4 border-b border-white/5 text-xl font-black text-white uppercase italic tracking-tighter hover:text-red-500 transition-colors"
-            >
-              Sobre
-            </MainNavLink>
-            <MainNavLink
-              onClick={close}
-              href="/contato"
-              className="block py-4 border-b border-white/5 text-xl font-black text-white uppercase italic tracking-tighter hover:text-red-500 transition-colors"
-            >
-              Contato
-            </MainNavLink>
+            {(isLicenca ? LICENCA_NAV : MAIN_NAV).map(({ name, href }) => (
+              <MainNavLink
+                key={href}
+                onClick={close}
+                href={href}
+                className="block py-4 border-b border-white/5 text-xl font-black text-white uppercase italic tracking-tighter hover:text-red-500 transition-colors"
+              >
+                {name}
+              </MainNavLink>
+            ))}
           </div>
         </div>
       )}

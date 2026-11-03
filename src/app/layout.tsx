@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import WhatsAppFloatingButton from "@/components/WhatsAppFloatingButton";
 import WhatsAppAttributionEnhancer from "@/components/WhatsAppAttributionEnhancer";
 import TechnicalTrustBlock from "@/components/TechnicalTrustBlock";
+import MainSiteOnly from "@/components/MainSiteOnly";
 import { JsonLD, generateOrganizationSchema, generateWebSiteSchema } from "@/components/JsonLD";
 
 const inter = Inter({
@@ -86,8 +87,10 @@ export default function RootLayout({
         </Script>
         <Header />
         <main className="flex-grow">{children}</main>
-        <TechnicalTrustBlock />
-        <Footer />
+        <MainSiteOnly>
+          <TechnicalTrustBlock />
+          <Footer />
+        </MainSiteOnly>
         <WhatsAppAttributionEnhancer />
         <WhatsAppFloatingButton />
       </body>
