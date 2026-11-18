@@ -4,18 +4,18 @@ import type { UniversalPageData } from "@/components/UniversalSeoPage";
 const data: UniversalPageData = {
   slug: "/quanto-custa-renovacao-avcb-sao-paulo",
   meta: {
-    title: "Quanto Custa o AVCB em SP? Renovação a partir de R$ 2.500",
-    description: "Renovação de AVCB em SP a partir de R$ 2.500, conforme área e sistemas do imóvel. Veja o que muda o preço e o prazo. Vistoria técnica gratuita.",
+    title: "Quanto custa renovar o AVCB em SP? Preço a partir de R$ 2.500",
+    description: "Preço da renovação do AVCB em SP: a partir de R$ 2.500, conforme a área e os sistemas do imóvel. Veja o que muda o valor. Vistoria técnica gratuita.",
   },
   heroCta: "Pedir orçamento da renovação",
   heroNota: "Vistoria técnica gratuita · Correções do Bombeiro incluídas · 1ª parcela só depois do AVCB aprovado",
   pagamento: "avcb",
-  eyebrow: "Renovação de AVCB — Custo e Prazo em SP 2026",
+  eyebrow: "Preço da renovação do AVCB em SP",
   h1Line1: "Quanto Custa Renovar o AVCB",
   h1Line2: "em São Paulo? Preços e Prazos",
   heroBg: "/images/blog/fire_safety_equipment_premium.webp",
   introP1: "Referência de preço: a renovação de AVCB com a DRD2 começa em R$ 2.500, para imóveis de menor porte e com sistemas básicos. O valor sobe conforme a área e os sistemas existentes, e não inclui a taxa do Corpo de Bombeiros nem eventuais adequações. A renovação do AVCB em São Paulo custa bem menos que o processo inicial, porque os sistemas já estão instalados. O que define o valor é a área da edificação, quais sistemas existem e o estado de conservação dos equipamentos — por isso o orçamento sai depois da vistoria técnica, que é gratuita.",
-  introP2: "Mas o custo real da renovação não é só o preço do serviço: é o custo de não renovar. AVCB vencido bloqueia renovação de alvará, trava credenciamento, impede venda do imóvel e expõe o responsável a multa e responsabilidade civil. A DRD2 faz o diagnóstico gratuito e informa o custo exato antes de qualquer compromisso.",
+  introP2: "Também pesa o custo de não renovar: com o AVCB vencido, o imóvel fica sujeito a multa na fiscalização do Corpo de Bombeiros (Decreto Estadual nº 69.118/2024, art. 44). A DRD2 faz o diagnóstico gratuito e informa o custo exato antes de qualquer compromisso. O passo a passo, os prazos de validade e os documentos estão na página de renovação de AVCB, no link ao fim desta página.",
   breadcrumbs: [
     { label: "Home", href: "/" },
     { label: "Serviços", href: "/servicos" },
@@ -143,7 +143,7 @@ const data: UniversalPageData = {
     },
   ],
   linksInternos: [
-    { href: "/renovacao-avcb", label: "Renovação de AVCB em SP" },
+    { href: "/renovacao-avcb", label: "Renovação de AVCB em São Paulo: como funciona" },
     { href: "/quanto-custa-avcb-sao-paulo", label: "Quanto Custa o AVCB" },
     { href: "/avcb-vencido-o-que-fazer", label: "AVCB Vencido — O que Fazer" },
     { href: "/avcb-sao-paulo#urgencia", label: "AVCB Urgente em SP" },
