@@ -155,7 +155,7 @@ export default function ProjetosPage() {
           src="/images/page-projetos.webp"
           alt="Projeto de Incêndio PPCI em São Paulo — DRD2 Engenharia"
           fill
-          className="object-cover object-center opacity-30 grayscale-[30%]"
+          className="hidden md:block object-cover object-center opacity-30 grayscale-[30%]"
           priority
           sizes="100vw"
           quality={65}

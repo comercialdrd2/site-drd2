@@ -76,7 +76,7 @@ export default function QuantoCustaAvcbPage() {
           src="/images/blog/fire_safety_equipment_premium.webp"
           alt="Alvará do Corpo de Bombeiros em São Paulo"
           fill
-          className="object-cover object-center opacity-40 grayscale-[20%]"
+          className="hidden md:block object-cover object-center opacity-40 grayscale-[20%]"
           priority
           sizes="100vw"
         />

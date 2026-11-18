@@ -36,7 +36,7 @@ export default function HomePage() {
             src="/images/blog/fire_safety_equipment_premium.webp"
             alt="Renovação e Obtenção do AVCB - DRD2 Engenharia"
             fill
-            className="object-cover object-center opacity-40 mix-blend-luminosity scale-105 animate-[pulse_20s_ease-in-out_infinite_alternate]"
+            className="hidden md:block object-cover object-center opacity-40 mix-blend-luminosity scale-105 animate-[pulse_20s_ease-in-out_infinite_alternate]"
             priority
             sizes="100vw"
             quality={80}
