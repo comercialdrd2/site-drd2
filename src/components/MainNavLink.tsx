@@ -3,14 +3,15 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { ReactNode } from "react";
-import { isLsHostClient, LS_PREFIX } from "@/lib/licencaSanitariaHost";
+import { isLsHostClient, LS_ORIGIN, LS_PREFIX } from "@/lib/licencaSanitariaHost";
 
 // Link do menu principal do drd2.com.br.
-// Nas páginas da licença sanitária (subdomínio licencasanitaria.drd2.com.br) um link relativo
-// como "/blog" ou "/contato" abriria a página da própria seção. Lá, o menu principal precisa
-// levar ao site principal, então os links relativos ganham o endereço completo do www.
+// Nas páginas da licença sanitária (subdomínio licencasanitaria.drd2.com.br):
+// - Home, Blog e Contato ficam no próprio site de licença sanitária, que tem páginas próprias;
+// - os demais links (Sobre, serviços de AVCB etc.) levam ao site principal, www.drd2.com.br.
 // No www.drd2.com.br nada muda.
 const MAIN_ORIGIN = "https://www.drd2.com.br";
+const SECTION_PAGES = new Set(["/", "/blog", "/contato"]);
 
 export function useIsLicencaSection(): boolean {
   const pathname = usePathname() || "";
@@ -26,7 +27,10 @@ type Props = {
 
 export default function MainNavLink({ href, className, onClick, children }: Props) {
   const isLicenca = useIsLicencaSection();
-  const target = isLicenca && href.startsWith("/") ? MAIN_ORIGIN + href : href;
+  let target = href;
+  if (isLicenca && href.startsWith("/")) {
+    target = SECTION_PAGES.has(href) ? LS_ORIGIN + href : MAIN_ORIGIN + href;
+  }
   return (
     <Link prefetch={false} href={target} className={className} onClick={onClick}>
       {children}

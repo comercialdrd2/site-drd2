@@ -460,6 +460,54 @@
 ]
 },
 {
+"path": "/licenca-sanitaria/renovacao-licenca-sanitaria/farmacia-drogaria",
+"key": "licenca-sanitaria__renovacao-licenca-sanitaria__farmacia-drogaria",
+"segments": [
+"renovacao-licenca-sanitaria",
+"farmacia-drogaria"
+]
+},
+{
+"path": "/licenca-sanitaria/renovacao-licenca-sanitaria/laboratorio-clinico",
+"key": "licenca-sanitaria__renovacao-licenca-sanitaria__laboratorio-clinico",
+"segments": [
+"renovacao-licenca-sanitaria",
+"laboratorio-clinico"
+]
+},
+{
+"path": "/licenca-sanitaria/renovacao-licenca-sanitaria/clinica-de-imagem",
+"key": "licenca-sanitaria__renovacao-licenca-sanitaria__clinica-de-imagem",
+"segments": [
+"renovacao-licenca-sanitaria",
+"clinica-de-imagem"
+]
+},
+{
+"path": "/licenca-sanitaria/renovacao-licenca-sanitaria/distribuidora",
+"key": "licenca-sanitaria__renovacao-licenca-sanitaria__distribuidora",
+"segments": [
+"renovacao-licenca-sanitaria",
+"distribuidora"
+]
+},
+{
+"path": "/licenca-sanitaria/renovacao-licenca-sanitaria/hospital-dia-ambulatorio",
+"key": "licenca-sanitaria__renovacao-licenca-sanitaria__hospital-dia-ambulatorio",
+"segments": [
+"renovacao-licenca-sanitaria",
+"hospital-dia-ambulatorio"
+]
+},
+{
+"path": "/licenca-sanitaria/renovacao-licenca-sanitaria/clinica-de-vacinacao",
+"key": "licenca-sanitaria__renovacao-licenca-sanitaria__clinica-de-vacinacao",
+"segments": [
+"renovacao-licenca-sanitaria",
+"clinica-de-vacinacao"
+]
+},
+{
 "path": "/licenca-sanitaria/por-atividade",
 "key": "licenca-sanitaria__por-atividade",
 "segments": [
