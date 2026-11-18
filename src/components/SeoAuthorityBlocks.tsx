@@ -29,7 +29,7 @@ const occupationProfiles: Record<string, {
     links: [
       { label: "sistema de hidrantes", href: "/sistema-de-hidrantes-para-condominio-sao-paulo" },
       { label: "SPDA", href: "/spda" },
-      { label: "renovacao de AVCB", href: "/renovacao-avcb-condominio-sao-paulo" },
+      { label: "renovação de AVCB para condomínio", href: "/renovacao-avcb-condominio-sao-paulo" },
     ],
   },
   galpao: {

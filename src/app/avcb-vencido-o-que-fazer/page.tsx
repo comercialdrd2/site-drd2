@@ -157,6 +157,10 @@ const data: UniversalPageData = {
   ],
   "linksInternos": [
     {
+      "href": "/renovacao-avcb",
+      "label": "Renovação de AVCB em São Paulo"
+    },
+    {
       "href": "/avcb-sao-paulo#urgencia",
       "label": "AVCB Urgente em SP"
     },

@@ -24,11 +24,11 @@ import OccupationDepthBlock from "@/components/OccupationDepthBlock";
 import FusaoEtapa2Trecho from "@/components/FusaoEtapa2Trecho";
 import LicencaSanitariaCrossLink from "@/components/LicencaSanitariaCrossLink";
 const _pageTitle = "AVCB para Hospital e Clínica em SP";
-const _pageDesc = "AVCB para hospitais, clínicas e consultórios em São Paulo. Regularização conforme ITs do CBPMESP e VISA. Aprovação garantida. Diagnóstico técnico gratuito. DRD2 Engenharia.";
+const _pageDesc = "AVCB para hospitais, clínicas e consultórios em São Paulo. Regularização conforme as ITs do CBPMESP, com apoio na licença da VISA. Diagnóstico técnico gratuito. DRD2 Engenharia.";
 
 export const metadata = {
   title: "AVCB para Hospital e Clínica em SP",
-  description: "AVCB para hospitais, clínicas e consultórios em São Paulo. Regularização conforme ITs do CBPMESP e VISA. Aprovação garantida. Diagnóstico técnico gratuito. DRD2 Engenharia.",
+  description: "AVCB para hospitais, clínicas e consultórios em São Paulo. Regularização conforme as ITs do CBPMESP, com apoio na licença da VISA. Diagnóstico técnico gratuito. DRD2 Engenharia.",
   alternates: {
     canonical: "/avcb-hospital-clinica-sao-paulo",
   },
@@ -488,7 +488,7 @@ export default function AVCBHospitalMasterPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               { t: "Preço para Hospitais", u: "/quanto-custa-avcb-sao-paulo", i: <Scale className="w-4 h-4"/> },
-              { t: "Renovação de Saúde", u: "/renovacao-avcb", i: <ClipboardCheck className="w-4 h-4"/> },
+              { t: "Renovação de AVCB", u: "/renovacao-avcb", i: <ClipboardCheck className="w-4 h-4"/> },
               { t: "Quem é obrigado?", u: "/blog/quem-precisa-de-avcb", i: <FileCheck className="w-4 h-4"/> },
               { t: "AVCB Vencido: O que fazer?", u: "/avcb-vencido-o-que-fazer", i: <ShieldAlert className="w-4 h-4"/> },
               { t: "Guia Geral SP", u: "/avcb-sao-paulo", i: <MapPin className="w-4 h-4"/> }

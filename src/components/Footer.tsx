@@ -72,7 +72,8 @@ export default function Footer() {
                <Zap className="w-4 h-4 text-primary" /> Ocupações Especiais
             </h3>
             <ul className="space-y-3 text-[13px] font-bold text-slate-400 uppercase tracking-tight">
-              <li><MainNavLink href="/renovacao-avcb-condominio-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2 text-white">▶ Renovação de AVCB</MainNavLink></li>
+              <li><MainNavLink href="/renovacao-avcb" className="hover:text-primary transition-colors flex items-center gap-2 text-white">▶ Renovação de AVCB</MainNavLink></li>
+              <li><MainNavLink href="/renovacao-avcb-condominio-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Renovação AVCB Condomínio</MainNavLink></li>
               <li><MainNavLink href="/avcb-galpao-industrial-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Galpões Industriais</MainNavLink></li>
               <li><MainNavLink href="/avcb-restaurante-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Alta Gastronomia</MainNavLink></li>
               <li><MainNavLink href="/avcb-hospital-clinica-sao-paulo" className="hover:text-primary transition-colors flex items-center gap-2">▶ Hospitais & Clínicas</MainNavLink></li>
@@ -165,7 +166,7 @@ export default function Footer() {
           <p>© {new Date().getFullYear()} DRD2 ENGENHARIA LTDA. TODOS OS DIREITOS RESERVADOS.</p>
           <div className="mt-4 md:mt-0 flex flex-wrap justify-center md:justify-end gap-x-6 gap-y-2">
             <MainNavLink href="/clcb-sao-paulo" className="hover:text-white transition-colors">CLCB Rápido</MainNavLink>
-            <MainNavLink href="/renovacao-avcb-condominio-sao-paulo" className="hover:text-white transition-colors">Renovação</MainNavLink>
+            <MainNavLink href="/renovacao-avcb" className="hover:text-white transition-colors">Renovação de AVCB</MainNavLink>
             <MainNavLink href="/blog" className="hover:text-white transition-colors">Dossiês DRD2</MainNavLink>
             <MainNavLink href="/avcb-clcb-por-regiao" className="hover:text-white transition-colors">Regiões atendidas</MainNavLink>
             <MainNavLink href="/avcb-por-tipo-de-imovel" className="hover:text-white transition-colors">Tipos de imóvel</MainNavLink>
