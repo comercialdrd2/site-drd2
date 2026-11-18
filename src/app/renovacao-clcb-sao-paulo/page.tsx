@@ -60,7 +60,7 @@ export default function RenovacaoCLCBPage() {
           src="/images/page-clcb.webp"
           alt="Renovação de CLCB em São Paulo — DRD2 Engenharia"
           fill
-          className="object-cover object-center opacity-30 grayscale-[50%]"
+          className="hidden md:block object-cover object-center opacity-30 grayscale-[50%]"
           priority
           sizes="100vw"
           quality={60}

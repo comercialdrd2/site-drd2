@@ -61,7 +61,7 @@ export default function RenovacaoAVCBPage() {
           src="/images/blog/fire_safety_equipment_premium.webp"
           alt="Renovação de AVCB em São Paulo"
           fill
-          className="object-cover object-center opacity-30 grayscale-[50%]"
+          className="hidden md:block object-cover object-center opacity-30 grayscale-[50%]"
           priority
           sizes="100vw"
           quality={60}

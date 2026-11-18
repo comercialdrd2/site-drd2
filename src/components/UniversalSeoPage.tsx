@@ -110,7 +110,7 @@ export default function UniversalSeoPage({ data: d, beforeCta }: Props) {
             src={d.heroBg}
             alt={d.h1Line1}
             fill
-            className="object-cover object-center opacity-30 grayscale-[50%]"
+            className="hidden md:block object-cover object-center opacity-30 grayscale-[50%]"
             priority
             sizes="100vw"
             quality={60}
