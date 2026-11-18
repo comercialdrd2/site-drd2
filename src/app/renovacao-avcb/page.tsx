@@ -119,6 +119,31 @@ export default function RenovacaoAVCBPage() {
               </h2>
               <div className="space-y-5 text-lg text-slate-700 leading-relaxed font-medium">
                 <p>{c.h2_prazo.body}</p>
+                <div className="overflow-x-auto rounded-2xl border border-slate-200">
+                  <table className="w-full text-left text-base">
+                    <caption className="sr-only">Validade do AVCB por tipo de imóvel (IT 01/2025, Anexo K)</caption>
+                    <thead>
+                      <tr className="bg-slate-950 text-white">
+                        <th className="p-4 font-black uppercase text-sm">Validade</th>
+                        <th className="p-4 font-black uppercase text-sm">Tipo de imóvel</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-100">
+                      {[
+                        ["3 anos", "A maioria: residencial e condomínios, hotéis, comércio e shopping, escritórios, escolas e academias, igrejas, restaurantes, garagens e postos, saúde, indústrias, depósitos"],
+                        ["2 anos", "Estações e terminais, teatros e auditórios, salões de festas e clubes sociais, centros esportivos (exceto estádios) e comércio de explosivos"],
+                        ["1 ano", "Boates, estádios de futebol, indústria e depósito de explosivos, e imóvel desabitado sem atestado de brigada (item 6.6.1.3)"],
+                        ["Até 90 ou 30 dias", "Eventos temporários: PTOT até 90 dias e PTOTEP até 30 dias, prorrogáveis uma vez (itens 6.6.1.1 e 6.6.1.2)"],
+                      ].map(([prazo, tipos]) => (
+                        <tr key={prazo}>
+                          <td className="p-4 font-black text-slate-900 whitespace-nowrap align-top">{prazo}</td>
+                          <td className="p-4 text-slate-700 font-medium">{tipos}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+                <p className="text-base text-slate-600 font-medium">O AVCB pode valer 1 ano a mais quando, no protocolo da vistoria, são anexados o atestado de credenciamento em Organismo de Cooperação Mútua (OCM) do CBPMESP ou um certificado ISO 14.001 vigente (IT 01/2025, item 6.6.1.4). Fonte da tabela: IT 01/2025, Anexo K.</p>
                 <p className="text-base text-slate-500 font-medium">Nossos engenheiros atendem condomínios e empresas de ponta a ponta na capital paulista. Realizamos renovações frequentes na Zona Sul (Moema, Vila Olímpia, Saúde), Zona Oeste (Pinheiros, Perdizes), e Centro Expandido (Bela Vista, Paraíso, Paulista). Também atendemos com agilidade Guarulhos, Osasco e região do ABC.</p>
               </div>
             </div>

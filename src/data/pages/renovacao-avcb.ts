@@ -1,16 +1,16 @@
 export const renovacaoAvcbContent = {
   meta: {
-    title: "Renovação de AVCB em SP: vencido ou vencendo | DRD2",
+    title: "Renovação de AVCB em São Paulo: prazo e como renovar | DRD2",
     description: "AVCB vencido ou perto de vencer? Renovação a partir de R$ 2.500, com vistoria prévia, protocolo no Via Fácil e resposta a Comunique-se. Fale no WhatsApp.",
     canonical: "/renovacao-avcb",
   },
   intro: [
-    "O AVCB tem prazo de validade de 3 anos. Quando vence, o estabelecimento fica em situação irregular perante o Corpo de Bombeiros — sujeito a autuação, multa e interdição imediata em qualquer fiscalização. Renovar o AVCB dentro do prazo não é apenas uma obrigação legal: é a única forma de manter sua operação protegida e sua responsabilidade civil em dia.",
-    "A DRD2 Engenharia é especializada em renovação de AVCB em São Paulo, com processo completo desde o diagnóstico técnico até a retirada do novo certificado — sem surpresas no processo."
+    "A renovação do AVCB deve ser pedida antes de o certificado vencer. Na maioria dos imóveis ele vale 3 anos; alguns locais de reunião de público têm prazo menor, como salões de festas (2 anos) e casas noturnas (1 ano), pela IT 01/2025 (Anexo K). A data certa vem impressa no seu AVCB.",
+    "Com o AVCB vencido, o imóvel fica irregular e pode ser multado na fiscalização do Corpo de Bombeiros (Decreto Estadual nº 69.118/2024, art. 44). A DRD2 faz a vistoria prévia, aponta e corrige o que for preciso, protocola a renovação no Via Fácil e responde aos Comunique-se até a emissão do novo certificado."
   ],
   h2_prazo: {
     heading: "Qual é o Prazo de Validade do AVCB em São Paulo?",
-    body: "O prazo de validade do AVCB é de 3 anos, conforme estabelecido pelo CBPMESP no momento da emissão do certificado. O prazo exato consta no próprio certificado emitido pelo Corpo de Bombeiros. A DRD2 orienta sobre o prazo aplicável ao seu tipo de edificação já na visita técnica gratuita."
+    body: "Para a maioria dos imóveis, o AVCB vale 3 anos: condomínios, comércios, escritórios, escolas, indústrias, depósitos, hotéis e clínicas. A IT 01/2025 (Anexo K) define o prazo pela ocupação predominante do imóvel (item 6.6.2) e traz prazos menores para alguns locais de reunião de público, como mostra a tabela abaixo. O prazo exato vem impresso no próprio certificado, e a DRD2 confirma o prazo do seu imóvel na visita técnica gratuita."
   },
   h2_acontece: {
     heading: "O que Acontece com AVCB Vencido em São Paulo?",

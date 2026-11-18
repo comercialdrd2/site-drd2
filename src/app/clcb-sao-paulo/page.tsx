@@ -222,8 +222,13 @@ export default function CLCBSaoPaulo() {
               </thead>
               <tbody className="divide-y divide-slate-100">
                 {[
-                  { c: "Área", cl: "Até 750 m² e até 3 pavimentos", av: "Acima de 750 m², mais de 3 pavimentos ou ocupação excluída pela IT 42/2025" },
-                  { c: "Projeto técnico", cl: "Não exigido", av: "Obrigatório" },
+                  { c: "Área construída", cl: "Até 750 m²", av: "Acima de 750 m²" },
+                  { c: "Pavimentos", cl: "Até 3 (sem contar subsolos de estacionamento)", av: "4 ou mais" },
+                  { c: "Público (locais de reunião)", cl: "Até 250 pessoas", av: "Acima de 250 pessoas" },
+                  { c: "Ocupação", cl: "Comércio, escritórios, restaurantes, igrejas, academias, clínicas sem internação e outras", av: "Sempre AVCB: salão de festas, boate, creche e escola infantil, teatro e auditório, asilo, hospital com internação, hotel com mais de 40 leitos, revenda de GLP" },
+                  { c: "Sistemas", cl: "Sem sprinkler, detecção, controle de fumaça, espuma ou escada de segurança", av: "Com qualquer um desses sistemas, com projeto técnico" },
+                  { c: "Projeto técnico", cl: "Não exigido", av: "Exigido conforme o porte e os sistemas" },
+                  { c: "Validade", cl: "Pelo Anexo K da IT 01/2025 (3 anos na maioria dos casos)", av: "Pelo Anexo K da IT 01/2025 (3 anos na maioria; 2 anos para salão de festas; 1 ano para boate)" },
                   { c: "Processo", cl: "Simplificado", av: "Completo" },
                   { c: "Prazo médio", cl: "Mais ágil", av: "Maior" },
                   { c: "Custo", cl: "Menor", av: "Maior" },
@@ -237,7 +242,17 @@ export default function CLCBSaoPaulo() {
               </tbody>
             </table>
           </div>
-          <p className="text-center text-slate-700 font-medium mt-8">
+          <p className="text-center text-slate-500 text-xs mt-4">
+            Fonte: IT 42/2025 do CBPMESP (itens 4.1.4, 4.2 e 5.2.1.3) e IT 01/2025 (Anexo K).
+          </p>
+          <p className="text-center text-slate-700 font-medium mt-6">
+            Imóvel de até 100 m², térreo e com saída para a rua?{" "}
+            <Link prefetch={false} href="/loja-pequena-precisa-de-avcb" className="text-red-700 font-bold underline">
+              Veja se ele precisa de licença dos Bombeiros
+            </Link>
+            .
+          </p>
+          <p className="text-center text-slate-700 font-medium mt-4">
             Ainda em dúvida?{" "}
             <Link prefetch={false} href="/blog/diferenca-entre-avcb-e-clcb#como-decidir" className="text-red-700 font-bold underline">
               Veja as 5 perguntas que definem AVCB ou CLCB

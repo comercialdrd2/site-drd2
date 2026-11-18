@@ -1,16 +1,16 @@
 export const avcbSaoPauloContent = {
   meta: {
-    title: "Empresa de AVCB em São Paulo: projeto, obra e vistoria",
+    title: "AVCB em São Paulo: empresa para tirar e renovar | DRD2",
     description:
-      "Tiramos o AVCB do seu imóvel em São Paulo: enquadramento, projeto técnico com ART, adequações e vistoria do Corpo de Bombeiros. Peça orçamento.",
+      "Precisa tirar ou renovar o AVCB em São Paulo? Enquadramento, projeto técnico com ART, adequações e vistoria do Corpo de Bombeiros. Fale com um engenheiro.",
     canonical: "/avcb-sao-paulo",
   },
 
   h1: "AVCB em São Paulo — Regularização Completa para Qualquer Estabelecimento",
 
   intro: [
-    "<strong>AVCB em São Paulo</strong> com gestão técnica do projeto à instalação — a DRD2 executa tudo, do diagnóstico técnico à aprovação junto ao Corpo de Bombeiros.",
-    "Regularize o seu estabelecimento e elimine o risco iminente de <strong>embargo</strong>, <strong>interdição</strong> e <strong>lacre</strong> — com suporte técnico especializado do diagnóstico até a retirada do certificado."
+    "<strong>AVCB em São Paulo</strong> do começo ao fim: a DRD2 enquadra o imóvel, faz o projeto técnico com ART, executa ou coordena as adequações e acompanha a vistoria do Corpo de Bombeiros até o certificado sair.",
+    "Imóvel pequeno? Com até 750 m² e até 3 pavimentos, muitos usos podem tirar o <a href=\"/clcb-sao-paulo\" class=\"underline underline-offset-4 hover:text-white\">CLCB</a>, que é mais simples (IT 42/2025). Sem a licença válida, o imóvel fica sujeito a multa na fiscalização (Decreto Estadual nº 69.118/2024, art. 44)."
   ],
 
   cta_intro: "📲 Fale agora com um engenheiro pelo WhatsApp e receba o diagnóstico gratuito do seu estabelecimento.",

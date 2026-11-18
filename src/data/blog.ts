@@ -2899,6 +2899,7 @@ Não arrisque a segurança da sua empresa em Mogi das Cruzes. Fale com nossos en
         <li>Em locais de reunião de público (Grupo F), lotação de até 250 pessoas (itens 4.1.4 e 4.2.3)</li>
         <li>Sem exigência de chuveiros automáticos (sprinkler), detecção de incêndio, controle de fumaça, espuma ou escada de segurança — nesses casos é obrigatório o projeto técnico (item 5.2.1.3)</li>
       </ul>
+      <p>Imóvel muito pequeno pode nem precisar de licença: até 100 m², térreo, com saída direta para a rua e sem aberturas para os vizinhos, fora dos locais de reunião de público (IT 42/2025, item 6.3.3). <a href="/loja-pequena-precisa-de-avcb" class="text-primary font-bold underline">Veja quando a licença é dispensada</a>.</p>
       <p>Se algum critério falhar, é AVCB — não CLCB. Protocolar CLCB para edificação que exige AVCB resulta em recusa automática.</p>
 
       <h2>Etapa 2: Reunir documentação básica</h2>
