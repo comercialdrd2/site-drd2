@@ -9,6 +9,11 @@ import WhatsAppAttributionEnhancer from "@/components/WhatsAppAttributionEnhance
 import TechnicalTrustBlock from "@/components/TechnicalTrustBlock";
 import MainSiteOnly from "@/components/MainSiteOnly";
 import { JsonLD, generateOrganizationSchema, generateWebSiteSchema } from "@/components/JsonLD";
+import { LS_HOST } from "@/lib/licencaSanitariaHost";
+
+// Analytics e Clarity próprios do site de licença sanitária (separados do www.drd2.com.br).
+const GA_ID_LICENCA_SANITARIA = "G-47WY4HYV9B";
+const CLARITY_ID_LICENCA_SANITARIA = "zhriyc53cn";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -65,25 +70,31 @@ export default function RootLayout({
       <body className="antialiased min-h-screen flex flex-col font-sans" suppressHydrationWarning>
         <JsonLD schema={generateOrganizationSchema()} />
         <JsonLD schema={generateWebSiteSchema()} />
-        {process.env.NEXT_PUBLIC_GA_ID && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
-              strategy="afterInteractive"
-            />
-            <Script id="ga4-init" strategy="afterInteractive">
-              {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', { page_path: window.location.pathname });
-              `}
-            </Script>
-          </>
-        )}
-        {/* Microsoft Clarity (gravações e mapa de calor) — carrega depois da página pronta */}
+        {/* Google Analytics 4 — cada site tem a sua propriedade:
+            www.drd2.com.br usa NEXT_PUBLIC_GA_ID; licencasanitaria.drd2.com.br usa a propriedade
+            "SEO | Licenca Sanitaria" (G-47WY4HYV9B). A escolha é feita pelo endereço da página. */}
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            (function(){
+              var ls = location.hostname === '${LS_HOST}';
+              var id = ls ? '${GA_ID_LICENCA_SANITARIA}' : '${process.env.NEXT_PUBLIC_GA_ID || ""}';
+              if (!id) return;
+              var s = document.createElement('script');
+              s.async = true;
+              s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
+              document.head.appendChild(s);
+              window.dataLayer = window.dataLayer || [];
+              window.gtag = function(){ dataLayer.push(arguments); };
+              gtag('js', new Date());
+              gtag('config', id, { page_path: window.location.pathname });
+            })();
+          `}
+        </Script>
+        {/* Microsoft Clarity (gravações e mapa de calor) — carrega depois da página pronta.
+            Projeto "DRD2 Site Orgânico" (ywkslizf7h) no www; "DRD2 Site Orgânico Licença Sanitária"
+            (zhriyc53cn) no licencasanitaria.drd2.com.br. */}
         <Script id="ms-clarity" strategy="lazyOnload">
-          {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","ywkslizf7h");`}
+          {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script",location.hostname==="${LS_HOST}"?"${CLARITY_ID_LICENCA_SANITARIA}":"ywkslizf7h");`}
         </Script>
         <Header />
         <main className="flex-grow">{children}</main>
